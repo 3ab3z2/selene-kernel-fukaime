@@ -43,11 +43,11 @@
 #ifdef __linux__
 #include "aic79xx_osm.h"
 #include "aic79xx_inline.h"
-#include "aicasm/aicasm_insformat.h"
+#include "aicasm-generic/aicasm_insformat.h"
 #else
 #include <dev/aic7xxx/aic79xx_osm.h>
 #include <dev/aic7xxx/aic79xx_inline.h>
-#include <dev/aic7xxx/aicasm/aicasm_insformat.h>
+#include <dev/aic7xxx/aicasm-generic/aicasm_insformat.h>
 #endif
 
 

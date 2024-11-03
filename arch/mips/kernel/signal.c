@@ -27,18 +27,18 @@
 #include <linux/uaccess.h>
 #include <linux/tracehook.h>
 
-#include <asm/abi.h>
-#include <asm/asm.h>
+#include <asm-generic/abi.h>
+#include <asm-generic/asm.h>
 #include <linux/bitops.h>
-#include <asm/cacheflush.h>
-#include <asm/fpu.h>
-#include <asm/sim.h>
-#include <asm/ucontext.h>
-#include <asm/cpu-features.h>
-#include <asm/war.h>
-#include <asm/dsp.h>
-#include <asm/inst.h>
-#include <asm/msa.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/sim.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/war.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/msa.h>
 
 #include "signal-common.h"
 

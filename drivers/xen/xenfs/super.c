@@ -21,7 +21,7 @@
 #include "xenfs.h"
 #include "../privcmd.h"
 
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 MODULE_DESCRIPTION("Xen filesystem");
 MODULE_LICENSE("GPL");

@@ -24,7 +24,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/frame.h>
+#include <asm-generic/frame.h>
 
 .file "cast5-avx-x86_64-asm_64.S"
 

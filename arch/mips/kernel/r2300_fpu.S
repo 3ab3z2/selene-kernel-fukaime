@@ -11,14 +11,14 @@
  * Further modifications to make this work:
  * Copyright (c) 1998 Harald Koerfgen
  */
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/errno.h>
-#include <asm/export.h>
-#include <asm/fpregdef.h>
-#include <asm/mipsregs.h>
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/export.h>
+#include <asm-generic/fpregdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
 
 #define EX(a,b)							\
 9:	a,##b;							\

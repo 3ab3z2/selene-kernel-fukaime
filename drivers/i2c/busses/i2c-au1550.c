@@ -31,8 +31,8 @@
 #include <linux/i2c.h>
 #include <linux/slab.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_psc.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_psc.h>
 
 #define PSC_SEL		0x00
 #define PSC_CTRL	0x04

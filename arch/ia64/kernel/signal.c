@@ -22,10 +22,10 @@
 #include <linux/unistd.h>
 #include <linux/wait.h>
 
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 #include <linux/uaccess.h>
-#include <asm/rse.h>
-#include <asm/sigcontext.h>
+#include <asm-generic/rse.h>
+#include <asm-generic/sigcontext.h>
 
 #include "sigframe.h"
 

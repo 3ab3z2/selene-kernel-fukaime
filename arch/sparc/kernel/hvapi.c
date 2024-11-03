@@ -7,8 +7,8 @@
 #include <linux/export.h>
 #include <linux/init.h>
 
-#include <asm/hypervisor.h>
-#include <asm/oplib.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/oplib.h>
 
 /* If the hypervisor indicates that the API setting
  * calls are unsupported, by returning HV_EBADTRAP or

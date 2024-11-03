@@ -20,7 +20,7 @@
 #include <linux/kernel.h>
 #include <linux/smp.h>
 #include <linux/nmi.h>
-#include <asm/tsc.h>
+#include <asm-generic/tsc.h>
 
 struct tsc_adjust {
 	s64		bootval;

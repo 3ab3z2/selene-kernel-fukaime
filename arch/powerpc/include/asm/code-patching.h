@@ -10,8 +10,8 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/types.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/types.h>
+#include <asm-generic/ppc-opcode.h>
 #include <linux/string.h>
 #include <linux/kallsyms.h>
 
@@ -151,7 +151,7 @@ static inline unsigned long ppc_kallsyms_lookup_name(const char *name)
  * and function live patching.
  */
 
-/* This must match the definition of STK_GOT in <asm/ppc_asm.h> */
+/* This must match the definition of STK_GOT in <asm-generic/ppc_asm.h> */
 #ifdef PPC64_ELF_ABI_v2
 #define R2_STACK_OFFSET         24
 #else

@@ -23,7 +23,7 @@
 
 #include <linux/export.h>
 #include <linux/notifier.h>
-#include <asm/spu.h>
+#include <asm-generic/spu.h>
 #include "spufs/spufs.h"
 
 static BLOCKING_NOTIFIER_HEAD(spu_switch_notifier);

@@ -13,8 +13,8 @@
  * This file is licenced under the GPL.
  */
 
-#include <asm/mach-types.h>
-#include <asm/hardware/sa1111.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/hardware/sa1111.h>
 
 #ifndef CONFIG_SA1111
 #error "This file is SA-1111 bus glue.  CONFIG_SA1111 must be defined."

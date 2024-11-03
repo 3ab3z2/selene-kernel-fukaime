@@ -22,9 +22,9 @@
 #include <linux/of_platform.h>
 #include <linux/types.h>
 
-#include <asm/cacheflush.h>
-#include <asm/prom.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc52xx.h>
 
 #include <linux/fsl/bestcomm/bestcomm.h>
 #include <linux/fsl/bestcomm/bestcomm_priv.h>

@@ -51,7 +51,7 @@
 #define __KSELFTEST_HARNESS_H
 
 #define _GNU_SOURCE
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <errno.h>
 #include <stdbool.h>
 #include <stdint.h>

@@ -36,7 +36,7 @@
 typedef unsigned int elf_greg_t;
 
 #include <linux/spinlock.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/module.h>
 #include <linux/elfcore.h>
 #include <linux/compat.h>		/* struct compat_timeval */

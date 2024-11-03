@@ -11,8 +11,8 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/string.h>
-#include <asm/cpuinfo.h>
-#include <asm/pvr.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/pvr.h>
 
 static const char family_string[] = CONFIG_XILINX_MICROBLAZE0_FAMILY;
 static const char cpu_ver_string[] = CONFIG_XILINX_MICROBLAZE0_HW_VER;

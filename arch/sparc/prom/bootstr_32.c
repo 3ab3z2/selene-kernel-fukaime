@@ -6,7 +6,7 @@
  */
 
 #include <linux/string.h>
-#include <asm/oplib.h>
+#include <asm-generic/oplib.h>
 #include <linux/init.h>
 
 #define BARG_LEN  256

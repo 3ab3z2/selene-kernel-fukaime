@@ -19,10 +19,10 @@
 #include <linux/percpu.h>
 #include <linux/smp.h>
 #include <linux/slab.h>
-#include <asm/cpu_device_id.h>
-#include <asm/byteorder.h>
-#include <asm/processor.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/fpu/api.h>
 
 /*
  * Number of data blocks actually fetched for each xcrypt insn.

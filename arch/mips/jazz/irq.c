@@ -15,12 +15,12 @@
 #include <linux/spinlock.h>
 #include <linux/irq.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/i8259.h>
-#include <asm/io.h>
-#include <asm/jazz.h>
-#include <asm/pgtable.h>
-#include <asm/tlbmisc.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/io.h>
+#include <asm-generic/jazz.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbmisc.h>
 
 static DEFINE_RAW_SPINLOCK(r4030_lock);
 

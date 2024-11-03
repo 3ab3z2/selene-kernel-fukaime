@@ -26,11 +26,11 @@
 #include <linux/tracehook.h>
 #include <linux/uaccess.h>
 
-#include <asm/coprocessor.h>
-#include <asm/elf.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/ptrace.h>
+#include <asm-generic/coprocessor.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ptrace.h>
 
 
 void user_enable_single_step(struct task_struct *child)

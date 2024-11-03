@@ -12,7 +12,7 @@
 #ifndef _ASM_MB86943A_H
 #define _ASM_MB86943A_H
 
-#include <asm/mb-regs.h>
+#include <asm-generic/mb-regs.h>
 
 #define __reg_MB86943_sl_ctl		*(volatile uint32_t *) (__region_CS1 + 0x00)
 

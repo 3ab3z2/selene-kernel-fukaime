@@ -1,7 +1,7 @@
 #ifndef LLC_SAP_H
 #define LLC_SAP_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * Copyright (c) 1997 by Procom Technology,Inc.

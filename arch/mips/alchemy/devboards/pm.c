@@ -9,9 +9,9 @@
 #include <linux/kobject.h>
 #include <linux/suspend.h>
 #include <linux/sysfs.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1000.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1000.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 /*
  * Generic suspend userspace interface for Alchemy development boards.

@@ -30,7 +30,7 @@
 #include <sound/es1688.h>
 #include <sound/initval.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
 MODULE_DESCRIPTION("ESS ESx688 lowlevel module");

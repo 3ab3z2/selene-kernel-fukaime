@@ -19,8 +19,8 @@
 #define __ASM_OPENRISC_PTRACE_H
 
 
-#include <asm/spr_defs.h>
-#include <uapi/asm/ptrace.h>
+#include <asm-generic/spr_defs.h>
+#include <uapi/asm-generic/ptrace.h>
 
 /*
  * Make kernel PTrace/register structures opaque to userspace... userspace can

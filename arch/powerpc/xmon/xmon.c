@@ -29,39 +29,39 @@
 #include <linux/nmi.h>
 #include <linux/ctype.h>
 
-#include <asm/debugfs.h>
-#include <asm/ptrace.h>
-#include <asm/smp.h>
-#include <asm/string.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/xmon.h>
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/cputable.h>
-#include <asm/rtas.h>
-#include <asm/sstep.h>
-#include <asm/irq_regs.h>
-#include <asm/spu.h>
-#include <asm/spu_priv1.h>
-#include <asm/setjmp.h>
-#include <asm/reg.h>
-#include <asm/debug.h>
-#include <asm/hw_breakpoint.h>
-#include <asm/xive.h>
-#include <asm/opal.h>
-#include <asm/firmware.h>
-#include <asm/code-patching.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/string.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/xmon.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/sstep.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_priv1.h>
+#include <asm-generic/setjmp.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/hw_breakpoint.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/code-patching.h>
 
 #ifdef CONFIG_PPC64
-#include <asm/hvcall.h>
-#include <asm/paca.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/paca.h>
 #endif
 
 #if defined(CONFIG_PPC_SPLPAR)
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/plpar_wrappers.h>
 #else
 static inline long plapr_set_ciabr(unsigned long ciabr) {return 0; };
 #endif

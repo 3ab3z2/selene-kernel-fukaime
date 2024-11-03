@@ -20,8 +20,8 @@
 #include <crypto/sha.h>
 #include <crypto/sha512_base.h>
 #include <linux/percpu.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 static inline u64 Ch(u64 x, u64 y, u64 z)
 {

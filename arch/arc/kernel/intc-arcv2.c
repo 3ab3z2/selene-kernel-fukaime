@@ -12,7 +12,7 @@
 #include <linux/of.h>
 #include <linux/irqdomain.h>
 #include <linux/irqchip.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #define NR_EXCEPTIONS	16
 

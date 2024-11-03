@@ -9,8 +9,8 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/addrspace.h>
-#include <asm/fw/fw.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/fw/fw.h>
 
 int fw_argc;
 int *_fw_argv;

@@ -29,17 +29,17 @@
 #include <linux/seq_file.h>
 #include <linux/uaccess.h>
 #include <linux/slab.h>
-#include <asm/cputhreads.h>
-#include <asm/sparsemem.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/cputhreads.h>
-#include <asm/topology.h>
-#include <asm/firmware.h>
-#include <asm/paca.h>
-#include <asm/hvcall.h>
-#include <asm/setup.h>
-#include <asm/vdso.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/sparsemem.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/topology.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/vdso.h>
 
 static int numa_enabled = 1;
 

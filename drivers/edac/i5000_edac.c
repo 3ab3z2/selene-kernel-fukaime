@@ -20,7 +20,7 @@
 #include <linux/pci_ids.h>
 #include <linux/slab.h>
 #include <linux/edac.h>
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 
 #include "edac_module.h"
 

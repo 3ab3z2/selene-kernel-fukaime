@@ -23,7 +23,7 @@
 #include <linux/property.h>
 #include <linux/slab.h>
 #include <linux/ucs2_string.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 static bool dump_properties __initdata;
 

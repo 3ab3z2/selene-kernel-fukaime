@@ -27,7 +27,7 @@
 #include <linux/configfs.h>
 #include <linux/ratelimit.h>
 #include <scsi/scsi_proto.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>

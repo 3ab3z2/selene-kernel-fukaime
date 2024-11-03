@@ -5,7 +5,7 @@
  * PPC440 support
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define PPC44x_MMUCR_TID	0x000000ff
 #define PPC44x_MMUCR_STS	0x00010000

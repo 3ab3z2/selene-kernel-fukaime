@@ -9,13 +9,13 @@
  *
  */
 
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/cputable.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cache.h>
-#include <asm/book3s/64/mmu-hash.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
 
 /* Entry: r3 = crap, r4 = ptr to cputable entry
  *

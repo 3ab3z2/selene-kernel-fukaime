@@ -2,7 +2,7 @@
 #ifndef _ASM_MIPS_KVM_PARA_H
 #define _ASM_MIPS_KVM_PARA_H
 
-#include <uapi/asm/kvm_para.h>
+#include <uapi/asm-generic/kvm_para.h>
 
 #define KVM_HYPERCALL ".word 0x42000028"
 

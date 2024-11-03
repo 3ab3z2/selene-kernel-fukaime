@@ -9,7 +9,7 @@
 #include <linux/printk.h>
 #include <linux/ptrace.h>
 
-#include <asm/reg.h>
+#include <asm-generic/reg.h>
 
 int machine_check_440A(struct pt_regs *regs)
 {

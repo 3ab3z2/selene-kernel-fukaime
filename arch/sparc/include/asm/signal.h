@@ -6,7 +6,7 @@
 #include <linux/personality.h>
 #include <linux/types.h>
 #endif
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 #ifndef __ASSEMBLY__
 /*

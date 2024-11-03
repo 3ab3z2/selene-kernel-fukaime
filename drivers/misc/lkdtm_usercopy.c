@@ -9,7 +9,7 @@
 #include <linux/sched/task_stack.h>
 #include <linux/mman.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 /*
  * Many of the tests here end up using const sizes, but those would

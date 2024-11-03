@@ -19,7 +19,7 @@
 #include <linux/slab.h>
 #include <net/irda/wrapper.h>
 #include <net/irda/irda_device.h>
-#include <asm/clock.h>
+#include <asm-generic/clock.h>
 
 #define DRIVER_NAME "sh_sir"
 

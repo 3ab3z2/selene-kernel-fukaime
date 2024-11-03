@@ -2,7 +2,7 @@
 #ifndef _ASM_ALPHA_PARAM_H
 #define _ASM_ALPHA_PARAM_H
 
-#include <uapi/asm/param.h>
+#include <uapi/asm-generic/param.h>
 
 # undef HZ
 # define HZ		CONFIG_HZ

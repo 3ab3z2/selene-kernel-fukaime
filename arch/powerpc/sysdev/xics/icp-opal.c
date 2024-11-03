@@ -14,13 +14,13 @@
 #include <linux/cpu.h>
 #include <linux/of.h>
 
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xics.h>
-#include <asm/io.h>
-#include <asm/opal.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/io.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/kvm_ppc.h>
 
 static void icp_opal_teardown_cpu(void)
 {

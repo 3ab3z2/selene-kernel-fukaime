@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/perf_event.h>
 #include <linux/nospec.h>
-#include <asm/intel-family.h>
+#include <asm-generic/intel-family.h>
 
 enum perf_msr_id {
 	PERF_MSR_TSC			= 0,

@@ -7,9 +7,9 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/cache.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
 OUTPUT_ARCH(arc)
 ENTRY(res_service)

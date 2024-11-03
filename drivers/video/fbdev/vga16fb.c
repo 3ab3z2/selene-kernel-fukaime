@@ -22,7 +22,7 @@
 #include <linux/platform_device.h>
 #include <linux/screen_info.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <video/vga.h>
 
 #define VGA_FB_PHYS 0xA0000

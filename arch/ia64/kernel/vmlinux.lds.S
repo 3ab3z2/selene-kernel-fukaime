@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <asm/cache.h>
-#include <asm/ptrace.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgtable.h>
 
 #include <asm-generic/vmlinux.lds.h>
 

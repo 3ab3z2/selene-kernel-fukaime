@@ -10,14 +10,14 @@
 #include <linux/pagemap.h>
 #include <linux/spinlock.h>
 
-#include <asm/cpu_entry_area.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/fixmap.h>
-#include <asm/e820/api.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/io.h>
+#include <asm-generic/cpu_entry_area.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/io.h>
 
 unsigned int __VMALLOC_RESERVE = 128 << 20;
 

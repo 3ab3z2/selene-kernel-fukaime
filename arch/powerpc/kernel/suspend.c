@@ -8,8 +8,8 @@
  */
 
 #include <linux/mm.h>
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 
 /*
  *	pfn_is_nosave - check if given pfn is in the 'nosave' section

@@ -12,7 +12,7 @@
 #ifndef __ASM_RC32434_DMA_H
 #define __ASM_RC32434_DMA_H
 
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 #define DMA0_BASE_ADDR			0x18040000
 

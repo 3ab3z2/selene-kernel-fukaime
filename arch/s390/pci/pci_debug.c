@@ -13,9 +13,9 @@
 #include <linux/debugfs.h>
 #include <linux/export.h>
 #include <linux/pci.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
-#include <asm/pci_dma.h>
+#include <asm-generic/pci_dma.h>
 
 static struct dentry *debugfs_root;
 debug_info_t *pci_debug_msg_id;

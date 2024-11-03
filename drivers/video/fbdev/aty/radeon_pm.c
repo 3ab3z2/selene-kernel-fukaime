@@ -21,9 +21,9 @@
 #include <linux/agp_backend.h>
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/pmac_feature.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmac_feature.h>
 #endif
 
 #include "ati_ids.h"

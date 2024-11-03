@@ -30,20 +30,20 @@
  */
 #include <linux/kernel.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-fpa.h>
-#include <asm/octeon/cvmx-pip.h>
-#include <asm/octeon/cvmx-pko.h>
-#include <asm/octeon/cvmx-ipd.h>
-#include <asm/octeon/cvmx-spi.h>
+#include <asm-generic/octeon/cvmx-fpa.h>
+#include <asm-generic/octeon/cvmx-pip.h>
+#include <asm-generic/octeon/cvmx-pko.h>
+#include <asm-generic/octeon/cvmx-ipd.h>
+#include <asm-generic/octeon/cvmx-spi.h>
 
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-helper-util.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper-util.h>
 
-#include <asm/octeon/cvmx-ipd-defs.h>
+#include <asm-generic/octeon/cvmx-ipd-defs.h>
 
 /**
  * Convert a interface mode into a human readable string

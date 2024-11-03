@@ -6,9 +6,9 @@
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 
-#include <asm/fixmap.h>
-#include <asm/setup.h>
-#include <asm/pgtable-bits.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgtable-bits.h>
 
 extern void load_pgd(unsigned long pg_dir);
 extern pte_t invalid_pte_table[PAGE_SIZE/sizeof(pte_t)];

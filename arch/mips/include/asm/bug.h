@@ -3,11 +3,11 @@
 #define __ASM_BUG_H
 
 #include <linux/compiler.h>
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #ifdef CONFIG_BUG
 
-#include <asm/break.h>
+#include <asm-generic/break.h>
 
 static inline void __noreturn BUG(void)
 {

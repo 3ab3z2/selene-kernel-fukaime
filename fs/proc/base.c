@@ -96,7 +96,7 @@
 #include <linux/posix-timers.h>
 #include <linux/cpufreq_times.h>
 #ifdef CONFIG_HARDWALL
-#include <asm/hardwall.h>
+#include <asm-generic/hardwall.h>
 #endif
 #include <trace/events/oom.h>
 #include "internal.h"

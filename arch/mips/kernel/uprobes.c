@@ -6,9 +6,9 @@
 #include <linux/sched.h>
 #include <linux/uprobes.h>
 
-#include <asm/branch.h>
-#include <asm/cpu-features.h>
-#include <asm/ptrace.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/ptrace.h>
 
 #include "probes-common.h"
 

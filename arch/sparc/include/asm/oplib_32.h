@@ -9,7 +9,7 @@
 #ifndef __SPARC_OPLIB_H
 #define __SPARC_OPLIB_H
 
-#include <asm/openprom.h>
+#include <asm-generic/openprom.h>
 #include <linux/spinlock.h>
 #include <linux/compiler.h>
 

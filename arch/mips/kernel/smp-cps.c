@@ -17,15 +17,15 @@
 #include <linux/smp.h>
 #include <linux/types.h>
 
-#include <asm/bcache.h>
-#include <asm/mips-cps.h>
-#include <asm/mips_mt.h>
-#include <asm/mipsregs.h>
-#include <asm/pm-cps.h>
-#include <asm/r4kcache.h>
-#include <asm/smp-cps.h>
-#include <asm/time.h>
-#include <asm/uasm.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/pm-cps.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/smp-cps.h>
+#include <asm-generic/time.h>
+#include <asm-generic/uasm.h>
 
 static bool threads_disabled;
 static DECLARE_BITMAP(core_power, NR_CPUS);

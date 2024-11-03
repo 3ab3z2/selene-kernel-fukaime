@@ -30,8 +30,8 @@
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_eh.h>
 
-#include <asm/lv1call.h>
-#include <asm/ps3stor.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3stor.h>
 
 
 #define DEVICE_NAME			"ps3rom"

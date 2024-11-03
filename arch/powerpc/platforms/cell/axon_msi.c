@@ -17,10 +17,10 @@
 #include <linux/of_platform.h>
 #include <linux/slab.h>
 
-#include <asm/debugfs.h>
-#include <asm/dcr.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
 
 #include "cell.h"
 

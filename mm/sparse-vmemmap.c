@@ -27,9 +27,9 @@
 #include <linux/spinlock.h>
 #include <linux/vmalloc.h>
 #include <linux/sched.h>
-#include <asm/dma.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Allocate a block of memory to be used to back the virtual memory map

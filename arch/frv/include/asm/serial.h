@@ -6,7 +6,7 @@
  *
  * Based on linux/include/asm-i386/serial.h
  */
-#include <asm/serial-regs.h>
+#include <asm-generic/serial-regs.h>
 
 /*
  * the base baud is derived from the clock speed and so is variable

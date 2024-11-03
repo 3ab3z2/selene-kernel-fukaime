@@ -3,7 +3,7 @@
 #define _COMPAT_SIGNAL_H
 
 #include <linux/compat.h>
-#include <asm/signal.h>
+#include <asm-generic/signal.h>
 
 #ifdef CONFIG_COMPAT
 struct __new_sigaction32 {

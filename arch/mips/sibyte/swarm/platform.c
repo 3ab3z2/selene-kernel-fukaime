@@ -6,9 +6,9 @@
 #include <linux/platform_device.h>
 #include <linux/ata_platform.h>
 
-#include <asm/sibyte/board.h>
-#include <asm/sibyte/sb1250_genbus.h>
-#include <asm/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/board.h>
+#include <asm-generic/sibyte/sb1250_genbus.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
 
 #if defined(CONFIG_SIBYTE_SWARM) || defined(CONFIG_SIBYTE_LITTLESUR)
 

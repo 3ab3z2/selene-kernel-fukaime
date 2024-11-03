@@ -33,8 +33,8 @@
 #include <linux/ptrace.h>
 #include <linux/percpu.h>
 #include <linux/module.h>
-#include <asm/probes.h>
-#include <asm/code-patching.h>
+#include <asm-generic/probes.h>
+#include <asm-generic/code-patching.h>
 
 #ifdef CONFIG_KPROBES
 #define  __ARCH_WANT_KPROBES_INSN_SLOT

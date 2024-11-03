@@ -27,13 +27,13 @@
 #include <linux/interrupt.h>
 #include <linux/poll.h>
 #include <linux/bootmem.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/atomic.h>
-#include <asm/mips_mt.h>
-#include <asm/processor.h>
-#include <asm/vpe.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/vpe.h>
 
 #ifndef ARCH_SHF_SMALL
 #define ARCH_SHF_SMALL 0

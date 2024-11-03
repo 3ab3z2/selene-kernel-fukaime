@@ -10,7 +10,7 @@
 #define _ASM_SIM_H
 
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #define __str2(x) #x
 #define __str(x) __str2(x)

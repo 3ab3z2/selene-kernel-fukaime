@@ -16,7 +16,7 @@
 #include <linux/of_device.h>
 #include <linux/platform_device.h>
 #include <linux/io.h>
-#include <asm/proc-fns.h>
+#include <asm-generic/proc-fns.h>
 
 #define CPU_SW_INT_BLK BIT(28)
 

@@ -18,10 +18,10 @@
  * 02110-1301, USA.
  */
 
-#include <asm/asm-offsets.h>  /*  assembly-safer versions of C defines */
-#include <asm/mem-layout.h>   /*  sigh, except for page_offset  */
-#include <asm/hexagon_vm.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asm-offsets.h>  /*  assembly-safer versions of C defines */
+#include <asm-generic/mem-layout.h>   /*  sigh, except for page_offset  */
+#include <asm-generic/hexagon_vm.h>
+#include <asm-generic/thread_info.h>
 
 /*
  * Entry into guest-mode Linux under Hexagon Virtual Machine.

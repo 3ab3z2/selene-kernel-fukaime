@@ -21,7 +21,7 @@
 #include <linux/kvm_host.h>
 #include <linux/seq_file.h>
 #include <kvm/arm_vgic.h>
-#include <asm/kvm_mmu.h>
+#include <asm-generic/kvm_mmu.h>
 #include "vgic.h"
 
 /*

@@ -16,13 +16,13 @@
 #include <linux/tc.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/paccess.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/paccess.h>
 
-#include <asm/dec/interrupts.h>
-#include <asm/dec/prom.h>
-#include <asm/dec/system.h>
+#include <asm-generic/dec/interrupts.h>
+#include <asm-generic/dec/prom.h>
+#include <asm-generic/dec/system.h>
 
 /*
  * Protected read byte from TURBOchannel slot space.

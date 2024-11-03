@@ -6,7 +6,7 @@
 #include <linux/export.h>
 #include <linux/mm.h>
 #include <linux/string.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 pgd_t *pgd_alloc(struct mm_struct *mm)
 {

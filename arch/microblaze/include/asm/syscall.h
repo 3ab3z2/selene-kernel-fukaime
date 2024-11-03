@@ -5,7 +5,7 @@
 #include <uapi/linux/audit.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /* The system call number is given by the user in R12 */
 static inline long syscall_get_nr(struct task_struct *task,

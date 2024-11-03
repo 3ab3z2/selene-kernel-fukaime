@@ -12,8 +12,8 @@
 #include <linux/module.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-rc32434/gpio.h>
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/gpio.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 static void rb532_led_set(struct led_classdev *cdev,
 			  enum led_brightness brightness)

@@ -9,7 +9,7 @@
 
 #include <linux/pci.h>
 #include <misc/cxl.h>
-#include <asm/pnv-pci.h>
+#include <asm-generic/pnv-pci.h>
 #include "cxl.h"
 
 static int cxl_dma_set_mask(struct pci_dev *pdev, u64 dma_mask)

@@ -23,8 +23,8 @@
 #include <linux/bug.h>
 #include <linux/interrupt.h>
 #include <linux/uaccess.h>
-#include <asm/cpu-features.h>
-#include <asm/kmap_types.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/kmap_types.h>
 
 /* declarations for highmem.c */
 extern unsigned long highstart_pfn, highend_pfn;

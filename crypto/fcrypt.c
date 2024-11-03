@@ -42,7 +42,7 @@
  * SUCH DAMAGE.
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/bitops.h>
 #include <linux/init.h>
 #include <linux/module.h>

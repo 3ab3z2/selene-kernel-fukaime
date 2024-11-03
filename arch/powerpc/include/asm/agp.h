@@ -3,7 +3,7 @@
 #define _ASM_POWERPC_AGP_H
 #ifdef __KERNEL__
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define map_page_into_agp(page)
 #define unmap_page_from_agp(page)

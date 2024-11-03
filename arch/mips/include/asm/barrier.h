@@ -8,7 +8,7 @@
 #ifndef __ASM_BARRIER_H
 #define __ASM_BARRIER_H
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 /*
  * Sync types defined by the MIPS architecture (document MD00087 table 6.5)
@@ -166,7 +166,7 @@
 
 #ifdef CONFIG_CPU_HAS_WB
 
-#include <asm/wbflush.h>
+#include <asm-generic/wbflush.h>
 
 #define mb()		wbflush()
 #define iob()		wbflush()

@@ -51,11 +51,11 @@
 #include <linux/hdreg.h>
 #include <linux/interrupt.h>
 #include <linux/log2.h>
-#include <asm/ccwdev.h>
+#include <asm-generic/ccwdev.h>
 #include <linux/workqueue.h>
-#include <asm/debug.h>
-#include <asm/dasd.h>
-#include <asm/idals.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/dasd.h>
+#include <asm-generic/idals.h>
 #include <linux/bitops.h>
 #include <linux/blk-mq.h>
 

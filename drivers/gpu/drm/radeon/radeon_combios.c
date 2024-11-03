@@ -31,9 +31,9 @@
 
 #ifdef CONFIG_PPC_PMAC
 /* not sure which of these are needed */
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/prom.h>
 #endif /* CONFIG_PPC_PMAC */
 
 /* from radeon_legacy_encoder.c */

@@ -7,7 +7,7 @@
 
 #include <linux/spinlock.h>
 #include <linux/module.h>
-#include <asm/isc.h>
+#include <asm-generic/isc.h>
 
 static unsigned int isc_refs[MAX_ISC + 1];
 static DEFINE_SPINLOCK(isc_ref_lock);

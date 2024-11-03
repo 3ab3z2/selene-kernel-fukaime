@@ -6,9 +6,9 @@
 #include <linux/module.h>
 #include <linux/ptrace.h>
 #include <linux/sched.h>
-#include <asm/siginfo.h>
-#include <asm/signal.h>
-#include <asm/unistd.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/unistd.h>
 #include <frame_kern.h>
 #include <kern_util.h>
 

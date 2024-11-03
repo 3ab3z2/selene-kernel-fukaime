@@ -8,7 +8,7 @@
 #ifndef __ASM_FW_H_
 #define __ASM_FW_H_
 
-#include <asm/bootinfo.h>	/* For cleaner code... */
+#include <asm-generic/bootinfo.h>	/* For cleaner code... */
 
 extern int fw_argc;
 extern int *_fw_argv;

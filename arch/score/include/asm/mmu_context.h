@@ -9,9 +9,9 @@
 
 #include <asm-generic/mm_hooks.h>
 
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/scoreregs.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/scoreregs.h>
 
 /*
  * For the fast tlb miss handlers, we keep a per cpu array of pointers

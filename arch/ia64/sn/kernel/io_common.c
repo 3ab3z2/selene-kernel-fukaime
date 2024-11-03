@@ -9,25 +9,25 @@
 #include <linux/bootmem.h>
 #include <linux/export.h>
 #include <linux/slab.h>
-#include <asm/sn/types.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/sn_feature_sets.h>
-#include <asm/sn/geo.h>
-#include <asm/sn/io.h>
-#include <asm/sn/l1.h>
-#include <asm/sn/module.h>
-#include <asm/sn/pcibr_provider.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/simulator.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/tioca_provider.h>
-#include <asm/sn/tioce_provider.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/sn_feature_sets.h>
+#include <asm-generic/sn/geo.h>
+#include <asm-generic/sn/io.h>
+#include <asm-generic/sn/l1.h>
+#include <asm-generic/sn/module.h>
+#include <asm-generic/sn/pcibr_provider.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/simulator.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/tioca_provider.h>
+#include <asm-generic/sn/tioce_provider.h>
 #include "xtalk/hubdev.h"
 #include "xtalk/xwidgetdev.h"
 #include <linux/acpi.h>
-#include <asm/sn/sn2/sn_hwperf.h>
-#include <asm/sn/acpi.h>
+#include <asm-generic/sn/sn2/sn_hwperf.h>
+#include <asm-generic/sn/acpi.h>
 
 extern void sn_init_cpei_timer(void);
 extern void register_sn_procfs(void);

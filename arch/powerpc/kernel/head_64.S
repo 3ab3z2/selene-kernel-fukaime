@@ -24,26 +24,26 @@
 
 #include <linux/threads.h>
 #include <linux/init.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/ppc_asm.h>
-#include <asm/head-64.h>
-#include <asm/asm-offsets.h>
-#include <asm/bug.h>
-#include <asm/cputable.h>
-#include <asm/setup.h>
-#include <asm/hvcall.h>
-#include <asm/thread_info.h>
-#include <asm/firmware.h>
-#include <asm/page_64.h>
-#include <asm/irqflags.h>
-#include <asm/kvm_book3s_asm.h>
-#include <asm/ptrace.h>
-#include <asm/hw_irq.h>
-#include <asm/cputhreads.h>
-#include <asm/ppc-opcode.h>
-#include <asm/export.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/head-64.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/page_64.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/kvm_book3s_asm.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/export.h>
 
 /* The physical memory is laid out such that the secondary processor
  * spin code sits at 0x0000...0x00ff. On server, the vectors follow

@@ -7,7 +7,7 @@
 #ifndef _SPARC_AUXIO_H
 #define _SPARC_AUXIO_H
 
-#include <asm/vaddrs.h>
+#include <asm-generic/vaddrs.h>
 
 /* This register is an unsigned char in IO space.  It does two things.
  * First, it is used to control the front panel LED light on machines
@@ -36,7 +36,7 @@
  * understand the hardware you are querying!
  */
 void set_auxio(unsigned char bits_on, unsigned char bits_off);
-unsigned char get_auxio(void); /* .../asm/floppy.h */
+unsigned char get_auxio(void); /* .../asm-generic/floppy.h */
 
 /*
  * The following routines are provided for driver-compatibility

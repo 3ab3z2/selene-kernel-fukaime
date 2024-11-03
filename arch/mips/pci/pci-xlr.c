@@ -43,16 +43,16 @@
 #include <linux/console.h>
 #include <linux/pci_regs.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
 
-#include <asm/netlogic/xlr/msidef.h>
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/xlr/msidef.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
 
 static void *pci_config_base;
 

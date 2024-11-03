@@ -20,7 +20,7 @@
 #ifndef __ASM_OPENRISC_SIGCONTEXT_H
 #define __ASM_OPENRISC_SIGCONTEXT_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /* This struct is saved by setup_frame in signal.c, to keep the current
    context while a signal handler is executed. It's restored by sys_sigreturn.

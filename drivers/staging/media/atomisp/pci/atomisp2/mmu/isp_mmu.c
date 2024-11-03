@@ -37,7 +37,7 @@
 #include <linux/sizes.h>
 
 #ifdef CONFIG_X86
-#include <asm/set_memory.h>
+#include <asm-generic/set_memory.h>
 #endif
 
 #include "atomisp_internal.h"

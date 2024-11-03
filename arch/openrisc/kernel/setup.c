@@ -39,14 +39,14 @@
 #include <linux/memblock.h>
 #include <linux/device.h>
 
-#include <asm/sections.h>
-#include <asm/segment.h>
-#include <asm/pgtable.h>
-#include <asm/types.h>
-#include <asm/setup.h>
-#include <asm/io.h>
-#include <asm/cpuinfo.h>
-#include <asm/delay.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/types.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/delay.h>
 
 #include "vmlinux.h"
 

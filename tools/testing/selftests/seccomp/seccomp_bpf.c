@@ -13,7 +13,7 @@
  * into accepting it.
  */
 #if !__GLIBC_PREREQ(2, 26)
-# include <asm/siginfo.h>
+# include <asm-generic/siginfo.h>
 # define __have_siginfo_t 1
 # define __have_sigval_t 1
 # define __have_sigevent_t 1

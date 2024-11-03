@@ -26,9 +26,9 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/machdep.h>
-#include <asm/nvram.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/prom.h>
 
 static void __iomem *mmio_nvram_start;
 static long mmio_nvram_len;

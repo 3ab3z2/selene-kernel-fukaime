@@ -16,8 +16,8 @@
 #include <linux/vmalloc.h>
 #include <linux/io.h>
 
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
 static inline void remap_area_pte(pte_t *pte, unsigned long address,
 				unsigned long size, unsigned long phys_addr,

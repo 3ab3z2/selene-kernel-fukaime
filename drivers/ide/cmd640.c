@@ -107,7 +107,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "cmd640"
 

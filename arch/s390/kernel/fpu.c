@@ -8,10 +8,10 @@
 #include <linux/kernel.h>
 #include <linux/cpu.h>
 #include <linux/sched.h>
-#include <asm/fpu/types.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/types.h>
+#include <asm-generic/fpu/api.h>
 
-asm(".include \"asm/vx-insn.h\"\n");
+asm(".include \"asm-generic/vx-insn.h\"\n");
 
 void __kernel_fpu_begin(struct kernel_fpu *state, u32 flags)
 {

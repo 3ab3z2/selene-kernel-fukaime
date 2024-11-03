@@ -28,13 +28,13 @@
 #include <linux/of_platform.h>
 
 #include <linux/atomic.h>
-#include <asm/time.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/ipic.h>
-#include <asm/irq.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 

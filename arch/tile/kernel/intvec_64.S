@@ -22,7 +22,7 @@
 #include <asm/thread_info.h>
 #include <asm/irqflags.h>
 #include <asm/asm-offsets.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/traps.h>
 #include <asm/signal.h>
 #include <hv/hypervisor.h>

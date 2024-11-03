@@ -27,23 +27,23 @@
 #include <linux/start_kernel.h>
 #include <linux/string.h>
 
-#include <asm/cachepart.h>
-#include <asm/clock.h>
-#include <asm/core_reg.h>
-#include <asm/cpu.h>
-#include <asm/da.h>
-#include <asm/highmem.h>
-#include <asm/hwthread.h>
-#include <asm/l2cache.h>
-#include <asm/mach/arch.h>
-#include <asm/metag_mem.h>
-#include <asm/metag_regs.h>
-#include <asm/mmu.h>
-#include <asm/mmzone.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/traps.h>
+#include <asm-generic/cachepart.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/da.h>
+#include <asm-generic/highmem.h>
+#include <asm-generic/hwthread.h>
+#include <asm-generic/l2cache.h>
+#include <asm-generic/mach/arch.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/traps.h>
 
 /* Priv protect as many registers as possible. */
 #define DEFAULT_PRIV	(TXPRIVEXT_COPRO_BITS		| \
@@ -316,7 +316,7 @@ void __init setup_arch(char **cmdline_p)
 		panic("kernel pte does not have PRIV set");
 
 	/*
-	 * See __pa and __va in include/asm/page.h.
+	 * See __pa and __va in include/asm-generic/page.h.
 	 * This value is negative when running in local space but the
 	 * calculations work anyway.
 	 */

@@ -73,13 +73,13 @@
 
 #include <trace/events/kmem.h>
 
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/pgtable.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/pgtable.h>
 
 #include "internal.h"
 

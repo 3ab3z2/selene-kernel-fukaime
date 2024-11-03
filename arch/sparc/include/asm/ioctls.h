@@ -2,7 +2,7 @@
 #ifndef _ASM_SPARC_IOCTLS_H
 #define _ASM_SPARC_IOCTLS_H
 
-#include <uapi/asm/ioctls.h>
+#include <uapi/asm-generic/ioctls.h>
 
 #define TIOCGETC __TIOCGETC
 #define TIOCGETP __TIOCGETP

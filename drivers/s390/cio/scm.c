@@ -11,7 +11,7 @@
 #include <linux/slab.h>
 #include <linux/init.h>
 #include <linux/err.h>
-#include <asm/eadm.h>
+#include <asm-generic/eadm.h>
 #include "chsc.h"
 
 static struct device *scm_root;

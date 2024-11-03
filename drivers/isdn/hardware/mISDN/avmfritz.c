@@ -26,7 +26,7 @@
 #include <linux/delay.h>
 #include <linux/mISDNhw.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "ipac.h"
 
 

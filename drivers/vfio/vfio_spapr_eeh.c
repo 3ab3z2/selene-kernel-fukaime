@@ -12,7 +12,7 @@
 #include <linux/module.h>
 #include <linux/uaccess.h>
 #include <linux/vfio.h>
-#include <asm/eeh.h>
+#include <asm-generic/eeh.h>
 
 #define DRIVER_VERSION	"0.1"
 #define DRIVER_AUTHOR	"Gavin Shan, IBM Corporation"

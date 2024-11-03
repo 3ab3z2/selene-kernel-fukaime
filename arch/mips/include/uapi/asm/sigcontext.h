@@ -11,7 +11,7 @@
 #define _UAPI_ASM_SIGCONTEXT_H
 
 #include <linux/types.h>
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 /* scalar FP context was used */
 #define USED_FP			(1 << 0)

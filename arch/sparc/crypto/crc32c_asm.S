@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
-#include <asm/visasm.h>
-#include <asm/asi.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/asi.h>
 
 #include "opcodes.h"
 

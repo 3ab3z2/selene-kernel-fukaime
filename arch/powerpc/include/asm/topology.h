@@ -15,7 +15,7 @@ struct device_node;
  */
 #define RECLAIM_DISTANCE 10
 
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 
 #define cpumask_of_node(node) ((node) == -1 ?				\
 			       cpu_all_mask :				\
@@ -108,10 +108,10 @@ static inline int prrn_is_enabled(void)
 #include <asm-generic/topology.h>
 
 #ifdef CONFIG_SMP
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 
 #ifdef CONFIG_PPC64
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 #define topology_physical_package_id(cpu)	(cpu_to_chip_id(cpu))
 #define topology_sibling_cpumask(cpu)	(per_cpu(cpu_sibling_map, cpu))

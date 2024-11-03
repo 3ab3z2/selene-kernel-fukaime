@@ -10,7 +10,7 @@
 #include <linux/module.h>
 #include <linux/stacktrace.h>
 
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 
 static void dump_trace(struct task_struct *task, struct stack_trace *trace)
 {

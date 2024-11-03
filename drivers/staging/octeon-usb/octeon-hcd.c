@@ -51,7 +51,7 @@
 #include <linux/prefetch.h>
 #include <linux/platform_device.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "octeon-hcd.h"
 

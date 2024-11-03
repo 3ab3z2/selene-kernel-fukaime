@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/page_types.h>
-#include <asm/processor-flags.h>
-#include <asm/msr-index.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/msr-index.h>
 #include "realmode.h"
 
 /*

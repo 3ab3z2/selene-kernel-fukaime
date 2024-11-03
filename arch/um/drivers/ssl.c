@@ -10,8 +10,8 @@
 #include <linux/mm.h>
 #include <linux/init.h>
 #include <linux/console.h>
-#include <asm/termbits.h>
-#include <asm/irq.h>
+#include <asm-generic/termbits.h>
+#include <asm-generic/irq.h>
 #include "ssl.h"
 #include "chan.h"
 #include <init.h>

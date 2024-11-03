@@ -16,18 +16,18 @@
 #include <linux/thread_info.h>
 #include <linux/bitops.h>
 
-#include <asm/mipsregs.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/fpu_emulator.h>
-#include <asm/hazards.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
-#include <asm/current.h>
-#include <asm/msa.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/fpu_emulator.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/current.h>
+#include <asm-generic/msa.h>
 
 #ifdef CONFIG_MIPS_MT_FPAFF
-#include <asm/mips_mt.h>
+#include <asm-generic/mips_mt.h>
 #endif
 
 struct sigcontext;

@@ -15,8 +15,8 @@
 #ifndef _ASM_PGALLOC_H
 #define _ASM_PGALLOC_H
 
-#include <asm/setup.h>
-#include <asm/virtconvert.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/virtconvert.h>
 
 #ifdef CONFIG_MMU
 

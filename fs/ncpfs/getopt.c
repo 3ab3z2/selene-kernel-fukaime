@@ -8,7 +8,7 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 #include "getopt.h"
 

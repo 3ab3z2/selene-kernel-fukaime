@@ -79,7 +79,7 @@
 /*          - Add ability to flash BIOS                                      */
 /* 4.00.04  - Rename structures/constants to be prefixed with IPS_           */
 /* 4.00.05  - Remove wish_block from init routine                            */
-/*          - Use linux/spinlock.h instead of asm/spinlock.h for kernels     */
+/*          - Use linux/spinlock.h instead of asm-generic/spinlock.h for kernels     */
 /*            2.3.18 and later                                               */
 /*          - Sync with other changes from the 2.3 kernels                   */
 /* 4.00.06  - Fix timeout with initial FFDC command                          */
@@ -161,9 +161,9 @@
  * ioctlsize            - Initial size of the IOCTL buffer
  */
 
-#include <asm/io.h>
-#include <asm/byteorder.h>
-#include <asm/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/page.h>
 #include <linux/stddef.h>
 #include <linux/string.h>
 #include <linux/errno.h>

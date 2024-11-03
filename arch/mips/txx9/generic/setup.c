@@ -26,19 +26,19 @@
 #include <linux/device.h>
 #include <linux/slab.h>
 #include <linux/irq.h>
-#include <asm/bootinfo.h>
-#include <asm/idle.h>
-#include <asm/time.h>
-#include <asm/reboot.h>
-#include <asm/r4kcache.h>
-#include <asm/sections.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9tmr.h>
-#include <asm/txx9/ndfmc.h>
-#include <asm/txx9/dmac.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/time.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9tmr.h>
+#include <asm-generic/txx9/ndfmc.h>
+#include <asm-generic/txx9/dmac.h>
 #ifdef CONFIG_CPU_TX49XX
-#include <asm/txx9/tx4938.h>
+#include <asm-generic/txx9/tx4938.h>
 #endif
 
 /* EBUSC settings of TX4927, etc. */
@@ -85,7 +85,7 @@ int txx9_ccfg_toeon __initdata = 1;
 #endif
 
 #define BOARD_VEC(board)	extern struct txx9_board_vec board;
-#include <asm/txx9/boards.h>
+#include <asm-generic/txx9/boards.h>
 #undef BOARD_VEC
 
 struct txx9_board_vec *txx9_board_vec __initdata;
@@ -93,7 +93,7 @@ static char txx9_system_type[32];
 
 static struct txx9_board_vec *board_vecs[] __initdata = {
 #define BOARD_VEC(board)	&board,
-#include <asm/txx9/boards.h>
+#include <asm-generic/txx9/boards.h>
 #undef BOARD_VEC
 };
 

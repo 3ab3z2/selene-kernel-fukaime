@@ -19,8 +19,8 @@
 #include <linux/spinlock.h>
 #include <linux/export.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
 #include <soc/fsl/qe/immap_qe.h>
 #include <soc/fsl/qe/qe.h>
 #include <soc/fsl/qe/ucc.h>

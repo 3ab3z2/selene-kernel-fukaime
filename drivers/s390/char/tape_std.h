@@ -11,7 +11,7 @@
 #ifndef _TAPE_STD_H
 #define _TAPE_STD_H
 
-#include <asm/tape390.h>
+#include <asm-generic/tape390.h>
 
 /*
  * Biggest block size to handle. Currently 64K because we only build

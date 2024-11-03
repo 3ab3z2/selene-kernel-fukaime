@@ -9,9 +9,9 @@
 
 	.text
 #include <linux/linkage.h>
-#include <asm/addrspace.h>
-#include <asm/page.h>
-#include <asm/assembler.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/assembler.h>
 
 	/*
 	 * This code can be loaded anywhere, as long as output will not

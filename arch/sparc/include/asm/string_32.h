@@ -10,6 +10,6 @@
 #ifndef __SPARC_STRING_H__
 #define __SPARC_STRING_H__
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #endif /* !(__SPARC_STRING_H__) */

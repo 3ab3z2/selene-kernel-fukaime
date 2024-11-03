@@ -23,8 +23,8 @@
 #include <linux/spinlock.h>
 #include <linux/irq.h>
 
-#include <asm/gt64120.h>
-#include <asm/time.h>
+#include <asm-generic/gt64120.h>
+#include <asm-generic/time.h>
 
 static DEFINE_RAW_SPINLOCK(gt641xx_timer_lock);
 static unsigned int gt641xx_base_clock;

@@ -12,7 +12,7 @@
 #ifndef _ASM_TIMER_REGS_H
 #define _ASM_TIMER_REGS_H
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 extern unsigned long __nongprelbss __clkin_clock_speed_HZ;
 extern unsigned long __nongprelbss __ext_bus_clock_speed_HZ;

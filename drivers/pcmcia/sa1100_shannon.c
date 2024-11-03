@@ -12,9 +12,9 @@
 #include <linux/io.h>
 
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/shannon.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include "sa1100_generic.h"
 
 static int shannon_pcmcia_hw_init(struct soc_pcmcia_socket *skt)

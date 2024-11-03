@@ -13,9 +13,9 @@
 #include <linux/seq_file.h>
 #include <linux/magic.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
 
 static DEFINE_MUTEX(op_mutex);

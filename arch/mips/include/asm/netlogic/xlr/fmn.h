@@ -35,7 +35,7 @@
 #ifndef _NLM_FMN_H_
 #define _NLM_FMN_H_
 
-#include <asm/netlogic/mips-extns.h> /* for COP2 access */
+#include <asm-generic/netlogic/mips-extns.h> /* for COP2 access */
 
 /* Station IDs */
 #define FMN_STNID_CPU0			0x00

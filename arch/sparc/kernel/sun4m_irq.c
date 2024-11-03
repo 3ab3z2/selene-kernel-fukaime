@@ -13,13 +13,13 @@
 #include <linux/slab.h>
 #include <linux/sched/debug.h>
 
-#include <asm/timer.h>
-#include <asm/traps.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/cacheflush.h>
 
 #include "irq.h"
 #include "kernel.h"

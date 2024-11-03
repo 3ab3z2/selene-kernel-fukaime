@@ -7,8 +7,8 @@
  *
  */
 #include <linux/module.h>
-#include <asm/pgalloc.h>
-#include <asm/sn/arch.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sn/arch.h>
 
 /**
  * sn_flush_all_caches - flush a range of address from all caches (incl. L4)

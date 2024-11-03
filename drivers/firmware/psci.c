@@ -28,11 +28,11 @@
 
 #include <uapi/linux/psci.h>
 
-#include <asm/cpuidle.h>
-#include <asm/cputype.h>
-#include <asm/system_misc.h>
-#include <asm/smp_plat.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/system_misc.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/suspend.h>
 
 /*
  * While a 64-bit OS can make calls with SMC32 calling conventions, for some

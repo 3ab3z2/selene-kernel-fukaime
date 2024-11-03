@@ -31,10 +31,10 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/spinlock.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include "msnd.h"
 
 #define LOGNAME			"msnd"

@@ -18,8 +18,8 @@
 #include <linux/init.h>
 #include <linux/input.h>
 #include <linux/platform_device.h>
-#include <asm/machdep.h>
-#include <asm/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
 
 MODULE_AUTHOR("Richard Zidlicky <rz@linux-m68k.org>");
 MODULE_DESCRIPTION("m68k beeper driver");

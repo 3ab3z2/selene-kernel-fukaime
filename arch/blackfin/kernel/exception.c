@@ -6,7 +6,7 @@
  */
 
 #include <linux/module.h>
-#include <asm/irq_handler.h>
+#include <asm-generic/irq_handler.h>
 
 int bfin_request_exception(unsigned int exception, void (*handler)(void))
 {

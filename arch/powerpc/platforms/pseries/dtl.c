@@ -22,13 +22,13 @@
 
 #include <linux/slab.h>
 #include <linux/spinlock.h>
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #include <linux/uaccess.h>
-#include <asm/firmware.h>
-#include <asm/lppaca.h>
-#include <asm/debugfs.h>
-#include <asm/plpar_wrappers.h>
-#include <asm/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lppaca.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/plpar_wrappers.h>
+#include <asm-generic/machdep.h>
 
 struct dtl {
 	struct dtl_entry	*buf;

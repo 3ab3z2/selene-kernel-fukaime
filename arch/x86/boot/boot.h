@@ -23,8 +23,8 @@
 #include <stdarg.h>
 #include <linux/types.h>
 #include <linux/edd.h>
-#include <asm/setup.h>
-#include <asm/asm.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/asm.h>
 #include "bitops.h"
 #include "ctype.h"
 #include "cpuflags.h"

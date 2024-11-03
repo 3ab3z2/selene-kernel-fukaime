@@ -4,10 +4,10 @@
 #include <linux/memblock.h>
 #include <linux/mem_encrypt.h>
 
-#include <asm/set_memory.h>
-#include <asm/pgtable.h>
-#include <asm/realmode.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/realmode.h>
+#include <asm-generic/tlbflush.h>
 
 struct real_mode_header *real_mode_header;
 u32 *trampoline_cr4_features;

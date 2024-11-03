@@ -13,8 +13,8 @@
  * of the License.
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/ptrace.h>
 #include "bpf_jit64.h"
 
 /*

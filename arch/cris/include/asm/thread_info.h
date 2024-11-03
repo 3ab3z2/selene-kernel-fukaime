@@ -13,7 +13,7 @@
 #ifdef __KERNEL__
 
 #ifndef __ASSEMBLY__
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/processor.h>
 #include <arch/thread_info.h>
 #include <asm/segment.h>

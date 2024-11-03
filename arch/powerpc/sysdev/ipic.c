@@ -22,10 +22,10 @@
 #include <linux/device.h>
 #include <linux/spinlock.h>
 #include <linux/fsl_devices.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/ipic.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/ipic.h>
 
 #include "ipic.h"
 

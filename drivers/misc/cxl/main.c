@@ -21,7 +21,7 @@
 #include <linux/pci.h>
 #include <linux/sched/task.h>
 
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 #include <misc/cxl-base.h>
 
 #include "cxl.h"

@@ -14,7 +14,7 @@
 #include <linux/pci.h>
 #include <linux/ath9k_platform.h>
 
-#include <asm/mach-ath79/irq.h>
+#include <asm-generic/mach-ath79/irq.h>
 
 #include "machtypes.h"
 #include "dev-gpio-buttons.h"

@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_DMA_H
 #define _ASM_M32R_DMA_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * The maximum address that we can perform a DMA transfer

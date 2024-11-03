@@ -8,9 +8,9 @@
  */
 #include <linux/threads.h>
 
-#include <asm/asmmacro.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
 
 GLOBAL_ENTRY(mca_handler_bhhook)
 	invala				// clear RSE ?

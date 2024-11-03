@@ -18,10 +18,10 @@
 #include <linux/init.h>
 #include <linux/serial_reg.h>
 
-#include <asm/pgtable.h>
-#include <asm/irc-regs.h>
-#include <asm/timer-regs.h>
-#include <asm/gdb-stub.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/timer-regs.h>
+#include <asm-generic/gdb-stub.h>
 #include "gdb-io.h"
 
 #ifdef CONFIG_GDBSTUB_UART0

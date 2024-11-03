@@ -10,7 +10,7 @@
 #ifndef _ASM_FLOPPY_H
 #define _ASM_FLOPPY_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static inline void fd_cacheflush(char * addr, long size)
 {

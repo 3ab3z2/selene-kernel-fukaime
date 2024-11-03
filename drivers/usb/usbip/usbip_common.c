@@ -19,7 +19,7 @@
  * USA.
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/file.h>
 #include <linux/fs.h>
 #include <linux/kernel.h>

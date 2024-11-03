@@ -5,7 +5,7 @@
  * The system call table. 
  */
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 	.data
 	.align 3

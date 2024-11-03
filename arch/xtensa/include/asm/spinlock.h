@@ -11,8 +11,8 @@
 #ifndef _XTENSA_SPINLOCK_H
 #define _XTENSA_SPINLOCK_H
 
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 /*
  * spinlock

@@ -15,21 +15,21 @@
 #include <linux/ftrace.h>
 #include <linux/debug_locks.h>
 #include <linux/suspend.h>
-#include <asm/cio.h>
-#include <asm/setup.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/smp.h>
-#include <asm/reset.h>
-#include <asm/ipl.h>
-#include <asm/diag.h>
-#include <asm/elf.h>
-#include <asm/asm-offsets.h>
-#include <asm/cacheflush.h>
-#include <asm/os_info.h>
-#include <asm/set_memory.h>
-#include <asm/switch_to.h>
-#include <asm/nmi.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/reset.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/os_info.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/nmi.h>
 
 typedef void (*relocate_kernel_t)(kimage_entry_t *, unsigned long);
 

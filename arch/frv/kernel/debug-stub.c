@@ -17,10 +17,10 @@
 #include <linux/serial_reg.h>
 #include <linux/start_kernel.h>
 
-#include <asm/serial-regs.h>
-#include <asm/timer-regs.h>
-#include <asm/irc-regs.h>
-#include <asm/gdb-stub.h>
+#include <asm-generic/serial-regs.h>
+#include <asm-generic/timer-regs.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/gdb-stub.h>
 #include "gdb-io.h"
 
 /* CPU board CON5 */

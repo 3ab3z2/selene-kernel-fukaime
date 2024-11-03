@@ -3,5 +3,5 @@
 #
 platform-$(CONFIG_BMIPS_GENERIC)	+= bmips/
 cflags-$(CONFIG_BMIPS_GENERIC)		+=				\
-		-I$(srctree)/arch/mips/include/asm/mach-bmips/
+		-I$(srctree)/arch/mips/include/asm-generic/mach-bmips/
 load-$(CONFIG_BMIPS_GENERIC)		:= 0xffffffff80010000

@@ -12,7 +12,7 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/spr-regs.h>
+#include <asm-generic/spr-regs.h>
 
 	.text
 	.balign 4

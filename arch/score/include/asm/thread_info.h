@@ -8,7 +8,7 @@
 #define KU_USER	0x08
 #define KU_KERN	0x00
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/const.h>
 
 /* thread information allocation */
@@ -18,7 +18,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 /*
  * low level task data that entry.S needs immediate access to

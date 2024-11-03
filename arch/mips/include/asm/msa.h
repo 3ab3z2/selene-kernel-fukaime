@@ -10,11 +10,11 @@
 #ifndef _ASM_MSA_H
 #define _ASM_MSA_H
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 #ifndef __ASSEMBLY__
 
-#include <asm/inst.h>
+#include <asm-generic/inst.h>
 
 extern void _save_msa(struct task_struct *);
 extern void _restore_msa(struct task_struct *);

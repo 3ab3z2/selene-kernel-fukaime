@@ -19,15 +19,15 @@
 #include <linux/pm.h>
 #include <linux/spi/spi.h>
 #include <linux/spi/flash.h>
-#include <asm/bootinfo.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1000.h>
-#include <asm/mach-au1x00/au1xxx_eth.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1xxx_psc.h>
-#include <asm/mach-au1x00/au1550_spi.h>
-#include <asm/mach-au1x00/au1550nd.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_eth.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1xxx_psc.h>
+#include <asm-generic/mach-au1x00/au1550_spi.h>
+#include <asm-generic/mach-au1x00/au1550nd.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 #include <prom.h>
 #include "platform.h"
 

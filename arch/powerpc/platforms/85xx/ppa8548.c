@@ -22,9 +22,9 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/machdep.h>
-#include <asm/udbg.h>
-#include <asm/mpic.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/mpic.h>
 
 #include <sysdev/fsl_soc.h>
 

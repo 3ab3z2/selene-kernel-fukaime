@@ -12,10 +12,10 @@
 #include <linux/string.h>
 #include <linux/types.h>
 #include <linux/errno.h>
-#include <asm/ccwdev.h>
-#include <asm/setup.h>
-#include <asm/cio.h>
-#include <asm/diag.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/diag.h>
 
 #include "cio.h"
 #include "cio_debug.h"

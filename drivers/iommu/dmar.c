@@ -40,8 +40,8 @@
 #include <linux/slab.h>
 #include <linux/iommu.h>
 #include <linux/limits.h>
-#include <asm/irq_remapping.h>
-#include <asm/iommu_table.h>
+#include <asm-generic/irq_remapping.h>
+#include <asm-generic/iommu_table.h>
 
 #include "irq_remapping.h"
 

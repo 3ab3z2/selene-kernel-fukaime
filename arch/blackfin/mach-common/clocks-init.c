@@ -7,12 +7,12 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
-#include <asm/dma.h>
-#include <asm/clocks.h>
-#include <asm/mem_init.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/clocks.h>
+#include <asm-generic/mem_init.h>
+#include <asm-generic/dpmc.h>
 
 #ifdef CONFIG_BF60x
 

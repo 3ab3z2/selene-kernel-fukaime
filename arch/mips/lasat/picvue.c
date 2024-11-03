@@ -6,8 +6,8 @@
  */
 #include <linux/kernel.h>
 #include <linux/delay.h>
-#include <asm/bootinfo.h>
-#include <asm/lasat/lasat.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/lasat/lasat.h>
 #include <linux/module.h>
 #include <linux/errno.h>
 #include <linux/string.h>

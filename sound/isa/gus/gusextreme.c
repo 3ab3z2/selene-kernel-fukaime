@@ -25,7 +25,7 @@
 #include <linux/delay.h>
 #include <linux/time.h>
 #include <linux/module.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <sound/core.h>
 #include <sound/gus.h>
 #include <sound/es1688.h>

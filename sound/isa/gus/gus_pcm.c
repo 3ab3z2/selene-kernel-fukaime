@@ -25,7 +25,7 @@
  *
  */
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/slab.h>
 #include <linux/sched/signal.h>
 

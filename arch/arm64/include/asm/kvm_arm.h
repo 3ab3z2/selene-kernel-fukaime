@@ -20,7 +20,7 @@
 
 #include <asm/esr.h>
 #include <asm/memory.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /* Hyp Configuration Register (HCR) bits */
 #define HCR_API		(UL(1) << 41)

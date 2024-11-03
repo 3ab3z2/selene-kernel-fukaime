@@ -12,7 +12,7 @@
 #ifndef _UAPI_ASM_PTRACE_H
 #define _UAPI_ASM_PTRACE_H
 
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 
 #define PT_PSR		0

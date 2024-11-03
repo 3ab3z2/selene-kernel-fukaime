@@ -18,8 +18,8 @@
 #ifndef __ASM_SIBYTE_BIGSUR_H
 #define __ASM_SIBYTE_BIGSUR_H
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/bcm1480_int.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/bcm1480_int.h>
 
 #ifdef CONFIG_SIBYTE_BIGSUR
 #define SIBYTE_BOARD_NAME "BCM91x80A/B (BigSur)"

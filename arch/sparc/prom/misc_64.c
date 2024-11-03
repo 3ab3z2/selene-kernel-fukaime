@@ -14,9 +14,9 @@
 #include <linux/delay.h>
 #include <linux/module.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/ldc.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/ldc.h>
 
 static int prom_service_exists(const char *service_name)
 {

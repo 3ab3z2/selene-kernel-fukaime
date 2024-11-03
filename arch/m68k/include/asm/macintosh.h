@@ -5,7 +5,7 @@
 #include <linux/seq_file.h>
 #include <linux/interrupt.h>
 
-#include <asm/bootinfo-mac.h>
+#include <asm-generic/bootinfo-mac.h>
 
 
 /*

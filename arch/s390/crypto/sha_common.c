@@ -15,7 +15,7 @@
 
 #include <crypto/internal/hash.h>
 #include <linux/module.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 #include "sha.h"
 
 int s390_sha_update(struct shash_desc *desc, const u8 *data, unsigned int len)

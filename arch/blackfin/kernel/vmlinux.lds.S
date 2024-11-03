@@ -5,9 +5,9 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/mem_map.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/mem_map.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
 OUTPUT_FORMAT("elf32-bfin")
 ENTRY(__start)

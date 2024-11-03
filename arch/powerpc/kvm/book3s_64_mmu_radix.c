@@ -11,13 +11,13 @@
 #include <linux/kvm.h>
 #include <linux/kvm_host.h>
 
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pte-walk.h>
 
 static void mark_pages_dirty(struct kvm *kvm, struct kvm_memory_slot *memslot,
 			     unsigned long gfn, unsigned int order);

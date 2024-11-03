@@ -36,18 +36,18 @@
 #include <linux/platform_device.h>
 #include <linux/ftrace.h>
 
-#include <asm/oplib.h>
-#include <asm/timer.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/starfire.h>
-#include <asm/smp.h>
-#include <asm/sections.h>
-#include <asm/cpudata.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/starfire.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cpudata.h>
 #include <linux/uaccess.h>
-#include <asm/irq_regs.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/cacheflush.h>
 
 #include "entry.h"
 #include "kernel.h"

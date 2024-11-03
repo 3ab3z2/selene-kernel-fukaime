@@ -7,11 +7,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/ftrace.h>
-#include <asm/nospec-insn.h>
-#include <asm/ptrace.h>
-#include <asm/export.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/nospec-insn.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/export.h>
 
 	GEN_BR_THUNK %r1
 	GEN_BR_THUNK %r14

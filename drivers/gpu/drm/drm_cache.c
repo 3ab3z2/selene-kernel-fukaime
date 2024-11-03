@@ -34,7 +34,7 @@
 #include <drm/drm_cache.h>
 
 #if defined(CONFIG_X86)
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 /*
  * clflushopt is an unordered instruction which needs fencing with mfence or

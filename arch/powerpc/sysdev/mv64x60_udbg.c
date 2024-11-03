@@ -9,9 +9,9 @@
  * or implied.
  */
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
 
 #include <sysdev/mv64x60.h>
 

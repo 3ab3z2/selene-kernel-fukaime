@@ -30,9 +30,9 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 #include <linux/init.h>
-#include <asm/bootinfo.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/rbtx4927.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/rbtx4927.h>
 
 void __init rbtx4927_prom_init(void)
 {

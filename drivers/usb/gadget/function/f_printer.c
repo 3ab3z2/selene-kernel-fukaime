@@ -37,11 +37,11 @@
 #include <linux/cdev.h>
 #include <linux/kref.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/io.h>
 #include <linux/irq.h>
 #include <linux/uaccess.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <linux/usb/ch9.h>
 #include <linux/usb/composite.h>

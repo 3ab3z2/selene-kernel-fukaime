@@ -2,7 +2,7 @@
 #ifndef __ASM_LIBGCC_H
 #define __ASM_LIBGCC_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 typedef int word_type __attribute__ ((mode (__word__)));
 

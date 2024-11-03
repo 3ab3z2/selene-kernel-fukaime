@@ -11,10 +11,10 @@
 #include <linux/suspend.h>
 #include <linux/mm.h>
 #include <linux/pci.h>
-#include <asm/ctl_reg.h>
-#include <asm/ipl.h>
-#include <asm/cio.h>
-#include <asm/sections.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/sections.h>
 #include "entry.h"
 
 /*

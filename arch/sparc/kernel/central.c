@@ -13,8 +13,8 @@
 #include <linux/of_device.h>
 #include <linux/platform_device.h>
 
-#include <asm/fhc.h>
-#include <asm/upa.h>
+#include <asm-generic/fhc.h>
+#include <asm-generic/upa.h>
 
 struct clock_board {
 	void __iomem		*clock_freq_regs;

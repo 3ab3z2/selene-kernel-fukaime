@@ -11,8 +11,8 @@
 #include <linux/string.h>
 #include <linux/list.h>
 #include <linux/slab.h>
-#include <asm/page.h>
-#include <asm/tcm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/tcm.h>
 
 struct tcm_pool {
 	struct list_head list;

@@ -17,21 +17,21 @@
 #ifdef CONFIG_PPC64
 
 #include <linux/string.h>
-#include <asm/types.h>
-#include <asm/lppaca.h>
-#include <asm/mmu.h>
-#include <asm/page.h>
+#include <asm-generic/types.h>
+#include <asm-generic/lppaca.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
 #ifdef CONFIG_PPC_BOOK3E
-#include <asm/exception-64e.h>
+#include <asm-generic/exception-64e.h>
 #else
-#include <asm/exception-64s.h>
+#include <asm-generic/exception-64s.h>
 #endif
 #ifdef CONFIG_KVM_BOOK3S_64_HANDLER
-#include <asm/kvm_book3s_asm.h>
+#include <asm-generic/kvm_book3s_asm.h>
 #endif
-#include <asm/accounting.h>
-#include <asm/hmi.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/accounting.h>
+#include <asm-generic/hmi.h>
+#include <asm-generic/cpuidle.h>
 
 register struct paca_struct *local_paca asm("r13");
 

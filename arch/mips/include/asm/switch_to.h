@@ -12,11 +12,11 @@
 #ifndef _ASM_SWITCH_TO_H
 #define _ASM_SWITCH_TO_H
 
-#include <asm/cpu-features.h>
-#include <asm/watch.h>
-#include <asm/dsp.h>
-#include <asm/cop2.h>
-#include <asm/fpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/watch.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/cop2.h>
+#include <asm-generic/fpu.h>
 
 struct task_struct;
 

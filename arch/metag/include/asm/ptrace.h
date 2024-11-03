@@ -3,8 +3,8 @@
 #define _METAG_PTRACE_H
 
 #include <linux/compiler.h>
-#include <uapi/asm/ptrace.h>
-#include <asm/tbx.h>
+#include <uapi/asm-generic/ptrace.h>
+#include <asm-generic/tbx.h>
 
 #ifndef __ASSEMBLY__
 

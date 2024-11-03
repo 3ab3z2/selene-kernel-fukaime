@@ -69,8 +69,8 @@
 #include <linux/signal.h>	/* used in new tty drivers */
 #include <linux/bitops.h>
 
-#include <asm/byteorder.h>
-#include <asm/types.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/types.h>
 
 #include <linux/if.h>
 

@@ -30,9 +30,9 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/ecard.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ecard.h>
 
 #include "../scsi.h"
 #include <scsi/scsi_host.h>

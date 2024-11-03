@@ -17,7 +17,7 @@
  *
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 #ifdef __BIG_ENDIAN__
 #define LVS(VRT,RA,RB)		lvsl	VRT,RA,RB

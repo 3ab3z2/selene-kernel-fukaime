@@ -38,8 +38,8 @@
 #include <linux/interrupt.h>
 #include <linux/input.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Inport (ATI XL and Microsoft) busmouse driver");

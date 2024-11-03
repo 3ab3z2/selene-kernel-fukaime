@@ -10,8 +10,8 @@
 #include <linux/module.h>
 #include <linux/init.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
 
 #include "cio.h"
 #include "cio_debug.h"

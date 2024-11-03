@@ -2,9 +2,9 @@
 #ifndef _ASM_HIGHMEM_H
 #define _ASM_HIGHMEM_H
 
-#include <asm/cacheflush.h>
-#include <asm/kmap_types.h>
-#include <asm/fixmap.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/fixmap.h>
 
 /*
  * Right now we initialize only a single pte table. It can be extended

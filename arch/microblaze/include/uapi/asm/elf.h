@@ -39,8 +39,8 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/byteorder.h>
 
 #ifndef ELF_GREG_T
 #define ELF_GREG_T

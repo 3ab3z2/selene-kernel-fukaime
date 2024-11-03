@@ -12,12 +12,12 @@
 
 #include <linux/export.h>
 #include <linux/io.h>
-#include <asm/cacheflush.h>
-#include <asm/core_reg.h>
-#include <asm/global_lock.h>
-#include <asm/metag_isa.h>
-#include <asm/metag_mem.h>
-#include <asm/metag_regs.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/global_lock.h>
+#include <asm-generic/metag_isa.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/metag_regs.h>
 
 #define DEFAULT_CACHE_WAYS_LOG2	2
 

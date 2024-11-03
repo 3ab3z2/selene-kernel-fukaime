@@ -27,25 +27,25 @@
 #include <linux/module.h>
 #include <linux/initrd.h>
 
-#include <asm/bootinfo.h>
-#include <asm/byteorder.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/fpu.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
 #ifdef CONFIG_AMIGA
-#include <asm/amigahw.h>
+#include <asm-generic/amigahw.h>
 #endif
 #ifdef CONFIG_ATARI
-#include <asm/atarihw.h>
-#include <asm/atari_stram.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/atari_stram.h>
 #endif
 #ifdef CONFIG_SUN3X
-#include <asm/dvma.h>
+#include <asm-generic/dvma.h>
 #endif
-#include <asm/natfeat.h>
+#include <asm-generic/natfeat.h>
 
 #if !FPSTATESIZE || !NR_IRQS
 #warning No CPU/platform type selected, your kernel will not work!

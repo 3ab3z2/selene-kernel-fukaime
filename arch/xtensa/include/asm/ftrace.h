@@ -1,5 +1,5 @@
 /*
- * arch/xtensa/include/asm/ftrace.h
+ * arch/xtensa/include/asm-generic/ftrace.h
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file "COPYING" in the main directory of this archive
@@ -10,7 +10,7 @@
 #ifndef _XTENSA_FTRACE_H
 #define _XTENSA_FTRACE_H
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #ifndef __ASSEMBLY__
 #define ftrace_return_address0 ({ unsigned long a0, a1; \

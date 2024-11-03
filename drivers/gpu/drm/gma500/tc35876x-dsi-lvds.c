@@ -29,7 +29,7 @@
 #include <linux/platform_data/tc35876x.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 static struct i2c_client *tc35876x_client;
 static struct i2c_client *cmi_lcd_i2c_client;

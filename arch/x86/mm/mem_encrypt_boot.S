@@ -11,11 +11,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/processor-flags.h>
-#include <asm/msr-index.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/msr-index.h>
+#include <asm-generic/nospec-branch.h>
 
 	.text
 	.code64

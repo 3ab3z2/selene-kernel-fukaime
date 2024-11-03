@@ -44,11 +44,11 @@
 #include <linux/sched.h>
 #include <linux/signal.h>
 #include <linux/sfi.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/atomic.h>
-#include <asm/intel_scu_ipc.h>
-#include <asm/apb_timer.h>
-#include <asm/intel-mid.h>
+#include <asm-generic/intel_scu_ipc.h>
+#include <asm-generic/apb_timer.h>
+#include <asm-generic/intel-mid.h>
 
 #include "intel_scu_watchdog.h"
 

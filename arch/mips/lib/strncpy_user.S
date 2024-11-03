@@ -7,10 +7,10 @@
  * Copyright (C) 2011 MIPS Technologies, Inc.
  */
 #include <linux/errno.h>
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 #define EX(insn,reg,addr,handler)			\
 9:	insn	reg, addr;				\

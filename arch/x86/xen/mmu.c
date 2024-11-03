@@ -1,6 +1,6 @@
 #include <linux/pfn.h>
-#include <asm/xen/page.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/page.h>
+#include <asm-generic/xen/hypercall.h>
 #include <xen/interface/memory.h>
 
 #include "multicalls.h"

@@ -23,11 +23,11 @@
 #include <linux/slab.h>
 #include <linux/rculist.h>
 
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/machdep.h>
-#include <asm/mmu_context.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/hw_irq.h>
 
 #include "trace_pr.h"
 

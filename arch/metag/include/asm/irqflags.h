@@ -11,8 +11,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/core_reg.h>
-#include <asm/metag_regs.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/metag_regs.h>
 
 #define INTS_OFF_MASK TXSTATI_BGNDHALT_BIT
 

@@ -19,15 +19,15 @@
 #include <linux/string_helpers.h>
 #include <linux/stop_machine.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/dma.h>
-#include <asm/machdep.h>
-#include <asm/mmu.h>
-#include <asm/firmware.h>
-#include <asm/powernv.h>
-#include <asm/sections.h>
-#include <asm/trace.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/powernv.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/trace.h>
 
 #include <trace/events/thp.h>
 

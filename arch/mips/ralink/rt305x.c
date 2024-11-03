@@ -14,11 +14,11 @@
 #include <linux/init.h>
 #include <linux/bug.h>
 
-#include <asm/io.h>
-#include <asm/mipsregs.h>
-#include <asm/mach-ralink/ralink_regs.h>
-#include <asm/mach-ralink/rt305x.h>
-#include <asm/mach-ralink/pinmux.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mach-ralink/ralink_regs.h>
+#include <asm-generic/mach-ralink/rt305x.h>
+#include <asm-generic/mach-ralink/pinmux.h>
 
 #include "common.h"
 

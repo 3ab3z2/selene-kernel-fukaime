@@ -13,7 +13,7 @@
 #define _ASM_TLBFLUSH_H
 
 #include <linux/mm.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_MMU
 

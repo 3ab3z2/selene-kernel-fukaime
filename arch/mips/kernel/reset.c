@@ -13,7 +13,7 @@
 #include <linux/reboot.h>
 #include <linux/delay.h>
 
-#include <asm/reboot.h>
+#include <asm-generic/reboot.h>
 
 /*
  * Urgs ...  Too many MIPS machines to handle this in a generic way.

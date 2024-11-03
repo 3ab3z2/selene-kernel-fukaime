@@ -2,9 +2,9 @@
 #include <linux/init.h>
 #include <linux/suspend.h>
 #include <linux/io.h>
-#include <asm/time.h>
-#include <asm/cacheflush.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/time.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mpc52xx.h>
 
 /* these are defined in mpc52xx_sleep.S, and only used here */
 extern void mpc52xx_deep_sleep(void __iomem *sram, void __iomem *sdram_regs,

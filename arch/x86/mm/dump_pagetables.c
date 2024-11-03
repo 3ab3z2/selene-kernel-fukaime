@@ -19,7 +19,7 @@
 #include <linux/sched.h>
 #include <linux/seq_file.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * The dumper groups pagetable entries of the same type into one, and for

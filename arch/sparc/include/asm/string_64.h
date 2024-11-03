@@ -10,7 +10,7 @@
 #ifndef __SPARC64_STRING_H__
 #define __SPARC64_STRING_H__
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 /* Now the str*() stuff... */
 #define __HAVE_ARCH_STRLEN

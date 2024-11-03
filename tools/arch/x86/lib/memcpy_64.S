@@ -1,10 +1,10 @@
 /* Copyright 2002 Andi Kleen */
 
 #include <linux/linkage.h>
-#include <asm/errno.h>
-#include <asm/cpufeatures.h>
-#include <asm/alternative-asm.h>
-#include <asm/export.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/alternative-asm.h>
+#include <asm-generic/export.h>
 
 /*
  * We build a jump to memcpy_orig by default which gets NOPped out on

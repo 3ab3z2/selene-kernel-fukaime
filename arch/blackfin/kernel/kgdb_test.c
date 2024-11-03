@@ -11,10 +11,10 @@
 #include <linux/init.h>
 #include <linux/proc_fs.h>
 
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 /* Symbols are here for kgdb test to poke directly */
 static char cmdline[256];

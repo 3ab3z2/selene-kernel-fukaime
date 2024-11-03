@@ -13,8 +13,8 @@
 
 #include <linux/numa.h>
 #include <linux/percpu.h>
-#include <asm/types.h>
-#include <asm/percpu.h>
+#include <asm-generic/types.h>
+#include <asm-generic/percpu.h>
 
 
 /*

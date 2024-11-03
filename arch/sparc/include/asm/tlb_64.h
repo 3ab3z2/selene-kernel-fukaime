@@ -4,9 +4,9 @@
 
 #include <linux/swap.h>
 #include <linux/pagemap.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
 
 #ifdef CONFIG_SMP
 void smp_flush_tlb_pending(struct mm_struct *,

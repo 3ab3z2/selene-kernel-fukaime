@@ -30,10 +30,10 @@
 #include <linux/cpu.h>
 #include <linux/cpumask.h>
 
-#include <asm/pal.h>
-#include <asm/sal.h>
-#include <asm/page.h>
-#include <asm/processor.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
 #include <linux/smp.h>
 
 MODULE_AUTHOR("Stephane Eranian <eranian@hpl.hp.com>");

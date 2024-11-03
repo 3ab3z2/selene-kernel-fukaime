@@ -2,7 +2,7 @@
 #ifndef __PARISC_IPCBUF_H__
 #define __PARISC_IPCBUF_H__
 
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 #include <linux/posix_types.h>
 
 /*

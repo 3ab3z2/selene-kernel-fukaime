@@ -37,7 +37,7 @@
 #include <sound/soc.h>
 #include <sound/tlv.h>
 #include <sound/initval.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "wm8580.h"
 

@@ -36,7 +36,7 @@
 #include <linux/init.h>
 #include <linux/string.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 int prom_argc;
 char **prom_argv;

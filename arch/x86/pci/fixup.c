@@ -7,8 +7,8 @@
 #include <linux/dmi.h>
 #include <linux/pci.h>
 #include <linux/vgaarb.h>
-#include <asm/hpet.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/hpet.h>
+#include <asm-generic/pci_x86.h>
 
 static void pci_fixup_i450nx(struct pci_dev *d)
 {

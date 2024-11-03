@@ -31,7 +31,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/siu.h>
+#include <asm-generic/siu.h>
 
 #include "siu.h"
 

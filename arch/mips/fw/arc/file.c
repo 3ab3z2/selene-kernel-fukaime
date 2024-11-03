@@ -9,8 +9,8 @@
  * Copyright (C) 1999 Silicon Graphics, Inc.
  */
 
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
 
 LONG
 ArcGetDirectoryEntry(ULONG FileID, struct linux_vdirent *Buffer,

@@ -40,7 +40,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 
-#include <asm/mpc5121.h>
+#include <asm-generic/mpc5121.h>
 
 /* Addresses for NFC MAIN RAM BUFFER areas */
 #define NFC_MAIN_AREA(n)	((n) *  0x200)

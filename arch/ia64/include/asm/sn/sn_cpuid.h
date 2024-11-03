@@ -12,9 +12,9 @@
 #define _ASM_IA64_SN_SN_CPUID_H
 
 #include <linux/smp.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/pda.h>
-#include <asm/intrinsics.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/intrinsics.h>
 
 
 /*

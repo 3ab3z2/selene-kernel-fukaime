@@ -19,18 +19,18 @@
 #include <linux/cpu.h>
 #include <linux/hardirq.h>
 
-#include <asm/page.h>
-#include <asm/current.h>
-#include <asm/machdep.h>
-#include <asm/cacheflush.h>
-#include <asm/firmware.h>
-#include <asm/paca.h>
-#include <asm/mmu.h>
-#include <asm/sections.h>	/* _end */
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/hw_breakpoint.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/page.h>
+#include <asm-generic/current.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/sections.h>	/* _end */
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/hw_breakpoint.h>
+#include <asm-generic/asm-prototypes.h>
 
 int default_machine_kexec_prepare(struct kimage *image)
 {

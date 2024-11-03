@@ -105,9 +105,9 @@ static inline void clear_##unit##_##name(uint##sz##_t val)		\
 	CPS_ACCESSOR_W(unit, sz, name)					\
 	CPS_ACCESSOR_M(unit, sz, name)
 
-#include <asm/mips-cm.h>
-#include <asm/mips-cpc.h>
-#include <asm/mips-gic.h>
+#include <asm-generic/mips-cm.h>
+#include <asm-generic/mips-cpc.h>
+#include <asm-generic/mips-gic.h>
 
 /**
  * mips_cps_numclusters - return the number of clusters present in the system

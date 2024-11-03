@@ -11,8 +11,8 @@
 #include <linux/interrupt.h>
 #include <linux/pci.h>
 #include <linux/types.h>
-#include <asm/ip32/mace.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 #undef DEBUG_MACE_PCI
 

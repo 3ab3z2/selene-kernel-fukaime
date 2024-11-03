@@ -21,8 +21,8 @@
 #ifndef _ASM_GT64120_H
 #define _ASM_GT64120_H
 
-#include <asm/addrspace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/byteorder.h>
 
 #define MSK(n)			((1 << (n)) - 1)
 

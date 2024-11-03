@@ -17,7 +17,7 @@
 #include <linux/tty.h>
 #include <linux/serial.h>
 #include <linux/major.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ciscode.h>

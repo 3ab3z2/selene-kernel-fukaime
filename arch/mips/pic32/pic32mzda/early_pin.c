@@ -11,7 +11,7 @@
  *  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
  *  for more details.
  */
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "early_pin.h"
 

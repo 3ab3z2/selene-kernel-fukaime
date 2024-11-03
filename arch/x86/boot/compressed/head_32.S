@@ -26,11 +26,11 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/page_types.h>
-#include <asm/boot.h>
-#include <asm/asm-offsets.h>
-#include <asm/bootparam.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/boot.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/bootparam.h>
 
 /*
  * The 32-bit x86 assembler in binutils 2.26 will generate R_386_GOT32X

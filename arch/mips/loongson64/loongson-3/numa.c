@@ -21,14 +21,14 @@
 #include <linux/bootmem.h>
 #include <linux/pfn.h>
 #include <linux/highmem.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sections.h>
 #include <linux/irq.h>
-#include <asm/bootinfo.h>
-#include <asm/mc146818-time.h>
-#include <asm/time.h>
-#include <asm/wbflush.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mc146818-time.h>
+#include <asm-generic/time.h>
+#include <asm-generic/wbflush.h>
 #include <boot_param.h>
 
 static struct node_data prealloc__node_data[MAX_NUMNODES];

@@ -79,7 +79,7 @@ struct kvm_vcpu_arch_shared {
 
 #define KVM_HCALL_TOKEN(num)     _EV_HCALL_TOKEN(EV_KVM_VENDOR_ID, num)
 
-#include <asm/epapr_hcalls.h>
+#include <asm-generic/epapr_hcalls.h>
 
 #define KVM_FEATURE_MAGIC_PAGE	1
 

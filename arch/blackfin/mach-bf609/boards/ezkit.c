@@ -22,11 +22,11 @@
 #include <linux/platform_data/pinctrl-adi2.h>
 #include <linux/spi/adi_spi3.h>
 #include <linux/gpio.h>
-#include <asm/dma.h>
-#include <asm/nand.h>
-#include <asm/dpmc.h>
-#include <asm/portmux.h>
-#include <asm/bfin_sdh.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/nand.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin_sdh.h>
 #include <linux/input.h>
 #include <linux/spi/ad7877.h>
 
@@ -788,7 +788,7 @@ static struct platform_device bfin_pcm = {
 #endif
 
 #if IS_ENABLED(CONFIG_SND_BF6XX_SOC_I2S)
-#include <asm/bfin_sport3.h>
+#include <asm-generic/bfin_sport3.h>
 static struct resource bfin_snd_resources[] = {
 	{
 		.start = SPORT0_CTL_A,

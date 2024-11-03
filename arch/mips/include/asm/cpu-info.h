@@ -15,7 +15,7 @@
 #include <linux/cache.h>
 #include <linux/types.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * Descriptor for a cache

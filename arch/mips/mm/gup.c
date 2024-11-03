@@ -13,8 +13,8 @@
 #include <linux/swap.h>
 #include <linux/hugetlb.h>
 
-#include <asm/cpu-features.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/pgtable.h>
 
 static inline pte_t gup_get_pte(pte_t *ptep)
 {

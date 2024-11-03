@@ -14,8 +14,8 @@
 #include <linux/uprobes.h>
 #include <linux/notifier.h>
 
-#include <asm/opcodes.h>
-#include <asm/traps.h>
+#include <asm-generic/opcodes.h>
+#include <asm-generic/traps.h>
 
 #include "../decode.h"
 #include "../decode-arm.h"

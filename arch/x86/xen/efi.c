@@ -24,9 +24,9 @@
 #include <xen/xen-ops.h>
 #include <xen/interface/platform.h>
 
-#include <asm/page.h>
-#include <asm/setup.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/xen/hypercall.h>
 
 static efi_char16_t vendor[100] __initdata;
 

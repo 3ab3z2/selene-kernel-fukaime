@@ -28,7 +28,7 @@
 #include <linux/dma-mapping.h>
 
 #ifdef CONFIG_X86
-#include <asm/set_memory.h>
+#include <asm-generic/set_memory.h>
 #endif
 
 #include "intel_th.h"

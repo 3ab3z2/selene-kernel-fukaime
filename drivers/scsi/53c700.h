@@ -10,7 +10,7 @@
 #define _53C700_H
 
 #include <linux/interrupt.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_cmnd.h>

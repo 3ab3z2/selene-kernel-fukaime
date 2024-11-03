@@ -19,7 +19,7 @@
 
 #include <soc/sa1100/pwer.h>
 
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 #define ICIP	0x00  /* IC IRQ Pending reg. */
 #define ICMR	0x04  /* IC Mask Reg.        */

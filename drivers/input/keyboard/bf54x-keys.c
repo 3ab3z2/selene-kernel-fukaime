@@ -42,7 +42,7 @@
 #include <linux/platform_device.h>
 #include <linux/input.h>
 
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 #include <mach/bf54x_keys.h>
 
 #define DRV_NAME	"bf54x-keys"

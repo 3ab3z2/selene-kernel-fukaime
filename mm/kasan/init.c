@@ -20,8 +20,8 @@
 #include <linux/pfn.h>
 #include <linux/slab.h>
 
-#include <asm/page.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
 
 #include "kasan.h"
 

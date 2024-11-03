@@ -20,17 +20,17 @@
 #include <linux/types.h>
 #include <linux/mutex.h>
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/geo.h>
-#include <asm/sn/l1.h>
-#include <asm/sn/module.h>
-#include <asm/sn/pcibr_provider.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/sn_feature_sets.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/types.h>
-#include <asm/sn/acpi.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/geo.h>
+#include <asm-generic/sn/l1.h>
+#include <asm-generic/sn/module.h>
+#include <asm-generic/sn/pcibr_provider.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/sn_feature_sets.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/acpi.h>
 
 #include "../pci.h"
 

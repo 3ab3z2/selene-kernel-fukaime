@@ -12,11 +12,11 @@
 #include <linux/gfp.h>
 #include <linux/module.h>
 #include <linux/dma-mapping.h>
-#include <asm/dma.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/sn_sal.h>
 
 #define SG_ENT_VIRT_ADDRESS(sg)	(sg_virt((sg)))
 #define SG_ENT_PHYS_ADDRESS(SG)	virt_to_phys(SG_ENT_VIRT_ADDRESS(SG))

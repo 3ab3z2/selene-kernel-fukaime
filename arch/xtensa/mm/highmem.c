@@ -10,7 +10,7 @@
 
 #include <linux/export.h>
 #include <linux/highmem.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 static pte_t *kmap_pte;
 

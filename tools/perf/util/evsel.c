@@ -22,7 +22,7 @@
 #include <sys/resource.h>
 #include <sys/types.h>
 #include <dirent.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "callchain.h"
 #include "cgroup.h"
 #include "event.h"

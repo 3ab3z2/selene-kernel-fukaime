@@ -32,17 +32,17 @@
 #include <linux/sched/signal.h>
 #include <linux/string.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/lowcore.h>
-#include <asm/stp.h>
-#include <asm/pgtable.h>
-#include <asm/gmap.h>
-#include <asm/nmi.h>
-#include <asm/switch_to.h>
-#include <asm/isc.h>
-#include <asm/sclp.h>
-#include <asm/cpacf.h>
-#include <asm/timex.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/stp.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/cpacf.h>
+#include <asm-generic/timex.h>
 #include "kvm-s390.h"
 #include "gaccess.h"
 

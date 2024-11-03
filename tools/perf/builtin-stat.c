@@ -65,7 +65,7 @@
 #include "util/tool.h"
 #include "util/group.h"
 #include "util/string2.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 
 #include <linux/time64.h>
 #include <api/fs/fs.h>

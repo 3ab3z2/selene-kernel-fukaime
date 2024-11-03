@@ -1,5 +1,5 @@
 /*
- * arch/xtensa/include/asm/initialize_mmu.h
+ * arch/xtensa/include/asm-generic/initialize_mmu.h
  *
  * Initializes MMU:
  *
@@ -23,8 +23,8 @@
 #ifndef _XTENSA_INITIALIZE_MMU_H
 #define _XTENSA_INITIALIZE_MMU_H
 
-#include <asm/pgtable.h>
-#include <asm/vectors.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/vectors.h>
 
 #if XCHAL_HAVE_PTP_MMU
 #define CA_BYPASS	(_PAGE_CA_BYPASS | _PAGE_HW_WRITE | _PAGE_HW_EXEC)

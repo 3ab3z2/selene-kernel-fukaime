@@ -8,7 +8,7 @@
 # include <asm/user_64.h>
 #endif
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 struct user_ymmh_regs {
 	/* 16 * 16 bytes for each YMMH-reg */

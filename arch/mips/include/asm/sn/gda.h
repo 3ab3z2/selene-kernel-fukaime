@@ -14,7 +14,7 @@
 #ifndef _ASM_SN_GDA_H
 #define _ASM_SN_GDA_H
 
-#include <asm/sn/addrs.h>
+#include <asm-generic/sn/addrs.h>
 
 #define GDA_MAGIC	0x58464552
 

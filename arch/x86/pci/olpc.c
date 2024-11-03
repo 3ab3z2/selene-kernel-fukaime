@@ -27,9 +27,9 @@
 
 #include <linux/pci.h>
 #include <linux/init.h>
-#include <asm/olpc.h>
-#include <asm/geode.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/olpc.h>
+#include <asm-generic/geode.h>
+#include <asm-generic/pci_x86.h>
 
 /*
  * In the tables below, the first two line (8 longwords) are the

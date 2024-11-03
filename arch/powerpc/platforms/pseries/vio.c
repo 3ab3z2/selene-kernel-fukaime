@@ -27,14 +27,14 @@
 #include <linux/dma-mapping.h>
 #include <linux/kobject.h>
 
-#include <asm/iommu.h>
-#include <asm/dma.h>
-#include <asm/vio.h>
-#include <asm/prom.h>
-#include <asm/firmware.h>
-#include <asm/tce.h>
-#include <asm/page.h>
-#include <asm/hvcall.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/vio.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/tce.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hvcall.h>
 
 static struct vio_dev vio_bus_device  = { /* fake "parent" device */
 	.name = "vio",

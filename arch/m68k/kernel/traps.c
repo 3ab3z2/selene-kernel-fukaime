@@ -32,13 +32,13 @@
 #include <linux/kallsyms.h>
 #include <linux/extable.h>
 
-#include <asm/setup.h>
-#include <asm/fpu.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/fpu.h>
 #include <linux/uaccess.h>
-#include <asm/traps.h>
-#include <asm/pgalloc.h>
-#include <asm/machdep.h>
-#include <asm/siginfo.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/siginfo.h>
 
 
 static const char *vec_names[] = {
@@ -368,7 +368,7 @@ disable_wb:
 #endif /* CONFIG_M68040 */
 
 #if defined(CONFIG_SUN3)
-#include <asm/sun3mmu.h>
+#include <asm-generic/sun3mmu.h>
 
 extern int mmu_emu_handle_fault (unsigned long, int, int);
 
@@ -675,7 +675,7 @@ create_atc_entry:
 #endif /* !CONFIG_SUN3 */
 
 #if defined(CONFIG_COLDFIRE) && defined(CONFIG_MMU)
-#include <asm/mcfmmu.h>
+#include <asm-generic/mcfmmu.h>
 
 /*
  *	The following table converts the FS encoding of a ColdFire

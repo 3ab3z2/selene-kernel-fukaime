@@ -37,10 +37,10 @@
 #include <linux/personality.h>
 
 #include <linux/uaccess.h>
-#include <asm/syscalls.h>
-#include <asm/time.h>
-#include <asm/unistd.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/time.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/asm-prototypes.h>
 
 static inline long do_mmap2(unsigned long addr, size_t len,
 			unsigned long prot, unsigned long flags,

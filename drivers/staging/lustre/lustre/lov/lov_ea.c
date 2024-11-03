@@ -36,7 +36,7 @@
 
 #define DEBUG_SUBSYSTEM S_LOV
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/libcfs/libcfs.h>
 
 #include <obd_class.h>

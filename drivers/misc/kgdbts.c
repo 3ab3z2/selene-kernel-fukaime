@@ -105,7 +105,7 @@
 #include <linux/module.h>
 #include <linux/sched/task.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #define v1printk(a...) do {		\
 	if (verbose)			\

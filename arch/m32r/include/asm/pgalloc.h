@@ -4,7 +4,7 @@
 
 #include <linux/mm.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define pmd_populate_kernel(mm, pmd, pte)	\
 	set_pmd(pmd, __pmd(_PAGE_TABLE + __pa(pte)))

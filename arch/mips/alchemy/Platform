@@ -9,7 +9,7 @@ platform-$(CONFIG_MIPS_ALCHEMY) += alchemy/common/
 #             Db1550/Pb1550/Db1200/Pb1200/Db1300
 #
 platform-$(CONFIG_MIPS_DB1XXX)	+= alchemy/devboards/
-cflags-$(CONFIG_MIPS_DB1XXX)	+= -I$(srctree)/arch/mips/include/asm/mach-db1x00
+cflags-$(CONFIG_MIPS_DB1XXX)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-db1x00
 load-$(CONFIG_MIPS_DB1XXX)	+= 0xffffffff80100000
 
 #
@@ -35,4 +35,4 @@ load-$(CONFIG_MIPS_GPR)		+= 0xffffffff80100000
 # compiler picks the board one.	 If they don't, it will make sure
 # the alchemy generic gpio header is picked up.
 
-cflags-$(CONFIG_MIPS_ALCHEMY)	+= -I$(srctree)/arch/mips/include/asm/mach-au1x00
+cflags-$(CONFIG_MIPS_ALCHEMY)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-au1x00

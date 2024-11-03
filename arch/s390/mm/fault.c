@@ -31,13 +31,13 @@
 #include <linux/kprobes.h>
 #include <linux/uaccess.h>
 #include <linux/hugetlb.h>
-#include <asm/asm-offsets.h>
-#include <asm/diag.h>
-#include <asm/pgtable.h>
-#include <asm/gmap.h>
-#include <asm/irq.h>
-#include <asm/mmu_context.h>
-#include <asm/facility.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/facility.h>
 #include "../kernel/entry.h"
 
 #define __FAIL_ADDR_MASK -4096L

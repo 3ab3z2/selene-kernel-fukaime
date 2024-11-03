@@ -12,9 +12,9 @@
 #include <linux/kexec.h>
 #include <linux/mm.h>
 #include <linux/string.h>
-#include <asm/cacheflush.h>
-#include <asm/hw_irq.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/io.h>
 
 typedef void (*relocate_new_kernel_t)(
 				unsigned long indirection_page,

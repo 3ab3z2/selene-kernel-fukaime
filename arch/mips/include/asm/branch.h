@@ -8,10 +8,10 @@
 #ifndef _ASM_BRANCH_H
 #define _ASM_BRANCH_H
 
-#include <asm/cpu-features.h>
-#include <asm/mipsregs.h>
-#include <asm/ptrace.h>
-#include <asm/inst.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/inst.h>
 
 extern int __isa_exception_epc(struct pt_regs *regs);
 extern int __compute_return_epc(struct pt_regs *regs);

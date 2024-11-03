@@ -17,12 +17,12 @@
 #include <linux/slab.h>
 #include <linux/of.h>
 
-#include <asm/cpu.h>
-#include <asm/cputype.h>
-#include <asm/cpuidle.h>
-#include <asm/mcpm.h>
-#include <asm/smp_plat.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/mcpm.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/suspend.h>
 
 #include "dt_idle_states.h"
 

@@ -13,8 +13,8 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/slab.h>
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_transport_spi.h>
 

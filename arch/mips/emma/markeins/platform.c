@@ -24,16 +24,16 @@
 #include <linux/serial_8250.h>
 #include <linux/mtd/physmap.h>
 
-#include <asm/cpu.h>
-#include <asm/bootinfo.h>
-#include <asm/addrspace.h>
-#include <asm/time.h>
-#include <asm/bcache.h>
-#include <asm/irq.h>
-#include <asm/reboot.h>
-#include <asm/traps.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/time.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/traps.h>
 
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/emma/emma2rh.h>
 
 
 #define I2C_EMMA2RH "emma2rh-iic" /* must be in sync with IIC driver */

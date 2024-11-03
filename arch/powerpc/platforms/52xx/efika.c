@@ -13,12 +13,12 @@
 #include <generated/utsrelease.h>
 #include <linux/pci.h>
 #include <linux/of.h>
-#include <asm/dma.h>
-#include <asm/prom.h>
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/rtas.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/mpc52xx.h>
 
 #define EFIKA_PLATFORM_NAME "Efika"
 

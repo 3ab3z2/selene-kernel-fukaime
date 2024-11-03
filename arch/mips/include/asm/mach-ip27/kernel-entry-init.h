@@ -9,9 +9,9 @@
 #ifndef __ASM_MACH_IP27_KERNEL_ENTRY_H
 #define __ASM_MACH_IP27_KERNEL_ENTRY_H
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/sn0/hubni.h>
-#include <asm/sn/klkernvars.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/sn0/hubni.h>
+#include <asm-generic/sn/klkernvars.h>
 
 /*
  * Returns the local nasid into res.

@@ -10,9 +10,9 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 
-#include <asm/irq.h>
-#include <asm/mach/pci.h>
-#include <asm/mach-types.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/pci.h>
+#include <asm-generic/mach-types.h>
 
 /*
  * We now use the slot ID instead of the device identifiers to select

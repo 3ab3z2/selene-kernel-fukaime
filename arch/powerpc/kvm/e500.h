@@ -8,7 +8,7 @@
  *
  * Description:
  * This file is based on arch/powerpc/kvm/44x_tlb.h and
- * arch/powerpc/include/asm/kvm_44x.h by Hollis Blanchard <hollisb@us.ibm.com>,
+ * arch/powerpc/include/asm-generic/kvm_44x.h by Hollis Blanchard <hollisb@us.ibm.com>,
  * Copyright IBM Corp. 2007-2008
  *
  * This program is free software; you can redistribute it and/or modify
@@ -20,9 +20,9 @@
 #define KVM_E500_H
 
 #include <linux/kvm_host.h>
-#include <asm/mmu-book3e.h>
-#include <asm/tlb.h>
-#include <asm/cputhreads.h>
+#include <asm-generic/mmu-book3e.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/cputhreads.h>
 
 enum vcpu_ftr {
 	VCPU_FTR_MMU_V2

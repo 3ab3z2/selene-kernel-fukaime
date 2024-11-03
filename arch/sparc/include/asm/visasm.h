@@ -7,8 +7,8 @@
  * Copyright (C) 1998 Jakub Jelinek (jj@ultra.linux.cz)
  */
 
-#include <asm/pstate.h>
-#include <asm/ptrace.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ptrace.h>
 
 /* Clobbers %o5, %g1, %g2, %g3, %g7, %icc, %xcc */
 

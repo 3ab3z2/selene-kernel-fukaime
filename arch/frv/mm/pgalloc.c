@@ -14,9 +14,9 @@
 #include <linux/mm.h>
 #include <linux/highmem.h>
 #include <linux/quicklist.h>
-#include <asm/pgalloc.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
 
 pgd_t swapper_pg_dir[PTRS_PER_PGD] __attribute__((aligned(PAGE_SIZE)));
 

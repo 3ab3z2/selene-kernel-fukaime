@@ -7,7 +7,7 @@
  */
 
 #include <linux/crash_dump.h>
-#include <asm/lowcore.h>
+#include <asm-generic/lowcore.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/mm.h>
@@ -15,12 +15,12 @@
 #include <linux/slab.h>
 #include <linux/bootmem.h>
 #include <linux/elf.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/memblock.h>
-#include <asm/os_info.h>
-#include <asm/elf.h>
-#include <asm/ipl.h>
-#include <asm/sclp.h>
+#include <asm-generic/os_info.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/sclp.h>
 
 #define PTR_ADD(x, y) (((char *) (x)) + ((unsigned long) (y)))
 #define PTR_SUB(x, y) (((char *) (x)) - ((unsigned long) (y)))

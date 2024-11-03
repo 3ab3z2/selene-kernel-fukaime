@@ -22,10 +22,10 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/ebcdic.h>
-#include <asm/io.h>
-#include <asm/appldata.h>
-#include <asm/monwriter.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/io.h>
+#include <asm-generic/appldata.h>
+#include <asm-generic/monwriter.h>
 
 #define MONWRITE_MAX_DATALEN	4010
 

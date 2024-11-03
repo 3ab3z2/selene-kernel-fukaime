@@ -16,8 +16,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/ptrace.h>
-#include <asm/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
 
 /*
  * Low level task data.

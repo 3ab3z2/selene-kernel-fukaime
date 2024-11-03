@@ -30,12 +30,12 @@
 #include <linux/kvm_host.h>
 #include <linux/bug.h>
 #ifdef CONFIG_PPC_BOOK3S
-#include <asm/kvm_book3s.h>
+#include <asm-generic/kvm_book3s.h>
 #else
-#include <asm/kvm_booke.h>
+#include <asm-generic/kvm_booke.h>
 #endif
 #ifdef CONFIG_KVM_BOOK3S_64_HANDLER
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 #endif
 
 /*

@@ -2,8 +2,8 @@
 #ifndef __SPARC_SIGCONTEXT_H
 #define __SPARC_SIGCONTEXT_H
 
-#include <asm/ptrace.h>
-#include <uapi/asm/sigcontext.h>
+#include <asm-generic/ptrace.h>
+#include <uapi/asm-generic/sigcontext.h>
 
 #ifndef __ASSEMBLY__
 

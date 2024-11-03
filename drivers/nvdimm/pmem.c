@@ -15,7 +15,7 @@
  * more details.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/blkdev.h>
 #include <linux/hdreg.h>
 #include <linux/init.h>

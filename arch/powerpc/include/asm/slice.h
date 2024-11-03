@@ -3,11 +3,11 @@
 #define _ASM_POWERPC_SLICE_H
 
 #ifdef CONFIG_PPC_BOOK3S_64
-#include <asm/book3s/64/slice.h>
+#include <asm-generic/book3s/64/slice.h>
 #elif defined(CONFIG_PPC64)
-#include <asm/nohash/64/slice.h>
+#include <asm-generic/nohash/64/slice.h>
 #elif defined(CONFIG_PPC_MMU_NOHASH)
-#include <asm/nohash/32/slice.h>
+#include <asm-generic/nohash/32/slice.h>
 #endif
 
 #ifdef CONFIG_PPC_MM_SLICES

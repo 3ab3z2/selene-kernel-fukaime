@@ -35,9 +35,9 @@
 #include <linux/kallsyms.h>
 #include <linux/uaccess.h>
 
-#include <asm/segment.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
 
 extern char _etext, _stext;
 

@@ -46,14 +46,14 @@
 #include <linux/iommu-helper.h>
 #include <linux/export.h>
 
-#include <asm/byteorder.h>
-#include <asm/cache.h>		/* for L1_CACHE_BYTES */
+#include <asm-generic/byteorder.h>
+#include <asm-generic/cache.h>		/* for L1_CACHE_BYTES */
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/hardware.h>       /* for register_module() */
-#include <asm/parisc-device.h>
+#include <asm-generic/page.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>       /* for register_module() */
+#include <asm-generic/parisc-device.h>
 
 /* 
 ** Choose "ccio" since that's what HP-UX calls it.
@@ -71,7 +71,7 @@
 #undef CCIO_COLLECT_STATS
 #endif
 
-#include <asm/runway.h>		/* for proc_runway_root */
+#include <asm-generic/runway.h>		/* for proc_runway_root */
 
 #ifdef DEBUG_CCIO_INIT
 #define DBG_INIT(x...)  printk(x)

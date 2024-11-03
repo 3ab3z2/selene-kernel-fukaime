@@ -24,10 +24,10 @@
 #include <linux/tracehook.h>
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/unistd.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/unistd.h>
 
 /*
  * does not yet catch signals sent when the child dies.

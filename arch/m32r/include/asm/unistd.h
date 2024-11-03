@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_UNISTD_H
 #define _ASM_M32R_UNISTD_H
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 
 #define NR_syscalls 326

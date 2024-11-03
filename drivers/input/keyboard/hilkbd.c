@@ -26,9 +26,9 @@
 #include <linux/io.h>
 #include <linux/sched.h>
 #include <linux/spinlock.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #ifdef CONFIG_HP300
-#include <asm/hwtest.h>
+#include <asm-generic/hwtest.h>
 #endif
 
 
@@ -39,9 +39,9 @@ MODULE_LICENSE("GPL v2");
 
 #if defined(CONFIG_PARISC)
 
- #include <asm/io.h>
- #include <asm/hardware.h>
- #include <asm/parisc-device.h>
+ #include <asm-generic/io.h>
+ #include <asm-generic/hardware.h>
+ #include <asm-generic/parisc-device.h>
  static unsigned long hil_base;	/* HPA for the HIL device */
  static unsigned int hil_irq;
  #define HILBASE		hil_base /* HPPA (parisc) port address */

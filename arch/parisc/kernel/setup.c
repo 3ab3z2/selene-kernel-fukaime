@@ -40,16 +40,16 @@
 #include <linux/sched/clock.h>
 #include <linux/start_kernel.h>
 
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/pdc.h>
-#include <asm/led.h>
-#include <asm/machdep.h>	/* for pa7300lc_init() proto */
-#include <asm/pdc_chassis.h>
-#include <asm/io.h>
-#include <asm/setup.h>
-#include <asm/unwind.h>
-#include <asm/smp.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/led.h>
+#include <asm-generic/machdep.h>	/* for pa7300lc_init() proto */
+#include <asm-generic/pdc_chassis.h>
+#include <asm-generic/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/smp.h>
 
 static char __initdata command_line[COMMAND_LINE_SIZE];
 

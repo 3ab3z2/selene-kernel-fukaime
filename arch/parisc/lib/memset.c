@@ -19,7 +19,7 @@
 /* Slight modifications for pa-risc linux - Paul Bame <bame@debian.org> */
 
 #include <linux/types.h>
-#include <asm/string.h>
+#include <asm-generic/string.h>
 
 #define OPSIZ (BITS_PER_LONG/8)
 typedef unsigned long op_t;

@@ -7,7 +7,7 @@
 #include <uapi/linux/audit.h>
 #include <linux/compat.h>
 #include <linux/err.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #define NR_syscalls (__NR_Linux_syscalls)
 

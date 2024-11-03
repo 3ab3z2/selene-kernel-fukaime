@@ -20,12 +20,12 @@
 #include <linux/delay.h>
 #include <linux/suspend.h>
 #include <linux/stat.h>
-#include <asm/firmware.h>
-#include <asm/hvcall.h>
-#include <asm/machdep.h>
-#include <asm/mmu.h>
-#include <asm/rtas.h>
-#include <asm/topology.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/topology.h>
 
 static u64 stream_id;
 static struct device suspend_dev;

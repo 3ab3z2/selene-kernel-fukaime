@@ -17,7 +17,7 @@
 #include <linux/err.h>
 #include <linux/types.h>
 #include <linux/slab.h>
-#include <asm/cio.h>
+#include <asm-generic/cio.h>
 #include <linux/uaccess.h>
 
 #define IDA_SIZE_LOG 12 /* 11 for 2k , 12 for 4k */

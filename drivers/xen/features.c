@@ -9,7 +9,7 @@
 #include <linux/cache.h>
 #include <linux/export.h>
 
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/interface/xen.h>
 #include <xen/interface/version.h>

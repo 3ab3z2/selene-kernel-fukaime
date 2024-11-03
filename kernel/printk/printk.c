@@ -53,7 +53,7 @@
 #include <linux/proc_fs.h>
 
 #include <linux/uaccess.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/printk.h>

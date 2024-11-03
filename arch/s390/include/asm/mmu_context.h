@@ -8,11 +8,11 @@
 #ifndef __S390_MMU_CONTEXT_H
 #define __S390_MMU_CONTEXT_H
 
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
 #include <linux/mm_types.h>
-#include <asm/tlbflush.h>
-#include <asm/ctl_reg.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/ctl_reg.h>
 #include <asm-generic/mm_hooks.h>
 
 static inline int init_new_context(struct task_struct *tsk,

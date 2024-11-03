@@ -16,8 +16,8 @@
 #include <linux/export.h>
 #include <linux/init.h>
 
-#include <asm/mdesc.h>
-#include <asm/vio.h>
+#include <asm-generic/mdesc.h>
+#include <asm-generic/vio.h>
 
 static const struct vio_device_id *vio_match_device(
 	const struct vio_device_id *matches,

@@ -18,8 +18,8 @@
 #include <linux/mm.h>
 #include <linux/of_device.h>
 
-#include <asm/io.h>
-#include <asm/fbio.h>
+#include <asm-generic/io.h>
+#include <asm-generic/fbio.h>
 
 #include "sbuslib.h"
 

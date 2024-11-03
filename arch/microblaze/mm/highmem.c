@@ -30,7 +30,7 @@
  * be used in IRQ contexts, so in some (very limited) cases we need
  * it.
  */
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 void *kmap_atomic_prot(struct page *page, pgprot_t prot)
 {

@@ -7,17 +7,17 @@
  *  This file contains the HP300-specific time handling code.
  */
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/types.h>
 #include <linux/init.h>
 #include <linux/sched.h>
 #include <linux/kernel_stat.h>
 #include <linux/interrupt.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/traps.h>
-#include <asm/blinken.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/blinken.h>
 
 /* Clock hardware definitions */
 

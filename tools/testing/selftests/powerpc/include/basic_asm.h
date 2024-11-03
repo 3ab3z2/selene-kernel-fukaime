@@ -3,7 +3,7 @@
 #define _SELFTESTS_POWERPC_BASIC_ASM_H
 
 #include <ppc-asm.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #define LOAD_REG_IMMEDIATE(reg, expr) \
 	lis	reg, (expr)@highest;	\

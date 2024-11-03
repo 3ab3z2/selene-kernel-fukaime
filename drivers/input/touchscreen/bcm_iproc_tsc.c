@@ -19,7 +19,7 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/of.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/io.h>
 #include <linux/clk.h>
 #include <linux/serio.h>

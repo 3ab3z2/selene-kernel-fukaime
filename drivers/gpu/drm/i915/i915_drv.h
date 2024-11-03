@@ -33,7 +33,7 @@
 #include <uapi/drm/i915_drm.h>
 #include <uapi/drm/drm_fourcc.h>
 
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 #include <linux/io-mapping.h>
 #include <linux/i2c.h>

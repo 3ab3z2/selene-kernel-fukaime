@@ -1070,7 +1070,7 @@ static void isd200_fix_driveid(u16 *id)
 	for (i = 0; i < ATA_ID_WORDS; i++)
 		id[i] = __le16_to_cpu(id[i]);
 # else
-#  error "Please fix <asm/byteorder.h>"
+#  error "Please fix <asm-generic/byteorder.h>"
 # endif
 #endif
 }

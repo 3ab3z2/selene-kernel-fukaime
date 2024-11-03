@@ -19,9 +19,9 @@
 #include <linux/delay.h>
 #include <linux/smp.h>
 
-#include <asm/perf_event.h>
-#include <asm/ptrace.h>
-#include <asm/pcr.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pcr.h>
 
 #include "kstack.h"
 

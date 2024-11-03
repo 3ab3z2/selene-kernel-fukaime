@@ -21,11 +21,11 @@
 #include <linux/bootmem.h>
 #include <linux/completion.h>
 #include <linux/spinlock.h>
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/nvram.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/nvram.h>
 
 #include "pmac.h"
 

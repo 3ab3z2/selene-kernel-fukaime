@@ -13,10 +13,10 @@
 #include <linux/spinlock.h>
 #include <linux/string.h>
 
-#include <asm/delay.h>
-#include <asm/page.h>
-#include <asm/sal.h>
-#include <asm/pal.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/pal.h>
 
  __cacheline_aligned DEFINE_SPINLOCK(sal_lock);
 unsigned long sal_platform_features;

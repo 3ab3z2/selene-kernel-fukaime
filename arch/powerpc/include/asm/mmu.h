@@ -5,8 +5,8 @@
 
 #include <linux/types.h>
 
-#include <asm/asm-compat.h>
-#include <asm/feature-fixups.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/feature-fixups.h>
 
 /*
  * MMU features bit definitions
@@ -124,10 +124,10 @@
 				MMU_FTR_CI_LARGE_PAGE | MMU_FTR_NO_SLBIE_B
 #ifndef __ASSEMBLY__
 #include <linux/bug.h>
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 
 #ifdef CONFIG_PPC_FSL_BOOK3E
-#include <asm/percpu.h>
+#include <asm-generic/percpu.h>
 DECLARE_PER_CPU(int, next_tlbcam_idx);
 #endif
 
@@ -302,7 +302,7 @@ static inline bool early_radix_enabled(void)
 #define MMU_PAGE_COUNT	16
 
 #ifdef CONFIG_PPC_BOOK3S_64
-#include <asm/book3s/64/mmu.h>
+#include <asm-generic/book3s/64/mmu.h>
 #else /* CONFIG_PPC_BOOK3S_64 */
 
 #ifndef __ASSEMBLY__
@@ -317,19 +317,19 @@ static inline void mmu_early_init_devtree(void) { }
 
 #if defined(CONFIG_PPC_STD_MMU_32)
 /* 32-bit classic hash table MMU */
-#include <asm/book3s/32/mmu-hash.h>
+#include <asm-generic/book3s/32/mmu-hash.h>
 #elif defined(CONFIG_40x)
 /* 40x-style software loaded TLB */
-#  include <asm/mmu-40x.h>
+#  include <asm-generic/mmu-40x.h>
 #elif defined(CONFIG_44x)
 /* 44x-style software loaded TLB */
-#  include <asm/mmu-44x.h>
+#  include <asm-generic/mmu-44x.h>
 #elif defined(CONFIG_PPC_BOOK3E_MMU)
 /* Freescale Book-E software loaded TLB or Book-3e (ISA 2.06+) MMU */
-#  include <asm/mmu-book3e.h>
+#  include <asm-generic/mmu-book3e.h>
 #elif defined (CONFIG_PPC_8xx)
 /* Motorola/Freescale 8xx software loaded TLB */
-#  include <asm/mmu-8xx.h>
+#  include <asm-generic/mmu-8xx.h>
 #endif
 
 #endif /* __KERNEL__ */

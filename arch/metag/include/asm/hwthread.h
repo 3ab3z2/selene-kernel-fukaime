@@ -8,7 +8,7 @@
 #include <linux/bug.h>
 #include <linux/io.h>
 
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 #define BAD_HWTHREAD_ID		(0xFFU)
 #define BAD_CPU_ID		(0xFFU)

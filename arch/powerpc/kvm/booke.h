@@ -22,8 +22,8 @@
 
 #include <linux/types.h>
 #include <linux/kvm_host.h>
-#include <asm/kvm_ppc.h>
-#include <asm/switch_to.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/switch_to.h>
 #include "timing.h"
 
 /* interrupt priortity ordering */

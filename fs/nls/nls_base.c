@@ -15,7 +15,7 @@
 #include <linux/errno.h>
 #include <linux/kmod.h>
 #include <linux/spinlock.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 static struct nls_table default_table;
 static struct nls_table *tables = &default_table;

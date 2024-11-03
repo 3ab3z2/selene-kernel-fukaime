@@ -18,11 +18,11 @@
 #include <linux/pagemap.h>
 #include <linux/sysctl.h>
 
-#include <asm/mman.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
 
 /*
  * If the arch doesn't supply something else, assume that hugepage

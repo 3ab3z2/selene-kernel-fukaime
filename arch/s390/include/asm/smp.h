@@ -8,11 +8,11 @@
 #ifndef __ASM_SMP_H
 #define __ASM_SMP_H
 
-#include <asm/sigp.h>
+#include <asm-generic/sigp.h>
 
 #ifdef CONFIG_SMP
 
-#include <asm/lowcore.h>
+#include <asm-generic/lowcore.h>
 
 #define raw_smp_processor_id()	(S390_lowcore.cpu_nr)
 

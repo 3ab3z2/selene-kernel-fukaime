@@ -24,12 +24,12 @@
 #include <linux/platform_device.h>
 #include <linux/sched/cputime.h>
 
-#include <asm/machvec.h>
-#include <asm/delay.h>
-#include <asm/hw_irq.h>
-#include <asm/ptrace.h>
-#include <asm/sal.h>
-#include <asm/sections.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sections.h>
 
 #include "fsyscall_gtod_data.h"
 

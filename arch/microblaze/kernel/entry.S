@@ -18,18 +18,18 @@
 #include <linux/sys.h>
 #include <linux/linkage.h>
 
-#include <asm/entry.h>
-#include <asm/current.h>
-#include <asm/processor.h>
-#include <asm/exceptions.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/current.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/exceptions.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
 
-#include <asm/page.h>
-#include <asm/unistd.h>
+#include <asm-generic/page.h>
+#include <asm-generic/unistd.h>
 
 #include <linux/errno.h>
-#include <asm/signal.h>
+#include <asm-generic/signal.h>
 
 #undef DEBUG
 

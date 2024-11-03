@@ -56,7 +56,7 @@
 #include <linux/bitmap.h>
 #include <linux/crc-itu-t.h>
 #include <linux/log2.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "udf_sb.h"
 #include "udf_i.h"

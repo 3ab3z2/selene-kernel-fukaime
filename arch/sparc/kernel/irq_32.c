@@ -16,11 +16,11 @@
 #include <linux/seq_file.h>
 #include <linux/export.h>
 
-#include <asm/cacheflush.h>
-#include <asm/cpudata.h>
-#include <asm/setup.h>
-#include <asm/pcic.h>
-#include <asm/leon.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pcic.h>
+#include <asm-generic/leon.h>
 
 #include "kernel.h"
 #include "irq.h"

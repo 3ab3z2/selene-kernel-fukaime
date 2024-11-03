@@ -10,8 +10,8 @@
  * Free Software Foundation; version 2 of the License.
  */
 
-#include <asm/asm.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
 #include "bpf_jit.h"
 
 /* ABI

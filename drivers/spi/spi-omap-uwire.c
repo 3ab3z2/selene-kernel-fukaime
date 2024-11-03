@@ -45,7 +45,7 @@
 #include <linux/io.h>
 
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/mux.h>
 

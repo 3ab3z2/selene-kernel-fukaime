@@ -27,12 +27,12 @@
 #include <linux/irq.h>
 #include <linux/module.h>
 #include <linux/pci.h>
-#include <asm/eeh.h>
-#include <asm/eeh_event.h>
-#include <asm/ppc-pci.h>
-#include <asm/pci-bridge.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
 
 struct eeh_rmv_data {
 	struct list_head edev_list;

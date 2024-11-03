@@ -66,7 +66,7 @@
 #include <linux/ioport.h>
 #include <linux/io.h>
 
-#include <asm/grfioctl.h>	/* for HP-UX compatibility */
+#include <asm-generic/grfioctl.h>	/* for HP-UX compatibility */
 #include <linux/uaccess.h>
 
 #include "sticore.h"

@@ -10,8 +10,8 @@
 
 #include <linux/clk.h>
 #include <linux/init.h>
-#include <asm/cpuinfo.h>
-#include <asm/pvr.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/pvr.h>
 
 const struct cpu_ver_key cpu_ver_lookup[] = {
 	/* These key value are as per MBV field in PVR0 */

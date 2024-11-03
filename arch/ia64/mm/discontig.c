@@ -24,11 +24,11 @@
 #include <linux/efi.h>
 #include <linux/nodemask.h>
 #include <linux/slab.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/meminit.h>
-#include <asm/numa.h>
-#include <asm/sections.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/meminit.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/sections.h>
 
 /*
  * Track per-node information needed to setup the boot memory allocator, the

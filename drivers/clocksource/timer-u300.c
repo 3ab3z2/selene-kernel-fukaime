@@ -20,8 +20,8 @@
 #include <linux/sched_clock.h>
 
 /* Generic stuff */
-#include <asm/mach/map.h>
-#include <asm/mach/time.h>
+#include <asm-generic/mach/map.h>
+#include <asm-generic/mach/time.h>
 
 /*
  * APP side special timer registers

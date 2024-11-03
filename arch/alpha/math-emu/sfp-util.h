@@ -2,8 +2,8 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/types.h>
-#include <asm/byteorder.h>
-#include <asm/fpu.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/fpu.h>
 
 #define add_ssaaaa(sh, sl, ah, al, bh, bl) \
   ((sl) = (al) + (bl), (sh) = (ah) + (bh) + ((sl) < (al)))

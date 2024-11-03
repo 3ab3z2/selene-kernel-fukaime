@@ -32,7 +32,7 @@
 #include <linux/interrupt.h>
 #include <linux/kdev_t.h>
 #include <media/v4l2-ioctl.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "bttvp.h"
 
 /* Offset from line sync pulse leading edge (0H) to start of VBI capture,

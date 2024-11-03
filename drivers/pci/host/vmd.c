@@ -23,10 +23,10 @@
 #include <linux/rculist.h>
 #include <linux/rcupdate.h>
 
-#include <asm/irqdomain.h>
-#include <asm/device.h>
-#include <asm/msi.h>
-#include <asm/msidef.h>
+#include <asm-generic/irqdomain.h>
+#include <asm-generic/device.h>
+#include <asm-generic/msi.h>
+#include <asm-generic/msidef.h>
 
 #define VMD_CFGBAR	0
 #define VMD_MEMBAR1	2

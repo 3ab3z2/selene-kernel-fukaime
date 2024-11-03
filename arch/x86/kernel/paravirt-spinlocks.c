@@ -7,7 +7,7 @@
 #include <linux/export.h>
 #include <linux/jump_label.h>
 
-#include <asm/paravirt.h>
+#include <asm-generic/paravirt.h>
 
 __visible void __native_queued_spin_unlock(struct qspinlock *lock)
 {

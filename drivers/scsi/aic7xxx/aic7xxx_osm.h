@@ -67,8 +67,8 @@
 #include <linux/interrupt.h>
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
-#include <asm/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

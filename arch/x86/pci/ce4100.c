@@ -34,8 +34,8 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 
-#include <asm/ce4100.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/ce4100.h>
+#include <asm-generic/pci_x86.h>
 
 struct sim_reg {
 	u32 value;

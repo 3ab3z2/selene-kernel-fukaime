@@ -18,10 +18,10 @@
 #include <linux/fs.h>
 #include <linux/blkpg.h>
 #include <linux/slab.h>
-#include <asm/compat.h>
-#include <asm/ccwdev.h>
-#include <asm/schid.h>
-#include <asm/cmb.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/cmb.h>
 #include <linux/uaccess.h>
 
 /* This is ugly... */

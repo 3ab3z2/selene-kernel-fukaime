@@ -20,12 +20,12 @@
 #include <linux/fs.h>
 #include <linux/bootmem.h>
 
-#include <asm/fpu.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 #include <linux/kvm_host.h>
 
@@ -374,8 +374,8 @@ struct kvm_vcpu *kvm_arch_vcpu_create(struct kvm *kvm, unsigned int id)
 	p = kvm_mips_build_vcpu_run(p);
 
 	/* Dump the generated code */
-	pr_debug("#include <asm/asm.h>\n");
-	pr_debug("#include <asm/regdef.h>\n");
+	pr_debug("#include <asm-generic/asm.h>\n");
+	pr_debug("#include <asm-generic/regdef.h>\n");
 	pr_debug("\n");
 	dump_handler("kvm_vcpu_run", vcpu->arch.vcpu_run, p);
 	dump_handler("kvm_tlb_refill", refill_start, refill_end);

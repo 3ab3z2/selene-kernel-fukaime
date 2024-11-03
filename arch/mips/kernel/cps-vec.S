@@ -8,15 +8,15 @@
  * option) any later version.
  */
 
-#include <asm/addrspace.h>
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/asmmacro.h>
-#include <asm/cacheops.h>
-#include <asm/eva.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/pm.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/eva.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/pm.h>
 
 #define GCR_CPC_BASE_OFS	0x0088
 #define GCR_CL_COHERENCE_OFS	0x2008

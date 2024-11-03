@@ -8,7 +8,7 @@
 #include <linux/kernel.h>
 #include <linux/pci.h>
 #include <linux/types.h>
-#include <asm/ip32/mace.h>
+#include <asm-generic/ip32/mace.h>
 
 #if 0
 # define DPRINTK(args...) printk(args);

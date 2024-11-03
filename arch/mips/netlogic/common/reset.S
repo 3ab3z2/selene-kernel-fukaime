@@ -33,22 +33,22 @@
  */
 
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cpu.h>
-#include <asm/cacheops.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
-#include <asm/stackframe.h>
-#include <asm/asmmacro.h>
-#include <asm/addrspace.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/addrspace.h>
 
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/common.h>
 
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/sys.h>
-#include <asm/netlogic/xlp-hal/cpucontrol.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/sys.h>
+#include <asm-generic/netlogic/xlp-hal/cpucontrol.h>
 
 #define SYS_CPU_COHERENT_BASE	CKSEG1ADDR(XLP_DEFAULT_IO_BASE) + \
 			XLP_IO_SYS_OFFSET(0) + XLP_IO_PCI_HDRSZ + \

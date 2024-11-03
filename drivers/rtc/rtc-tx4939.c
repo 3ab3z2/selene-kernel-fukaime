@@ -14,7 +14,7 @@
 #include <linux/module.h>
 #include <linux/io.h>
 #include <linux/gfp.h>
-#include <asm/txx9/tx4939.h>
+#include <asm-generic/txx9/tx4939.h>
 
 struct tx4939rtc_plat_data {
 	struct rtc_device *rtc;

@@ -15,10 +15,10 @@
 #include <linux/ioport.h>
 #include <linux/pm.h>
 
-#include <asm/bootinfo.h>
-#include <asm/reboot.h>
-#include <asm/setup.h>
-#include <asm/gt64120.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/gt64120.h>
 
 #include <cobalt.h>
 

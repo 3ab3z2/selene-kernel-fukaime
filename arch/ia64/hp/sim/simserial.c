@@ -32,7 +32,7 @@
 #include <linux/sysrq.h>
 #include <linux/uaccess.h>
 
-#include <asm/hpsim.h>
+#include <asm-generic/hpsim.h>
 
 #include "hpsim_ssc.h"
 

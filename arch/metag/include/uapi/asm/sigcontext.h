@@ -2,7 +2,7 @@
 #ifndef _ASM_METAG_SIGCONTEXT_H
 #define _ASM_METAG_SIGCONTEXT_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * In a sigcontext structure we need to store the active state of the

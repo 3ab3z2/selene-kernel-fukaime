@@ -16,7 +16,7 @@
 #include <linux/ide.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "ns87415"
 
@@ -27,7 +27,7 @@
  * i.e we have to support for CD-ROM installs.
  * See drivers/parisc/superio.c for more gory details.
  */
-#include <asm/superio.h>
+#include <asm-generic/superio.h>
 
 #define SUPERIO_IDE_MAX_RETRIES 25
 

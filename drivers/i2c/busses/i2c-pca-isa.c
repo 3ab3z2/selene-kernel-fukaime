@@ -28,7 +28,7 @@
 #include <linux/i2c-algo-pca.h>
 #include <linux/io.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #define DRIVER "i2c-pca-isa"
 #define IO_SIZE 4

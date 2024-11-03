@@ -7,10 +7,10 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
-#include <asm/spitfire.h>
-#include <asm/cpudata.h>
-#include <asm/cacheflush.h>
-#include <asm/page.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/page.h>
 
 /* Page table allocation/freeing. */
 

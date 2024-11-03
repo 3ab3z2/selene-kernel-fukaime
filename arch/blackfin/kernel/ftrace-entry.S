@@ -6,7 +6,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/ftrace.h>
+#include <asm-generic/ftrace.h>
 
 .text
 

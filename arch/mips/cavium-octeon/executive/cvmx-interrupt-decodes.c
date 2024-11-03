@@ -32,13 +32,13 @@
  *
  */
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-gmxx-defs.h>
-#include <asm/octeon/cvmx-pcsx-defs.h>
-#include <asm/octeon/cvmx-pcsxx-defs.h>
-#include <asm/octeon/cvmx-spxx-defs.h>
-#include <asm/octeon/cvmx-stxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-pcsx-defs.h>
+#include <asm-generic/octeon/cvmx-pcsxx-defs.h>
+#include <asm-generic/octeon/cvmx-spxx-defs.h>
+#include <asm-generic/octeon/cvmx-stxx-defs.h>
 
 #ifndef PRINT_ERROR
 #define PRINT_ERROR(format, ...)

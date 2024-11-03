@@ -11,8 +11,8 @@
 #ifndef _ASM_MICROBLAZE_IO_H
 #define _ASM_MICROBLAZE_IO_H
 
-#include <asm/byteorder.h>
-#include <asm/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/page.h>
 #include <linux/types.h>
 #include <linux/mm.h>          /* Get struct page {...} */
 

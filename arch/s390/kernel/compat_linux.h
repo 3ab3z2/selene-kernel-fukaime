@@ -18,7 +18,7 @@ struct ipc_kludge_32 {
         __s32   msgtyp;
 };
 
-/* asm/sigcontext.h */
+/* asm-generic/sigcontext.h */
 typedef union
 {
 	__u64   d;
@@ -70,9 +70,9 @@ struct sigcontext32
 	__u32	sregs;				/* pointer */
 };
 
-/* asm/signal.h */
+/* asm-generic/signal.h */
 
-/* asm/ucontext.h */
+/* asm-generic/ucontext.h */
 struct ucontext32 {
 	__u32			uc_flags;
 	__u32			uc_link;	/* pointer */	

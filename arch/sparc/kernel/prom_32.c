@@ -21,10 +21,10 @@
 #include <linux/mm.h>
 #include <linux/bootmem.h>
 
-#include <asm/prom.h>
-#include <asm/oplib.h>
-#include <asm/leon.h>
-#include <asm/leon_amba.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/leon_amba.h>
 
 #include "prom.h"
 

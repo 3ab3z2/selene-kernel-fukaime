@@ -20,15 +20,15 @@
 #include <linux/of_fdt.h>
 #include <linux/of.h>
 #include <linux/cache.h>
-#include <asm/sections.h>
-#include <asm/arcregs.h>
-#include <asm/tlb.h>
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/irq.h>
-#include <asm/unwind.h>
-#include <asm/mach_desc.h>
-#include <asm/smp.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/mach_desc.h>
+#include <asm-generic/smp.h>
 
 #define FIX_PTR(x)  __asm__ __volatile__(";" : "+r"(x))
 

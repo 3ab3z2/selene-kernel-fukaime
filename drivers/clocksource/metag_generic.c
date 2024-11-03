@@ -35,11 +35,11 @@
 #include <linux/clockchips.h>
 #include <linux/interrupt.h>
 
-#include <asm/clock.h>
-#include <asm/hwthread.h>
-#include <asm/core_reg.h>
-#include <asm/metag_mem.h>
-#include <asm/tbx.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/hwthread.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/tbx.h>
 
 #define HARDWARE_FREQ		1000000	/* 1MHz */
 #define HARDWARE_DIV		1	/* divide by 1 = 1MHz clock */

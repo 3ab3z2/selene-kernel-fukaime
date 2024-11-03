@@ -13,8 +13,8 @@
 #include <linux/export.h>
 #include <linux/errno.h>
 #include <linux/mm.h>
-#include <asm/mmu_context.h>
-#include <asm/facility.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/facility.h>
 
 #ifndef CONFIG_HAVE_MARCH_Z10_FEATURES
 static DEFINE_STATIC_KEY_FALSE(have_mvcos);

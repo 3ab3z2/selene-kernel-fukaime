@@ -38,7 +38,7 @@
 #include <linux/sched.h>
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <rdma/ib_mad.h>
 
 #include "mthca_dev.h"

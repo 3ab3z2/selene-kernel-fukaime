@@ -13,7 +13,7 @@
 #include <linux/time.h>
 #include <linux/sched.h>
 #include <linux/blkdev.h>
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 
 #include "jfs_filsys.h"

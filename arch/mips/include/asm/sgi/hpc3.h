@@ -13,7 +13,7 @@
 #define _SGI_HPC3_H
 
 #include <linux/types.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /* An HPC DMA descriptor. */
 struct hpc_dma_desc {

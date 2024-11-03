@@ -12,9 +12,9 @@
 #define _XTENSA_IO_H
 
 #ifdef __KERNEL__
-#include <asm/byteorder.h>
-#include <asm/page.h>
-#include <asm/vectors.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/page.h>
+#include <asm-generic/vectors.h>
 #include <linux/bug.h>
 #include <linux/kernel.h>
 

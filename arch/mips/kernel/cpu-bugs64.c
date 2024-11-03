@@ -12,12 +12,12 @@
 #include <linux/ptrace.h>
 #include <linux/stddef.h>
 
-#include <asm/bugs.h>
-#include <asm/compiler.h>
-#include <asm/cpu.h>
-#include <asm/fpu.h>
-#include <asm/mipsregs.h>
-#include <asm/setup.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/setup.h>
 
 static char bug64hit[] __initdata =
 	"reliable operation impossible!\n%s";

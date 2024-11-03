@@ -6,8 +6,8 @@
  */
 
 #include <linux/smp.h>
-#include <asm/blackfin.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cacheflush.h>
 #include <mach/pll.h>
 
 int hotplug_coreb;

@@ -21,7 +21,7 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 
-#include <asm/mpc5121.h>
+#include <asm-generic/mpc5121.h>
 #include <dt-bindings/clock/mpc512x-clock.h>
 
 #include "mpc512x.h"		/* our public mpc5121_clk_init() API */

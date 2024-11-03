@@ -2,8 +2,8 @@
 #ifndef __ASM_ALPHA_FPU_H
 #define __ASM_ALPHA_FPU_H
 
-#include <asm/special_insns.h>
-#include <uapi/asm/fpu.h>
+#include <asm-generic/special_insns.h>
+#include <uapi/asm-generic/fpu.h>
 
 /* The following two functions don't need trapb/excb instructions
    around the mf_fpcr/mt_fpcr instructions because (a) the kernel

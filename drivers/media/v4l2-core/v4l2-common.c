@@ -55,9 +55,9 @@
 #include <linux/spi/spi.h>
 #endif
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/div64.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/div64.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>

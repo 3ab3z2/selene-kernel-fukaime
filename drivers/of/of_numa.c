@@ -22,7 +22,7 @@
 #include <linux/of_address.h>
 #include <linux/nodemask.h>
 
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 
 /* define default numa node to 0 */
 #define DEFAULT_NODE 0

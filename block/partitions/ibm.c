@@ -9,10 +9,10 @@
 #include <linux/buffer_head.h>
 #include <linux/hdreg.h>
 #include <linux/slab.h>
-#include <asm/dasd.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/dasd.h>
+#include <asm-generic/ebcdic.h>
 #include <linux/uaccess.h>
-#include <asm/vtoc.h>
+#include <asm-generic/vtoc.h>
 
 #include "check.h"
 #include "ibm.h"

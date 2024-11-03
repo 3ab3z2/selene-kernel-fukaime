@@ -9,9 +9,9 @@
 
 #include <linux/of_device.h>
 
-#include <asm/ebus_dma.h>
-#include <asm/ns87303.h>
-#include <asm/prom.h>
+#include <asm-generic/ebus_dma.h>
+#include <asm-generic/ns87303.h>
+#include <asm-generic/prom.h>
 
 #define PARPORT_PC_MAX_PORTS	PARPORT_MAX
 

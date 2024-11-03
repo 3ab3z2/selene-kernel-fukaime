@@ -65,9 +65,9 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/mipsregs.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/rbtx4938.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/rbtx4938.h>
 
 static int toshiba_rbtx4938_irq_nested(int sw_irq)
 {

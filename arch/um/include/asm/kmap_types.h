@@ -6,7 +6,7 @@
 #ifndef __UM_KMAP_TYPES_H
 #define __UM_KMAP_TYPES_H
 
-/* No more #include "asm/arch/kmap_types.h" ! */
+/* No more #include "asm-generic/arch/kmap_types.h" ! */
 
 #define KM_TYPE_NR 14
 

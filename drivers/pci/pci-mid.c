@@ -13,9 +13,9 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/intel-mid.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/intel-mid.h>
 
 #include "pci.h"
 

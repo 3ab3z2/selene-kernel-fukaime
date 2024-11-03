@@ -32,17 +32,17 @@
 #include <linux/fs.h>
 #include <linux/errno.h>
 #include <linux/wait.h>
-#include <asm/io.h>
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sibyte/sb1250.h>
 
 #if defined(CONFIG_SIBYTE_BCM1x55) || defined(CONFIG_SIBYTE_BCM1x80)
-#include <asm/sibyte/bcm1480_regs.h>
-#include <asm/sibyte/bcm1480_scd.h>
-#include <asm/sibyte/bcm1480_int.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_scd.h>
+#include <asm-generic/sibyte/bcm1480_int.h>
 #elif defined(CONFIG_SIBYTE_SB1250) || defined(CONFIG_SIBYTE_BCM112X)
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_scd.h>
-#include <asm/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250_int.h>
 #else
 #error invalid SiByte UART configuration
 #endif

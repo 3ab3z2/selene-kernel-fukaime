@@ -23,10 +23,10 @@
 #define _ASM_IA64_RWSEM_H
 
 #ifndef _LINUX_RWSEM_H
-#error "Please don't include <asm/rwsem.h> directly, use <linux/rwsem.h> instead."
+#error "Please don't include <asm-generic/rwsem.h> directly, use <linux/rwsem.h> instead."
 #endif
 
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 
 #define RWSEM_UNLOCKED_VALUE		__IA64_UL_CONST(0x0000000000000000)
 #define RWSEM_ACTIVE_BIAS		(1L)

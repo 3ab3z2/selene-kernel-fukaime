@@ -16,7 +16,7 @@
 #ifndef _ASM_THREAD_INFO_H
 #define _ASM_THREAD_INFO_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifdef CONFIG_16KSTACKS
 #define THREAD_SIZE_ORDER 1
@@ -30,7 +30,7 @@
 #ifndef __ASSEMBLY__
 
 #include <linux/thread_info.h>
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 
 /*
  * low level task data that entry.S needs immediate access to

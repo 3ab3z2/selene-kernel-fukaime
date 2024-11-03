@@ -17,7 +17,7 @@
 
 /*
  * non-constant log of base 2 calculators
- * - the arch may override these in asm/bitops.h if they can be implemented
+ * - the arch may override these in asm-generic/bitops.h if they can be implemented
  *   more efficiently than using fls() and fls64()
  * - the arch is not required to handle n==0 if implementing the fallback
  */

@@ -5,13 +5,13 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-#include <asm/fpu/api.h>
-#include <asm/mshyperv.h>
-#include <asm/msr.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/mshyperv.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/tlbflush.h>
 
 #define CREATE_TRACE_POINTS
-#include <asm/trace/hyperv.h>
+#include <asm-generic/trace/hyperv.h>
 
 /* HvFlushVirtualAddressSpace, HvFlushVirtualAddressList hypercalls */
 struct hv_flush_pcpu {

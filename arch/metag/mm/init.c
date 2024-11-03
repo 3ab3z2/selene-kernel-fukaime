@@ -15,16 +15,16 @@
 #include <linux/initrd.h>
 #include <linux/sched/task.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/sections.h>
-#include <asm/tlb.h>
-#include <asm/user_gateway.h>
-#include <asm/mmzone.h>
-#include <asm/fixmap.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/user_gateway.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/fixmap.h>
 
 unsigned long pfn_base;
 EXPORT_SYMBOL(pfn_base);

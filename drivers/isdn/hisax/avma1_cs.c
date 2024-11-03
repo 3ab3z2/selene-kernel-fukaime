@@ -17,7 +17,7 @@
 #include <linux/ptrace.h>
 #include <linux/slab.h>
 #include <linux/string.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

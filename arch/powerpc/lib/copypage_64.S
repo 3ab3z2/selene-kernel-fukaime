@@ -6,11 +6,11 @@
  * as published by the Free Software Foundation; either version
  * 2 of the License, or (at your option) any later version.
  */
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
 
         .section        ".toc","aw"
 PPC64_CACHES:

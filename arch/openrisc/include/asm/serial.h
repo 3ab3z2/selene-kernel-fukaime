@@ -21,7 +21,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 
 /* There's a generic version of this file, but it assumes a 1.8MHz UART clk...
  * this, on the other hand, assumes the UART clock is tied to the system

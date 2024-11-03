@@ -7,8 +7,8 @@
 #ifndef QDIO_DEBUG_H
 #define QDIO_DEBUG_H
 
-#include <asm/debug.h>
-#include <asm/qdio.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/qdio.h>
 #include "qdio.h"
 
 /* that gives us 15 characters in the text event views */

@@ -16,9 +16,9 @@
 #define H_PAGE_HASHPTE		_RPAGE_RPN43	/* PTE has associated HPTE */
 
 #ifdef CONFIG_PPC_64K_PAGES
-#include <asm/book3s/64/hash-64k.h>
+#include <asm-generic/book3s/64/hash-64k.h>
 #else
-#include <asm/book3s/64/hash-4k.h>
+#include <asm-generic/book3s/64/hash-4k.h>
 #endif
 
 /*

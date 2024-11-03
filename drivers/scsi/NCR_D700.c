@@ -98,7 +98,7 @@
 #include <linux/module.h>
 #include <linux/mca.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport.h>

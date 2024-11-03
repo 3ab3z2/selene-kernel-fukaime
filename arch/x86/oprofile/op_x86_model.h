@@ -12,7 +12,7 @@
 #ifndef OP_X86_MODEL_H
 #define OP_X86_MODEL_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/perf_event.h>
 
 struct op_msr {

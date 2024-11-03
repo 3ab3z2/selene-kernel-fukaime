@@ -13,10 +13,10 @@
 #include <linux/irqflags.h>
 #include <linux/cpumask.h>
 
-#include <asm/r4k-timer.h>
+#include <asm-generic/r4k-timer.h>
 #include <linux/atomic.h>
-#include <asm/barrier.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/mipsregs.h>
 
 static unsigned int initcount = 0;
 static atomic_t count_count_start = ATOMIC_INIT(0);

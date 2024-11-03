@@ -15,16 +15,16 @@
  */
 
 #ifdef CONFIG_PPC_PERF_CTRS
-#include <asm/perf_event_server.h>
+#include <asm-generic/perf_event_server.h>
 #endif
 
 #ifdef CONFIG_FSL_EMB_PERF_EVENT
-#include <asm/perf_event_fsl_emb.h>
+#include <asm-generic/perf_event_fsl_emb.h>
 #endif
 
 #ifdef CONFIG_PERF_EVENTS
-#include <asm/ptrace.h>
-#include <asm/reg.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/reg.h>
 
 /*
  * Overload regs->result to specify whether we should use the MSR (result

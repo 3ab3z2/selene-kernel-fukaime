@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/lasat/lasat.h>
+#include <asm-generic/lasat/lasat.h>
 
 /* Lasat 100 boards serial configuration */
 #define LASAT_BASE_BAUD_100		(7372800 / 16)

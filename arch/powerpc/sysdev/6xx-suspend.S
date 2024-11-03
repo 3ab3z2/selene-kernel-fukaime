@@ -11,10 +11,10 @@
  * by the Free Software Foundation.
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/reg.h>
-#include <asm/thread_info.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm-offsets.h>
 
 _GLOBAL(mpc6xx_enter_standby)
 	mflr	r4

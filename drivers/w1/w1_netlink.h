@@ -15,7 +15,7 @@
 #ifndef __W1_NETLINK_H
 #define __W1_NETLINK_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/connector.h>
 
 #include "w1_internal.h"

@@ -9,7 +9,7 @@
 #include <linux/of.h>
 #include <linux/mm.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include <dt-bindings/memory/tegra210-mc.h>
 

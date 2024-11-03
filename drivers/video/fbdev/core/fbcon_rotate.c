@@ -15,7 +15,7 @@
 #include <linux/vt_kern.h>
 #include <linux/console.h>
 #include <linux/font.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include "fbcon.h"
 #include "fbcon_rotate.h"
 

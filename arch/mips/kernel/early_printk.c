@@ -12,7 +12,7 @@
 #include <linux/printk.h>
 #include <linux/init.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 extern void prom_putchar(char);
 

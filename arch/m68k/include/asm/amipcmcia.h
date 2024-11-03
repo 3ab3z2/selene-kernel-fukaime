@@ -13,7 +13,7 @@
 #ifndef __AMIGA_PCMCIA_H__
 #define __AMIGA_PCMCIA_H__
 
-#include <asm/amigayle.h>
+#include <asm-generic/amigayle.h>
 
 /* prototypes */
 

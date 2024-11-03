@@ -23,11 +23,11 @@
 #include <linux/of_platform.h>
 #include <linux/atomic.h>
 
-#include <asm/errno.h>
-#include <asm/topology.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
-#include <asm/eeh.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/topology.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/eeh.h>
 
 #ifdef CONFIG_PPC_OF_PLATFORM_PCI
 

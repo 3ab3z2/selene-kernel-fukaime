@@ -9,7 +9,7 @@
 #include <clocksource/metag_generic.h>
 #include <linux/clk-provider.h>
 #include <linux/init.h>
-#include <asm/clock.h>
+#include <asm-generic/clock.h>
 
 void __init time_init(void)
 {

@@ -2,7 +2,7 @@
 #ifndef _ASMAXP_PTRACE_H
 #define _ASMAXP_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 
 #define arch_has_single_step()		(1)

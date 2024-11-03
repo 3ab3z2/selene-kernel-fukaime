@@ -34,7 +34,7 @@
 #include <linux/bitops.h>
 #include <linux/platform_device.h>
 
-#include <asm/coprocessor.h> /* CPENABLE read/write macros */
+#include <asm-generic/coprocessor.h> /* CPENABLE read/write macros */
 
 #ifndef XCHAL_CP_ID_XTIOP
 #error GPIO32 option is not enabled for your xtensa core variant

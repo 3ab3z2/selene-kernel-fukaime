@@ -20,10 +20,10 @@
 #include <linux/signal.h>
 #include <linux/ptrace.h>
 #include <linux/kdebug.h>
-#include <asm/current.h>
-#include <asm/processor.h>
-#include <asm/machdep.h>
-#include <asm/debug.h>
+#include <asm-generic/current.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/debug.h>
 #include <linux/slab.h>
 
 /*

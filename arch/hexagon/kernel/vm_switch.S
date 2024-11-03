@@ -18,7 +18,7 @@
  * 02110-1301, USA.
  */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 .text
 

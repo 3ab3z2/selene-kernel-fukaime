@@ -9,7 +9,7 @@
  */
 #include <linux/pci.h>
 #include <linux/export.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_PCI_DRIVERS_LEGACY
 

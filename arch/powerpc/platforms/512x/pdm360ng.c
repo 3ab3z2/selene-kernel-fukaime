@@ -18,8 +18,8 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/machdep.h>
-#include <asm/ipic.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ipic.h>
 
 #include "mpc512x.h"
 

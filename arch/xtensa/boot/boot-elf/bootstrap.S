@@ -14,13 +14,13 @@
  * Piet Delaney <piet@tensilica.com>
  */
 
-#include <asm/bootparam.h>
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/cacheasm.h>
-#include <asm/initialize_mmu.h>
-#include <asm/vectors.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheasm.h>
+#include <asm-generic/initialize_mmu.h>
+#include <asm-generic/vectors.h>
 #include <linux/linkage.h>
 
 	.section	.ResetVector.text, "ax"

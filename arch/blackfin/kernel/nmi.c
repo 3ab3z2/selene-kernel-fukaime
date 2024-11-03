@@ -18,10 +18,10 @@
 #include <linux/smp.h>
 #include <linux/timer.h>
 #include <linux/sched/debug.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <linux/atomic.h>
-#include <asm/cacheflush.h>
-#include <asm/bfin_watchdog.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/bfin_watchdog.h>
 
 #define DRV_NAME "nmi-wdt"
 

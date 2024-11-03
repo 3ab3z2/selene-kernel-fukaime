@@ -1,5 +1,5 @@
 /*
-** asm/blinken.h -- m68k blinkenlights support (currently hp300 only)
+** asm-generic/blinken.h -- m68k blinkenlights support (currently hp300 only)
 **
 ** (c) 1998 Phil Blundell <philb@gnu.org>
 **
@@ -12,8 +12,8 @@
 #ifndef _M68K_BLINKEN_H
 #define _M68K_BLINKEN_H
 
-#include <asm/setup.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/io.h>
 
 #define HP300_LEDS		0xf001ffff
 

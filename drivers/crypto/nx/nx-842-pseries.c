@@ -21,7 +21,7 @@
  *          Seth Jennings <sjenning@linux.vnet.ibm.com>
  */
 
-#include <asm/vio.h>
+#include <asm-generic/vio.h>
 
 #include "nx-842.h"
 #include "nx_csbcpb.h" /* struct nx_csbcpb */

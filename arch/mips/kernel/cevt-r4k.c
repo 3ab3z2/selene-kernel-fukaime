@@ -12,8 +12,8 @@
 #include <linux/smp.h>
 #include <linux/irq.h>
 
-#include <asm/time.h>
-#include <asm/cevt-r4k.h>
+#include <asm-generic/time.h>
+#include <asm-generic/cevt-r4k.h>
 
 static int mips_next_event(unsigned long delta,
 			   struct clock_event_device *evt)

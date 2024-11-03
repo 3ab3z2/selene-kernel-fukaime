@@ -6,7 +6,7 @@
 #include <linux/swiotlb.h>
 #include <linux/bootmem.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <boot_param.h>
 #include <dma-coherence.h>
 

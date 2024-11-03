@@ -29,7 +29,7 @@
 #include <linux/list.h>
 #include <linux/err.h>
 #include <linux/prefetch.h>
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 #include "gru.h"
 #include "grutables.h"
 #include "gruhandles.h"

@@ -18,8 +18,8 @@
 #include <linux/memblock.h>
 #include <linux/bootmem.h>
 
-#include <asm/bug.h>
-#include <asm/io.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/io.h>
 
 #include "internal.h"
 

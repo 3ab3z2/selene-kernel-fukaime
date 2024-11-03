@@ -33,10 +33,10 @@
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/setup.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/setup.h>
 
 static struct irq_domain *irq_domain;
 static struct irq_domain *ipi_domain;

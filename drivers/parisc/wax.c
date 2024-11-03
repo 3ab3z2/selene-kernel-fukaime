@@ -19,8 +19,8 @@
 #include <linux/module.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
-#include <asm/hardware.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
 
 #include "gsc.h"
 

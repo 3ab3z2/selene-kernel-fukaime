@@ -20,7 +20,7 @@
 #include <linux/export.h>
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/checksum.h>
+#include <asm-generic/checksum.h>
 #include <linux/uaccess.h>
 
 __wsum csum_and_copy_from_user(const void __user *src, void *dst,

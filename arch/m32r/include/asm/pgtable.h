@@ -23,9 +23,9 @@
 
 #include <linux/threads.h>
 #include <linux/bitops.h>
-#include <asm/processor.h>
-#include <asm/addrspace.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/page.h>
 
 struct mm_struct;
 struct vm_area_struct;
@@ -43,7 +43,7 @@ extern unsigned long empty_zero_page[1024];
 #endif /* !__ASSEMBLY__ */
 
 #ifndef __ASSEMBLY__
-#include <asm/pgtable-2level.h>
+#include <asm-generic/pgtable-2level.h>
 #endif
 
 #define pgtable_cache_init()	do { } while (0)

@@ -20,13 +20,13 @@
 #include <linux/init.h>
 #include <linux/of_platform.h>
 
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/time.h>
-#include <asm/uic.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc4xx.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/uic.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc4xx.h>
 #include <linux/i2c.h>
 
 static const struct of_device_id sam440ep_of_bus[] __initconst = {

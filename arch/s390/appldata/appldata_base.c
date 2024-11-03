@@ -27,11 +27,11 @@
 #include <linux/workqueue.h>
 #include <linux/suspend.h>
 #include <linux/platform_device.h>
-#include <asm/appldata.h>
-#include <asm/vtimer.h>
+#include <asm-generic/appldata.h>
+#include <asm-generic/vtimer.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/smp.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
 
 #include "appldata.h"
 

@@ -10,8 +10,8 @@
 #include <linux/mm.h>
 #include <linux/sched.h>
 
-#include <asm/pgtable.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpuinfo.h>
 
 /* pteaddr:
  *   ptbase | vpn* | zero

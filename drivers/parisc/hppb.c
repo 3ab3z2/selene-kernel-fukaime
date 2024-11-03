@@ -19,9 +19,9 @@
 #include <linux/dma-mapping.h>
 #include <linux/ioport.h>
 
-#include <asm/io.h>
-#include <asm/hardware.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/parisc-device.h>
 
 struct hppb_card {
 	unsigned long hpa;

@@ -7,7 +7,7 @@
 #define __ARCH_UM_MMU_H
 
 #include <mm_id.h>
-#include <asm/mm_context.h>
+#include <asm-generic/mm_context.h>
 
 typedef struct mm_context {
 	struct mm_id id;
@@ -17,7 +17,7 @@ typedef struct mm_context {
 
 extern void __switch_mm(struct mm_id * mm_idp);
 
-/* Avoid tangled inclusion with asm/ldt.h */
+/* Avoid tangled inclusion with asm-generic/ldt.h */
 extern long init_new_ldt(struct mm_context *to_mm, struct mm_context *from_mm);
 extern void free_ldt(struct mm_context *mm);
 

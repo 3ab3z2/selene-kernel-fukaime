@@ -7,7 +7,7 @@
  * Copyright (C) 1997 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
 
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 #include <linux/string.h>
 #include <linux/types.h>
@@ -24,13 +24,13 @@
 #include <linux/kdebug.h>
 #include <linux/uaccess.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/setup.h>
-#include <asm/smp.h>
-#include <asm/traps.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/traps.h>
 
 #include "mm_32.h"
 

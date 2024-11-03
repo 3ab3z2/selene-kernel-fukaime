@@ -12,26 +12,26 @@
 #include <linux/delay.h>
 #include <linux/frame.h>
 #include <acpi/reboot.h>
-#include <asm/io.h>
-#include <asm/apic.h>
-#include <asm/io_apic.h>
-#include <asm/desc.h>
-#include <asm/hpet.h>
-#include <asm/pgtable.h>
-#include <asm/proto.h>
-#include <asm/reboot_fixups.h>
-#include <asm/reboot.h>
-#include <asm/pci_x86.h>
-#include <asm/virtext.h>
-#include <asm/cpu.h>
-#include <asm/nmi.h>
-#include <asm/smp.h>
+#include <asm-generic/io.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/hpet.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/reboot_fixups.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/virtext.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/smp.h>
 
 #include <linux/ctype.h>
 #include <linux/mc146818rtc.h>
-#include <asm/realmode.h>
-#include <asm/x86_init.h>
-#include <asm/efi.h>
+#include <asm-generic/realmode.h>
+#include <asm-generic/x86_init.h>
+#include <asm-generic/efi.h>
 
 /*
  * Power off function, if any

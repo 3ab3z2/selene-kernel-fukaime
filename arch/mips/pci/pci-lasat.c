@@ -10,7 +10,7 @@
 #include <linux/pci.h>
 #include <linux/types.h>
 
-#include <asm/lasat/lasat.h>
+#include <asm-generic/lasat/lasat.h>
 
 #include <irq.h>
 

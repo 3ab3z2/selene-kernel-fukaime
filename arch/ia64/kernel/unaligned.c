@@ -22,11 +22,11 @@
 #include <linux/ratelimit.h>
 #include <linux/uaccess.h>
 
-#include <asm/intrinsics.h>
-#include <asm/processor.h>
-#include <asm/rse.h>
-#include <asm/exception.h>
-#include <asm/unaligned.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/rse.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/unaligned.h>
 
 extern int die_if_kernel(char *str, struct pt_regs *regs, long err);
 

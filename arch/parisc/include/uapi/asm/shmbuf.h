@@ -2,7 +2,7 @@
 #ifndef _PARISC_SHMBUF_H
 #define _PARISC_SHMBUF_H
 
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 
 /* 
  * The shmid64_ds structure for parisc architecture.

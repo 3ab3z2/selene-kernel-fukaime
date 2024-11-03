@@ -27,7 +27,7 @@
 #include <linux/kernel_stat.h>
 #include <linux/seq_file.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* the interrupt controller is hardcoded at this address */
 #define SCORE_PIC		((u32 __iomem __force *)0x95F50000)

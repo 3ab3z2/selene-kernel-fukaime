@@ -20,7 +20,7 @@
  * string once.
  */
 
-#include <asm/export.h>
+#include <asm-generic/export.h>
 	.text
 
 	.align 4

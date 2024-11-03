@@ -23,12 +23,12 @@
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/mmu_context.h>
-#include <asm/io.h>
-#include <asm/fw/cfe/cfe_api.h>
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/bcm1480_regs.h>
-#include <asm/sibyte/bcm1480_int.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/io.h>
+#include <asm-generic/fw/cfe/cfe_api.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_int.h>
 
 /*
  * These are routines for dealing with the bcm1480 smp capabilities

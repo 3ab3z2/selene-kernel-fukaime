@@ -22,21 +22,21 @@
  *    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 /* we have the following possibilities to act on an interruption:
  *  - handle in assembly and use shadowed registers only
  *  - save registers to kernel stack and handle in assembly or C */
 
 
-#include <asm/psw.h>
-#include <asm/cache.h>		/* for L1_CACHE_SHIFT */
-#include <asm/assembly.h>	/* for LDREG/STREG defines */
-#include <asm/pgtable.h>
-#include <asm/signal.h>
-#include <asm/unistd.h>
-#include <asm/ldcw.h>
-#include <asm/thread_info.h>
+#include <asm-generic/psw.h>
+#include <asm-generic/cache.h>		/* for L1_CACHE_SHIFT */
+#include <asm-generic/assembly.h>	/* for LDREG/STREG defines */
+#include <asm-generic/pgtable.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/ldcw.h>
+#include <asm-generic/thread_info.h>
 
 #include <linux/linkage.h>
 

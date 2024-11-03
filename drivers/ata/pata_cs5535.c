@@ -35,7 +35,7 @@
 #include <linux/delay.h>
 #include <scsi/scsi_host.h>
 #include <linux/libata.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 
 #define DRV_NAME	"pata_cs5535"
 #define DRV_VERSION	"0.2.12"

@@ -25,8 +25,8 @@
 #include <crypto/scatterwalk.h>
 #include <crypto/algapi.h>
 
-#include <asm/hypervisor.h>
-#include <asm/mdesc.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/mdesc.h>
 
 #include "n2_core.h"
 

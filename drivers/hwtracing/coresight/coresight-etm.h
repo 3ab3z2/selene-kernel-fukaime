@@ -13,7 +13,7 @@
 #ifndef _CORESIGHT_CORESIGHT_ETM_H
 #define _CORESIGHT_CORESIGHT_ETM_H
 
-#include <asm/local.h>
+#include <asm-generic/local.h>
 #include <linux/spinlock.h>
 #include "coresight-priv.h"
 

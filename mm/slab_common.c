@@ -16,9 +16,9 @@
 #include <linux/uaccess.h>
 #include <linux/seq_file.h>
 #include <linux/proc_fs.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/page.h>
 #include <linux/memcontrol.h>
 
 #define CREATE_TRACE_POINTS

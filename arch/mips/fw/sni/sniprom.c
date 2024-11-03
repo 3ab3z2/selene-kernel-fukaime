@@ -14,11 +14,11 @@
 #include <linux/string.h>
 #include <linux/console.h>
 
-#include <asm/addrspace.h>
-#include <asm/sni.h>
-#include <asm/mipsprom.h>
-#include <asm/mipsregs.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/sni.h>
+#include <asm-generic/mipsprom.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/bootinfo.h>
 
 /* special SNI prom calls */
 /*

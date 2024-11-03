@@ -10,9 +10,9 @@
 
 #include <linux/init.h>
 #include <linux/smp.h>
-#include <asm/arcregs.h>
-#include <asm/io.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach_desc.h>
 
 #define ARC_CCM_UNUSED_ADDR	0x60000000
 

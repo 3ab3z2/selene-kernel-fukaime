@@ -13,13 +13,13 @@
 
 #include <linux/types.h>
 /* include compiler specific intrinsics */
-#include <asm/ia64regs.h>
+#include <asm-generic/ia64regs.h>
 #ifdef __INTEL_COMPILER
-# include <asm/intel_intrin.h>
+# include <asm-generic/intel_intrin.h>
 #else
-# include <asm/gcc_intrin.h>
+# include <asm-generic/gcc_intrin.h>
 #endif
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 #define ia64_native_get_psr_i()	(ia64_native_getreg(_IA64_REG_PSR) & IA64_PSR_I)
 

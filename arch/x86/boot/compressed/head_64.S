@@ -27,12 +27,12 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/boot.h>
-#include <asm/msr.h>
-#include <asm/processor-flags.h>
-#include <asm/asm-offsets.h>
-#include <asm/bootparam.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/boot.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/bootparam.h>
 
 /*
  * Locally defined symbols should be marked hidden:

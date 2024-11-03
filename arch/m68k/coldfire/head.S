@@ -11,11 +11,11 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/asm-offsets.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfmmu.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfmmu.h>
+#include <asm-generic/thread_info.h>
 
 /*****************************************************************************/
 

@@ -41,8 +41,8 @@
 #include <linux/init.h>
 #include <linux/ioport.h>
 #include <linux/platform_device.h>
-#include <asm/io.h>
-#include <asm/vga.h>
+#include <asm-generic/io.h>
+#include <asm-generic/vga.h>
 
 #if 0
 #define DPRINTK(args...) printk(KERN_DEBUG __FILE__": " ##args)

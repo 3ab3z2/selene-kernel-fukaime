@@ -35,7 +35,7 @@
 #include <linux/stringify.h>
 #include <linux/limits.h>
 #include <linux/uaccess.h>
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 
 #include "trace.h"
 #include "trace_output.h"

@@ -15,7 +15,7 @@
 #include <linux/device.h>
 #include <linux/iommu-helper.h>
 
-#include <asm/iommu.h>
+#include <asm-generic/iommu.h>
 
 /*
  * These give mapping size of each iommu pte/tlb.

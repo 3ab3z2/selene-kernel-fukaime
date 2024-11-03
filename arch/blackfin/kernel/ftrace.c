@@ -10,7 +10,7 @@
 #include <linux/sched.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #ifdef CONFIG_DYNAMIC_FTRACE
 

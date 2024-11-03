@@ -43,9 +43,9 @@
 #include <linux/console.h>
 #include <linux/io.h>
 
-#include <asm/io.h>
-#include <asm/div64.h>
-#include <asm/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/page.h>
 
 #include "i810_regs.h"
 #include "i810.h"

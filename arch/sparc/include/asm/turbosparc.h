@@ -8,8 +8,8 @@
 #ifndef _SPARC_TURBOSPARC_H
 #define _SPARC_TURBOSPARC_H
 
-#include <asm/asi.h>
-#include <asm/pgtsrmmu.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pgtsrmmu.h>
 
 /* Bits in the SRMMU control register for TurboSparc modules.
  *

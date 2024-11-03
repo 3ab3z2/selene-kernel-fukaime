@@ -39,8 +39,8 @@
 #include <linux/pci.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("IBM PC110 touchpad driver");

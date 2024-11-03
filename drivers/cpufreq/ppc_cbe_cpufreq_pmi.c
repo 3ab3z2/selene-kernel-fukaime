@@ -26,13 +26,13 @@
 #include <linux/init.h>
 #include <linux/of_platform.h>
 
-#include <asm/processor.h>
-#include <asm/prom.h>
-#include <asm/pmi.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmi.h>
+#include <asm-generic/cell-regs.h>
 
 #ifdef DEBUG
-#include <asm/time.h>
+#include <asm-generic/time.h>
 #endif
 
 #include "ppc_cbe_cpufreq.h"

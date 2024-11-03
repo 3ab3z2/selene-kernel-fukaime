@@ -17,7 +17,7 @@
 
 #include <linux/efi.h>
 #include <xen/xen-ops.h>
-#include <asm/xen/xen-ops.h>
+#include <asm-generic/xen/xen-ops.h>
 
 /* Set XEN EFI runtime services function pointers. Other fields of struct efi,
  * e.g. efi.systab, will be set like normal EFI.

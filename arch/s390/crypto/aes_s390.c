@@ -30,7 +30,7 @@
 #include <linux/spinlock.h>
 #include <linux/fips.h>
 #include <crypto/xts.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 
 static u8 *ctrblk;
 static DEFINE_SPINLOCK(ctrblk_lock);

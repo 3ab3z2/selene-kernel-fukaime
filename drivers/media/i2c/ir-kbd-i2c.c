@@ -31,7 +31,7 @@
  *
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/kernel.h>

@@ -6,7 +6,7 @@
 #ifndef _ASM_MMZONE_H_
 #define _ASM_MMZONE_H_
 
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 struct bootmem_data_t; /* stupid forward decl. */
 

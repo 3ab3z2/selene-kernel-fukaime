@@ -18,7 +18,7 @@
 
 #ifndef __ASSEMBLY__
 # include <linux/types.h>
-# include <asm/processor.h>
+# include <asm-generic/processor.h>
 
 /*
  * low level task data that entry.S needs immediate access to

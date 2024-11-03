@@ -27,10 +27,10 @@
 #include <linux/pkeys.h>
 #include <linux/ksm.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
 
 #include "internal.h"
 

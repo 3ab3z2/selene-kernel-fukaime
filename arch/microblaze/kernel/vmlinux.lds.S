@@ -11,9 +11,9 @@
 OUTPUT_ARCH(microblaze)
 ENTRY(microblaze_start)
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/thread_info.h>
+#include <asm-generic/thread_info.h>
 
 #ifdef __MICROBLAZEEL__
 jiffies = jiffies_64;

@@ -24,10 +24,10 @@
 #include <linux/module.h>
 
 #include <linux/uaccess.h>
-#include <asm/reg.h>
+#include <asm-generic/reg.h>
 
 #define FP_EX_BOOKE_E500_SPE
-#include <asm/sfp-machine.h>
+#include <asm-generic/sfp-machine.h>
 
 #include <math-emu/soft-fp.h>
 #include <math-emu/single.h>

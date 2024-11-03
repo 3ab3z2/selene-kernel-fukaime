@@ -24,10 +24,10 @@
 #include <linux/interrupt.h>
 
 #include <mach/hardware.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/hardware/iomd.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware/iomd.h>
+#include <asm-generic/irq.h>
 
 #include "sound_config.h"
 #include "vidc.h"

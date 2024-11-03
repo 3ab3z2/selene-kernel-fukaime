@@ -24,8 +24,8 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/thread_info.h>
-#include <asm/page.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/page.h>
 
 OUTPUT_ARCH(score)
 ENTRY(_stext)

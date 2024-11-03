@@ -21,12 +21,12 @@
 #include <linux/memory.h>
 #include <linux/module.h>
 #include <linux/platform_device.h>
-#include <asm/ctl_reg.h>
-#include <asm/chpid.h>
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/sclp.h>
-#include <asm/numa.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/numa.h>
 
 #include "sclp.h"
 

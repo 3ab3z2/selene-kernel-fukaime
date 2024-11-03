@@ -19,10 +19,10 @@
 #include <linux/irq.h>
 #include <linux/bitops.h>
 
-#include <asm/io.h>
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/irc-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irc-regs.h>
 
 #define __reg16(ADDR) (*(volatile unsigned short *)(ADDR))
 

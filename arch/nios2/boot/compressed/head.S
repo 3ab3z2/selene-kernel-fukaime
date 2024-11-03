@@ -15,7 +15,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 	.text
 	.set noat

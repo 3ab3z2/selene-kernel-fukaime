@@ -23,10 +23,10 @@
 #include <linux/kvm_host.h>
 #include <linux/highmem.h>
 
-#include <asm/tlbflush.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/book3s/64/mmu-hash.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
 
 /* #define DEBUG_MMU */
 

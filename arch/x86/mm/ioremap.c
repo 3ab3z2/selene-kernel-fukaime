@@ -16,14 +16,14 @@
 #include <linux/mem_encrypt.h>
 #include <linux/efi.h>
 
-#include <asm/set_memory.h>
-#include <asm/e820/api.h>
-#include <asm/fixmap.h>
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
-#include <asm/pgalloc.h>
-#include <asm/pat.h>
-#include <asm/setup.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/setup.h>
 
 #include "physaddr.h"
 

@@ -2,7 +2,7 @@
 #ifndef __ALPHA_JENSEN_H
 #define __ALPHA_JENSEN_H
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * Defines for the AlphaPC EISA IO and memory address space.
@@ -335,7 +335,7 @@ IOPORT(l, 32)
 #define jensen_trivial_io_bw	0
 #define jensen_trivial_io_lq	0
 #define jensen_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

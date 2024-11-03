@@ -5,9 +5,9 @@
  * Copyright (C) 2005, 2006 David S. Miller <davem@davemloft.net>
  */
 
-#include <asm/pstate.h>
-#include <asm/cpudata.h>
-#include <asm/thread_info.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/thread_info.h>
 
 	.text
 	.globl	prom_cif_direct

@@ -25,7 +25,7 @@
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include "../codecs/tlv320aic23.h"
 #include "imx-ssi.h"

@@ -11,8 +11,8 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/mipsregs.h>
-#include <asm/sni.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/sni.h>
 
 #include <irq.h>
 

@@ -2,9 +2,9 @@
 /*
  * locore.S
  */
-#include <asm/asm.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
 
 	.text
 

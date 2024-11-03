@@ -45,7 +45,7 @@
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
 
 #include <linux/init.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/atomic.h>
 #include <linux/fs.h>
 #include <linux/namei.h>
@@ -60,13 +60,13 @@
 #include <linux/time.h>
 #include <linux/netlink.h>
 #include <linux/compiler.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/security.h>
 #include <linux/list.h>
 #include <linux/binfmts.h>
 #include <linux/highmem.h>
 #include <linux/syscalls.h>
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 #include <linux/capability.h>
 #include <linux/fs_struct.h>
 #include <linux/compat.h>

@@ -3,7 +3,7 @@
 #define _ASM_GENERIC_LOCAL64_H
 
 #include <linux/percpu.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * A signed long type for operations which are atomic for a single CPU.

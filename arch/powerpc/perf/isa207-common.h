@@ -14,8 +14,8 @@
 
 #include <linux/kernel.h>
 #include <linux/perf_event.h>
-#include <asm/firmware.h>
-#include <asm/cputable.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/cputable.h>
 
 /*
  * Raw event encoding for PowerISA v2.07:

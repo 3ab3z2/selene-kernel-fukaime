@@ -18,7 +18,7 @@
 #include <linux/pci.h>
 #include <linux/of_address.h>
 
-#include <asm/cpu-info.h>
+#include <asm-generic/cpu-info.h>
 
 unsigned long PCIBIOS_MIN_IO;
 EXPORT_SYMBOL(PCIBIOS_MIN_IO);

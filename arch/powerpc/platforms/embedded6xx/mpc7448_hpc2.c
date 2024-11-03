@@ -32,17 +32,17 @@
 #include <linux/tty.h>
 #include <linux/serial_core.h>
 
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/tsi108.h>
-#include <asm/pci-bridge.h>
-#include <asm/reg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/tsi108.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/reg.h>
 #include <mm/mmu_decl.h>
-#include <asm/tsi108_pci.h>
-#include <asm/tsi108_irq.h>
-#include <asm/mpic.h>
+#include <asm-generic/tsi108_pci.h>
+#include <asm-generic/tsi108_irq.h>
+#include <asm-generic/mpic.h>
 
 #undef DEBUG
 #ifdef DEBUG

@@ -9,13 +9,13 @@
 #include <linux/slab.h>
 #include <linux/mm_types.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/setup.h>
-#include <asm/tsb.h>
-#include <asm/tlb.h>
-#include <asm/oplib.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tsb.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/oplib.h>
 
 extern struct tsb swapper_tsb[KERNEL_TSB_NENTRIES];
 

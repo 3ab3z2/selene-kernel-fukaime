@@ -46,7 +46,7 @@
 
 #include <trace/events/scsi.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 static void scsi_eh_done(struct scsi_cmnd *scmd);
 

@@ -33,7 +33,7 @@
 #include <linux/mfd/sta2x11-mfd.h>
 #include <linux/regmap.h>
 
-#include <asm/sta2x11.h>
+#include <asm-generic/sta2x11.h>
 
 static inline int __reg_within_range(unsigned int r,
 				     unsigned int start,

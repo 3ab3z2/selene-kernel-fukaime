@@ -10,7 +10,7 @@ struct pt_regs;
 
 struct task_struct;
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <registers.h>
 #include <sysdep/archsetjmp.h>
 

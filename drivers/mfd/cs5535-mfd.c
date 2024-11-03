@@ -26,7 +26,7 @@
 #include <linux/mfd/core.h>
 #include <linux/module.h>
 #include <linux/pci.h>
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 
 #define DRV_NAME "cs5535-mfd"
 

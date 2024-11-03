@@ -24,8 +24,8 @@
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
 
-#include <asm/v7m.h>
-#include <asm/exception.h>
+#include <asm-generic/v7m.h>
+#include <asm-generic/exception.h>
 
 #define NVIC_ISER		0x000
 #define NVIC_ICER		0x080

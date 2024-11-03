@@ -16,8 +16,8 @@
  * 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
  */
 
-#include <asm/iomap.h>
-#include <asm/pat.h>
+#include <asm-generic/iomap.h>
+#include <asm-generic/pat.h>
 #include <linux/export.h>
 #include <linux/highmem.h>
 

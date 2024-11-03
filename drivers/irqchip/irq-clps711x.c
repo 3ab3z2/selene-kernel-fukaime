@@ -17,8 +17,8 @@
 #include <linux/of_irq.h>
 #include <linux/slab.h>
 
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 #define CLPS711X_INTSR1	(0x0240)
 #define CLPS711X_INTMR1	(0x0280)

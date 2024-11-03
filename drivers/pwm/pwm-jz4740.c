@@ -21,7 +21,7 @@
 #include <linux/platform_device.h>
 #include <linux/pwm.h>
 
-#include <asm/mach-jz4740/timer.h>
+#include <asm-generic/mach-jz4740/timer.h>
 
 #define NUM_PWM 8
 

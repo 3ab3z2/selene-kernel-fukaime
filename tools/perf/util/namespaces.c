@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 
 struct namespaces *namespaces__new(struct namespaces_event *event)
 {

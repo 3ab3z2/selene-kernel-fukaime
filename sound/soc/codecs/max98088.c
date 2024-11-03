@@ -23,7 +23,7 @@
 #include <sound/initval.h>
 #include <sound/tlv.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <sound/max98088.h>
 #include "max98088.h"
 

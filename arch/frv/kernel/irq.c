@@ -26,14 +26,14 @@
 #include <linux/bitops.h>
 
 #include <linux/atomic.h>
-#include <asm/io.h>
-#include <asm/smp.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
 #include <linux/uaccess.h>
-#include <asm/pgalloc.h>
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/irc-regs.h>
-#include <asm/gdb-stub.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/gdb-stub.h>
 
 #define set_IRR(N,A,B,C,D) __set_IRR(N, (A << 28) | (B << 24) | (C << 20) | (D << 16))
 

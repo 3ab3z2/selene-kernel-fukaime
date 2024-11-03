@@ -24,7 +24,7 @@
 #include "unwind.h"
 #include "debug.h"
 #include "libunwind-x86.h"
-#include <../../../../arch/x86/include/uapi/asm/perf_regs.h>
+#include <../../../../arch/x86/include/uapi/asm-generic/perf_regs.h>
 
 /* HAVE_ARCH_X86_64_SUPPORT is used in'arch/x86/util/unwind-libunwind.c'
  * for x86_32, we undef it to compile code for x86_32 only.

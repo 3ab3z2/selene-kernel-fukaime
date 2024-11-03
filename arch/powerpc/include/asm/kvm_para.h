@@ -19,7 +19,7 @@
 #ifndef __POWERPC_KVM_PARA_H__
 #define __POWERPC_KVM_PARA_H__
 
-#include <uapi/asm/kvm_para.h>
+#include <uapi/asm-generic/kvm_para.h>
 
 #ifdef CONFIG_KVM_GUEST
 

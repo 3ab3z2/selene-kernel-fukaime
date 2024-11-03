@@ -21,9 +21,9 @@
 #include <linux/uaccess.h>
 #include <linux/wait.h>
 
-#include <asm/cputype.h>
-#include <asm/kvm_emulate.h>
-#include <asm/kvm_host.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/kvm_host.h>
 
 #include <kvm/arm_psci.h>
 

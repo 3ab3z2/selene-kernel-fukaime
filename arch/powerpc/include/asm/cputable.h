@@ -4,9 +4,9 @@
 
 
 #include <linux/types.h>
-#include <asm/asm-compat.h>
-#include <asm/feature-fixups.h>
-#include <uapi/asm/cputable.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/feature-fixups.h>
+#include <uapi/asm-generic/cputable.h>
 
 #ifndef __ASSEMBLY__
 

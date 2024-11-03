@@ -13,17 +13,17 @@
 #include <linux/interrupt.h>
 #include <net/dst.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "ethernet-defines.h"
 #include "octeon-ethernet.h"
 #include "ethernet-util.h"
 
-#include <asm/octeon/cvmx-spi.h>
+#include <asm-generic/octeon/cvmx-spi.h>
 
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-spxx-defs.h>
-#include <asm/octeon/cvmx-stxx-defs.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-spxx-defs.h>
+#include <asm-generic/octeon/cvmx-stxx-defs.h>
 
 static int number_spi_ports;
 static int need_retrain[2] = { 0, 0 };

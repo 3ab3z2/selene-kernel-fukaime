@@ -32,15 +32,15 @@
 #include <linux/memblock.h>
 #include <linux/of_fdt.h>
 
-#include <asm/prom.h>
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/irq.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/irq.h>
 #include <linux/io.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pci-bridge.h>
 
 #ifdef CONFIG_EARLY_PRINTK
 static const char *stdout;

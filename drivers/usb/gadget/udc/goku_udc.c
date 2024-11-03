@@ -40,10 +40,10 @@
 #include <linux/usb/gadget.h>
 #include <linux/prefetch.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 
 #include "goku_udc.h"

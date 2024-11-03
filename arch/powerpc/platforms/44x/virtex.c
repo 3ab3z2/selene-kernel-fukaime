@@ -12,13 +12,13 @@
 
 #include <linux/init.h>
 #include <linux/of_platform.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/time.h>
-#include <asm/xilinx_intc.h>
-#include <asm/xilinx_pci.h>
-#include <asm/reg.h>
-#include <asm/ppc4xx.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/xilinx_intc.h>
+#include <asm-generic/xilinx_pci.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/ppc4xx.h>
 #include "44x.h"
 
 static const struct of_device_id xilinx_of_bus_ids[] __initconst = {

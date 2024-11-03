@@ -9,8 +9,8 @@
  *	2 of the License, or (at your option) any later version.
  */
 
-#include <asm/asm.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
 
 /* O32 register size.  */
 #define O32_SZREG	4

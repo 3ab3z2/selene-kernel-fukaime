@@ -3,7 +3,7 @@
 #define __ARCH_H8300_ATOMIC__
 
 #include <linux/types.h>
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

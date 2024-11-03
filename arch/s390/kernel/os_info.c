@@ -12,9 +12,9 @@
 #include <linux/crash_dump.h>
 #include <linux/kernel.h>
 #include <linux/slab.h>
-#include <asm/checksum.h>
-#include <asm/lowcore.h>
-#include <asm/os_info.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/os_info.h>
 
 /*
  * OS info structure has to be page aligned

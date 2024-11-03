@@ -28,7 +28,7 @@
 
 #include <linux/device.h>
 #include <linux/types.h>
-#include <asm/ap.h>
+#include <asm-generic/ap.h>
 
 #define AP_DEVICES 64		/* Number of AP devices. */
 #define AP_DOMAINS 256		/* Number of AP domains. */

@@ -15,7 +15,7 @@
 #ifndef _XTENSA_SOCKIOS_H
 #define _XTENSA_SOCKIOS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 /* Socket-level I/O control calls. */
 

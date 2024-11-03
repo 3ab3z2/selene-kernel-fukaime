@@ -26,8 +26,8 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 
-#include <asm/cacheflush.h>
-#include <asm/smp_plat.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/smp_plat.h>
 
 static void __iomem *cci_ctrl_base;
 static unsigned long cci_ctrl_phys;

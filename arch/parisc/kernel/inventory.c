@@ -23,14 +23,14 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/mm.h>
-#include <asm/hardware.h>
-#include <asm/io.h>
-#include <asm/mmzone.h>
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/parisc-device.h>
 
 /*
 ** Debug options

@@ -15,9 +15,9 @@
 #include <linux/vmalloc.h>
 #include <linux/fs.h>
 #include <linux/bootmem.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mmu_context.h>
 
 #include <linux/kvm_host.h>
 

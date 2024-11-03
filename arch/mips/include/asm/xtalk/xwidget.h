@@ -13,7 +13,7 @@
 #define _ASM_XTALK_XWIDGET_H
 
 #include <linux/types.h>
-#include <asm/xtalk/xtalk.h>
+#include <asm-generic/xtalk/xtalk.h>
 
 #define WIDGET_ID			0x04
 #define WIDGET_STATUS			0x0c

@@ -38,12 +38,12 @@
 #include <linux/seq_file.h>
 #include <linux/spinlock.h>
 
-#include <asm/eeh.h>
-#include <asm/eeh_event.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/ppc-pci.h>
-#include <asm/rtas.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/rtas.h>
 
 /* RTAS tokens */
 static int ibm_set_eeh_option;

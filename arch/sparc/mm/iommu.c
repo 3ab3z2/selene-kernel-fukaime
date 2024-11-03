@@ -17,16 +17,16 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/mxcc.h>
-#include <asm/mbus.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/bitext.h>
-#include <asm/iommu.h>
-#include <asm/dma.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mxcc.h>
+#include <asm-generic/mbus.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/bitext.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/dma.h>
 
 #include "mm_32.h"
 

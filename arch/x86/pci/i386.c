@@ -34,10 +34,10 @@
 #include <linux/errno.h>
 #include <linux/bootmem.h>
 
-#include <asm/pat.h>
-#include <asm/e820/api.h>
-#include <asm/pci_x86.h>
-#include <asm/io_apic.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/io_apic.h>
 
 
 /*

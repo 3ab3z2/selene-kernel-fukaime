@@ -34,12 +34,12 @@
 #include <linux/uaccess.h>
 #include <linux/security.h>
 #include <linux/prefetch.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include "gru.h"
 #include "grutables.h"
 #include "grulib.h"
 #include "gru_instructions.h"
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 
 /* Return codes for vtop functions */
 #define VTOP_SUCCESS               0

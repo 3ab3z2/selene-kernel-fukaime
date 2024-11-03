@@ -13,7 +13,7 @@
 
 #include <linux/errno.h>
 
-#include <asm/mips-cps.h>
+#include <asm-generic/mips-cps.h>
 
 #ifdef CONFIG_SMP
 

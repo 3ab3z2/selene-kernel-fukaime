@@ -11,7 +11,7 @@
 #include <linux/errno.h>
 #include <linux/export.h>
 #include <linux/spinlock.h>
-#include <asm/amd_nb.h>
+#include <asm-generic/amd_nb.h>
 
 #define PCI_DEVICE_ID_AMD_17H_ROOT	0x1450
 #define PCI_DEVICE_ID_AMD_17H_DF_F3	0x1463

@@ -18,8 +18,8 @@
 #include <linux/kmod.h>
 #include <linux/timer.h>
 #include <linux/err.h>
-#include <asm/ebcdic.h>
-#include <asm/sclp.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/sclp.h>
 
 #include "sclp.h"
 

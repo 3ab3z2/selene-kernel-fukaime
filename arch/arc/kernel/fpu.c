@@ -9,7 +9,7 @@
  */
 
 #include <linux/sched.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 /*
  * To save/restore FPU regs, simplest scheme would use LR/SR insns.

@@ -12,7 +12,7 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/of.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "rmi_driver.h"
 
 #define RMI_PRODUCT_ID_LENGTH    10

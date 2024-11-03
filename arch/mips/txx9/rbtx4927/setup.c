@@ -50,13 +50,13 @@
 #include <linux/delay.h>
 #include <linux/gpio.h>
 #include <linux/leds.h>
-#include <asm/io.h>
-#include <asm/reboot.h>
-#include <asm/txx9pio.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/rbtx4927.h>
-#include <asm/txx9/tx4938.h>	/* for TX4937 */
+#include <asm-generic/io.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/txx9pio.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/rbtx4927.h>
+#include <asm-generic/txx9/tx4938.h>	/* for TX4937 */
 
 #ifdef CONFIG_PCI
 static void __init tx4927_pci_setup(void)

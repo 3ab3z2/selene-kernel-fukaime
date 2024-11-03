@@ -6,8 +6,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asm.h>
-#include <asm/export.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/export.h>
 
 	.text
 ENTRY(memcmp)

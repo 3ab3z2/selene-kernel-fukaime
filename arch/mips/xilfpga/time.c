@@ -14,7 +14,7 @@
 #include <linux/clocksource.h>
 #include <linux/of.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 void __init plat_time_init(void)
 {

@@ -28,15 +28,15 @@
 #include <linux/cpu.h>
 #include <linux/of.h>
 #include <linux/slab.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/firmware.h>
-#include <asm/machdep.h>
-#include <asm/vdso_datapage.h>
-#include <asm/xics.h>
-#include <asm/xive.h>
-#include <asm/plpar_wrappers.h>
-#include <asm/topology.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/plpar_wrappers.h>
+#include <asm-generic/topology.h>
 
 #include "pseries.h"
 #include "offline_states.h"

@@ -40,7 +40,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 #include <sysdev/fsl_soc.h>
-#include <asm/cpm.h>
+#include <asm-generic/cpm.h>
 
 /* Try to define this if you have an older CPU (earlier than rev D4) */
 /* However, better use a GPIO based bitbang driver in this case :/   */

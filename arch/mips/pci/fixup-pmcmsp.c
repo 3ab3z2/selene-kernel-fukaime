@@ -35,7 +35,7 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <msp_pci.h>
 #include <msp_cic_int.h>

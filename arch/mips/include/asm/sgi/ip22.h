@@ -22,7 +22,7 @@
  */
 
 #include <irq.h>
-#include <asm/sgi/ioc.h>
+#include <asm-generic/sgi/ioc.h>
 
 #define SGINT_EISA	0	/* 16 EISA irq levels (Indigo2) */
 #define SGINT_CPU	MIPS_CPU_IRQ_BASE	/* MIPS CPU define 8 interrupt sources */

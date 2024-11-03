@@ -12,9 +12,9 @@
 #include <linux/of_platform.h>
 #include <linux/of_fdt.h>
 
-#include <asm/bootinfo.h>
-#include <asm/time.h>
-#include <asm/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
 
 #include <lantiq.h>
 

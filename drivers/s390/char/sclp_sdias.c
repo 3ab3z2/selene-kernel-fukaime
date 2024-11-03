@@ -11,9 +11,9 @@
 
 #include <linux/completion.h>
 #include <linux/sched.h>
-#include <asm/sclp.h>
-#include <asm/debug.h>
-#include <asm/ipl.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/ipl.h>
 
 #include "sclp_sdias.h"
 #include "sclp.h"

@@ -27,9 +27,9 @@
 #include <linux/irq.h>
 #include <linux/timex.h>
 
-#include <asm/mipsregs.h>
-#include <asm/time.h>
-#include <asm/mach-rc32434/rc32434.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mach-rc32434/rc32434.h>
 
 extern unsigned int idt_cpu_freq;
 

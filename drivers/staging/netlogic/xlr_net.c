@@ -43,13 +43,13 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 /*
  * fmn.h - For FMN credit configuration and registering fmn_handler.
  * FMN is communication mechanism that allows processing agents within
  * XLR/XLS to communicate each other.
  */
-#include <asm/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
 
 #include "platform_net.h"
 #include "xlr_net.h"

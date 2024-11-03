@@ -20,11 +20,11 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/clockchips.h>
-#include <asm/machdep.h>
-#include <asm/io.h>
-#include <asm/coldfire.h>
-#include <asm/mcfpit.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfpit.h>
+#include <asm-generic/mcfsim.h>
 
 /***************************************************************************/
 

@@ -20,7 +20,7 @@
 #include <linux/acpi.h>
 #include <linux/module.h>
 #include <linux/syscore_ops.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <trace/events/power.h>
 
 #include "internal.h"

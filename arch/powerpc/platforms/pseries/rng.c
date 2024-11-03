@@ -11,9 +11,9 @@
 
 #include <linux/kernel.h>
 #include <linux/of.h>
-#include <asm/archrandom.h>
-#include <asm/machdep.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/archrandom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/plpar_wrappers.h>
 #include "pseries.h"
 
 

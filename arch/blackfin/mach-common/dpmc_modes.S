@@ -5,9 +5,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <mach/irq.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dpmc.h>
 
 .section .l1.text
 ENTRY(_sleep_mode)

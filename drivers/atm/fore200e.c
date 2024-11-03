@@ -37,22 +37,22 @@
 #include <linux/dma-mapping.h>
 #include <linux/delay.h>
 #include <linux/firmware.h>
-#include <asm/io.h>
-#include <asm/string.h>
-#include <asm/page.h>
-#include <asm/irq.h>
-#include <asm/dma.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/string.h>
+#include <asm-generic/page.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
 
 #ifdef CONFIG_SBUS
 #include <linux/of.h>
 #include <linux/of_device.h>
-#include <asm/idprom.h>
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/pgtable.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/pgtable.h>
 #endif
 
 #if defined(CONFIG_ATM_FORE200E_USE_TASKLET) /* defer interrupt work to a tasklet */

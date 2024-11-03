@@ -10,7 +10,7 @@
 #include <linux/mm.h>
 #include <linux/io.h>
 
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 #define DM3_BASE (LINSYSDIRECT_BASE + (MMCU_DIRECTMAPn_ADDR_SCALE * 3))
 

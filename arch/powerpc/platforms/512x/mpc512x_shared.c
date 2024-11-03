@@ -21,13 +21,13 @@
 #include <linux/memblock.h>
 #include <sysdev/fsl_soc.h>
 
-#include <asm/cacheflush.h>
-#include <asm/machdep.h>
-#include <asm/ipic.h>
-#include <asm/prom.h>
-#include <asm/time.h>
-#include <asm/mpc5121.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpc5121.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #include "mpc512x.h"
 

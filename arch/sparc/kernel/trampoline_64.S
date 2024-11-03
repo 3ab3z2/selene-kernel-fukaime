@@ -6,20 +6,20 @@
  */
 
 
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/lsu.h>
-#include <asm/dcr.h>
-#include <asm/dcu.h>
-#include <asm/pstate.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/spitfire.h>
-#include <asm/processor.h>
-#include <asm/thread_info.h>
-#include <asm/mmu.h>
-#include <asm/hypervisor.h>
-#include <asm/cpudata.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/lsu.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcu.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/cpudata.h>
 
 	.data
 	.align	8

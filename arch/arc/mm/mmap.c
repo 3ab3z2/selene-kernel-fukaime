@@ -15,7 +15,7 @@
 #include <linux/mman.h>
 #include <linux/sched/mm.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #define COLOUR_ALIGN(addr, pgoff)			\
 	((((addr) + SHMLBA - 1) & ~(SHMLBA - 1)) +	\

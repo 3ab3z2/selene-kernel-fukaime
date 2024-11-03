@@ -11,7 +11,7 @@
  * of the License.
  */
 #include <linux/moduleloader.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/netdevice.h>
 #include <linux/filter.h>
 #include <linux/if_vlan.h>

@@ -35,7 +35,7 @@
 #include <linux/export.h>
 #include <net/checksum.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifndef do_csum
 static inline unsigned short from32to16(unsigned int x)

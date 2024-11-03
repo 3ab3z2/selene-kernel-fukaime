@@ -14,10 +14,10 @@
 #include <linux/export.h>
 #include <linux/nmi.h>
 
-#include <asm/cpufeature.h>
-#include <asm/hardirq.h>
-#include <asm/intel-family.h>
-#include <asm/apic.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/apic.h>
 
 #include "../perf_event.h"
 

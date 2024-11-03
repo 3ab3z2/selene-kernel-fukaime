@@ -14,7 +14,7 @@
 #ifndef __ASM_S390_SYSINFO_H
 #define __ASM_S390_SYSINFO_H
 
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 #include <linux/uuid.h>
 
 struct sysinfo_1_1_1 {

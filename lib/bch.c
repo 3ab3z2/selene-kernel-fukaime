@@ -71,7 +71,7 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/bitops.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/bch.h>
 
 #if defined(CONFIG_BCH_CONST_PARAMS)

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/init.h>
 #include <linux/pci.h>
-#include <asm/mips-boards/piix4.h>
+#include <asm-generic/mips-boards/piix4.h>
 
 /* PCI interrupt pins */
 #define PCIA		1

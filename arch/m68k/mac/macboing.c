@@ -13,8 +13,8 @@
 #include <linux/sched.h>
 #include <linux/timer.h>
 
-#include <asm/macintosh.h>
-#include <asm/mac_asc.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/mac_asc.h>
 
 static int mac_asc_inited;
 /*

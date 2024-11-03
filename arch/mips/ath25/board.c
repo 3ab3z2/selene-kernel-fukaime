@@ -11,10 +11,10 @@
 
 #include <linux/init.h>
 #include <linux/interrupt.h>
-#include <asm/irq_cpu.h>
-#include <asm/reboot.h>
-#include <asm/bootinfo.h>
-#include <asm/time.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
 
 #include <ath25_platform.h>
 #include "devices.h"

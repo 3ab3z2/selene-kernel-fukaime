@@ -10,8 +10,8 @@
  * Routing deferred exceptions
  */
 
-#include <asm/metag_regs.h>
-#include <asm/tbx.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/tbx.h>
 
 	.text
 	.balign	4

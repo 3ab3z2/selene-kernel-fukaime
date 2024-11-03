@@ -17,7 +17,7 @@
  */
 
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/device.h>
 #include <linux/dma-mapping.h>
 #include <linux/host1x.h>

@@ -32,11 +32,11 @@
 #include <linux/hardirq.h>
 #include <linux/rcupdate.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/elf.h>
-#include <asm/m32r.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/m32r.h>
 
 #include <linux/err.h>
 

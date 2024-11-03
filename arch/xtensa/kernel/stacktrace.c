@@ -12,8 +12,8 @@
 #include <linux/sched.h>
 #include <linux/stacktrace.h>
 
-#include <asm/stacktrace.h>
-#include <asm/traps.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
 
 #if IS_ENABLED(CONFIG_OPROFILE) || IS_ENABLED(CONFIG_PERF_EVENTS)

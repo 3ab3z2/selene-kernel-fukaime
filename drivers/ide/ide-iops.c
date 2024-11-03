@@ -22,10 +22,10 @@
 #include <linux/bitops.h>
 #include <linux/nmi.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 void SELECT_MASK(ide_drive_t *drive, int mask)
 {
@@ -54,7 +54,7 @@ void ide_fix_driveid(u16 *id)
 	for (i = 0; i < 256; i++)
 		id[i] = __le16_to_cpu(id[i]);
 # else
-#  error "Please fix <asm/byteorder.h>"
+#  error "Please fix <asm-generic/byteorder.h>"
 # endif
 #endif
 }

@@ -14,10 +14,10 @@
 
 #include <linux/linkage.h>
 #include <linux/sys.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/errno.h>
-#include <asm/mmu.h>
-#include <asm/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
 
 	.text
 /*

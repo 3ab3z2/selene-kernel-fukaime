@@ -11,7 +11,7 @@
 
 #include <linux/init.h>
 #include <linux/slab.h>
-#include <asm/facility.h>
+#include <asm-generic/facility.h>
 
 #include "ap_bus.h"
 #include "ap_asm.h"

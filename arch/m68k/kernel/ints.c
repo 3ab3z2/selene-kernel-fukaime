@@ -14,16 +14,16 @@
 #include <linux/init.h>
 #include <linux/irq.h>
 
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/page.h>
-#include <asm/machdep.h>
-#include <asm/cacheflush.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/page.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/irq_regs.h>
 
 #ifdef CONFIG_Q40
-#include <asm/q40ints.h>
+#include <asm-generic/q40ints.h>
 #endif
 
 extern u32 auto_irqhandler_fixup[];

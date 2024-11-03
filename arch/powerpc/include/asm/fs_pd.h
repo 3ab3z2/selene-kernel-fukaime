@@ -12,13 +12,13 @@
 #ifndef FS_PD_H
 #define FS_PD_H
 #include <sysdev/fsl_soc.h>
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #ifdef CONFIG_CPM2
-#include <asm/cpm2.h>
+#include <asm-generic/cpm2.h>
 
 #if defined(CONFIG_8260)
-#include <asm/mpc8260.h>
+#include <asm-generic/mpc8260.h>
 #endif
 
 #define cpm2_map(member) (&cpm2_immr->member)
@@ -27,7 +27,7 @@
 #endif
 
 #ifdef CONFIG_PPC_8xx
-#include <asm/8xx_immap.h>
+#include <asm-generic/8xx_immap.h>
 
 extern immap_t __iomem *mpc8xx_immr;
 

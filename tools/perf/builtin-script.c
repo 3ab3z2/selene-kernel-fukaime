@@ -31,7 +31,7 @@
 #include <linux/kernel.h>
 #include <linux/stringify.h>
 #include <linux/time64.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "util/mem-events.h"
 #include "util/dump-insn.h"
 #include <dirent.h>

@@ -12,8 +12,8 @@
 
 #include <linux/kernel.h>
 #include <linux/compiler.h>
-#include <asm/exceptions.h>
-#include <asm/pvr.h>
+#include <asm-generic/exceptions.h>
+#include <asm-generic/pvr.h>
 
 /*
  * Until we get an assembler that knows about the pvr registers,

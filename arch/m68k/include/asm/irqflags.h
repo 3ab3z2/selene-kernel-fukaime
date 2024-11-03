@@ -4,8 +4,8 @@
 
 #include <linux/types.h>
 #include <linux/preempt.h>
-#include <asm/thread_info.h>
-#include <asm/entry.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/entry.h>
 
 static inline unsigned long arch_local_save_flags(void)
 {

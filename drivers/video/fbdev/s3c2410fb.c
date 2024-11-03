@@ -30,9 +30,9 @@
 #include <linux/cpufreq.h>
 #include <linux/io.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
-#include <asm/mach/map.h>
+#include <asm-generic/mach/map.h>
 #include <mach/regs-lcd.h>
 #include <mach/regs-gpio.h>
 #include <mach/fb.h>

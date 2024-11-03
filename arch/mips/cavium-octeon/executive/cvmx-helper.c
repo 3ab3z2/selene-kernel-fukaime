@@ -30,21 +30,21 @@
  * Helper functions for common, but complicated tasks.
  *
  */
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-fpa.h>
-#include <asm/octeon/cvmx-pip.h>
-#include <asm/octeon/cvmx-pko.h>
-#include <asm/octeon/cvmx-ipd.h>
-#include <asm/octeon/cvmx-spi.h>
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-helper-board.h>
+#include <asm-generic/octeon/cvmx-fpa.h>
+#include <asm-generic/octeon/cvmx-pip.h>
+#include <asm-generic/octeon/cvmx-pko.h>
+#include <asm-generic/octeon/cvmx-ipd.h>
+#include <asm-generic/octeon/cvmx-spi.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper-board.h>
 
-#include <asm/octeon/cvmx-pip-defs.h>
-#include <asm/octeon/cvmx-smix-defs.h>
-#include <asm/octeon/cvmx-asxx-defs.h>
+#include <asm-generic/octeon/cvmx-pip-defs.h>
+#include <asm-generic/octeon/cvmx-smix-defs.h>
+#include <asm-generic/octeon/cvmx-asxx-defs.h>
 
 /**
  * cvmx_override_pko_queue_priority(int ipd_port, uint64_t

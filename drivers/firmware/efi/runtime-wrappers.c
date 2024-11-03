@@ -22,7 +22,7 @@
 #include <linux/mutex.h>
 #include <linux/semaphore.h>
 #include <linux/stringify.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 /*
  * Wrap around the new efi_call_virt_generic() macros so that the

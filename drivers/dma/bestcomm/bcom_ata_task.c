@@ -10,7 +10,7 @@
  * Created based on bestcom/code_dma/image_rtos1/dma_image.hex
  */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * The header consists of the following fields:

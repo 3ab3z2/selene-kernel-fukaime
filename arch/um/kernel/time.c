@@ -14,8 +14,8 @@
 #include <linux/sched.h>
 #include <linux/spinlock.h>
 #include <linux/threads.h>
-#include <asm/irq.h>
-#include <asm/param.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/param.h>
 #include <kern_util.h>
 #include <os.h>
 #include <timer-internal.h>

@@ -3,8 +3,8 @@
  * Written by Martin Schwidefsky (schwidefsky@de.ibm.com)
  */
 
-#include <asm/thread_info.h>
-#include <asm/page.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/page.h>
 
 /*
  * Put .bss..swapper_pg_dir as the first thing in .bss. This will

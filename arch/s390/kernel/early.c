@@ -18,17 +18,17 @@
 #include <linux/pfn.h>
 #include <linux/uaccess.h>
 #include <linux/kernel.h>
-#include <asm/diag.h>
-#include <asm/ebcdic.h>
-#include <asm/ipl.h>
-#include <asm/lowcore.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/sysinfo.h>
-#include <asm/cpcmd.h>
-#include <asm/sclp.h>
-#include <asm/facility.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/facility.h>
 #include "entry.h"
 
 /*

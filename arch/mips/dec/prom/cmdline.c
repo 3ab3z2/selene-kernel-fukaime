@@ -10,8 +10,8 @@
 #include <linux/string.h>
 #include <linux/types.h>
 
-#include <asm/bootinfo.h>
-#include <asm/dec/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/dec/prom.h>
 
 #undef PROM_DEBUG
 

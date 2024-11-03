@@ -17,7 +17,7 @@
 #include <linux/ide.h>
 #include <linux/module.h>
 
-#include <asm/ide.h>
+#include <asm-generic/ide.h>
 
     /*
      *  Bases of the IDE interfaces

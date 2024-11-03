@@ -10,7 +10,7 @@
 
 #include <linux/bug.h>
 #include <linux/string.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define VT_BUF_HAVE_RW
 #define VT_BUF_HAVE_MEMSETW

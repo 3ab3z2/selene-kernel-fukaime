@@ -20,7 +20,7 @@
 
 #include <linux/kernel.h>
 #include <linux/spinlock.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <linux/signal.h>
 #include <linux/sched.h>

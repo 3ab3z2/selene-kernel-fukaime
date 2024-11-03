@@ -24,8 +24,8 @@
 #include <linux/serial_core.h>
 #include <linux/irq.h>
 
-#include <asm/cpu.h>
-#include <asm/vr41xx/siu.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/vr41xx/siu.h>
 
 static unsigned int siu_type1_ports[SIU_PORTS_MAX] __initdata = {
 	PORT_VR41XX_SIU,

@@ -11,7 +11,7 @@
 #ifndef _ASM_SN_SN0_IP27_H
 #define _ASM_SN_SN0_IP27_H
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * Simple definitions for the masks which remove SW bits from pte.
@@ -74,7 +74,7 @@
 #define SCACHE_LINESIZE 128
 #define SCACHE_LINEMASK (SCACHE_LINESIZE - 1)
 
-#include <asm/sn/addrs.h>
+#include <asm-generic/sn/addrs.h>
 
 #define LED_CYCLE_MASK	0x0f
 #define LED_CYCLE_SHFT	4

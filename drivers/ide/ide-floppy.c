@@ -35,10 +35,10 @@
 
 #include <scsi/scsi_ioctl.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 #include <linux/io.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "ide-floppy.h"
 

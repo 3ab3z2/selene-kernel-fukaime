@@ -2,7 +2,7 @@
 #ifndef __ARCH_PARISC_IOCTLS_H__
 #define __ARCH_PARISC_IOCTLS_H__
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 /* 0x54 is just a magic number to make these relatively unique ('T') */
 

@@ -15,14 +15,14 @@
 #include <linux/init.h>
 #include <linux/of.h>
 #include <linux/of_device.h>
-#include <asm/spitfire.h>
-#include <asm/chmctrl.h>
-#include <asm/cpudata.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
-#include <asm/head.h>
-#include <asm/io.h>
-#include <asm/memctrl.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/chmctrl.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/head.h>
+#include <asm-generic/io.h>
+#include <asm-generic/memctrl.h>
 
 #define DRV_MODULE_NAME		"chmc"
 #define PFX DRV_MODULE_NAME	": "

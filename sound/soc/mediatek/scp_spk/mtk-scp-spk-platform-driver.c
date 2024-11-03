@@ -10,7 +10,7 @@
 #include <linux/string.h>
 #include <sound/soc.h>
 #include <linux/spinlock.h>
-#include <asm/arch_timer.h>
+#include <asm-generic/arch_timer.h>
 
 #include "audio_task_manager.h"
 #include "scp_helper.h"

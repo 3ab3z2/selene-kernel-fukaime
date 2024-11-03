@@ -16,8 +16,8 @@
 #include <linux/libfdt.h>
 #include <linux/printk.h>
 
-#include <asm/fw/fw.h>
-#include <asm/yamon-dt.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/yamon-dt.h>
 
 #define MAX_MEM_ARRAY_ENTRIES	2
 

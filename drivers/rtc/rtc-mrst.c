@@ -37,9 +37,9 @@
 #include <linux/init.h>
 #include <linux/sfi.h>
 
-#include <asm/intel_scu_ipc.h>
-#include <asm/intel-mid.h>
-#include <asm/intel_mid_vrtc.h>
+#include <asm-generic/intel_scu_ipc.h>
+#include <asm-generic/intel-mid.h>
+#include <asm-generic/intel_mid_vrtc.h>
 
 struct mrst_rtc {
 	struct rtc_device	*rtc;

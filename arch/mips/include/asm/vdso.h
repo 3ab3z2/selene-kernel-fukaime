@@ -13,7 +13,7 @@
 
 #include <linux/mm_types.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 /**
  * struct mips_vdso_image - Details of a VDSO image.

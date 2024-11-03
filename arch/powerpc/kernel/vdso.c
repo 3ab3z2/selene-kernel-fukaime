@@ -22,19 +22,19 @@
 #include <linux/security.h>
 #include <linux/memblock.h>
 
-#include <asm/cpu_has_feature.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/cputable.h>
-#include <asm/sections.h>
-#include <asm/firmware.h>
-#include <asm/vdso.h>
-#include <asm/vdso_datapage.h>
-#include <asm/setup.h>
+#include <asm-generic/cpu_has_feature.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/setup.h>
 
 #undef DEBUG
 

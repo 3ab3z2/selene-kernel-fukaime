@@ -8,7 +8,7 @@
 #include <string.h>
 #include <sys/mman.h>
 
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 
 #include "utils.h"
 

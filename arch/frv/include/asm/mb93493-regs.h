@@ -12,8 +12,8 @@
 #ifndef _ASM_MB93493_REGS_H
 #define _ASM_MB93493_REGS_H
 
-#include <asm/mb-regs.h>
-#include <asm/mb93493-irqs.h>
+#include <asm-generic/mb-regs.h>
+#include <asm-generic/mb93493-irqs.h>
 
 #define __addr_MB93493(X)	((volatile unsigned long *)(__region_CS3 + (X)))
 #define __get_MB93493(X)	({ *(volatile unsigned long *)(__region_CS3 + (X)); })

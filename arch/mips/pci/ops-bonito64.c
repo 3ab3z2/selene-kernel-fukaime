@@ -23,7 +23,7 @@
 #include <linux/pci.h>
 #include <linux/kernel.h>
 
-#include <asm/mips-boards/bonito64.h>
+#include <asm-generic/mips-boards/bonito64.h>
 
 #define PCI_ACCESS_READ	 0
 #define PCI_ACCESS_WRITE 1

@@ -14,7 +14,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #include "mpc5200_dma.h"
 

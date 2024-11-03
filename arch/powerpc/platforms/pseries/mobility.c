@@ -20,8 +20,8 @@
 #include <linux/delay.h>
 #include <linux/slab.h>
 
-#include <asm/machdep.h>
-#include <asm/rtas.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
 #include "pseries.h"
 #include "../../kernel/cacheinfo.h"
 

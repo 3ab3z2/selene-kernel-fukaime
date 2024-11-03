@@ -20,10 +20,10 @@
 #include <linux/slab.h>
 #include <linux/timekeeper_internal.h>
 
-#include <asm/abi.h>
-#include <asm/mips-cps.h>
-#include <asm/page.h>
-#include <asm/vdso.h>
+#include <asm-generic/abi.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/page.h>
+#include <asm-generic/vdso.h>
 
 /* Kernel-provided data used by the VDSO. */
 static union mips_vdso_data vdso_data __page_aligned_data;

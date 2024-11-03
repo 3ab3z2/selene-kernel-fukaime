@@ -3,8 +3,8 @@
 #define _M68K_PAGE_H
 
 #include <linux/const.h>
-#include <asm/setup.h>
-#include <asm/page_offset.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page_offset.h>
 
 /* PAGE_SHIFT determines the page size */
 #if defined(CONFIG_SUN3) || defined(CONFIG_COLDFIRE)
@@ -44,9 +44,9 @@ extern unsigned long _ramend;
 #endif /* !__ASSEMBLY__ */
 
 #ifdef CONFIG_MMU
-#include <asm/page_mm.h>
+#include <asm-generic/page_mm.h>
 #else
-#include <asm/page_no.h>
+#include <asm-generic/page_no.h>
 #endif
 
 #define __phys_to_pfn(paddr)	((unsigned long)((paddr) >> PAGE_SHIFT))

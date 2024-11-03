@@ -10,7 +10,7 @@
 #include <linux/kernel.h>
 #include <linux/of_platform.h>
 #include <linux/export.h>
-#include <asm/mpc5xxx.h>
+#include <asm-generic/mpc5xxx.h>
 
 unsigned long mpc5xxx_get_bus_frequency(struct device_node *node)
 {

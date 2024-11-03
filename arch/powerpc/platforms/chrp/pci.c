@@ -9,16 +9,16 @@
 #include <linux/string.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/hydra.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/sections.h>
-#include <asm/pci-bridge.h>
-#include <asm/grackle.h>
-#include <asm/rtas.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hydra.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/grackle.h>
+#include <asm-generic/rtas.h>
 
 #include "chrp.h"
 #include "gg2.h"

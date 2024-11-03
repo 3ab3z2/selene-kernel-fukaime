@@ -21,17 +21,17 @@
 #include <linux/irq.h>
 #include <linux/kexec.h>
 #include <linux/i8253.h>
-#include <asm/processor.h>
-#include <asm/hypervisor.h>
-#include <asm/hyperv.h>
-#include <asm/mshyperv.h>
-#include <asm/desc.h>
-#include <asm/irq_regs.h>
-#include <asm/i8259.h>
-#include <asm/apic.h>
-#include <asm/timer.h>
-#include <asm/reboot.h>
-#include <asm/nmi.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/hyperv.h>
+#include <asm-generic/mshyperv.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/nmi.h>
 
 struct ms_hyperv_info ms_hyperv;
 EXPORT_SYMBOL_GPL(ms_hyperv);

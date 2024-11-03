@@ -13,10 +13,10 @@
 
 #include <linux/types.h>
 #include <linux/interrupt.h>
-#include <asm/intersil.h>
-#include <asm/oplib.h>
-#include <asm/traps.h>
-#include <asm/irq.h>
+#include <asm-generic/intersil.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/irq.h>
 
 #define SUN3_INT_VECS 192
 

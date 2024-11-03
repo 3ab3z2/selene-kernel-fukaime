@@ -15,7 +15,7 @@
 #include <linux/leds.h>
 
 #include <mach/hardware.h>
-#include <asm/hardware/locomo.h>
+#include <asm-generic/hardware/locomo.h>
 
 static void locomoled_brightness_set(struct led_classdev *led_cdev,
 				enum led_brightness value, int offset)

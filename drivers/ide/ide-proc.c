@@ -27,7 +27,7 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static struct proc_dir_entry *proc_ide_root;
 

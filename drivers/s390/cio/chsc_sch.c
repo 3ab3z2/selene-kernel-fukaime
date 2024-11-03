@@ -15,10 +15,10 @@
 #include <linux/miscdevice.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/compat.h>
-#include <asm/cio.h>
-#include <asm/chsc.h>
-#include <asm/isc.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/chsc.h>
+#include <asm-generic/isc.h>
 
 #include "cio.h"
 #include "cio_debug.h"

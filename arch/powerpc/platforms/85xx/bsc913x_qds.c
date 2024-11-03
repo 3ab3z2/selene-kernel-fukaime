@@ -15,10 +15,10 @@
 
 #include <linux/of_platform.h>
 #include <linux/pci.h>
-#include <asm/mpic.h>
+#include <asm-generic/mpic.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 
 #include "mpc85xx.h"
 #include "smp.h"

@@ -112,10 +112,10 @@
 #include <linux/types.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/io.h>
-#include <asm/mipsregs.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/rbtx4927.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/rbtx4927.h>
 
 static int toshiba_rbtx4927_irq_nested(int sw_irq)
 {

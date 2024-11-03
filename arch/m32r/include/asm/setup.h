@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_SETUP_H
 #define _ASM_M32R_SETUP_H
 
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 
 #define PARAM			((unsigned char *)empty_zero_page)

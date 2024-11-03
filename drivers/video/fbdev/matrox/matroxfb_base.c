@@ -115,7 +115,7 @@
 #include <linux/uaccess.h>
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 unsigned char nvram_read_byte(int);
 static int default_vmode = VMODE_NVRAM;
 static int default_cmode = CMODE_NVRAM;

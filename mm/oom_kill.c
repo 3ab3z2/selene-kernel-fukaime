@@ -49,7 +49,7 @@
 #include <mt-plat/mtk_gpu_utility.h>
 #endif
 
-#include <asm/tlb.h>
+#include <asm-generic/tlb.h>
 #include "internal.h"
 
 #define CREATE_TRACE_POINTS

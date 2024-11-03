@@ -19,8 +19,8 @@
  */
 
 #include <linux/interrupt.h>
-#include <asm/irq.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hexagon_vm.h>
 
 static void mask_irq(struct irq_data *data)
 {

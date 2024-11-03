@@ -14,13 +14,13 @@
 #include <linux/init.h>
 #include <linux/errno.h>
 
-#include <asm/page.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/cpudata.h>
-#include <asm/cpu_type.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/cpu_type.h>
+#include <asm-generic/setup.h>
 
 #include "kernel.h"
 

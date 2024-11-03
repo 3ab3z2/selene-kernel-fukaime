@@ -46,8 +46,8 @@
 #include <linux/uaccess.h>
 #include <linux/usb.h>
 #include <linux/usb/cdc.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 #include <linux/idr.h>
 #include <linux/list.h>
 

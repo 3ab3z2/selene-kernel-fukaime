@@ -12,17 +12,17 @@
 #include <linux/err.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/kvm_book3s.h>
-#include <asm/kvm_ppc.h>
-#include <asm/hvcall.h>
-#include <asm/xics.h>
-#include <asm/synch.h>
-#include <asm/cputhreads.h>
-#include <asm/pgtable.h>
-#include <asm/ppc-opcode.h>
-#include <asm/pnv-pci.h>
-#include <asm/opal.h>
-#include <asm/smp.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/smp.h>
 
 #include "book3s_xics.h"
 

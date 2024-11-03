@@ -17,9 +17,9 @@
 #include <linux/smp.h>
 #include <linux/of.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-ciu2-defs.h>
-#include <asm/octeon/cvmx-ciu3-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-ciu2-defs.h>
+#include <asm-generic/octeon/cvmx-ciu3-defs.h>
 
 static DEFINE_PER_CPU(unsigned long, octeon_irq_ciu0_en_mirror);
 static DEFINE_PER_CPU(unsigned long, octeon_irq_ciu1_en_mirror);

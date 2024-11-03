@@ -25,7 +25,7 @@
  * Contact Cavium Networks for more information
  ***********************license end**************************************/
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 enum octeon_feature_bits __octeon_feature_bits __read_mostly;
 EXPORT_SYMBOL_GPL(__octeon_feature_bits);

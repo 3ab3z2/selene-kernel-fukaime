@@ -13,9 +13,9 @@
 #ifndef _TAPE_H
 #define _TAPE_H
 
-#include <asm/ccwdev.h>
-#include <asm/debug.h>
-#include <asm/idals.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/idals.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/mtio.h>

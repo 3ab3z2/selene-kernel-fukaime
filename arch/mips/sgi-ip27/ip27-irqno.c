@@ -7,7 +7,7 @@
 #include <linux/irq.h>
 #include <linux/types.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 static DECLARE_BITMAP(irq_map, NR_IRQS);
 

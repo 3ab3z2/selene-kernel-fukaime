@@ -12,12 +12,12 @@
 #ifndef __ASSEMBLY__
 #include <linux/threads.h>
 
-#include <asm/prefetch.h>
-#include <asm/hardware.h>
-#include <asm/pdc.h>
-#include <asm/ptrace.h>
-#include <asm/types.h>
-#include <asm/percpu.h>
+#include <asm-generic/prefetch.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/types.h>
+#include <asm-generic/percpu.h>
 #endif /* __ASSEMBLY__ */
 
 /*

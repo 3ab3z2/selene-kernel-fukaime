@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
-#include <asm/cpufeature.h>
+#include <asm-generic/cpufeature.h>
 
 struct cpuid_dep {
 	unsigned int	feature;

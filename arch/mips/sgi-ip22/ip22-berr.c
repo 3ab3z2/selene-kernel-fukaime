@@ -9,14 +9,14 @@
 #include <linux/kernel.h>
 #include <linux/sched/signal.h>
 
-#include <asm/addrspace.h>
-#include <asm/traps.h>
-#include <asm/branch.h>
-#include <asm/irq_regs.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/ip22.h>
 
 
 static unsigned int cpu_err_stat;	/* Status reg for CPU */

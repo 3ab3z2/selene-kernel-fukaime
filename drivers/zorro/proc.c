@@ -16,10 +16,10 @@
 #include <linux/init.h>
 #include <linux/export.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
-#include <asm/amigahw.h>
-#include <asm/setup.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/setup.h>
 
 static loff_t
 proc_bus_zorro_lseek(struct file *file, loff_t off, int whence)

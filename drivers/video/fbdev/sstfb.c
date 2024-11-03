@@ -86,7 +86,7 @@
 #include <linux/pci.h>
 #include <linux/delay.h>
 #include <linux/init.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <video/sstfb.h>
 

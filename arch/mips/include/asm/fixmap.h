@@ -13,11 +13,11 @@
 #ifndef _ASM_FIXMAP_H
 #define _ASM_FIXMAP_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <spaces.h>
 #ifdef CONFIG_HIGHMEM
 #include <linux/threads.h>
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 #endif
 
 /*

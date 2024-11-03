@@ -15,11 +15,11 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 
-#include <asm/cell-regs.h>
-#include <asm/firmware.h>
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
-#include <asm/ps3gpu.h>
+#include <asm-generic/cell-regs.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
+#include <asm-generic/ps3gpu.h>
 
 
 #define DEVICE_NAME		"ps3vram"

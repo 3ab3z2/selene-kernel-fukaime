@@ -14,7 +14,7 @@
 #include <linux/nodemask.h>
 #include <linux/topology.h>
 
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 DEFINE_PER_CPU(struct cpuinfo_metag, cpu_data);
 

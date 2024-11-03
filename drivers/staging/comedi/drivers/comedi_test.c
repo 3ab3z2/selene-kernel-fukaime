@@ -56,7 +56,7 @@
 #include <linux/module.h>
 #include "../comedidev.h"
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/timer.h>
 #include <linux/ktime.h>

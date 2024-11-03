@@ -16,7 +16,7 @@
 #include <linux/export.h>
 #include <linux/cache.h>
 
-#include <asm/firmware.h>
+#include <asm-generic/firmware.h>
 
 unsigned long powerpc_firmware_features __read_mostly;
 EXPORT_SYMBOL_GPL(powerpc_firmware_features);

@@ -15,11 +15,11 @@
  * Kevin Chea
  */
 
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/cacheasm.h>
-#include <asm/initialize_mmu.h>
-#include <asm/mxregs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheasm.h>
+#include <asm-generic/initialize_mmu.h>
+#include <asm-generic/mxregs.h>
 
 #include <linux/init.h>
 #include <linux/linkage.h>

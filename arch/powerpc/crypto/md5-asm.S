@@ -9,8 +9,8 @@
  * any later version.
  *
  */
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
 
 #define rHP	r3
 #define rWP	r4

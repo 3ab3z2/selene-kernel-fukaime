@@ -17,17 +17,17 @@
 #include <linux/spinlock.h>
 #include <video/vga.h>
 
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/irq.h>
-#include <asm/mach-types.h>
-#include <asm/setup.h>
-#include <asm/system_misc.h>
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/system_misc.h>
+#include <asm-generic/hardware/dec21285.h>
 
-#include <asm/mach/irq.h>
-#include <asm/mach/map.h>
-#include <asm/mach/pci.h>
+#include <asm-generic/mach/irq.h>
+#include <asm-generic/mach/map.h>
+#include <asm-generic/mach/pci.h>
 
 #include "common.h"
 

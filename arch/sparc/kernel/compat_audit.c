@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 #define __32bit_syscall_numbers__
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include "kernel.h"
 
 unsigned int sparc32_dir_class[] = {

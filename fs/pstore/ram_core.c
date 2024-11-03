@@ -27,7 +27,7 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/vmalloc.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 struct persistent_ram_buffer {
 	uint32_t    sig;

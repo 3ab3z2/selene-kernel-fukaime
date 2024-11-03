@@ -39,21 +39,21 @@
 #include <linux/smp.h>
 #include <linux/irq.h>
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/mips-extns.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
 
 #if defined(CONFIG_CPU_XLP)
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/pic.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/pic.h>
 #elif defined(CONFIG_CPU_XLR)
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
 #else
 #error "Unknown CPU"
 #endif

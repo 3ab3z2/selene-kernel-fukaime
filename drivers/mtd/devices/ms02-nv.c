@@ -15,13 +15,13 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/dec/ioasic_addrs.h>
-#include <asm/dec/kn02.h>
-#include <asm/dec/kn03.h>
-#include <asm/io.h>
-#include <asm/paccess.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/dec/ioasic_addrs.h>
+#include <asm-generic/dec/kn02.h>
+#include <asm-generic/dec/kn03.h>
+#include <asm-generic/io.h>
+#include <asm-generic/paccess.h>
 
 #include "ms02-nv.h"
 

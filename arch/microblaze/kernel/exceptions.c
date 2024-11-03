@@ -20,13 +20,13 @@
 #include <linux/sched/debug.h>
 #include <linux/kallsyms.h>
 
-#include <asm/exceptions.h>
-#include <asm/entry.h>		/* For KM CPU var */
+#include <asm-generic/exceptions.h>
+#include <asm-generic/entry.h>		/* For KM CPU var */
 #include <linux/uaccess.h>
 #include <linux/errno.h>
 #include <linux/ptrace.h>
-#include <asm/current.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/current.h>
+#include <asm-generic/cacheflush.h>
 
 #define MICROBLAZE_ILL_OPCODE_EXCEPTION	0x02
 #define MICROBLAZE_IBUS_EXCEPTION	0x03

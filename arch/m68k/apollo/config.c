@@ -9,14 +9,14 @@
 #include <linux/vt_kern.h>
 #include <linux/interrupt.h>
 
-#include <asm/setup.h>
-#include <asm/bootinfo.h>
-#include <asm/bootinfo-apollo.h>
-#include <asm/byteorder.h>
-#include <asm/pgtable.h>
-#include <asm/apollohw.h>
-#include <asm/irq.h>
-#include <asm/machdep.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bootinfo-apollo.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/apollohw.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/machdep.h>
 
 u_long sio01_physaddr;
 u_long sio23_physaddr;

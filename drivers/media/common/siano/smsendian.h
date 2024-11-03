@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef __SMS_ENDIAN_H__
 #define __SMS_ENDIAN_H__
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 extern void smsendian_handle_tx_message(void *buffer);
 extern void smsendian_handle_rx_message(void *buffer);

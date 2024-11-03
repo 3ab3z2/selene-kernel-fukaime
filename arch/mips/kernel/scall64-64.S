@@ -8,17 +8,17 @@
  * Copyright (C) 2001 MIPS Technologies, Inc.
  */
 #include <linux/errno.h>
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/irqflags.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
-#include <asm/asm-offsets.h>
-#include <asm/sysmips.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
-#include <asm/war.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/sysmips.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/war.h>
 
 #ifndef CONFIG_BINFMT_ELF32
 /* Neither O32 nor N32, so define handle_sys here */

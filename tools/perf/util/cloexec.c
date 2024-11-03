@@ -4,10 +4,10 @@
 #include "util.h"
 #include "../perf.h"
 #include "cloexec.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "debug.h"
 #include <unistd.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <sys/syscall.h>
 
 static unsigned long flag = PERF_FLAG_FD_CLOEXEC;

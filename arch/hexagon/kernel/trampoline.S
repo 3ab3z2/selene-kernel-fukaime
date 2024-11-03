@@ -23,7 +23,7 @@
  * to future tweaks to the Hexagon instruction set.
  */
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 /*  Sig trampolines - call sys_sigreturn or sys_rt_sigreturn as appropriate */
 

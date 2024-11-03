@@ -12,7 +12,7 @@
  */
 
 #include <linux/of.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 struct msi_bitmap {
 	struct device_node	*of_node;

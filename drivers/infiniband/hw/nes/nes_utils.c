@@ -46,9 +46,9 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 
 #include "nes.h"
 

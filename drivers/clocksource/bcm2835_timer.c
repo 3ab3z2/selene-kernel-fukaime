@@ -30,7 +30,7 @@
 #include <linux/string.h>
 #include <linux/sched_clock.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #define REG_CONTROL	0x00
 #define REG_COUNTER_LO	0x04

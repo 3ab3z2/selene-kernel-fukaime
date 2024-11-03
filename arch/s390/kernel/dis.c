@@ -23,13 +23,13 @@
 #include <linux/kdebug.h>
 
 #include <linux/uaccess.h>
-#include <asm/dis.h>
-#include <asm/io.h>
+#include <asm-generic/dis.h>
+#include <asm-generic/io.h>
 #include <linux/atomic.h>
-#include <asm/cpcmd.h>
-#include <asm/lowcore.h>
-#include <asm/debug.h>
-#include <asm/irq.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/irq.h>
 
 enum {
 	UNUSED,	/* Indicates the end of the operand list */

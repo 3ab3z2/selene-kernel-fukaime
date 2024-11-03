@@ -20,7 +20,7 @@
 #include <linux/init.h>
 #include <linux/ioport.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define WORKPAD_ISA_IO_BASE	0x15000000
 #define WORKPAD_ISA_IO_SIZE	0x03000000

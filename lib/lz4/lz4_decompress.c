@@ -38,7 +38,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 /*-*****************************
  *	Decompression functions

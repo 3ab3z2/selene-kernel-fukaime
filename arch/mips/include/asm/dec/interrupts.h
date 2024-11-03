@@ -15,7 +15,7 @@
 #define __ASM_DEC_INTERRUPTS_H
 
 #include <irq.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 
 /*

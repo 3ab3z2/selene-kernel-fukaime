@@ -42,12 +42,12 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/hardware.h>
-#include <asm/parisc-device.h>
-#include <asm/delay.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/delay.h>
 
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>

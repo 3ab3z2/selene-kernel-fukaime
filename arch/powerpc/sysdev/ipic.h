@@ -13,7 +13,7 @@
 #ifndef __IPIC_H__
 #define __IPIC_H__
 
-#include <asm/ipic.h>
+#include <asm-generic/ipic.h>
 
 #define NR_IPIC_INTS 128
 

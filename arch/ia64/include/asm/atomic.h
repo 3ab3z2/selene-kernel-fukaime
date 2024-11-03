@@ -15,8 +15,8 @@
  */
 #include <linux/types.h>
 
-#include <asm/intrinsics.h>
-#include <asm/barrier.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/barrier.h>
 
 
 #define ATOMIC_INIT(i)		{ (i) }

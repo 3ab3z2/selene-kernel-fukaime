@@ -28,8 +28,8 @@
 #include <linux/miscdevice.h>
 #include <linux/watchdog.h>
 #include <linux/suspend.h>
-#include <asm/ebcdic.h>
-#include <asm/diag.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/diag.h>
 #include <linux/io.h>
 #include <linux/uaccess.h>
 

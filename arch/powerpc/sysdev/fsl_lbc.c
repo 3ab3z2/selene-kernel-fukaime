@@ -28,8 +28,8 @@
 #include <linux/interrupt.h>
 #include <linux/mod_devicetable.h>
 #include <linux/syscore_ops.h>
-#include <asm/prom.h>
-#include <asm/fsl_lbc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/fsl_lbc.h>
 
 static DEFINE_SPINLOCK(fsl_lbc_lock);
 struct fsl_lbc_ctrl *fsl_lbc_ctrl_dev;

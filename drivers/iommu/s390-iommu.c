@@ -10,7 +10,7 @@
 #include <linux/iommu.h>
 #include <linux/iommu-helper.h>
 #include <linux/sizes.h>
-#include <asm/pci_dma.h>
+#include <asm-generic/pci_dma.h>
 
 /*
  * Physically contiguous memory regions can be mapped with 4 KiB alignment,

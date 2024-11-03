@@ -20,11 +20,11 @@
 #include <linux/delay.h>
 #include <linux/pci.h>
 
-#include <asm/leon_pci.h>
-#include <asm/sections.h>
-#include <asm/vaddrs.h>
-#include <asm/leon.h>
-#include <asm/io.h>
+#include <asm-generic/leon_pci.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/io.h>
 
 #include "irq.h"
 

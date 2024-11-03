@@ -13,7 +13,7 @@
  */
 #define current_text_addr() ({ __label__ _l; _l: &&_l;})
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <mach/blackfin.h>
 
 static inline unsigned long rdusp(void)

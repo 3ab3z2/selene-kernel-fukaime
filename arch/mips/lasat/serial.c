@@ -23,8 +23,8 @@
 #include <linux/platform_device.h>
 #include <linux/serial_8250.h>
 
-#include <asm/lasat/lasat.h>
-#include <asm/lasat/serial.h>
+#include <asm-generic/lasat/lasat.h>
+#include <asm-generic/lasat/serial.h>
 
 static struct resource lasat_serial_res[2] __initdata;
 

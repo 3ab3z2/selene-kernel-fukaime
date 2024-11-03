@@ -26,9 +26,9 @@
 #include <linux/kernel.h>
 #include <linux/export.h>
 #include <linux/errno.h>
-#include <asm/hvcall.h>
-#include <asm/hvconsole.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/hvconsole.h>
+#include <asm-generic/plpar_wrappers.h>
 
 /**
  * hvc_get_chars - retrieve characters from firmware for denoted vterm adapter

@@ -35,20 +35,20 @@
 #include <linux/kgdb.h>
 
 #include <linux/atomic.h>
-#include <asm/current.h>
-#include <asm/delay.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/current.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/tlbflush.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>		/* for CPU_IRQ_REGION and friends */
-#include <asm/mmu_context.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/unistd.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>		/* for CPU_IRQ_REGION and friends */
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/cacheflush.h>
 
 #undef DEBUG_SMP
 #ifdef DEBUG_SMP

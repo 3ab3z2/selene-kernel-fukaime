@@ -10,8 +10,8 @@
  * Support for TX4938 in 2.6 - Manish Lachwani (mlachwani@mvista.com)
  */
 #include <linux/types.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/rbtx4938.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/rbtx4938.h>
 
 int rbtx4938_pci_map_irq(const struct pci_dev *dev, u8 slot, u8 pin)
 {

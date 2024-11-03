@@ -6,7 +6,7 @@
 #ifndef _ASM_SPARC_DEVICE_H
 #define _ASM_SPARC_DEVICE_H
 
-#include <asm/openprom.h>
+#include <asm-generic/openprom.h>
 
 struct device_node;
 struct platform_device;

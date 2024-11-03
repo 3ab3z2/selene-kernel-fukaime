@@ -7,7 +7,7 @@
  */
 
 #include <linux/percpu.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define PPC64_TLB_BATCH_NR 192
 

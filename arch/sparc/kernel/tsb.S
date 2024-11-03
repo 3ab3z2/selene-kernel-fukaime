@@ -5,11 +5,11 @@
  */
 
 
-#include <asm/tsb.h>
-#include <asm/hypervisor.h>
-#include <asm/page.h>
-#include <asm/cpudata.h>
-#include <asm/mmu.h>
+#include <asm-generic/tsb.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/mmu.h>
 
 	.text
 	.align	32

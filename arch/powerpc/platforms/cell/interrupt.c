@@ -37,12 +37,12 @@
 #include <linux/ioport.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/ptrace.h>
-#include <asm/machdep.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cell-regs.h>
 
 #include "interrupt.h"
 

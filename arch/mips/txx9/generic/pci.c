@@ -16,13 +16,13 @@
 #include <linux/delay.h>
 #include <linux/jiffies.h>
 #include <linux/io.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
 #ifdef CONFIG_TOSHIBA_FPCIB0
 #include <linux/interrupt.h>
 #include <linux/slab.h>
-#include <asm/i8259.h>
-#include <asm/txx9/smsc_fdc37m81x.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/txx9/smsc_fdc37m81x.h>
 #endif
 
 static int __init

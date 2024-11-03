@@ -12,8 +12,8 @@
 #else
 
 #include <linux/atomic.h>
-#include <asm/processor.h>
-#include <asm/barrier.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/barrier.h>
 
 asmlinkage int __raw_spin_is_locked_asm(volatile int *ptr);
 asmlinkage void __raw_spin_lock_asm(volatile int *ptr);

@@ -24,10 +24,10 @@
 #include <linux/ide.h>
 #include <linux/ktime.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #endif
 
 #define DRV_NAME "pdc202xx_new"

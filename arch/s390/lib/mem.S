@@ -6,8 +6,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/export.h>
-#include <asm/nospec-insn.h>
+#include <asm-generic/export.h>
+#include <asm-generic/nospec-insn.h>
 
 	GEN_BR_THUNK %r14
 

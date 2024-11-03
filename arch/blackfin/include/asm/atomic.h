@@ -7,11 +7,11 @@
 #ifndef __ARCH_BLACKFIN_ATOMIC__
 #define __ARCH_BLACKFIN_ATOMIC__
 
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 #ifdef CONFIG_SMP
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #include <linux/linkage.h>
 #include <linux/types.h>
 

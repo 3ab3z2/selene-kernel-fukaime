@@ -38,8 +38,8 @@
 #include <linux/dma-mapping.h>
 #include <linux/io.h>
 
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 #include <linux/irq.h>
 #include <linux/platform_device.h>

@@ -3,7 +3,7 @@
 #define _ASM_SCORE_MODULE_H
 
 #include <linux/list.h>
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 #include <asm-generic/module.h>
 
 struct mod_arch_specific {

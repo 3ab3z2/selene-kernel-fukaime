@@ -20,9 +20,9 @@
 #include <linux/uaccess.h>
 #include <linux/mm_inline.h>
 
-#include <asm/elf.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
 #include "internal.h"
 
 void task_mem(struct seq_file *m, struct mm_struct *mm)

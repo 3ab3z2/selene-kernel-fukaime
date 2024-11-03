@@ -25,9 +25,9 @@
 #include <linux/pci.h>
 #include <linux/string.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/rtas.h>
-#include <asm/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/machdep.h>
 
 #include "../pci.h"		/* for pci_add_new_bus */
 #include "rpaphp.h"

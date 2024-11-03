@@ -33,9 +33,9 @@
 #include <linux/init.h>
 #include <linux/fb.h>
 
-#include <asm/setup.h>
-#include <asm/macintosh.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/io.h>
 
 /* Common DAC base address for the LC, RBV, Valkyrie, and IIvx */
 #define DAC_BASE 0x50f24000

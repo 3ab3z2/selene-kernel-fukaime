@@ -21,9 +21,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/types.h>
-#include <asm/irq_cpu.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/tx4939.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/tx4939.h>
 
 /* IRCER : Int. Control Enable */
 #define TXx9_IRCER_ICE	0x00000001

@@ -10,8 +10,8 @@
 #include <linux/kdebug.h>
 #include <linux/slab.h>
 #include <linux/context_tracking.h>
-#include <asm/signal.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
 
 /* We do not have hardware single-stepping on sparc64.

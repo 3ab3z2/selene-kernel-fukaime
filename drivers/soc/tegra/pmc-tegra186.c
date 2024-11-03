@@ -19,7 +19,7 @@
 #include <linux/platform_device.h>
 #include <linux/reboot.h>
 
-#include <asm/system_misc.h>
+#include <asm-generic/system_misc.h>
 
 #define PMC_CNTRL 0x000
 #define  PMC_CNTRL_MAIN_RST BIT(4)

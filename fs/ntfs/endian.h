@@ -23,7 +23,7 @@
 #ifndef _LINUX_NTFS_ENDIAN_H
 #define _LINUX_NTFS_ENDIAN_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "types.h"
 
 /*

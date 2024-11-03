@@ -9,7 +9,7 @@
  */
 
 #ifndef __MIPS_ASM_MIPS_CPS_H__
-# error Please include asm/mips-cps.h rather than asm/mips-cm.h
+# error Please include asm-generic/mips-cps.h rather than asm-generic/mips-cm.h
 #endif
 
 #ifndef __MIPS_ASM_MIPS_CM_H__

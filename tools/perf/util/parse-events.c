@@ -27,7 +27,7 @@
 #include "thread_map.h"
 #include "cpumap.h"
 #include "probe-file.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "util/parse-branch-options.h"
 
 #define MAX_NAME_LEN 100

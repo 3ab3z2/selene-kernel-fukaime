@@ -38,10 +38,10 @@
 #include <linux/prefetch.h>
 #include <linux/io.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
-#include <asm/mach-types.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/mach-types.h>
 
 #include <linux/omap-dma.h>
 

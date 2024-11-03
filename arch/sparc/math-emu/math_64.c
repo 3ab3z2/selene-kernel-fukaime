@@ -14,10 +14,10 @@
 #include <linux/errno.h>
 #include <linux/perf_event.h>
 
-#include <asm/fpumacro.h>
-#include <asm/ptrace.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/ptrace.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "sfp-util_64.h"
 #include <math-emu/soft-fp.h>

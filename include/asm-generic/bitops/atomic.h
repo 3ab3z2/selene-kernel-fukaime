@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS_ATOMIC_H_
 #define _ASM_GENERIC_BITOPS_ATOMIC_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/irqflags.h>
 
 #ifdef CONFIG_SMP

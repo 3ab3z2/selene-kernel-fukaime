@@ -5,10 +5,10 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 
-#include <asm/pgtsrmmu.h>
-#include <asm/pgtable.h>
-#include <asm/vaddrs.h>
-#include <asm/page.h>
+#include <asm-generic/pgtsrmmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/page.h>
 
 struct page;
 

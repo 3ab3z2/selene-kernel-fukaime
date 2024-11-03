@@ -23,7 +23,7 @@
 
 #include <linux/interrupt.h>
 
-#include <asm/ps3.h>
+#include <asm-generic/ps3.h>
 
 
 struct ps3_storage_region {

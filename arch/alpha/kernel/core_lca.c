@@ -10,8 +10,8 @@
  */
 
 #define __EXTERN_INLINE inline
-#include <asm/io.h>
-#include <asm/core_lca.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_lca.h>
 #undef __EXTERN_INLINE
 
 #include <linux/types.h>
@@ -19,9 +19,9 @@
 #include <linux/init.h>
 #include <linux/tty.h>
 
-#include <asm/ptrace.h>
-#include <asm/irq_regs.h>
-#include <asm/smp.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/smp.h>
 
 #include "proto.h"
 #include "pci_impl.h"

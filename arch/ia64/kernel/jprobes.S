@@ -44,8 +44,8 @@
  * by single stepping the emulated instruction, and then returning execution
  * to the correct location.
  */
-#include <asm/asmmacro.h>
-#include <asm/break.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/break.h>
 
 	/*
 	 * void jprobe_break(void)

@@ -25,14 +25,14 @@
 #include <linux/elf.h>
 #include <linux/tracehook.h>
 
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/ptrace_offsets.h>
-#include <asm/rse.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace_offsets.h>
+#include <asm-generic/rse.h>
 #include <linux/uaccess.h>
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 #ifdef CONFIG_PERFMON
-#include <asm/perfmon.h>
+#include <asm-generic/perfmon.h>
 #endif
 
 #include "entry.h"

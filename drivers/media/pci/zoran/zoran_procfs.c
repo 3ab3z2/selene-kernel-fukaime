@@ -39,7 +39,7 @@
 
 #include <linux/ctype.h>
 #include <linux/poll.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "videocodec.h"
 #include "zoran.h"

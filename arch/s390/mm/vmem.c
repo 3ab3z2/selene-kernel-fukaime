@@ -12,13 +12,13 @@
 #include <linux/hugetlb.h>
 #include <linux/slab.h>
 #include <linux/memblock.h>
-#include <asm/cacheflush.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
-#include <asm/set_memory.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/set_memory.h>
 
 static DEFINE_MUTEX(vmem_mutex);
 

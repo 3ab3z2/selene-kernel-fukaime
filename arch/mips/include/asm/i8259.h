@@ -17,7 +17,7 @@
 #include <linux/compiler.h>
 #include <linux/spinlock.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <irq.h>
 
 /* i8259A PIC registers */

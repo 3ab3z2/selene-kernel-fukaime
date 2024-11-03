@@ -8,8 +8,8 @@
 
 #include <linux/atomic.h>
 #include <linux/user_namespace.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
 
 #ifndef INIT_MM_CONTEXT
 #define INIT_MM_CONTEXT(name)

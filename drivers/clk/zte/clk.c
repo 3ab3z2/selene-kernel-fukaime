@@ -14,7 +14,7 @@
 #include <linux/iopoll.h>
 #include <linux/slab.h>
 #include <linux/spinlock.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "clk.h"
 

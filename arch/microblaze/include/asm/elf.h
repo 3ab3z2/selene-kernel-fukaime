@@ -10,7 +10,7 @@
 #ifndef _ASM_MICROBLAZE_ELF_H
 #define _ASM_MICROBLAZE_ELF_H
 
-#include <uapi/asm/elf.h>
+#include <uapi/asm-generic/elf.h>
 
 #ifndef __uClinux__
 #ifndef ELF_GREG_T

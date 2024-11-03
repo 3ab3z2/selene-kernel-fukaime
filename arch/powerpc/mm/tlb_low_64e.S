@@ -10,18 +10,18 @@
  *  2 of the License, or (at your option) any later version.
  */
 
-#include <asm/processor.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cputable.h>
-#include <asm/pgtable.h>
-#include <asm/exception-64e.h>
-#include <asm/ppc-opcode.h>
-#include <asm/kvm_asm.h>
-#include <asm/kvm_booke_hv_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/exception-64e.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/kvm_booke_hv_asm.h>
 
 #ifdef CONFIG_PPC_64K_PAGES
 #define VPTE_PMD_SHIFT	(PTE_INDEX_SIZE+1)

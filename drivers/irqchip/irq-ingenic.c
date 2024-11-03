@@ -26,8 +26,8 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/mach-jz4740/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-jz4740/irq.h>
 
 struct ingenic_intc_data {
 	void __iomem *base;

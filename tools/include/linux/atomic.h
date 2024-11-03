@@ -2,7 +2,7 @@
 #ifndef __TOOLS_LINUX_ATOMIC_H
 #define __TOOLS_LINUX_ATOMIC_H
 
-#include <asm/atomic.h>
+#include <asm-generic/atomic.h>
 
 /* atomic_cmpxchg_relaxed */
 #ifndef atomic_cmpxchg_relaxed

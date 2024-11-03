@@ -21,7 +21,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/jiffies.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define INT_PI			((s32)(3.141592653589 * 32768.0))
 

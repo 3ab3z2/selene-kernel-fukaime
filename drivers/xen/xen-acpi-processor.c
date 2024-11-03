@@ -32,7 +32,7 @@
 #include <acpi/processor.h>
 #include <xen/xen.h>
 #include <xen/interface/platform.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 static int no_hypercall;
 MODULE_PARM_DESC(off, "Inhibit the hypercall.");

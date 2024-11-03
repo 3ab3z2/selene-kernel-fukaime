@@ -6,7 +6,7 @@
  *
  */
 #include <linux/linkage.h>
-#include <asm/percpu.h>
+#include <asm-generic/percpu.h>
 
 .text
 

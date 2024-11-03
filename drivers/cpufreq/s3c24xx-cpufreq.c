@@ -25,8 +25,8 @@
 #include <linux/sysfs.h>
 #include <linux/slab.h>
 
-#include <asm/mach/arch.h>
-#include <asm/mach/map.h>
+#include <asm-generic/mach/arch.h>
+#include <asm-generic/mach/map.h>
 
 #include <plat/cpu.h>
 #include <plat/cpu-freq-core.h>

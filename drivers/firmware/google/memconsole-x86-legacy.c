@@ -19,7 +19,7 @@
 #include <linux/module.h>
 #include <linux/dmi.h>
 #include <linux/mm.h>
-#include <asm/bios_ebda.h>
+#include <asm-generic/bios_ebda.h>
 #include <linux/acpi.h>
 
 #include "memconsole.h"

@@ -6,7 +6,7 @@
  * Copyright (C) 1997, 1999 Jakub Jelinek (jj@ultra.linux.cz)
  */
 
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 #include <linux/string.h>
 #include <linux/types.h>
@@ -26,15 +26,15 @@
 #include <linux/context_tracking.h>
 #include <linux/uaccess.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/asi.h>
-#include <asm/lsu.h>
-#include <asm/sections.h>
-#include <asm/mmu_context.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/lsu.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/setup.h>
 
 int show_unhandled_signals = 1;
 

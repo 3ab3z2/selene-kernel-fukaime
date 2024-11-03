@@ -39,9 +39,9 @@
 #include <linux/usb/gadget.h>
 #include <linux/usb/otg.h>
 #include <soc/fsl/qe/qe.h>
-#include <asm/cpm.h>
-#include <asm/dma.h>
-#include <asm/reg.h>
+#include <asm-generic/cpm.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/reg.h>
 #include "fsl_qe_udc.h"
 
 #define DRIVER_DESC     "Freescale QE/CPM USB Device Controller driver"

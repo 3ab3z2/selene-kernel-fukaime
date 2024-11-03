@@ -9,12 +9,12 @@
 
 #include <linux/sched.h>
 
-#include <asm/io.h>
-#include <asm/irq_regs.h>
-#include <asm/hwrpb.h>
-#include <asm/smp.h>
-#include <asm/err_common.h>
-#include <asm/err_ev6.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/err_common.h>
+#include <asm-generic/err_ev6.h>
 
 #include "err_impl.h"
 #include "proto.h"

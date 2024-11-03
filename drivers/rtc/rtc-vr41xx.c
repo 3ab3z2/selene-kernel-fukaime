@@ -31,7 +31,7 @@
 #include <linux/uaccess.h>
 #include <linux/log2.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 MODULE_AUTHOR("Yoichi Yuasa <yuasa@linux-mips.org>");
 MODULE_DESCRIPTION("NEC VR4100 series RTC driver");

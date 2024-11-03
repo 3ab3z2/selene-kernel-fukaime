@@ -7,8 +7,8 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 
-#include <asm/hwrpb.h>
-#include <asm/gct.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/gct.h>
 
 int
 gct6_find_nodes(gct6_node *node, gct6_search_struct *search)

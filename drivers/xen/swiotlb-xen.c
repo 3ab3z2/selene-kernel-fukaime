@@ -43,8 +43,8 @@
 #include <xen/xen-ops.h>
 #include <xen/hvc-console.h>
 
-#include <asm/dma-mapping.h>
-#include <asm/xen/page-coherent.h>
+#include <asm-generic/dma-mapping.h>
+#include <asm-generic/xen/page-coherent.h>
 
 #include <trace/events/swiotlb.h>
 /*

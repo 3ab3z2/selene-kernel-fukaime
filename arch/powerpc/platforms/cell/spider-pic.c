@@ -24,9 +24,9 @@
 #include <linux/irq.h>
 #include <linux/ioport.h>
 
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
 
 #include "interrupt.h"
 

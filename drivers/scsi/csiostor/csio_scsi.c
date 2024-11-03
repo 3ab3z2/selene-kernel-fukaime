@@ -41,8 +41,8 @@
 #include <linux/compiler.h>
 #include <linux/export.h>
 #include <linux/module.h>
-#include <asm/unaligned.h>
-#include <asm/page.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/page.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport_fc.h>

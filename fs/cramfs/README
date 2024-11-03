@@ -100,9 +100,9 @@ This discrepancy is a bug, though it's not clear which should be
 changed.
 
 One option is to change mkcramfs to take its PAGE_SIZE from
-<asm/page.h>.  Personally I don't like this option, but it does
+<asm-generic/page.h>.  Personally I don't like this option, but it does
 require the least amount of change: just change `#define
-PAGE_SIZE (4096)' to `#include <asm/page.h>'.  The disadvantage
+PAGE_SIZE (4096)' to `#include <asm-generic/page.h>'.  The disadvantage
 is that the generated cramfs cannot always be shared between different
 kernels, not even necessarily kernels of the same architecture if
 PAGE_SIZE is subject to change between kernel versions

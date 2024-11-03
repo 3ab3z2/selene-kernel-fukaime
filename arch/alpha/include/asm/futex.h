@@ -6,8 +6,8 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
-#include <asm/barrier.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/barrier.h>
 
 #define __futex_atomic_op(insn, ret, oldval, uaddr, oparg)	\
 	__asm__ __volatile__(					\

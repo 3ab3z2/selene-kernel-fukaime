@@ -21,12 +21,12 @@
 #include <linux/interrupt.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/reg.h>
-#include <asm/nvram.h>
-#include <asm/cache.h>
-#include <asm/8xx_immap.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/machdep.h>
 
 static struct tau_temp
 {

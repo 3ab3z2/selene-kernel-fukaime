@@ -7,7 +7,7 @@
 #include <linux/uaccess.h>
 #include <linux/export.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 /*
  * We rely on the nested NMI work to allow atomic faults from the NMI path; the

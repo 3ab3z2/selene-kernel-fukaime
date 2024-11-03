@@ -2,7 +2,7 @@
 #ifndef _FB_DRAW_H
 #define _FB_DRAW_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/fb.h>
 #include <linux/bug.h>
 

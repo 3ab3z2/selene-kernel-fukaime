@@ -16,12 +16,12 @@
  *
  */
 
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 #include <generated/utsrelease.h>
-#include <asm/boot.h>
-#include <asm/page_types.h>
-#include <asm/setup.h>
-#include <asm/bootparam.h>
+#include <asm-generic/boot.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/bootparam.h>
 #include "boot.h"
 #include "voffset.h"
 #include "zoffset.h"

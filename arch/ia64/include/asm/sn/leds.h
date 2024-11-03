@@ -7,9 +7,9 @@
 #ifndef _ASM_IA64_SN_LEDS_H
 #define _ASM_IA64_SN_LEDS_H
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/shub_mmr.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/shub_mmr.h>
 
 #define LED0		(LOCAL_MMR_ADDR(SH_REAL_JUNK_BUS_LED0))
 #define LED_CPU_SHIFT	16

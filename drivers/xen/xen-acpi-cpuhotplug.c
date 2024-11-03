@@ -27,7 +27,7 @@
 #include <acpi/processor.h>
 #include <xen/acpi.h>
 #include <xen/interface/platform.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 #define PREFIX "ACPI:xen_cpu_hotplug:"
 

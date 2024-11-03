@@ -13,7 +13,7 @@
 #include <arpa/inet.h>
 #include <net/if.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/net_tstamp.h>
 #include <linux/errqueue.h>
 

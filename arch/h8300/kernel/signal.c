@@ -41,11 +41,11 @@
 #include <linux/binfmts.h>
 #include <linux/tracehook.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/traps.h>
-#include <asm/ucontext.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/ucontext.h>
 
 /*
  * Do a signal return; undo the signal stack.

@@ -28,12 +28,12 @@
 #include <linux/types.h>
 #include <linux/interrupt.h>
 #include <linux/sched.h>
-#include <asm/blackfin.h>
-#include <asm/irq.h>
-#include <asm/dma.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
 #include <linux/uaccess.h>
 #include <linux/gpio.h>
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 
 #include <linux/dma-mapping.h>
 #include <linux/proc_fs.h>

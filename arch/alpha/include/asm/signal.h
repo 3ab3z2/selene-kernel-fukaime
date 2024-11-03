@@ -2,7 +2,7 @@
 #ifndef _ASMAXP_SIGNAL_H
 #define _ASMAXP_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 /* Digital Unix defines 64 signals.  Most things should be clean enough
    to redefine this at will, if care is taken to make libc match.  */
@@ -24,5 +24,5 @@ struct osf_sigaction {
 };
 
 #define __ARCH_HAS_KA_RESTORER
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 #endif

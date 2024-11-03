@@ -10,9 +10,9 @@
 
 #include <linux/module.h>
 #include <linux/percpu.h>
-#include <asm/sn/simulator.h>
-#include <asm/uv/uv_mmrs.h>
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/sn/simulator.h>
+#include <asm-generic/uv/uv_mmrs.h>
+#include <asm-generic/uv/uv_hub.h>
 
 DEFINE_PER_CPU(struct uv_hub_info_s, __uv_hub_info);
 EXPORT_PER_CPU_SYMBOL_GPL(__uv_hub_info);

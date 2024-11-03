@@ -13,7 +13,7 @@
 #ifndef _WM8962_H
 #define _WM8962_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <sound/soc.h>
 
 #define WM8962_SYSCLK_MCLK 0

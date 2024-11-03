@@ -42,12 +42,12 @@
 #include <linux/wait.h>
 #include <linux/platform_device.h>
 
-#include <asm/setup.h>
-#include <asm/atarihw.h>
-#include <asm/atariints.h>
-#include <asm/atari_stdma.h>
-#include <asm/atari_stram.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atari_stdma.h>
+#include <asm-generic/atari_stram.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi_host.h>
 

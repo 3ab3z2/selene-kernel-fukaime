@@ -3,7 +3,7 @@
 #define __MBX_FB_H
 
 #include <asm/ioctl.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 struct mbxfb_val {
 	unsigned int	defval;

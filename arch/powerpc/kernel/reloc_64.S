@@ -9,7 +9,7 @@
  *  2 of the License, or (at your option) any later version.
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 RELA = 7
 RELACOUNT = 0x6ffffff9

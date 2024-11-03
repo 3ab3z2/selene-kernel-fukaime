@@ -9,7 +9,7 @@
 #include <linux/smp.h>
 #include <linux/irq.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 static irqreturn_t timer_interrupt(int irq, void *dev_id)
 {

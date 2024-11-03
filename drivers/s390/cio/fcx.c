@@ -12,7 +12,7 @@
 #include <linux/errno.h>
 #include <linux/err.h>
 #include <linux/module.h>
-#include <asm/fcx.h>
+#include <asm-generic/fcx.h>
 #include "cio.h"
 
 /**

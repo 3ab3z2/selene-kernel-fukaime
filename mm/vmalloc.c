@@ -34,8 +34,8 @@
 #include <linux/overflow.h>
 
 #include <linux/uaccess.h>
-#include <asm/tlbflush.h>
-#include <asm/shmparam.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/shmparam.h>
 
 #include "internal.h"
 

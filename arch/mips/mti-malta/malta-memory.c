@@ -15,11 +15,11 @@
 #include <linux/bootmem.h>
 #include <linux/string.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cdmm.h>
-#include <asm/maar.h>
-#include <asm/sections.h>
-#include <asm/fw/fw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cdmm.h>
+#include <asm-generic/maar.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/fw/fw.h>
 
 /* determined physical memory size, not overridden by command line args	 */
 unsigned long physical_memsize = 0L;

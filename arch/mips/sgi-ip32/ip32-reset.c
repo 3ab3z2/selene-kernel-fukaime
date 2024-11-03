@@ -20,13 +20,13 @@
 #include <linux/interrupt.h>
 #include <linux/pm.h>
 
-#include <asm/addrspace.h>
-#include <asm/irq.h>
-#include <asm/reboot.h>
-#include <asm/wbflush.h>
-#include <asm/ip32/mace.h>
-#include <asm/ip32/crime.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/wbflush.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/crime.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 #define POWERDOWN_TIMEOUT	120
 /*

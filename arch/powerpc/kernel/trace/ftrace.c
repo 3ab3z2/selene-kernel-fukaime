@@ -22,11 +22,11 @@
 #include <linux/init.h>
 #include <linux/list.h>
 
-#include <asm/asm-prototypes.h>
-#include <asm/cacheflush.h>
-#include <asm/code-patching.h>
-#include <asm/ftrace.h>
-#include <asm/syscall.h>
+#include <asm-generic/asm-prototypes.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/syscall.h>
 
 
 #ifdef CONFIG_DYNAMIC_FTRACE

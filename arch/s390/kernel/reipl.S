@@ -6,9 +6,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/nospec-insn.h>
-#include <asm/sigp.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/nospec-insn.h>
+#include <asm-generic/sigp.h>
 
 	GEN_BR_THUNK %r9
 

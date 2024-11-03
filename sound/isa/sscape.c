@@ -30,7 +30,7 @@
 #include <linux/pnp.h>
 #include <linux/spinlock.h>
 #include <linux/module.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <sound/core.h>
 #include <sound/wss.h>
 #include <sound/mpu401.h>

@@ -29,7 +29,7 @@
 #include <linux/context_tracking.h>
 #include <linux/mm.h>
 
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 #include "tick-internal.h"
 

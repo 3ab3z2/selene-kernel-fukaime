@@ -16,8 +16,8 @@
 #include <linux/notifier.h>
 #include <linux/of.h>
 
-#include <asm/opal.h>
-#include <asm/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/machdep.h>
 
 #define SOFT_OFF 0x00
 #define SOFT_REBOOT 0x01

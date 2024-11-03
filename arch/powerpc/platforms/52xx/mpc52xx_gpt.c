@@ -68,8 +68,8 @@
 #include <linux/miscdevice.h>
 #include <linux/uaccess.h>
 #include <linux/module.h>
-#include <asm/div64.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/mpc52xx.h>
 
 MODULE_DESCRIPTION("Freescale MPC52xx gpt driver");
 MODULE_AUTHOR("Sascha Hauer, Grant Likely, Albrecht Dreß");

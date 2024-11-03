@@ -2,7 +2,7 @@
 # NEC VR4100 series based machines
 #
 platform-$(CONFIG_MACH_VR41XX)	+= vr41xx/common/
-cflags-$(CONFIG_MACH_VR41XX)	+= -I$(srctree)/arch/mips/include/asm/mach-vr41xx
+cflags-$(CONFIG_MACH_VR41XX)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-vr41xx
 
 #
 # CASIO CASSIPEIA E-55/65 (VR4111)

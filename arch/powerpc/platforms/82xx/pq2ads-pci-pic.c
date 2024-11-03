@@ -18,9 +18,9 @@
 #include <linux/types.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/cpm2.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/cpm2.h>
 
 #include "pq2.h"
 

@@ -12,11 +12,11 @@
 #include "bf561.h"
 #include "anomaly.h"
 
-#include <asm/def_LPBlackfin.h>
+#include <asm-generic/def_LPBlackfin.h>
 #include "defBF561.h"
 
 #ifndef __ASSEMBLY__
-# include <asm/cdef_LPBlackfin.h>
+# include <asm-generic/cdef_LPBlackfin.h>
 # include "cdefBF561.h"
 #endif
 

@@ -8,7 +8,7 @@
 #ifndef __UM_PGTABLE_H
 #define __UM_PGTABLE_H
 
-#include <asm/fixmap.h>
+#include <asm-generic/fixmap.h>
 
 #define _PAGE_PRESENT	0x001
 #define _PAGE_NEWPAGE	0x002
@@ -22,9 +22,9 @@
 				   pte_present gives true */
 
 #ifdef CONFIG_3_LEVEL_PGTABLES
-#include <asm/pgtable-3level.h>
+#include <asm-generic/pgtable-3level.h>
 #else
-#include <asm/pgtable-2level.h>
+#include <asm-generic/pgtable-2level.h>
 #endif
 
 extern pgd_t swapper_pg_dir[PTRS_PER_PGD];

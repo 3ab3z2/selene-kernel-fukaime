@@ -9,10 +9,10 @@
  * option) any later version.
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/processor.h>
-#include <asm/bug.h>
-#include <asm/export.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/export.h>
 
 #define DCR_ACCESS_PROLOG(table) \
 	cmplwi	cr0,r3,1024;	 \

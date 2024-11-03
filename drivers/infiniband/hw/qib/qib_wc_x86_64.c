@@ -38,8 +38,8 @@
  */
 
 #include <linux/pci.h>
-#include <asm/mtrr.h>
-#include <asm/processor.h>
+#include <asm-generic/mtrr.h>
+#include <asm-generic/processor.h>
 
 #include "qib.h"
 

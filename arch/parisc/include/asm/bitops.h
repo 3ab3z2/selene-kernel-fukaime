@@ -7,9 +7,9 @@
 #endif
 
 #include <linux/compiler.h>
-#include <asm/types.h>
-#include <asm/byteorder.h>
-#include <asm/barrier.h>
+#include <asm-generic/types.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/barrier.h>
 #include <linux/atomic.h>
 
 /*

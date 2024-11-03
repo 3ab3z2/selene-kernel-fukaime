@@ -28,9 +28,9 @@
 #ifndef CONFIG_PINCTRL
 
 #include <linux/compiler.h>
-#include <asm/blackfin.h>
-#include <asm/portmux.h>
-#include <asm/irq_handler.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/irq_handler.h>
 
 /***********************************************************
 *
@@ -185,8 +185,8 @@ static inline int irq_to_gpio(unsigned irq)
 }
 #endif /* CONFIG_PINCTRL */
 
-#include <asm/irq.h>
-#include <asm/errno.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
 
 #include <asm-generic/gpio.h>		/* cansleep wrappers */
 

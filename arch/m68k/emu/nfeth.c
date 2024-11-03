@@ -18,8 +18,8 @@
 #include <linux/etherdevice.h>
 #include <linux/interrupt.h>
 #include <linux/module.h>
-#include <asm/natfeat.h>
-#include <asm/virtconvert.h>
+#include <asm-generic/natfeat.h>
+#include <asm-generic/virtconvert.h>
 
 enum {
 	GET_VERSION = 0,/* no parameters, return NFAPI_VERSION in d0 */

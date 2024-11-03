@@ -72,7 +72,7 @@ static inline unsigned long __cmpxchg(volatile void *ptr, unsigned long old,
 #else /* !CONFIG_SMP */
 
 #include <mach/blackfin.h>
-#include <asm/irqflags.h>
+#include <asm-generic/irqflags.h>
 
 struct __xchg_dummy {
 	unsigned long a[100];

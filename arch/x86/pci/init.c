@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/pci.h>
 #include <linux/init.h>
-#include <asm/pci_x86.h>
-#include <asm/x86_init.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/x86_init.h>
 
 /* arch_initcall has too random ordering, so call the initializers
    in the right sequence from here. */

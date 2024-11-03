@@ -47,7 +47,7 @@
 #include <linux/sched/mm.h>
 #include <linux/ptrace.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/migrate.h>

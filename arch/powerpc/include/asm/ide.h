@@ -8,7 +8,7 @@
 #define _ASM_POWERPC_IDE_H
 
 #include <linux/compiler.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define __ide_mm_insw(p, a, c)	readsw((void __iomem *)(p), (a), (c))
 #define __ide_mm_insl(p, a, c)	readsl((void __iomem *)(p), (a), (c))

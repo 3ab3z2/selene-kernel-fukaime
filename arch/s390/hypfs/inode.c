@@ -24,7 +24,7 @@
 #include <linux/seq_file.h>
 #include <linux/mount.h>
 #include <linux/uio.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 #include "hypfs.h"
 
 #define HYPFS_MAGIC 0x687970	/* ASCII 'hyp' */

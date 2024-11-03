@@ -48,7 +48,7 @@
 
 #ifdef CONFIG_ARM
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #endif
 
 #ifndef NO_DMA
@@ -1482,7 +1482,7 @@ static void __exit unload_waveartist(struct address_info *hw)
  * Rebel.com Netwinder specifics...
  */
 
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/hardware/dec21285.h>
  
 #define	VNC_TIMER_PERIOD (HZ/4)	//check slider 4 times/sec
 

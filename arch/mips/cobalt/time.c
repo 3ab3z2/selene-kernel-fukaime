@@ -20,8 +20,8 @@
 #include <linux/i8253.h>
 #include <linux/init.h>
 
-#include <asm/gt64120.h>
-#include <asm/time.h>
+#include <asm-generic/gt64120.h>
+#include <asm-generic/time.h>
 
 #define GT641XX_BASE_CLOCK	50000000	/* 50MHz */
 

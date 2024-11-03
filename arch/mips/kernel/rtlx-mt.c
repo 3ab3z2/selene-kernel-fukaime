@@ -14,9 +14,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/mips_mt.h>
-#include <asm/vpe.h>
-#include <asm/rtlx.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/vpe.h>
+#include <asm-generic/rtlx.h>
 
 static int major;
 

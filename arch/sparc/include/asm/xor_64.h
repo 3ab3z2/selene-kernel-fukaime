@@ -1,5 +1,5 @@
 /*
- * include/asm/xor.h
+ * include/asm-generic/xor.h
  *
  * High speed xor_block operation for RAID4/5 utilizing the
  * UltraSparc Visual Instruction Set and Niagara block-init
@@ -18,7 +18,7 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <asm/spitfire.h>
+#include <asm-generic/spitfire.h>
 
 void xor_vis_2(unsigned long, unsigned long *, unsigned long *);
 void xor_vis_3(unsigned long, unsigned long *, unsigned long *,

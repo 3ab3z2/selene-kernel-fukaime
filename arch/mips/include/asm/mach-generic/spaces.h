@@ -12,7 +12,7 @@
 
 #include <linux/const.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * This gives the physical RAM offset.

@@ -3,7 +3,7 @@
 #define _ASM_M32R_MMU_CONTEXT_H
 #ifdef __KERNEL__
 
-#include <asm/m32r.h>
+#include <asm-generic/m32r.h>
 
 #define MMU_CONTEXT_ASID_MASK      (0x000000FF)
 #define MMU_CONTEXT_VERSION_MASK   (0xFFFFFF00)
@@ -15,9 +15,9 @@
 #include <linux/atomic.h>
 #include <linux/mm_types.h>
 
-#include <asm/pgalloc.h>
-#include <asm/mmu.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/tlbflush.h>
 #include <asm-generic/mm_hooks.h>
 
 /*

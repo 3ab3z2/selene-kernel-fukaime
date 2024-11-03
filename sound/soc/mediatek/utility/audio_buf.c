@@ -12,7 +12,7 @@
 #include "audio_assert.h"
 #include "audio_buf.h"
 #include <linux/kprobes.h>
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 #define AUD_LOG_W(format, args...) snd_printk(format, ##args)
 #ifdef CONFIG_SND_VERBOSE_PRINTK

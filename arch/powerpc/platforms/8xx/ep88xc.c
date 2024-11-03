@@ -14,10 +14,10 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/machdep.h>
-#include <asm/io.h>
-#include <asm/udbg.h>
-#include <asm/cpm1.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/cpm1.h>
 
 #include "mpc8xx.h"
 

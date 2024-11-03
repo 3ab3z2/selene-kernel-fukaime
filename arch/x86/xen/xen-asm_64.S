@@ -6,13 +6,13 @@
  * operations here; the indirect forms are better handled in C.
  */
 
-#include <asm/errno.h>
-#include <asm/percpu.h>
-#include <asm/processor-flags.h>
-#include <asm/segment.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/asm.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm.h>
 
 #include <xen/interface/xen.h>
 

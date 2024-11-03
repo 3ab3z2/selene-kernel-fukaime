@@ -1,9 +1,9 @@
 #include <linux/sched.h>
 #include <linux/ftrace.h>
-#include <asm/ptrace.h>
-#include <asm/bitops.h>
-#include <asm/stacktrace.h>
-#include <asm/unwind.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/unwind.h>
 
 unsigned long unwind_get_return_address(struct unwind_state *state)
 {

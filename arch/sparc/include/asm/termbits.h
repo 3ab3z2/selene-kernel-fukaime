@@ -2,7 +2,7 @@
 #ifndef _SPARC_TERMBITS_H
 #define _SPARC_TERMBITS_H
 
-#include <uapi/asm/termbits.h>
+#include <uapi/asm-generic/termbits.h>
 
 #define VMIN     16
 #define VTIME    17

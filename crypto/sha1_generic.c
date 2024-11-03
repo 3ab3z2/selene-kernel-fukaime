@@ -24,7 +24,7 @@
 #include <linux/types.h>
 #include <crypto/sha.h>
 #include <crypto/sha1_base.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 const u8 sha1_zero_message_hash[SHA1_DIGEST_SIZE] = {
 	0xda, 0x39, 0xa3, 0xee, 0x5e, 0x6b, 0x4b, 0x0d,

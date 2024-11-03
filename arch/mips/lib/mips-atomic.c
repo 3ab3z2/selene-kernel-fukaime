@@ -8,8 +8,8 @@
  * Copyright (C) 1999 Silicon Graphics
  * Copyright (C) 2000 MIPS Technologies, Inc.
  */
-#include <asm/irqflags.h>
-#include <asm/hazards.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/hazards.h>
 #include <linux/compiler.h>
 #include <linux/preempt.h>
 #include <linux/export.h>

@@ -30,16 +30,16 @@
 #include <linux/reboot.h>
 #include <linux/spinlock.h>
 #include <linux/pci.h>
-#include <asm/dbdma.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/irq.h>
-#include <asm/hydra.h>
-#include <asm/processor.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/macio.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hydra.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/macio.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

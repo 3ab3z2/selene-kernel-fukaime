@@ -7,9 +7,9 @@
  * Author: Hu Hongbing <huhb@lemote.com>
  *	   Wu Zhangjin <wuzhangjin@gmail.com>
  */
-#include <asm/sections.h>
-#include <asm/fpu.h>
-#include <asm/dsp.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/dsp.h>
 
 static u32 saved_status;
 struct pt_regs saved_regs;

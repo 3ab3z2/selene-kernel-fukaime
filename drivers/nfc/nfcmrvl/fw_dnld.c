@@ -17,7 +17,7 @@
  */
 
 #include <linux/module.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/firmware.h>
 #include <linux/nfc.h>
 #include <net/nfc/nci.h>

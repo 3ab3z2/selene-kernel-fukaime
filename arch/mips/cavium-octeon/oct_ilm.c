@@ -1,8 +1,8 @@
 #include <linux/fs.h>
 #include <linux/interrupt.h>
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-ciu-defs.h>
-#include <asm/octeon/cvmx.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-ciu-defs.h>
+#include <asm-generic/octeon/cvmx.h>
 #include <linux/debugfs.h>
 #include <linux/kernel.h>
 #include <linux/module.h>

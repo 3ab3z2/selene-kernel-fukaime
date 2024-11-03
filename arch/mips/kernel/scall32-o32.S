@@ -9,18 +9,18 @@
  * Copyright (C) 2014 Imagination Technologies Ltd.
  */
 #include <linux/errno.h>
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/irqflags.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
-#include <asm/isadep.h>
-#include <asm/sysmips.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
-#include <asm/war.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/isadep.h>
+#include <asm-generic/sysmips.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/war.h>
+#include <asm-generic/asm-offsets.h>
 
 /* Highest syscall used of any syscall flavour */
 #define MAX_SYSCALL_NO	__NR_O32_Linux + __NR_O32_Linux_syscalls

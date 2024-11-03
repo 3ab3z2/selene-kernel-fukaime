@@ -18,7 +18,7 @@
 #include <linux/module.h>
 #include <linux/cpufeature.h>
 #include <crypto/sha.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 
 #include "sha.h"
 

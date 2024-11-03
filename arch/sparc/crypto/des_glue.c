@@ -13,9 +13,9 @@
 #include <crypto/algapi.h>
 #include <crypto/des.h>
 
-#include <asm/fpumacro.h>
-#include <asm/pstate.h>
-#include <asm/elf.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/elf.h>
 
 #include "opcodes.h"
 

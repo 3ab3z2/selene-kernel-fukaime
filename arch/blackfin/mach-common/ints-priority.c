@@ -19,15 +19,15 @@
 #include <linux/sched/debug.h>
 #include <linux/syscore_ops.h>
 #include <linux/gpio.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 #ifdef CONFIG_IPIPE
 #include <linux/ipipe.h>
 #endif
-#include <asm/traps.h>
-#include <asm/blackfin.h>
-#include <asm/irq_handler.h>
-#include <asm/dpmc.h>
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/traps.h>
 
 /*
  * NOTES:

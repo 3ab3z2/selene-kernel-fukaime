@@ -34,10 +34,10 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/io.h>
-#include <asm/mipsregs.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/jmr3927.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/jmr3927.h>
 
 #if JMR3927_IRQ_END > NR_IRQS
 #error JMR3927_IRQ_END > NR_IRQS

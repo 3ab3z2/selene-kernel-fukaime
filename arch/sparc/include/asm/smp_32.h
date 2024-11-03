@@ -8,7 +8,7 @@
 #define _SPARC_SMP_H
 
 #include <linux/threads.h>
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 #ifndef __ASSEMBLY__
 
@@ -20,8 +20,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/ptrace.h>
-#include <asm/asi.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/asi.h>
 #include <linux/atomic.h>
 
 /*

@@ -10,9 +10,9 @@
 #include <linux/kernel.h>
 #include <linux/export.h>
 #include <linux/cpu.h>
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/mipsregs.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_regs.h>
 #include <bcm63xx_io.h>

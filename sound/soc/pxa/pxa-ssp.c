@@ -24,7 +24,7 @@
 #include <linux/of.h>
 #include <linux/dmaengine.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

@@ -11,8 +11,8 @@
 #include <linux/init.h>
 
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
-#include <asm/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/irq.h>
 #include <mach/simpad.h>
 #include "sa1100_generic.h"
  

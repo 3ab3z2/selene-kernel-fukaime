@@ -26,7 +26,7 @@
 #include <linux/filter.h>
 #include <linux/compiler.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 /*
  * These will be re-linked against their real values

@@ -39,7 +39,7 @@
 #include <linux/watchdog.h>
 #include <linux/uaccess.h>
 
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 #define WDRTAS_MAGIC_CHAR		42
 #define WDRTAS_SUPPORTED_MASK		(WDIOF_SETTIMEOUT | \

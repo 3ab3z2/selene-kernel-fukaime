@@ -18,8 +18,8 @@
 #include <linux/kernel.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/tx4927pcic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/tx4927pcic.h>
 
 static struct {
 	struct pci_controller *channel;

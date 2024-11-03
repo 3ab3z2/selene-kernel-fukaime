@@ -25,7 +25,7 @@
 #include <linux/interrupt.h>
 #include <linux/io.h>
 
-#include <asm/mach/flash.h>
+#include <asm-generic/mach/flash.h>
 
 #include "samsung.h"
 

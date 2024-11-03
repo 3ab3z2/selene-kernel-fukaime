@@ -4,8 +4,8 @@
 
 #define NR_IRQS 256
 
-#include <asm/mach-generic/irq.h>
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-generic/irq.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 /* Interrupt Controller */
 #define IC_GROUP0_PEND		(REGBASE + 0x38000)

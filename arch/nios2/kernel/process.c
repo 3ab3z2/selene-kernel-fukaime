@@ -21,9 +21,9 @@
 #include <linux/tick.h>
 #include <linux/uaccess.h>
 
-#include <asm/unistd.h>
-#include <asm/traps.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/cpuinfo.h>
 
 asmlinkage void ret_from_fork(void);
 asmlinkage void ret_from_kernel_thread(void);

@@ -19,8 +19,8 @@
  *	L	- lower subcluster; L0 - subcluster L0; L1 - subcluster L1
  */
 
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 	.set noreorder
 	.set noat

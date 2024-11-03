@@ -25,10 +25,10 @@
 #include <linux/pci.h>
 #include <linux/string.h>
 
-#include <asm/eeh.h>
-#include <asm/pci-bridge.h>
-#include <asm/prom.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/ppc-pci.h>
 #include "pseries.h"
 
 #if 0

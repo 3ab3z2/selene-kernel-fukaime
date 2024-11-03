@@ -13,10 +13,10 @@
 #include <linux/compiler.h>
 #include <linux/time.h>
 
-#include <asm/clocksource.h>
-#include <asm/io.h>
-#include <asm/unistd.h>
-#include <asm/vdso.h>
+#include <asm-generic/clocksource.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/vdso.h>
 
 #if MIPS_ISA_REV < 6
 #define VDSO_SYSCALL_CLOBBERS "hi", "lo",

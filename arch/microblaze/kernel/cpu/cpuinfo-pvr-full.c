@@ -12,8 +12,8 @@
 
 #include <linux/init.h>
 #include <linux/string.h>
-#include <asm/pvr.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/pvr.h>
+#include <asm-generic/cpuinfo.h>
 
 /*
  * Helper macro to map between fields in our struct cpuinfo, and

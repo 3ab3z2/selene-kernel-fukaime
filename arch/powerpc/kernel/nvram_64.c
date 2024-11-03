@@ -29,10 +29,10 @@
 #include <linux/pstore.h>
 #include <linux/zlib.h>
 #include <linux/uaccess.h>
-#include <asm/nvram.h>
-#include <asm/rtas.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 
 #undef DEBUG_NVRAM
 

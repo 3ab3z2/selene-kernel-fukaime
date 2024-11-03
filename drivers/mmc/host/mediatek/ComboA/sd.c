@@ -36,7 +36,7 @@
 #include <linux/pagemap.h>
 #include <linux/highmem.h>
 #include <linux/printk.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/gpio.h>
 #include <mt-plat/mtk_boot.h>
 #include <mt-plat/mtk_lpae.h>

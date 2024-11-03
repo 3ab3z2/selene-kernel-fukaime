@@ -48,7 +48,7 @@
 #include <linux/irq.h>
 #include <linux/irqdomain.h>
 #include <linux/io.h>
-#include <asm/paccess.h>
+#include <asm-generic/paccess.h>
 
 /*
  * PCI Bus Interface Registers

@@ -2,7 +2,7 @@
 #ifndef _ASM_M68K_SETUP_H
 #define _ASM_M68K_SETUP_H
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/linkage.h>
 
 /* Status Register bits */
@@ -92,7 +92,7 @@ struct fp_ext {
 
 /* C representation of FPU registers */
 /* NOTE: if you change this, you have to change the assembler offsets
-   below and the size in <asm/fpu.h>, too */
+   below and the size in <asm-generic/fpu.h>, too */
 struct fp_data {
 	struct fp_ext fpreg[8];
 	unsigned int fpcr;
@@ -191,7 +191,7 @@ extern unsigned int fp_debugprint;
 /* These macros are used to read from/write to user space
  * on error we jump to the fixup section, load the fault
  * address into %a0 and jump to the exit.
- * (derived from <asm/uaccess.h>)
+ * (derived from <asm-generic/uaccess.h>)
  */
 .macro	getuser	size,src,dest,label,addr
 |	printf	,"[\size<%08x]",1,\addr

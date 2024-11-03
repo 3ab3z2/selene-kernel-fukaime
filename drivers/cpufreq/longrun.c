@@ -12,9 +12,9 @@
 #include <linux/cpufreq.h>
 #include <linux/timex.h>
 
-#include <asm/msr.h>
-#include <asm/processor.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cpu_device_id.h>
 
 static struct cpufreq_driver	longrun_driver;
 

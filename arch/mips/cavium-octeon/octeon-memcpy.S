@@ -13,10 +13,10 @@
  * Mnemonic names for arguments to memcpy/__copy_user
  */
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 #define dst a0
 #define src a1
@@ -41,7 +41,7 @@
  *   copy_from_user
  *     - dst is writable  (no exceptions when writing dst)
  * __copy_user uses a non-standard calling convention; see
- * arch/mips/include/asm/uaccess.h
+ * arch/mips/include/asm-generic/uaccess.h
  *
  * When an exception happens on a load, the handler must
  # ensure that all of the destination buffer is overwritten to prevent

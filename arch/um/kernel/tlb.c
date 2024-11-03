@@ -7,8 +7,8 @@
 #include <linux/module.h>
 #include <linux/sched/signal.h>
 
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
 #include <as-layout.h>
 #include <mem_user.h>
 #include <os.h>

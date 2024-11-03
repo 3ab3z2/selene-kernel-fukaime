@@ -2,7 +2,7 @@
 #include <linux/slab.h>
 #include <linux/proc_fs.h>
 #include <asm/setup.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/page.h>
 
 struct buffer {

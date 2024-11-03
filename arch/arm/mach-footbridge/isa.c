@@ -10,8 +10,8 @@
 #include <linux/init.h>
 #include <linux/serial_8250.h>
 
-#include <asm/irq.h>
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hardware/dec21285.h>
 
 #include "common.h"
 

@@ -20,7 +20,7 @@
  *
  */
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <crypto/des.h>
 #include <linux/crypto.h>
 #include <linux/init.h>

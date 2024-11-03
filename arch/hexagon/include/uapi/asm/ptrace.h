@@ -22,7 +22,7 @@
 #ifndef _ASM_PTRACE_H
 #define _ASM_PTRACE_H
 
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 #define instruction_pointer(regs) pt_elr(regs)
 #define user_stack_pointer(regs) ((regs)->r29)

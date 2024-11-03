@@ -24,7 +24,7 @@
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/jack.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <sound/pcm_params.h>
 #include "../codecs/88pm860x-codec.h"
 

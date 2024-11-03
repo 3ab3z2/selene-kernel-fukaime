@@ -21,7 +21,7 @@
 #include <linux/fips.h>
 #include <crypto/algapi.h>
 #include <crypto/des.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 
 #define DES3_KEY_SIZE	(3 * DES_KEY_SIZE)
 

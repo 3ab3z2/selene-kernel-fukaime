@@ -17,15 +17,15 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/inst.h>
-#include <asm/irq_regs.h>
-#include <asm/mipsregs.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/traps.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
 
-#include <asm/dec/kn01.h>
+#include <asm-generic/dec/kn01.h>
 
 
 /* CP0 hazard avoidance. */

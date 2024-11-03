@@ -25,14 +25,14 @@
 #include <linux/completion.h>
 #include <linux/mutex.h>
 #include <linux/of_device.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/sections.h>
-#include <asm/cputable.h>
-#include <asm/time.h>
-#include <asm/smu.h>
-#include <asm/pmac_pfunc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/smu.h>
+#include <asm-generic/pmac_pfunc.h>
 
 #define DBG(fmt...) pr_debug(fmt)
 

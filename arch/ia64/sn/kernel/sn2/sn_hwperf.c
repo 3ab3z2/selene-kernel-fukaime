@@ -35,16 +35,16 @@
 #include <linux/smp.h>
 #include <linux/mutex.h>
 
-#include <asm/processor.h>
-#include <asm/topology.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/topology.h>
 #include <linux/uaccess.h>
-#include <asm/sal.h>
-#include <asm/sn/io.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/module.h>
-#include <asm/sn/geo.h>
-#include <asm/sn/sn2/sn_hwperf.h>
-#include <asm/sn/addrs.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sn/io.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/module.h>
+#include <asm-generic/sn/geo.h>
+#include <asm-generic/sn/sn2/sn_hwperf.h>
+#include <asm-generic/sn/addrs.h>
 
 static void *sn_hwperf_salheap = NULL;
 static int sn_hwperf_obj_cnt = 0;

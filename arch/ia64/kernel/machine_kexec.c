@@ -18,14 +18,14 @@
 #include <linux/numa.h>
 #include <linux/mmzone.h>
 
-#include <asm/numa.h>
-#include <asm/mmu_context.h>
-#include <asm/setup.h>
-#include <asm/delay.h>
-#include <asm/meminit.h>
-#include <asm/processor.h>
-#include <asm/sal.h>
-#include <asm/mca.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/meminit.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/mca.h>
 
 typedef void (*relocate_new_kernel_t)(
 					unsigned long indirection_page,

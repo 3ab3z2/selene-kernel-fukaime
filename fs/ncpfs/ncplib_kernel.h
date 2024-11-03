@@ -23,9 +23,9 @@
 #include <linux/pagemap.h>
 
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
-#include <asm/string.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/string.h>
 
 #ifdef CONFIG_NCPFS_NLS
 #include <linux/nls.h>

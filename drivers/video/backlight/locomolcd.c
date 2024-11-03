@@ -19,10 +19,10 @@
 #include <linux/fb.h>
 #include <linux/backlight.h>
 
-#include <asm/hardware/locomo.h>
-#include <asm/irq.h>
-#include <asm/mach/sharpsl_param.h>
-#include <asm/mach-types.h>
+#include <asm-generic/hardware/locomo.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/sharpsl_param.h>
+#include <asm-generic/mach-types.h>
 
 #include "../../../arch/arm/mach-sa1100/generic.h"
 

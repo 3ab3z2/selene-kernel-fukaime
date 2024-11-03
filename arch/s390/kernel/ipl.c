@@ -18,18 +18,18 @@
 #include <linux/gfp.h>
 #include <linux/crash_dump.h>
 #include <linux/debug_locks.h>
-#include <asm/diag.h>
-#include <asm/ipl.h>
-#include <asm/smp.h>
-#include <asm/setup.h>
-#include <asm/cpcmd.h>
-#include <asm/cio.h>
-#include <asm/ebcdic.h>
-#include <asm/reset.h>
-#include <asm/sclp.h>
-#include <asm/checksum.h>
-#include <asm/debug.h>
-#include <asm/os_info.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/reset.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/os_info.h>
 #include "entry.h"
 
 #define IPL_PARM_BLOCK_VERSION 0

@@ -8,7 +8,7 @@
 
 #include <linux/stddef.h>
 #include <linux/kernel.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 #include <linux/slab.h>
 #include <linux/hdreg.h>	/* HDIO_GETGEO			    */
@@ -16,10 +16,10 @@
 #include <linux/module.h>
 #include <linux/init.h>
 
-#include <asm/idals.h>
-#include <asm/ebcdic.h>
-#include <asm/io.h>
-#include <asm/ccwdev.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ccwdev.h>
 
 #include "dasd_int.h"
 #include "dasd_fba.h"

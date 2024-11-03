@@ -3,12 +3,12 @@
 
 #include <xen/hvc-console.h>
 
-#include <asm/io_apic.h>
-#include <asm/hypervisor.h>
-#include <asm/e820/api.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/e820/api.h>
 
-#include <asm/xen/interface.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/interface.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/interface/memory.h>
 #include <xen/interface/hvm/start_info.h>

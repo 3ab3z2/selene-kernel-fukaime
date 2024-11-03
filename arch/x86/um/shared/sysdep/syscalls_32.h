@@ -3,7 +3,7 @@
  * Licensed under the GPL
  */
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <sysdep/ptrace.h>
 
 typedef long syscall_handler_t(struct syscall_args);

@@ -37,7 +37,7 @@
 .text
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #define tlen 1024   // length of each of 4 'xor' arrays (256 32-bit words)
 

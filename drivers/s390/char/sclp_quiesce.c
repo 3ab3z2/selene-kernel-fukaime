@@ -13,8 +13,8 @@
 #include <linux/init.h>
 #include <linux/reboot.h>
 #include <linux/atomic.h>
-#include <asm/ptrace.h>
-#include <asm/smp.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
 
 #include "sclp.h"
 

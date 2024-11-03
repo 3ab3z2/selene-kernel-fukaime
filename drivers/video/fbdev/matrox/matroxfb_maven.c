@@ -18,7 +18,7 @@
 #include <linux/i2c.h>
 #include <linux/matroxfb.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define MGATVO_B	1
 #define MGATVO_C	2

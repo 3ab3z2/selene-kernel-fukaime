@@ -20,7 +20,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/vr41xx/capcella.h>
+#include <asm-generic/vr41xx/capcella.h>
 
 /*
  * Shortcuts

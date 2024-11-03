@@ -27,14 +27,14 @@
 #include <linux/context_tracking.h>
 
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/pgtable.h>
-#include <asm/fpumacro.h>
-#include <asm/uctx.h>
-#include <asm/siginfo.h>
-#include <asm/visasm.h>
-#include <asm/switch_to.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/uctx.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/cacheflush.h>
 
 #include "sigutil.h"
 #include "systbls.h"

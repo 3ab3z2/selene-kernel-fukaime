@@ -12,8 +12,8 @@
 #include <linux/irqdomain.h>
 #include <linux/ratelimit.h>
 
-#include <asm/core_reg.h>
-#include <asm/mach/arch.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/mach/arch.h>
 #include <linux/uaccess.h>
 
 #ifdef CONFIG_4KSTACKS

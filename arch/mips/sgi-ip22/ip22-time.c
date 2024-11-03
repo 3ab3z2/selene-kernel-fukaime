@@ -19,15 +19,15 @@
 #include <linux/time.h>
 #include <linux/ftrace.h>
 
-#include <asm/cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/time.h>
-#include <asm/sgialib.h>
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/time.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 static unsigned long dosample(void)
 {

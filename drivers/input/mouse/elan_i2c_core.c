@@ -36,7 +36,7 @@
 #include <linux/completion.h>
 #include <linux/of.h>
 #include <linux/regulator/consumer.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "elan_i2c.h"
 

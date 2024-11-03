@@ -7,8 +7,8 @@
  */
 
 #include <linux/slab.h>
-#include <asm/pmac_feature.h>
-#include <asm/pmac_pfunc.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/pmac_pfunc.h>
 #include "../aoa.h"
 
 #define PMF_GPIO(name, bit)					\

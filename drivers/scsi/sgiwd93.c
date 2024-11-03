@@ -24,9 +24,9 @@
 #include <linux/platform_device.h>
 #include <linux/spinlock.h>
 
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
-#include <asm/sgi/wd.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
+#include <asm-generic/sgi/wd.h>
 
 #include "scsi.h"
 #include "wd33c93.h"

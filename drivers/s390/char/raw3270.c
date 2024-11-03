@@ -16,10 +16,10 @@
 #include <linux/types.h>
 #include <linux/wait.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/ebcdic.h>
-#include <asm/diag.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/diag.h>
 
 #include "raw3270.h"
 

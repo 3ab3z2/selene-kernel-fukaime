@@ -24,13 +24,13 @@
 #include <linux/seccomp.h>
 #include <linux/compat.h>
 #include <trace/syscall.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/switch_to.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/switch_to.h>
 #include "entry.h"
 
 #ifdef CONFIG_COMPAT

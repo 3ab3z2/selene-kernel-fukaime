@@ -15,7 +15,7 @@
 #include <linux/of_platform.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 static struct map_info flash_map;
 static struct mtd_info *mymtd;

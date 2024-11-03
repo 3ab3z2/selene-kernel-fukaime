@@ -49,25 +49,25 @@
 #include <linux/memory.h>
 #include <linux/compat.h>
 
-#include <asm/ipl.h>
-#include <asm/facility.h>
-#include <asm/smp.h>
-#include <asm/mmu_context.h>
-#include <asm/cpcmd.h>
-#include <asm/lowcore.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/sections.h>
-#include <asm/ebcdic.h>
-#include <asm/kvm_virtio.h>
-#include <asm/diag.h>
-#include <asm/os_info.h>
-#include <asm/sclp.h>
-#include <asm/sysinfo.h>
-#include <asm/numa.h>
-#include <asm/alternative.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/kvm_virtio.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/os_info.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/nospec-branch.h>
 #include "entry.h"
 
 /*
@@ -113,7 +113,7 @@ EXPORT_SYMBOL(lowcore_ptr);
  * using address 0x10400 ...
  */
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /*
  * condev= and conmode= setup parameter.

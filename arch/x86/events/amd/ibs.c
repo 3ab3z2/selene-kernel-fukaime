@@ -14,7 +14,7 @@
 #include <linux/syscore_ops.h>
 #include <linux/sched/clock.h>
 
-#include <asm/apic.h>
+#include <asm-generic/apic.h>
 
 #include "../perf_event.h"
 
@@ -25,7 +25,7 @@ static u32 ibs_caps;
 #include <linux/kprobes.h>
 #include <linux/hardirq.h>
 
-#include <asm/nmi.h>
+#include <asm-generic/nmi.h>
 
 #define IBS_FETCH_CONFIG_MASK	(IBS_FETCH_RAND_EN | IBS_FETCH_MAX_CNT)
 #define IBS_OP_CONFIG_MASK	IBS_OP_MAX_CNT

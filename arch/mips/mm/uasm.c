@@ -380,7 +380,7 @@ I_u1u2(_ldpte)
 I_u2u1u3(_lddir)
 
 #ifdef CONFIG_CPU_CAVIUM_OCTEON
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 void uasm_i_pref(u32 **buf, unsigned int a, signed int b,
 			    unsigned int c)
 {

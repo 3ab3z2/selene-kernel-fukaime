@@ -5,10 +5,10 @@
 #include <linux/uaccess.h>
 #include <linux/sched.h>
 
-#include <asm/sigcontext.h>
-#include <asm/fpumacro.h>
-#include <asm/ptrace.h>
-#include <asm/switch_to.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/switch_to.h>
 
 #include "sigutil.h"
 

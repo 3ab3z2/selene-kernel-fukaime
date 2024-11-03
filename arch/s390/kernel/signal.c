@@ -27,10 +27,10 @@
 #include <linux/tracehook.h>
 #include <linux/syscalls.h>
 #include <linux/compat.h>
-#include <asm/ucontext.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
-#include <asm/lowcore.h>
-#include <asm/switch_to.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/switch_to.h>
 #include "entry.h"
 
 /*

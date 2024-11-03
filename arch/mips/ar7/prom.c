@@ -24,10 +24,10 @@
 #include <linux/export.h>
 #include <linux/string.h>
 #include <linux/io.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/mach-ar7/ar7.h>
-#include <asm/mach-ar7/prom.h>
+#include <asm-generic/mach-ar7/ar7.h>
+#include <asm-generic/mach-ar7/prom.h>
 
 #define MAX_ENTRY 80
 

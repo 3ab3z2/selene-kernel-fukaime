@@ -11,7 +11,7 @@
 #include <string.h>
 #include <sys/mman.h>
 #include <sys/wait.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <as-layout.h>
 #include <init.h>
 #include <kern_util.h>

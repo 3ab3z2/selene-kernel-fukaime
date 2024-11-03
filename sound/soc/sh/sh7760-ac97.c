@@ -12,7 +12,7 @@
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define IPSEL 0xFE400034
 

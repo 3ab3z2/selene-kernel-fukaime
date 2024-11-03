@@ -14,7 +14,7 @@
 #include <linux/sysctl.h>
 #include <linux/init.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #include "trace.h"
 

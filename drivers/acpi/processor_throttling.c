@@ -30,7 +30,7 @@
 #include <linux/cpufreq.h>
 #include <linux/acpi.h>
 #include <acpi/processor.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #define PREFIX "ACPI: "

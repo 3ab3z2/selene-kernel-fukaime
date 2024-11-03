@@ -3,7 +3,7 @@
 #define __PROM_H
 
 #include <linux/spinlock.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 void of_console_init(void);
 

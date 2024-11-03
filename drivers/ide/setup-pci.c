@@ -15,7 +15,7 @@
 #include <linux/ide.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /**
  *	ide_setup_pci_baseregs	-	place a PCI IDE controller native

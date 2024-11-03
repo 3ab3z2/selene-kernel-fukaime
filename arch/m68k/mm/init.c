@@ -20,18 +20,18 @@
 #include <linux/bootmem.h>
 #include <linux/gfp.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
 #ifdef CONFIG_ATARI
-#include <asm/atari_stram.h>
+#include <asm-generic/atari_stram.h>
 #endif
-#include <asm/sections.h>
-#include <asm/tlb.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
 
 /*
  * ZERO_PAGE is a special page that is used for zero-initialized

@@ -2,8 +2,8 @@
 #ifndef M68K_MCF_PGALLOC_H
 #define M68K_MCF_PGALLOC_H
 
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
 
 extern inline void pte_free_kernel(struct mm_struct *mm, pte_t *pte)
 {

@@ -50,7 +50,7 @@
 #include "ufs.h"
 #include "ufshcd.h"
 #include "ufshpb_skh.h"
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 u32 skhpb_debug_mask = SKHPB_LOG_ERR | SKHPB_LOG_INFO;
 //u32 skhpb_debug_mask = SKHPB_LOG_ERR | SKHPB_LOG_INFO | SKHPB_LOG_DEBUG | SKHPB_LOG_HEX;

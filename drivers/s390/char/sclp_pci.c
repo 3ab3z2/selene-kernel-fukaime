@@ -15,7 +15,7 @@
 #include <linux/init.h>
 #include <linux/err.h>
 
-#include <asm/sclp.h>
+#include <asm-generic/sclp.h>
 
 #include "sclp.h"
 

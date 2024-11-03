@@ -37,8 +37,8 @@
 #include <linux/device.h>
 #include <linux/freezer.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/mman.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mman.h>
 #include <linux/atomic.h>
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>

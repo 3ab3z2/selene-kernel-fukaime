@@ -9,8 +9,8 @@
 
 #include <linux/interrupt.h>
 #include <linux/irqchip.h>
-#include <asm/mach_desc.h>
-#include <asm/smp.h>
+#include <asm-generic/mach_desc.h>
+#include <asm-generic/smp.h>
 
 /*
  * Late Interrupt system init called from start_kernel for Boot CPU only

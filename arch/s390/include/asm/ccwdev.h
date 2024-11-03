@@ -11,11 +11,11 @@
 
 #include <linux/device.h>
 #include <linux/mod_devicetable.h>
-#include <asm/fcx.h>
-#include <asm/irq.h>
-#include <asm/schid.h>
+#include <asm-generic/fcx.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/schid.h>
 
-/* structs from asm/cio.h */
+/* structs from asm-generic/cio.h */
 struct irb;
 struct ccw1;
 struct ccw_dev_id;

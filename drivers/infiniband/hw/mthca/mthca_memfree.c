@@ -37,7 +37,7 @@
 #include <linux/sched.h>
 #include <linux/slab.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include "mthca_memfree.h"
 #include "mthca_dev.h"

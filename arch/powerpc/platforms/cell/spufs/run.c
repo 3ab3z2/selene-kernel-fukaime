@@ -4,10 +4,10 @@
 #include <linux/wait.h>
 #include <linux/ptrace.h>
 
-#include <asm/spu.h>
-#include <asm/spu_priv1.h>
-#include <asm/io.h>
-#include <asm/unistd.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_priv1.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unistd.h>
 
 #include "spufs.h"
 

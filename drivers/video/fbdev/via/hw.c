@@ -20,7 +20,7 @@
  */
 
 #include <linux/via-core.h>
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 #include "global.h"
 #include "via_clock.h"
 

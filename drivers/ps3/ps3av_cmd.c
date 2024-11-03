@@ -22,9 +22,9 @@
 #include <linux/kernel.h>
 #include <linux/delay.h>
 
-#include <asm/ps3av.h>
-#include <asm/ps3.h>
-#include <asm/ps3gpu.h>
+#include <asm-generic/ps3av.h>
+#include <asm-generic/ps3.h>
+#include <asm-generic/ps3gpu.h>
 
 #include "vuart.h"
 

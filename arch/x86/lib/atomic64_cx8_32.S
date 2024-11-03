@@ -10,7 +10,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/alternative-asm.h>
+#include <asm-generic/alternative-asm.h>
 
 .macro read64 reg
 	movl %ebx, %eax

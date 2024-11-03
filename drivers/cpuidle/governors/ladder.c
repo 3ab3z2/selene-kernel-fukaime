@@ -18,7 +18,7 @@
 #include <linux/jiffies.h>
 #include <linux/tick.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #define PROMOTION_COUNT 4

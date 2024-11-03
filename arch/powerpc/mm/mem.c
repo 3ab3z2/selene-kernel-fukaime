@@ -38,22 +38,22 @@
 #include <linux/vmalloc.h>
 #include <linux/memremap.h>
 
-#include <asm/pgalloc.h>
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/btext.h>
-#include <asm/tlb.h>
-#include <asm/sections.h>
-#include <asm/sparsemem.h>
-#include <asm/vdso.h>
-#include <asm/fixmap.h>
-#include <asm/swiotlb.h>
-#include <asm/rtas.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/sparsemem.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/rtas.h>
 
 #include "mmu_decl.h"
 

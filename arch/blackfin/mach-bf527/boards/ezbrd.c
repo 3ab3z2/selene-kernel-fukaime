@@ -19,12 +19,12 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 #include <linux/usb/musb.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/reboot.h>
-#include <asm/nand.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/nand.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
 #include <linux/spi/ad7877.h>
 
 /*
@@ -730,7 +730,7 @@ static struct platform_device bfin_dpmc = {
 };
 
 #if IS_ENABLED(CONFIG_FB_BFIN_LQ035Q1)
-#include <asm/bfin-lq035q1.h>
+#include <asm-generic/bfin-lq035q1.h>
 
 static struct bfin_lq035q1fb_disp_info bfin_lq035q1_data = {
 	.mode = LQ035_NORM | LQ035_RGB | LQ035_RL | LQ035_TB,

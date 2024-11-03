@@ -2,7 +2,7 @@
 #ifndef _MIPS_SETUP_H
 #define _MIPS_SETUP_H
 
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 extern void setup_early_printk(void);
 

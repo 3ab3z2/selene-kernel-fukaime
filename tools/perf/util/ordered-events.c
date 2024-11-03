@@ -6,7 +6,7 @@
 #include <linux/string.h>
 #include "ordered-events.h"
 #include "session.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "debug.h"
 
 #define pr_N(n, fmt, ...) \

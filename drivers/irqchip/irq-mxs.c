@@ -28,7 +28,7 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 #include <linux/stmp_device.h>
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 #include "alphascale_asm9260-icoll.h"
 

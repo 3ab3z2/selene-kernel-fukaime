@@ -18,7 +18,7 @@
 #include <linux/io.h>
 #include <linux/scatterlist.h>
 
-#include <asm/ide.h>
+#include <asm-generic/ide.h>
 
 #define MODNAME	"tx4939ide"
 

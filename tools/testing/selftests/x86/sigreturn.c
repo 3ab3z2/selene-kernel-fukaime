@@ -46,7 +46,7 @@
 #include <sys/mman.h>
 #include <sys/signal.h>
 #include <sys/ucontext.h>
-#include <asm/ldt.h>
+#include <asm-generic/ldt.h>
 #include <err.h>
 #include <setjmp.h>
 #include <stddef.h>
@@ -57,10 +57,10 @@
 /* Pull in AR_xyz defines. */
 typedef unsigned int u32;
 typedef unsigned short u16;
-#include "../../../../arch/x86/include/asm/desc_defs.h"
+#include "../../../../arch/x86/include/asm-generic/desc_defs.h"
 
 /*
- * Copied from asm/ucontext.h, as asm/ucontext.h conflicts badly with the glibc
+ * Copied from asm-generic/ucontext.h, as asm-generic/ucontext.h conflicts badly with the glibc
  * headers.
  */
 #ifdef __x86_64__

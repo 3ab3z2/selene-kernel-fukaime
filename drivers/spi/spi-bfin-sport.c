@@ -21,11 +21,11 @@
 #include <linux/spi/spi.h>
 #include <linux/workqueue.h>
 
-#include <asm/portmux.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/blackfin.h>
-#include <asm/bfin_sport.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/bfin_sport.h>
+#include <asm-generic/cacheflush.h>
 
 #define DRV_NAME	"bfin-sport-spi"
 #define DRV_DESC	"SPI bus via the Blackfin SPORT"

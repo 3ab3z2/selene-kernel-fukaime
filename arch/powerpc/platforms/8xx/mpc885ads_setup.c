@@ -29,16 +29,16 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/delay.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/time.h>
-#include <asm/8xx_immap.h>
-#include <asm/cpm1.h>
-#include <asm/fs_pd.h>
-#include <asm/udbg.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/time.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/cpm1.h>
+#include <asm-generic/fs_pd.h>
+#include <asm-generic/udbg.h>
 
 #include "mpc885ads.h"
 #include "mpc8xx.h"

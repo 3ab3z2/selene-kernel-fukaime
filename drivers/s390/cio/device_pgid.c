@@ -14,8 +14,8 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 #include <linux/slab.h>
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
 
 #include "cio.h"
 #include "cio_debug.h"

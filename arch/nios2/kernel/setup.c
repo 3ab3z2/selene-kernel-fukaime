@@ -21,10 +21,10 @@
 #include <linux/of_fdt.h>
 #include <linux/screen_info.h>
 
-#include <asm/mmu_context.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/cpuinfo.h>
 
 unsigned long memory_start;
 EXPORT_SYMBOL(memory_start);

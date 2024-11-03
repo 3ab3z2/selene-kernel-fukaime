@@ -60,8 +60,8 @@
 #include <media/v4l2-event.h>
 #include "videocodec.h"
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/proc_fs.h>
 

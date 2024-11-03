@@ -15,9 +15,9 @@
 
 #include <linux/init.h>
 #include <linux/perf_event.h>
-#include <asm/firmware.h>
-#include <asm/hvcall.h>
-#include <asm/io.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/io.h>
 
 #include "hv-gpci.h"
 #include "hv-common.h"

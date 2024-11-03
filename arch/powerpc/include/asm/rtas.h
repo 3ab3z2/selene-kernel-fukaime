@@ -3,7 +3,7 @@
 #ifdef __KERNEL__
 
 #include <linux/spinlock.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/time.h>
 
 /*

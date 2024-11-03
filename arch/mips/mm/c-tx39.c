@@ -15,19 +15,19 @@
 #include <linux/smp.h>
 #include <linux/mm.h>
 
-#include <asm/cacheops.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/isadep.h>
-#include <asm/io.h>
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/isadep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
 
 /* For R3000 cores with R4000 style caches */
 static unsigned long icache_size, dcache_size;		/* Size in bytes */
 
-#include <asm/r4kcache.h>
+#include <asm-generic/r4kcache.h>
 
 /* This sequence is required to ensure icache is disabled immediately */
 #define TX39_STOP_STREAMING() \

@@ -5,7 +5,7 @@
  * Copyright (c) 2003 Hitoshi Yamamoto
  */
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/uaccess.h>
 
 static int get_reg(struct pt_regs *regs, int nr)

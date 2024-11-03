@@ -4,7 +4,7 @@
  */
 
 #include <sys/ptrace.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 int os_arch_prctl(int pid, int option, unsigned long *arg2)
 {

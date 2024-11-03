@@ -2,8 +2,8 @@
 #ifndef _SPARC_TRAP_BLOCK_H
 #define _SPARC_TRAP_BLOCK_H
 
-#include <asm/hypervisor.h>
-#include <asm/asi.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/asi.h>
 
 #ifndef __ASSEMBLY__
 
@@ -111,7 +111,7 @@ extern struct sun4v_2insn_patch_entry __sun_m7_2insn_patch,
 
 #define TRAP_BLOCK_SZ_SHIFT		8
 
-#include <asm/scratchpad.h>
+#include <asm-generic/scratchpad.h>
 
 #define __GET_CPUID(REG)				\
 	/* Spitfire implementation (default). */	\

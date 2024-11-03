@@ -262,7 +262,7 @@ int main(int argc, char **argv)
 	fprintf(out_file, "/* Automatically generated - do not edit */\n");
 	fprintf(out_file, "#include <linux/linkage.h>\n");
 	fprintf(out_file, "#include <linux/mm.h>\n");
-	fprintf(out_file, "#include <asm/vdso.h>\n");
+	fprintf(out_file, "#include <asm-generic/vdso.h>\n");
 
 	/* Write out the stripped VDSO data. */
 	fprintf(out_file,

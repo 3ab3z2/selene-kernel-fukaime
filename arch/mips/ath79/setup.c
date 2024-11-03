@@ -20,16 +20,16 @@
 #include <linux/clk-provider.h>
 #include <linux/of_fdt.h>
 
-#include <asm/bootinfo.h>
-#include <asm/idle.h>
-#include <asm/time.h>		/* for mips_hpt_frequency */
-#include <asm/reboot.h>		/* for _machine_{restart,halt} */
-#include <asm/mips_machine.h>
-#include <asm/prom.h>
-#include <asm/fw/fw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/time.h>		/* for mips_hpt_frequency */
+#include <asm-generic/reboot.h>		/* for _machine_{restart,halt} */
+#include <asm-generic/mips_machine.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/fw/fw.h>
 
-#include <asm/mach-ath79/ath79.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 #include "common.h"
 #include "dev-common.h"
 #include "machtypes.h"

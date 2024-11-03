@@ -13,7 +13,7 @@
 
 #include <linux/export.h>
 #include <linux/string.h>
-#include <asm/tbx.h>
+#include <asm-generic/tbx.h>
 
 /*
  * There are not any functions to modify the string table currently, if these

@@ -34,7 +34,7 @@
 #ifndef _BCM1480_INT_H
 #define _BCM1480_INT_H
 
-#include <asm/sibyte/sb1250_defs.h>
+#include <asm-generic/sibyte/sb1250_defs.h>
 
 /*  *********************************************************************
     *  Interrupt Mapper Constants

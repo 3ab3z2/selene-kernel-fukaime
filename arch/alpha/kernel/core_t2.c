@@ -11,8 +11,8 @@
  */
 
 #define __EXTERN_INLINE
-#include <asm/io.h>
-#include <asm/core_t2.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_t2.h>
 #undef __EXTERN_INLINE
 
 #include <linux/types.h>
@@ -20,9 +20,9 @@
 #include <linux/sched.h>
 #include <linux/init.h>
 
-#include <asm/ptrace.h>
-#include <asm/delay.h>
-#include <asm/mce.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/mce.h>
 
 #include "proto.h"
 #include "pci_impl.h"

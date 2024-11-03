@@ -18,10 +18,10 @@
 #include <linux/device.h>
 #include <linux/cpu.h>
 #include <linux/of.h>
-#include <asm/cputhreads.h>
-#include <asm/page.h>
-#include <asm/hvcall.h>
-#include <asm/firmware.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/firmware.h>
 
 
 #define MODULE_VERS "1.0"

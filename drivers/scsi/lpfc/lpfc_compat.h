@@ -32,7 +32,7 @@ memcpy_toio() and memcpy_fromio() can be used.
 However on a big-endian host, copy 4 bytes at a time,
 using writel() and readl().
  *******************************************************************/
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __BIG_ENDIAN
 

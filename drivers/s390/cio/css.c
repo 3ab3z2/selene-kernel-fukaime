@@ -21,8 +21,8 @@
 #include <linux/reboot.h>
 #include <linux/suspend.h>
 #include <linux/proc_fs.h>
-#include <asm/isc.h>
-#include <asm/crw.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/crw.h>
 
 #include "css.h"
 #include "cio.h"

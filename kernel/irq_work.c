@@ -18,7 +18,7 @@
 #include <linux/notifier.h>
 #include <linux/smp.h>
 #include <linux/interrupt.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 static DEFINE_PER_CPU(struct llist_head, raised_list);
 static DEFINE_PER_CPU(struct llist_head, lazy_list);

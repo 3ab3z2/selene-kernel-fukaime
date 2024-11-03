@@ -20,7 +20,7 @@
 #include <linux/backlight.h>
 #include <linux/slab.h>
 
-#include <asm/mach/sharpsl_param.h>
+#include <asm-generic/mach/sharpsl_param.h>
 
 #include <mach/tosa.h>
 

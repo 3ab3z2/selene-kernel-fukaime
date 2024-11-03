@@ -27,7 +27,7 @@
 #include <sound/jack.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <sound/da7218.h>
 #include "da7218.h"

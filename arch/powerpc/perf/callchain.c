@@ -14,15 +14,15 @@
 #include <linux/percpu.h>
 #include <linux/uaccess.h>
 #include <linux/mm.h>
-#include <asm/ptrace.h>
-#include <asm/pgtable.h>
-#include <asm/sigcontext.h>
-#include <asm/ucontext.h>
-#include <asm/vdso.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/vdso.h>
 #ifdef CONFIG_PPC64
 #include "../kernel/ppc32.h"
 #endif
-#include <asm/pte-walk.h>
+#include <asm-generic/pte-walk.h>
 
 
 /*

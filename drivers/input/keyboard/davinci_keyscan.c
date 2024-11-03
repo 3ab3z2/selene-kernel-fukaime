@@ -32,7 +32,7 @@
 #include <linux/errno.h>
 #include <linux/slab.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <mach/hardware.h>
 #include <mach/irqs.h>

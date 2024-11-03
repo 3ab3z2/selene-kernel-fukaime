@@ -59,12 +59,12 @@
 #include <linux/io.h>
 #include <linux/uaccess.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include <linux/parport.h>
 #include <linux/parport_pc.h>
 #include <linux/via.h>
-#include <asm/parport.h>
+#include <asm-generic/parport.h>
 
 #define PARPORT_PC_MAX_PORTS PARPORT_MAX
 
@@ -3041,7 +3041,7 @@ static struct platform_driver parport_pc_platform_driver = {
 	.probe		= parport_pc_platform_probe,
 };
 
-/* This is called by parport_pc_find_nonpci_ports (in asm/parport.h) */
+/* This is called by parport_pc_find_nonpci_ports (in asm-generic/parport.h) */
 static int __attribute__((unused))
 parport_pc_find_isa_ports(int autoirq, int autodma)
 {
@@ -3087,7 +3087,7 @@ static void __init parport_pc_find_ports(int autoirq, int autodma)
 			pnp_registered_parport = 1;
 	}
 
-	/* ISA ports and whatever (see asm/parport.h). */
+	/* ISA ports and whatever (see asm-generic/parport.h). */
 	parport_pc_find_nonpci_ports(autoirq, autodma);
 
 	err = pci_register_driver(&parport_pc_pci_driver);

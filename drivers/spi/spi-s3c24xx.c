@@ -27,7 +27,7 @@
 
 #include <plat/regs-spi.h>
 
-#include <asm/fiq.h>
+#include <asm-generic/fiq.h>
 
 #include "spi-s3c24xx-fiq.h"
 

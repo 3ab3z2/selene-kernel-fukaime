@@ -40,11 +40,11 @@
 #include <linux/init.h>
 
 #if defined(CONFIG_M68VZ328)
-#include <asm/MC68VZ328.h>
+#include <asm-generic/MC68VZ328.h>
 #elif defined(CONFIG_M68EZ328)
-#include <asm/MC68EZ328.h>
+#include <asm-generic/MC68EZ328.h>
 #elif defined(CONFIG_M68328)
-#include <asm/MC68328.h>
+#include <asm-generic/MC68328.h>
 #else
 #error wrong architecture for the MC68x328 frame buffer device
 #endif

@@ -14,7 +14,7 @@
 /*
  * Get data structures and defines from the main C header
  */
-#include <asm/tbx.h>
+#include <asm-generic/tbx.h>
 
 	.data
 	.balign	8

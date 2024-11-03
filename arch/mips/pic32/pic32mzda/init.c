@@ -18,9 +18,9 @@
 #include <linux/of_platform.h>
 #include <linux/platform_data/sdhci-pic32.h>
 
-#include <asm/fw/fw.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/prom.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/prom.h>
 
 #include "pic32mzda.h"
 

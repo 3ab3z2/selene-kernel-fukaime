@@ -15,7 +15,7 @@
 #include <linux/compiler.h>
 #include <linux/kernel.h>
 #include <linux/stringify.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include <sys/param.h>
 #include "util.h"
 #include "debug.h"
@@ -31,7 +31,7 @@
 #include "event.h"
 #include "evlist.h"
 #include "evsel.h"
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include "ui/browsers/hists.h"
 #include "evlist.h"
 #include "thread.h"

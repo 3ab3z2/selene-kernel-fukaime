@@ -21,12 +21,12 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/ehv_pic.h>
-#include <asm/fsl_hcalls.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ehv_pic.h>
+#include <asm-generic/fsl_hcalls.h>
 
 static struct ehv_pic *global_ehv_pic;
 static DEFINE_SPINLOCK(ehv_pic_lock);

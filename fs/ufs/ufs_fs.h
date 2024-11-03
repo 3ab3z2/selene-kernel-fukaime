@@ -37,7 +37,7 @@
 #include <linux/fs.h>
 #include <linux/workqueue.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 typedef __u64 __bitwise __fs64;
 typedef __u32 __bitwise __fs32;
 typedef __u16 __bitwise __fs16;

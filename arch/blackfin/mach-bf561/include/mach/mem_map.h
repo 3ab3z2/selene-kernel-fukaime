@@ -9,7 +9,7 @@
 #define __BFIN_MACH_MEM_MAP_H__
 
 #ifndef __BFIN_MEM_MAP_H__
-# error "do not include mach/mem_map.h directly -- use asm/mem_map.h"
+# error "do not include mach/mem_map.h directly -- use asm-generic/mem_map.h"
 #endif
 
 /* Async Memory Banks */
@@ -177,7 +177,7 @@
 
 # ifndef __ASSEMBLY__
 
-#  include <asm/processor.h>
+#  include <asm-generic/processor.h>
 
 static inline unsigned long get_l1_scratch_start_cpu(int cpu)
 {

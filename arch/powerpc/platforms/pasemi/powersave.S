@@ -18,13 +18,13 @@
  *
  */
 
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/ppc_asm.h>
-#include <asm/cputable.h>
-#include <asm/cache.h>
-#include <asm/thread_info.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm-offsets.h>
 
 /* Power savings opcodes since not all binutils have them at this time */
 #define DOZE	.long	0x4c000324

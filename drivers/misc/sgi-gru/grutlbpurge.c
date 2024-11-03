@@ -35,10 +35,10 @@
 #include <linux/delay.h>
 #include <linux/timex.h>
 #include <linux/srcu.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include "gru.h"
 #include "grutables.h"
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 
 #define gru_random()	get_cycles()
 

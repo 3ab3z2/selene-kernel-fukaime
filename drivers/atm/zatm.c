@@ -23,9 +23,9 @@
 #include <linux/bitops.h>
 #include <linux/wait.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
-#include <asm/string.h>
-#include <asm/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/string.h>
+#include <asm-generic/io.h>
 #include <linux/atomic.h>
 #include <linux/uaccess.h>
 #include <linux/nospec.h>

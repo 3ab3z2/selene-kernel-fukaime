@@ -25,7 +25,7 @@
 #include <linux/types.h>
 #include <linux/platform_device.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/ss.h>
 

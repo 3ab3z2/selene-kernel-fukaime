@@ -23,7 +23,7 @@
 
 #include <pcmcia/ss.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <linux/platform_data/pcmcia-pxa2xx_viper.h>
 

@@ -22,7 +22,7 @@
 #include <linux/pagemap.h>
 #include <linux/delay.h>
 
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 /* FLASH status codes */
 #define FLASH_NO_OP		-1099	/* No operation initiated by user */

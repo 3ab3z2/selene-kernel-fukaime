@@ -19,7 +19,7 @@
 
 #include <linux/time.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 unsigned long __init pas_get_boot_time(void)
 {

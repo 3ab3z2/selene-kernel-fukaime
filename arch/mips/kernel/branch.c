@@ -10,14 +10,14 @@
 #include <linux/sched/signal.h>
 #include <linux/signal.h>
 #include <linux/export.h>
-#include <asm/branch.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/fpu.h>
-#include <asm/fpu_emulator.h>
-#include <asm/inst.h>
-#include <asm/mips-r2-to-r6-emul.h>
-#include <asm/ptrace.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/fpu_emulator.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/mips-r2-to-r6-emul.h>
+#include <asm-generic/ptrace.h>
 #include <linux/uaccess.h>
 
 /*

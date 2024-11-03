@@ -62,7 +62,7 @@
 #include <asm/irq.h>
 #include <asm/dma.h>
 #include <linux/bitops.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/termios.h>
 #include <linux/workqueue.h>
 #include <linux/hdlc.h>

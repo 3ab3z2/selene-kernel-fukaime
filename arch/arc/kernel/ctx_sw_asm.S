@@ -11,8 +11,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/entry.h>       /* For the SAVE_* macros */
-#include <asm/asm-offsets.h>
+#include <asm-generic/entry.h>       /* For the SAVE_* macros */
+#include <asm-generic/asm-offsets.h>
 
 #define KSP_WORD_OFF 	((TASK_THREAD + THREAD_KSP) / 4)
 

@@ -32,10 +32,10 @@
 #include <linux/rcupdate.h>
 
 #include <linux/uaccess.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/setup.h>
-#include <asm/pgtable.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgtable.h>
 
 
 asmlinkage void ret_from_fork(void);

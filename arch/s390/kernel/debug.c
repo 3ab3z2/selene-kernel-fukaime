@@ -26,7 +26,7 @@
 #include <linux/fs.h>
 #include <linux/debugfs.h>
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 #define DEBUG_PROLOG_ENTRY -1
 

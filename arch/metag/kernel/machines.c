@@ -8,8 +8,8 @@
  */
 
 #include <linux/init.h>
-#include <asm/irq.h>
-#include <asm/mach/arch.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/arch.h>
 
 static const char *meta_boards_compat[] __initdata = {
 	"img,meta",

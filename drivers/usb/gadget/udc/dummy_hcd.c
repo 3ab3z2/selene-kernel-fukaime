@@ -43,10 +43,10 @@
 #include <linux/usb/hcd.h>
 #include <linux/scatterlist.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/io.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 #define DRIVER_DESC	"USB Host+Gadget Emulator"
 #define DRIVER_VERSION	"02 May 2005"

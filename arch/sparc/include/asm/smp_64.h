@@ -8,9 +8,9 @@
 #define _SPARC64_SMP_H
 
 #include <linux/threads.h>
-#include <asm/asi.h>
-#include <asm/starfire.h>
-#include <asm/spitfire.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/starfire.h>
+#include <asm-generic/spitfire.h>
 
 #ifndef __ASSEMBLY__
 
@@ -29,7 +29,7 @@
 
 #include <linux/bitops.h>
 #include <linux/atomic.h>
-#include <asm/percpu.h>
+#include <asm-generic/percpu.h>
 
 DECLARE_PER_CPU(cpumask_t, cpu_sibling_map);
 extern cpumask_t cpu_core_map[NR_CPUS];

@@ -16,11 +16,11 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/io.h>
 
 #undef DEBUG
 

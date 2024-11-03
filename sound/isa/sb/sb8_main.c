@@ -31,7 +31,7 @@
  */
 
 #include <linux/io.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/init.h>
 #include <linux/time.h>
 #include <linux/module.h>

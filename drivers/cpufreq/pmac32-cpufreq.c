@@ -28,17 +28,17 @@
 #include <linux/device.h>
 #include <linux/hardirq.h>
 #include <linux/of_device.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/pmac_feature.h>
-#include <asm/mmu_context.h>
-#include <asm/sections.h>
-#include <asm/cputable.h>
-#include <asm/time.h>
-#include <asm/mpic.h>
-#include <asm/keylargo.h>
-#include <asm/switch_to.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/keylargo.h>
+#include <asm-generic/switch_to.h>
 
 /* WARNING !!! This will cause calibrate_delay() to be called,
  * but this is an __init function ! So you MUST go edit

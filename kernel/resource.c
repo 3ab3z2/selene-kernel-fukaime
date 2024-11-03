@@ -23,7 +23,7 @@
 #include <linux/pfn.h>
 #include <linux/mm.h>
 #include <linux/resource_ext.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 
 struct resource ioport_resource = {

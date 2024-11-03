@@ -36,8 +36,8 @@
 #include <sound/initval.h>
 #include <sound/soc.h>
 
-#include <asm/irq.h>
-#include <asm/portmux.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/portmux.h>
 #include <linux/mutex.h>
 #include <linux/gpio.h>
 

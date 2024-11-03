@@ -19,14 +19,14 @@
 #include <linux/spinlock.h>
 #include <linux/module.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xics.h>
-#include <asm/kvm_ppc.h>
-#include <asm/dbell.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/dbell.h>
 
 struct icp_ipl {
 	union {

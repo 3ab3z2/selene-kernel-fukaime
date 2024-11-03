@@ -19,7 +19,7 @@
 #include <linux/uio.h>
 #include <linux/blkdev.h>
 #include <linux/backing-dev.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "fat.h"
 
 #include <mt-plat/mtk_blocktag.h>

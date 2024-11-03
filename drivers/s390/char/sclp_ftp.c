@@ -17,8 +17,8 @@
 #include <linux/wait.h>
 #include <linux/string.h>
 #include <linux/jiffies.h>
-#include <asm/sysinfo.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/ebcdic.h>
 
 #include "sclp.h"
 #include "sclp_diag.h"

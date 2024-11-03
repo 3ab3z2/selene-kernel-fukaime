@@ -26,10 +26,10 @@
 #include <linux/kernel.h>
 #include <linux/pci.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
 
-#include <asm/ppc-pci.h>
+#include <asm-generic/ppc-pci.h>
 
 #include "pasemi.h"
 

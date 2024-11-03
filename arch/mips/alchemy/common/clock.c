@@ -42,7 +42,7 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 #include <linux/types.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 /* Base clock: 12MHz is the default in all databooks, and I haven't
  * found any board yet which uses a different rate.

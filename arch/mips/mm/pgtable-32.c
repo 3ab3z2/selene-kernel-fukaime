@@ -9,9 +9,9 @@
 #include <linux/mm.h>
 #include <linux/bootmem.h>
 #include <linux/highmem.h>
-#include <asm/fixmap.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 
 void pgd_init(unsigned long page)
 {

@@ -19,7 +19,7 @@
 #include "video.h"
 #include "vesa.h"
 
-#include <uapi/asm/boot.h>
+#include <uapi/asm-generic/boot.h>
 
 /*
  * Common variables

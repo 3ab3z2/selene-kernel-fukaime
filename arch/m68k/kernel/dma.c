@@ -14,7 +14,7 @@
 #include <linux/vmalloc.h>
 #include <linux/export.h>
 
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 #if defined(CONFIG_MMU) && !defined(CONFIG_COLDFIRE)
 
@@ -70,7 +70,7 @@ static void m68k_dma_free(struct device *dev, size_t size, void *addr,
 
 #else
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 static void *m68k_dma_alloc(struct device *dev, size_t size,
 		dma_addr_t *dma_handle, gfp_t gfp, unsigned long attrs)

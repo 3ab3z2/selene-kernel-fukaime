@@ -27,7 +27,7 @@
 #include <linux/init.h>
 #include <linux/crypto.h>
 #include <crypto/hash.h>
-#include <asm/vio.h>
+#include <asm-generic/vio.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

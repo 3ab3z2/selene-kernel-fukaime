@@ -1,5 +1,5 @@
 /*
- *  arch/mips/include/asm/prom.h
+ *  arch/mips/include/asm-generic/prom.h
  *
  *  Copyright (C) 2010 Cisco Systems Inc. <dediao@cisco.com>
  *
@@ -15,7 +15,7 @@
 #include <linux/bug.h>
 #include <linux/io.h>
 #include <linux/types.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 extern void device_tree_init(void);
 

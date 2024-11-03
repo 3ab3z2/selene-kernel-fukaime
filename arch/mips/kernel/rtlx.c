@@ -14,12 +14,12 @@
 #include <linux/atomic.h>
 #include <linux/sched/signal.h>
 
-#include <asm/mipsmtregs.h>
-#include <asm/mips_mt.h>
-#include <asm/processor.h>
-#include <asm/rtlx.h>
-#include <asm/setup.h>
-#include <asm/vpe.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/rtlx.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/vpe.h>
 
 static int sp_stopping;
 struct rtlx_info *rtlx;

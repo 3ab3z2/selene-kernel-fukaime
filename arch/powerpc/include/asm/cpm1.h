@@ -19,9 +19,9 @@
 #define __CPM1__
 
 #include <linux/init.h>
-#include <asm/8xx_immap.h>
-#include <asm/ptrace.h>
-#include <asm/cpm.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cpm.h>
 
 /* CPM Command register.
 */

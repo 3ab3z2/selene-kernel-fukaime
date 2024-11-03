@@ -17,7 +17,7 @@
 #include <linux/vmalloc.h>
 #include <linux/fs.h>
 #include <linux/bootmem.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "commpage.h"
 

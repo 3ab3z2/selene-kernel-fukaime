@@ -7,10 +7,10 @@
 #include <linux/init.h>
 #include <linux/spinlock.h>
 
-#include <asm/hardware/dec21285.h>
-#include <asm/mach-types.h>
+#include <asm-generic/hardware/dec21285.h>
+#include <asm-generic/mach-types.h>
 
-#include <asm/mach/arch.h>
+#include <asm-generic/mach/arch.h>
 
 #include "common.h"
 

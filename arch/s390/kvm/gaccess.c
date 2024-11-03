@@ -10,11 +10,11 @@
 #include <linux/mm_types.h>
 #include <linux/err.h>
 
-#include <asm/pgtable.h>
-#include <asm/gmap.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gmap.h>
 #include "kvm-s390.h"
 #include "gaccess.h"
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 union asce {
 	unsigned long val;

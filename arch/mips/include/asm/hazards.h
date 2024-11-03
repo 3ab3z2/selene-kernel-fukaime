@@ -11,7 +11,7 @@
 #define _ASM_HAZARDS_H
 
 #include <linux/stringify.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 #define ___ssnop							\
 	sll	$0, $0, 1

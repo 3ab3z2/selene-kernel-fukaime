@@ -29,9 +29,9 @@
 #include <linux/regset.h>
 
 #include <linux/uaccess.h>
-#include <asm/traps.h>
-#include <asm/user.h>
-#include <asm/fpu/internal.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/user.h>
+#include <asm-generic/fpu/internal.h>
 
 #include "fpu_system.h"
 #include "fpu_emu.h"

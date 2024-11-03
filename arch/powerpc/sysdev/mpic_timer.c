@@ -24,9 +24,9 @@
 #include <linux/of_irq.h>
 #include <linux/syscore_ops.h>
 #include <sysdev/fsl_soc.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/mpic_timer.h>
+#include <asm-generic/mpic_timer.h>
 
 #define FSL_GLOBAL_TIMER		0x1
 

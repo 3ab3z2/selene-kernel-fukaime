@@ -11,8 +11,8 @@
 #include <linux/cpu.h>
 #include <linux/seq_file.h>
 #include <linux/debugfs.h>
-#include <asm/diag.h>
-#include <asm/trace/diag.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/trace/diag.h>
 
 struct diag_stat {
 	unsigned int counter[NR_DIAG_STAT];

@@ -20,7 +20,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/clk.h>
 #include <linux/completion.h>
 #include <linux/delay.h>

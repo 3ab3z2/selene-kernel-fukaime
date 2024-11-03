@@ -37,17 +37,17 @@
 #include <linux/slab.h>
 #include <linux/rcupdate.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/platform.h>
-#include <asm/mmu.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/irq.h>
 #include <linux/atomic.h>
-#include <asm/asm-offsets.h>
-#include <asm/regs.h>
-#include <asm/hw_breakpoint.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regs.h>
+#include <asm-generic/hw_breakpoint.h>
 
 extern void ret_from_fork(void);
 extern void ret_from_kernel_thread(void);

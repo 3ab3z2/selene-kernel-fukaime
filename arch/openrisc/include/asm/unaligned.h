@@ -30,7 +30,7 @@
  * not sure if it would be much of a performance win without further
  * investigation.
  */
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #if defined(__LITTLE_ENDIAN)
 # include <linux/unaligned/le_memmove.h>

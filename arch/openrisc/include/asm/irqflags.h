@@ -19,7 +19,7 @@
 #ifndef ___ASM_OPENRISC_IRQFLAGS_H
 #define ___ASM_OPENRISC_IRQFLAGS_H
 
-#include <asm/spr_defs.h>
+#include <asm-generic/spr_defs.h>
 
 #define ARCH_IRQ_DISABLED        0x00
 #define ARCH_IRQ_ENABLED         (SPR_SR_IEE|SPR_SR_TEE)

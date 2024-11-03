@@ -16,7 +16,7 @@
 
 #include "pvrusb2-std.h"
 #include "pvrusb2-debug.h"
-#include <asm/string.h>
+#include <asm-generic/string.h>
 #include <linux/slab.h>
 
 struct std_name {

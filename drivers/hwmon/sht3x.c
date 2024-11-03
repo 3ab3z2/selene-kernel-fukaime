@@ -18,7 +18,7 @@
  *
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/crc8.h>
 #include <linux/delay.h>
 #include <linux/err.h>

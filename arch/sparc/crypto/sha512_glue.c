@@ -17,8 +17,8 @@
 #include <linux/types.h>
 #include <crypto/sha.h>
 
-#include <asm/pstate.h>
-#include <asm/elf.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/elf.h>
 
 #include "opcodes.h"
 

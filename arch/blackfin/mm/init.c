@@ -9,10 +9,10 @@
 #include <linux/bootmem.h>
 #include <linux/uaccess.h>
 #include <linux/export.h>
-#include <asm/bfin-global.h>
-#include <asm/pda.h>
-#include <asm/cplbinit.h>
-#include <asm/early_printk.h>
+#include <asm-generic/bfin-global.h>
+#include <asm-generic/pda.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/early_printk.h>
 #include "blackfin_sram.h"
 
 /*

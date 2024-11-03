@@ -12,8 +12,8 @@
 #include <linux/sched.h>
 #include <linux/delay.h>
 
-#include <asm/core_reg.h>
-#include <asm/processor.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/processor.h>
 
 /*
  * TXTACTCYC is only 24 bits, so on chips with fast clocks it will wrap

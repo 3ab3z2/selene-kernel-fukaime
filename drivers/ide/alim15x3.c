@@ -35,7 +35,7 @@
 #include <linux/init.h>
 #include <linux/dmi.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "alim15x3"
 

@@ -60,8 +60,8 @@
 
 #include <linux/errno.h>
 #include <linux/linkage.h>	/* {ENTRY,EXIT} */
-#include <asm/entry.h>
-#include <asm/irqflags.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/irqflags.h>
 
 	.cpu A7
 

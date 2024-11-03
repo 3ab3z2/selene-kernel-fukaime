@@ -8,7 +8,7 @@
 #include <linux/sched/task_stack.h>
 #include <linux/stacktrace.h>
 #include <linux/export.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/stacktrace.h>
 
 /*
  * Save stack-backtrace addresses into a stack_trace buffer:

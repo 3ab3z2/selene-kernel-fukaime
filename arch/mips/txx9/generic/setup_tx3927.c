@@ -16,12 +16,12 @@
 #include <linux/param.h>
 #include <linux/io.h>
 #include <linux/mtd/physmap.h>
-#include <asm/mipsregs.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9tmr.h>
-#include <asm/txx9pio.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/tx3927.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9tmr.h>
+#include <asm-generic/txx9pio.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/tx3927.h>
 
 void __init tx3927_wdt_init(void)
 {

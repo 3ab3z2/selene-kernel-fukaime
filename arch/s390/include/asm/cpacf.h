@@ -11,7 +11,7 @@
 #ifndef _ASM_S390_CPACF_H
 #define _ASM_S390_CPACF_H
 
-#include <asm/facility.h>
+#include <asm-generic/facility.h>
 
 /*
  * Instruction opcodes for the CPACF instructions

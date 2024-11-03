@@ -9,12 +9,12 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/thread_info.h>
-#include <asm/asm-offsets.h>
-#include <asm/nospec-insn.h>
-#include <asm/sigp.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/nospec-insn.h>
+#include <asm-generic/sigp.h>
 
 /*
  * Save register context in absolute 0 lowcore and call swsusp_save() to

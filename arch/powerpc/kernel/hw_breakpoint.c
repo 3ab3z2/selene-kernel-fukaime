@@ -30,9 +30,9 @@
 #include <linux/sched.h>
 #include <linux/smp.h>
 
-#include <asm/hw_breakpoint.h>
-#include <asm/processor.h>
-#include <asm/sstep.h>
+#include <asm-generic/hw_breakpoint.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sstep.h>
 #include <linux/uaccess.h>
 
 /*

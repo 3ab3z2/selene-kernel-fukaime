@@ -20,7 +20,7 @@
 #include <mach/audio.h>
 #include <mach/eseries-gpio.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #define E740_AUDIO_OUT 1
 #define E740_AUDIO_IN  2

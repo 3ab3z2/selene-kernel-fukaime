@@ -9,7 +9,7 @@
 #include <linux/init.h>
 #include <linux/sched_clock.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 static u64 c0_hpt_read(struct clocksource *cs)
 {

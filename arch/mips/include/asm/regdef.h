@@ -12,7 +12,7 @@
 #ifndef _ASM_REGDEF_H
 #define _ASM_REGDEF_H
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if _MIPS_SIM == _MIPS_SIM_ABI32
 

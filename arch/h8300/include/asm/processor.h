@@ -19,9 +19,9 @@
 #define current_text_addr() ({ __label__ _l; _l: &&_l; })
 
 #include <linux/compiler.h>
-#include <asm/segment.h>
-#include <asm/ptrace.h>
-#include <asm/current.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/current.h>
 
 static inline unsigned long rdusp(void)
 {

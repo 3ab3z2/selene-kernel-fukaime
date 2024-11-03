@@ -16,9 +16,9 @@
 #include <linux/err.h>
 #include <linux/list.h>
 
-#include <asm/time.h>
-#include <asm/irq.h>
-#include <asm/div64.h>
+#include <asm-generic/time.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/div64.h>
 
 #include <lantiq_soc.h>
 

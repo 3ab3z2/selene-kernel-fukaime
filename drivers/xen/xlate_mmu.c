@@ -32,8 +32,8 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include <xen/xen.h>
 #include <xen/xen-ops.h>

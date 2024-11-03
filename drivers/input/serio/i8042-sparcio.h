@@ -4,9 +4,9 @@
 
 #include <linux/of_device.h>
 
-#include <asm/io.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
 
 static int i8042_kbd_irq = -1;
 static int i8042_aux_irq = -1;

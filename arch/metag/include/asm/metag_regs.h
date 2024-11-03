@@ -1,5 +1,5 @@
 /*
- * asm/metag_regs.h
+ * asm-generic/metag_regs.h
  *
  * Copyright (C) 2000-2007, 2012 Imagination Technologies.
  *

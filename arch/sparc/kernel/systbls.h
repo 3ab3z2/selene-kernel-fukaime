@@ -7,7 +7,7 @@
 #include <linux/compat.h>
 #include <linux/types.h>
 
-#include <asm/utrap.h>
+#include <asm-generic/utrap.h>
 
 asmlinkage unsigned long sys_getpagesize(void);
 asmlinkage long sparc_pipe(struct pt_regs *regs);

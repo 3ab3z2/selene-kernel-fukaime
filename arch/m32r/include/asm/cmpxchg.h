@@ -9,8 +9,8 @@
  */
 
 #include <linux/irqflags.h>
-#include <asm/assembler.h>
-#include <asm/dcache_clear.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/dcache_clear.h>
 
 extern void  __xchg_called_with_bad_pointer(void);
 

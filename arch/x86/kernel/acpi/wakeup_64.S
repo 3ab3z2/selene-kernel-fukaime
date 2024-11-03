@@ -1,11 +1,11 @@
 .text
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/pgtable_types.h>
-#include <asm/page_types.h>
-#include <asm/msr.h>
-#include <asm/asm-offsets.h>
-#include <asm/frame.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/pgtable_types.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/frame.h>
 
 # Copyright 2003 Pavel Machek <pavel@suse.cz>, distribute under GPLv2
 

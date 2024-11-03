@@ -30,8 +30,8 @@
  *	- fix extraneous stop bit introduced by the EX() macro.
  */
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 //
 // Tuneable parameters

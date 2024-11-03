@@ -12,7 +12,7 @@
 #include "strlist.h"
 #include <string.h>
 #include <api/fs/fs.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "thread_map.h"
 #include "util.h"
 #include "debug.h"

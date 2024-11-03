@@ -34,12 +34,12 @@
 #include <linux/slab.h>
 #include <linux/rcupdate.h>
 
-#include <asm/reg.h>
+#include <asm-generic/reg.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/hwrpb.h>
-#include <asm/fpu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/fpu.h>
 
 #include "proto.h"
 #include "pci_impl.h"

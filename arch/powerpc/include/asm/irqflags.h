@@ -9,7 +9,7 @@
 /*
  * Get definitions for arch_local_save_flags(x), etc.
  */
-#include <asm/hw_irq.h>
+#include <asm-generic/hw_irq.h>
 
 #else
 #ifdef CONFIG_TRACE_IRQFLAGS

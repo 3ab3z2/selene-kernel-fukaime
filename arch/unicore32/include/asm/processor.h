@@ -22,7 +22,7 @@
 #ifdef __KERNEL__
 
 #include <asm/ptrace.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef __KERNEL__
 #define STACK_TOP	TASK_SIZE

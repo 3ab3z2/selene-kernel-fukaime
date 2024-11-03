@@ -23,7 +23,7 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/gt64120.h>
+#include <asm-generic/gt64120.h>
 
 #define GT641XX_IRQ_TO_BIT(irq) (1U << (irq - GT641XX_IRQ_BASE))
 

@@ -40,7 +40,7 @@
 #include <linux/fb.h>
 #include <linux/init.h>
 #include <linux/pci.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Built in clock of the 69030 */
 static const unsigned Fref = 14318180;

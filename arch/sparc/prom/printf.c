@@ -18,8 +18,8 @@
 #include <linux/compiler.h>
 #include <linux/spinlock.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 #define CONSOLE_WRITE_BUF_SIZE	1024
 

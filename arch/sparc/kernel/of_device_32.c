@@ -9,8 +9,8 @@
 #include <linux/irq.h>
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
-#include <asm/leon.h>
-#include <asm/leon_amba.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/leon_amba.h>
 
 #include "of_device_common.h"
 #include "irq.h"

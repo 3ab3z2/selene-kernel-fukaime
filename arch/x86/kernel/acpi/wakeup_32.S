@@ -1,7 +1,7 @@
 	.text
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/page_types.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page_types.h>
 
 # Copyright 2003, 2008 Pavel Machek <pavel@suse.cz>, distribute under GPLv2
 

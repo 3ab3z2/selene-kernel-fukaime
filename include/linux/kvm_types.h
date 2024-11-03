@@ -32,7 +32,7 @@ struct kvm_memslots;
 
 enum kvm_mr_change;
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * Address types:

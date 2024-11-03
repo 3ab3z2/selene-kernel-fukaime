@@ -4,10 +4,10 @@
 #else
 #define PROVIDE32(x)	PROVIDE(x)
 #endif
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/cache.h>
-#include <asm/thread_info.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/thread_info.h>
 
 #if defined(CONFIG_STRICT_KERNEL_RWX) && !defined(CONFIG_PPC32)
 #define STRICT_ALIGN_SIZE	(1 << 24)

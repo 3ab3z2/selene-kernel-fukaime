@@ -12,7 +12,7 @@
 #include <linux/slab.h>
 #include <linux/export.h>
 
-#include <asm/vpe.h>
+#include <asm-generic/vpe.h>
 
 static int major;
 

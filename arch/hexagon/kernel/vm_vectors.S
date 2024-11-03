@@ -18,7 +18,7 @@
  * 02110-1301, USA.
  */
 
-#include <asm/hexagon_vm.h>
+#include <asm-generic/hexagon_vm.h>
 
 .text
 

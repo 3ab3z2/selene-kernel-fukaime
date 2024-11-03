@@ -31,11 +31,11 @@
 #include <linux/module.h>
 #include <linux/irq.h>
 
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_via.h>
-#include <asm/mac_psc.h>
-#include <asm/mac_oss.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_via.h>
+#include <asm-generic/mac_psc.h>
+#include <asm-generic/mac_oss.h>
 
 volatile __u8 *via1, *via2;
 int rbv_present;

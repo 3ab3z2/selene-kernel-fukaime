@@ -44,10 +44,10 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef CONFIG_ATM_IDT77252_USE_SUNI
 #include "suni.h"

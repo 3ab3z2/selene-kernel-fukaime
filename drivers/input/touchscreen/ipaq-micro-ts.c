@@ -10,7 +10,7 @@
  *
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/interrupt.h>

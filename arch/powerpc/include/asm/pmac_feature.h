@@ -31,8 +31,8 @@
 #ifndef __ASM_POWERPC_PMAC_FEATURE_H
 #define __ASM_POWERPC_PMAC_FEATURE_H
 
-#include <asm/macio.h>
-#include <asm/machdep.h>
+#include <asm-generic/macio.h>
+#include <asm-generic/machdep.h>
 
 /*
  * Known Mac motherboard models

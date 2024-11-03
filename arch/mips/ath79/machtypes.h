@@ -12,7 +12,7 @@
 #ifndef _ATH79_MACHTYPE_H
 #define _ATH79_MACHTYPE_H
 
-#include <asm/mips_machine.h>
+#include <asm-generic/mips_machine.h>
 
 enum ath79_mach_type {
 	ATH79_MACH_GENERIC_OF = -1,	/* Device tree board */

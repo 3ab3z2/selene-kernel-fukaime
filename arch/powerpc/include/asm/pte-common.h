@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* Included from asm/pgtable-*.h only ! */
+/* Included from asm-generic/pgtable-*.h only ! */
 
 /*
  * Some bits are only used on some cpu families... Make sure that all
@@ -136,7 +136,7 @@ static inline bool pte_user(pte_t pte)
 
 /* Permission masks used to generate the __P and __S table,
  *
- * Note:__pgprot is defined in arch/powerpc/include/asm/page.h
+ * Note:__pgprot is defined in arch/powerpc/include/asm-generic/page.h
  *
  * Write permissions imply read permissions for now (we could make write-only
  * pages on BookE but we don't bother for now). Execute permission control is

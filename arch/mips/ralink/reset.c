@@ -14,9 +14,9 @@
 #include <linux/delay.h>
 #include <linux/reset-controller.h>
 
-#include <asm/reboot.h>
+#include <asm-generic/reboot.h>
 
-#include <asm/mach-ralink/ralink_regs.h>
+#include <asm-generic/mach-ralink/ralink_regs.h>
 
 /* Reset Control */
 #define SYSC_REG_RESET_CTRL	0x034

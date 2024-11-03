@@ -34,15 +34,15 @@
 #include <linux/interrupt.h>
 #include <linux/gfp.h>
 
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/io.h>
 #include <linux/hardirq.h>
 #include <linux/mmu_context.h>
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/cpuinfo.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/tlbflush.h>
 
 #ifndef CONFIG_MMU
 /* I have to use dcache values because I can't relate on ram size */

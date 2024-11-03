@@ -23,9 +23,9 @@
 #include <linux/dma-debug.h>
 #include <linux/export.h>
 
-#include <asm/cpuinfo.h>
-#include <asm/spr_defs.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/spr_defs.h>
+#include <asm-generic/tlbflush.h>
 
 static int
 page_set_nocache(pte_t *pte, unsigned long addr,

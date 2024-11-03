@@ -10,7 +10,7 @@
 #define __TXX9ACLC_H
 
 #include <linux/interrupt.h>
-#include <asm/txx9/dmac.h>
+#include <asm-generic/txx9/dmac.h>
 
 #define ACCTLEN			0x00	/* control enable */
 #define ACCTLDIS		0x04	/* control disable */

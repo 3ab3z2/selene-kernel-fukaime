@@ -23,7 +23,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "sigmadsp.h"
 #include "adau1701.h"

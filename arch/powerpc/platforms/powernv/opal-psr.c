@@ -15,7 +15,7 @@
 #include <linux/kobject.h>
 #include <linux/slab.h>
 
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 DEFINE_MUTEX(psr_mutex);
 

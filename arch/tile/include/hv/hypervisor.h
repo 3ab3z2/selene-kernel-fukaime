@@ -331,7 +331,7 @@
 #ifndef __ASSEMBLER__
 
 #ifdef __KERNEL__
-#include <asm/types.h>
+#include <asm-generic/types.h>
 typedef u32 __hv32;        /**< 32-bit value */
 typedef u64 __hv64;        /**< 64-bit value */
 #else

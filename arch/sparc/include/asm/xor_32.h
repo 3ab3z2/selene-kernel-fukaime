@@ -1,5 +1,5 @@
 /*
- * include/asm/xor.h
+ * include/asm-generic/xor.h
  *
  * Optimized RAID-5 checksumming functions for 32-bit Sparc.
  *

@@ -46,7 +46,7 @@
 #include <linux/platform_device.h>
 #include <linux/bitops.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/ss.h>
 #include "tcic.h"

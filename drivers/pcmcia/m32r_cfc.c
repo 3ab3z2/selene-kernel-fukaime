@@ -22,8 +22,8 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 #include <linux/bitops.h>
-#include <asm/irq.h>
-#include <asm/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/ss.h>
 

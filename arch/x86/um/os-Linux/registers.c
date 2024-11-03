@@ -13,7 +13,7 @@
 #include <longjmp.h>
 #include <sysdep/ptrace_user.h>
 #include <sys/uio.h>
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 #include <linux/elf.h>
 
 int have_xstate_support;

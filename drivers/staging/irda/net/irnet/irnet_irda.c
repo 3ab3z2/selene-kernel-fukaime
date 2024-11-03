@@ -12,7 +12,7 @@
 #include <linux/sched.h>
 #include <linux/seq_file.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * PPP disconnect work: we need to make sure we're in

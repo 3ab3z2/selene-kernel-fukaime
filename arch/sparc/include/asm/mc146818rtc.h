@@ -7,8 +7,8 @@
 extern spinlock_t rtc_lock;
 
 #if defined(__sparc__) && defined(__arch64__)
-#include <asm/mc146818rtc_64.h>
+#include <asm-generic/mc146818rtc_64.h>
 #else
-#include <asm/mc146818rtc_32.h>
+#include <asm-generic/mc146818rtc_32.h>
 #endif
 #endif

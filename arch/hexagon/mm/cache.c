@@ -19,8 +19,8 @@
  */
 
 #include <linux/mm.h>
-#include <asm/cacheflush.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/hexagon_vm.h>
 
 #define spanlines(start, end) \
 	(((end - (start & ~(LINESIZE - 1))) >> LINEBITS) + 1)

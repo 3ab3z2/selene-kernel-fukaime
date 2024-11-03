@@ -10,8 +10,8 @@
 #include <linux/export.h>
 #include <linux/init.h>
 
-#include <asm/wbflush.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/wbflush.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 

@@ -11,8 +11,8 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 struct linux_romvec *romvec;
 EXPORT_SYMBOL(romvec);

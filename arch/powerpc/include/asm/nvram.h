@@ -12,7 +12,7 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 #include <linux/list.h>
-#include <uapi/asm/nvram.h>
+#include <uapi/asm-generic/nvram.h>
 
 /*
  * Set oops header version to distinguish between old and new format header.

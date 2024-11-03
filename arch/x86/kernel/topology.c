@@ -31,7 +31,7 @@
 #include <linux/init.h>
 #include <linux/smp.h>
 #include <linux/irq.h>
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 static DEFINE_PER_CPU(struct x86_cpu, cpu_devices);
 

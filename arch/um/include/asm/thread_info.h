@@ -8,9 +8,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/types.h>
-#include <asm/page.h>
-#include <asm/segment.h>
+#include <asm-generic/types.h>
+#include <asm-generic/page.h>
+#include <asm-generic/segment.h>
 #include <sysdep/ptrace_user.h>
 
 struct thread_info {

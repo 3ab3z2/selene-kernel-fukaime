@@ -11,7 +11,7 @@
 #include <linux/kernel.h>
 #include <linux/delay.h>
 #include <linux/mm.h>
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 #include <linux/vmalloc.h>
 
 #include <lantiq_soc.h>

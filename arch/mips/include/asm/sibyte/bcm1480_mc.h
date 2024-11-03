@@ -33,7 +33,7 @@
 #ifndef _BCM1480_MC_H
 #define _BCM1480_MC_H
 
-#include <asm/sibyte/sb1250_defs.h>
+#include <asm-generic/sibyte/sb1250_defs.h>
 
 /*
  * Memory Channel Configuration Register (Table 81)

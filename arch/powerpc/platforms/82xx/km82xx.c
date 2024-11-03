@@ -19,12 +19,12 @@
 #include <linux/of_platform.h>
 
 #include <linux/io.h>
-#include <asm/cpm2.h>
-#include <asm/udbg.h>
-#include <asm/machdep.h>
+#include <asm-generic/cpm2.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/machdep.h>
 #include <linux/time.h>
-#include <asm/mpc8260.h>
-#include <asm/prom.h>
+#include <asm-generic/mpc8260.h>
+#include <asm-generic/prom.h>
 
 #include <sysdev/fsl_soc.h>
 #include <sysdev/cpm2_pic.h>

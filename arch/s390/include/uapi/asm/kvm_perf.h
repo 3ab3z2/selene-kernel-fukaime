@@ -13,7 +13,7 @@
 #ifndef __LINUX_KVM_PERF_S390_H
 #define __LINUX_KVM_PERF_S390_H
 
-#include <asm/sie.h>
+#include <asm-generic/sie.h>
 
 #define DECODE_STR_LEN 40
 

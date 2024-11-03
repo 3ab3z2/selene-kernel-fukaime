@@ -31,7 +31,7 @@
 #include <linux/uaccess.h>
 #include <linux/unistd.h>
 #include <linux/slab.h>
-#include <asm/syscalls.h>
+#include <asm-generic/syscalls.h>
 
 SYSCALL_DEFINE6(mmap, unsigned long, addr, unsigned long, len,
 		unsigned long, prot, unsigned long, flags, unsigned long, fd,

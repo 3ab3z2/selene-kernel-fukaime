@@ -9,7 +9,7 @@
 
 #include <linux/hugetlb.h>
 #include <linux/sched/mm.h>
-#include <asm/pnv-pci.h>
+#include <asm-generic/pnv-pci.h>
 #include <misc/cxllib.h>
 
 #include "cxl.h"

@@ -28,10 +28,10 @@
 #include <linux/slab.h>
 
 #include <linux/platform_device.h>
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 #include <linux/err.h>
-#include <asm/cputhreads.h>
-#include <asm/smp.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/smp.h>
 
 #define MAX_ATTR_LEN	32
 #define MAX_LABEL_LEN	64

@@ -26,21 +26,21 @@
 #include <linux/highmem.h>
 #include <linux/kprobes.h>
 
-#include <asm/bug.h>
-#include <asm/paravirt.h>
-#include <asm/debugreg.h>
-#include <asm/desc.h>
-#include <asm/setup.h>
-#include <asm/pgtable.h>
-#include <asm/time.h>
-#include <asm/pgalloc.h>
-#include <asm/irq.h>
-#include <asm/delay.h>
-#include <asm/fixmap.h>
-#include <asm/apic.h>
-#include <asm/tlbflush.h>
-#include <asm/timer.h>
-#include <asm/special_insns.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/debugreg.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/special_insns.h>
 
 /*
  * nop stub, which must not clobber anything *including the stack* to

@@ -23,7 +23,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * No chip documentation has yet been found,

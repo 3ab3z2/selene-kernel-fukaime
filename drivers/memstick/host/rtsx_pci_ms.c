@@ -25,7 +25,7 @@
 #include <linux/platform_device.h>
 #include <linux/memstick.h>
 #include <linux/mfd/rtsx_pci.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 struct realtek_pci_ms {
 	struct platform_device	*pdev;

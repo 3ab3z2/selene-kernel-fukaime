@@ -61,7 +61,7 @@
 #undef SIS_CP
 #endif
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/fb.h>
 #include "sis.h"
 #include <video/sisfb.h>

@@ -23,8 +23,8 @@
 #include <linux/device.h>
 #include <linux/platform_device.h>
 #include <linux/of_irq.h>
-#include <asm/prom.h>
-#include <asm/pmac_low_i2c.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmac_low_i2c.h>
 
 MODULE_AUTHOR("Benjamin Herrenschmidt <benh@kernel.crashing.org>");
 MODULE_DESCRIPTION("I2C driver for Apple PowerMac");

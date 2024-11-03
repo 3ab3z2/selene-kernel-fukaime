@@ -48,11 +48,11 @@
 #include <linux/mutex.h>
 #include <linux/rculist.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/set_memory.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 #include <linux/license.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 #include <linux/tracepoint.h>
 #include <linux/ftrace.h>
 #include <linux/livepatch.h>

@@ -10,7 +10,7 @@
 #ifndef _ASM_ARC_SIGCONTEXT_H
 #define _ASM_ARC_SIGCONTEXT_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * Signal context structure - contains all info to do with the state

@@ -31,14 +31,14 @@
 
 #include <linux/parport.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
-#include <asm/oplib.h>           /* OpenProm Library */
-#include <asm/dma.h>             /* BPP uses LSI 64854 for DMA */
-#include <asm/irq.h>
-#include <asm/sunbpp.h>
+#include <asm-generic/io.h>
+#include <asm-generic/oplib.h>           /* OpenProm Library */
+#include <asm-generic/dma.h>             /* BPP uses LSI 64854 for DMA */
+#include <asm-generic/irq.h>
+#include <asm-generic/sunbpp.h>
 
 #undef __SUNBPP_DEBUG
 #ifdef __SUNBPP_DEBUG

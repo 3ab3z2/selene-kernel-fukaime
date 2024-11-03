@@ -2,8 +2,8 @@
 #include <linux/screen_info.h>
 #include <linux/init.h>
 
-#include <asm/bootparam.h>
-#include <asm/setup.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/setup.h>
 
 #include <xen/interface/xen.h>
 

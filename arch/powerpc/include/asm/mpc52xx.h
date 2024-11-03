@@ -14,9 +14,9 @@
 #define __ASM_POWERPC_MPC52xx_H__
 
 #ifndef __ASSEMBLY__
-#include <asm/types.h>
-#include <asm/prom.h>
-#include <asm/mpc5xxx.h>
+#include <asm-generic/types.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc5xxx.h>
 #endif /* __ASSEMBLY__ */
 
 #include <linux/suspend.h>

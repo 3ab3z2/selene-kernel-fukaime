@@ -15,9 +15,9 @@
 #include <linux/prefetch.h>
 #include <linux/uaccess.h>
 
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/exception.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/exception.h>
 
 extern int die(char *, struct pt_regs *, long);
 

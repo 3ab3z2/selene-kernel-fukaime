@@ -26,16 +26,16 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/lppaca.h>
-#include <asm/hvcall.h>
-#include <asm/firmware.h>
-#include <asm/rtas.h>
-#include <asm/time.h>
-#include <asm/prom.h>
-#include <asm/vdso_datapage.h>
-#include <asm/vio.h>
-#include <asm/mmu.h>
-#include <asm/machdep.h>
+#include <asm-generic/lppaca.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/vio.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/machdep.h>
 
 #include "pseries.h"
 

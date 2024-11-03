@@ -9,7 +9,7 @@
 #include <linux/sched.h>
 #include <linux/mm_types.h>
 
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 extern void uml_setup_stubs(struct mm_struct *mm);
 /*

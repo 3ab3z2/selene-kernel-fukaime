@@ -18,7 +18,7 @@
 #include <linux/hugetlb.h>
 #include <linux/pagemap.h>
 #include <linux/shmem_fs.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 #include "internal.h"
 
 static int mcopy_atomic_pte(struct mm_struct *dst_mm,

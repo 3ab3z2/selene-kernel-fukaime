@@ -17,9 +17,9 @@
 #include <pcmcia/ss.h>
 
 #include <mach/hardware.h>
-#include <asm/hardware/sa1111.h>
-#include <asm/mach-types.h>
-#include <asm/irq.h>
+#include <asm-generic/hardware/sa1111.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/irq.h>
 
 #include "sa1111_generic.h"
 

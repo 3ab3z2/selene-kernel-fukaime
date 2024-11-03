@@ -9,9 +9,9 @@
  */
 
 
-#include <asm/addrspace.h>
-#include <asm/bug.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/cacheflush.h>
 
 #ifndef CKSEG2
 #define CKSEG2 CKSSEG

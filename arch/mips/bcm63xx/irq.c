@@ -12,8 +12,8 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/spinlock.h>
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_regs.h>
 #include <bcm63xx_io.h>

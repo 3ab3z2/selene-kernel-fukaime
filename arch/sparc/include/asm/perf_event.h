@@ -3,7 +3,7 @@
 #define __ASM_SPARC_PERF_EVENT_H
 
 #ifdef CONFIG_PERF_EVENTS
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #define perf_arch_fetch_caller_regs(regs, ip)		\
 do {							\

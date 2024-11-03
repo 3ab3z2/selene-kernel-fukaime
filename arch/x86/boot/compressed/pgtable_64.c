@@ -1,4 +1,4 @@
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 /*
  * __force_order is used by special_insns.h asm code to force instruction

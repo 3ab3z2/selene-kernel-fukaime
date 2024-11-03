@@ -27,12 +27,12 @@
 #include <linux/fb.h>
 #include <linux/init.h>
 #include <linux/pci.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #if defined(CONFIG_PPC)
 #include <linux/nvram.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include "macmodes.h"
 #endif
 

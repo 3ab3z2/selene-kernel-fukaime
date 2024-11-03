@@ -15,9 +15,9 @@
 #ifndef __ASM_MACH_BMIPS_DMA_COHERENCE_H
 #define __ASM_MACH_BMIPS_DMA_COHERENCE_H
 
-#include <asm/bmips.h>
-#include <asm/cpu-type.h>
-#include <asm/cpu.h>
+#include <asm-generic/bmips.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/cpu.h>
 
 struct device;
 

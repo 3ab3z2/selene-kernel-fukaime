@@ -26,11 +26,11 @@
 #include <net/if_inet6.h>
 #include <net/addrconf.h>
 
-#include <asm/debug.h>
-#include <asm/qdio.h>
-#include <asm/ccwdev.h>
-#include <asm/ccwgroup.h>
-#include <asm/sysinfo.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/qdio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/ccwgroup.h>
+#include <asm-generic/sysinfo.h>
 
 #include "qeth_core_mpc.h"
 

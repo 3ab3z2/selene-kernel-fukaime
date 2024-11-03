@@ -29,9 +29,9 @@
 #include <linux/serial.h>
 #include <linux/serial_8250.h>
 
-#include <asm/processor.h>
-#include <asm/platform.h>
-#include <asm/bootparam.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/bootparam.h>
 #include <platform/hardware.h>
 #include <platform/serial.h>
 

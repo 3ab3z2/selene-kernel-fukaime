@@ -12,15 +12,15 @@
 #include <linux/export.h>
 #include <linux/irq.h>
 
-#include <asm/apic.h>
-#include <asm/io_apic.h>
-#include <asm/irq.h>
-#include <asm/mce.h>
-#include <asm/hw_irq.h>
-#include <asm/desc.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/desc.h>
 
 #define CREATE_TRACE_POINTS
-#include <asm/trace/irq_vectors.h>
+#include <asm-generic/trace/irq_vectors.h>
 
 DEFINE_PER_CPU_SHARED_ALIGNED(irq_cpustat_t, irq_stat);
 EXPORT_PER_CPU_SYMBOL(irq_stat);

@@ -20,7 +20,7 @@
 #include <linux/string.h>
 #include <linux/of_mdio.h>
 #include <linux/if_ether.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define FS_ENET_NAME	"fs_enet"
 

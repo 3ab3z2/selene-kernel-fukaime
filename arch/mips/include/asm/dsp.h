@@ -10,10 +10,10 @@
 #ifndef _ASM_DSP_H
 #define _ASM_DSP_H
 
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/hazards.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/mipsregs.h>
 
 #define DSP_DEFAULT	0x00000000
 #define DSP_MASK	0x3f

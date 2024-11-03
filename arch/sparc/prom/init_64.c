@@ -12,8 +12,8 @@
 #include <linux/string.h>
 #include <linux/ctype.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 /* OBP version string. */
 char prom_version[80];

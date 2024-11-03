@@ -20,24 +20,24 @@
 #include <linux/export.h>
 #include <linux/bitops.h>
 
-#include <asm/bcache.h>
-#include <asm/bootinfo.h>
-#include <asm/cache.h>
-#include <asm/cacheops.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/r4kcache.h>
-#include <asm/sections.h>
-#include <asm/mmu_context.h>
-#include <asm/war.h>
-#include <asm/cacheflush.h> /* for run_uncached() */
-#include <asm/traps.h>
-#include <asm/dma-coherence.h>
-#include <asm/mips-cps.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/war.h>
+#include <asm-generic/cacheflush.h> /* for run_uncached() */
+#include <asm-generic/traps.h>
+#include <asm-generic/dma-coherence.h>
+#include <asm-generic/mips-cps.h>
 
 /*
  * Bits describing what cache ops an SMP callback function may perform.

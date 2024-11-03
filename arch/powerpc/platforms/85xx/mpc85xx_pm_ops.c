@@ -16,8 +16,8 @@
 #include <linux/of_address.h>
 #include <linux/fsl/guts.h>
 
-#include <asm/io.h>
-#include <asm/fsl_pm.h>
+#include <asm-generic/io.h>
+#include <asm-generic/fsl_pm.h>
 
 static struct ccsr_guts __iomem *guts;
 

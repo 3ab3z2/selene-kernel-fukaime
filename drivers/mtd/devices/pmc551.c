@@ -92,7 +92,7 @@
 #include <linux/major.h>
 #include <linux/fs.h>
 #include <linux/ioctl.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/pci.h>
 #include <linux/mtd/mtd.h>
 

@@ -20,8 +20,8 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
-#include <asm/io.h>
-#include <asm/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sections.h>
 
 /****************************************************************************/
 

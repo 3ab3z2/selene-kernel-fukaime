@@ -18,17 +18,17 @@
 #include <linux/debugfs.h>
 #include <linux/memblock.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/ipl.h>
-#include <asm/sclp.h>
-#include <asm/setup.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/debug.h>
-#include <asm/processor.h>
-#include <asm/irqflags.h>
-#include <asm/checksum.h>
-#include <asm/os_info.h>
-#include <asm/switch_to.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/os_info.h>
+#include <asm-generic/switch_to.h>
 #include "sclp.h"
 
 #define TRACE(x...) debug_sprintf_event(zcore_dbf, 1, x)

@@ -71,8 +71,8 @@
 #include <linux/ioport.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

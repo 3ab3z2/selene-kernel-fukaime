@@ -2,8 +2,8 @@
 #ifndef __ASM_METAG_TLB_H
 #define __ASM_METAG_TLB_H
 
-#include <asm/cacheflush.h>
-#include <asm/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/page.h>
 
 /* Note, read http://lkml.org/lkml/2004/1/15/6 */
 

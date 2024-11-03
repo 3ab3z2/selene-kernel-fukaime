@@ -27,10 +27,10 @@
 #include <linux/extable.h>
 #include <linux/uaccess.h>
 
-#include <asm/m32r.h>
-#include <asm/hardirq.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
 
 extern void die(const char *, struct pt_regs *, long);
 

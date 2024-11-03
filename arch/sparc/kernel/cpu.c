@@ -12,15 +12,15 @@
 #include <linux/smp.h>
 #include <linux/threads.h>
 
-#include <asm/spitfire.h>
-#include <asm/pgtable.h>
-#include <asm/oplib.h>
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/head.h>
-#include <asm/psr.h>
-#include <asm/mbus.h>
-#include <asm/cpudata.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/head.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/mbus.h>
+#include <asm-generic/cpudata.h>
 
 #include "kernel.h"
 #include "entry.h"

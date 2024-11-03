@@ -16,14 +16,14 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/bootinfo.h>
-#include <asm/fw/fw.h>
-#include <asm/irq_cpu.h>
-#include <asm/machine.h>
-#include <asm/mips-cps.h>
-#include <asm/prom.h>
-#include <asm/smp-ops.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/machine.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/time.h>
 
 static __initdata const void *fdt;
 static __initdata const struct mips_machine *mach;

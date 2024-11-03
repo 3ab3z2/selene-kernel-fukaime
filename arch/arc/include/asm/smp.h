@@ -93,8 +93,8 @@ static inline const char *arc_platform_smp_cpuinfo(void)
  *
  *	However exported spinlock API is not usable due to cyclic hdr deps
  *	(even after system.h disintegration upstream)
- *	asm/bitops.h -> linux/spinlock.h -> linux/preempt.h
- *		-> linux/thread_info.h -> linux/bitops.h -> asm/bitops.h
+ *	asm-generic/bitops.h -> linux/spinlock.h -> linux/preempt.h
+ *		-> linux/thread_info.h -> linux/bitops.h -> asm-generic/bitops.h
  *
  *	So the workaround is to use the lowest level arch spinlock API.
  *	The exported spinlock API is smart enough to be NOP for !CONFIG_SMP,
@@ -105,7 +105,7 @@ static inline const char *arc_platform_smp_cpuinfo(void)
 #include <linux/irqflags.h>
 #ifdef CONFIG_SMP
 
-#include <asm/spinlock.h>
+#include <asm-generic/spinlock.h>
 
 extern arch_spinlock_t smp_atomic_ops_lock;
 extern arch_spinlock_t smp_bitops_lock;

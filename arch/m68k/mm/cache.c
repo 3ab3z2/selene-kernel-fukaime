@@ -8,8 +8,8 @@
  */
 
 #include <linux/module.h>
-#include <asm/pgalloc.h>
-#include <asm/traps.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/traps.h>
 
 
 static unsigned long virt_to_phys_slow(unsigned long vaddr)
@@ -19,7 +19,7 @@ static unsigned long virt_to_phys_slow(unsigned long vaddr)
 
 		/* The PLPAR instruction causes an access error if the translation
 		 * is not possible. To catch this we use the same exception mechanism
-		 * as for user space accesses in <asm/uaccess.h>. */
+		 * as for user space accesses in <asm-generic/uaccess.h>. */
 		asm volatile (".chip 68060\n"
 			      "1: plpar (%0)\n"
 			      ".chip 68k\n"

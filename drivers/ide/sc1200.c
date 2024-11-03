@@ -20,7 +20,7 @@
 #include <linux/ide.h>
 #include <linux/pm.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "sc1200"
 

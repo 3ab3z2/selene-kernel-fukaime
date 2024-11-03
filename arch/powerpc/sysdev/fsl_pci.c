@@ -32,14 +32,14 @@
 #include <linux/syscore_ops.h>
 #include <linux/uaccess.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
-#include <asm/machdep.h>
-#include <asm/mpc85xx.h>
-#include <asm/disassemble.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mpc85xx.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/ppc-opcode.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 

@@ -24,7 +24,7 @@
 #include <linux/i2c.h>
 #include <linux/i2c-algo-bit.h>
 #include <linux/io.h>
-#include <asm/hydra.h>
+#include <asm-generic/hydra.h>
 
 
 #define HYDRA_CPD_PD0	0x00000001	/* CachePD lines */

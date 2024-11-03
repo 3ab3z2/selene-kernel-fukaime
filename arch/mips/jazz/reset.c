@@ -6,7 +6,7 @@
  * stabbing at the keyboard controller ...
  */
 #include <linux/jiffies.h>
-#include <asm/jazz.h>
+#include <asm-generic/jazz.h>
 
 #define KBD_STAT_IBF		0x02	/* Keyboard input buffer full */
 

@@ -29,7 +29,7 @@
 #include <linux/hyperv.h>
 #include <linux/clockchips.h>
 #include <linux/ptp_clock_kernel.h>
-#include <asm/mshyperv.h>
+#include <asm-generic/mshyperv.h>
 
 #include "hyperv_vmbus.h"
 

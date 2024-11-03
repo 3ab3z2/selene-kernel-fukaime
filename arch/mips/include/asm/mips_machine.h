@@ -13,7 +13,7 @@
 #include <linux/init.h>
 #include <linux/stddef.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 struct mips_machine {
 	unsigned long		mach_type;

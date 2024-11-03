@@ -89,7 +89,7 @@
 #include <linux/cpufreq.h>
 #include <linux/io.h>
 
-#include <asm/cputype.h>
+#include <asm-generic/cputype.h>
 
 #include <mach/generic.h>
 #include <mach/hardware.h>

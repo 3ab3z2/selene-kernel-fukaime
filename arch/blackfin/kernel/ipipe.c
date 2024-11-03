@@ -32,7 +32,7 @@
 #include <linux/unistd.h>
 #include <linux/io.h>
 #include <linux/atomic.h>
-#include <asm/irq_handler.h>
+#include <asm-generic/irq_handler.h>
 
 DEFINE_PER_CPU(struct pt_regs, __ipipe_tick_regs);
 

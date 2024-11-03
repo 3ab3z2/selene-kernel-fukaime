@@ -17,8 +17,8 @@
 #include <linux/types.h>
 #include <linux/string.h>
 
-#include <asm/sgialib.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/bootinfo.h>
 
 struct smatch {
 	char *arcname;

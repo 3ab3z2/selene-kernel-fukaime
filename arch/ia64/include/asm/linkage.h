@@ -8,7 +8,7 @@
 
 #else
 
-#include <asm/asmmacro.h>
+#include <asm-generic/asmmacro.h>
 
 #endif
 

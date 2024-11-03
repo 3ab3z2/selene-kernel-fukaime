@@ -37,11 +37,11 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/q40_master.h>
-#include <asm/irq.h>
-#include <asm/q40ints.h>
+#include <asm-generic/q40_master.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/q40ints.h>
 
 #define DRV_NAME	"q40kbd"
 

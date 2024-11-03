@@ -31,11 +31,11 @@
 #include <linux/slab.h>
 #include <linux/platform_device.h>
 
-#include <asm/blackfin.h>
-#include <asm/irq.h>
-#include <asm/dpmc.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #define NO_BL 1
 

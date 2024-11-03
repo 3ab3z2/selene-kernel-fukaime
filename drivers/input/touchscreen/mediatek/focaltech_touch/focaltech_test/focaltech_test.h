@@ -22,11 +22,11 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/debugfs.h>
-#include <asm/uaccess.h>
+#include <asm-generic/uaccess.h>
 #include <linux/i2c.h>//iic
 #include <linux/delay.h>//msleep
 #include <linux/string.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/vmalloc.h>
 
 #include "../focaltech_core.h"

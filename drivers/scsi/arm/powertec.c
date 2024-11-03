@@ -18,10 +18,10 @@
 #include <linux/init.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/dma.h>
-#include <asm/ecard.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/ecard.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
 
 #include "../scsi.h"
 #include <scsi/scsi_host.h>

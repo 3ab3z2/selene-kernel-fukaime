@@ -10,12 +10,12 @@
 #include <linux/mm.h>
 #include <linux/bootmem.h>
 #include <linux/ioport.h>
-#include <asm/bootinfo.h>
-#include <asm/lasat/lasat.h>
-#include <asm/cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/lasat/lasat.h>
+#include <asm-generic/cpu.h>
 
 #include "at93c.h"
-#include <asm/lasat/eeprom.h>
+#include <asm-generic/lasat/eeprom.h>
 #include "prom.h"
 
 #define RESET_VECTOR	0xbfc00000

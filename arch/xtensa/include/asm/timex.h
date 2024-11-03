@@ -9,7 +9,7 @@
 #ifndef _XTENSA_TIMEX_H
 #define _XTENSA_TIMEX_H
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/stringify.h>
 
 #if XCHAL_NUM_TIMERS > 0 && \

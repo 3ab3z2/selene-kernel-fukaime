@@ -10,12 +10,12 @@
 #include <linux/sched/task.h>
 #include <linux/vmalloc.h>
 
-#include <asm/e820/types.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
-#include <asm/cpu_entry_area.h>
+#include <asm-generic/e820/types.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpu_entry_area.h>
 
 extern struct range pfn_mapped[E820_MAX_ENTRIES];
 

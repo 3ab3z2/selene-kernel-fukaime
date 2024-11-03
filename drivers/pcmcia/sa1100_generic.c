@@ -37,7 +37,7 @@
 
 #include <pcmcia/ss.h>
 
-#include <asm/hardware/scoop.h>
+#include <asm-generic/hardware/scoop.h>
 
 #include "sa1100_generic.h"
 

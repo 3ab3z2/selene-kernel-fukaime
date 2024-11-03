@@ -13,9 +13,9 @@
 
 #include <linux/kvm.h>
 #include <linux/kvm_host.h>
-#include <asm/pgalloc.h>
-#include <asm/gmap.h>
-#include <asm/virtio-ccw.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/virtio-ccw.h>
 #include "kvm-s390.h"
 #include "trace.h"
 #include "trace-s390.h"

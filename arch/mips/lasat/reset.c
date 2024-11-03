@@ -20,8 +20,8 @@
 #include <linux/kernel.h>
 #include <linux/pm.h>
 
-#include <asm/reboot.h>
-#include <asm/lasat/lasat.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/lasat/lasat.h>
 
 #include "picvue.h"
 #include "prom.h"

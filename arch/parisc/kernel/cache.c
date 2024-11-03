@@ -19,15 +19,15 @@
 #include <linux/pagemap.h>
 #include <linux/sched.h>
 #include <linux/sched/mm.h>
-#include <asm/pdc.h>
-#include <asm/cache.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/shmparam.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/shmparam.h>
 
 int split_tlb __read_mostly;
 int dcache_stride __read_mostly;

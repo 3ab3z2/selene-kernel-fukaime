@@ -12,7 +12,7 @@
 
 #include <linux/preempt.h>
 #include <linux/time64.h>
-#include <asm/lowcore.h>
+#include <asm-generic/lowcore.h>
 
 /* The value of the TOD clock for 1.1.1970. */
 #define TOD_UNIX_EPOCH 0x7d91048bca000000ULL

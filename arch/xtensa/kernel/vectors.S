@@ -43,14 +43,14 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/ptrace.h>
-#include <asm/current.h>
-#include <asm/asm-offsets.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
-#include <asm/vectors.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/current.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/vectors.h>
 
 #define WINDOW_VECTORS_SIZE   0x180
 

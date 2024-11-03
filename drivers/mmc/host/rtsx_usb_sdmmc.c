@@ -32,7 +32,7 @@
 #include <linux/pm_runtime.h>
 
 #include <linux/mfd/rtsx_usb.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #if defined(CONFIG_LEDS_CLASS) || (defined(CONFIG_LEDS_CLASS_MODULE) && \
 		defined(CONFIG_MMC_REALTEK_USB_MODULE))

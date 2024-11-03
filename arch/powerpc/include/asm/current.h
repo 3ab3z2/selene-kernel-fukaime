@@ -13,7 +13,7 @@ struct task_struct;
 
 #ifdef __powerpc64__
 #include <linux/stddef.h>
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 
 static inline struct task_struct *get_current(void)
 {

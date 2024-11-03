@@ -14,10 +14,10 @@
 #include <linux/spinlock.h>
 #include <linux/errno.h>
 #include <linux/init.h>
-#include <asm/dma.h>
-#include <asm/gpio-regs.h>
-#include <asm/irc-regs.h>
-#include <asm/cpu-irqs.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/gpio-regs.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/cpu-irqs.h>
 
 struct frv_dma_channel {
 	uint8_t			flags;

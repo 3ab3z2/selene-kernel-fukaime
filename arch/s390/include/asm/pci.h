@@ -11,9 +11,9 @@
 #include <linux/mutex.h>
 #include <linux/iommu.h>
 #include <asm-generic/pci.h>
-#include <asm/pci_clp.h>
-#include <asm/pci_debug.h>
-#include <asm/sclp.h>
+#include <asm-generic/pci_clp.h>
+#include <asm-generic/pci_debug.h>
+#include <asm-generic/sclp.h>
 
 #define PCIBIOS_MIN_IO		0x1000
 #define PCIBIOS_MIN_MEM		0x10000000

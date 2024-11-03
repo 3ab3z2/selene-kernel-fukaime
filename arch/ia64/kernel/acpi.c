@@ -46,13 +46,13 @@
 #include <linux/nodemask.h>
 #include <linux/slab.h>
 #include <acpi/processor.h>
-#include <asm/io.h>
-#include <asm/iosapic.h>
-#include <asm/machvec.h>
-#include <asm/page.h>
-#include <asm/numa.h>
-#include <asm/sal.h>
-#include <asm/cyclone.h>
+#include <asm-generic/io.h>
+#include <asm-generic/iosapic.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/page.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/cyclone.h>
 
 #define PREFIX			"ACPI: "
 

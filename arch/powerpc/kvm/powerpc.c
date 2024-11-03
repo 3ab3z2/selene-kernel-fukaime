@@ -30,15 +30,15 @@
 #include <linux/module.h>
 #include <linux/irqbypass.h>
 #include <linux/kvm_irqfd.h>
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 #include <linux/uaccess.h>
-#include <asm/kvm_ppc.h>
-#include <asm/tlbflush.h>
-#include <asm/cputhreads.h>
-#include <asm/irqflags.h>
-#include <asm/iommu.h>
-#include <asm/switch_to.h>
-#include <asm/xive.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/xive.h>
 
 #include "timing.h"
 #include "irq.h"

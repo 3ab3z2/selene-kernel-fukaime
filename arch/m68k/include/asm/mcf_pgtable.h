@@ -2,8 +2,8 @@
 #ifndef _MCF_PGTABLE_H
 #define _MCF_PGTABLE_H
 
-#include <asm/mcfmmu.h>
-#include <asm/page.h>
+#include <asm-generic/mcfmmu.h>
+#include <asm-generic/page.h>
 
 /*
  * MMUDR bits, in proper place. We write these directly into the MMUDR

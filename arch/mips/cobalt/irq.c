@@ -13,10 +13,10 @@
 #include <linux/interrupt.h>
 #include <linux/pci.h>
 
-#include <asm/i8259.h>
-#include <asm/irq_cpu.h>
-#include <asm/irq_gt641xx.h>
-#include <asm/gt64120.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/irq_gt641xx.h>
+#include <asm-generic/gt64120.h>
 
 #include <irq.h>
 

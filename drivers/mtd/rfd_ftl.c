@@ -20,7 +20,7 @@
 #include <linux/jiffies.h>
 #include <linux/module.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 static int block_size = 0;
 module_param(block_size, int, 0);

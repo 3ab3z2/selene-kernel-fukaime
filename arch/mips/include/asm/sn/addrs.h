@@ -15,13 +15,13 @@
 #include <linux/types.h>
 #endif /* !__ASSEMBLY__ */
 
-#include <asm/addrspace.h>
-#include <asm/sn/kldir.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/sn/kldir.h>
 
 #if defined(CONFIG_SGI_IP27)
-#include <asm/sn/sn0/addrs.h>
+#include <asm-generic/sn/sn0/addrs.h>
 #elif defined(CONFIG_SGI_IP35)
-#include <asm/sn/sn1/addrs.h>
+#include <asm-generic/sn/sn1/addrs.h>
 #endif
 
 

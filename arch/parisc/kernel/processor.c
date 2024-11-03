@@ -33,15 +33,15 @@
 #include <linux/random.h>
 #include <linux/slab.h>
 #include <linux/cpu.h>
-#include <asm/param.h>
-#include <asm/cache.h>
-#include <asm/hardware.h>	/* for register_parisc_driver() stuff */
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/irq.h>		/* for struct irq_region */
-#include <asm/parisc-device.h>
+#include <asm-generic/param.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/hardware.h>	/* for register_parisc_driver() stuff */
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/irq.h>		/* for struct irq_region */
+#include <asm-generic/parisc-device.h>
 
 struct system_cpuinfo_parisc boot_cpu_data __read_mostly;
 EXPORT_SYMBOL(boot_cpu_data);

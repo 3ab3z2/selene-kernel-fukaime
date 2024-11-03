@@ -26,12 +26,12 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/pgtable_types.h>
-#include <asm/page_types.h>
-#include <asm/msr.h>
-#include <asm/segment.h>
-#include <asm/processor-flags.h>
-#include <asm/realmode.h>
+#include <asm-generic/pgtable_types.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/realmode.h>
 #include "realmode.h"
 
 	.text

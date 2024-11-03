@@ -20,7 +20,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/vr41xx/mpc30x.h>
+#include <asm-generic/vr41xx/mpc30x.h>
 
 static const int internal_func_irqs[] = {
 	VRC4173_CASCADE_IRQ,

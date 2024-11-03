@@ -18,9 +18,9 @@
 #include <linux/hrtimer.h>
 #include <linux/kvm.h>
 #include <linux/kvm_host.h>
-#include <asm/facility.h>
-#include <asm/processor.h>
-#include <asm/sclp.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sclp.h>
 
 typedef int (*intercept_handler_t)(struct kvm_vcpu *vcpu);
 

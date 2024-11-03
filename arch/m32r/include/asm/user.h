@@ -3,8 +3,8 @@
 #define _ASM_M32R_USER_H
 
 #include <linux/types.h>
-#include <asm/ptrace.h>
-#include <asm/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
 
 /*
  * Core file format: The core file is written in such a way that gdb

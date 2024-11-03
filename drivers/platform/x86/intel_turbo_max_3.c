@@ -23,8 +23,8 @@
 #include <linux/workqueue.h>
 #include <linux/cpuhotplug.h>
 #include <linux/cpufeature.h>
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
 
 #define MSR_OC_MAILBOX			0x150
 #define MSR_OC_MAILBOX_CMD_OFFSET	32

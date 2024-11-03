@@ -29,7 +29,7 @@
 #include <sound/uda1380.h>
 
 #include <mach/magician.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include "../codecs/uda1380.h"
 #include "pxa2xx-i2s.h"
 #include "pxa-ssp.h"

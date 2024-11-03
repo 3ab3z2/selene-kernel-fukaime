@@ -34,10 +34,10 @@
 #include <linux/of_pci.h>
 #include <linux/export.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/io.h>
-#include <asm/pci-bridge.h>
-#include <asm/byteorder.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/byteorder.h>
 
 static DEFINE_SPINLOCK(hose_spinlock);
 LIST_HEAD(hose_list);

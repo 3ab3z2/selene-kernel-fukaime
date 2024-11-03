@@ -18,7 +18,7 @@
 #include <linux/platform_data/arm-ux500-pm.h>
 #include <linux/platform_device.h>
 
-#include <asm/cpuidle.h>
+#include <asm-generic/cpuidle.h>
 
 static atomic_t master = ATOMIC_INIT(0);
 static DEFINE_SPINLOCK(master_lock);

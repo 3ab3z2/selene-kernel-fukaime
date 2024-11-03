@@ -3,7 +3,7 @@
 #define __X86_MM_NUMA_INTERNAL_H
 
 #include <linux/types.h>
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 
 struct numa_memblk {
 	u64			start;

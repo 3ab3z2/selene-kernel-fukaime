@@ -26,7 +26,7 @@
 #include <net/xfrm.h>
 #endif /* CONFIG_XFRM */
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "ethernet-defines.h"
 #include "ethernet-mem.h"
@@ -34,14 +34,14 @@
 #include "octeon-ethernet.h"
 #include "ethernet-util.h"
 
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-wqe.h>
-#include <asm/octeon/cvmx-fau.h>
-#include <asm/octeon/cvmx-pow.h>
-#include <asm/octeon/cvmx-pip.h>
-#include <asm/octeon/cvmx-scratch.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-wqe.h>
+#include <asm-generic/octeon/cvmx-fau.h>
+#include <asm-generic/octeon/cvmx-pow.h>
+#include <asm-generic/octeon/cvmx-pip.h>
+#include <asm-generic/octeon/cvmx-scratch.h>
 
-#include <asm/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
 
 static atomic_t oct_rx_ready = ATOMIC_INIT(0);
 

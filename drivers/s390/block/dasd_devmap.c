@@ -19,9 +19,9 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 #include <linux/uaccess.h>
-#include <asm/ipl.h>
+#include <asm-generic/ipl.h>
 
 /* This is ugly... */
 #define PRINTK_HEADER "dasd_devmap:"

@@ -15,7 +15,7 @@
  * Free Software Foundation;  either version 2 of the  License, or (at your
  * option) any later version.
  */
-#include <asm/cpm.h>
+#include <asm-generic/cpm.h>
 #include <soc/fsl/qe/qe.h>
 #include <linux/dma-mapping.h>
 #include <linux/fsl_devices.h>
@@ -33,10 +33,10 @@
 
 /* CPM1 and CPM2 are mutually exclusive. */
 #ifdef CONFIG_CPM1
-#include <asm/cpm1.h>
+#include <asm-generic/cpm1.h>
 #define CPM_SPI_CMD mk_cr_cmd(CPM_CR_CH_SPI, 0)
 #else
-#include <asm/cpm2.h>
+#include <asm-generic/cpm2.h>
 #define CPM_SPI_CMD mk_cr_cmd(CPM_CR_SPI_PAGE, CPM_CR_SPI_SBLOCK, 0, 0)
 #endif
 

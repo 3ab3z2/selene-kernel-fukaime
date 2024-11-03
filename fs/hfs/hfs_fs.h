@@ -22,7 +22,7 @@
 #include <linux/fs.h>
 #include <linux/workqueue.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 
 #include "hfs.h"

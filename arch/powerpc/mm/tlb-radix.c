@@ -13,11 +13,11 @@
 #include <linux/hugetlb.h>
 #include <linux/memblock.h>
 
-#include <asm/ppc-opcode.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/trace.h>
-#include <asm/cputhreads.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/cputhreads.h>
 
 #define RIC_FLUSH_TLB 0
 #define RIC_FLUSH_PWC 1

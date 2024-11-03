@@ -14,7 +14,7 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/ioport.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define SLOT_ADDRESS(r,n) (r->bus_base_addr + (0x1000 * n))
 

@@ -34,26 +34,26 @@
 #include <linux/gfp.h>
 #include <linux/kcore.h>
 
-#include <asm/processor.h>
-#include <asm/bios_ebda.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/bios_ebda.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/dma.h>
-#include <asm/fixmap.h>
-#include <asm/e820/api.h>
-#include <asm/apic.h>
-#include <asm/tlb.h>
-#include <asm/mmu_context.h>
-#include <asm/proto.h>
-#include <asm/smp.h>
-#include <asm/sections.h>
-#include <asm/kdebug.h>
-#include <asm/numa.h>
-#include <asm/set_memory.h>
-#include <asm/init.h>
-#include <asm/uv/uv.h>
-#include <asm/setup.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/init.h>
+#include <asm-generic/uv/uv.h>
+#include <asm-generic/setup.h>
 
 #include "mm_internal.h"
 

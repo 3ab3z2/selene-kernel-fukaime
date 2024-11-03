@@ -19,10 +19,10 @@
 #include <linux/proc_fs.h>
 #include <linux/gfp.h>
 
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
-#include <asm/bfin_sdh.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin_sdh.h>
 
 #if defined(CONFIG_BF51x) || defined(__ADSPBF60x__)
 #define bfin_read_SDH_CLK_CTL		bfin_read_RSI_CLK_CTL

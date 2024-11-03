@@ -54,9 +54,9 @@
 #include <linux/dma-mapping.h>
 #include <linux/gfp.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/wrapper.h>

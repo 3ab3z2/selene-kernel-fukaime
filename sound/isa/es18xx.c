@@ -86,7 +86,7 @@
 #include <linux/delay.h>
 #include <linux/io.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <sound/core.h>
 #include <sound/control.h>
 #include <sound/pcm.h>

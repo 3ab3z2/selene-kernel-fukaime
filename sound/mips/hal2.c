@@ -28,8 +28,8 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

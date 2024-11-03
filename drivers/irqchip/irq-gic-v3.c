@@ -36,10 +36,10 @@
 #include <linux/irqchip/arm-gic-v3.h>
 #include <linux/irqchip/irq-partition-percpu.h>
 
-#include <asm/cputype.h>
-#include <asm/exception.h>
-#include <asm/smp_plat.h>
-#include <asm/virt.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/virt.h>
 
 #include "irq-gic-common.h"
 

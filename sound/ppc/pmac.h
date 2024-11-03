@@ -36,9 +36,9 @@
 #include <linux/nvram.h>
 #include <linux/tty.h>
 #include <linux/vt_kern.h>
-#include <asm/dbdma.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 
 /* maximum number of fragments */
 #define PMAC_MAX_FRAGS		32

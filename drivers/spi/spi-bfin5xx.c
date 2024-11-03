@@ -24,10 +24,10 @@
 #include <linux/spi/spi.h>
 #include <linux/workqueue.h>
 
-#include <asm/dma.h>
-#include <asm/portmux.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/cacheflush.h>
 
 #define DRV_NAME	"bfin-spi"
 #define DRV_AUTHOR	"Bryan Wu, Luke Yang"

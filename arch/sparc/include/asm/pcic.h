@@ -14,7 +14,7 @@
 #include <linux/smp.h>
 #include <linux/pci.h>
 #include <linux/ioport.h>
-#include <asm/pbm.h>
+#include <asm-generic/pbm.h>
 
 struct linux_pcic {
         void __iomem            *pcic_regs;

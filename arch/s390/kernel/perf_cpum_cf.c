@@ -18,9 +18,9 @@
 #include <linux/notifier.h>
 #include <linux/init.h>
 #include <linux/export.h>
-#include <asm/ctl_reg.h>
-#include <asm/irq.h>
-#include <asm/cpu_mf.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cpu_mf.h>
 
 enum cpumf_ctr_set {
 	CPUMF_CTR_SET_BASIC   = 0,    /* Basic Counter Set */

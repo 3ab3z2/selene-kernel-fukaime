@@ -21,9 +21,9 @@
 #include <linux/stop_machine.h>
 #include <linux/uaccess.h>
 #include <linux/ptrace.h>
-#include <asm/sections.h>
-#include <asm/unaligned.h>
-#include <asm/unwind.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/unwind.h>
 
 extern char __start_unwind[], __end_unwind[];
 /* extern const u8 __start_unwind_hdr[], __end_unwind_hdr[];*/

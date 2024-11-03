@@ -11,9 +11,9 @@
 
 #include <linux/sched.h>
 #include <linux/memblock.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/dma.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/dma.h>
 
 #include "mmu_decl.h"
 

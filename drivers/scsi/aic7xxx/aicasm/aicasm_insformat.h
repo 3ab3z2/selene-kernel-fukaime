@@ -37,12 +37,12 @@
  * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGES.
  *
- * $Id: //depot/aic7xxx/aic7xxx/aicasm/aicasm_insformat.h#12 $
+ * $Id: //depot/aic7xxx/aic7xxx/aicasm-generic/aicasm_insformat.h#12 $
  *
  * $FreeBSD$
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /* 8bit ALU logic operations */
 struct ins_format1 {

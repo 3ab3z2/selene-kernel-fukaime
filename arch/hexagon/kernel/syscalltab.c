@@ -22,11 +22,11 @@
 #include <linux/signal.h>
 #include <linux/unistd.h>
 
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 
 #undef __SYSCALL
 #define __SYSCALL(nr, call) [nr] = (call),
 
 void *sys_call_table[__NR_syscalls] = {
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 };

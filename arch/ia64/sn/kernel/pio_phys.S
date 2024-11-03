@@ -18,8 +18,8 @@
 
 
 
-#include <asm/asmmacro.h>
-#include <asm/page.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/page.h>
 
 GLOBAL_ENTRY(pio_phys_read_mmr)
 	.prologue

@@ -18,9 +18,9 @@
 #include <linux/platform_device.h>
 #include <linux/pci.h>
 
-#include <asm/machdep.h>
-#include <asm/swiotlb.h>
-#include <asm/dma.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/dma.h>
 
 unsigned int ppc_swiotlb_enable;
 

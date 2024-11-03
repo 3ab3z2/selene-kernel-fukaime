@@ -25,7 +25,7 @@
 #include <linux/serial_8250.h>
 #include <linux/irq.h>
 #include <linux/platform_device.h>
-#include <asm/mips-boards/maltaint.h>
+#include <asm-generic/mips-boards/maltaint.h>
 
 #define SMC_PORT(base, int)						\
 {									\

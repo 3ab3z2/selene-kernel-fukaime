@@ -43,8 +43,8 @@
 #include <linux/delay.h>
 #include <linux/wait.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
 
 #include "videocodec.h"
 #include "zoran.h"

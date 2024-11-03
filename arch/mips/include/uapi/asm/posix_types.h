@@ -10,7 +10,7 @@
 #ifndef _ASM_POSIX_TYPES_H
 #define _ASM_POSIX_TYPES_H
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 /*
  * This file is generally used by user-level software, so you need to

@@ -11,7 +11,7 @@
 #define _PSERIES_PSERIES_H
 
 #include <linux/interrupt.h>
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 struct device_node;
 

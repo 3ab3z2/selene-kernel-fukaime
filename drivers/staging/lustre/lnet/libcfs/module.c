@@ -51,7 +51,7 @@
 # define DEBUG_SUBSYSTEM S_LNET
 
 #include <linux/libcfs/libcfs.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/libcfs/libcfs_crypto.h>
 #include <linux/lnet/lib-lnet.h>

@@ -31,12 +31,12 @@
 #include <linux/fb.h>
 #include <linux/init.h>
 
-#include <asm/cell-regs.h>
-#include <asm/lv1call.h>
-#include <asm/ps3av.h>
-#include <asm/ps3fb.h>
-#include <asm/ps3.h>
-#include <asm/ps3gpu.h>
+#include <asm-generic/cell-regs.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3av.h>
+#include <asm-generic/ps3fb.h>
+#include <asm-generic/ps3.h>
+#include <asm-generic/ps3gpu.h>
 
 
 #define DEVICE_NAME		"ps3fb"

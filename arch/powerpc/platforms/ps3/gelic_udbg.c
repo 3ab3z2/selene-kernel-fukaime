@@ -19,9 +19,9 @@
 #include <linux/ip.h>
 #include <linux/udp.h>
 
-#include <asm/io.h>
-#include <asm/udbg.h>
-#include <asm/lv1call.h>
+#include <asm-generic/io.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/lv1call.h>
 
 #define GELIC_BUS_ID 1
 #define GELIC_DEVICE_ID 0

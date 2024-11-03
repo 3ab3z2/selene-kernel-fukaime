@@ -43,10 +43,10 @@
 #include <linux/delay.h>
 #include <linux/of_device.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/unaligned.h>
-#include <asm/dma.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/dma.h>
 
 #include "fsl_usb2_udc.h"
 

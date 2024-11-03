@@ -10,8 +10,8 @@
 #include <linux/io.h>
 #include <linux/pm.h>
 #include <linux/sizes.h>
-#include <asm/idle.h>
-#include <asm/reboot.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
 
 #include <loongson1.h>
 

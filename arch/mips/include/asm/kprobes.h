@@ -28,9 +28,9 @@
 #include <linux/ptrace.h>
 #include <linux/types.h>
 
-#include <asm/cacheflush.h>
-#include <asm/kdebug.h>
-#include <asm/inst.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/inst.h>
 
 #define	 __ARCH_WANT_KPROBES_INSN_SLOT
 

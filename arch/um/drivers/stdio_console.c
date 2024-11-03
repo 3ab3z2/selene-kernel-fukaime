@@ -17,8 +17,8 @@
 #include <linux/interrupt.h>
 #include <linux/slab.h>
 #include <linux/hardirq.h>
-#include <asm/current.h>
-#include <asm/irq.h>
+#include <asm-generic/current.h>
+#include <asm-generic/irq.h>
 #include "stdio_console.h"
 #include "chan.h"
 #include <irq_user.h>

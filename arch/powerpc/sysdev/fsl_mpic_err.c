@@ -14,9 +14,9 @@
 #include <linux/smp.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/mpic.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mpic.h>
 
 #include "mpic.h"
 

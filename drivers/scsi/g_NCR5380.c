@@ -22,7 +22,7 @@
  * See Documentation/scsi/g_NCR5380.txt for more info.
  */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/blkdev.h>
 #include <linux/module.h>
 #include <scsi/scsi_host.h>

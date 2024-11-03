@@ -119,7 +119,7 @@ obj-$(CONFIG_MIPS_CPS_PM)	+= pm-cps.o
 # here because the compiler may use DSP ASE instructions (such as lwx) in
 # code paths where we cannot check that the CPU we are running on supports it.
 # Proper abstraction using HAVE_AS_DSP and macros is done in
-# arch/mips/include/asm/mipsregs.h.
+# arch/mips/include/asm-generic/mipsregs.h.
 #
 ifeq ($(CONFIG_CPU_MIPSR2), y)
 CFLAGS_DSP 			= -DHAVE_AS_DSP

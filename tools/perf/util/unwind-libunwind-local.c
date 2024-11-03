@@ -37,7 +37,7 @@
 #include "symbol.h"
 #include "util.h"
 #include "debug.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "dso.h"
 
 extern int

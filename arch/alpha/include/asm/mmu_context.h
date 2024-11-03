@@ -11,8 +11,8 @@
 #include <linux/mm_types.h>
 #include <linux/sched.h>
 
-#include <asm/machvec.h>
-#include <asm/compiler.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/compiler.h>
 #include <asm-generic/mm_hooks.h>
 
 /*
@@ -22,7 +22,7 @@
 
 /* Don't get into trouble with dueling __EXTERN_INLINEs.  */
 #ifndef __EXTERN_INLINE
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #endif
 
 
@@ -88,7 +88,7 @@ __reload_thread(struct pcb_struct *pcb)
  * +-------------+----------------+--------------+
  */
 
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #ifdef CONFIG_SMP
 #define cpu_last_asn(cpuid)	(cpu_data[cpuid].last_asn)
 #else

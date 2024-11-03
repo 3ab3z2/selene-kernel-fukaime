@@ -19,7 +19,7 @@
 #include <linux/hardirq.h>
 #include <linux/slab.h>
 #include "xpc.h"
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 
 /* XPC is exiting flag */
 int xpc_exiting;

@@ -12,8 +12,8 @@
  */
 #include <linux/init.h>
 #include <linux/types.h>
-#include <asm/io.h>
-#include <asm/txx9/smsc_fdc37m81x.h>
+#include <asm-generic/io.h>
+#include <asm-generic/txx9/smsc_fdc37m81x.h>
 
 /* Common Registers */
 #define SMSC_FDC37M81X_CONFIG_INDEX  0x00

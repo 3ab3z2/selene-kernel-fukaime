@@ -54,13 +54,13 @@
 #include <linux/nvram.h>
 #include <linux/adb.h>
 #include <linux/cuda.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #ifdef CONFIG_MAC
-#include <asm/macintosh.h>
+#include <asm-generic/macintosh.h>
 #else
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #endif
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 #include "macmodes.h"
 #include "valkyriefb.h"

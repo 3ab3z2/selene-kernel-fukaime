@@ -15,7 +15,7 @@
 #include <linux/module.h>
 #include <linux/pfn.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 extern char _end[];
 

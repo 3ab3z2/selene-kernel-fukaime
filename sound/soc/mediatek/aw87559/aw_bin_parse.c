@@ -23,7 +23,7 @@
 #include <linux/interrupt.h>
 #include <linux/debugfs.h>
 #include <linux/miscdevice.h>
-#include <asm/uaccess.h>
+#include <asm-generic/uaccess.h>
 #include <linux/regmap.h>
 #include <linux/timer.h>
 #include <linux/workqueue.h>

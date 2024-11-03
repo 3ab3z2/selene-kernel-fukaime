@@ -26,7 +26,7 @@
 #ifndef IRLAN_H
 #define IRLAN_H
 
-#include <asm/param.h>  /* for HZ */
+#include <asm-generic/param.h>  /* for HZ */
 
 #include <linux/kernel.h>
 #include <linux/types.h>

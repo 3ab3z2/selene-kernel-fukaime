@@ -44,9 +44,9 @@
 #include <linux/irqchip.h>
 #include <linux/irqchip/arm-gic.h>
 
-#include <asm/irq.h>
-#include <asm/exception.h>
-#include <asm/smp_plat.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/smp_plat.h>
 
 #include "irq-gic-common.h"
 

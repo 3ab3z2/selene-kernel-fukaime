@@ -15,10 +15,10 @@
 
 #include <linux/sched.h>
 #include <linux/threads.h>
-#include <asm/processor.h>	/* For TASK_SIZE */
-#include <asm/mmu.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/processor.h>	/* For TASK_SIZE */
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
 
 extern void _tlbie(unsigned long address);
 extern void _tlbia(void);

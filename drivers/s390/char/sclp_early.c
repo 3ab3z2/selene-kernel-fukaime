@@ -9,9 +9,9 @@
 #define pr_fmt(fmt) KMSG_COMPONENT ": " fmt
 
 #include <linux/errno.h>
-#include <asm/ctl_reg.h>
-#include <asm/sclp.h>
-#include <asm/ipl.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/ipl.h>
 #include "sclp_sdias.h"
 #include "sclp.h"
 

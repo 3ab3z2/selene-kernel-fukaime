@@ -7,18 +7,18 @@
 #include <linux/elfnote.h>
 #include <linux/init.h>
 
-#include <asm/boot.h>
-#include <asm/asm.h>
-#include <asm/msr.h>
-#include <asm/page_types.h>
-#include <asm/percpu.h>
-#include <asm/unwind_hints.h>
+#include <asm-generic/boot.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/unwind_hints.h>
 
 #include <xen/interface/elfnote.h>
 #include <xen/interface/features.h>
 #include <xen/interface/xen.h>
 #include <xen/interface/xen-mca.h>
-#include <asm/xen/interface.h>
+#include <asm-generic/xen/interface.h>
 
 #ifdef CONFIG_XEN_PV
 	__INIT
@@ -67,7 +67,7 @@ ENTRY(hypercall_page)
 #define HYPERCALL(n) \
 	.equ xen_hypercall_##n, hypercall_page + __HYPERVISOR_##n * 32; \
 	.type xen_hypercall_##n, @function; .size xen_hypercall_##n, 32
-#include <asm/xen-hypercalls.h>
+#include <asm-generic/xen-hypercalls.h>
 #undef HYPERCALL
 END(hypercall_page)
 .popsection

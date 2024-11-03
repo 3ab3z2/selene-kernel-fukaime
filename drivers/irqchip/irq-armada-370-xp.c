@@ -29,10 +29,10 @@
 #include <linux/slab.h>
 #include <linux/syscore_ops.h>
 #include <linux/msi.h>
-#include <asm/mach/arch.h>
-#include <asm/exception.h>
-#include <asm/smp_plat.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/mach/arch.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/mach/irq.h>
 
 /*
  * Overall diagram of the Armada XP interrupt controller:

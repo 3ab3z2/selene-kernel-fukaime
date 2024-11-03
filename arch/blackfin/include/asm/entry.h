@@ -7,8 +7,8 @@
 #ifndef __BFIN_ENTRY_H
 #define __BFIN_ENTRY_H
 
-#include <asm/setup.h>
-#include <asm/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
 
 #ifdef __ASSEMBLY__
 

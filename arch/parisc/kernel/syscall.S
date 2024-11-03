@@ -30,15 +30,15 @@ registers).
 */
 
 
-#include <asm/asm-offsets.h>
-#include <asm/unistd.h>
-#include <asm/errno.h>
-#include <asm/page.h>
-#include <asm/psw.h>
-#include <asm/thread_info.h>
-#include <asm/assembly.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/page.h>
+#include <asm-generic/psw.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
 
 #include <linux/linkage.h>
 

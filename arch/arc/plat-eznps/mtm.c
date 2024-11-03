@@ -19,7 +19,7 @@
 #include <linux/kernel.h>
 #include <linux/io.h>
 #include <linux/log2.h>
-#include <asm/arcregs.h>
+#include <asm-generic/arcregs.h>
 #include <plat/mtm.h>
 #include <plat/smp.h>
 

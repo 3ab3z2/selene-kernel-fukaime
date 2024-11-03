@@ -32,10 +32,10 @@
 #include <linux/export.h>
 #include <linux/hugetlb.h>
 #include <linux/security.h>
-#include <asm/mman.h>
-#include <asm/mmu.h>
-#include <asm/copro.h>
-#include <asm/hugetlb.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/copro.h>
+#include <asm-generic/hugetlb.h>
 
 static DEFINE_SPINLOCK(slice_convert_lock);
 /*

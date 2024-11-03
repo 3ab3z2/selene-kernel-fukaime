@@ -32,7 +32,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "fsl_dma.h"
 #include "fsl_ssi.h"	/* For the offset of stx0 and srx0 */

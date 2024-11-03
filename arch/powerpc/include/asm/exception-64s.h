@@ -34,7 +34,7 @@
  * exception handlers (including pSeries LPAR) and iSeries LPAR
  * implementations as possible.
  */
-#include <asm/head-64.h>
+#include <asm-generic/head-64.h>
 
 /* PACA save area offsets (exgen, exmc, etc) */
 #define EX_R9		0

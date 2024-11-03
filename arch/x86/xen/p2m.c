@@ -69,13 +69,13 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 
-#include <asm/cache.h>
-#include <asm/setup.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
 
-#include <asm/xen/page.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/page.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/balloon.h>
 #include <xen/grant_table.h>
 

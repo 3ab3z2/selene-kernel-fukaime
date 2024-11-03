@@ -18,7 +18,7 @@
 	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/ioport.h>
 #include <linux/pci.h>
 #include <linux/i2c.h>

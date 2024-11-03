@@ -22,13 +22,13 @@
 #include <linux/module.h>
 #include <linux/err.h>
 #include <linux/slab.h>
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 #if defined CONFIG_X86_64
-#include <asm/uv/bios.h>
-#include <asm/uv/uv_irq.h>
+#include <asm-generic/uv/bios.h>
+#include <asm-generic/uv/uv_irq.h>
 #elif defined CONFIG_IA64_GENERIC || defined CONFIG_IA64_SGI_UV
-#include <asm/sn/intr.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/sn_sal.h>
 #endif
 #include "../sgi-gru/gru.h"
 #include "../sgi-gru/grukservices.h"

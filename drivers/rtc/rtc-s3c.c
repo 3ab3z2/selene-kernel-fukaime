@@ -29,7 +29,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include "rtc-s3c.h"
 
 struct s3c_rtc {

@@ -12,9 +12,9 @@
 #include <linux/types.h>
 #include <linux/profile.h>
 
-#include <asm/machvec.h>
-#include <asm/ptrace.h>
-#include <asm/smp.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
 
 typedef u8 ia64_vector;
 

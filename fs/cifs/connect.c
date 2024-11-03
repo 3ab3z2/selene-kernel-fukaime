@@ -37,7 +37,7 @@
 #include <linux/namei.h>
 #include <linux/uuid.h>
 #include <linux/uaccess.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/inet.h>
 #include <linux/module.h>
 #include <keys/user-type.h>

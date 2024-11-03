@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/asm/irqflags.h
+ * include/asm-generic/irqflags.h
  *
  * IRQ flags handling
  *
@@ -14,7 +14,7 @@
 #ifndef __ASSEMBLY__
 
 #include <linux/types.h>
-#include <asm/psr.h>
+#include <asm-generic/psr.h>
 
 void arch_local_irq_restore(unsigned long);
 unsigned long arch_local_irq_save(void);

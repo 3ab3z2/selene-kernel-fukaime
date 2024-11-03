@@ -3,8 +3,8 @@
 #include <linux/init.h>
 #include <linux/memblock.h>
 
-#include <asm/setup.h>
-#include <asm/bios_ebda.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/bios_ebda.h>
 
 /*
  * This function reserves all conventional PC system BIOS related

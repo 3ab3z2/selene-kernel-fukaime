@@ -19,10 +19,10 @@
 #include <linux/spinlock.h>
 #include <linux/err.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/ip32/mace.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 MODULE_AUTHOR("Vivien Chappelier <vivien.chappelier@linux-mips.org");
 MODULE_DESCRIPTION("SGI O2 MACE PS2 controller driver");

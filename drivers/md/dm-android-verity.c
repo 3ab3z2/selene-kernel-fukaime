@@ -31,7 +31,7 @@
 #include <linux/string.h>
 #include <linux/vmalloc.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <crypto/hash.h>
 #include <crypto/hash_info.h>
 #include <crypto/public_key.h>

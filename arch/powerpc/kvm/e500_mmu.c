@@ -29,7 +29,7 @@
 #include <linux/rwsem.h>
 #include <linux/vmalloc.h>
 #include <linux/hugetlb.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/kvm_ppc.h>
 
 #include "e500.h"
 #include "trace_booke.h"

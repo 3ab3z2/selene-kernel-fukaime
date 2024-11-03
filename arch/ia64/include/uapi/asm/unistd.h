@@ -9,7 +9,7 @@
 #define _UAPI_ASM_IA64_UNISTD_H
 
 
-#include <asm/break.h>
+#include <asm-generic/break.h>
 
 #define __BREAK_SYSCALL			__IA64_BREAK_SYSCALL
 

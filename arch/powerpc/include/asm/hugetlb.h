@@ -3,14 +3,14 @@
 #define _ASM_POWERPC_HUGETLB_H
 
 #ifdef CONFIG_HUGETLB_PAGE
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/hugetlb.h>
 
 extern struct kmem_cache *hugepte_cache;
 
 #ifdef CONFIG_PPC_BOOK3S_64
 
-#include <asm/book3s/64/hugetlb.h>
+#include <asm-generic/book3s/64/hugetlb.h>
 /*
  * This should work for other subarchs too. But right now we use the
  * new format only for 64bit book3s

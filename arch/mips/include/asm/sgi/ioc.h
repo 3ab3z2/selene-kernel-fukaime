@@ -14,7 +14,7 @@
 #define _SGI_IOC_H
 
 #include <linux/types.h>
-#include <asm/sgi/pi1.h>
+#include <asm-generic/sgi/pi1.h>
 
 /*
  * All registers are 8-bit wide aligned on 32-bit boundary. Bad things

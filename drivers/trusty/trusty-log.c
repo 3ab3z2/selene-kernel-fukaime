@@ -19,7 +19,7 @@
 #include <linux/mm.h>
 #include <linux/module.h>
 #include <linux/log2.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "trusty-log.h"
 
 #define TRUSTY_LOG_SIZE (PAGE_SIZE * 2)

@@ -34,7 +34,7 @@
 #include <linux/mutex.h>
 #include <linux/scatterlist.h>
 #include <linux/device.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-ctrls.h>
 #include <media/v4l2-fh.h>

@@ -58,7 +58,7 @@
 #include <linux/module.h>
 #include <linux/firmware.h>
 #include <linux/efi.h>
-#include <asm/string.h>
+#include <asm-generic/string.h>
 #include <scsi/scsi_host.h>
 #include "host.h"
 #include "isci.h"

@@ -22,7 +22,7 @@
 
 #include <linux/mutex.h>
 
-#include <asm/lv1call.h>
+#include <asm-generic/lv1call.h>
 
 
 #define L1GPU_CONTEXT_ATTRIBUTE_DISPLAY_SYNC	0x101

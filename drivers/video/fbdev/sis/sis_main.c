@@ -52,7 +52,7 @@
 #include <linux/fs.h>
 #include <linux/types.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "sis.h"
 #include "sis_main.h"

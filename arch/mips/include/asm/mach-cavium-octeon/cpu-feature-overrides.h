@@ -9,7 +9,7 @@
 #define __ASM_MACH_CAVIUM_OCTEON_CPU_FEATURE_OVERRIDES_H
 
 #include <linux/types.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * Cavium Octeons are MIPS64v2 processors

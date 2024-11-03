@@ -7,11 +7,11 @@
 
 #ifndef __KERNEL__
 # ifdef __i386__
-#  include <asm/unistd_32.h>
+#  include <asm-generic/unistd_32.h>
 # elif defined(__ILP32__)
-#  include <asm/unistd_x32.h>
+#  include <asm-generic/unistd_x32.h>
 # else
-#  include <asm/unistd_64.h>
+#  include <asm-generic/unistd_64.h>
 # endif
 #endif
 

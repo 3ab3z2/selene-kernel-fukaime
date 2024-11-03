@@ -19,11 +19,11 @@
 #include <linux/platform_device.h>
 
 #include <linux/uaccess.h>
-#include <asm/setup.h>
-#include <asm/q40_master.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/q40_master.h>
 #include <linux/fb.h>
 #include <linux/module.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 #define Q40_PHYS_SCREEN_ADDR 0xFE800000
 

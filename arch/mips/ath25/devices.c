@@ -3,7 +3,7 @@
 #include <linux/init.h>
 #include <linux/serial_8250.h>
 #include <linux/platform_device.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <ath25_platform.h>
 #include "devices.h"

@@ -37,8 +37,8 @@
 #include <linux/libata.h>
 #include <linux/platform_device.h>
 #include <linux/gpio.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #define DRV_NAME		"pata-bf54x"
 #define DRV_VERSION		"0.9"

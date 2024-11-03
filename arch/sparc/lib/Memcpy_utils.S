@@ -2,8 +2,8 @@
 #define __ASM_MEMCPY_UTILS
 
 #include <linux/linkage.h>
-#include <asm/asi.h>
-#include <asm/visasm.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/visasm.h>
 
 ENTRY(__restore_asi_fp)
 	VISExitHalf

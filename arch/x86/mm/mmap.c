@@ -31,7 +31,7 @@
 #include <linux/sched/signal.h>
 #include <linux/sched/mm.h>
 #include <linux/compat.h>
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 
 struct va_alignment __read_mostly va_align = {
 	.flags = -1,

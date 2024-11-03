@@ -29,12 +29,12 @@
  * Functions for LOOP initialization, configuration,
  * and monitoring.
  */
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-pip-defs.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-pip-defs.h>
 
 /**
  * Probe a LOOP interface and determine the number of ports

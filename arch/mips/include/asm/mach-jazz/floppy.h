@@ -12,10 +12,10 @@
 #include <linux/linkage.h>
 #include <linux/types.h>
 #include <linux/mm.h>
-#include <asm/addrspace.h>
-#include <asm/jazz.h>
-#include <asm/jazzdma.h>
-#include <asm/pgtable.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/jazz.h>
+#include <asm-generic/jazzdma.h>
+#include <asm-generic/pgtable.h>
 
 static inline unsigned char fd_inb(unsigned int port)
 {

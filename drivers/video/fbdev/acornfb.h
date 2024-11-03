@@ -10,7 +10,7 @@
  *  Frame buffer code for Acorn platforms
  */
 #if defined(HAS_VIDC20)
-#include <asm/hardware/iomd.h>
+#include <asm-generic/hardware/iomd.h>
 #define VIDC_PALETTE_SIZE	256
 #define VIDC_NAME		"VIDC20"
 #endif

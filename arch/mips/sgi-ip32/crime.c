@@ -11,12 +11,12 @@
 #include <linux/kernel.h>
 #include <linux/interrupt.h>
 #include <linux/export.h>
-#include <asm/bootinfo.h>
-#include <asm/io.h>
-#include <asm/mipsregs.h>
-#include <asm/page.h>
-#include <asm/ip32/crime.h>
-#include <asm/ip32/mace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ip32/crime.h>
+#include <asm-generic/ip32/mace.h>
 
 struct sgi_crime __iomem *crime;
 struct sgi_mace __iomem *mace;

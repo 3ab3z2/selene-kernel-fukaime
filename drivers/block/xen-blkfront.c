@@ -58,7 +58,7 @@
 #include <xen/interface/io/blkif.h>
 #include <xen/interface/io/protocols.h>
 
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 /*
  * The minimal size of segment supported by the block framework is PAGE_SIZE.

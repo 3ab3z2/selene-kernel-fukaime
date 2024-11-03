@@ -22,7 +22,7 @@
 #include <linux/tc.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static struct tc_bus tc_bus = {
 	.name = "TURBOchannel",

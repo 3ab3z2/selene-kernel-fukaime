@@ -16,12 +16,12 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
-#include <asm/asm.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
-#include <asm/stackframe.h>
-#include <asm/cacheops.h>
-#include <asm/sibyte/board.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/sibyte/board.h>
 
 #define C0_ERRCTL     $26	      /* CP0: Error info */
 #define C0_CERR_I     $27	      /* CP0: Icache error */

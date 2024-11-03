@@ -8,9 +8,9 @@
 #include <linux/device.h>
 #include <linux/types.h>
 
-#include <asm/cio.h>
-#include <asm/chpid.h>
-#include <asm/schid.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/schid.h>
 
 #include "cio.h"
 

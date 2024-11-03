@@ -1,5 +1,5 @@
 /*
- * arch/metag/include/asm/clock.h
+ * arch/metag/include/asm-generic/clock.h
  *
  * Copyright (C) 2012 Imagination Technologies Ltd.
  *
@@ -11,7 +11,7 @@
 #ifndef _METAG_CLOCK_H_
 #define _METAG_CLOCK_H_
 
-#include <asm/mach/arch.h>
+#include <asm-generic/mach/arch.h>
 
 /**
  * struct meta_clock_desc - Meta Core clock callbacks.

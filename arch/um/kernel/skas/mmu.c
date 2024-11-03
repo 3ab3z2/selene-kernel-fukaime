@@ -8,9 +8,9 @@
 #include <linux/sched/signal.h>
 #include <linux/slab.h>
 
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
 #include <as-layout.h>
 #include <os.h>
 #include <skas.h>

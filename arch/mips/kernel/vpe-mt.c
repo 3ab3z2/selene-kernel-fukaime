@@ -12,10 +12,10 @@
 #include <linux/slab.h>
 #include <linux/export.h>
 
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/mips_mt.h>
-#include <asm/vpe.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/vpe.h>
 
 static int major;
 

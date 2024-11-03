@@ -6,7 +6,7 @@
 #include <linux/init.h>
 #include <linux/bootmem.h>
 #include <linux/initrd.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <init.h>
 #include <os.h>
 

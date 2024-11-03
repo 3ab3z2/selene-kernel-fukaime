@@ -41,7 +41,7 @@
 #if IS_ENABLED(CONFIG_AGP)
 
 #ifdef HAVE_PAGE_AGP
-# include <asm/agp.h>
+# include <asm-generic/agp.h>
 #else
 # ifdef __powerpc__
 #  define PAGE_AGP	pgprot_noncached_wc(PAGE_KERNEL)

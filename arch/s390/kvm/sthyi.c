@@ -14,12 +14,12 @@
 #include <linux/vmalloc.h>
 #include <linux/ratelimit.h>
 
-#include <asm/kvm_host.h>
-#include <asm/asm-offsets.h>
-#include <asm/sclp.h>
-#include <asm/diag.h>
-#include <asm/sysinfo.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/kvm_host.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/ebcdic.h>
 
 #include "kvm-s390.h"
 #include "gaccess.h"

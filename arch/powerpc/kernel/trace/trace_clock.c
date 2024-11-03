@@ -6,8 +6,8 @@
  * Copyright (C) 2015 Naveen N. Rao, IBM Corporation
  */
 
-#include <asm/trace_clock.h>
-#include <asm/time.h>
+#include <asm-generic/trace_clock.h>
+#include <asm-generic/time.h>
 
 u64 notrace trace_clock_ppc_tb(void)
 {

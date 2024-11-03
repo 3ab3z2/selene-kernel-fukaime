@@ -13,9 +13,9 @@
 #include <linux/string.h>
 #include <linux/types.h>
 #include <linux/uaccess.h>
-#include <asm/compat.h>
-#include <asm/diag.h>
-#include <asm/sclp.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/sclp.h>
 #include "hypfs.h"
 
 #define DIAG304_SET_WEIGHTS	0

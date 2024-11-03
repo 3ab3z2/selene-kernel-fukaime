@@ -20,12 +20,12 @@
 #include <linux/err.h>
 #include <linux/fs.h>
 #include <linux/irq.h>
-#include <asm/dma.h>
-#include <asm/trace.h>
-#include <asm/fixed_code.h>
-#include <asm/traps.h>
-#include <asm/irq_handler.h>
-#include <asm/pda.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/pda.h>
 
 void decode_address(char *buf, unsigned long address)
 {

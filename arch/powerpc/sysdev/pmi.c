@@ -33,9 +33,9 @@
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
 
-#include <asm/io.h>
-#include <asm/pmi.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pmi.h>
+#include <asm-generic/prom.h>
 
 struct pmi_data {
 	struct list_head	handler;

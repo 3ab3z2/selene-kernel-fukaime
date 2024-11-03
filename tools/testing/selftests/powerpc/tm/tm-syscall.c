@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/syscall.h>
-#include <asm/tm.h>
+#include <asm-generic/tm.h>
 #include <sys/time.h>
 #include <stdlib.h>
 

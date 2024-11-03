@@ -8,10 +8,10 @@
 #include <linux/init.h>
 #include <linux/string.h>
 
-#include <asm/patch.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/unistd.h>
+#include <asm-generic/patch.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/unistd.h>
 
 /*
  * This was adapted from code written by Tony Luck:

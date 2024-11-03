@@ -21,7 +21,7 @@
 #include <linux/of_gpio.h>
 #include <linux/gpio/driver.h>
 #include <linux/slab.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include "simple_gpio.h"
 
 struct u8_gpio_chip {

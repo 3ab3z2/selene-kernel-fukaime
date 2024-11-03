@@ -13,8 +13,8 @@
 #include <linux/kobject.h>
 #include <linux/err.h>
 
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/xen.h>
 #include <xen/xenbus.h>

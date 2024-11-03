@@ -13,7 +13,7 @@
 #include <linux/platform_device.h>
 #include <linux/amba/bus.h>
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include "of_private.h"
 
 /**

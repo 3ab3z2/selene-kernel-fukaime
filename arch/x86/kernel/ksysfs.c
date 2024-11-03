@@ -18,7 +18,7 @@
 #include <linux/mm.h>
 #include <linux/io.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 static ssize_t version_show(struct kobject *kobj,
 			    struct kobj_attribute *attr, char *buf)

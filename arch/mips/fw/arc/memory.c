@@ -20,10 +20,10 @@
 #include <linux/bootmem.h>
 #include <linux/swap.h>
 
-#include <asm/sgialib.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/bootinfo.h>
 
 #undef DEBUG
 

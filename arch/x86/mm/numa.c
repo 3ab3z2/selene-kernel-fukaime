@@ -12,10 +12,10 @@
 #include <linux/sched.h>
 #include <linux/topology.h>
 
-#include <asm/e820/api.h>
-#include <asm/proto.h>
-#include <asm/dma.h>
-#include <asm/amd_nb.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/amd_nb.h>
 
 #include "numa_internal.h"
 

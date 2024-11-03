@@ -5,8 +5,8 @@
  *
  * Copyright (C) 2007-2017 Cavium, Inc.
  */
-#include <asm/asm.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
 
 #define CVMSEG_BASE	-32768
 #define CVMSEG_SIZE	6912

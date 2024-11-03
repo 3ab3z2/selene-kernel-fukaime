@@ -14,9 +14,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/io.h>
-#include <asm/traps.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
 
 /*
  * The mapping of irq number to a mask register bit is not one-to-one.

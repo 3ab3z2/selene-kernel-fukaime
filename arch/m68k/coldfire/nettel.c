@@ -14,9 +14,9 @@
 #include <linux/init.h>
 #include <linux/io.h>
 #include <linux/platform_device.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/nettel.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/nettel.h>
 
 /***************************************************************************/
 

@@ -15,11 +15,11 @@
 #include <linux/key.h>
 #include <linux/context_tracking.h>
 #include <linux/livepatch.h>
-#include <asm/hw_breakpoint.h>
+#include <asm-generic/hw_breakpoint.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/debug.h>
-#include <asm/tm.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/tm.h>
 
 #include "signal.h"
 

@@ -13,10 +13,10 @@
 #include <linux/compiler.h>
 #include <linux/linkage.h>
 #include <linux/types.h>
-#include <asm/isadep.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
-#include <uapi/asm/ptrace.h>
+#include <asm-generic/isadep.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
+#include <uapi/asm-generic/ptrace.h>
 
 /*
  * This struct defines the way the registers are stored on the stack during a

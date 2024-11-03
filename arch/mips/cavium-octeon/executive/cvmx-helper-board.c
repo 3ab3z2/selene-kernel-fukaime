@@ -31,17 +31,17 @@
  * network ports from the rest of the cvmx-helper files.
  */
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-bootinfo.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-bootinfo.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-helper-util.h>
-#include <asm/octeon/cvmx-helper-board.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper-util.h>
+#include <asm-generic/octeon/cvmx-helper-board.h>
 
-#include <asm/octeon/cvmx-gmxx-defs.h>
-#include <asm/octeon/cvmx-asxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-asxx-defs.h>
 
 /**
  * Return the MII PHY address associated with the given IPD

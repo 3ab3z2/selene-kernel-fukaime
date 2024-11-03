@@ -15,9 +15,9 @@
 #include <linux/errno.h>
 #include <linux/pagemap.h>
 
-#include <asm/kvm_host.h>
-#include <asm/asm-offsets.h>
-#include <asm/irq.h>
+#include <asm-generic/kvm_host.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/irq.h>
 
 #include "kvm-s390.h"
 #include "gaccess.h"

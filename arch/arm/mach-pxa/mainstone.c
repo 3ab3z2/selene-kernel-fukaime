@@ -33,7 +33,7 @@
 #include <linux/slab.h>
 #include <linux/leds.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/setup.h>
 #include <asm/memory.h>
 #include <asm/mach-types.h>

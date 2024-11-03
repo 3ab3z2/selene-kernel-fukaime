@@ -1,7 +1,7 @@
 #ifndef _I8042_JAZZ_H
 #define _I8042_JAZZ_H
 
-#include <asm/jazz.h>
+#include <asm-generic/jazz.h>
 
 /*
  * This program is free software; you can redistribute it and/or modify it

@@ -2,7 +2,7 @@
 #include <linux/types.h>
 #include <linux/interrupt.h>
 
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 #include <xen/page.h>
 #include <xen/interface/xen.h>
 #include <xen/interface/vcpu.h>

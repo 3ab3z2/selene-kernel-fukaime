@@ -24,8 +24,8 @@
 #include <linux/slab.h>
 #include <linux/irq_work.h>
 
-#include <asm/machdep.h>
-#include <asm/opal.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
 
 #include "powernv.h"
 

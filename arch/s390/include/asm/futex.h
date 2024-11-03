@@ -4,8 +4,8 @@
 
 #include <linux/uaccess.h>
 #include <linux/futex.h>
-#include <asm/mmu_context.h>
-#include <asm/errno.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/errno.h>
 
 #define __futex_atomic_op(insn, ret, oldval, newval, uaddr, oparg)	\
 	asm volatile(							\

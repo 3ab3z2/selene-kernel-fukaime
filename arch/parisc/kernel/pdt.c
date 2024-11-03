@@ -18,10 +18,10 @@
 #include <linux/kthread.h>
 #include <linux/initrd.h>
 
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
 
 enum pdt_access_type {
 	PDT_NONE,

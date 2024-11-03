@@ -9,7 +9,7 @@
 #define _S390_CPUTIME_H
 
 #include <linux/types.h>
-#include <asm/timex.h>
+#include <asm-generic/timex.h>
 
 #define CPUTIME_PER_USEC 4096ULL
 #define CPUTIME_PER_SEC (CPUTIME_PER_USEC * USEC_PER_SEC)

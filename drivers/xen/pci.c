@@ -24,11 +24,11 @@
 #include <xen/interface/physdev.h>
 #include <xen/interface/xen.h>
 
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 #include "../pci/pci.h"
 #ifdef CONFIG_PCI_MMCONFIG
-#include <asm/pci_x86.h>
+#include <asm-generic/pci_x86.h>
 
 static int xen_mcfg_late(void);
 #endif

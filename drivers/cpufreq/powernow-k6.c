@@ -18,8 +18,8 @@
 #include <linux/timex.h>
 #include <linux/io.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/msr.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/msr.h>
 
 #define POWERNOW_IOPORT 0xfff0          /* it doesn't matter where, as long
 					   as it is unused */

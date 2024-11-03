@@ -61,8 +61,8 @@
  */
 #include <stddef.h>
 #include <linux/i2c.h>
-#include <asm/pmac_low_i2c.h>
-#include <asm/prom.h>
+#include <asm-generic/pmac_low_i2c.h>
+#include <asm-generic/prom.h>
 #include <linux/delay.h>
 #include <linux/module.h>
 #include <linux/mutex.h>

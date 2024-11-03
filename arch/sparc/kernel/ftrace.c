@@ -7,7 +7,7 @@
 #include <linux/list.h>
 #include <trace/syscall.h>
 
-#include <asm/ftrace.h>
+#include <asm-generic/ftrace.h>
 
 #ifdef CONFIG_DYNAMIC_FTRACE
 static const u32 ftrace_nop = 0x01000000;

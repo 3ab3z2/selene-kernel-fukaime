@@ -29,20 +29,20 @@
 #include <linux/timex.h>
 #include <linux/mc146818rtc.h>
 
-#include <asm/cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/hardirq.h>
-#include <asm/irq.h>
-#include <asm/div64.h>
-#include <asm/setup.h>
-#include <asm/time.h>
-#include <asm/mc146818-time.h>
-#include <asm/msc01_ic.h>
-#include <asm/mips-cps.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mc146818-time.h>
+#include <asm-generic/msc01_ic.h>
+#include <asm-generic/mips-cps.h>
 
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/maltaint.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/maltaint.h>
 
 static int mips_cpu_timer_irq;
 static int mips_cpu_perf_irq;

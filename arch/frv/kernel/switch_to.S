@@ -13,10 +13,10 @@
 ###############################################################################
 
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
-#include <asm/processor.h>
-#include <asm/registers.h>
-#include <asm/spr-regs.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/spr-regs.h>
 
 .macro LEDS val
 	setlos		#~\val,gr27

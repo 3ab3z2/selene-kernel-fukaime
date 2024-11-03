@@ -53,7 +53,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/frame.h>
+#include <asm-generic/frame.h>
 #include "sha1_mb_mgr_datastruct.S"
 
 

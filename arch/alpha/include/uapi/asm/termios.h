@@ -2,8 +2,8 @@
 #ifndef _UAPI_ALPHA_TERMIOS_H
 #define _UAPI_ALPHA_TERMIOS_H
 
-#include <asm/ioctls.h>
-#include <asm/termbits.h>
+#include <asm-generic/ioctls.h>
+#include <asm-generic/termbits.h>
 
 struct sgttyb {
 	char	sg_ispeed;

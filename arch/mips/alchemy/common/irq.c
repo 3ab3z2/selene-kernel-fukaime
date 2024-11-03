@@ -31,9 +31,9 @@
 #include <linux/slab.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1300.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1300.h>
 
 /* Interrupt Controller register offsets */
 #define IC_CFG0RD	0x40

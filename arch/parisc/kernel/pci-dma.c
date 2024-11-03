@@ -29,13 +29,13 @@
 #include <linux/scatterlist.h>
 #include <linux/export.h>
 
-#include <asm/cacheflush.h>
-#include <asm/dma.h>    /* for DMA_CHUNK_SIZE */
-#include <asm/io.h>
-#include <asm/page.h>	/* get_order */
-#include <asm/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>    /* for DMA_CHUNK_SIZE */
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>	/* get_order */
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
-#include <asm/tlbflush.h>	/* for purge_tlb_*() macros */
+#include <asm-generic/tlbflush.h>	/* for purge_tlb_*() macros */
 
 static struct proc_dir_entry * proc_gsc_root __read_mostly = NULL;
 static unsigned long pcxl_used_bytes __read_mostly = 0;

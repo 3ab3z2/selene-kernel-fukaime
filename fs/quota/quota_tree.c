@@ -12,7 +12,7 @@
 #include <linux/slab.h>
 #include <linux/quotaops.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "quota_tree.h"
 

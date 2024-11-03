@@ -7,21 +7,21 @@
  */
 
 #include <linux/module.h>
-#include <asm/sn/nodepda.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/shubio.h>
-#include <asm/nodedata.h>
-#include <asm/delay.h>
+#include <asm-generic/sn/nodepda.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/shubio.h>
+#include <asm-generic/nodedata.h>
+#include <asm-generic/delay.h>
 
 #include <linux/bootmem.h>
 #include <linux/string.h>
 #include <linux/sched.h>
 #include <linux/slab.h>
 
-#include <asm/sn/bte.h>
+#include <asm-generic/sn/bte.h>
 
 #ifndef L1_CACHE_MASK
 #define L1_CACHE_MASK (L1_CACHE_BYTES - 1)

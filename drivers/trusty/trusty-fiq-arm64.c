@@ -18,7 +18,7 @@
 #include <linux/trusty/smcall.h>
 #include <linux/trusty/trusty.h>
 
-#include <asm/fiq_glue.h>
+#include <asm-generic/fiq_glue.h>
 
 #include "trusty-fiq.h"
 

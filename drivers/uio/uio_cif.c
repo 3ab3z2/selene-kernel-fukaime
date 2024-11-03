@@ -14,7 +14,7 @@
 #include <linux/slab.h>
 #include <linux/uio_driver.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define PLX9030_INTCSR		0x4C
 #define INTSCR_INT1_ENABLE	0x01

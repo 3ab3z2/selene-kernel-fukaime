@@ -2,10 +2,10 @@
 #ifndef _ASM_PAGE_H
 #define _ASM_PAGE_H
 
-#include <asm/virtconvert.h>
-#include <asm/mem-layout.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/virtconvert.h>
+#include <asm-generic/mem-layout.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
 
 #ifndef __ASSEMBLY__
 

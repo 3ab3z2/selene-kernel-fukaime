@@ -84,7 +84,7 @@ config MIPS_CDMM
 	  For this to work, either your bootloader needs to enable the CDMM
 	  region at an unused physical address on the boot CPU, or else your
 	  platform code needs to implement mips_cdmm_phys_base() (see
-	  asm/cdmm.h).
+	  asm-generic/cdmm.h).
 
 config MVEBU_MBUS
 	bool

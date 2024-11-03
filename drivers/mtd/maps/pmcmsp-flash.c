@@ -36,7 +36,7 @@
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <msp_prom.h>
 #include <msp_regs.h>

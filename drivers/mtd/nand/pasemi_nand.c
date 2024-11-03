@@ -33,7 +33,7 @@
 #include <linux/platform_device.h>
 #include <linux/pci.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define LBICTRL_LPCCTL_NR		0x00004000
 #define CLE_PIN_CTL			15

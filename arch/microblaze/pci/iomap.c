@@ -9,7 +9,7 @@
 #include <linux/mm.h>
 #include <linux/export.h>
 #include <linux/io.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 
 void pci_iounmap(struct pci_dev *dev, void __iomem *addr)
 {

@@ -16,7 +16,7 @@
 #include <linux/efi.h>
 #include <linux/serial.h>
 #include <linux/serial_core.h>
-#include <asm/vga.h>
+#include <asm-generic/vga.h>
 #include "pcdp.h"
 
 static int __init

@@ -24,9 +24,9 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/emma/emma2rh.h>
 
 #define RTABORT (0x1<<9)
 #define RMABORT (0x1<<10)

@@ -27,7 +27,7 @@
 #ifndef IRLMP_H
 #define IRLMP_H
 
-#include <asm/param.h>  /* for HZ */
+#include <asm-generic/param.h>  /* for HZ */
 
 #include <linux/types.h>
 

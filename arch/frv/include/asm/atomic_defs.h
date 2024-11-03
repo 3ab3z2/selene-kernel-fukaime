@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 
-#include <asm/spr-regs.h>
+#include <asm-generic/spr-regs.h>
 
 #ifdef __ATOMIC_LIB__
 

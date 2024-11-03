@@ -15,7 +15,7 @@
 #undef GDBSTUB_DEBUG_IO
 #undef GDBSTUB_DEBUG_PROTOCOL
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * important register numbers in GDB protocol

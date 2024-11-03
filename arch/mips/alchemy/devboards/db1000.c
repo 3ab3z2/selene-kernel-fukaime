@@ -31,12 +31,12 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/spi_gpio.h>
 #include <linux/spi/ads7846.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1000.h>
-#include <asm/mach-au1x00/au1000_dma.h>
-#include <asm/mach-au1x00/au1100_mmc.h>
-#include <asm/mach-db1x00/bcsr.h>
-#include <asm/reboot.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1000.h>
+#include <asm-generic/mach-au1x00/au1000_dma.h>
+#include <asm-generic/mach-au1x00/au1100_mmc.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
+#include <asm-generic/reboot.h>
 #include <prom.h>
 #include "platform.h"
 

@@ -19,11 +19,11 @@
 */
 
 #include <linux/kernel.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/vmalloc.h>
 #include <linux/pci.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/signal.h>
 #include <linux/sched.h>
 #include <linux/interrupt.h>

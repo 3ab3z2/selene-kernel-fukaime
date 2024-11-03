@@ -25,7 +25,7 @@
 #include <linux/mm.h>
 #include <linux/usb.h>
 #include <linux/i2c.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <media/v4l2-common.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-subdev.h>

@@ -16,9 +16,9 @@
 #include <linux/interrupt.h>
 #include <linux/ftrace.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 /* So far nothing hangs here */
 #undef USE_LIO3_IRQ

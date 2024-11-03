@@ -39,9 +39,9 @@
 #include <sound/info.h>
 #include <sound/initval.h>
 /* for 440MX workaround */
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #ifdef CONFIG_X86
-#include <asm/set_memory.h>
+#include <asm-generic/set_memory.h>
 #endif
 
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");

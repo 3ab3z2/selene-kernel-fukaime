@@ -12,10 +12,10 @@
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/mipsregs.h>
-#include <asm/setup.h>
-#include <asm/time.h>
-#include <asm/smp.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/time.h>
+#include <asm-generic/smp.h>
 
 /*
  * Writing the sp releases the CPU, so writes must be ordered, gp

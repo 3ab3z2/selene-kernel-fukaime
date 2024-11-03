@@ -66,10 +66,10 @@
 #include <linux/errno.h>
 #include <linux/spinlock.h>
 
-#include <asm/pdc.h>
-#include <asm/page.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/page.h>
 #include <linux/uaccess.h>
-#include <asm/hardware.h>
+#include <asm-generic/hardware.h>
 
 #define PDCS_VERSION	"0.30"
 #define PDCS_PREFIX	"PDC Stable Storage"

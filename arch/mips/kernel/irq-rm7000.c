@@ -14,8 +14,8 @@
 #include <linux/irq.h>
 #include <linux/kernel.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
 
 static inline void unmask_rm7k_irq(struct irq_data *d)
 {

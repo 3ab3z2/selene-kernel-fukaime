@@ -45,8 +45,8 @@
 #include <linux/sched.h>
 #include <linux/interrupt.h>
 #include <linux/mutex.h>
-#include <asm/dma.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
 #include <linux/io.h>
 #include <linux/uaccess.h>
 

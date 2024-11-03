@@ -14,12 +14,12 @@
 #include <linux/acpi.h>
 #include <linux/irqdomain.h>
 #include <linux/crash_dump.h>
-#include <asm/io_apic.h>
-#include <asm/smp.h>
-#include <asm/cpu.h>
-#include <asm/irq_remapping.h>
-#include <asm/pci-direct.h>
-#include <asm/msidef.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/irq_remapping.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/msidef.h>
 
 #include "irq_remapping.h"
 

@@ -11,10 +11,10 @@
  */
 
 #include <linux/types.h>
-#include <asm/assembler.h>
-#include <asm/cmpxchg.h>
-#include <asm/dcache_clear.h>
-#include <asm/barrier.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/dcache_clear.h>
+#include <asm-generic/barrier.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

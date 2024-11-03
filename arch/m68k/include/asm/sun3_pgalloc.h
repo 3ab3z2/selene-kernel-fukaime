@@ -11,7 +11,7 @@
 #ifndef _SUN3_PGALLOC_H
 #define _SUN3_PGALLOC_H
 
-#include <asm/tlb.h>
+#include <asm-generic/tlb.h>
 
 extern const char bad_pmd_string[];
 

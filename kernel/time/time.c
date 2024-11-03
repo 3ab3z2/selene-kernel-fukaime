@@ -40,7 +40,7 @@
 
 #include <linux/uaccess.h>
 #include <linux/compat.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #include <generated/timeconst.h>
 #include "timekeeping.h"

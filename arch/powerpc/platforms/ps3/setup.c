@@ -26,14 +26,14 @@
 #include <linux/export.h>
 #include <linux/bootmem.h>
 
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/time.h>
-#include <asm/iommu.h>
-#include <asm/udbg.h>
-#include <asm/prom.h>
-#include <asm/lv1call.h>
-#include <asm/ps3gpu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/time.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3gpu.h>
 
 #include "platform.h"
 

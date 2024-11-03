@@ -12,8 +12,8 @@
 #include <linux/errno.h>
 #include <linux/err.h>
 #include <linux/module.h>
-#include <asm/fcx.h>
-#include <asm/itcw.h>
+#include <asm-generic/fcx.h>
+#include <asm-generic/itcw.h>
 
 /**
  * struct itcw - incremental tcw helper data type

@@ -9,7 +9,7 @@
  * or implied.
  *
  */
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/uaccess.h>
 #include <linux/ctype.h>
 #include <linux/highmem.h>

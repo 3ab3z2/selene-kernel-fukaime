@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_PAGE_32_H
 #define _ASM_POWERPC_PAGE_32_H
 
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 #if defined(CONFIG_PHYSICAL_ALIGN) && (CONFIG_PHYSICAL_START != 0)
 #if (CONFIG_PHYSICAL_START % CONFIG_PHYSICAL_ALIGN) != 0

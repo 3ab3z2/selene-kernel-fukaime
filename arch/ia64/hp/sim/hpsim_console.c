@@ -16,13 +16,13 @@
 #include <linux/kdev_t.h>
 #include <linux/console.h>
 
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/pal.h>
-#include <asm/machvec.h>
-#include <asm/pgtable.h>
-#include <asm/sal.h>
-#include <asm/hpsim.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/hpsim.h>
 
 #include "hpsim_ssc.h"
 

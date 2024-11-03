@@ -16,8 +16,8 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/mach/irq.h>
-#include <asm/exception.h>
+#include <asm-generic/mach/irq.h>
+#include <asm-generic/exception.h>
 
 #define IO_STATUS	0x000
 #define IO_RAW_STATUS	0x004

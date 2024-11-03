@@ -22,7 +22,7 @@
 #include <stdlib.h>
 #include <memory.h>
 #include <unistd.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/bpf.h>
 #include "bpf.h"
 

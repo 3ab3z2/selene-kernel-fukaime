@@ -24,9 +24,9 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/blackfin.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #include "bf6xx-sport.h"
 

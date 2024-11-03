@@ -12,7 +12,7 @@
 #ifndef _ASM_MB93493_IRQS_H
 #define _ASM_MB93493_IRQS_H
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #ifndef __ASSEMBLY__
 

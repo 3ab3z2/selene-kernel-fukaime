@@ -22,8 +22,8 @@
  */
 
 #include <linux/kvm_host.h>
-#include <asm/kvm_emulate.h>
-#include <asm/kvm_hyp.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/kvm_hyp.h>
 
 #ifndef CONFIG_ARM64
 #define COMPAT_PSR_T_BIT	PSR_T_BIT

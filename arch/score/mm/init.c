@@ -35,8 +35,8 @@
 #include <linux/sched.h>
 #include <linux/initrd.h>
 
-#include <asm/sections.h>
-#include <asm/tlb.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
 
 unsigned long empty_zero_page;
 EXPORT_SYMBOL_GPL(empty_zero_page);

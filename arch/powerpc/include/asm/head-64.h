@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_HEAD_64_H
 #define _ASM_POWERPC_HEAD_64_H
 
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 #ifdef __ASSEMBLY__
 /*

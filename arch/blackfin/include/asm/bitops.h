@@ -27,7 +27,7 @@
 
 #include <asm-generic/bitops/ext2-atomic.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #ifndef CONFIG_SMP
 #include <linux/irqflags.h>
@@ -38,7 +38,7 @@
 #include <asm-generic/bitops/non-atomic.h>
 #else
 
-#include <asm/byteorder.h>	/* swab32 */
+#include <asm-generic/byteorder.h>	/* swab32 */
 #include <linux/linkage.h>
 
 asmlinkage int __raw_bit_set_asm(volatile unsigned long *addr, int nr);

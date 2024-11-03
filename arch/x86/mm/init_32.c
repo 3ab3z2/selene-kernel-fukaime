@@ -31,27 +31,27 @@
 #include <linux/cpumask.h>
 #include <linux/gfp.h>
 
-#include <asm/asm.h>
-#include <asm/bios_ebda.h>
-#include <asm/processor.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/bios_ebda.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/dma.h>
-#include <asm/fixmap.h>
-#include <asm/e820/api.h>
-#include <asm/apic.h>
-#include <asm/bugs.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/olpc_ofw.h>
-#include <asm/pgalloc.h>
-#include <asm/sections.h>
-#include <asm/paravirt.h>
-#include <asm/setup.h>
-#include <asm/set_memory.h>
-#include <asm/page_types.h>
-#include <asm/cpu_entry_area.h>
-#include <asm/init.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/olpc_ofw.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/cpu_entry_area.h>
+#include <asm-generic/init.h>
 
 #include "mm_internal.h"
 

@@ -4,7 +4,7 @@
  */
 
 #include <linux/string.h>
-#include <asm/console.h>
+#include <asm-generic/console.h>
 
 long
 srm_puts(const char *str, long len)

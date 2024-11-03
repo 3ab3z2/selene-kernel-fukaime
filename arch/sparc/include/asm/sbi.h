@@ -8,7 +8,7 @@
 #ifndef _SPARC_SBI_H
 #define _SPARC_SBI_H
 
-#include <asm/obio.h>
+#include <asm-generic/obio.h>
 
 /* SBI */
 struct sbi_regs {

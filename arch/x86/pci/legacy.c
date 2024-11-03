@@ -4,7 +4,7 @@
 #include <linux/init.h>
 #include <linux/export.h>
 #include <linux/pci.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/pci_x86.h>
 
 /*
  * Discover remaining PCI buses in case there are peer host bridges.

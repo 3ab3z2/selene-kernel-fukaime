@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS___FFS_H_
 #define _ASM_GENERIC_BITOPS___FFS_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /**
  * __ffs - find first bit in word.

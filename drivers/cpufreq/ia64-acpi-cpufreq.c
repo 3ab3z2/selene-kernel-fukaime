@@ -17,9 +17,9 @@
 #include <linux/cpufreq.h>
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/pal.h>
+#include <asm-generic/pal.h>
 
 #include <linux/acpi.h>
 #include <acpi/processor.h>

@@ -8,9 +8,9 @@
 #include <linux/timex.h>
 #include <linux/i8253.h>
 
-#include <asm/hpet.h>
-#include <asm/time.h>
-#include <asm/smp.h>
+#include <asm-generic/hpet.h>
+#include <asm-generic/time.h>
+#include <asm-generic/smp.h>
 
 /*
  * HPET replaces the PIT, when enabled. So we need to know, which of

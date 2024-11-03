@@ -354,11 +354,11 @@
 #include <linux/dma-mapping.h>
 #include <linux/firmware.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
-#include <asm/processor.h>
-#include <asm/types.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/types.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -367,7 +367,7 @@
 #include <scsi/scsi_tcq.h>
 
 #if defined(CONFIG_IA64_GENERIC) || defined(CONFIG_IA64_SGI_SN2)
-#include <asm/sn/io.h>
+#include <asm-generic/sn/io.h>
 #endif
 
 

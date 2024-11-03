@@ -43,9 +43,9 @@
  * SOFTWARE.
  */
 
-#include <asm/inst.h>
+#include <asm-generic/inst.h>
 #include <linux/linkage.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/nospec-branch.h>
 
 ## ISCSI CRC 32 Implementation with crc32 and pclmulqdq Instruction
 

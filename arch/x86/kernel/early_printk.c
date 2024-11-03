@@ -8,20 +8,20 @@
 #include <linux/pci_regs.h>
 #include <linux/pci_ids.h>
 #include <linux/errno.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/fcntl.h>
-#include <asm/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/fcntl.h>
+#include <asm-generic/setup.h>
 #include <xen/hvc-console.h>
-#include <asm/pci-direct.h>
-#include <asm/fixmap.h>
-#include <asm/intel-mid.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/intel-mid.h>
+#include <asm-generic/pgtable.h>
 #include <linux/usb/ehci_def.h>
 #include <linux/usb/xhci-dbgp.h>
 #include <linux/efi.h>
-#include <asm/efi.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/efi.h>
+#include <asm-generic/pci_x86.h>
 
 /* Simple VGA output */
 #define VGABASE		(__ISA_IO_base + 0xb8000)

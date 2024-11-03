@@ -15,7 +15,7 @@
 #include <linux/sched.h>
 #include <linux/init.h>
 #include <linux/mm.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/signal.h>
 #include <asm/io.h>
 #include <asm/delay.h>

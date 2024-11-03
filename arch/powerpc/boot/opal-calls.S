@@ -8,7 +8,7 @@
  */
 
 #include "ppc_asm.h"
-#include "../include/asm/opal-api.h"
+#include "../include/asm-generic/opal-api.h"
 
 	.text
 

@@ -11,7 +11,7 @@
 */
 
 #include <linux/linkage.h>
-#include <asm/assembler.h>
+#include <asm-generic/assembler.h>
 
 #include <mach/map.h>
 #include <mach/regs-irq.h>

@@ -14,9 +14,9 @@
 #include <linux/interrupt.h>
 #include <linux/io.h>
 
-#include <asm/sun3x.h>
-#include <asm/dma.h>
-#include <asm/dvma.h>
+#include <asm-generic/sun3x.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/dvma.h>
 
 /* DMA controller reg offsets */
 #define DMA_CSR		0x00UL	/* rw  DMA control/status register    0x00   */

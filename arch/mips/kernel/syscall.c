@@ -28,17 +28,17 @@
 #include <linux/elf.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/asm.h>
-#include <asm/asm-eva.h>
-#include <asm/branch.h>
-#include <asm/cachectl.h>
-#include <asm/cacheflush.h>
-#include <asm/asm-offsets.h>
-#include <asm/signal.h>
-#include <asm/sim.h>
-#include <asm/shmparam.h>
-#include <asm/sysmips.h>
-#include <asm/switch_to.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-eva.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/sim.h>
+#include <asm-generic/shmparam.h>
+#include <asm-generic/sysmips.h>
+#include <asm-generic/switch_to.h>
 
 /*
  * For historic reasons the pipe(2) syscall on MIPS has an unusual calling

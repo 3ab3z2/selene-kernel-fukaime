@@ -38,7 +38,7 @@
 #define GET_ESID_1T(x)		(((x) >> SID_SHIFT_1T) & SID_MASK_1T)
 
 #ifndef __ASSEMBLY__
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 typedef unsigned long pte_basic_t;
 

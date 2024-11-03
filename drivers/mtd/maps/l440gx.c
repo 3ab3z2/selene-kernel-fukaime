@@ -8,7 +8,7 @@
 #include <linux/pci.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/map.h>
 

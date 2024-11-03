@@ -13,7 +13,7 @@
 #include <linux/of_irq.h>
 #include <linux/irqchip.h>
 
-#include <asm/irq_cpu.h>
+#include <asm-generic/irq_cpu.h>
 
 
 void __init arch_init_irq(void)

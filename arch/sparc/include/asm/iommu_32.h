@@ -6,8 +6,8 @@
 #ifndef _SPARC_IOMMU_H
 #define _SPARC_IOMMU_H
 
-#include <asm/page.h>
-#include <asm/bitext.h>
+#include <asm-generic/page.h>
+#include <asm-generic/bitext.h>
 
 /* The iommu handles all virtual to physical address translations
  * that occur between the SBUS and physical memory.  Access by

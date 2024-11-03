@@ -55,21 +55,21 @@
 
 #include <trace/events/xen.h>
 
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
-#include <asm/fixmap.h>
-#include <asm/mmu_context.h>
-#include <asm/setup.h>
-#include <asm/paravirt.h>
-#include <asm/e820/api.h>
-#include <asm/linkage.h>
-#include <asm/page.h>
-#include <asm/init.h>
-#include <asm/pat.h>
-#include <asm/smp.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/linkage.h>
+#include <asm-generic/page.h>
+#include <asm-generic/init.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/smp.h>
 
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include <xen/xen.h>
 #include <xen/page.h>

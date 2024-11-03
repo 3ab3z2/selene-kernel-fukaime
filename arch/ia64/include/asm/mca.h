@@ -17,10 +17,10 @@
 #include <linux/interrupt.h>
 #include <linux/types.h>
 
-#include <asm/param.h>
-#include <asm/sal.h>
-#include <asm/processor.h>
-#include <asm/mca_asm.h>
+#include <asm-generic/param.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mca_asm.h>
 
 #define IA64_MCA_RENDEZ_TIMEOUT		(20 * 1000)	/* value in milliseconds - 20 seconds */
 

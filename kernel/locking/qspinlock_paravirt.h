@@ -518,7 +518,7 @@ __pv_queued_spin_unlock_slowpath(struct qspinlock *lock, u8 locked)
  * Alternatively, architecture specific version of __pv_queued_spin_unlock()
  * can be defined.
  */
-#include <asm/qspinlock_paravirt.h>
+#include <asm-generic/qspinlock_paravirt.h>
 
 #ifndef __pv_queued_spin_unlock
 __visible void __pv_queued_spin_unlock(struct qspinlock *lock)

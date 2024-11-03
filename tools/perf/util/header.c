@@ -35,7 +35,7 @@
 #include "build-id.h"
 #include "data.h"
 #include <api/fs/fs.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "tool.h"
 
 #include "sane_ctype.h"

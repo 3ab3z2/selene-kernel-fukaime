@@ -27,14 +27,14 @@
 #include <linux/bcd.h>
 #include <linux/platform_device.h>
 
-#include <asm/io.h>
-#include <asm/bootinfo.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/q40_master.h>
+#include <asm-generic/io.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/q40_master.h>
 
 extern void q40_init_IRQ(void);
 static void q40_get_model(char *model);

@@ -23,10 +23,10 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 #include <linux/kernel_stat.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/dcr.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/dcr.h>
 
 #define NR_UIC_INTS	32
 

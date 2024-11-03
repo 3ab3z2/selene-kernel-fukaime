@@ -25,12 +25,12 @@
 #include <linux/kvm_host.h>
 #include <linux/clockchips.h>
 
-#include <asm/reg.h>
-#include <asm/time.h>
-#include <asm/byteorder.h>
-#include <asm/kvm_ppc.h>
-#include <asm/disassemble.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/ppc-opcode.h>
 #include "timing.h"
 #include "trace.h"
 

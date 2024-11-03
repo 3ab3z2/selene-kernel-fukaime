@@ -11,8 +11,8 @@
 
 #ifdef CONFIG_SMP
 
-#include <asm/blackfin.h>
-#include <asm/irqflags.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irqflags.h>
 #include <mach/irq.h>
 
 #define SUPPLE_0_WAKEUP ((IRQ_SUPPLE_0 - (IRQ_CORETMR + 1)) % 32)

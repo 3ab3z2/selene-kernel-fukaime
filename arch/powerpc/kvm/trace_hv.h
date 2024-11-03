@@ -4,8 +4,8 @@
 
 #include <linux/tracepoint.h>
 #include "trace_book3s.h"
-#include <asm/hvcall.h>
-#include <asm/kvm_asm.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/kvm_asm.h>
 
 #undef TRACE_SYSTEM
 #define TRACE_SYSTEM kvm_hv

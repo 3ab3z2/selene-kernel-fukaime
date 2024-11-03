@@ -10,8 +10,8 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 extern void restore_current(void);
 

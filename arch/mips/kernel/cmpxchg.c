@@ -9,7 +9,7 @@
  */
 
 #include <linux/bitops.h>
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 unsigned long __xchg_small(volatile void *ptr, unsigned long val, unsigned int size)
 {

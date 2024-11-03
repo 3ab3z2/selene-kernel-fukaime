@@ -2,7 +2,7 @@
 #ifndef _SPARC64_CACHEFLUSH_H
 #define _SPARC64_CACHEFLUSH_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifndef __ASSEMBLY__
 

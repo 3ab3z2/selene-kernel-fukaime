@@ -10,7 +10,7 @@
 #include <linux/types.h>
 #include <linux/device.h>
 #include <linux/mutex.h>
-#include <asm/chpid.h>
+#include <asm-generic/chpid.h>
 #include "chsc.h"
 #include "css.h"
 

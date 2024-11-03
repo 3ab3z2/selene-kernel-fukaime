@@ -42,11 +42,11 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/spu.h>
-#include <asm/spu_csa.h>
-#include <asm/spu_priv1.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_csa.h>
+#include <asm-generic/spu_priv1.h>
 #include "spufs.h"
 #define CREATE_TRACE_POINTS
 #include "sputrace.h"

@@ -23,7 +23,7 @@
 #include <linux/clk.h>
 #include <linux/sizes.h>
 #include <linux/gpio.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #define DRIVER_NAME			"orion_spi"
 

@@ -11,7 +11,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 struct task_struct;
 

@@ -29,9 +29,9 @@
 #include <linux/init.h>
 #include <linux/string.h>
 #include <linux/kernel.h>
-#include <asm/fpu/api.h>
-#include <asm/cpufeatures.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/cpu_device_id.h>
 
 asmlinkage __u16 crc_t10dif_pcl(__u16 crc, const unsigned char *buf,
 				size_t len);

@@ -28,21 +28,21 @@
 #include <linux/compat.h>
 #include <linux/bitops.h>
 
-#include <asm/abi.h>
-#include <asm/asm.h>
-#include <asm/cacheflush.h>
-#include <asm/compat-signal.h>
-#include <asm/sim.h>
+#include <asm-generic/abi.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/compat-signal.h>
+#include <asm-generic/sim.h>
 #include <linux/uaccess.h>
-#include <asm/ucontext.h>
-#include <asm/fpu.h>
-#include <asm/cpu-features.h>
-#include <asm/war.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/war.h>
 
 #include "signal-common.h"
 
 /*
- * Including <asm/unistd.h> would give use the 64-bit syscall numbers ...
+ * Including <asm-generic/unistd.h> would give use the 64-bit syscall numbers ...
  */
 #define __NR_N32_restart_syscall	6214
 

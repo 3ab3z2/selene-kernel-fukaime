@@ -12,11 +12,11 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/blackfin.h>
-#include <asm/cplbinit.h>
-#include <asm/cplb.h>
-#include <asm/mmu_context.h>
-#include <asm/traps.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/cplb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/traps.h>
 
 /*
  * WARNING

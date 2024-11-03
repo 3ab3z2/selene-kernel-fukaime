@@ -45,7 +45,7 @@
 #include "evsel.h"
 #include "cpumap.h"
 #include "thread_map.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "auxtrace.h"
 
 #include <linux/hash.h>

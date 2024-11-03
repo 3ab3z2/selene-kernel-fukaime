@@ -29,7 +29,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 #include <linux/mutex.h>
 #include <linux/netdevice.h>

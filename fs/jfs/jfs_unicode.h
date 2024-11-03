@@ -20,7 +20,7 @@
 #define _H_JFS_UNICODE
 
 #include <linux/slab.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "jfs_types.h"
 
 typedef struct {

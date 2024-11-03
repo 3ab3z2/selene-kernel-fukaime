@@ -22,7 +22,7 @@
 #include <linux/export.h>
 #include <linux/gpio.h>
 
-#include <asm/mach-ar7/ar7.h>
+#include <asm-generic/mach-ar7/ar7.h>
 
 #define AR7_GPIO_MAX 32
 #define TITAN_GPIO_MAX 51

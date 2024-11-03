@@ -25,7 +25,7 @@
 #include <linux/uaccess.h>
 #include <linux/module.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 #include <asm-generic/div64.h>
 
 #include "timing.h"

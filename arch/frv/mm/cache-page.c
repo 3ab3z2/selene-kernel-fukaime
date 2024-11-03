@@ -12,7 +12,7 @@
 #include <linux/mm.h>
 #include <linux/highmem.h>
 #include <linux/module.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 /*****************************************************************************/
 /*

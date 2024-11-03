@@ -26,9 +26,9 @@
 #include <linux/fb.h>
 #include <linux/slab.h>
 
-#include <asm/firmware.h>
-#include <asm/ps3av.h>
-#include <asm/ps3.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/ps3av.h>
+#include <asm-generic/ps3.h>
 
 #include "vuart.h"
 

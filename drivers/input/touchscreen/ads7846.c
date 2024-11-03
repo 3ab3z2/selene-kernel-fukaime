@@ -34,8 +34,8 @@
 #include <linux/spi/ads7846.h>
 #include <linux/regulator/consumer.h>
 #include <linux/module.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * This code has been heavily tested on a Nokia 770, and lightly

@@ -12,15 +12,15 @@
 #include <linux/syscalls.h>
 #include <linux/sched/sysctl.h>
 
-#include <asm/insn.h>
-#include <asm/mman.h>
-#include <asm/mmu_context.h>
-#include <asm/mpx.h>
-#include <asm/processor.h>
-#include <asm/fpu/internal.h>
+#include <asm-generic/insn.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mpx.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/fpu/internal.h>
 
 #define CREATE_TRACE_POINTS
-#include <asm/trace/mpx.h>
+#include <asm-generic/trace/mpx.h>
 
 static inline unsigned long mpx_bd_size_bytes(struct mm_struct *mm)
 {

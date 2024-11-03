@@ -33,17 +33,17 @@
 #include <linux/pagemap.h>
 #include <linux/memblock.h>
 
-#include <asm/segment.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/tlb.h>
-#include <asm/mmu_context.h>
-#include <asm/kmap_types.h>
-#include <asm/fixmap.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
 
 int mem_init_done;
 

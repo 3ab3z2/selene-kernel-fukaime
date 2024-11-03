@@ -13,7 +13,7 @@
 #include <linux/mm.h>
 #include <linux/cpu.h>
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 #if defined(CONFIG_PPC32)
 static inline void switch_mm_pgdir(struct task_struct *tsk,

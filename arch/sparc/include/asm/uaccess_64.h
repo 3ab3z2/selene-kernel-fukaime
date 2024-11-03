@@ -8,11 +8,11 @@
 
 #include <linux/compiler.h>
 #include <linux/string.h>
-#include <asm/asi.h>
-#include <asm/spitfire.h>
-#include <asm/extable_64.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/extable_64.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 /*
  * Sparc64 is segmented, though more like the M68K than the I386.

@@ -17,13 +17,13 @@
 #include <linux/mutex.h>
 #include <linux/init.h>
 
-#include <asm/hwrpb.h>
+#include <asm-generic/hwrpb.h>
 #include <linux/atomic.h>
-#include <asm/irq.h>
-#include <asm/irq_regs.h>
-#include <asm/pal.h>
-#include <asm/wrperfmon.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/wrperfmon.h>
+#include <asm-generic/hw_irq.h>
 
 
 /* The maximum number of PMCs on any Alpha CPU whatsoever. */

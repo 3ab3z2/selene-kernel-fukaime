@@ -13,7 +13,7 @@
 
 #include <linux/of_platform.h>
 
-#include <asm/mach/arch.h>
+#include <asm-generic/mach/arch.h>
 
 static const char * const bcm63xx_dt_compat[] = {
 	"brcm,bcm63138",

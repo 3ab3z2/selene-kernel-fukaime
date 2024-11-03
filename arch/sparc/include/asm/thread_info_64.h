@@ -24,12 +24,12 @@
 #define TI_FLAG_BYTE_WSAVED		5
 #define TI_FLAG_WSAVED_SHIFT		16
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifndef __ASSEMBLY__
 
-#include <asm/ptrace.h>
-#include <asm/types.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/types.h>
 
 struct task_struct;
 

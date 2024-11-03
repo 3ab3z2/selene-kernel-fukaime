@@ -47,8 +47,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/assembler.h>
-#include <asm/opcodes-virt.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/opcodes-virt.h>
 #include <xen/interface/xen.h>
 
 

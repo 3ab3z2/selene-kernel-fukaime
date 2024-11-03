@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/bitops.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /**
  * hweightN - returns the hamming weight of a N-bit word

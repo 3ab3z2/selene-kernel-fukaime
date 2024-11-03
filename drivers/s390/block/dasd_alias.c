@@ -10,7 +10,7 @@
 
 #include <linux/list.h>
 #include <linux/slab.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 #include "dasd_int.h"
 #include "dasd_eckd.h"
 

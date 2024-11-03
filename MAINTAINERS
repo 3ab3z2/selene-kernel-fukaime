@@ -736,7 +736,7 @@ S:	Supported
 F:	drivers/char/hw_random/geode-rng.c
 F:	drivers/crypto/geode*
 F:	drivers/video/fbdev/geode/
-F:	arch/x86/include/asm/geode.h
+F:	arch/x86/include/asm-generic/geode.h
 
 AMD IOMMU (AMD-VI)
 M:	Joerg Roedel <joro@8bytes.org>
@@ -1000,8 +1000,8 @@ M:	Mark Rutland <mark.rutland@arm.com>
 M:	Marc Zyngier <marc.zyngier@arm.com>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 S:	Maintained
-F:	arch/arm/include/asm/arch_timer.h
-F:	arch/arm64/include/asm/arch_timer.h
+F:	arch/arm/include/asm-generic/arch_timer.h
+F:	arch/arm64/include/asm-generic/arch_timer.h
 F:	drivers/clocksource/arm_arch_timer.c
 
 ARM HDLCD DRM DRIVER
@@ -1022,7 +1022,7 @@ ARM MFM AND FLOPPY DRIVERS
 M:	Ian Molton <spyro@f2s.com>
 S:	Maintained
 F:	arch/arm/lib/floppydma.S
-F:	arch/arm/include/asm/floppy.h
+F:	arch/arm/include/asm-generic/floppy.h
 
 ARM PMU PROFILING AND DEBUGGING
 M:	Will Deacon <will.deacon@arm.com>
@@ -1032,8 +1032,8 @@ L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 F:	arch/arm*/kernel/perf_*
 F:	arch/arm/oprofile/common.c
 F:	arch/arm*/kernel/hw_breakpoint.c
-F:	arch/arm*/include/asm/hw_breakpoint.h
-F:	arch/arm*/include/asm/perf_event.h
+F:	arch/arm*/include/asm-generic/hw_breakpoint.h
+F:	arch/arm*/include/asm-generic/perf_event.h
 F:	drivers/perf/*
 F:	include/linux/perf/arm_pmu.h
 F:	Documentation/devicetree/bindings/arm/pmu.txt
@@ -1279,7 +1279,7 @@ M:	Russell King <linux@armlinux.org.uk>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 S:	Maintained
 T:	git git://git.armlinux.org.uk/~rmk/linux-arm.git clkdev
-F:	arch/arm/include/asm/clkdev.h
+F:	arch/arm/include/asm-generic/clkdev.h
 F:	drivers/clk/clkdev.c
 
 ARM/COMPULAB CM-X270/EM-X270 and CM-X300 MACHINE SUPPORT
@@ -1376,7 +1376,7 @@ M:	Russell King <linux@armlinux.org.uk>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 W:	http://www.armlinux.org.uk/
 S:	Maintained
-F:	arch/arm/include/asm/hardware/dec21285.h
+F:	arch/arm/include/asm-generic/hardware/dec21285.h
 F:	arch/arm/mach-footbridge/
 
 ARM/FREESCALE IMX / MXC ARM ARCHITECTURE
@@ -1776,10 +1776,10 @@ M:	Russell King <linux@armlinux.org.uk>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 W:	http://www.armlinux.org.uk/
 S:	Maintained
-F:	arch/arm/include/asm/hardware/entry-macro-iomd.S
-F:	arch/arm/include/asm/hardware/ioc.h
-F:	arch/arm/include/asm/hardware/iomd.h
-F:	arch/arm/include/asm/hardware/memc.h
+F:	arch/arm/include/asm-generic/hardware/entry-macro-iomd.S
+F:	arch/arm/include/asm-generic/hardware/ioc.h
+F:	arch/arm/include/asm-generic/hardware/iomd.h
+F:	arch/arm/include/asm-generic/hardware/memc.h
 F:	arch/arm/mach-rpc/
 F:	drivers/net/ethernet/8390/etherh.c
 F:	drivers/net/ethernet/i825xx/ether1*
@@ -2030,7 +2030,7 @@ L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 T:	git git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-uniphier.git
 S:	Maintained
 F:	arch/arm/boot/dts/uniphier*
-F:	arch/arm/include/asm/hardware/cache-uniphier.h
+F:	arch/arm/include/asm-generic/hardware/cache-uniphier.h
 F:	arch/arm/mach-uniphier/
 F:	arch/arm/mm/cache-uniphier.c
 F:	arch/arm64/boot/dts/socionext/
@@ -2435,7 +2435,7 @@ M:	Peter Zijlstra <peterz@infradead.org>
 R:	Boqun Feng <boqun.feng@gmail.com>
 L:	linux-kernel@vger.kernel.org
 S:	Maintained
-F:	arch/*/include/asm/atomic*.h
+F:	arch/*/include/asm-generic/atomic*.h
 F:	include/*/atomic*.h
 
 ATTO EXPRESSSAS SAS/SATA RAID SCSI DRIVER
@@ -2772,7 +2772,7 @@ L:	linux-mips@linux-mips.org
 S:	Maintained
 F:	Documentation/devicetree/bindings/mips/brcm/
 F:	arch/mips/bcm47xx/*
-F:	arch/mips/include/asm/mach-bcm47xx/*
+F:	arch/mips/include/asm-generic/mach-bcm47xx/*
 
 BROADCOM BCM5301X ARM ARCHITECTURE
 M:	Hauke Mehrtens <hauke@hauke-m.de>
@@ -2834,7 +2834,7 @@ L:	linux-mips@linux-mips.org
 T:	git git://github.com/broadcom/stblinux.git
 S:	Maintained
 F:	arch/mips/bmips/*
-F:	arch/mips/include/asm/mach-bmips/*
+F:	arch/mips/include/asm-generic/mach-bmips/*
 F:	arch/mips/kernel/*bmips*
 F:	arch/mips/boot/dts/brcm/bcm*.dts*
 F:	drivers/irqchip/irq-bcm63*
@@ -3129,8 +3129,8 @@ L:	iommu@lists.linux-foundation.org
 S:	Maintained
 F:	arch/x86/kernel/pci-calgary_64.c
 F:	arch/x86/kernel/tce_64.c
-F:	arch/x86/include/asm/calgary.h
-F:	arch/x86/include/asm/tce.h
+F:	arch/x86/include/asm-generic/calgary.h
+F:	arch/x86/include/asm-generic/tce.h
 
 CAN NETWORK DRIVERS
 M:	Wolfgang Grandegger <wg@grandegger.com>
@@ -3262,9 +3262,9 @@ M:	Arnd Bergmann <arnd@arndb.de>
 L:	linuxppc-dev@lists.ozlabs.org
 W:	http://www.ibm.com/developerworks/power/cell/
 S:	Supported
-F:	arch/powerpc/include/asm/cell*.h
-F:	arch/powerpc/include/asm/spu*.h
-F:	arch/powerpc/include/uapi/asm/spu*.h
+F:	arch/powerpc/include/asm-generic/cell*.h
+F:	arch/powerpc/include/asm-generic/spu*.h
+F:	arch/powerpc/include/uapi/asm-generic/spu*.h
 F:	arch/powerpc/oprofile/*cell*
 F:	arch/powerpc/platforms/cell/
 
@@ -3963,8 +3963,8 @@ L:	linux-mips@linux-mips.org
 W:	http://www.linux-mips.org/wiki/DECstation
 S:	Maintained
 F:	arch/mips/dec/
-F:	arch/mips/include/asm/dec/
-F:	arch/mips/include/asm/mach-dec/
+F:	arch/mips/include/asm-generic/dec/
+F:	arch/mips/include/asm-generic/mach-dec/
 
 DEFXX FDDI NETWORK DRIVER
 M:	"Maciej W. Rozycki" <macro@linux-mips.org>
@@ -5220,7 +5220,7 @@ S:	Maintained
 F:	Documentation/efi-stub.txt
 F:	arch/*/kernel/efi.c
 F:	arch/x86/boot/compressed/eboot.[ch]
-F:	arch/*/include/asm/efi.h
+F:	arch/*/include/asm-generic/efi.h
 F:	arch/x86/platform/efi/
 F:	drivers/firmware/efi/
 F:	include/linux/efi*.h
@@ -6182,7 +6182,7 @@ F:	kernel/power/
 F:	include/linux/suspend.h
 F:	include/linux/freezer.h
 F:	include/linux/pm.h
-F:	arch/*/include/asm/suspend*.h
+F:	arch/*/include/asm-generic/suspend*.h
 
 HID CORE LAYER
 M:	Jiri Kosina <jikos@kernel.org>
@@ -6307,7 +6307,7 @@ F:	include/uapi/linux/hpet.h
 HPET:	x86
 S:	Orphan
 F:	arch/x86/kernel/hpet.c
-F:	arch/x86/include/asm/hpet.h
+F:	arch/x86/include/asm-generic/hpet.h
 
 HPFS FILESYSTEM
 M:	Mikulas Patocka <mikulas@artax.karlin.mff.cuni.cz>
@@ -6382,9 +6382,9 @@ M:	Stephen Hemminger <sthemmin@microsoft.com>
 L:	devel@linuxdriverproject.org
 S:	Maintained
 F:	Documentation/networking/netvsc.txt
-F:	arch/x86/include/asm/mshyperv.h
-F:	arch/x86/include/asm/trace/hyperv.h
-F:	arch/x86/include/uapi/asm/hyperv.h
+F:	arch/x86/include/asm-generic/mshyperv.h
+F:	arch/x86/include/asm-generic/trace/hyperv.h
+F:	arch/x86/include/uapi/asm-generic/hyperv.h
 F:	arch/x86/kernel/cpu/mshyperv.c
 F:	arch/x86/hyperv
 F:	drivers/hid/hid-hyperv.c
@@ -6577,8 +6577,8 @@ L:	linuxppc-dev@lists.ozlabs.org
 S:	Supported
 F:	arch/powerpc/platforms/powernv/vas*
 F:	arch/powerpc/platforms/powernv/copy-paste.h
-F:	arch/powerpc/include/asm/vas.h
-F:	arch/powerpc/include/uapi/asm/vas.h
+F:	arch/powerpc/include/asm-generic/vas.h
+F:	arch/powerpc/include/uapi/asm-generic/vas.h
 
 IBM Power Virtual Ethernet Device Driver
 M:	Thomas Falcon <tlfalcon@linux.vnet.ibm.com>
@@ -7045,7 +7045,7 @@ M:	Rajneesh Bhardwaj <rajneesh.bhardwaj@intel.com>
 M:	Vishwanath Somayaji <vishwanath.somayaji@intel.com>
 L:	platform-driver-x86@vger.kernel.org
 S:	Maintained
-F:	arch/x86/include/asm/pmc_core.h
+F:	arch/x86/include/asm-generic/pmc_core.h
 F:	drivers/platform/x86/intel_pmc_core*
 
 INTEL PMC/P-Unit IPC DRIVER
@@ -7054,8 +7054,8 @@ L:	platform-driver-x86@vger.kernel.org
 S:	Maintained
 F:	drivers/platform/x86/intel_pmc_ipc.c
 F:	drivers/platform/x86/intel_punit_ipc.c
-F:	arch/x86/include/asm/intel_pmc_ipc.h
-F:	arch/x86/include/asm/intel_punit_ipc.h
+F:	arch/x86/include/asm-generic/intel_pmc_ipc.h
+F:	arch/x86/include/asm-generic/intel_punit_ipc.h
 
 INTEL PRO/WIRELESS 2100, 2200BG, 2915ABG NETWORK CONNECTION SUPPORT
 M:	Stanislav Yakovlev <stas.yakovlev@gmail.com>
@@ -7083,7 +7083,7 @@ INTEL TELEMETRY DRIVER
 M:	Souvik Kumar Chakravarty <souvik.k.chakravarty@intel.com>
 L:	platform-driver-x86@vger.kernel.org
 S:	Maintained
-F:	arch/x86/include/asm/intel_telemetry.h
+F:	arch/x86/include/asm-generic/intel_telemetry.h
 F:	drivers/platform/x86/intel_telemetry*
 
 INTEL VIRTUAL BUTTON DRIVER
@@ -7439,7 +7439,7 @@ R:	Alexander Potapenko <glider@google.com>
 R:	Dmitry Vyukov <dvyukov@google.com>
 L:	kasan-dev@googlegroups.com
 S:	Maintained
-F:	arch/*/include/asm/kasan.h
+F:	arch/*/include/asm-generic/kasan.h
 F:	arch/*/mm/kasan_init*
 F:	Documentation/dev-tools/kasan.rst
 F:	include/linux/kasan*.h
@@ -7550,7 +7550,7 @@ M:	Joerg Roedel <joro@8bytes.org>
 L:	kvm@vger.kernel.org
 W:	http://www.linux-kvm.org/
 S:	Maintained
-F:	arch/x86/include/asm/svm.h
+F:	arch/x86/include/asm-generic/svm.h
 F:	arch/x86/kvm/svm.c
 
 KERNEL VIRTUAL MACHINE FOR ARM (KVM/arm)
@@ -7561,8 +7561,8 @@ L:	kvmarm@lists.cs.columbia.edu
 W:	http://systems.cs.columbia.edu/projects/kvm-arm
 T:	git git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git
 S:	Supported
-F:	arch/arm/include/uapi/asm/kvm*
-F:	arch/arm/include/asm/kvm*
+F:	arch/arm/include/uapi/asm-generic/kvm*
+F:	arch/arm/include/asm-generic/kvm*
 F:	arch/arm/kvm/
 F:	virt/kvm/arm/
 F:	include/kvm/arm_*
@@ -7573,16 +7573,16 @@ M:	Marc Zyngier <marc.zyngier@arm.com>
 L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
 L:	kvmarm@lists.cs.columbia.edu
 S:	Maintained
-F:	arch/arm64/include/uapi/asm/kvm*
-F:	arch/arm64/include/asm/kvm*
+F:	arch/arm64/include/uapi/asm-generic/kvm*
+F:	arch/arm64/include/asm-generic/kvm*
 F:	arch/arm64/kvm/
 
 KERNEL VIRTUAL MACHINE FOR MIPS (KVM/mips)
 M:	James Hogan <jhogan@kernel.org>
 L:	linux-mips@linux-mips.org
 S:	Supported
-F:	arch/mips/include/uapi/asm/kvm*
-F:	arch/mips/include/asm/kvm*
+F:	arch/mips/include/uapi/asm-generic/kvm*
+F:	arch/mips/include/asm-generic/kvm*
 F:	arch/mips/kvm/
 
 KERNEL VIRTUAL MACHINE FOR POWERPC (KVM/powerpc)
@@ -7591,8 +7591,8 @@ L:	kvm-ppc@vger.kernel.org
 W:	http://www.linux-kvm.org/
 T:	git git://github.com/agraf/linux-2.6.git
 S:	Supported
-F:	arch/powerpc/include/uapi/asm/kvm*
-F:	arch/powerpc/include/asm/kvm*
+F:	arch/powerpc/include/uapi/asm-generic/kvm*
+F:	arch/powerpc/include/asm-generic/kvm*
 F:	arch/powerpc/kvm/
 F:	arch/powerpc/kernel/kvm*
 
@@ -7603,9 +7603,9 @@ L:	linux-s390@vger.kernel.org
 W:	http://www.ibm.com/developerworks/linux/linux390/
 T:	git git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
 S:	Supported
-F:	arch/s390/include/uapi/asm/kvm*
-F:	arch/s390/include/asm/gmap.h
-F:	arch/s390/include/asm/kvm*
+F:	arch/s390/include/uapi/asm-generic/kvm*
+F:	arch/s390/include/asm-generic/gmap.h
+F:	arch/s390/include/asm-generic/kvm*
 F:	arch/s390/kvm/
 F:	arch/s390/mm/gmap.c
 
@@ -7617,8 +7617,8 @@ W:	http://www.linux-kvm.org
 T:	git git://git.kernel.org/pub/scm/virt/kvm/kvm.git
 S:	Supported
 F:	arch/x86/kvm/
-F:	arch/x86/include/uapi/asm/kvm*
-F:	arch/x86/include/asm/kvm*
+F:	arch/x86/include/uapi/asm-generic/kvm*
+F:	arch/x86/include/asm-generic/kvm*
 F:	arch/x86/kernel/kvm.c
 F:	arch/x86/kernel/kvmclock.c
 
@@ -8023,7 +8023,7 @@ R:	Petr Mladek <pmladek@suse.com>
 S:	Maintained
 F:	kernel/livepatch/
 F:	include/linux/livepatch.h
-F:	arch/x86/include/asm/livepatch.h
+F:	arch/x86/include/asm-generic/livepatch.h
 F:	arch/x86/kernel/livepatch.c
 F:	Documentation/livepatch/
 F:	Documentation/ABI/testing/sysfs-kernel-livepatch
@@ -8099,12 +8099,12 @@ S:	Maintained
 F:	Documentation/locking/
 F:	include/linux/lockdep.h
 F:	include/linux/spinlock*.h
-F:	arch/*/include/asm/spinlock*.h
+F:	arch/*/include/asm-generic/spinlock*.h
 F:	include/linux/rwlock*.h
 F:	include/linux/mutex*.h
-F:	arch/*/include/asm/mutex*.h
+F:	arch/*/include/asm-generic/mutex*.h
 F:	include/linux/rwsem*.h
-F:	arch/*/include/asm/rwsem.h
+F:	arch/*/include/asm-generic/rwsem.h
 F:	include/linux/seqlock.h
 F:	lib/locking*.[ch]
 F:	kernel/locking/
@@ -9032,7 +9032,7 @@ M:	Keguang Zhang <keguang.zhang@gmail.com>
 L:	linux-mips@linux-mips.org
 S:	Maintained
 F:	arch/mips/loongson32/
-F:	arch/mips/include/asm/mach-loongson32/
+F:	arch/mips/include/asm-generic/mach-loongson32/
 F:	drivers/*/*loongson1*
 F:	drivers/*/*/*loongson1*
 
@@ -10089,7 +10089,7 @@ OPROFILE
 M:	Robert Richter <rric@kernel.org>
 L:	oprofile-list@lists.sf.net
 S:	Maintained
-F:	arch/*/include/asm/oprofile*.h
+F:	arch/*/include/asm-generic/oprofile*.h
 F:	arch/*/oprofile/
 F:	drivers/oprofile/
 F:	include/linux/oprofile.h
@@ -10209,7 +10209,7 @@ L:	virtualization@lists.linux-foundation.org
 S:	Supported
 F:	Documentation/virtual/paravirt_ops.txt
 F:	arch/*/kernel/paravirt*
-F:	arch/*/include/asm/paravirt*.h
+F:	arch/*/include/asm-generic/paravirt*.h
 F:	include/linux/hypervisor.h
 
 PARIDE DRIVERS FOR PARALLEL PORT IDE DEVICES
@@ -10577,7 +10577,7 @@ T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tj/percpu.git
 S:	Maintained
 F:	include/linux/percpu*.h
 F:	mm/percpu*.c
-F:	arch/*/include/asm/percpu.h
+F:	arch/*/include/asm-generic/percpu.h
 
 PER-TASK DELAY ACCOUNTING
 M:	Balbir Singh <bsingharora@gmail.com>
@@ -10601,7 +10601,7 @@ F:	include/uapi/linux/perf_event.h
 F:	arch/*/kernel/perf_event*.c
 F:	arch/*/kernel/*/perf_event*.c
 F:	arch/*/kernel/*/*/perf_event*.c
-F:	arch/*/include/asm/perf_event.h
+F:	arch/*/include/asm-generic/perf_event.h
 F:	arch/*/kernel/perf_callchain.c
 F:	arch/*/events/*
 F:	tools/perf/
@@ -10719,7 +10719,7 @@ M:	James Hartley <james.hartley@sondrel.com>
 L:	linux-mips@linux-mips.org
 S:	Odd Fixes
 F:	arch/mips/pistachio/
-F:	arch/mips/include/asm/mach-pistachio/
+F:	arch/mips/include/asm-generic/mach-pistachio/
 F:	arch/mips/boot/dts/img/pistachio*
 F:	arch/mips/configs/pistachio*_defconfig
 
@@ -10904,8 +10904,8 @@ M:	Geoff Levand <geoff@infradead.org>
 L:	linuxppc-dev@lists.ozlabs.org
 S:	Maintained
 F:	arch/powerpc/boot/ps3*
-F:	arch/powerpc/include/asm/lv1call.h
-F:	arch/powerpc/include/asm/ps3*.h
+F:	arch/powerpc/include/asm-generic/lv1call.h
+F:	arch/powerpc/include/asm-generic/ps3*.h
 F:	arch/powerpc/platforms/ps3/
 F:	drivers/*/ps3*
 F:	drivers/ps3/
@@ -10967,7 +10967,7 @@ F:	include/asm-generic/ptrace.h
 F:	kernel/ptrace.c
 F:	arch/*/ptrace*.c
 F:	arch/*/*/ptrace*.c
-F:	arch/*/include/asm/ptrace*.h
+F:	arch/*/include/asm-generic/ptrace*.h
 
 PULSE8-CEC DRIVER
 M:	Hans Verkuil <hverkuil@xs4all.nl>
@@ -11401,7 +11401,7 @@ M:	Fenghua Yu <fenghua.yu@intel.com>
 L:	linux-kernel@vger.kernel.org
 S:	Supported
 F:	arch/x86/kernel/cpu/intel_rdt*
-F:	arch/x86/include/asm/intel_rdt_sched.h
+F:	arch/x86/include/asm-generic/intel_rdt_sched.h
 F:	Documentation/x86/intel_rdt*
 
 READ-COPY UPDATE (RCU)
@@ -12830,7 +12830,7 @@ W:	http://sammy.net/sun3/
 S:	Maintained
 F:	arch/m68k/kernel/*sun3*
 F:	arch/m68k/sun3*/
-F:	arch/m68k/include/asm/sun3*
+F:	arch/m68k/include/asm-generic/sun3*
 F:	drivers/net/ethernet/i825xx/sun3*
 
 SUN4I LOW RES ADC ATTACHED TABLET KEYS DRIVER
@@ -13768,7 +13768,7 @@ S:	Maintained
 F:	arch/m68k/coldfire/
 F:	arch/m68k/68*/
 F:	arch/m68k/*/*_no.*
-F:	arch/m68k/include/asm/*_no.*
+F:	arch/m68k/include/asm-generic/*_no.*
 
 UDF FILESYSTEM
 M:	Jan Kara <jack@suse.com>
@@ -14729,14 +14729,14 @@ M:	Stefano Stabellini <sstabellini@kernel.org>
 L:	xen-devel@lists.xenproject.org (moderated for non-subscribers)
 S:	Maintained
 F:	arch/arm/xen/
-F:	arch/arm/include/asm/xen/
+F:	arch/arm/include/asm-generic/xen/
 
 XEN HYPERVISOR ARM64
 M:	Stefano Stabellini <sstabellini@kernel.org>
 L:	xen-devel@lists.xenproject.org (moderated for non-subscribers)
 S:	Maintained
 F:	arch/arm64/xen/
-F:	arch/arm64/include/asm/xen/
+F:	arch/arm64/include/asm-generic/xen/
 
 XEN HYPERVISOR INTERFACE
 M:	Boris Ostrovsky <boris.ostrovsky@oracle.com>
@@ -14747,7 +14747,7 @@ S:	Supported
 F:	arch/x86/xen/
 F:	drivers/*/xen-*front.c
 F:	drivers/xen/
-F:	arch/x86/include/asm/xen/
+F:	arch/x86/include/asm-generic/xen/
 F:	include/xen/
 F:	include/uapi/xen/
 F:	Documentation/ABI/stable/sysfs-hypervisor-xen

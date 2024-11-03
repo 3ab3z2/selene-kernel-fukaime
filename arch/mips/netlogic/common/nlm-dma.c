@@ -40,7 +40,7 @@
 #include <linux/init.h>
 #include <linux/mm.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 static char *nlm_swiotlb;
 

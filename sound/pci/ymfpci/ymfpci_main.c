@@ -37,7 +37,7 @@
 #include <sound/asoundef.h>
 #include <sound/mpu401.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /*
  *  common I/O routines

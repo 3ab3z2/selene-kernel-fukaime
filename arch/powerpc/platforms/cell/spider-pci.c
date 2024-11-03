@@ -25,9 +25,9 @@
 #include <linux/slab.h>
 #include <linux/io.h>
 
-#include <asm/ppc-pci.h>
-#include <asm/pci-bridge.h>
-#include <asm/io-workarounds.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/io-workarounds.h>
 
 #define SPIDER_PCI_DISABLE_PREFETCH
 

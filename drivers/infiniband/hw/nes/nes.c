@@ -45,9 +45,9 @@
 #include <linux/if_arp.h>
 #include <linux/highmem.h>
 #include <linux/slab.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 #include <rdma/ib_smi.h>
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_pack.h>

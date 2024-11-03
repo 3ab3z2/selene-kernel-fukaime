@@ -1,5 +1,5 @@
 /*
-** asm/bootinfo.h -- Definition of the Linux/m68k boot information structure
+** asm-generic/bootinfo.h -- Definition of the Linux/m68k boot information structure
 **
 ** Copyright 1992 by Greg Harp
 **
@@ -11,7 +11,7 @@
 #ifndef _M68K_BOOTINFO_H
 #define _M68K_BOOTINFO_H
 
-#include <uapi/asm/bootinfo.h>
+#include <uapi/asm-generic/bootinfo.h>
 
 
 #ifndef __ASSEMBLY__

@@ -19,7 +19,7 @@
 #include <linux/slab.h>
 
 /* for mips_hpt_frequency */
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #define BMIPS_CPUFREQ_PREFIX	"bmips"
 #define BMIPS_CPUFREQ_NAME	BMIPS_CPUFREQ_PREFIX "-cpufreq"

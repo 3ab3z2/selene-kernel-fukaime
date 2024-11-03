@@ -27,13 +27,13 @@
 #include <linux/nodemask.h>
 #include <linux/pfn.h>
 
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/m32r.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
 
 #ifdef CONFIG_MMU
 extern void init_mmu(void);

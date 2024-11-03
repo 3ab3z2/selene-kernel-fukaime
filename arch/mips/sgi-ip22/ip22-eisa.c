@@ -28,15 +28,15 @@
 #include <linux/sched.h>
 #include <linux/interrupt.h>
 #include <linux/delay.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/mipsregs.h>
-#include <asm/addrspace.h>
-#include <asm/processor.h>
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/ip22.h>
-#include <asm/i8259.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/ip22.h>
+#include <asm-generic/i8259.h>
 
 /* I2 has four EISA slots. */
 #define IP22_EISA_MAX_SLOTS	  4

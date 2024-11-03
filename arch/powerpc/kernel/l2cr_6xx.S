@@ -40,11 +40,11 @@
 	Author:	Terry Greeniaus (tgree@phys.ualberta.ca)
 	Please e-mail updates to this file to me, thanks!
 */
-#include <asm/processor.h>
-#include <asm/cputable.h>
-#include <asm/ppc_asm.h>
-#include <asm/cache.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
 
 /* Usage:
 

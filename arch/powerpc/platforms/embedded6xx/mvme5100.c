@@ -19,12 +19,12 @@
 
 #include <linux/of_platform.h>
 
-#include <asm/i8259.h>
-#include <asm/pci-bridge.h>
-#include <asm/mpic.h>
-#include <asm/prom.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/prom.h>
 #include <mm/mmu_decl.h>
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 
 #define HAWK_MPIC_SIZE		0x00040000U
 #define MVME5100_PCI_MEM_OFFSET 0x00000000

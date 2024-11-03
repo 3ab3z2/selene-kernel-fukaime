@@ -8,8 +8,8 @@
  */
 
 #include <linux/oprofile.h>
-#include <asm/ptrace.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/stacktrace.h>
 
 static int xtensa_backtrace_cb(struct stackframe *frame, void *data)
 {

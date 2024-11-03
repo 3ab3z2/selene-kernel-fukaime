@@ -51,12 +51,12 @@
 #include <linux/platform_device.h>
 #include <linux/gpio.h>
 
-#include <asm/blackfin.h>
-#include <asm/irq.h>
-#include <asm/dpmc.h>
-#include <asm/dma-mapping.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/dma-mapping.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #include <mach/bf54x-lq043.h>
 

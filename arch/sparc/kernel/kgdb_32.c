@@ -8,10 +8,10 @@
 #include <linux/kdebug.h>
 #include <linux/sched.h>
 
-#include <asm/kdebug.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cacheflush.h>
 
 #include "kernel.h"
 #include "entry.h"

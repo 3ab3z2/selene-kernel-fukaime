@@ -16,8 +16,8 @@
 #include <linux/errno.h>
 #include <linux/of.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
 #include <sysdev/fsl_soc.h>
 
 #include "mpc83xx.h"

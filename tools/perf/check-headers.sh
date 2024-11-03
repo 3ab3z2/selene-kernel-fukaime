@@ -14,24 +14,24 @@ include/uapi/sound/asound.h
 include/linux/bits.h
 include/linux/hash.h
 include/uapi/linux/hw_breakpoint.h
-arch/x86/include/asm/disabled-features.h
-arch/x86/include/asm/required-features.h
-arch/x86/include/asm/cpufeatures.h
-arch/arm/include/uapi/asm/perf_regs.h
-arch/arm64/include/uapi/asm/perf_regs.h
-arch/powerpc/include/uapi/asm/perf_regs.h
-arch/x86/include/uapi/asm/perf_regs.h
-arch/x86/include/uapi/asm/kvm.h
-arch/x86/include/uapi/asm/kvm_perf.h
-arch/x86/include/uapi/asm/svm.h
-arch/x86/include/uapi/asm/unistd.h
-arch/x86/include/uapi/asm/vmx.h
-arch/powerpc/include/uapi/asm/kvm.h
-arch/s390/include/uapi/asm/kvm.h
-arch/s390/include/uapi/asm/kvm_perf.h
-arch/s390/include/uapi/asm/sie.h
-arch/arm/include/uapi/asm/kvm.h
-arch/arm64/include/uapi/asm/kvm.h
+arch/x86/include/asm-generic/disabled-features.h
+arch/x86/include/asm-generic/required-features.h
+arch/x86/include/asm-generic/cpufeatures.h
+arch/arm/include/uapi/asm-generic/perf_regs.h
+arch/arm64/include/uapi/asm-generic/perf_regs.h
+arch/powerpc/include/uapi/asm-generic/perf_regs.h
+arch/x86/include/uapi/asm-generic/perf_regs.h
+arch/x86/include/uapi/asm-generic/kvm.h
+arch/x86/include/uapi/asm-generic/kvm_perf.h
+arch/x86/include/uapi/asm-generic/svm.h
+arch/x86/include/uapi/asm-generic/unistd.h
+arch/x86/include/uapi/asm-generic/vmx.h
+arch/powerpc/include/uapi/asm-generic/kvm.h
+arch/s390/include/uapi/asm-generic/kvm.h
+arch/s390/include/uapi/asm-generic/kvm_perf.h
+arch/s390/include/uapi/asm-generic/sie.h
+arch/arm/include/uapi/asm-generic/kvm.h
+arch/arm64/include/uapi/asm-generic/kvm.h
 include/asm-generic/bitops/arch_hweight.h
 include/asm-generic/bitops/const_hweight.h
 include/asm-generic/bitops/__fls.h
@@ -65,7 +65,7 @@ for i in $HEADERS; do
 done
 
 # diff with extra ignore lines
-check arch/x86/lib/memcpy_64.S        -I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>"
-check arch/x86/lib/memset_64.S        -I "^EXPORT_SYMBOL" -I "^#include <asm/export.h>"
+check arch/x86/lib/memcpy_64.S        -I "^EXPORT_SYMBOL" -I "^#include <asm-generic/export.h>"
+check arch/x86/lib/memset_64.S        -I "^EXPORT_SYMBOL" -I "^#include <asm-generic/export.h>"
 check include/uapi/asm-generic/mman.h -I "^#include <\(uapi/\)*asm-generic/mman-common.h>"
-check include/uapi/linux/mman.h       -I "^#include <\(uapi/\)*asm/mman.h>"
+check include/uapi/linux/mman.h       -I "^#include <\(uapi/\)*asm-generic/mman.h>"

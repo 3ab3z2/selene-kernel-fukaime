@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_STAT_H
 #define _ASM_M32R_STAT_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 struct __old_kernel_stat {
 	unsigned short st_dev;

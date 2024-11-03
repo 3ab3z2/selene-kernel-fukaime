@@ -22,10 +22,10 @@
 #include <linux/slab.h>
 #include <linux/sched/signal.h>
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 #include <linux/uaccess.h>
-#include <asm/timex.h>
-#include <asm/cpacf.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/cpacf.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("IBM Corporation");

@@ -15,8 +15,8 @@
 #include <linux/slab.h>
 #include <linux/init.h>
 
-#include <asm/head.h>
-#include <asm/timer.h>
+#include <asm-generic/head.h>
+#include <asm-generic/timer.h>
 
 static struct cpufreq_driver *cpufreq_us3_driver;
 

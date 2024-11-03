@@ -33,7 +33,7 @@ typedef unsigned int u32;
 typedef unsigned long long u64;
 
 #include <spu_intrinsics.h>
-#include <asm/spu_csa.h>
+#include <asm-generic/spu_csa.h>
 #include "spu_utils.h"
 
 static inline void save_event_mask(void)

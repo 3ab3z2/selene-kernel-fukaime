@@ -22,7 +22,7 @@
 
 #include <linux/types.h>
 #include <linux/kvm_host.h>
-#include <asm/kvm_book3s_asm.h>
+#include <asm-generic/kvm_book3s_asm.h>
 
 struct kvmppc_bat {
 	u64 raw;
@@ -262,10 +262,10 @@ static inline struct kvmppc_vcpu_book3s *to_book3s(struct kvm_vcpu *vcpu)
 /* Also add subarch specific defines */
 
 #ifdef CONFIG_KVM_BOOK3S_32_HANDLER
-#include <asm/kvm_book3s_32.h>
+#include <asm-generic/kvm_book3s_32.h>
 #endif
 #ifdef CONFIG_KVM_BOOK3S_64_HANDLER
-#include <asm/kvm_book3s_64.h>
+#include <asm-generic/kvm_book3s_64.h>
 #endif
 
 static inline void kvmppc_set_gpr(struct kvm_vcpu *vcpu, int num, ulong val)

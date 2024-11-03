@@ -15,19 +15,19 @@
 #include <linux/prctl.h>
 #include <linux/sched/smt.h>
 
-#include <asm/spec-ctrl.h>
-#include <asm/cmdline.h>
-#include <asm/bugs.h>
-#include <asm/processor.h>
-#include <asm/processor-flags.h>
-#include <asm/fpu/internal.h>
-#include <asm/msr.h>
-#include <asm/vmx.h>
-#include <asm/paravirt.h>
-#include <asm/hypervisor.h>
-#include <asm/pgtable.h>
-#include <asm/intel-family.h>
-#include <asm/e820/api.h>
+#include <asm-generic/spec-ctrl.h>
+#include <asm-generic/cmdline.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/fpu/internal.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/vmx.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/e820/api.h>
 #include <linux/bpf.h>
 
 #include "cpu.h"

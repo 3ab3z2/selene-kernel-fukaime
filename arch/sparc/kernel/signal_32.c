@@ -22,11 +22,11 @@
 #include <linux/tracehook.h>
 
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>	/* flush_sig_insns */
-#include <asm/switch_to.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>	/* flush_sig_insns */
+#include <asm-generic/switch_to.h>
 
 #include "sigutil.h"
 #include "kernel.h"

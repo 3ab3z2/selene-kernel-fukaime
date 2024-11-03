@@ -20,7 +20,7 @@
 #include <linux/vmalloc.h>
 #include <linux/proc_fs.h>
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 #include <linux/uaccess.h>
 
 /* This is ugly... */

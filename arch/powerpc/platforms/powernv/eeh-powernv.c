@@ -27,16 +27,16 @@
 #include <linux/seq_file.h>
 #include <linux/spinlock.h>
 
-#include <asm/eeh.h>
-#include <asm/eeh_event.h>
-#include <asm/firmware.h>
-#include <asm/io.h>
-#include <asm/iommu.h>
-#include <asm/machdep.h>
-#include <asm/msi_bitmap.h>
-#include <asm/opal.h>
-#include <asm/ppc-pci.h>
-#include <asm/pnv-pci.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/io.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/pnv-pci.h>
 
 #include "powernv.h"
 #include "pci.h"

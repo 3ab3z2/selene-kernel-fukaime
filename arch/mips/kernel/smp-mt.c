@@ -26,16 +26,16 @@
 #include <linux/smp.h>
 
 #include <linux/atomic.h>
-#include <asm/cacheflush.h>
-#include <asm/cpu.h>
-#include <asm/processor.h>
-#include <asm/hardirq.h>
-#include <asm/mmu_context.h>
-#include <asm/time.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/mips_mt.h>
-#include <asm/mips-cps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/mips_mt.h>
+#include <asm-generic/mips-cps.h>
 
 static void __init smvp_copy_vpe_config(void)
 {

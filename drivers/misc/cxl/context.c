@@ -18,9 +18,9 @@
 #include <linux/slab.h>
 #include <linux/idr.h>
 #include <linux/sched/mm.h>
-#include <asm/cputable.h>
-#include <asm/current.h>
-#include <asm/copro.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/current.h>
+#include <asm-generic/copro.h>
 
 #include "cxl.h"
 

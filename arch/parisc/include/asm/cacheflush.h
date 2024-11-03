@@ -4,7 +4,7 @@
 
 #include <linux/mm.h>
 #include <linux/uaccess.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 /* The usual comment is "Caches aren't brain-dead on the <architecture>".
  * Unfortunately, that doesn't apply to PA-RISC. */
@@ -102,7 +102,7 @@ flush_anon_page(struct vm_area_struct *vma, struct page *page, unsigned long vma
 	}
 }
 
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 
 #define ARCH_HAS_KMAP
 

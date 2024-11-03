@@ -31,7 +31,7 @@
  */
 
 /* for struct user_regs_struct definition */
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /* The OR1K relocation types... not all relevant for module loader */
 #define R_OR32_NONE	0

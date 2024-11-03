@@ -14,9 +14,9 @@
 #include <linux/pci.h>
 #include <linux/serial_8250.h>
 
-#include <asm/sni.h>
-#include <asm/time.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/sni.h>
+#include <asm-generic/time.h>
+#include <asm-generic/irq_cpu.h>
 
 
 #define PORT(_base,_irq)				\

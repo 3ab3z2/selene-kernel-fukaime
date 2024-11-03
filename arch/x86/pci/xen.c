@@ -15,17 +15,17 @@
 #include <linux/acpi.h>
 
 #include <linux/io.h>
-#include <asm/io_apic.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/pci_x86.h>
 
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include <xen/features.h>
 #include <xen/events.h>
-#include <asm/xen/pci.h>
-#include <asm/xen/cpuid.h>
-#include <asm/apic.h>
-#include <asm/i8259.h>
+#include <asm-generic/xen/pci.h>
+#include <asm-generic/xen/cpuid.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/i8259.h>
 
 static int xen_pcifront_enable_irq(struct pci_dev *dev)
 {
@@ -154,7 +154,7 @@ static int acpi_register_gsi_xen(struct device *dev, u32 gsi,
 
 #if defined(CONFIG_PCI_MSI)
 #include <linux/msi.h>
-#include <asm/msidef.h>
+#include <asm-generic/msidef.h>
 
 struct xen_pci_frontend_ops *xen_pci_frontend;
 EXPORT_SYMBOL_GPL(xen_pci_frontend);

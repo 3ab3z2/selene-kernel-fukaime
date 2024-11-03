@@ -18,11 +18,11 @@
 #include <linux/module.h>
 #include <linux/rtc.h>	/* For struct rtc_time and ioctls, etc */
 #include <linux/bcd.h>
-#include <asm/bvme6000hw.h>
+#include <asm-generic/bvme6000hw.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /*
  *	We sponge a minor off of the misc major. No need slurping

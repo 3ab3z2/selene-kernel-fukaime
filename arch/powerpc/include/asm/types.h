@@ -13,7 +13,7 @@
 #ifndef _ASM_POWERPC_TYPES_H
 #define _ASM_POWERPC_TYPES_H
 
-#include <uapi/asm/types.h>
+#include <uapi/asm-generic/types.h>
 
 #ifdef __powerpc64__
 #if defined(_CALL_ELF) && _CALL_ELF == 2

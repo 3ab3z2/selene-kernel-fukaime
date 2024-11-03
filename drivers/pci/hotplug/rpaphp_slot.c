@@ -29,7 +29,7 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 #include "rpaphp.h"
 
 /* free up the memory used by a slot */

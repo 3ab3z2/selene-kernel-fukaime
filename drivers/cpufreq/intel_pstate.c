@@ -31,11 +31,11 @@
 #include <linux/vmalloc.h>
 #include <trace/events/power.h>
 
-#include <asm/div64.h>
-#include <asm/msr.h>
-#include <asm/cpu_device_id.h>
-#include <asm/cpufeature.h>
-#include <asm/intel-family.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/intel-family.h>
 
 #define INTEL_PSTATE_SAMPLING_INTERVAL	(10 * NSEC_PER_MSEC)
 

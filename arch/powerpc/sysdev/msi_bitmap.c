@@ -12,8 +12,8 @@
 #include <linux/kernel.h>
 #include <linux/bitmap.h>
 #include <linux/bootmem.h>
-#include <asm/msi_bitmap.h>
-#include <asm/setup.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/setup.h>
 
 int msi_bitmap_alloc_hwirqs(struct msi_bitmap *bmp, int num)
 {

@@ -9,8 +9,8 @@
 #define __QDIO_H__
 
 #include <linux/interrupt.h>
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
 
 /* only use 4 queues to save some cachelines */
 #define QDIO_MAX_QUEUES_PER_IRQ		4

@@ -13,7 +13,7 @@
  * Select video mode
  */
 
-#include <uapi/asm/boot.h>
+#include <uapi/asm-generic/boot.h>
 
 #include "boot.h"
 #include "video.h"

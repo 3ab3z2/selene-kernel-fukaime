@@ -33,7 +33,7 @@
 
 #include <linux/spinlock.h>
 #include <linux/mutex.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #undef PARPORT_PARANOID
 

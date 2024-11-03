@@ -11,8 +11,8 @@
 #ifndef __CPM2__
 #define __CPM2__
 
-#include <asm/immap_cpm2.h>
-#include <asm/cpm.h>
+#include <asm-generic/immap_cpm2.h>
+#include <asm-generic/cpm.h>
 #include <sysdev/fsl_soc.h>
 
 /* CPM Command register.

@@ -34,17 +34,17 @@
 #include <linux/slab.h>
 #include <linux/hugetlb.h>
 
-#include <asm/pgalloc.h>
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/btext.h>
-#include <asm/tlb.h>
-#include <asm/sections.h>
-#include <asm/hugetlb.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/hugetlb.h>
 
 #include "mmu_decl.h"
 

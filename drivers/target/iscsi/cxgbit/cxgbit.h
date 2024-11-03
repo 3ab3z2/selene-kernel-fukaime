@@ -24,7 +24,7 @@
 #include <linux/timer.h>
 #include <linux/io.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/net_namespace.h>
 

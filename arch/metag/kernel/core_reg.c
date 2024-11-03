@@ -9,12 +9,12 @@
 #include <linux/delay.h>
 #include <linux/export.h>
 
-#include <asm/core_reg.h>
-#include <asm/global_lock.h>
-#include <asm/hwthread.h>
-#include <asm/io.h>
-#include <asm/metag_mem.h>
-#include <asm/metag_regs.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/global_lock.h>
+#include <asm-generic/hwthread.h>
+#include <asm-generic/io.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/metag_regs.h>
 
 #define UNIT_BIT_MASK		TXUXXRXRQ_UXX_BITS
 #define REG_BIT_MASK		TXUXXRXRQ_RX_BITS
@@ -35,7 +35,7 @@
  * @thread:	The thread we want to access.
  * @val:	The new value to write.
  *
- * Check asm/metag_regs.h for a list/defines of supported units (ie: TXUPC_ID,
+ * Check asm-generic/metag_regs.h for a list/defines of supported units (ie: TXUPC_ID,
  * TXUTR_ID, etc), and regnums within the units (ie: TXMASKI_REGNUM,
  * TXPOLLI_REGNUM, etc).
  */
@@ -77,7 +77,7 @@ EXPORT_SYMBOL(core_reg_write);
  * @reg:	Register number within the unit.
  * @thread:	The thread we want to access.
  *
- * Check asm/metag_regs.h for a list/defines of supported units (ie: TXUPC_ID,
+ * Check asm-generic/metag_regs.h for a list/defines of supported units (ie: TXUPC_ID,
  * TXUTR_ID, etc), and regnums within the units (ie: TXMASKI_REGNUM,
  * TXPOLLI_REGNUM, etc).
  */

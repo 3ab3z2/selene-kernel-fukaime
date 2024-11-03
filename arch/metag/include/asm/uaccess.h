@@ -56,7 +56,7 @@ static inline int __access_ok(unsigned long addr, unsigned long size)
 #define access_ok(type, addr, size) __access_ok((unsigned long)(addr),	\
 						(unsigned long)(size))
 
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 
 /*
  * These are the main single-value transfer routines.  They automatically

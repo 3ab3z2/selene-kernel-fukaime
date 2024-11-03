@@ -12,8 +12,8 @@
 #define pr_fmt(fmt) "emulate_step_test: " fmt
 
 #include <linux/ptrace.h>
-#include <asm/sstep.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/sstep.h>
+#include <asm-generic/ppc-opcode.h>
 
 #define IMM_L(i)		((uintptr_t)(i) & 0xffff)
 

@@ -8,9 +8,9 @@
  *                           Hitoshi Yamamoto, Mamoru Sakugawa
  */
 
-#include <asm/m32r.h>
-#include <asm/page.h>
-#include <asm/io.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
 
 #define PORT2ADDR(port)  _port2addr(port)
 

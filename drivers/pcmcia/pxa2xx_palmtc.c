@@ -17,7 +17,7 @@
 #include <linux/gpio.h>
 #include <linux/delay.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/palmtc.h>
 #include "soc_common.h"
 

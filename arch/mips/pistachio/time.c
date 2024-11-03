@@ -14,8 +14,8 @@
 #include <linux/init.h>
 #include <linux/of.h>
 
-#include <asm/mips-cps.h>
-#include <asm/time.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/time.h>
 
 unsigned int get_c0_compare_int(void)
 {

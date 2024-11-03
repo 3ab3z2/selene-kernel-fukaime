@@ -38,8 +38,8 @@
 #include <linux/mutex.h>
 #include <linux/device.h>
 #include <linux/pid_namespace.h>
-#include <asm/io.h>
-#include <asm/poll.h>
+#include <asm-generic/io.h>
+#include <asm-generic/poll.h>
 #include <linux/uaccess.h>
 
 #include <linux/coda.h>

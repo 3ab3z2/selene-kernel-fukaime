@@ -9,7 +9,7 @@
 
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/irq_cpu.h>
 
 #include <loongson1.h>
 #include <irq.h>

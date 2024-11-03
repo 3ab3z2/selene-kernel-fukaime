@@ -26,7 +26,7 @@
 
 #include <mach/gpio-samsung.h>
 #include "regs-iis.h"
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include "s3c24xx-i2s.h"
 

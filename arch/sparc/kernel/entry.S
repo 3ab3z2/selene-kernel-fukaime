@@ -11,26 +11,26 @@
 #include <linux/linkage.h>
 #include <linux/errno.h>
 
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/smp.h>
-#include <asm/contregs.h>
-#include <asm/ptrace.h>
-#include <asm/asm-offsets.h>
-#include <asm/psr.h>
-#include <asm/vaddrs.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/winmacro.h>
-#include <asm/signal.h>
-#include <asm/obio.h>
-#include <asm/mxcc.h>
-#include <asm/thread_info.h>
-#include <asm/param.h>
-#include <asm/unistd.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/winmacro.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/obio.h>
+#include <asm-generic/mxcc.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/param.h>
+#include <asm-generic/unistd.h>
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 #define curptr      g6
 
@@ -1297,7 +1297,7 @@ restore_current:
 	 nop
 
 #ifdef CONFIG_PCIC_PCI
-#include <asm/pcic.h>
+#include <asm-generic/pcic.h>
 
 	.align	4
 	.globl	linux_trap_ipi15_pcic

@@ -2,9 +2,9 @@
 #ifndef __HEAD_BOOKE_H__
 #define __HEAD_BOOKE_H__
 
-#include <asm/ptrace.h>	/* for STACK_FRAME_REGS_MARKER */
-#include <asm/kvm_asm.h>
-#include <asm/kvm_booke_hv_asm.h>
+#include <asm-generic/ptrace.h>	/* for STACK_FRAME_REGS_MARKER */
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/kvm_booke_hv_asm.h>
 
 /*
  * Macros used for common Book-e exception handling

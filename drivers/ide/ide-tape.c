@@ -40,10 +40,10 @@
 #include <linux/mutex.h>
 #include <scsi/scsi.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 #include <linux/io.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/mtio.h>
 
 /* define to see debug info */

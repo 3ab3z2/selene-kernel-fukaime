@@ -24,7 +24,7 @@
 #include <linux/delay.h>
 #include <linux/clk.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/of.h>
 #include <linux/of_device.h>

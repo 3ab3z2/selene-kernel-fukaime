@@ -56,7 +56,7 @@
 #include <xen/interface/io/vscsiif.h>
 #include <xen/interface/io/protocols.h>
 
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 
 #define GRANT_INVALID_REF	0

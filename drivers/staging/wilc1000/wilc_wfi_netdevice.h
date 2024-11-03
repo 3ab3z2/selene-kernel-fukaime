@@ -39,7 +39,7 @@
 #include <net/ieee80211_radiotap.h>
 #include <linux/if_arp.h>
 #include <linux/in6.h>
-#include <asm/checksum.h>
+#include <asm-generic/checksum.h>
 #include "host_interface.h"
 #include "wilc_wlan.h"
 #include <linux/wireless.h>

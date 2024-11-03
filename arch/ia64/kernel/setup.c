@@ -50,20 +50,20 @@
 #include <linux/kexec.h>
 #include <linux/crash_dump.h>
 
-#include <asm/machvec.h>
-#include <asm/mca.h>
-#include <asm/meminit.h>
-#include <asm/page.h>
-#include <asm/patch.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/sal.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/smp.h>
-#include <asm/tlbflush.h>
-#include <asm/unistd.h>
-#include <asm/hpsim.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/mca.h>
+#include <asm-generic/meminit.h>
+#include <asm-generic/page.h>
+#include <asm-generic/patch.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/hpsim.h>
 
 #if defined(CONFIG_SMP) && (IA64_CPU_SIZE > PAGE_SIZE)
 # error "struct cpuinfo_ia64 too big!"
@@ -338,7 +338,7 @@ static inline void __init setup_crashkernel(unsigned long total, int *n)
  *
  * Setup the reserved memory areas set aside for the boot parameters,
  * initrd, etc.  There are currently %IA64_MAX_RSVD_REGIONS defined,
- * see arch/ia64/include/asm/meminit.h if you need to define more.
+ * see arch/ia64/include/asm-generic/meminit.h if you need to define more.
  */
 void __init
 reserve_memory (void)

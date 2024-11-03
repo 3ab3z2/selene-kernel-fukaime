@@ -22,12 +22,12 @@
 #include <linux/nmi.h>
 #include <linux/genalloc.h>
 #include <linux/gfp.h>
-#include <asm/page.h>
-#include <asm/pal.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/pgtable.h>
 #include <linux/atomic.h>
-#include <asm/tlbflush.h>
-#include <asm/sn/arch.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sn/arch.h>
 
 
 extern void __init efi_memmap_walk_uc(efi_freemem_callback_t, void *);

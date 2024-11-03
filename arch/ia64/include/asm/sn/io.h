@@ -9,7 +9,7 @@
 #ifndef _ASM_SN_IO_H
 #define _ASM_SN_IO_H
 #include <linux/compiler.h>
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 
 extern void * sn_io_addr(unsigned long port) __attribute_const__; /* Forward definition */
 extern void __sn_mmiowb(void); /* Forward definition */

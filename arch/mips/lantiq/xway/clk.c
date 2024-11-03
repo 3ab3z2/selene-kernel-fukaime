@@ -11,9 +11,9 @@
 #include <linux/export.h>
 #include <linux/clk.h>
 
-#include <asm/time.h>
-#include <asm/irq.h>
-#include <asm/div64.h>
+#include <asm-generic/time.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/div64.h>
 
 #include <lantiq_soc.h>
 

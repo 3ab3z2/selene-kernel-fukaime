@@ -14,8 +14,8 @@
 
 #include <linux/module.h>
 #include <linux/device.h>
-#include <asm/sn/bte.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/bte.h>
+#include <asm-generic/sn/sn_sal.h>
 #include "xp.h"
 
 /*

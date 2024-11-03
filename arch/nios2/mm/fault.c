@@ -26,8 +26,8 @@
 #include <linux/uaccess.h>
 #include <linux/ptrace.h>
 
-#include <asm/mmu_context.h>
-#include <asm/traps.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/traps.h>
 
 #define EXC_SUPERV_INSN_ACCESS	9  /* Supervisor only instruction address */
 #define EXC_SUPERV_DATA_ACCESS	11 /* Supervisor only data address */

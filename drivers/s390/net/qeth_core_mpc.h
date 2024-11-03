@@ -9,7 +9,7 @@
 #ifndef __QETH_CORE_MPC_H__
 #define __QETH_CORE_MPC_H__
 
-#include <asm/qeth.h>
+#include <asm-generic/qeth.h>
 
 #define IPA_PDU_HEADER_SIZE	0x40
 #define QETH_IPA_PDU_LEN_TOTAL(buffer) (buffer + 0x0e)

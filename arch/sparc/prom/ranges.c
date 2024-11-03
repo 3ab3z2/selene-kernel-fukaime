@@ -9,9 +9,9 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/types.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/types.h>
 
 static struct linux_prom_ranges promlib_obio_ranges[PROMREG_MAX];
 static int num_obio_ranges;

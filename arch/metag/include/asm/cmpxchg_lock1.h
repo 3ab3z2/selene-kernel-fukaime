@@ -2,7 +2,7 @@
 #ifndef __ASM_METAG_CMPXCHG_LOCK1_H
 #define __ASM_METAG_CMPXCHG_LOCK1_H
 
-#include <asm/global_lock.h>
+#include <asm-generic/global_lock.h>
 
 /* Use LOCK2 as these have to be atomic w.r.t. ordinary accesses. */
 

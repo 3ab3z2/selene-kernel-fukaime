@@ -28,7 +28,7 @@
 #ifndef __CVMX_L2C_DEFS_H__
 #define __CVMX_L2C_DEFS_H__
 
-#include <uapi/asm/bitfield.h>
+#include <uapi/asm-generic/bitfield.h>
 
 #define CVMX_L2C_DBG (CVMX_ADD_IO_SEG(0x0001180080000030ull))
 #define CVMX_L2C_CFG (CVMX_ADD_IO_SEG(0x0001180080000000ull))

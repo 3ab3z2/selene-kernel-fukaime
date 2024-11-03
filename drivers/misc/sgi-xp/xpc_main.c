@@ -54,7 +54,7 @@
 #include "xpc.h"
 
 #ifdef CONFIG_X86_64
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 #endif
 
 /* define two XPC debug device structures to be used with dev_dbg() et al */

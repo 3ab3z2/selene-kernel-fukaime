@@ -17,7 +17,7 @@
 
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 /*
  * PMAX/3MAX PROM entry points for DS2100/3100's and DS5000/2xx's.

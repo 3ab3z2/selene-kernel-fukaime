@@ -17,14 +17,14 @@
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <asm/kvm.h>
-#include <asm/kvm_ppc.h>
-#include <asm/disassemble.h>
-#include <asm/kvm_book3s.h>
-#include <asm/kvm_fpu.h>
-#include <asm/reg.h>
-#include <asm/cacheflush.h>
-#include <asm/switch_to.h>
+#include <asm-generic/kvm.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/kvm_fpu.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/switch_to.h>
 #include <linux/vmalloc.h>
 
 /* #define DEBUG */

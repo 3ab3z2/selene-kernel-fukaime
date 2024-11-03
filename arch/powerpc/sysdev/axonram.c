@@ -47,8 +47,8 @@
 #include <linux/pfn_t.h>
 #include <linux/uio.h>
 
-#include <asm/page.h>
-#include <asm/prom.h>
+#include <asm-generic/page.h>
+#include <asm-generic/prom.h>
 
 #define AXON_RAM_MODULE_NAME		"axonram"
 #define AXON_RAM_DEVICE_NAME		"axonram"

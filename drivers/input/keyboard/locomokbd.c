@@ -32,8 +32,8 @@
 #include <linux/interrupt.h>
 #include <linux/ioport.h>
 
-#include <asm/hardware/locomo.h>
-#include <asm/irq.h>
+#include <asm-generic/hardware/locomo.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("John Lenz <lenz@cs.wisc.edu>");
 MODULE_DESCRIPTION("LoCoMo keyboard driver");

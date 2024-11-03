@@ -5,7 +5,7 @@
 #include <linux/netdevice.h>
 #include <linux/skbuff.h>
 #include <linux/workqueue.h>
-#include <asm/ccwdev.h>
+#include <asm-generic/ccwdev.h>
 
 #define LCS_DBF_TEXT(level, name, text) \
 	do { \

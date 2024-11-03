@@ -43,7 +43,7 @@
 #include <asm/lse.h>
 #include <asm/pgtable-hwdef.h>
 #include <asm/ptrace.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * TASK_SIZE - the maximum size of a user space task.

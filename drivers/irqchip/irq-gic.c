@@ -42,16 +42,16 @@
 #include <linux/irqchip/chained_irq.h>
 #include <linux/irqchip/arm-gic.h>
 
-#include <asm/cputype.h>
-#include <asm/irq.h>
-#include <asm/exception.h>
-#include <asm/smp_plat.h>
-#include <asm/virt.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/virt.h>
 
 #include "irq-gic-common.h"
 
 #ifdef CONFIG_ARM64
-#include <asm/cpufeature.h>
+#include <asm-generic/cpufeature.h>
 
 static void gic_check_cpu_features(void)
 {

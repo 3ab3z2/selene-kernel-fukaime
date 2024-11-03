@@ -10,7 +10,7 @@
 #ifndef _UAPI__ASM_ARC_ELF_H
 #define _UAPI__ASM_ARC_ELF_H
 
-#include <asm/ptrace.h>		/* for user_regs_struct */
+#include <asm-generic/ptrace.h>		/* for user_regs_struct */
 
 /* Machine specific ELF Hdr flags */
 #define EF_ARC_OSABI_MSK	0x00000f00

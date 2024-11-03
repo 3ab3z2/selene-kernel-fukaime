@@ -9,8 +9,8 @@
 #include <linux/module.h>
 #include <linux/err.h>
 #include <linux/gpio.h>
-#include <asm/blackfin.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/portmux.h>
 
 #define DEFINE_REG(reg, off) \
 static inline u16 read_##reg(void __iomem *port) \

@@ -50,12 +50,12 @@
 #ifndef _EPAPR_HCALLS_H
 #define _EPAPR_HCALLS_H
 
-#include <uapi/asm/epapr_hcalls.h>
+#include <uapi/asm-generic/epapr_hcalls.h>
 
 #ifndef __ASSEMBLY__
 #include <linux/types.h>
 #include <linux/errno.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /*
  * Hypercall register clobber list

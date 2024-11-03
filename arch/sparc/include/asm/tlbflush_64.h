@@ -2,7 +2,7 @@
 #ifndef _SPARC64_TLBFLUSH_H
 #define _SPARC64_TLBFLUSH_H
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 /* TSB flush operations. */
 

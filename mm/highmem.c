@@ -28,7 +28,7 @@
 #include <linux/hash.h>
 #include <linux/highmem.h>
 #include <linux/kgdb.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 
 #if defined(CONFIG_HIGHMEM) || defined(CONFIG_X86_32)
@@ -47,7 +47,7 @@ DEFINE_PER_CPU(int, __kmap_atomic_idx);
 
 /*
  * Architecture with aliasing data cache may define the following family of
- * helper functions in its asm/highmem.h to control cache color of virtual
+ * helper functions in its asm-generic/highmem.h to control cache color of virtual
  * addresses where physical memory pages are mapped by kmap.
  */
 #ifndef get_pkmap_color

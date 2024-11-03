@@ -16,12 +16,12 @@
 #include <linux/slab.h>
 #include <linux/leds.h>
 
-#include <asm/hardware/dec21285.h>
-#include <asm/mach-types.h>
-#include <asm/setup.h>
-#include <asm/system_misc.h>
+#include <asm-generic/hardware/dec21285.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/system_misc.h>
 
-#include <asm/mach/arch.h>
+#include <asm-generic/mach/arch.h>
 
 #include "common.h"
 

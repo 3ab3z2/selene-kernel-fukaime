@@ -29,17 +29,17 @@
 #include <linux/device.h>
 #include <linux/nospec.h>
 
-#include <asm/apic.h>
-#include <asm/stacktrace.h>
-#include <asm/nmi.h>
-#include <asm/smp.h>
-#include <asm/alternative.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
-#include <asm/timer.h>
-#include <asm/desc.h>
-#include <asm/ldt.h>
-#include <asm/unwind.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/ldt.h>
+#include <asm-generic/unwind.h>
 
 #include "perf_event.h"
 
@@ -2384,7 +2384,7 @@ static unsigned long get_segment_base(unsigned int segment)
 
 #ifdef CONFIG_IA32_EMULATION
 
-#include <asm/compat.h>
+#include <asm-generic/compat.h>
 
 static inline int
 perf_callchain_user32(struct pt_regs *regs, struct perf_callchain_entry_ctx *entry)

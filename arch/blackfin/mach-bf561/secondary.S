@@ -9,9 +9,9 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/blackfin.h>
-#include <asm/asm-offsets.h>
-#include <asm/trace.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/trace.h>
 
 /*
  * This code must come first as CoreB is hardcoded (in hardware)

@@ -31,7 +31,7 @@
 #include <linux/pm_qos.h>
 
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "hub.h"
 #include "otg_whitelist.h"

@@ -20,8 +20,8 @@
 #include <linux/syscore_ops.h>
 #include <linux/irq.h>
 
-#include <asm/i8259.h>
-#include <asm/io.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/io.h>
 
 /*
  * This is the 'legacy' 8259A Programmable Interrupt Controller,

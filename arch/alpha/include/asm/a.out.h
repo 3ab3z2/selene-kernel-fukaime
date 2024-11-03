@@ -2,7 +2,7 @@
 #ifndef __ALPHA_A_OUT_H__
 #define __ALPHA_A_OUT_H__
 
-#include <uapi/asm/a.out.h>
+#include <uapi/asm-generic/a.out.h>
 
 
 /* Assume that start addresses below 4G belong to a TASO application.

@@ -49,9 +49,9 @@
 #include <linux/timer.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #ifdef __sparc__
-#  include <asm/irq.h>
+#  include <asm-generic/irq.h>
 #endif
 
 #include <scsi/scsi.h>

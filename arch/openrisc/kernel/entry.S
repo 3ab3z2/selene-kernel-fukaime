@@ -18,15 +18,15 @@
 
 #include <linux/linkage.h>
 
-#include <asm/processor.h>
-#include <asm/unistd.h>
-#include <asm/thread_info.h>
-#include <asm/errno.h>
-#include <asm/spr_defs.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/spr_defs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/asm-offsets.h>
 
 #define DISABLE_INTERRUPTS(t1,t2)			\
 	l.mfspr t2,r0,SPR_SR				;\

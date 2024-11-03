@@ -9,11 +9,11 @@
 #include <linux/reboot.h>
 #include <linux/init.h>
 
-#include <asm/hypervisor.h>
-#include <asm/spitfire.h>
-#include <asm/oplib.h>
-#include <asm/head.h>
-#include <asm/io.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/head.h>
+#include <asm-generic/io.h>
 
 #include "kernel.h"
 

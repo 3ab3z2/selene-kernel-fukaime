@@ -26,7 +26,7 @@
 #include <linux/uaccess.h>
 #include <linux/delay.h>
 #include <linux/bitops.h>
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 
 #include <linux/nospec.h>
 

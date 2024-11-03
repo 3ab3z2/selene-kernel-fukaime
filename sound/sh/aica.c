@@ -41,7 +41,7 @@
 #include <sound/pcm.h>
 #include <sound/initval.h>
 #include <sound/info.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <mach/sysasic.h>
 #include "aica.h"
 

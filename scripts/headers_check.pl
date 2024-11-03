@@ -103,7 +103,7 @@ sub check_asm_types
 	if ($line =~ m/^\s*#\s*include\s+<asm\/types.h>/) {
 		$linux_asm_types = 1;
 		printf STDERR "$filename:$lineno: " .
-		"include of <linux/types.h> is preferred over <asm/types.h>\n"
+		"include of <linux/types.h> is preferred over <asm-generic/types.h>\n"
 		# Warn until headers are all fixed
 		#$ret = 1;
 	}

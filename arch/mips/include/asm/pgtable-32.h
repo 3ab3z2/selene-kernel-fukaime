@@ -9,18 +9,18 @@
 #ifndef _ASM_PGTABLE_32_H
 #define _ASM_PGTABLE_32_H
 
-#include <asm/addrspace.h>
-#include <asm/page.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/page.h>
 
 #include <linux/linkage.h>
-#include <asm/cachectl.h>
-#include <asm/fixmap.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/fixmap.h>
 
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 
 #ifdef CONFIG_HIGHMEM
-#include <asm/highmem.h>
+#include <asm-generic/highmem.h>
 #endif
 
 extern int temp_tlb_entry;

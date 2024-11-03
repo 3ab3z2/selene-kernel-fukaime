@@ -51,10 +51,10 @@
 #ifndef __CVMX_POW_H__
 #define __CVMX_POW_H__
 
-#include <asm/octeon/cvmx-pow-defs.h>
+#include <asm-generic/octeon/cvmx-pow-defs.h>
 
-#include <asm/octeon/cvmx-scratch.h>
-#include <asm/octeon/cvmx-wqe.h>
+#include <asm-generic/octeon/cvmx-scratch.h>
+#include <asm-generic/octeon/cvmx-wqe.h>
 
 /* Default to having all POW constancy checks turned on */
 #ifndef CVMX_ENABLE_POW_CHECKS

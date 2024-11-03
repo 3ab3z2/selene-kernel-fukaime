@@ -7,14 +7,14 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/current.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/cpufeatures.h>
-#include <asm/alternative-asm.h>
-#include <asm/asm.h>
-#include <asm/smap.h>
-#include <asm/export.h>
+#include <asm-generic/current.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/alternative-asm.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/smap.h>
+#include <asm-generic/export.h>
 
 /*
  * copy_user_generic_unrolled - memory copy with exception handling.

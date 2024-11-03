@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/cpu_device_id.h>
-#include <asm/cpufeature.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/cpufeature.h>
 #include <linux/cpu.h>
 #include <linux/export.h>
 #include <linux/slab.h>
@@ -23,7 +23,7 @@
  * Fields can be wildcarded with %X86_VENDOR_ANY, %X86_FAMILY_ANY,
  * %X86_MODEL_ANY, %X86_FEATURE_ANY (except for vendor)
  *
- * asm/cpu_device_id.h contains a set of useful macros which are shortcuts
+ * asm-generic/cpu_device_id.h contains a set of useful macros which are shortcuts
  * for various common selections. The above can be shortened to:
  *
  * X86_MATCH_INTEL_FAM6_MODEL(BROADWELL, NULL);

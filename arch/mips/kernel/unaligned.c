@@ -81,14 +81,14 @@
 #include <linux/debugfs.h>
 #include <linux/perf_event.h>
 
-#include <asm/asm.h>
-#include <asm/branch.h>
-#include <asm/byteorder.h>
-#include <asm/cop2.h>
-#include <asm/debug.h>
-#include <asm/fpu.h>
-#include <asm/fpu_emulator.h>
-#include <asm/inst.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/cop2.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/fpu_emulator.h>
+#include <asm-generic/inst.h>
 #include <linux/uaccess.h>
 
 #define STR(x)	__STR(x)

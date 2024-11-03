@@ -14,7 +14,7 @@
 #include <linux/debugfs.h>
 #include <linux/workqueue.h>
 #include <linux/kref.h>
-#include <asm/hypfs.h>
+#include <asm-generic/hypfs.h>
 
 #define REG_FILE_MODE    0440
 #define UPDATE_FILE_MODE 0220

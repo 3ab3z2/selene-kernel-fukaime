@@ -10,7 +10,7 @@
  */
 
 #include <linux/list.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include <asm-generic/module.h>
 
 

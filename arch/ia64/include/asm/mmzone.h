@@ -12,8 +12,8 @@
 #define _ASM_IA64_MMZONE_H
 
 #include <linux/numa.h>
-#include <asm/page.h>
-#include <asm/meminit.h>
+#include <asm-generic/page.h>
+#include <asm-generic/meminit.h>
 
 #ifdef CONFIG_NUMA
 

@@ -17,9 +17,9 @@
 #include <linux/spinlock.h>
 #include <linux/export.h>
 
-#include <asm/processor.h>
-#include <asm/cputable.h>
-#include <asm/pmc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/pmc.h>
 
 #ifndef MMCR0_PMAO
 #define MMCR0_PMAO	0

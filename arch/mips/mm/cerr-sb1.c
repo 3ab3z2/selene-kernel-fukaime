@@ -16,13 +16,13 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 #include <linux/sched.h>
-#include <asm/mipsregs.h>
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
 
 #if !defined(CONFIG_SIBYTE_BUS_WATCHER) || defined(CONFIG_SIBYTE_BW_TRACE)
-#include <asm/io.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 #endif
 
 /*

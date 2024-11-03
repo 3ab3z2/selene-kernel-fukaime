@@ -17,7 +17,7 @@
 #include <linux/string.h>
 #include <linux/uaccess.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /*
  * bitmaps provide an array of bits, implemented using an an

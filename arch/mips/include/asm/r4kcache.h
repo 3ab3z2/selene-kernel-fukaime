@@ -14,13 +14,13 @@
 
 #include <linux/stringify.h>
 
-#include <asm/asm.h>
-#include <asm/cacheops.h>
-#include <asm/compiler.h>
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/mipsmtregs.h>
-#include <asm/mmzone.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/mmzone.h>
 #include <linux/uaccess.h> /* for uaccess_kernel() */
 
 extern void (*r4k_blast_dcache)(void);

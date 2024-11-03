@@ -16,9 +16,9 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/smp.h>
-#include <asm/cdmm.h>
-#include <asm/hazards.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cdmm.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/mipsregs.h>
 
 /* Access control and status register fields */
 #define CDMM_ACSR_DEVTYPE_SHIFT	24
@@ -391,7 +391,7 @@ static int mips_cdmm_setup(struct mips_cdmm_bus *bus)
 		/*
 		 * If you hit this, either your bootloader needs to set up the
 		 * CDMM on the boot CPU, or else you need to implement
-		 * mips_cdmm_phys_base() for your platform (see asm/cdmm.h).
+		 * mips_cdmm_phys_base() for your platform (see asm-generic/cdmm.h).
 		 */
 		pr_err("cdmm%u: Failed to choose a physical base\n",
 		       smp_processor_id());

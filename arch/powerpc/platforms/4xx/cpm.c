@@ -36,9 +36,9 @@
 #include <linux/sysfs.h>
 #include <linux/cpu.h>
 #include <linux/suspend.h>
-#include <asm/dcr.h>
-#include <asm/dcr-native.h>
-#include <asm/machdep.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-native.h>
+#include <asm-generic/machdep.h>
 
 #define CPM_ER	0
 #define CPM_FR	1

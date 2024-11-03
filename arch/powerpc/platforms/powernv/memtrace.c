@@ -20,8 +20,8 @@
 #include <linux/slab.h>
 #include <linux/memory.h>
 #include <linux/memory_hotplug.h>
-#include <asm/machdep.h>
-#include <asm/debugfs.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/debugfs.h>
 
 /* This enables us to keep track of the memory removed from each node. */
 struct memtrace_entry {

@@ -17,7 +17,7 @@
 #include <linux/rio_ids.h>
 #include <linux/delay.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "../rio.h"
 
 #define LOCAL_RTE_CONF_DESTID_SEL	0x010070

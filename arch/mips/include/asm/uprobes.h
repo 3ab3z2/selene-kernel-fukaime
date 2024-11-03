@@ -9,8 +9,8 @@
 #include <linux/notifier.h>
 #include <linux/types.h>
 
-#include <asm/break.h>
-#include <asm/inst.h>
+#include <asm-generic/break.h>
+#include <asm-generic/inst.h>
 
 /*
  * We want this to be defined as union mips_instruction but that makes the

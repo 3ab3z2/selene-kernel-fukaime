@@ -35,7 +35,7 @@
 #include <linux/uaccess.h>
 #include <linux/clk.h>
 #include <linux/perf_event.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #include "coresight-etm.h"
 #include "coresight-etm-perf.h"

@@ -2,11 +2,11 @@
 #include <linux/sched/task.h>
 #include <linux/sched/task_stack.h>
 #include <linux/interrupt.h>
-#include <asm/sections.h>
-#include <asm/ptrace.h>
-#include <asm/bitops.h>
-#include <asm/stacktrace.h>
-#include <asm/unwind.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/unwind.h>
 
 #define FRAME_HEADER_SIZE (sizeof(long) * 2)
 

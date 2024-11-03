@@ -25,7 +25,7 @@
 #include <linux/mutex.h>
 #include <linux/timekeeping.h>
 
-/*#include <asm/io.h>*/
+/*#include <asm-generic/io.h>*/
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Generic gameport layer");

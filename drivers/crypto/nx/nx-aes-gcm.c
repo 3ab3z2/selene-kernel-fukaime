@@ -25,7 +25,7 @@
 #include <crypto/scatterwalk.h>
 #include <linux/module.h>
 #include <linux/types.h>
-#include <asm/vio.h>
+#include <asm-generic/vio.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

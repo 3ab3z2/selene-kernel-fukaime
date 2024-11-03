@@ -17,16 +17,16 @@
 #include <linux/fs.h>
 #include <linux/bootmem.h>
 #include <linux/random.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
-#include <asm/cacheops.h>
-#include <asm/cpu-info.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
-#include <asm/inst.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/inst.h>
 
 #undef CONFIG_MIPS_MT
-#include <asm/r4kcache.h>
+#include <asm-generic/r4kcache.h>
 #define CONFIG_MIPS_MT
 
 #include "interrupt.h"

@@ -20,8 +20,8 @@
  * Copyright (C) 1999 Don Dugger <don.dugger@intel.com>
  */
 
-#include <asm/unaligned.h>
-#include <asm/early_ioremap.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/early_ioremap.h>
 
 /* We don't use IO slowdowns on the ia64, but.. */
 #define __SLOW_DOWN_IO	do { } while (0)
@@ -70,9 +70,9 @@ extern unsigned int num_io_spaces;
 #define PIO_RESERVED		__IA64_UNCACHED_OFFSET
 #define HAVE_ARCH_PIO_SIZE
 
-#include <asm/intrinsics.h>
-#include <asm/machvec.h>
-#include <asm/page.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/page.h>
 #include <asm-generic/iomap.h>
 
 /*
@@ -97,7 +97,7 @@ extern int valid_mmap_phys_addr_range (unsigned long pfn, size_t count);
 
 /*
  * The following two macros are deprecated and scheduled for removal.
- * Please use the PCI-DMA interface defined in <asm/pci.h> instead.
+ * Please use the PCI-DMA interface defined in <asm-generic/pci.h> instead.
  */
 #define bus_to_virt	phys_to_virt
 #define virt_to_bus	virt_to_phys

@@ -74,7 +74,7 @@
 #include <linux/vmalloc.h>
 #include <net/sock.h>
 #include <linux/atomic.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/timex.h>
 #include <linux/uaccess.h>
 #include <stdarg.h>

@@ -13,8 +13,8 @@
 #include <linux/export.h>
 #include <linux/sched.h>
 
-#include <asm/cpu-features.h>
-#include <asm/cpu-info.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-info.h>
 
 /* Whether to accept legacy-NaN and 2008-NaN user binaries.  */
 bool mips_use_nan_legacy;

@@ -18,10 +18,10 @@
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/linkage.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
 
 	.section	".toc","aw"
 PPC64_CACHES:

@@ -8,10 +8,10 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/blackfin.h>
-#include <asm/thread_info.h>
-#include <asm/trace.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/asm-offsets.h>
 
 __INIT
 

@@ -33,7 +33,7 @@
 #include <linux/io.h>
 #include <linux/pwm.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <mach/platform.h>	/* for ep93xx_pwm_{acquire,release}_gpio() */
 

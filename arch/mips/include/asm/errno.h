@@ -8,7 +8,7 @@
 #ifndef _ASM_ERRNO_H
 #define _ASM_ERRNO_H
 
-#include <uapi/asm/errno.h>
+#include <uapi/asm-generic/errno.h>
 
 
 /* The biggest error number defined here or in <linux/errno.h>. */

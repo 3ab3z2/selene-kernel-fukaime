@@ -12,10 +12,10 @@
  */
 #include <linux/perf_event.h>
 #include <linux/slab.h>
-#include <asm/opal.h>
-#include <asm/imc-pmu.h>
-#include <asm/cputhreads.h>
-#include <asm/smp.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/imc-pmu.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/smp.h>
 #include <linux/string.h>
 
 /* Nest IMC data structures and variables */

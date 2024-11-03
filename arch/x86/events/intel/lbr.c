@@ -2,9 +2,9 @@
 #include <linux/perf_event.h>
 #include <linux/types.h>
 
-#include <asm/perf_event.h>
-#include <asm/msr.h>
-#include <asm/insn.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/insn.h>
 
 #include "../perf_event.h"
 

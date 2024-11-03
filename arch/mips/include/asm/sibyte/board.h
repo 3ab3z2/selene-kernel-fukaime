@@ -21,19 +21,19 @@
 
 #if defined(CONFIG_SIBYTE_SWARM) || defined(CONFIG_SIBYTE_CRHONE) || \
     defined(CONFIG_SIBYTE_CRHINE) || defined(CONFIG_SIBYTE_LITTLESUR)
-#include <asm/sibyte/swarm.h>
+#include <asm-generic/sibyte/swarm.h>
 #endif
 
 #if defined(CONFIG_SIBYTE_SENTOSA) || defined(CONFIG_SIBYTE_RHONE)
-#include <asm/sibyte/sentosa.h>
+#include <asm-generic/sibyte/sentosa.h>
 #endif
 
 #ifdef CONFIG_SIBYTE_CARMEL
-#include <asm/sibyte/carmel.h>
+#include <asm-generic/sibyte/carmel.h>
 #endif
 
 #ifdef CONFIG_SIBYTE_BIGSUR
-#include <asm/sibyte/bigsur.h>
+#include <asm-generic/sibyte/bigsur.h>
 #endif
 
 #ifdef __ASSEMBLY__

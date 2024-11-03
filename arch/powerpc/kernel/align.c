@@ -19,15 +19,15 @@
 
 #include <linux/kernel.h>
 #include <linux/mm.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/cache.h>
-#include <asm/cputable.h>
-#include <asm/emulated_ops.h>
-#include <asm/switch_to.h>
-#include <asm/disassemble.h>
-#include <asm/cpu_has_feature.h>
-#include <asm/sstep.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/emulated_ops.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/cpu_has_feature.h>
+#include <asm-generic/sstep.h>
 
 struct aligninfo {
 	unsigned char len;

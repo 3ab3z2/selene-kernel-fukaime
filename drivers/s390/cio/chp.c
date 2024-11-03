@@ -16,9 +16,9 @@
 #include <linux/mutex.h>
 #include <linux/errno.h>
 #include <linux/slab.h>
-#include <asm/chpid.h>
-#include <asm/sclp.h>
-#include <asm/crw.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/crw.h>
 
 #include "cio.h"
 #include "css.h"

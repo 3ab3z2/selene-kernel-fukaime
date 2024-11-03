@@ -6,7 +6,7 @@
 #include <linux/debugfs.h>
 #include <linux/export.h>
 #include <linux/spinlock.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 static int ss_get(void *data, u64 *val)
 {

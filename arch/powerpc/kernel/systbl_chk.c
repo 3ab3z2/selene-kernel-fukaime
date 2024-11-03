@@ -13,7 +13,7 @@
  * as published by the Free Software Foundation; either version
  * 2 of the License, or (at your option) any later version.
  */
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #define SYSCALL(func)		__NR_##func
 #define COMPAT_SYS(func)	__NR_##func
@@ -56,5 +56,5 @@
 #define getrlimit		ugetrlimit
 
 START_TABLE
-#include <asm/systbl.h>
+#include <asm-generic/systbl.h>
 END_TABLE NR_syscalls

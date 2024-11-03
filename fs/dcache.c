@@ -180,7 +180,7 @@ int proc_nr_dentry(struct ctl_table *table, int write, void __user *buffer,
  */
 #ifdef CONFIG_DCACHE_WORD_ACCESS
 
-#include <asm/word-at-a-time.h>
+#include <asm-generic/word-at-a-time.h>
 /*
  * NOTE! 'cs' and 'scount' come from a dentry, so it has a
  * aligned allocation for this particular component. We don't

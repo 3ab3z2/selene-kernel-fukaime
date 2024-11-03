@@ -17,9 +17,9 @@
 #include <linux/export.h>
 #include <linux/init.h>
 
-#include <asm/bootinfo.h>
-#include <asm/wbflush.h>
-#include <asm/barrier.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/wbflush.h>
+#include <asm-generic/barrier.h>
 
 static void wbflush_kn01(void);
 static void wbflush_kn210(void);

@@ -8,7 +8,7 @@
  */
 
 #include <linux/stddef.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include <linux/sysrq.h>
 #include <linux/ctype.h>
 

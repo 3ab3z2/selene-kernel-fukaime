@@ -6,8 +6,8 @@
  * Licensed under the GPL-2 or later.
  */
 
-#include <asm/blackfin.h>
-#include <asm/scb.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/scb.h>
 
 struct scb_mi_prio scb_data[] = {
 #ifdef CONFIG_SCB0_MI0

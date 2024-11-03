@@ -33,9 +33,9 @@
 #include <linux/crc32.h>
 #include <crypto/internal/hash.h>
 
-#include <asm/cpufeatures.h>
-#include <asm/cpu_device_id.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/fpu/api.h>
 
 #define CHKSUM_BLOCK_SIZE	1
 #define CHKSUM_DIGEST_SIZE	4

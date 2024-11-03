@@ -4,8 +4,8 @@
  * Copyright (C) 2006 (davem@davemloft.net)
  */
 
-#include <asm/asi.h>
-#include <asm/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
 
 	.text
 	.align	32

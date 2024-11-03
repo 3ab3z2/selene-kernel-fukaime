@@ -21,7 +21,7 @@
 #include <linux/io.h>
 #include <linux/clk/ti.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "clock.h"
 

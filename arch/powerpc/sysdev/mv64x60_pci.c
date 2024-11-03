@@ -15,8 +15,8 @@
 #include <linux/stat.h>
 #include <linux/pci.h>
 
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
 
 #define PCI_HEADER_TYPE_INVALID		0x7f	/* Invalid PCI header type */
 

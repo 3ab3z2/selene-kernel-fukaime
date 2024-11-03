@@ -19,9 +19,9 @@
 #ifndef __ASM_OPENRISC_PROCESSOR_H
 #define __ASM_OPENRISC_PROCESSOR_H
 
-#include <asm/spr_defs.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
+#include <asm-generic/spr_defs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
 
 #define STACK_TOP       TASK_SIZE
 #define STACK_TOP_MAX	STACK_TOP

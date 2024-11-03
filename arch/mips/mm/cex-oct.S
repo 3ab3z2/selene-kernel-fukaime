@@ -7,10 +7,10 @@
  * Cache error handler
  */
 
-#include <asm/asm.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
-#include <asm/stackframe.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/stackframe.h>
 
 /*
  * Handle cache error. Indicate to the second level handler whether

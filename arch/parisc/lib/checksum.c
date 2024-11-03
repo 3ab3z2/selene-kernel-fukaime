@@ -18,8 +18,8 @@
 #include <linux/types.h>
 
 #include <net/checksum.h>
-#include <asm/byteorder.h>
-#include <asm/string.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/string.h>
 #include <linux/uaccess.h>
 
 #define addc(_t,_r)                     \

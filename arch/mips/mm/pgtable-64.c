@@ -9,10 +9,10 @@
 #include <linux/export.h>
 #include <linux/init.h>
 #include <linux/mm.h>
-#include <asm/fixmap.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 void pgd_init(unsigned long page)
 {

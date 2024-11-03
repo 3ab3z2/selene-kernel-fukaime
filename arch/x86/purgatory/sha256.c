@@ -16,7 +16,7 @@
  */
 
 #include <linux/bitops.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "sha256.h"
 #include "../boot/string.h"
 

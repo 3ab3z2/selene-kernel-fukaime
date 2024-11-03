@@ -34,7 +34,7 @@
 #include <media/v4l2-ioctl.h>
 #include <media/videobuf2-dma-contig.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include <media/blackfin/bfin_capture.h>
 #include <media/blackfin/ppi.h>

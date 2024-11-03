@@ -28,8 +28,8 @@
 #include <linux/slab.h>
 #include <linux/io.h>
 
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 #include "irq-atmel-aic-common.h"
 

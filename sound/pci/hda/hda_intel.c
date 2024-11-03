@@ -52,9 +52,9 @@
 
 #ifdef CONFIG_X86
 /* for snoop control */
-#include <asm/pgtable.h>
-#include <asm/set_memory.h>
-#include <asm/cpufeature.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/cpufeature.h>
 #endif
 #include <sound/core.h>
 #include <sound/initval.h>

@@ -22,9 +22,9 @@
 #include <linux/platform_device.h>
 #include <linux/delay.h>
 
-#include <asm/irq.h>
-#include <asm/portmux.h>
-#include <asm/bfin_twi.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin_twi.h>
 
 /* SMBus mode*/
 #define TWI_I2C_MODE_STANDARD		1

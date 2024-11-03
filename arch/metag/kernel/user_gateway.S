@@ -7,8 +7,8 @@
  * call.
  */
 
-#include <asm/metag_regs.h>
-#include <asm/user_gateway.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/user_gateway.h>
 
 /*
  * User helpers.

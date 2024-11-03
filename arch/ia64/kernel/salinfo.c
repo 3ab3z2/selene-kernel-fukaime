@@ -47,7 +47,7 @@
 #include <linux/vmalloc.h>
 #include <linux/semaphore.h>
 
-#include <asm/sal.h>
+#include <asm-generic/sal.h>
 #include <linux/uaccess.h>
 
 MODULE_AUTHOR("Jesse Barnes <jbarnes@sgi.com>");

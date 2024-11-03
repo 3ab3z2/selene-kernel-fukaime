@@ -81,8 +81,8 @@
  * "most recently used" for all but the last store to the cache line.
  */
 
-#include <asm/asi.h>
-#include <asm/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
 
 #define ASI_STBI_P      ASI_BLK_INIT_QUAD_LDD_P
 #define ASI_STBIMRU_P   ASI_ST_BLKINIT_MRU_P

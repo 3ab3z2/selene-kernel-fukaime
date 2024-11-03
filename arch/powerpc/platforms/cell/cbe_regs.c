@@ -12,11 +12,11 @@
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
 
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/ptrace.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cell-regs.h>
 
 /*
  * Current implementation uses "cpu" nodes. We build our own mapping

@@ -18,7 +18,7 @@
 #include <linux/of_device.h>
 #include <linux/io.h>
 
-#include <asm/fbio.h>
+#include <asm-generic/fbio.h>
 
 #include "sbuslib.h"
 

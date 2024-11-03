@@ -35,8 +35,8 @@
 #include <linux/mtd/inftl.h>
 #include <linux/mtd/rawnand.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
-#include <asm/io.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/io.h>
 
 /*
  * Maximum number of loops while examining next block, to have a

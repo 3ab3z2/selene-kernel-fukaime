@@ -29,7 +29,7 @@
 #include <linux/uaccess.h>
 #include <linux/watchdog.h>
 #include <xen/xen.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 #include <xen/interface/sched.h>
 
 static struct platform_device *platform_device;

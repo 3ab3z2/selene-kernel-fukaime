@@ -20,7 +20,7 @@
 #include <unistd.h>
 #include "unwind.h"
 #include "linux/hash.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 
 #include "sane_ctype.h"
 #include <symbol/kallsyms.h>

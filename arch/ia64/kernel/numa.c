@@ -21,8 +21,8 @@
  */
 #include <linux/topology.h>
 #include <linux/module.h>
-#include <asm/processor.h>
-#include <asm/smp.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/smp.h>
 
 u16 cpu_to_node_map[NR_CPUS] __cacheline_aligned;
 EXPORT_SYMBOL(cpu_to_node_map);

@@ -8,8 +8,8 @@
 #ifndef _SPARC_MBUS_H
 #define _SPARC_MBUS_H
 
-#include <asm/ross.h>    /* HyperSparc stuff */
-#include <asm/viking.h>  /* Ugh, bug city... */
+#include <asm-generic/ross.h>    /* HyperSparc stuff */
+#include <asm-generic/viking.h>  /* Ugh, bug city... */
 
 enum mbus_module {
 	HyperSparc        = 0,

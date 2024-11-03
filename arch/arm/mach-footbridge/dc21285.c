@@ -19,9 +19,9 @@
 #include <linux/io.h>
 #include <linux/spinlock.h>
 
-#include <asm/irq.h>
-#include <asm/mach/pci.h>
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/pci.h>
+#include <asm-generic/hardware/dec21285.h>
 
 #define MAX_SLOTS		21
 

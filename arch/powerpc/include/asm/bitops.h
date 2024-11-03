@@ -43,8 +43,8 @@
 #endif
 
 #include <linux/compiler.h>
-#include <asm/asm-compat.h>
-#include <asm/synch.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/synch.h>
 
 /* PPC bit number conversion */
 #define PPC_BITLSHIFT(be)	(BITS_PER_LONG - 1 - (be))
@@ -63,7 +63,7 @@
 #define PPC_BIT8(bit)		(1UL << PPC_BITLSHIFT8(bit))
 #define PPC_BITMASK8(bs, be)	((PPC_BIT8(bs) - PPC_BIT8(be))|PPC_BIT8(bs))
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 /* Macro for generating the ***_bits() functions */
 #define DEFINE_BITOP(fn, op, prefix)		\

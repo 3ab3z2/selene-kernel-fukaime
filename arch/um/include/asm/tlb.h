@@ -4,9 +4,9 @@
 
 #include <linux/pagemap.h>
 #include <linux/swap.h>
-#include <asm/percpu.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 #define tlb_start_vma(tlb, vma) do { } while (0)
 #define tlb_end_vma(tlb, vma) do { } while (0)

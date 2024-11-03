@@ -12,8 +12,8 @@
 #include <linux/unistd.h>
 #include <linux/slab.h>
 #include <linux/atomic.h>
-#include <asm/smp.h>
-#include <asm/time.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/time.h>
 
 #define NUM_ITER		300
 

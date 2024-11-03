@@ -42,10 +42,10 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
 #include <asm-generic/sections.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include <msp_prom.h>
 #include <msp_regs.h>

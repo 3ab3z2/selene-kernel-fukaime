@@ -16,7 +16,7 @@
 #include <linux/hardirq.h>
 #include <linux/thread_info.h>
 #include <linux/kbuild.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 
 int main(int argc, char *argv[])
 {

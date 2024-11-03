@@ -29,19 +29,19 @@
 #include <linux/ioport.h>
 #include <linux/export.h>
 #include <linux/pci.h>
-#include <asm/sections.h>
-#include <asm/errno.h>
-#include <asm/ohare.h>
-#include <asm/heathrow.h>
-#include <asm/keylargo.h>
-#include <asm/uninorth.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/dbdma.h>
-#include <asm/pci-bridge.h>
-#include <asm/pmac_low_i2c.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/ohare.h>
+#include <asm-generic/heathrow.h>
+#include <asm-generic/keylargo.h>
+#include <asm-generic/uninorth.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/pmac_low_i2c.h>
 
 #undef DEBUG_FEATURE
 

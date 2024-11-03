@@ -25,7 +25,7 @@
 #include <linux/module.h>
 #include <linux/sched/signal.h>
 #include <linux/uio.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <linux/usb/composite.h>
 #include <linux/usb/functionfs.h>

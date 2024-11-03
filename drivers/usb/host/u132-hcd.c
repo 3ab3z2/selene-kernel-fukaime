@@ -53,9 +53,9 @@
 #include <linux/workqueue.h>
 #include <linux/platform_device.h>
 #include <linux/mutex.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 
 	/* FIXME ohci.h is ONLY for internal use by the OHCI driver.
 	 * If you're going to try stuff like this, you need to split

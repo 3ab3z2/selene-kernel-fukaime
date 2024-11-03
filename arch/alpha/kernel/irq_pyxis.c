@@ -11,8 +11,8 @@
 #include <linux/sched.h>
 #include <linux/irq.h>
 
-#include <asm/io.h>
-#include <asm/core_cia.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_cia.h>
 
 #include "proto.h"
 #include "irq_impl.h"

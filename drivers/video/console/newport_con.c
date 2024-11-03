@@ -20,11 +20,11 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/gio_device.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gio_device.h>
 
 #include <video/newport.h>
 

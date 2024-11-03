@@ -14,7 +14,7 @@
 #define _POWERPC_SYSDEV_FSL_MSI_H
 
 #include <linux/of.h>
-#include <asm/msi_bitmap.h>
+#include <asm-generic/msi_bitmap.h>
 
 #define NR_MSI_REG_MSIIR	8  /* MSIIR can index 8 MSI registers */
 #define NR_MSI_REG_MSIIR1	16 /* MSIIR1 can index 16 MSI registers */

@@ -11,11 +11,11 @@
 #ifndef _XTENSA_PAGE_H
 #define _XTENSA_PAGE_H
 
-#include <asm/processor.h>
-#include <asm/types.h>
-#include <asm/cache.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/types.h>
+#include <asm-generic/cache.h>
 #include <platform/hardware.h>
-#include <asm/kmem_layout.h>
+#include <asm-generic/kmem_layout.h>
 
 /*
  * PAGE_SHIFT determines the page size

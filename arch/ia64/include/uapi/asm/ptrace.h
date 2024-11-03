@@ -56,7 +56,7 @@
  */
 
 
-#include <asm/fpu.h>
+#include <asm-generic/fpu.h>
 
 
 #ifndef __ASSEMBLY__

@@ -34,11 +34,11 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 /* For revision/pass information */
-#include <asm/sibyte/sb1250_scd.h>
-#include <asm/sibyte/bcm1480_scd.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/bcm1480_scd.h>
 extern unsigned int sb1_pass;
 extern unsigned int soc_pass;
 extern unsigned int soc_type;

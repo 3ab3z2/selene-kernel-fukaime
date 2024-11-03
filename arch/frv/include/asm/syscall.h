@@ -13,7 +13,7 @@
 #define _ASM_SYSCALL_H
 
 #include <linux/err.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * Get the system call number or -1

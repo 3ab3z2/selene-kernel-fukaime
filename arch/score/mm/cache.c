@@ -31,7 +31,7 @@
 #include <linux/sched.h>
 #include <linux/fs.h>
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 /*
 Just flush entire Dcache!!

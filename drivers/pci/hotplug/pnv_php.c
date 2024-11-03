@@ -14,9 +14,9 @@
 #include <linux/pci.h>
 #include <linux/pci_hotplug.h>
 
-#include <asm/opal.h>
-#include <asm/pnv-pci.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/ppc-pci.h>
 
 #define DRIVER_VERSION	"0.1"
 #define DRIVER_AUTHOR	"Gavin Shan, IBM Corporation"

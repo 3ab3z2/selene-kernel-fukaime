@@ -5,9 +5,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asi.h>
-#include <asm/backoff.h>
-#include <asm/export.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/backoff.h>
+#include <asm-generic/export.h>
 
 	.text
 

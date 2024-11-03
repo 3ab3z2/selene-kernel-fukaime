@@ -7,7 +7,7 @@
 
 #include <linux/interrupt.h>
 
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 extern char reboot_command[];
 

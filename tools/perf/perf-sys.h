@@ -8,7 +8,7 @@
 #include <linux/types.h>
 #include <linux/compiler.h>
 #include <linux/perf_event.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #ifdef __powerpc__
 #define CPUINFO_PROC	{"cpu"}

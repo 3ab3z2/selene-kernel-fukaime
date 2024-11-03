@@ -29,7 +29,7 @@
 #include <linux/types.h>
 #include <crypto/sha.h>
 #include <crypto/sha1_base.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 
 static int sha1_update(struct shash_desc *desc, const u8 *data,
 			     unsigned int len, sha1_block_fn *sha1_xform)

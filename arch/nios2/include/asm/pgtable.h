@@ -2,7 +2,7 @@
  * Copyright (C) 2011 Tobias Klauser <tklauser@distanz.ch>
  * Copyright (C) 2009 Wind River Systems Inc
  *
- * Based on asm/pgtable-32.h from mips which is:
+ * Based on asm-generic/pgtable-32.h from mips which is:
  *
  * Copyright (C) 1994, 95, 96, 97, 98, 99, 2000, 2003 Ralf Baechle
  * Copyright (C) 1999, 2000, 2001 Silicon Graphics, Inc.
@@ -17,11 +17,11 @@
 
 #include <linux/io.h>
 #include <linux/bug.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
-#include <asm/pgtable-bits.h>
+#include <asm-generic/pgtable-bits.h>
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 

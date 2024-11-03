@@ -30,7 +30,7 @@
 #include <linux/spinlock.h>
 
 #include <linux/atomic.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "core.h"
 

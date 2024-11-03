@@ -9,7 +9,7 @@
 #include <linux/vmalloc.h>
 #include <linux/mman.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 /* Whether or not to fill the target memory area with do_nothing(). */
 #define CODE_WRITE	true

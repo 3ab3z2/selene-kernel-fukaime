@@ -31,8 +31,8 @@
 
 #ifndef __OCTEON_FEATURE_H__
 #define __OCTEON_FEATURE_H__
-#include <asm/octeon/cvmx-mio-defs.h>
-#include <asm/octeon/cvmx-rnm-defs.h>
+#include <asm-generic/octeon/cvmx-mio-defs.h>
+#include <asm-generic/octeon/cvmx-rnm-defs.h>
 
 enum octeon_feature {
 	/* CN68XX uses port kinds for packet interface */

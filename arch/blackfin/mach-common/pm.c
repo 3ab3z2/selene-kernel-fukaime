@@ -17,10 +17,10 @@
 #include <linux/delay.h>
 #include <linux/gpio.h>
 
-#include <asm/cplb.h>
-#include <asm/dma.h>
-#include <asm/dpmc.h>
-#include <asm/pm.h>
+#include <asm-generic/cplb.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/pm.h>
 
 #ifdef CONFIG_BF60x
 struct bfin_cpu_pm_fns *bfin_cpu_pm;

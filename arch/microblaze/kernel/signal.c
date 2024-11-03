@@ -32,14 +32,14 @@
 #include <linux/percpu.h>
 #include <linux/linkage.h>
 #include <linux/tracehook.h>
-#include <asm/entry.h>
-#include <asm/ucontext.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/syscalls.h>
-#include <asm/cacheflush.h>
-#include <asm/syscalls.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscalls.h>
 
 /*
  * Do a signal return; undo the signal stack.

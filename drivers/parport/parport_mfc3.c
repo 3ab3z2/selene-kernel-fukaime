@@ -60,10 +60,10 @@
 #include <linux/mc6821.h>
 #include <linux/zorro.h>
 #include <linux/interrupt.h>
-#include <asm/setup.h>
-#include <asm/amigahw.h>
-#include <asm/irq.h>
-#include <asm/amigaints.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/amigaints.h>
 
 /* Maximum Number of Cards supported */
 #define MAX_MFC 5

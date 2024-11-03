@@ -24,11 +24,11 @@
 #include <linux/string.h>
 #include <linux/swap.h>
 
-#include <asm/bootinfo.h>
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 
-#include <asm/mach-ar7/ar7.h>
+#include <asm-generic/mach-ar7/ar7.h>
 
 static int __init memsize(void)
 {

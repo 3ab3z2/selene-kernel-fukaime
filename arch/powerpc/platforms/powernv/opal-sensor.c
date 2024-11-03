@@ -21,8 +21,8 @@
 #include <linux/delay.h>
 #include <linux/mutex.h>
 #include <linux/of_platform.h>
-#include <asm/opal.h>
-#include <asm/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/machdep.h>
 
 static DEFINE_MUTEX(opal_sensor_mutex);
 

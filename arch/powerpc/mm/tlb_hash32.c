@@ -29,8 +29,8 @@
 #include <linux/pagemap.h>
 #include <linux/export.h>
 
-#include <asm/tlbflush.h>
-#include <asm/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/tlb.h>
 
 #include "mmu_decl.h"
 

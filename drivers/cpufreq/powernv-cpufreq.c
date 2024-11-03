@@ -31,11 +31,11 @@
 #include <linux/cpu.h>
 #include <trace/events/power.h>
 
-#include <asm/cputhreads.h>
-#include <asm/firmware.h>
-#include <asm/reg.h>
-#include <asm/smp.h> /* Required for cpu_sibling_mask() in UP configs */
-#include <asm/opal.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/smp.h> /* Required for cpu_sibling_mask() in UP configs */
+#include <asm-generic/opal.h>
 #include <linux/timer.h>
 
 #define POWERNV_MAX_PSTATES	256

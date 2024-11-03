@@ -15,18 +15,18 @@
 #include <linux/ratelimit.h>
 #include <net/dst.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "ethernet-defines.h"
 #include "octeon-ethernet.h"
 #include "ethernet-util.h"
 #include "ethernet-mdio.h"
 
-#include <asm/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper.h>
 
-#include <asm/octeon/cvmx-ipd-defs.h>
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-ipd-defs.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
 
 static DEFINE_SPINLOCK(global_register_lock);
 

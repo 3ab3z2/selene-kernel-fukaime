@@ -2,7 +2,7 @@
 #ifndef __ALPHA_COMPILER_H
 #define __ALPHA_COMPILER_H
 
-#include <uapi/asm/compiler.h>
+#include <uapi/asm-generic/compiler.h>
 
 /* Some idiots over in <linux/compiler.h> thought inline should imply
    always_inline.  This breaks stuff.  We'll include this file whenever

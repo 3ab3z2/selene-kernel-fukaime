@@ -2,7 +2,7 @@
 #ifndef _M68K_DELAY_H
 #define _M68K_DELAY_H
 
-#include <asm/param.h>
+#include <asm-generic/param.h>
 
 /*
  * Copyright (C) 1994 Hamish Macdonald

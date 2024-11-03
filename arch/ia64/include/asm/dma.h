@@ -8,7 +8,7 @@
  */
 
 
-#include <asm/io.h>		/* need byte IO */
+#include <asm-generic/io.h>		/* need byte IO */
 
 extern unsigned long MAX_DMA_ADDRESS;
 

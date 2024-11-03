@@ -15,10 +15,10 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
-#include <asm/vectors.h>
+#include <asm-generic/vectors.h>
 #include <variant/core.h>
 #include <platform/hardware.h>
 OUTPUT_ARCH(xtensa)

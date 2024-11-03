@@ -12,8 +12,8 @@
  *
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/ptrace.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ptrace.h>
 #include <linux/linkage.h>
 #include <linux/trusty/smcall.h>
 

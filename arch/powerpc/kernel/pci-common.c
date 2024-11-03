@@ -33,14 +33,14 @@
 #include <linux/slab.h>
 #include <linux/vgaarb.h>
 
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/byteorder.h>
-#include <asm/machdep.h>
-#include <asm/ppc-pci.h>
-#include <asm/eeh.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/eeh.h>
 
 /* hose_spinlock protects accesses to the the phb_bitmap. */
 static DEFINE_SPINLOCK(hose_spinlock);

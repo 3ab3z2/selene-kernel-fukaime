@@ -15,12 +15,12 @@
 #include <linux/spinlock.h>
 
 #include <linux/uaccess.h>
-#include <asm/kvm_book3s.h>
-#include <asm/kvm_ppc.h>
-#include <asm/hvcall.h>
-#include <asm/xics.h>
-#include <asm/debugfs.h>
-#include <asm/time.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/time.h>
 
 #include <linux/seq_file.h>
 

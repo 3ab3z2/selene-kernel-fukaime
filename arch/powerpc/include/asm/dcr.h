@@ -24,11 +24,11 @@
 #ifdef CONFIG_PPC_DCR
 
 #ifdef CONFIG_PPC_DCR_NATIVE
-#include <asm/dcr-native.h>
+#include <asm-generic/dcr-native.h>
 #endif
 
 #ifdef CONFIG_PPC_DCR_MMIO
-#include <asm/dcr-mmio.h>
+#include <asm-generic/dcr-mmio.h>
 #endif
 
 
@@ -36,7 +36,7 @@
 
 #if defined(CONFIG_PPC_DCR_NATIVE) && defined(CONFIG_PPC_DCR_MMIO)
 
-#include <asm/dcr-generic.h>
+#include <asm-generic/dcr-generic.h>
 
 #define DCR_MAP_OK(host)	dcr_map_ok_generic(host)
 #define dcr_map(dev, dcr_n, dcr_c) dcr_map_generic(dev, dcr_n, dcr_c)

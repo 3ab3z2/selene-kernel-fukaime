@@ -20,11 +20,11 @@
 #include <linux/interrupt.h>
 #include <linux/seq_file.h>
 #include <sysdev/fsl_soc.h>
-#include <asm/prom.h>
-#include <asm/hw_irq.h>
-#include <asm/ppc-pci.h>
-#include <asm/mpic.h>
-#include <asm/fsl_hcalls.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/fsl_hcalls.h>
 
 #include "fsl_msi.h"
 #include "fsl_pci.h"

@@ -17,7 +17,7 @@
 #include <linux/regmap.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/proc-fns.h>
+#include <asm-generic/proc-fns.h>
 
 #include "pmc.h"
 

@@ -5,9 +5,9 @@
 #include <linux/init.h>
 #include <linux/percpu.h>
 #include <linux/types.h>
-#include <asm/debug.h>
-#include <asm/fpu_emulator.h>
-#include <asm/local.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/fpu_emulator.h>
+#include <asm-generic/local.h>
 
 DEFINE_PER_CPU(struct mips_fpu_emulator_stats, fpuemustats);
 

@@ -17,14 +17,14 @@
  *			architecture.
  */
 
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 #include <linux/uaccess.h>
 #include <linux/module.h>
 #include <linux/seq_file.h>
 #include <linux/interrupt.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/mca.h>
+#include <asm-generic/mca.h>
 
 /*
  * 'what should we do if we get a hw irq event on an illegal vector'.

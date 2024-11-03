@@ -24,9 +24,9 @@
 #ifdef __KERNEL__
 
 #include <linux/types.h>
-#include <asm/iomap.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/iomap.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
 
 /*
  * We don't have PCI yet.

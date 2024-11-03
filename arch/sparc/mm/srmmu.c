@@ -23,32 +23,32 @@
 #include <linux/fs.h>
 #include <linux/mm.h>
 
-#include <asm/mmu_context.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/io-unit.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/bitext.h>
-#include <asm/vaddrs.h>
-#include <asm/cache.h>
-#include <asm/traps.h>
-#include <asm/oplib.h>
-#include <asm/mbus.h>
-#include <asm/page.h>
-#include <asm/asi.h>
-#include <asm/msi.h>
-#include <asm/smp.h>
-#include <asm/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/io-unit.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/bitext.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/mbus.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/msi.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/io.h>
 
 /* Now the cpu specific definitions. */
-#include <asm/turbosparc.h>
-#include <asm/tsunami.h>
-#include <asm/viking.h>
-#include <asm/swift.h>
-#include <asm/leon.h>
-#include <asm/mxcc.h>
-#include <asm/ross.h>
+#include <asm-generic/turbosparc.h>
+#include <asm-generic/tsunami.h>
+#include <asm-generic/viking.h>
+#include <asm-generic/swift.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/mxcc.h>
+#include <asm-generic/ross.h>
 
 #include "mm_32.h"
 

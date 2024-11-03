@@ -26,11 +26,11 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-#include <asm/gt64120.h>
-#include <asm/mips-cps.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/bonito64.h>
-#include <asm/mips-boards/msc01_pci.h>
+#include <asm-generic/gt64120.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/bonito64.h>
+#include <asm-generic/mips-boards/msc01_pci.h>
 
 static struct resource bonito64_mem_resource = {
 	.name	= "Bonito PCI MEM",

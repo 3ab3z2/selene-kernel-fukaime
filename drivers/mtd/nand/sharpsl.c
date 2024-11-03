@@ -24,9 +24,9 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 struct sharpsl_nand {
 	struct nand_chip	chip;

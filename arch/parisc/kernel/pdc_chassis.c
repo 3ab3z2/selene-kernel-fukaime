@@ -38,10 +38,10 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 
-#include <asm/pdc_chassis.h>
-#include <asm/processor.h>
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
+#include <asm-generic/pdc_chassis.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
 
 #define PDC_CHASSIS_VER	"0.05"
 

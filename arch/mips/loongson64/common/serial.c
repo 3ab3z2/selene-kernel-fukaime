@@ -14,7 +14,7 @@
 #include <linux/module.h>
 #include <linux/serial_8250.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 #include <machine.h>

@@ -106,7 +106,7 @@
 
 #include "../comedi_pci.h"
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ni_stc.h"
 #include "mite.h"

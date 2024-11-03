@@ -52,7 +52,7 @@
 #include <linux/irda.h>
 #include <linux/poll.h>
 
-#include <asm/ioctls.h>		/* TIOCOUTQ, TIOCINQ */
+#include <asm-generic/ioctls.h>		/* TIOCOUTQ, TIOCINQ */
 #include <linux/uaccess.h>
 
 #include <net/sock.h>

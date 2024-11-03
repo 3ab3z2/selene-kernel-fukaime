@@ -2,12 +2,12 @@
 #ifndef _ARCH_POWERPC_UACCESS_H
 #define _ARCH_POWERPC_UACCESS_H
 
-#include <asm/asm-compat.h>
-#include <asm/ppc_asm.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/extable.h>
-#include <asm/kup.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/extable.h>
+#include <asm-generic/kup.h>
 
 /*
  * The fs value determines whether argument validity checking should be

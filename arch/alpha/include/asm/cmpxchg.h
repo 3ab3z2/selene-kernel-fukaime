@@ -9,7 +9,7 @@
 #define __ASM__MB
 #define ____xchg(type, args...)		__xchg ## type ## _local(args)
 #define ____cmpxchg(type, args...)	__cmpxchg ## type ## _local(args)
-#include <asm/xchg.h>
+#include <asm-generic/xchg.h>
 
 #define xchg_local(ptr, x)						\
 ({									\
@@ -41,7 +41,7 @@
 #undef ____cmpxchg
 #define ____xchg(type, args...)		__xchg ##type(args)
 #define ____cmpxchg(type, args...)	__cmpxchg ##type(args)
-#include <asm/xchg.h>
+#include <asm-generic/xchg.h>
 
 #define xchg(ptr, x)							\
 ({									\

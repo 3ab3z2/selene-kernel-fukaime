@@ -12,8 +12,8 @@
 #include <linux/module.h>
 #include <linux/mutex.h>
 
-#include <asm/prom.h>
-#include <asm/pmac_pfunc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmac_pfunc.h>
 
 /* Debug */
 #define LOG_PARSE(fmt...)

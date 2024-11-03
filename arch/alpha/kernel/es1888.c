@@ -6,7 +6,7 @@
  */
 
 #include <linux/init.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "proto.h"
 
 void __init

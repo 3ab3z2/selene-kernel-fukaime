@@ -14,15 +14,15 @@
  * here for now.
  */
 #include <linux/errno.h>
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/irqflags.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
-#include <asm/sysmips.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/sysmips.h>
 
 	.align	5
 NESTED(handle_sys, PT_SIZE, sp)

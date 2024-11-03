@@ -7,8 +7,8 @@
 #define MCPCIA_ONE_HAE_WINDOW 1
 
 #include <linux/types.h>
-#include <asm/compiler.h>
-#include <asm/mce.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/mce.h>
 
 /*
  * MCPCIA is the internal name for a core logic chipset which provides
@@ -370,7 +370,7 @@ __EXTERN_INLINE int mcpcia_is_mmio(const volatile void __iomem *xaddr)
 #define mcpcia_trivial_io_bw	0
 #define mcpcia_trivial_io_lq	0
 #define mcpcia_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

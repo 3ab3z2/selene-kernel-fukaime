@@ -80,9 +80,9 @@
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
 
-#include <asm/irq.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 static int dbg_level;
 #ifdef ISP1362_DEBUG

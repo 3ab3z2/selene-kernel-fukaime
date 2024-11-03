@@ -14,11 +14,11 @@
 #include <linux/spi/spi.h>
 #include <linux/gpio.h>
 #include <linux/fec.h>
-#include <asm/traps.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfuart.h>
-#include <asm/mcfqspi.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfuart.h>
+#include <asm-generic/mcfqspi.h>
 
 /*
  *	All current ColdFire parts contain from 2, 3, 4 or 10 UARTS.

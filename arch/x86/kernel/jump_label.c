@@ -12,9 +12,9 @@
 #include <linux/list.h>
 #include <linux/jhash.h>
 #include <linux/cpu.h>
-#include <asm/kprobes.h>
-#include <asm/alternative.h>
-#include <asm/text-patching.h>
+#include <asm-generic/kprobes.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/text-patching.h>
 
 #ifdef HAVE_JUMP_LABEL
 

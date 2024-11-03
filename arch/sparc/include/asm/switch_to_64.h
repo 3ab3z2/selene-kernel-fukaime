@@ -2,7 +2,7 @@
 #ifndef __SPARC64_SWITCH_TO_64_H
 #define __SPARC64_SWITCH_TO_64_H
 
-#include <asm/visasm.h>
+#include <asm-generic/visasm.h>
 
 #define prepare_arch_switch(next)		\
 do {						\

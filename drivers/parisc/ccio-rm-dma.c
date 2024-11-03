@@ -42,9 +42,9 @@
 
 #include <linux/uaccess.h>
 
-#include <asm/io.h>
-#include <asm/hardware.h>
-#include <asm/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/page.h>
 
 /* Only chose "ccio" since that's what HP-UX calls it....
 ** Make it easier for folks to migrate from one to the other :^)

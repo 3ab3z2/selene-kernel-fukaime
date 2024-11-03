@@ -13,9 +13,9 @@
  *
  */
 
-#include <asm/processor.h>
-#include <asm/cputable.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/ppc_asm.h>
 
 _GLOBAL(__setup_cpu_440ep)
 	b	__init_fpu_44x

@@ -8,7 +8,7 @@
  * Copyright (C) 1996 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
 
-#include <asm/export.h>
+#include <asm-generic/export.h>
 #define FUNC(x) 		\
 	.globl	x;		\
 	.type	x,@function;	\

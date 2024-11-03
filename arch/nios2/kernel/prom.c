@@ -30,7 +30,7 @@
 #include <linux/of_fdt.h>
 #include <linux/io.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 void __init early_init_dt_add_memory_arch(u64 base, u64 size)
 {

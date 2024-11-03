@@ -8,14 +8,14 @@
  */
 
 #include <linux/magic.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/ftrace.h>
-#include <asm/ppc-opcode.h>
-#include <asm/export.h>
-#include <asm/thread_info.h>
-#include <asm/bug.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/export.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/ptrace.h>
 
 #ifdef CONFIG_DYNAMIC_FTRACE
 /*

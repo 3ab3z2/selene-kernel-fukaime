@@ -15,7 +15,7 @@
 #include <linux/string.h>
 #include <linux/kernel.h>
 #include <linux/cpufeature.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 static unsigned long iterations = 10000;
 

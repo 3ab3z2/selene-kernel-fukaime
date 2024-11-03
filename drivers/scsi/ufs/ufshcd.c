@@ -48,7 +48,7 @@
 #include "ufshcd-crypto.h"
 
 /* MTK PATCH */
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/rpmb.h>
 #include <scsi/ufs/ufs-mtk-ioctl.h>
 #include "ufs-mtk.h"

@@ -7,9 +7,9 @@
 
 #include <linux/linkage.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/cpudata.h>
-#include <asm/page.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/page.h>
 
 ENTRY(swsusp_arch_suspend)
 	save	%sp, -128, %sp

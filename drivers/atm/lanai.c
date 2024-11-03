@@ -58,8 +58,8 @@
 #include <linux/slab.h>
 #include <linux/mm.h>
 #include <linux/atmdev.h>
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 #include <linux/spinlock.h>
 #include <linux/pci.h>
 #include <linux/dma-mapping.h>
@@ -295,7 +295,7 @@ struct lanai_dev {
 	int board_rev;
 /* TODO - look at race conditions with maintence of conf1/conf2 */
 /* TODO - transmit locking: should we use _irq not _irqsave? */
-/* TODO - organize above in some rational fashion (see <asm/cache.h>) */
+/* TODO - organize above in some rational fashion (see <asm-generic/cache.h>) */
 };
 
 /*

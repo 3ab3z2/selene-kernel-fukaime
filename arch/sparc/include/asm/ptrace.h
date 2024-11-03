@@ -2,14 +2,14 @@
 #ifndef __SPARC_PTRACE_H
 #define __SPARC_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 #if defined(__sparc__) && defined(__arch64__)
 #ifndef __ASSEMBLY__
 
 #include <linux/compiler.h>
 #include <linux/threads.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 static inline int pt_regs_trap_type(struct pt_regs *regs)
 {
@@ -117,7 +117,7 @@ static inline unsigned long kernel_stack_pointer(struct pt_regs *regs)
 #endif /* __ASSEMBLY__ */
 #else /* (defined(__sparc__) && defined(__arch64__)) */
 #ifndef __ASSEMBLY__
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 static inline bool pt_regs_is_syscall(struct pt_regs *regs)
 {

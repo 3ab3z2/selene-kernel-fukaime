@@ -8,7 +8,7 @@
 # address by 8kb.
 #
 platform-$(CONFIG_SGI_IP22)		+= sgi-ip22/
-cflags-$(CONFIG_SGI_IP22)	+= -I$(srctree)/arch/mips/include/asm/mach-ip22
+cflags-$(CONFIG_SGI_IP22)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-ip22
 ifdef CONFIG_32BIT
 load-$(CONFIG_SGI_IP22)		+= 0xffffffff88002000
 endif
@@ -30,5 +30,5 @@ ifdef CONFIG_SGI_IP28
   endif
 endif
 platform-$(CONFIG_SGI_IP28)		+= sgi-ip22/
-cflags-$(CONFIG_SGI_IP28)	+= -mr10k-cache-barrier=store -I$(srctree)/arch/mips/include/asm/mach-ip28
+cflags-$(CONFIG_SGI_IP28)	+= -mr10k-cache-barrier=store -I$(srctree)/arch/mips/include/asm-generic/mach-ip28
 load-$(CONFIG_SGI_IP28)		+= 0xa800000020004000

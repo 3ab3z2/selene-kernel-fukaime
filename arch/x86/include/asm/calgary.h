@@ -28,7 +28,7 @@
 #include <linux/device.h>
 #include <linux/dma-mapping.h>
 #include <linux/timer.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 struct iommu_table {
 	const struct cal_chipset_ops *chip_ops; /* chipset specific funcs */

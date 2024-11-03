@@ -14,7 +14,7 @@
 #include <sound/pcm.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 #include "psc.h"
 

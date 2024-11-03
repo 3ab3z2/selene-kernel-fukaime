@@ -35,7 +35,7 @@
 #include <linux/mtd/partitions.h>
 #include <linux/mtd/plat-ram.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* private structure for each mtd platform ram device created */
 

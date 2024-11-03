@@ -21,7 +21,7 @@
 #include <linux/delay.h>
 #include <linux/err.h>
 #include <linux/sched_clock.h>
-#include <asm/mach/time.h>
+#include <asm-generic/mach/time.h>
 
 /*
  * The MTU device hosts four different counters, with 4 set of

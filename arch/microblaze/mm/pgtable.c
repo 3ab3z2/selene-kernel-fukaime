@@ -33,12 +33,12 @@
 #include <linux/init.h>
 #include <linux/mm_types.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/io.h>
-#include <asm/mmu.h>
-#include <asm/sections.h>
-#include <asm/fixmap.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/fixmap.h>
 
 unsigned long ioremap_base;
 unsigned long ioremap_bot;

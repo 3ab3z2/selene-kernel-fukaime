@@ -32,10 +32,10 @@
 #undef CONFIG_CPU_HAS_PREFETCH
 #endif
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 #define dst a0
 #define src a1

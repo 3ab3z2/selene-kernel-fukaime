@@ -27,7 +27,7 @@
 #include <sound/tlv.h>
 #include <sound/ad1816a.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 static inline int snd_ad1816a_busy_wait(struct snd_ad1816a *chip)
 {

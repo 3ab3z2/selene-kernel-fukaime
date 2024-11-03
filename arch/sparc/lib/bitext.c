@@ -13,7 +13,7 @@
 #include <linux/string.h>
 #include <linux/bitmap.h>
 
-#include <asm/bitext.h>
+#include <asm-generic/bitext.h>
 
 /**
  * bit_map_string_get - find and set a bit string in bit map.

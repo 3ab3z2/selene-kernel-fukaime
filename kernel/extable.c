@@ -24,7 +24,7 @@
 #include <linux/kprobes.h>
 #include <linux/filter.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
 
 /*

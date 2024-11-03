@@ -13,7 +13,7 @@
 #include <linux/clkdev.h>
 #include <linux/clk.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #include "common.h"
 

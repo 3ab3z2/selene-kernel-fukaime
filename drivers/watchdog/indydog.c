@@ -26,7 +26,7 @@
 #include <linux/reboot.h>
 #include <linux/init.h>
 #include <linux/uaccess.h>
-#include <asm/sgi/mc.h>
+#include <asm-generic/sgi/mc.h>
 
 static unsigned long indydog_alive;
 static DEFINE_SPINLOCK(indydog_lock);

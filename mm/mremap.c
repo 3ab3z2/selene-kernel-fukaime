@@ -25,8 +25,8 @@
 #include <linux/mm-arch-hooks.h>
 #include <linux/userfaultfd_k.h>
 
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include "internal.h"
 

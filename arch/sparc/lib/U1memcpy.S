@@ -7,9 +7,9 @@
 
 #ifdef __KERNEL__
 #include <linux/linkage.h>
-#include <asm/visasm.h>
-#include <asm/asi.h>
-#include <asm/export.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/export.h>
 #define GLOBAL_SPARE	g7
 #else
 #define GLOBAL_SPARE	g5

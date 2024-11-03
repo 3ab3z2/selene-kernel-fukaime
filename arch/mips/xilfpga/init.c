@@ -11,7 +11,7 @@
 
 #include <linux/of_fdt.h>
 
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 #define XILFPGA_UART_BASE	0xb0401000
 

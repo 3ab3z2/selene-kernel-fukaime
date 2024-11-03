@@ -5,9 +5,9 @@
 #include <linux/percpu.h>
 #include <linux/bitops.h>
 #include <linux/atomic.h>
-#include <asm/cmpxchg.h>
-#include <asm/compiler.h>
-#include <asm/war.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/war.h>
 
 typedef struct
 {

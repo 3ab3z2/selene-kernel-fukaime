@@ -29,7 +29,7 @@
 #ifndef _ASM_RC32434_DDR_H_
 #define _ASM_RC32434_DDR_H_
 
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 /* DDR register structure */
 struct ddr_ram {

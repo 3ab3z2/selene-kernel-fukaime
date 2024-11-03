@@ -3,9 +3,9 @@
 #define _TRACE_KVM_H
 
 #include <linux/tracepoint.h>
-#include <asm/sie.h>
-#include <asm/debug.h>
-#include <asm/dis.h>
+#include <asm-generic/sie.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/dis.h>
 
 #undef TRACE_SYSTEM
 #define TRACE_SYSTEM kvm

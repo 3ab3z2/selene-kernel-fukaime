@@ -6,8 +6,8 @@
  */
 #include <linux/thread_info.h>
 #include <linux/types.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
 
 #define COMPAT_USER_HZ		100
 #define COMPAT_UTS_MACHINE	"mips\0\0\0"

@@ -24,7 +24,7 @@
 #include <linux/crypto.h>
 #include <linux/delay.h>
 #include <linux/hardirq.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 #include <crypto/aes.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/xts.h>

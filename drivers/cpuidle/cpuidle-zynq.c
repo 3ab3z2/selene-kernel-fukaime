@@ -28,7 +28,7 @@
 #include <linux/init.h>
 #include <linux/cpuidle.h>
 #include <linux/platform_device.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/cpuidle.h>
 
 #define ZYNQ_MAX_STATES		2
 

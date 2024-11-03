@@ -12,15 +12,15 @@
 
 #include <linux/compiler.h>
 #include <linux/atomic.h>
-#include <asm/dcache_clear.h>
-#include <asm/page.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/dcache_clear.h>
+#include <asm-generic/page.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 /*
  * Your basic SMP spinlocks, allowing only a single CPU anywhere
  *
- * (the type definitions are in asm/spinlock_types.h)
+ * (the type definitions are in asm-generic/spinlock_types.h)
  *
  * Simple spin lock operations.  There are two variants, one clears IRQ's
  * on the local processor, one does not.

@@ -27,8 +27,8 @@
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
-#include <asm/mach/flash.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach/flash.h>
 
 #include <linux/reboot.h>
 

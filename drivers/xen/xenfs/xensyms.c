@@ -6,7 +6,7 @@
 #include <linux/proc_fs.h>
 #include <linux/slab.h>
 #include <xen/interface/platform.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 #include <xen/xen-ops.h>
 #include "xenfs.h"
 

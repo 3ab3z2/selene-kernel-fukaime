@@ -8,9 +8,9 @@
 #include <linux/export.h>
 #include <linux/syscalls.h>
 
-#include <asm/spu.h>
-#include <asm/syscalls.h>
-#include <asm/unistd.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/unistd.h>
 
 /*
  * This table defines the system calls that an SPU can call.
@@ -47,7 +47,7 @@ static void *spu_syscall_table[] = {
 #define PPC_SYS_SPU(func)	ppc_##func,
 #define SYSX_SPU(f, f3264, f32)	f,
 
-#include <asm/systbl.h>
+#include <asm-generic/systbl.h>
 };
 
 long spu_sys_callback(struct spu_syscall_block *s)

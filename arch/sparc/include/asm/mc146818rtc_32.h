@@ -5,7 +5,7 @@
 #ifndef __ASM_SPARC_MC146818RTC_H
 #define __ASM_SPARC_MC146818RTC_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifndef RTC_PORT
 #define RTC_PORT(x)	(0x70 + (x))

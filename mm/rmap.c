@@ -66,7 +66,7 @@
 #include <linux/memremap.h>
 #include <linux/userfaultfd_k.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include <trace/events/tlb.h>
 #include <linux/kasan.h>

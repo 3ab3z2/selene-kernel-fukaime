@@ -9,8 +9,8 @@
  */
 #include <linux/interrupt.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/i8259.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/i8259.h>
 
 #include <loongson.h>
 

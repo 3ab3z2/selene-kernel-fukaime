@@ -7,7 +7,7 @@
 #ifndef __UM_UACCESS_H
 #define __UM_UACCESS_H
 
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 
 #define __under_task_size(addr, size) \
 	(((unsigned long) (addr) < TASK_SIZE) && \

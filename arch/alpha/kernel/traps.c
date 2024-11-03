@@ -19,13 +19,13 @@
 #include <linux/kallsyms.h>
 #include <linux/ratelimit.h>
 
-#include <asm/gentrap.h>
+#include <asm-generic/gentrap.h>
 #include <linux/uaccess.h>
-#include <asm/unaligned.h>
-#include <asm/sysinfo.h>
-#include <asm/hwrpb.h>
-#include <asm/mmu_context.h>
-#include <asm/special_insns.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/special_insns.h>
 
 #include "proto.h"
 

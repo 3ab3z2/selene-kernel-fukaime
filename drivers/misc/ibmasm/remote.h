@@ -26,7 +26,7 @@
 #ifndef _IBMASM_REMOTE_H_
 #define _IBMASM_REMOTE_H_
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* pci offsets */
 #define CONDOR_MOUSE_DATA		0x000AC000

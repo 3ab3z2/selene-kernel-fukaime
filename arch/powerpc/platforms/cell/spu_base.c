@@ -33,12 +33,12 @@
 #include <linux/mutex.h>
 #include <linux/linux_logo.h>
 #include <linux/syscore_ops.h>
-#include <asm/spu.h>
-#include <asm/spu_priv1.h>
-#include <asm/spu_csa.h>
-#include <asm/xmon.h>
-#include <asm/prom.h>
-#include <asm/kexec.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_priv1.h>
+#include <asm-generic/spu_csa.h>
+#include <asm-generic/xmon.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/kexec.h>
 
 const struct spu_management_ops *spu_management_ops;
 EXPORT_SYMBOL_GPL(spu_management_ops);

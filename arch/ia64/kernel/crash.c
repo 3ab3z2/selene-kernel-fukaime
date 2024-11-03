@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/kdebug.h>
 
-#include <asm/mca.h>
+#include <asm-generic/mca.h>
 
 int kdump_status[NR_CPUS];
 static atomic_t kdump_cpu_frozen;

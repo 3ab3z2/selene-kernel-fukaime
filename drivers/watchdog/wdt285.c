@@ -33,9 +33,9 @@
 #include <linux/irq.h>
 #include <mach/hardware.h>
 
-#include <asm/mach-types.h>
-#include <asm/system_info.h>
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/system_info.h>
+#include <asm-generic/hardware/dec21285.h>
 
 /*
  * Define this to stop the watchdog actually rebooting the machine.

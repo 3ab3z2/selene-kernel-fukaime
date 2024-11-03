@@ -25,8 +25,8 @@
 #include <linux/fsl_devices.h>
 #include <linux/slab.h>
 
-#include <asm/mpc52xx.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #define MCLK 20000000 /* PSC port MClk in hz */
 

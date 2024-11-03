@@ -13,18 +13,18 @@
 
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/processor.h>
-#include <asm/coprocessor.h>
-#include <asm/thread_info.h>
-#include <asm/asm-uaccess.h>
-#include <asm/unistd.h>
-#include <asm/ptrace.h>
-#include <asm/current.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/signal.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/coprocessor.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm-uaccess.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/current.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/tlbflush.h>
 
 #if XTENSA_HAVE_COPROCESSORS
 

@@ -18,11 +18,11 @@
 
 #include <linux/compiler.h>
 #include <linux/irqflags.h>
-#include <asm/assembler.h>
-#include <asm/byteorder.h>
-#include <asm/dcache_clear.h>
-#include <asm/types.h>
-#include <asm/barrier.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/dcache_clear.h>
+#include <asm-generic/types.h>
+#include <asm-generic/barrier.h>
 
 /*
  * These have to be done with inline assembly: that way the bit-setting

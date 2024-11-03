@@ -22,7 +22,7 @@
 #define _ASM_POWERPC_TCE_H
 #ifdef __KERNEL__
 
-#include <asm/iommu.h>
+#include <asm-generic/iommu.h>
 
 /*
  * Tces come in two formats, one for the virtual bus and a different

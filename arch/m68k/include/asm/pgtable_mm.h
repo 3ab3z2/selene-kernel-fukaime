@@ -4,10 +4,10 @@
 
 #include <asm-generic/4level-fixup.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #ifndef __ASSEMBLY__
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/sched.h>
 #include <linux/threads.h>
 
@@ -16,7 +16,7 @@
  * the m68k page table tree.
  */
 
-#include <asm/virtconvert.h>
+#include <asm-generic/virtconvert.h>
 
 /* Certain architectures need to do special things when pte's
  * within a page table are directly modified.  Thus, the following
@@ -141,11 +141,11 @@ static inline void update_mmu_cache(struct vm_area_struct *vma,
 /* MMU-specific headers */
 
 #ifdef CONFIG_SUN3
-#include <asm/sun3_pgtable.h>
+#include <asm-generic/sun3_pgtable.h>
 #elif defined(CONFIG_COLDFIRE)
-#include <asm/mcf_pgtable.h>
+#include <asm-generic/mcf_pgtable.h>
 #else
-#include <asm/motorola_pgtable.h>
+#include <asm-generic/motorola_pgtable.h>
 #endif
 
 #ifndef __ASSEMBLY__

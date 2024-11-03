@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/hardirq.h>
 
-#include <asm/x86_init.h>
+#include <asm-generic/x86_init.h>
 
 #include <xen/interface/xen.h>
 #include <xen/interface/sched.h>
@@ -9,8 +9,8 @@
 #include <xen/features.h>
 #include <xen/events.h>
 
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include "xen-ops.h"
 

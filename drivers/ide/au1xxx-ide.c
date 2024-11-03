@@ -36,9 +36,9 @@
 #include <linux/ide.h>
 #include <linux/scatterlist.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1xxx_ide.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1xxx_ide.h>
 
 #define DRV_NAME	"au1200-ide"
 #define DRV_AUTHOR	"Enrico Walther <enrico.walther@amd.com> / Pete Popov <ppopov@embeddedalley.com>"

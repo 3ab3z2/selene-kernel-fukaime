@@ -8,15 +8,15 @@
 #ifndef _ASM_ASMMACRO_H
 #define _ASM_ASMMACRO_H
 
-#include <asm/hazards.h>
-#include <asm/asm-offsets.h>
-#include <asm/msa.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/msa.h>
 
 #ifdef CONFIG_32BIT
-#include <asm/asmmacro-32.h>
+#include <asm-generic/asmmacro-32.h>
 #endif
 #ifdef CONFIG_64BIT
-#include <asm/asmmacro-64.h>
+#include <asm-generic/asmmacro-64.h>
 #endif
 
 /* preprocessor replaces the fp in ".set fp=64" with $30 otherwise */

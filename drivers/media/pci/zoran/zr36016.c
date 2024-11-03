@@ -31,7 +31,7 @@
 #include <linux/wait.h>
 
 /* I/O commands, error codes */
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* v4l  API */
 

@@ -6,8 +6,8 @@
 #error only <linux/bitops.h> can be included directly
 #endif
 
-#include <asm/compiler.h>
-#include <asm/barrier.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/barrier.h>
 
 /*
  * Copyright 1994, Linus Torvalds.

@@ -25,9 +25,9 @@
 #include <linux/mm.h>
 #include <linux/pagemap.h>
 #include <linux/swap.h>
-#include <asm/processor.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 struct mmu_gather {
 	struct mm_struct *mm;

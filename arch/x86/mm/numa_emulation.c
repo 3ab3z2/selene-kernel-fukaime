@@ -7,7 +7,7 @@
 #include <linux/topology.h>
 #include <linux/memblock.h>
 #include <linux/bootmem.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include "numa_internal.h"
 

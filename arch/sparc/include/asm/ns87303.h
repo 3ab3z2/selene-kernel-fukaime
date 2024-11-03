@@ -80,7 +80,7 @@
 
 #include <linux/spinlock.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 extern spinlock_t ns87303_lock;
 

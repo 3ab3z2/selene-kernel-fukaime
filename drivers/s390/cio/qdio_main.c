@@ -14,9 +14,9 @@
 #include <linux/gfp.h>
 #include <linux/io.h>
 #include <linux/atomic.h>
-#include <asm/debug.h>
-#include <asm/qdio.h>
-#include <asm/ipl.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/qdio.h>
+#include <asm-generic/ipl.h>
 
 #include "cio.h"
 #include "css.h"

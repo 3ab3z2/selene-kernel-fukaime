@@ -15,13 +15,13 @@
 
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/barrier.h>
-#include <asm/byteorder.h>		/* sigh ... */
-#include <asm/compiler.h>
-#include <asm/cpu-features.h>
-#include <asm/llsc.h>
-#include <asm/sgidefs.h>
-#include <asm/war.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/byteorder.h>		/* sigh ... */
+#include <asm-generic/compiler.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/llsc.h>
+#include <asm-generic/sgidefs.h>
+#include <asm-generic/war.h>
 
 /*
  * These are the "slower" versions of the functions and are in bitops.c.
@@ -608,7 +608,7 @@ static inline int ffs(int word)
 
 #include <asm-generic/bitops/sched.h>
 
-#include <asm/arch_hweight.h>
+#include <asm-generic/arch_hweight.h>
 #include <asm-generic/bitops/const_hweight.h>
 
 #include <asm-generic/bitops/le.h>

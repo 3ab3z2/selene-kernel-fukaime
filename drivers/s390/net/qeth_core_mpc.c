@@ -7,7 +7,7 @@
  */
 
 #include <linux/module.h>
-#include <asm/cio.h>
+#include <asm-generic/cio.h>
 #include "qeth_core_mpc.h"
 
 unsigned char IDX_ACTIVATE_READ[] = {

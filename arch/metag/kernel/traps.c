@@ -30,17 +30,17 @@
 #include <linux/slab.h>
 #include <linux/syscalls.h>
 
-#include <asm/bug.h>
-#include <asm/core_reg.h>
-#include <asm/irqflags.h>
-#include <asm/siginfo.h>
-#include <asm/traps.h>
-#include <asm/hwthread.h>
-#include <asm/setup.h>
-#include <asm/switch.h>
-#include <asm/user_gateway.h>
-#include <asm/syscall.h>
-#include <asm/syscalls.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/hwthread.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/switch.h>
+#include <asm-generic/user_gateway.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/syscalls.h>
 
 /* Passing syscall arguments as long long is quicker. */
 typedef unsigned int (*LPSYSCALL) (unsigned long long,

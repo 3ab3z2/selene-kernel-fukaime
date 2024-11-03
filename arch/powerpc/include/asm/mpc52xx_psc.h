@@ -22,7 +22,7 @@
 #ifndef __ASM_MPC52xx_PSC_H__
 #define __ASM_MPC52xx_PSC_H__
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /* Max number of PSCs */
 #ifdef CONFIG_PPC_MPC512x

@@ -33,17 +33,17 @@
 #include <linux/module.h>
 #include <linux/spinlock.h>
 #include <linux/slab.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/8xx_immap.h>
-#include <asm/cpm1.h>
-#include <asm/io.h>
-#include <asm/tlbflush.h>
-#include <asm/rheap.h>
-#include <asm/prom.h>
-#include <asm/cpm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/cpm1.h>
+#include <asm-generic/io.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/rheap.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/cpm.h>
 
-#include <asm/fs_pd.h>
+#include <asm-generic/fs_pd.h>
 
 #ifdef CONFIG_8xx_GPIO
 #include <linux/of_gpio.h>

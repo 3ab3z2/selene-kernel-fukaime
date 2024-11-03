@@ -55,12 +55,12 @@
 #include <linux/irqdomain.h>
 #include <linux/irq.h>
 
-#include <asm/irqdomain.h>
-#include <asm/apic.h>
+#include <asm-generic/irqdomain.h>
+#include <asm-generic/apic.h>
 #include <linux/msi.h>
 #include <linux/hyperv.h>
 #include <linux/refcount.h>
-#include <asm/mshyperv.h>
+#include <asm-generic/mshyperv.h>
 
 /*
  * Protocol versions. The low word is the minor version, the high word the

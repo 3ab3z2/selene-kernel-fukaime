@@ -8,7 +8,7 @@
 #include <linux/ide.h>
 #include <linux/init.h>
 
-#include <asm/ecard.h>
+#include <asm-generic/ecard.h>
 
 static const struct ide_port_info rapide_port_info = {
 	.host_flags		= IDE_HFLAG_MMIO | IDE_HFLAG_NO_DMA,

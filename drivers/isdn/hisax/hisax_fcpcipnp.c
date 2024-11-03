@@ -34,7 +34,7 @@
 #include <linux/netdevice.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "hisax_fcpcipnp.h"
 

@@ -12,9 +12,9 @@
  *
  */
 
-#include <asm/m32r.h>
-#include <asm/page.h>
-#include <asm/io.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
 
 #include <linux/types.h>
 #include "../../../../drivers/pcmcia/m32r_cfc.h"

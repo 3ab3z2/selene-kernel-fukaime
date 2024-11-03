@@ -9,8 +9,8 @@
 #include <linux/module.h>
 #include <linux/string.h>
 
-#include <asm/esi.h>
-#include <asm/sal.h>
+#include <asm-generic/esi.h>
+#include <asm-generic/sal.h>
 
 MODULE_AUTHOR("Alex Williamson <alex.williamson@hp.com>");
 MODULE_DESCRIPTION("Extensible SAL Interface (ESI) support");

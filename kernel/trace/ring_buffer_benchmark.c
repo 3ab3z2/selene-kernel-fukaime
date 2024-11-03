@@ -9,7 +9,7 @@
 #include <uapi/linux/sched/types.h>
 #include <linux/module.h>
 #include <linux/ktime.h>
-#include <asm/local.h>
+#include <asm-generic/local.h>
 
 struct rb_page {
 	u64		ts;

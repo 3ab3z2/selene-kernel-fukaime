@@ -27,8 +27,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/assembler.h>
-#include <asm/errno.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/errno.h>
 
 /*
  * computes a partial checksum, e.g. for TCP/UDP fragments

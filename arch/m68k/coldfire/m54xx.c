@@ -17,15 +17,15 @@
 #include <linux/mm.h>
 #include <linux/clk.h>
 #include <linux/bootmem.h>
-#include <asm/pgalloc.h>
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/m54xxsim.h>
-#include <asm/mcfuart.h>
-#include <asm/mcfclk.h>
-#include <asm/m54xxgpt.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/m54xxsim.h>
+#include <asm-generic/mcfuart.h>
+#include <asm-generic/mcfclk.h>
+#include <asm-generic/m54xxgpt.h>
 #ifdef CONFIG_MMU
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 #endif
 
 /***************************************************************************/

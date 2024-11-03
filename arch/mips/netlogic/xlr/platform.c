@@ -18,10 +18,10 @@
 #include <linux/usb/ehci_pdriver.h>
 #include <linux/usb/ohci_pdriver.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
 
 static unsigned int nlm_xlr_uart_in(struct uart_port *p, int offset)
 {

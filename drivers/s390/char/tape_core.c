@@ -21,7 +21,7 @@
 #include <linux/list.h>
 #include <linux/slab.h>
 
-#include <asm/types.h>	     // for variable types
+#include <asm-generic/types.h>	     // for variable types
 
 #define TAPE_DBF_AREA	tape_core_dbf
 

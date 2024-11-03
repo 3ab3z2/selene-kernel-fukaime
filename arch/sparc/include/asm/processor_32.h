@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* include/asm/processor.h
+/* include/asm-generic/processor.h
  *
  * Copyright (C) 1994 David S. Miller (davem@caip.rutgers.edu)
  */
@@ -13,11 +13,11 @@
  */
 #define current_text_addr() ({ void *pc; __asm__("sethi %%hi(1f), %0; or %0, %%lo(1f), %0;\n1:" : "=r" (pc)); pc; })
 
-#include <asm/psr.h>
-#include <asm/ptrace.h>
-#include <asm/head.h>
-#include <asm/signal.h>
-#include <asm/page.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/head.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/page.h>
 
 /* Whee, this is STACK_TOP + PAGE_SIZE and the lowest kernel address too...
  * That one page is used to protect kernel from intruders, so that

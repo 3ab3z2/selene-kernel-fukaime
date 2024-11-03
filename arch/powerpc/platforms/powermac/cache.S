@@ -14,9 +14,9 @@
  *
  */
 
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/cputable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/cputable.h>
 
 /*
  * Flush and disable all data caches (dL1, L2, L3). This is used

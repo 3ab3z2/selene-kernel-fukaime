@@ -31,8 +31,8 @@
 #include <linux/vmalloc.h>
 #include <linux/hyperv.h>
 #include <linux/export.h>
-#include <asm/hyperv.h>
-#include <asm/mshyperv.h>
+#include <asm-generic/hyperv.h>
+#include <asm-generic/mshyperv.h>
 
 #include "hyperv_vmbus.h"
 

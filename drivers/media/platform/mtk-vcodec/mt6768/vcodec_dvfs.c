@@ -16,7 +16,7 @@
 #include <linux/ktime.h>
 #include <linux/timekeeping.h>
 #if !IS_ENABLED(64BIT)
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #endif
 #include <linux/slab.h>
 #include "vcodec_dvfs.h"

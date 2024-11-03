@@ -8,8 +8,8 @@
  *     Copyright IBM Corp. 2003, 2009
  */
 
-#include <asm/idals.h>
-#include <asm/ioctl.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/ioctl.h>
 
 /* ioctls for fullscreen 3270 */
 #define TUBICMD		_IO('3', 3)	/* set ccw command for fs reads. */

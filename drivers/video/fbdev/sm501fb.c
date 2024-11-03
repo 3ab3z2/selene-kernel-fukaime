@@ -32,7 +32,7 @@
 #include <linux/io.h>
 
 #include <linux/uaccess.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #ifdef CONFIG_PM
 #include <linux/pm.h>

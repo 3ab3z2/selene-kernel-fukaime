@@ -26,11 +26,11 @@
 #include <linux/kernel_stat.h>
 #include <linux/sched/signal.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/param.h>		/* HZ */
-#include <asm/cmb.h>
-#include <asm/isc.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/param.h>		/* HZ */
+#include <asm-generic/cmb.h>
+#include <asm-generic/isc.h>
 
 #include "chp.h"
 #include "cio.h"

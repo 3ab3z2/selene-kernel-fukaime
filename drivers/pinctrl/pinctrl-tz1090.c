@@ -37,7 +37,7 @@
  * The registers may be shared with other threads/cores, so we need to use the
  * metag global lock2 for atomicity.
  */
-#include <asm/global_lock.h>
+#include <asm-generic/global_lock.h>
 
 #include "core.h"
 #include "pinconf.h"

@@ -17,8 +17,8 @@
  *
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
-#include <asm/page.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ppc_asm.h>
 
 _GLOBAL(copypage_power7)
 	/*

@@ -13,9 +13,9 @@
 #include <linux/kdebug.h>
 #include <linux/sched.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/current.h>
-#include <asm/disasm.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/current.h>
+#include <asm-generic/disasm.h>
 
 #define MIN_STACK_SIZE(addr)	min((unsigned long)MAX_STACK_SIZE, \
 		(unsigned long)current_thread_info() + THREAD_SIZE - (addr))

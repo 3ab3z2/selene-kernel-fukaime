@@ -4,7 +4,7 @@
  *
  * Zero an entire page.
  */
-#include <asm/export.h>
+#include <asm-generic/export.h>
         .text
         .align 4
         .global clear_page

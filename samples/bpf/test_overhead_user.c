@@ -9,7 +9,7 @@
 #include <errno.h>
 #include <stdio.h>
 #include <sys/types.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <assert.h>

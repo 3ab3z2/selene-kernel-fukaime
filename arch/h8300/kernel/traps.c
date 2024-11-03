@@ -25,9 +25,9 @@
 #include <linux/module.h>
 #include <linux/bug.h>
 
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/page.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/page.h>
 
 static DEFINE_SPINLOCK(die_lock);
 

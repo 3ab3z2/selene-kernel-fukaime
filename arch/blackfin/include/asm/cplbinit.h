@@ -9,8 +9,8 @@
 #ifndef __ASM_CPLBINIT_H__
 #define __ASM_CPLBINIT_H__
 
-#include <asm/blackfin.h>
-#include <asm/cplb.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cplb.h>
 #include <linux/threads.h>
 
 #ifdef CONFIG_CPLB_SWITCH_TAB_L1

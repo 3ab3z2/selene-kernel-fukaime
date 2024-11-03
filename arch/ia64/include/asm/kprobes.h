@@ -24,7 +24,7 @@
  *              <anil.s.keshavamurthy@intel.com> adapted from i386
  */
 #include <asm-generic/kprobes.h>
-#include <asm/break.h>
+#include <asm-generic/break.h>
 
 #define BREAK_INST	(long)(__IA64_BREAK_KPROBE << 6)
 

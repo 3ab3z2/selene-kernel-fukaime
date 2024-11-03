@@ -19,8 +19,8 @@
 #include <linux/swapops.h>
 #include <linux/shmem_fs.h>
 
-#include <asm/tlb.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/pgalloc.h>
 #include "internal.h"
 
 /* gross hack for <=4.19 stable */

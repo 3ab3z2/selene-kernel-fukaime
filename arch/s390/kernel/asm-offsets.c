@@ -10,10 +10,10 @@
 #include <linux/kbuild.h>
 #include <linux/kvm_host.h>
 #include <linux/sched.h>
-#include <asm/idle.h>
-#include <asm/vdso.h>
-#include <asm/pgtable.h>
-#include <asm/gmap.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gmap.h>
 
 /*
  * Make sure that the compiler is new enough. We want a compiler that

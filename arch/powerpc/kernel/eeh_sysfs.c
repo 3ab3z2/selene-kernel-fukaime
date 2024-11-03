@@ -24,8 +24,8 @@
  */
 #include <linux/pci.h>
 #include <linux/stat.h>
-#include <asm/ppc-pci.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
 
 /**
  * EEH_SHOW_ATTR -- Create sysfs entry for eeh statistic

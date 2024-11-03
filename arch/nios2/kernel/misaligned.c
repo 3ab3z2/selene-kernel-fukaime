@@ -22,8 +22,8 @@
 #include <linux/uaccess.h>
 #include <linux/seq_file.h>
 
-#include <asm/traps.h>
-#include <asm/unaligned.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/unaligned.h>
 
 /* instructions we emulate */
 #define INST_LDHU	0x0b
@@ -38,7 +38,7 @@ static unsigned int ma_usermode;
 #define UM_SIGNAL	0x04
 #define KM_WARN		0x08
 
-/* see arch/nios2/include/asm/ptrace.h */
+/* see arch/nios2/include/asm-generic/ptrace.h */
 static u8 sys_stack_frame_reg_offset[] = {
 	/* struct pt_regs */
 	8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 0,

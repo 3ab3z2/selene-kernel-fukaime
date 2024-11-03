@@ -21,7 +21,7 @@
 #ifndef _ASM_IRQFLAGS_H
 #define _ASM_IRQFLAGS_H
 
-#include <asm/hexagon_vm.h>
+#include <asm-generic/hexagon_vm.h>
 #include <linux/types.h>
 
 static inline unsigned long arch_local_save_flags(void)

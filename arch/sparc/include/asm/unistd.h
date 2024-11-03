@@ -15,7 +15,7 @@
 #ifndef _SPARC_UNISTD_H
 #define _SPARC_UNISTD_H
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #ifdef __32bit_syscall_numbers__
 #else

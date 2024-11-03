@@ -15,12 +15,12 @@
 #include <linux/cpu.h>
 #include <linux/of.h>
 
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xics.h>
-#include <asm/io.h>
-#include <asm/hvcall.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hvcall.h>
 
 static inline unsigned int icp_hv_get_xirr(unsigned char cppr)
 {

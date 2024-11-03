@@ -5,8 +5,8 @@
 /*
  * User space memory access functions
  */
-#include <asm/page.h>
-#include <asm/cache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
 
 #include <linux/bug.h>
 #include <linux/string.h>

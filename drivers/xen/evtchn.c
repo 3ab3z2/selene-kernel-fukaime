@@ -56,7 +56,7 @@
 #include <xen/events.h>
 #include <xen/evtchn.h>
 #include <xen/xen-ops.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 struct per_user_data {
 	struct mutex bind_mutex; /* serialize bind/unbind operations */

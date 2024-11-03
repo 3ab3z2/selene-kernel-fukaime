@@ -15,13 +15,13 @@
 #include <linux/console.h>
 #include <linux/rtc.h>
 
-#include <asm/bootinfo.h>
-#include <asm/bootinfo-hp300.h>
-#include <asm/byteorder.h>
-#include <asm/machdep.h>
-#include <asm/blinken.h>
-#include <asm/io.h>                               /* readb() and writeb() */
-#include <asm/hp300hw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bootinfo-hp300.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/blinken.h>
+#include <asm-generic/io.h>                               /* readb() and writeb() */
+#include <asm-generic/hp300hw.h>
 
 #include "time.h"
 

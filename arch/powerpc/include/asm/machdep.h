@@ -14,7 +14,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/export.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /* We export this macro for external modules like Alsa to know if
  * ppc_md.feature_call is implemented or not

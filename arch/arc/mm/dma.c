@@ -17,8 +17,8 @@
  */
 
 #include <linux/dma-mapping.h>
-#include <asm/cache.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cacheflush.h>
 
 
 static void *arc_dma_alloc(struct device *dev, size_t size,

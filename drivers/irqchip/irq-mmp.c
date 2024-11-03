@@ -22,8 +22,8 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/exception.h>
-#include <asm/hardirq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/hardirq.h>
 
 #define MAX_ICU_NR		16
 

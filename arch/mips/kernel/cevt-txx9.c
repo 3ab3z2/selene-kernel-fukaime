@@ -15,8 +15,8 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/sched_clock.h>
-#include <asm/time.h>
-#include <asm/txx9tmr.h>
+#include <asm-generic/time.h>
+#include <asm-generic/txx9tmr.h>
 
 #define TCR_BASE (TXx9_TMTCR_CCDE | TXx9_TMTCR_CRE | TXx9_TMTCR_TMODE_ITVL)
 #define TIMER_CCD	0	/* 1/2 */

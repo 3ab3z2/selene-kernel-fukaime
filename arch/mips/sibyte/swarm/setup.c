@@ -30,23 +30,23 @@
 #include <linux/screen_info.h>
 #include <linux/initrd.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/bootinfo.h>
-#include <asm/mipsregs.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
-#include <asm/traps.h>
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/sibyte/sb1250.h>
 #if defined(CONFIG_SIBYTE_BCM1x55) || defined(CONFIG_SIBYTE_BCM1x80)
-#include <asm/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
 #elif defined(CONFIG_SIBYTE_SB1250) || defined(CONFIG_SIBYTE_BCM112X)
-#include <asm/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
 #else
 #error invalid SiByte board configuration
 #endif
-#include <asm/sibyte/sb1250_genbus.h>
-#include <asm/sibyte/board.h>
+#include <asm-generic/sibyte/sb1250_genbus.h>
+#include <asm-generic/sibyte/board.h>
 
 #if defined(CONFIG_SIBYTE_BCM1x55) || defined(CONFIG_SIBYTE_BCM1x80)
 extern void bcm1480_setup(void);

@@ -12,9 +12,9 @@
 #include <linux/pci.h>
 #include <linux/msi.h>
 #include <linux/of_device.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/iommu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/iommu.h>
 
 /* The abstraction used here is that there are PCI controllers,
  * each with one (Sabre) or two (PSYCHO/SCHIZO) PCI bus modules

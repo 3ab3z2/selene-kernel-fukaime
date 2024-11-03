@@ -42,9 +42,9 @@
 
 	.level		1.1
 
-#include <asm/assembly.h>
-#include <asm/pdc.h>
-#include <asm/psw.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/psw.h>
 
 #include <linux/linkage.h>
 #include <linux/init.h>

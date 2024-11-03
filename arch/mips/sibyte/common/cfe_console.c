@@ -3,10 +3,10 @@
 #include <linux/errno.h>
 #include <linux/console.h>
 
-#include <asm/sibyte/board.h>
+#include <asm-generic/sibyte/board.h>
 
-#include <asm/fw/cfe/cfe_api.h>
-#include <asm/fw/cfe/cfe_error.h>
+#include <asm-generic/fw/cfe/cfe_api.h>
+#include <asm-generic/fw/cfe/cfe_error.h>
 
 extern int cfe_cons_handle;
 

@@ -16,15 +16,15 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/page.h>
-#include <asm/io.h>
-#include <asm/upa.h>
-#include <asm/cache.h>
-#include <asm/dma.h>
-#include <asm/irq.h>
-#include <asm/prom.h>
-#include <asm/oplib.h>
-#include <asm/starfire.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/upa.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/starfire.h>
 
 #include "iommu_common.h"
 

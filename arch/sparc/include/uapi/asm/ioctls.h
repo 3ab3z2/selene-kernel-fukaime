@@ -2,7 +2,7 @@
 #ifndef _UAPI_ASM_SPARC_IOCTLS_H
 #define _UAPI_ASM_SPARC_IOCTLS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 /* Big T */
 #define TCGETA		_IOR('T', 1, struct termio)

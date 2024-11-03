@@ -24,7 +24,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/frame.h>
+#include <asm-generic/frame.h>
 #include "glue_helper-asm-avx.S"
 
 .file "serpent-avx-x86_64-asm_64.S"

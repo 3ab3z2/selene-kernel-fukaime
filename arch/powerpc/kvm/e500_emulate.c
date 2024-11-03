@@ -12,10 +12,10 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/kvm_ppc.h>
-#include <asm/disassemble.h>
-#include <asm/dbell.h>
-#include <asm/reg_booke.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/reg_booke.h>
 
 #include "booke.h"
 #include "e500.h"

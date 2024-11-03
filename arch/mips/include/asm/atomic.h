@@ -16,11 +16,11 @@
 
 #include <linux/irqflags.h>
 #include <linux/types.h>
-#include <asm/barrier.h>
-#include <asm/compiler.h>
-#include <asm/cpu-features.h>
-#include <asm/cmpxchg.h>
-#include <asm/war.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/war.h>
 
 #define ATOMIC_INIT(i)	  { (i) }
 

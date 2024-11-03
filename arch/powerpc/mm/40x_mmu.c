@@ -37,17 +37,17 @@
 #include <linux/highmem.h>
 #include <linux/memblock.h>
 
-#include <asm/pgalloc.h>
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
 #include <linux/uaccess.h>
-#include <asm/smp.h>
-#include <asm/bootx.h>
-#include <asm/machdep.h>
-#include <asm/setup.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/bootx.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/setup.h>
 
 #include "mmu_decl.h"
 

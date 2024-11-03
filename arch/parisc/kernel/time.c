@@ -31,12 +31,12 @@
 #include <linux/ftrace.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/param.h>
-#include <asm/pdc.h>
-#include <asm/led.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/param.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/led.h>
 
 #include <linux/timex.h>
 

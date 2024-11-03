@@ -28,8 +28,8 @@
  */
 
 #include <linux/interrupt.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/leds.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/leds.h>
 
 extern void sn_lb_int_war_check(void);
 extern irqreturn_t timer_interrupt(int irq, void *dev_id, struct pt_regs *regs);

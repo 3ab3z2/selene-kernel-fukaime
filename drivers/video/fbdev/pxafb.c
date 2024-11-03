@@ -60,9 +60,9 @@
 #include <video/videomode.h>
 
 #include <mach/hardware.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/div64.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/div64.h>
 #include <mach/bitfield.h>
 #include <linux/platform_data/video-pxafb.h>
 

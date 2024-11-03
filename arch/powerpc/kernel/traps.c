@@ -38,34 +38,34 @@
 #include <linux/ratelimit.h>
 #include <linux/context_tracking.h>
 
-#include <asm/emulated_ops.h>
-#include <asm/pgtable.h>
+#include <asm-generic/emulated_ops.h>
+#include <asm-generic/pgtable.h>
 #include <linux/uaccess.h>
-#include <asm/debugfs.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/rtas.h>
-#include <asm/pmc.h>
-#include <asm/reg.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/reg.h>
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 #ifdef CONFIG_PPC64
-#include <asm/firmware.h>
-#include <asm/processor.h>
-#include <asm/tm.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/tm.h>
 #endif
-#include <asm/kexec.h>
-#include <asm/ppc-opcode.h>
-#include <asm/rio.h>
-#include <asm/fadump.h>
-#include <asm/switch_to.h>
-#include <asm/tm.h>
-#include <asm/debug.h>
-#include <asm/asm-prototypes.h>
-#include <asm/hmi.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/rio.h>
+#include <asm-generic/fadump.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/asm-prototypes.h>
+#include <asm-generic/hmi.h>
 #include <sysdev/fsl_pci.h>
-#include <asm/kprobes.h>
+#include <asm-generic/kprobes.h>
 
 #if defined(CONFIG_DEBUGGER) || defined(CONFIG_KEXEC_CORE)
 int (*__debugger)(struct pt_regs *regs) __read_mostly;

@@ -5,12 +5,12 @@
  */
 #include <linux/hugetlb.h>
 #include <linux/mm.h>
-#include <asm/cacheflush.h>
-#include <asm/facility.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/page.h>
-#include <asm/set_memory.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/set_memory.h>
 
 static inline unsigned long sske_frame(unsigned long addr, unsigned char skey)
 {

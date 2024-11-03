@@ -12,7 +12,7 @@
  * CLOCK_TICK_RATE should give the underlying frequency of the tick timer
  * to make ntp work best.  For Coldfires, that's the main clock.
  */
-#include <asm/coldfire.h>
+#include <asm-generic/coldfire.h>
 #define CLOCK_TICK_RATE	MCF_CLK
 #else
 /*

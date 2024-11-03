@@ -19,8 +19,8 @@
 
 #include <linux/serial_reg.h>
 
-#include <asm/bootinfo.h>
-#include <asm/mach-jz4740/base.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mach-jz4740/base.h>
 
 static __init void jz4740_init_cmdline(int argc, char *argv[])
 {

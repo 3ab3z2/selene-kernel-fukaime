@@ -12,8 +12,8 @@ extern const struct seq_operations cpuinfo_op;
 #endif /* !(__ASSEMBLY__) */
 
 #if defined(__sparc__) && defined(__arch64__)
-#include <asm/cpudata_64.h>
+#include <asm-generic/cpudata_64.h>
 #else
-#include <asm/cpudata_32.h>
+#include <asm-generic/cpudata_32.h>
 #endif
 #endif

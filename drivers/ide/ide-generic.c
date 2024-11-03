@@ -15,10 +15,10 @@
 
 /* FIXME: convert arm and m32r to use ide_platform host driver */
 #ifdef CONFIG_ARM
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #endif
 #ifdef CONFIG_M32R
-#include <asm/m32r.h>
+#include <asm-generic/m32r.h>
 #endif
 
 #define DRV_NAME	"ide_generic"

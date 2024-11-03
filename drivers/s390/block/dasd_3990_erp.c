@@ -10,7 +10,7 @@
 #define KMSG_COMPONENT "dasd-eckd"
 
 #include <linux/timer.h>
-#include <asm/idals.h>
+#include <asm-generic/idals.h>
 
 #define PRINTK_HEADER "dasd_erp(3990): "
 

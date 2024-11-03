@@ -6,13 +6,13 @@
 #include <linux/init.h>
 #include <linux/export.h>
 
-#include <asm/bootinfo.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
 #include <linux/ioport.h>
 
-#include <asm/mach-rc32434/rb.h>
-#include <asm/mach-rc32434/pci.h>
+#include <asm-generic/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/pci.h>
 
 struct pci_reg __iomem *pci_reg;
 EXPORT_SYMBOL(pci_reg);

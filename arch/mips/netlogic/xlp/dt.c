@@ -39,7 +39,7 @@
 #include <linux/of_platform.h>
 #include <linux/of_device.h>
 
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 extern u32 __dtb_xlp_evp_begin[], __dtb_xlp_svp_begin[], __dtb_xlp_fvp_begin[],
 	__dtb_xlp_gvp_begin[], __dtb_xlp_rvp_begin[];

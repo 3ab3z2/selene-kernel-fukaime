@@ -5,7 +5,7 @@
 #include <linux/types.h>
 
 /*
- *	This file gets pulled in by asm/io.h from user space. We don't
+ *	This file gets pulled in by asm-generic/io.h from user space. We don't
  *	want most of this escaping.
  */
  

@@ -49,7 +49,7 @@
 #include <linux/bitops.h>
 #include <linux/slab.h>
 #include <linux/idr.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
 #include <linux/etherdevice.h>

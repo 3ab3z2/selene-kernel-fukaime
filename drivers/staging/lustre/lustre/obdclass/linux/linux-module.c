@@ -54,7 +54,7 @@
 #include <linux/list.h>
 #include <linux/highmem.h>
 #include <linux/io.h>
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 #include <linux/uaccess.h>
 #include <linux/miscdevice.h>
 #include <linux/seq_file.h>

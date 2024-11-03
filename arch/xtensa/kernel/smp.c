@@ -29,13 +29,13 @@
 #include <linux/smp.h>
 #include <linux/thread_info.h>
 
-#include <asm/cacheflush.h>
-#include <asm/kdebug.h>
-#include <asm/mmu_context.h>
-#include <asm/mxregs.h>
-#include <asm/platform.h>
-#include <asm/tlbflush.h>
-#include <asm/traps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mxregs.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/traps.h>
 
 #ifdef CONFIG_SMP
 # if XCHAL_HAVE_S32C1I == 0

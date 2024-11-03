@@ -20,7 +20,7 @@
 
 
 #include <linux/types.h>
-#include <uapi/asm/elf.h>
+#include <uapi/asm-generic/elf.h>
 
 /*
  * This is used to ensure we don't load something for the wrong architecture.

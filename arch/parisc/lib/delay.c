@@ -16,11 +16,11 @@
 #include <linux/preempt.h>
 #include <linux/init.h>
 
-#include <asm/processor.h>
-#include <asm/delay.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/delay.h>
 
-#include <asm/special_insns.h>    /* for mfctl() */
-#include <asm/processor.h> /* for boot_cpu_data */
+#include <asm-generic/special_insns.h>    /* for mfctl() */
+#include <asm-generic/processor.h> /* for boot_cpu_data */
 
 /* CR16 based delay: */
 static void __cr16_delay(unsigned long __loops)

@@ -16,9 +16,9 @@
 #include <linux/string.h>
 #include <linux/initrd.h>
 
-#include <asm/bootinfo.h>
-#include <asm/addrspace.h>
-#include <asm/fw/fw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/fw/fw.h>
 
 #include "common.h"
 

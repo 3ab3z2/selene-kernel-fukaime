@@ -11,8 +11,8 @@
 
 #include <linux/kernel.h>
 #include <linux/pci.h>
-#include <asm/pci_debug.h>
-#include <asm/sclp.h>
+#include <asm-generic/pci_debug.h>
+#include <asm-generic/sclp.h>
 
 /* Content Code Description for PCI Function Error */
 struct zpci_ccdf_err {

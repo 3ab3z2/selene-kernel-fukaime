@@ -9,9 +9,9 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/delay.h>
-#include <asm/smp.h>
-#include <asm/dma.h>
-#include <asm/time.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/time.h>
 
 static DEFINE_SPINLOCK(boot_lock);
 

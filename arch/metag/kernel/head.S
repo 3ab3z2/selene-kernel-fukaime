@@ -2,7 +2,7 @@
 	! Copyright 2005,2006,2007,2009 Imagination Technologies
 
 #include <linux/init.h>
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 #include <generated/asm-offsets.h>
 #undef __exit
 

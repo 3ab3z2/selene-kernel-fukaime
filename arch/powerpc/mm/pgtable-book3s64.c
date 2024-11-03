@@ -11,8 +11,8 @@
 #include <linux/mm_types.h>
 #include <misc/cxl-base.h>
 
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
 
 #include "mmu_decl.h"
 #include <trace/events/thp.h>

@@ -15,7 +15,7 @@
  *
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 #include "aes-spe-regs.h"
 
 #define	EAD(in, bpos) \

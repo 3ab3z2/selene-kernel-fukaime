@@ -18,9 +18,9 @@
 #include <linux/highmem.h>
 #include <linux/dma-contiguous.h>
 
-#include <asm/cache.h>
-#include <asm/cpu-type.h>
-#include <asm/io.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/io.h>
 
 #include <dma-coherence.h>
 

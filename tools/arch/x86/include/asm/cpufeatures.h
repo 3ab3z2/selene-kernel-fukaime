@@ -3,11 +3,11 @@
 #define _ASM_X86_CPUFEATURES_H
 
 #ifndef _ASM_X86_REQUIRED_FEATURES_H
-#include <asm/required-features.h>
+#include <asm-generic/required-features.h>
 #endif
 
 #ifndef _ASM_X86_DISABLED_FEATURES_H
-#include <asm/disabled-features.h>
+#include <asm-generic/disabled-features.h>
 #endif
 
 /*

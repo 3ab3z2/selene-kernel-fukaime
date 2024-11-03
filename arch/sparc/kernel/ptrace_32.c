@@ -23,9 +23,9 @@
 #include <linux/elf.h>
 #include <linux/tracehook.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "kernel.h"
 

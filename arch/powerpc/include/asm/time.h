@@ -17,8 +17,8 @@
 #include <linux/types.h>
 #include <linux/percpu.h>
 
-#include <asm/processor.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cpu_has_feature.h>
 
 /* time.c */
 extern unsigned long tb_ticks_per_jiffy;

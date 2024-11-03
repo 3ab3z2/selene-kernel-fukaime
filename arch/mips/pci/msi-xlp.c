@@ -42,18 +42,18 @@
 #include <linux/irqdesc.h>
 #include <linux/console.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/mips-extns.h>
 
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/pic.h>
-#include <asm/netlogic/xlp-hal/pcibus.h>
-#include <asm/netlogic/xlp-hal/bridge.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/pic.h>
+#include <asm-generic/netlogic/xlp-hal/pcibus.h>
+#include <asm-generic/netlogic/xlp-hal/bridge.h>
 
 #define XLP_MSIVEC_PER_LINK	32
 #define XLP_MSIXVEC_TOTAL	(cpu_is_xlp9xx() ? 128 : 32)

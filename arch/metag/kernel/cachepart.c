@@ -8,10 +8,10 @@
 #include <linux/kernel.h>
 #include <linux/io.h>
 #include <linux/errno.h>
-#include <asm/processor.h>
-#include <asm/cachepart.h>
-#include <asm/metag_isa.h>
-#include <asm/metag_mem.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cachepart.h>
+#include <asm-generic/metag_isa.h>
+#include <asm-generic/metag_mem.h>
 
 #define SYSC_DCPART(n)	(SYSC_DCPART0 + SYSC_xCPARTn_STRIDE * (n))
 #define SYSC_ICPART(n)	(SYSC_ICPART0 + SYSC_xCPARTn_STRIDE * (n))

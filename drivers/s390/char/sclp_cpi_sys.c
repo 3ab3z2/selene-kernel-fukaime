@@ -22,8 +22,8 @@
 #include <linux/slab.h>
 #include <linux/completion.h>
 #include <linux/export.h>
-#include <asm/ebcdic.h>
-#include <asm/sclp.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/sclp.h>
 
 #include "sclp.h"
 #include "sclp_rw.h"

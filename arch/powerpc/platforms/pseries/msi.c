@@ -13,10 +13,10 @@
 #include <linux/irq.h>
 #include <linux/msi.h>
 
-#include <asm/rtas.h>
-#include <asm/hw_irq.h>
-#include <asm/ppc-pci.h>
-#include <asm/machdep.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/machdep.h>
 
 #include "pseries.h"
 

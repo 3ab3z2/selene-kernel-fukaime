@@ -33,7 +33,7 @@
 #include <linux/fb.h>
 #include <linux/ioport.h>
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "sis.h"
 #include "sis_accel.h"

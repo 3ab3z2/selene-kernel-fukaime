@@ -8,11 +8,11 @@
  * 2 of the License, or (at your option) any later version.
  */
 #include <linux/jump_label.h>
-#include <asm/hvcall.h>
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/ptrace.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ptrace.h>
 
 	.section	".text"
 	

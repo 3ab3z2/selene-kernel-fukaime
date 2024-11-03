@@ -12,8 +12,8 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/sgialib.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/bootinfo.h>
 
 #undef DEBUG_CMDLINE
 

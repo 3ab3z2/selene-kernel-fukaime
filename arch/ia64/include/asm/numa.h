@@ -20,7 +20,7 @@
 #include <linux/smp.h>
 #include <linux/threads.h>
 
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 
 extern u16 cpu_to_node_map[NR_CPUS] __cacheline_aligned;
 extern cpumask_t node_to_cpu_mask[MAX_NUMNODES] __cacheline_aligned;

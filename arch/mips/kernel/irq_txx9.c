@@ -17,7 +17,7 @@
 #include <linux/interrupt.h>
 #include <linux/types.h>
 #include <linux/irq.h>
-#include <asm/txx9irq.h>
+#include <asm-generic/txx9irq.h>
 
 struct txx9_irc_reg {
 	u32 cer;

@@ -14,16 +14,16 @@
 #include <linux/sched/signal.h>
 #include <linux/uaccess.h>
 
-#include <asm/abi.h>
-#include <asm/compat-signal.h>
-#include <asm/dsp.h>
-#include <asm/sim.h>
-#include <asm/unistd.h>
+#include <asm-generic/abi.h>
+#include <asm-generic/compat-signal.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/sim.h>
+#include <asm-generic/unistd.h>
 
 #include "signal-common.h"
 
 /*
- * Including <asm/unistd.h> would give use the 64-bit syscall numbers ...
+ * Including <asm-generic/unistd.h> would give use the 64-bit syscall numbers ...
  */
 #define __NR_O32_restart_syscall	4253
 

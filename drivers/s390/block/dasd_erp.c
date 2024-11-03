@@ -14,8 +14,8 @@
 #include <linux/ctype.h>
 #include <linux/init.h>
 
-#include <asm/debug.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/ebcdic.h>
 #include <linux/uaccess.h>
 
 /* This is ugly... */

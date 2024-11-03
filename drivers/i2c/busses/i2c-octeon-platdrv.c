@@ -23,7 +23,7 @@
 #include <linux/sched.h>
 #include <linux/slab.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 #include "i2c-octeon-core.h"
 
 #define DRV_NAME "i2c-octeon"

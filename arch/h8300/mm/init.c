@@ -33,11 +33,11 @@
 #include <linux/bootmem.h>
 #include <linux/gfp.h>
 
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
 
 /*
  * BAD_PAGE is the page that is used for page faults when linux

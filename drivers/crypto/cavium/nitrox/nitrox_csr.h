@@ -2,7 +2,7 @@
 #ifndef __NITROX_CSR_H
 #define __NITROX_CSR_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/types.h>
 
 /* EMU clusters */

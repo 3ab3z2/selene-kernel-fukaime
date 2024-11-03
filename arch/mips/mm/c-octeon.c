@@ -14,19 +14,19 @@
 #include <linux/cpu.h>
 #include <linux/io.h>
 
-#include <asm/bcache.h>
-#include <asm/bootinfo.h>
-#include <asm/cacheops.h>
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/r4kcache.h>
-#include <asm/traps.h>
-#include <asm/mmu_context.h>
-#include <asm/war.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/war.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 unsigned long long cache_err_dcache[NR_CPUS];
 EXPORT_SYMBOL_GPL(cache_err_dcache);

@@ -11,14 +11,14 @@
 #include <linux/interrupt.h>
 #include <linux/security.h>
 
-#include <asm/cpu.h>
-#include <asm/processor.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/processor.h>
 #include <linux/atomic.h>
-#include <asm/hardirq.h>
-#include <asm/mmu_context.h>
-#include <asm/mipsmtregs.h>
-#include <asm/r4kcache.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/cacheflush.h>
 
 int vpelimit;
 

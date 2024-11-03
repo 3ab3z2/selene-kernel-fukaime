@@ -20,10 +20,10 @@
 
 #include <linux/timer.h>
 
-#include <asm/prom.h>
-#include <asm/icswx.h>
-#include <asm/vas.h>
-#include <asm/reg.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/icswx.h>
+#include <asm-generic/vas.h>
+#include <asm-generic/reg.h>
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Dan Streetman <ddstreet@ieee.org>");
@@ -595,7 +595,7 @@ static int nx842_exec_vas(const unsigned char *in, unsigned int inlen,
 		wmem->start = ktime_get();
 		preempt_disable();
 		/*
-		 * VAS copy CRB into L2 cache. Refer <asm/vas.h>.
+		 * VAS copy CRB into L2 cache. Refer <asm-generic/vas.h>.
 		 * @crb and @offset.
 		 */
 		vas_copy_crb(crb, 0);

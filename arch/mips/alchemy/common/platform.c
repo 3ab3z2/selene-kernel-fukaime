@@ -21,10 +21,10 @@
 #include <linux/usb/ehci_pdriver.h>
 #include <linux/usb/ohci_pdriver.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1100_mmc.h>
-#include <asm/mach-au1x00/au1xxx_eth.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1100_mmc.h>
+#include <asm-generic/mach-au1x00/au1xxx_eth.h>
 
 #include <prom.h>
 

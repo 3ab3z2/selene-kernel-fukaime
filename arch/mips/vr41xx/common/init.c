@@ -22,10 +22,10 @@
 #include <linux/irq.h>
 #include <linux/string.h>
 
-#include <asm/bootinfo.h>
-#include <asm/time.h>
-#include <asm/vr41xx/irq.h>
-#include <asm/vr41xx/vr41xx.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
+#include <asm-generic/vr41xx/irq.h>
+#include <asm-generic/vr41xx/vr41xx.h>
 
 #define IO_MEM_RESOURCE_START	0UL
 #define IO_MEM_RESOURCE_END	0x1fffffffUL

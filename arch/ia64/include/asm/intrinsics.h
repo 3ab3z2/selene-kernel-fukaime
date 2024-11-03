@@ -8,6 +8,6 @@
 #ifndef _ASM_IA64_INTRINSICS_H
 #define _ASM_IA64_INTRINSICS_H
 
-#include <uapi/asm/intrinsics.h>
+#include <uapi/asm-generic/intrinsics.h>
 
 #endif /* _ASM_IA64_INTRINSICS_H */

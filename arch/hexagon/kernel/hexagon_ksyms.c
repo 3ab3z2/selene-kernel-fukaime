@@ -19,8 +19,8 @@
  */
 
 #include <linux/dma-mapping.h>
-#include <asm/hexagon_vm.h>
-#include <asm/io.h>
+#include <asm-generic/hexagon_vm.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 /* Additional functions */

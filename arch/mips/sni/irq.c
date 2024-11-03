@@ -13,11 +13,11 @@
 #include <linux/irq.h>
 #include <linux/kernel.h>
 
-#include <asm/i8259.h>
-#include <asm/io.h>
-#include <asm/sni.h>
-#include <asm/irq.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sni.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_cpu.h>
 
 void (*sni_hwint)(void);
 

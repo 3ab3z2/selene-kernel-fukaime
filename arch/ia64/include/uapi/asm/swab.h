@@ -8,7 +8,7 @@
  */
 
 #include <linux/types.h>
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 #include <linux/compiler.h>
 
 static __inline__ __attribute_const__ __u64 __arch_swab64(__u64 x)

@@ -12,11 +12,11 @@
 #include <linux/memblock.h>
 #include <linux/sched/task.h>
 
-#include <asm/lppaca.h>
-#include <asm/paca.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
-#include <asm/kexec.h>
+#include <asm-generic/lppaca.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/kexec.h>
 
 #ifdef CONFIG_PPC_BOOK3S
 

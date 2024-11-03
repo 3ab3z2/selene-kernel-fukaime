@@ -18,7 +18,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/io.h>
 #include <linux/cache.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 static inline void __dma_sync_for_device(void *vaddr, size_t size,
 			      enum dma_data_direction direction)

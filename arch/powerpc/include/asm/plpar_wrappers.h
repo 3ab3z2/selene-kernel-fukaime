@@ -5,9 +5,9 @@
 #include <linux/string.h>
 #include <linux/irqflags.h>
 
-#include <asm/hvcall.h>
-#include <asm/paca.h>
-#include <asm/page.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/page.h>
 
 /* Get state of physical CPU from query_cpu_stopped */
 int smp_query_cpu_stopped(unsigned int pcpu);

@@ -27,13 +27,13 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page_types.h>
-#include <asm/errno.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/asm.h>
-#include <asm/smap.h>
-#include <asm/export.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/smap.h>
+#include <asm-generic/export.h>
 
 	.text
 ENTRY(__get_user_1)

@@ -6,7 +6,7 @@
 #ifndef CONFIG_X86_32
 #define __FRAME_OFFSETS /* Needed to get the R* macros */
 #endif
-#include <asm/ptrace-generic.h>
+#include <asm-generic/ptrace-generic.h>
 
 #define user_mode(r) UPT_IS_USER(&(r)->regs)
 
@@ -65,7 +65,7 @@ extern int ptrace_set_thread_area(struct task_struct *child, int idx,
 #define PT_REGS_R14(r) UPT_R14(&(r)->regs)
 #define PT_REGS_R15(r) UPT_R15(&(r)->regs)
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 static inline int ptrace_get_thread_area(struct task_struct *child, int idx,
                                          struct user_desc __user *user_desc)

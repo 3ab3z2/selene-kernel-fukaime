@@ -14,7 +14,7 @@
 #include <linux/futex.h>
 #include <linux/preempt.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 #ifdef CONFIG_ARC_HAS_LLSC
 

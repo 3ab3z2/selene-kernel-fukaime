@@ -20,7 +20,7 @@
 #include <linux/init.h>
 #include <linux/ioport.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define E55_ISA_IO_BASE		0x1400c000
 #define E55_ISA_IO_SIZE		0x03ff4000

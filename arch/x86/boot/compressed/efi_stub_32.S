@@ -9,7 +9,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page_types.h>
+#include <asm-generic/page_types.h>
 
 /*
  * efi_call_phys(void *, ...) is a function with variable parameters.

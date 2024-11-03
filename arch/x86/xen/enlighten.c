@@ -8,10 +8,10 @@
 #include <xen/features.h>
 #include <xen/page.h>
 
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/cpu.h>
-#include <asm/e820/api.h> 
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/e820/api.h> 
 
 #include "xen-ops.h"
 #include "smp.h"

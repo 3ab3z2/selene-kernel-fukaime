@@ -6,16 +6,16 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/assembler.h>
-#include <asm/smp.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/smp.h>
 
 	.text
 #ifdef CONFIG_MMU
 
-#include <asm/mmu_context.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/m32r.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/m32r.h>
 
 /*
  * TLB Miss Exception handler

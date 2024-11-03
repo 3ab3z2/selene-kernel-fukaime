@@ -17,8 +17,8 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #define AX_SPR_BUSY		(1<<7)
 #define AX_SPR_ACK		(1<<6)

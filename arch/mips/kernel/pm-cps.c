@@ -13,16 +13,16 @@
 #include <linux/percpu.h>
 #include <linux/slab.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/cacheflush.h>
-#include <asm/cacheops.h>
-#include <asm/idle.h>
-#include <asm/mips-cps.h>
-#include <asm/mipsmtregs.h>
-#include <asm/pm.h>
-#include <asm/pm-cps.h>
-#include <asm/smp-cps.h>
-#include <asm/uasm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/pm.h>
+#include <asm-generic/pm-cps.h>
+#include <asm-generic/smp-cps.h>
+#include <asm-generic/uasm.h>
 
 /*
  * cps_nc_entry_fn - type of a generated non-coherent state entry function

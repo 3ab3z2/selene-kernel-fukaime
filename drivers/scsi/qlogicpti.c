@@ -30,16 +30,16 @@
 #include <linux/of_device.h>
 #include <linux/firmware.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "qlogicpti.h"
 
-#include <asm/dma.h>
-#include <asm/ptrace.h>
-#include <asm/pgtable.h>
-#include <asm/oplib.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

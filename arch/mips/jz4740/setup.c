@@ -21,10 +21,10 @@
 #include <linux/libfdt.h>
 #include <linux/of_fdt.h>
 
-#include <asm/bootinfo.h>
-#include <asm/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/prom.h>
 
-#include <asm/mach-jz4740/base.h>
+#include <asm-generic/mach-jz4740/base.h>
 
 #include "reset.h"
 

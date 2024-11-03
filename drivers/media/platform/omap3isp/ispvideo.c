@@ -13,7 +13,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/clk.h>
 #include <linux/mm.h>
 #include <linux/module.h>

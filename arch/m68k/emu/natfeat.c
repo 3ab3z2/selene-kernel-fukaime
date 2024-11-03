@@ -16,8 +16,8 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/io.h>
-#include <asm/machdep.h>
-#include <asm/natfeat.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/natfeat.h>
 
 extern long nf_get_id_phys(unsigned long feature_name);
 

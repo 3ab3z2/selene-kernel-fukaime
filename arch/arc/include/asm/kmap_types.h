@@ -13,6 +13,6 @@
 /*
  * We primarily need to define KM_TYPE_NR here but that in turn
  * is a function of PGDIR_SIZE etc.
- * To avoid circular deps issue, put everything in asm/highmem.h
+ * To avoid circular deps issue, put everything in asm-generic/highmem.h
  */
 #endif

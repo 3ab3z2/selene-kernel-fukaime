@@ -36,9 +36,9 @@
 #include <crypto/ctr.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/twofish.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/twofish.h>
+#include <asm-generic/crypto/glue_helper.h>
 #include <crypto/scatterwalk.h>
 #include <linux/workqueue.h>
 #include <linux/spinlock.h>

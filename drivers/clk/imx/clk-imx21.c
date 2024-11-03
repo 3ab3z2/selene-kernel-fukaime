@@ -15,7 +15,7 @@
 #include <linux/of_address.h>
 #include <dt-bindings/clock/imx21-clock.h>
 #include <soc/imx/timer.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "clk.h"
 

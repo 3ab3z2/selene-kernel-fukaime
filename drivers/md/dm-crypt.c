@@ -25,8 +25,8 @@
 #include <linux/scatterlist.h>
 #include <linux/rbtree.h>
 #include <linux/ctype.h>
-#include <asm/page.h>
-#include <asm/unaligned.h>
+#include <asm-generic/page.h>
+#include <asm-generic/unaligned.h>
 #include <crypto/hash.h>
 #include <crypto/md5.h>
 #include <crypto/algapi.h>

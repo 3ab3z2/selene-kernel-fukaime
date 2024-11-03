@@ -37,7 +37,7 @@
 #include <linux/iommu.h>
 
 #if defined(CONFIG_FSL_PAMU)
-#include <asm/fsl_pamu_stash.h>
+#include <asm-generic/fsl_pamu_stash.h>
 #endif
 
 struct qm_mcr_querywq {

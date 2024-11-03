@@ -10,23 +10,23 @@
  */
 
 #include <linux/threads.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cputable.h>
-#include <asm/setup.h>
-#include <asm/thread_info.h>
-#include <asm/reg_a2.h>
-#include <asm/exception-64e.h>
-#include <asm/bug.h>
-#include <asm/irqflags.h>
-#include <asm/ptrace.h>
-#include <asm/ppc-opcode.h>
-#include <asm/mmu.h>
-#include <asm/hw_irq.h>
-#include <asm/kvm_asm.h>
-#include <asm/kvm_booke_hv_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/reg_a2.h>
+#include <asm-generic/exception-64e.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/kvm_booke_hv_asm.h>
 
 /* XXX This will ultimately add space for a special exception save
  *     structure used to save things like SRR0/SRR1, SPRGs, MAS, etc...

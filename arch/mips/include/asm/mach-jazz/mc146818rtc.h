@@ -13,8 +13,8 @@
 
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/jazz.h>
+#include <asm-generic/io.h>
+#include <asm-generic/jazz.h>
 
 #define RTC_PORT(x)	(0x70 + (x))
 #define RTC_IRQ		8

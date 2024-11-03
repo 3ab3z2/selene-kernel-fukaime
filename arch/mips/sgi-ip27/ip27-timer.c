@@ -18,25 +18,25 @@
 #include <linux/mm.h>
 #include <linux/platform_device.h>
 
-#include <asm/time.h>
-#include <asm/pgtable.h>
-#include <asm/sgialib.h>
-#include <asm/sn/ioc3.h>
-#include <asm/sn/klconfig.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/sn_private.h>
-#include <asm/sn/sn0/ip27.h>
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/time.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sn/ioc3.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/sn_private.h>
+#include <asm-generic/sn/sn0/ip27.h>
+#include <asm-generic/sn/sn0/hub.h>
 
 #define TICK_SIZE (tick_nsec / 1000)
 
 /* Includes for ioc3_init().  */
-#include <asm/sn/types.h>
-#include <asm/sn/sn0/addrs.h>
-#include <asm/sn/sn0/hubni.h>
-#include <asm/sn/sn0/hubio.h>
-#include <asm/pci/bridge.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/sn0/addrs.h>
+#include <asm-generic/sn/sn0/hubni.h>
+#include <asm-generic/sn/sn0/hubio.h>
+#include <asm-generic/pci/bridge.h>
 
 static void enable_rt_irq(struct irq_data *d)
 {

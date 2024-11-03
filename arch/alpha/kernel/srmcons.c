@@ -18,7 +18,7 @@
 #include <linux/tty_driver.h>
 #include <linux/tty_flip.h>
 
-#include <asm/console.h>
+#include <asm-generic/console.h>
 #include <linux/uaccess.h>
 
 

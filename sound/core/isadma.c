@@ -28,7 +28,7 @@
 
 #include <linux/export.h>
 #include <sound/core.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 /**
  * snd_dma_program - program an ISA DMA transfer

@@ -7,9 +7,9 @@
 #include <linux/mm.h>
 #include <linux/sched.h>
 #include <linux/spinlock.h>
-#include <asm/mmu.h>	
-#include <asm/cputable.h>
-#include <asm/cputhreads.h>
+#include <asm-generic/mmu.h>	
+#include <asm-generic/cputable.h>
+#include <asm-generic/cputhreads.h>
 
 /*
  * Most if the context management is out of line

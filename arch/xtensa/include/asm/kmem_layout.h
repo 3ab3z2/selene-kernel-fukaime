@@ -11,7 +11,7 @@
 #ifndef _XTENSA_KMEM_LAYOUT_H
 #define _XTENSA_KMEM_LAYOUT_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef CONFIG_MMU
 

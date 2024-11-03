@@ -15,7 +15,7 @@
 #include <linux/stringify.h>
 #include <variant/core.h>
 #include <variant/tie.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef __ASSEMBLY__
 # include <variant/tie-asm.h>

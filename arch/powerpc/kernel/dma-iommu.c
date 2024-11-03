@@ -7,7 +7,7 @@
  */
 
 #include <linux/export.h>
-#include <asm/iommu.h>
+#include <asm-generic/iommu.h>
 
 /*
  * Generic iommu implementation

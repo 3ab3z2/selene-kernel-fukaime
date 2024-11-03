@@ -10,9 +10,9 @@
 #include <linux/init.h>
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
-#include <asm/ipl.h>
-#include <asm/sclp.h>
-#include <asm/setup.h>
+#include <asm-generic/ipl.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/setup.h>
 
 #define CHUNK_READ_WRITE 0
 #define CHUNK_READ_ONLY  1

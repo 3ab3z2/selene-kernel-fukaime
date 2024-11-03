@@ -39,8 +39,8 @@
 #include <linux/slab.h>
 
 #include <linux/atomic.h>
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 
 #include "ambassador.h"
 

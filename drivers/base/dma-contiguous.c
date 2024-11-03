@@ -19,8 +19,8 @@
 #endif
 #endif
 
-#include <asm/page.h>
-#include <asm/dma-contiguous.h>
+#include <asm-generic/page.h>
+#include <asm-generic/dma-contiguous.h>
 
 #include <linux/memblock.h>
 #include <linux/err.h>

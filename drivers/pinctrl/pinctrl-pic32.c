@@ -28,7 +28,7 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 
-#include <asm/mach-pic32/pic32.h>
+#include <asm-generic/mach-pic32/pic32.h>
 
 #include "pinctrl-utils.h"
 #include "pinctrl-pic32.h"

@@ -15,12 +15,12 @@
 #include <linux/string.h>
 #include <linux/bootmem.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/mcf_pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mcf_pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 #define KMAPAREA(x)	((x >= VMALLOC_START) && (x < KMAP_END))
 

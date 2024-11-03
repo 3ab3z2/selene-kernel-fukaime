@@ -26,14 +26,14 @@
  *
  */
 
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/cputable.h>
-#include <asm/mmu.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/processor.h>
-#include <asm/bug.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/bug.h>
 
 #if defined(CONFIG_40x)
 

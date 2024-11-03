@@ -21,7 +21,7 @@
 #include <linux/hash.h>
 #include <linux/hashtable.h>
 #include <linux/string.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include "qeth_core.h"
 #include "qeth_l2.h"
 

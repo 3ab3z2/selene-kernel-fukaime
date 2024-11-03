@@ -23,12 +23,12 @@
 #include <linux/mm.h>
 #include <linux/of.h>
 
-#include <asm/prom.h>
-#include <asm/oplib.h>
-#include <asm/irq.h>
-#include <asm/asi.h>
-#include <asm/upa.h>
-#include <asm/smp.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/upa.h>
+#include <asm-generic/smp.h>
 
 #include "prom.h"
 

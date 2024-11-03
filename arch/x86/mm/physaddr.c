@@ -4,7 +4,7 @@
 #include <linux/export.h>
 #include <linux/mm.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include "physaddr.h"
 

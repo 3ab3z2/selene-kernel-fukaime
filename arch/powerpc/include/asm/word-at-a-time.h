@@ -6,8 +6,8 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/asm-compat.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/ppc_asm.h>
 
 #ifdef __BIG_ENDIAN__
 

@@ -13,12 +13,12 @@
 #include <linux/string.h>
 #include <linux/mm.h>
 #include <linux/interrupt.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/8xx_immap.h>
-#include <asm/cpm.h>
-#include <asm/cpm1.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/cpm.h>
+#include <asm-generic/cpm1.h>
 
 /*
  * I2C/SPI relocation patch arrays.

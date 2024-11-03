@@ -22,8 +22,8 @@
 #include <linux/gfp.h>
 #include <linux/slab.h>
 
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
 
 static DEFINE_SPINLOCK(mmu_context_lock);
 static DEFINE_IDA(mmu_context_ida);

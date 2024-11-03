@@ -9,7 +9,7 @@
 #include <linux/fs.h>
 #include <linux/namei.h>
 #include <linux/slab.h>
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 #include <linux/kernel.h>
 #include <linux/security.h>

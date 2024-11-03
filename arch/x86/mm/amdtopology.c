@@ -14,18 +14,18 @@
 #include <linux/memblock.h>
 #include <linux/bootmem.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/pci_ids.h>
 #include <linux/acpi.h>
-#include <asm/types.h>
-#include <asm/mmzone.h>
-#include <asm/proto.h>
-#include <asm/e820/api.h>
-#include <asm/pci-direct.h>
-#include <asm/numa.h>
-#include <asm/mpspec.h>
-#include <asm/apic.h>
-#include <asm/amd_nb.h>
+#include <asm-generic/types.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/mpspec.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/amd_nb.h>
 
 static unsigned char __initdata nodeids[8];
 

@@ -30,7 +30,7 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 static u8 twl4030_start_script_address = 0x2b;
 

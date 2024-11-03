@@ -2,8 +2,8 @@
 #ifndef __ASM_TLB_H
 #define __ASM_TLB_H
 
-#include <asm/cpu-features.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * MIPS doesn't need any special per-pte or per-vma handling, except

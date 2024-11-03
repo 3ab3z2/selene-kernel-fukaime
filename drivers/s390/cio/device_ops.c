@@ -15,10 +15,10 @@
 #include <linux/delay.h>
 #include <linux/completion.h>
 
-#include <asm/ccwdev.h>
-#include <asm/idals.h>
-#include <asm/chpid.h>
-#include <asm/fcx.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/fcx.h>
 
 #include "cio.h"
 #include "cio_debug.h"

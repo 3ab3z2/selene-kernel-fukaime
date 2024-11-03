@@ -2,7 +2,7 @@
 #include <linux/kernel.h>
 #include <linux/fs.h>
 #include <linux/buffer_head.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "omfs.h"
 
 unsigned long omfs_count_free(struct super_block *sb)

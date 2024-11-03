@@ -20,8 +20,8 @@
 #include <linux/wait.h>
 #include <linux/gfp.h>
 #include <linux/of.h>
-#include <asm/machdep.h>
-#include <asm/opal.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
 
 #define N_ASYNC_COMPLETIONS	64
 

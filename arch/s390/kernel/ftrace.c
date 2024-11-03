@@ -16,9 +16,9 @@
 #include <linux/types.h>
 #include <linux/kprobes.h>
 #include <trace/syscall.h>
-#include <asm/asm-offsets.h>
-#include <asm/cacheflush.h>
-#include <asm/set_memory.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/set_memory.h>
 #include "entry.h"
 
 /*

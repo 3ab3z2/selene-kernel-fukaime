@@ -9,10 +9,10 @@
 #include <linux/kernel.h>
 #include <linux/kvm_para.h>
 
-#include <asm/reboot.h>
-#include <asm/bootinfo.h>
-#include <asm/smp-ops.h>
-#include <asm/time.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/time.h>
 
 extern const struct plat_smp_ops paravirt_smp_ops;
 

@@ -21,7 +21,7 @@
 #include <linux/module.h>
 #include <trace/events/power.h>
 
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 #include "tick-internal.h"
 

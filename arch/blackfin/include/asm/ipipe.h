@@ -29,12 +29,12 @@
 #include <linux/threads.h>
 #include <linux/irq.h>
 #include <linux/ipipe_percpu.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
-#include <asm/bitops.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/bitops.h>
 #include <linux/atomic.h>
-#include <asm/traps.h>
-#include <asm/bitsperlong.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/bitsperlong.h>
 
 #define IPIPE_ARCH_STRING     "1.16-01"
 #define IPIPE_MAJOR_NUMBER    1

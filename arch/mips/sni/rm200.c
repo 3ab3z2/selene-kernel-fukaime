@@ -18,9 +18,9 @@
 #include <linux/serial_8250.h>
 #include <linux/io.h>
 
-#include <asm/sni.h>
-#include <asm/time.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/sni.h>
+#include <asm-generic/time.h>
+#include <asm-generic/irq_cpu.h>
 
 #define RM200_I8259A_IRQ_BASE 32
 

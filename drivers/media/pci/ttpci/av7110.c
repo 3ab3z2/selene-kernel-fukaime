@@ -47,8 +47,8 @@
 #include <linux/i2c.h>
 #include <linux/kthread.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 
 
 #include <linux/dvb/frontend.h>

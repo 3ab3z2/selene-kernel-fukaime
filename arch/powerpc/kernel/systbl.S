@@ -14,7 +14,7 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 #ifdef CONFIG_PPC64
 #define SYSCALL(func)		.8byte	DOTSYM(sys_##func),DOTSYM(sys_##func)
@@ -47,4 +47,4 @@
 .globl sys_call_table
 sys_call_table:
 
-#include <asm/systbl.h>
+#include <asm-generic/systbl.h>

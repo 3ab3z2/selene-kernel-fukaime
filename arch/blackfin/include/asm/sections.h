@@ -29,7 +29,7 @@ extern char _sdata_b_l1[], _edata_b_l1[], _sbss_b_l1[], _ebss_b_l1[],
 extern char _stext_l2[], _etext_l2[], _sdata_l2[], _edata_l2[],
 	_sbss_l2[], _ebss_l2[], _l2_lma[], __weak _l2_len[];
 
-#include <asm/mem_map.h>
+#include <asm-generic/mem_map.h>
 
 /* Blackfin systems have discontinuous memory map and no virtualized memory */
 static inline int arch_is_kernel_text(unsigned long addr)

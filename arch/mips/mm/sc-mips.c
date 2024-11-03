@@ -7,15 +7,15 @@
 #include <linux/sched.h>
 #include <linux/mm.h>
 
-#include <asm/cpu-type.h>
-#include <asm/mipsregs.h>
-#include <asm/bcache.h>
-#include <asm/cacheops.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/r4kcache.h>
-#include <asm/mips-cps.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/mips-cps.h>
 
 /*
  * MIPS32/MIPS64 L2 cache handling

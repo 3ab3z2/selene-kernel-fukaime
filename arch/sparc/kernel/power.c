@@ -11,8 +11,8 @@
 #include <linux/reboot.h>
 #include <linux/of_device.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
 
 static void __iomem *power_reg;
 

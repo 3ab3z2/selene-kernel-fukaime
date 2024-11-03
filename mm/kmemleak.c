@@ -105,8 +105,8 @@
 #include <linux/workqueue.h>
 #include <linux/crc32.h>
 
-#include <asm/sections.h>
-#include <asm/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/processor.h>
 #include <linux/atomic.h>
 
 #include <linux/kasan.h>

@@ -17,16 +17,16 @@
 #include <linux/delay.h>
 #include <linux/interrupt.h>
 
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/pci-bridge.h>
-#include <asm/pgtable.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ppc-pci.h>
 #include <mm/mmu_decl.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/mpic.h>
-#include <asm/ehv_pic.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/ehv_pic.h>
 #include <soc/fsl/qe/qe_ic.h>
 
 #include <linux/of_platform.h>

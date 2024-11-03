@@ -7,7 +7,7 @@
 #define _ASM_S390_SETUP_H
 
 #include <linux/const.h>
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 
 #define PARMAREA		0x10400
@@ -40,8 +40,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/lowcore.h>
-#include <asm/types.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/types.h>
 
 #define IPL_DEVICE        (*(unsigned long *)  (0x10400))
 #define INITRD_START      (*(unsigned long *)  (0x10408))

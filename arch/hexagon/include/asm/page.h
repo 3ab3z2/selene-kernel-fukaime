@@ -152,7 +152,7 @@ static inline void clear_page(void *page)
  */
 #define kern_addr_valid(addr)   (1)
 
-#include <asm/mem-layout.h>
+#include <asm-generic/mem-layout.h>
 #include <asm-generic/memory_model.h>
 /* XXX Todo: implement assembly-optimized version of getorder. */
 #include <asm-generic/getorder.h>

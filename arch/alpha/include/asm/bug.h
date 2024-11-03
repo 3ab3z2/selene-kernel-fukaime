@@ -5,7 +5,7 @@
 #include <linux/linkage.h>
 
 #ifdef CONFIG_BUG
-#include <asm/pal.h>
+#include <asm-generic/pal.h>
 
 /* ??? Would be nice to use .gprel32 here, but we can't be sure that the
    function loaded the GP, so this could fail in modules.  */

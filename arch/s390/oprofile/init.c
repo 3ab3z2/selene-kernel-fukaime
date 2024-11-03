@@ -12,7 +12,7 @@
 
 #include <linux/oprofile.h>
 #include <linux/init.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 static int __s390_backtrace(void *data, unsigned long address, int reliable)
 {

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "vphn.h"
 
 /*

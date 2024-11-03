@@ -12,12 +12,12 @@
 #include <linux/dmi.h>
 #include <linux/slab.h>
 
-#include <asm/acpi.h>
-#include <asm/segment.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/pci_x86.h>
-#include <asm/setup.h>
+#include <asm-generic/acpi.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/setup.h>
 
 unsigned int pci_probe = PCI_PROBE_BIOS | PCI_PROBE_CONF1 | PCI_PROBE_CONF2 |
 				PCI_PROBE_MMCONF;

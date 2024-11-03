@@ -6,9 +6,9 @@
  * Licensed under the GPL-2 or later.
  */
 
-#include <asm/fixed_code.h>
+#include <asm-generic/fixed_code.h>
 #include <mach/anomaly.h>
-#include <asm/clocks.h>
+#include <asm-generic/clocks.h>
 
 #ifdef CONFIG_BFIN_KERNEL_CLOCK
 

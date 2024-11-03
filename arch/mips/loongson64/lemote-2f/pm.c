@@ -16,9 +16,9 @@
 #include <linux/i8042.h>
 #include <linux/export.h>
 
-#include <asm/i8259.h>
-#include <asm/mipsregs.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 

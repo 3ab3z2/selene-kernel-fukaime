@@ -11,9 +11,9 @@
 #include <linux/timer.h>
 #include <linux/vmalloc.h>
 #include <linux/mutex.h>
-#include <asm/mca.h>
-#include <asm/sal.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/mca.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sn/sn_sal.h>
 
 /*
  * Interval for calling SAL to poll for errors that do NOT cause error

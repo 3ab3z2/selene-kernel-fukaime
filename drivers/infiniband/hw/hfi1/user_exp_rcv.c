@@ -44,7 +44,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/string.h>
 
 #include "mmu_rb.h"

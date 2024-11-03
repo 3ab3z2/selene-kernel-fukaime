@@ -15,16 +15,16 @@
 #include <linux/pci.h>
 #include <linux/vmalloc.h>
 
-#include <asm/e820/api.h>
-#include <asm/processor.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/pgalloc.h>
-#include <asm/proto.h>
-#include <asm/pat.h>
-#include <asm/set_memory.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/set_memory.h>
 
 /*
  * The current flushing context - we pass it instead of 5 arguments:

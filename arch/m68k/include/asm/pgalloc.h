@@ -4,16 +4,16 @@
 
 #include <linux/mm.h>
 #include <linux/highmem.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #ifdef CONFIG_MMU
-#include <asm/virtconvert.h>
+#include <asm-generic/virtconvert.h>
 #if defined(CONFIG_COLDFIRE)
-#include <asm/mcf_pgalloc.h>
+#include <asm-generic/mcf_pgalloc.h>
 #elif defined(CONFIG_SUN3)
-#include <asm/sun3_pgalloc.h>
+#include <asm-generic/sun3_pgalloc.h>
 #else
-#include <asm/motorola_pgalloc.h>
+#include <asm-generic/motorola_pgalloc.h>
 #endif
 
 extern void m68k_setup_node(int node);

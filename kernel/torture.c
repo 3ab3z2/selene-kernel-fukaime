@@ -45,7 +45,7 @@
 #include <linux/slab.h>
 #include <linux/trace_clock.h>
 #include <linux/ktime.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/torture.h>
 
 MODULE_LICENSE("GPL");

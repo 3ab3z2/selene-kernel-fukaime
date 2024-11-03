@@ -14,7 +14,7 @@
 #include <linux/highmem.h>
 #include <linux/efi.h>
 #include <linux/vmalloc.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 typedef struct {
 	u64 length;

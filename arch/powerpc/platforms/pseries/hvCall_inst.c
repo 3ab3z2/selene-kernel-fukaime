@@ -23,11 +23,11 @@
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
 #include <linux/cpumask.h>
-#include <asm/hvcall.h>
-#include <asm/firmware.h>
-#include <asm/cputable.h>
-#include <asm/trace.h>
-#include <asm/machdep.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/machdep.h>
 
 /* For hcall instrumentation. One structure per-hcall, per-CPU */
 struct hcall_stats {

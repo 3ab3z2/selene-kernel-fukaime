@@ -19,7 +19,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/hexagon_vm.h>
 
 /*
  * C wrappers for virtual machine "instructions".  These

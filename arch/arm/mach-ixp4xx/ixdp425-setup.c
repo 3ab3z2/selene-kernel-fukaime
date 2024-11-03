@@ -22,7 +22,7 @@
 #include <linux/mtd/partitions.h>
 #include <linux/delay.h>
 #include <linux/gpio.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/setup.h>
 #include <asm/memory.h>
 #include <mach/hardware.h>

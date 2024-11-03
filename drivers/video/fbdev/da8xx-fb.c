@@ -37,7 +37,7 @@
 #include <linux/delay.h>
 #include <linux/lcm.h>
 #include <video/da8xx-fb.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define DRIVER_NAME "da8xx_lcdc"
 

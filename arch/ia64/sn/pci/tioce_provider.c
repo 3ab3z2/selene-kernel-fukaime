@@ -10,12 +10,12 @@
 #include <linux/interrupt.h>
 #include <linux/slab.h>
 #include <linux/pci.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/io.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/tioce_provider.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/io.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/tioce_provider.h>
 
 /*
  * 1/26/2006

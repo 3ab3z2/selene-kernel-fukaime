@@ -24,7 +24,7 @@
 #include <sound/soc.h>
 
 #include <mach/hx4700.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include "pxa2xx-i2s.h"
 
 static struct snd_soc_jack hs_jack;

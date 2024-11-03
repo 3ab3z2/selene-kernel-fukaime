@@ -22,7 +22,7 @@
 #include <linux/pinctrl/machine.h>
 #include <linux/syscore_ops.h>
 #include <linux/gpio.h>
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 #include "pinctrl-adi2.h"
 #include "core.h"
 

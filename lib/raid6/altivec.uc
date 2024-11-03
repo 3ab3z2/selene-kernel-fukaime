@@ -26,8 +26,8 @@
 
 #include <altivec.h>
 #ifdef __KERNEL__
-# include <asm/cputable.h>
-# include <asm/switch_to.h>
+# include <asm-generic/cputable.h>
+# include <asm-generic/switch_to.h>
 
 /*
  * This is the C data type to use.  We use a vector of

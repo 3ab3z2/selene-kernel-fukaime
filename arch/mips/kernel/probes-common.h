@@ -11,7 +11,7 @@
 #ifndef __PROBES_COMMON_H
 #define __PROBES_COMMON_H
 
-#include <asm/inst.h>
+#include <asm-generic/inst.h>
 
 int __insn_is_compact_branch(union mips_instruction insn);
 

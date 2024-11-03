@@ -55,7 +55,7 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 #define DEBUG 0
 

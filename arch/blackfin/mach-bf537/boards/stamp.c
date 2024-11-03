@@ -31,12 +31,12 @@
 #include <linux/spi/mmc_spi.h>
 #include <linux/leds.h>
 #include <linux/input.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/reboot.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
-#include <asm/bfin_sport.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/bfin_sport.h>
 #ifdef CONFIG_REGULATOR_FIXED_VOLTAGE
 #include <linux/regulator/fixed.h>
 #endif
@@ -1507,7 +1507,7 @@ static struct platform_device bfin_fb_device = {
 #endif
 
 #if IS_ENABLED(CONFIG_FB_BFIN_LQ035Q1)
-#include <asm/bfin-lq035q1.h>
+#include <asm-generic/bfin-lq035q1.h>
 
 static struct bfin_lq035q1fb_disp_info bfin_lq035q1_data = {
 	.mode = LQ035_NORM | LQ035_RGB | LQ035_RL | LQ035_TB,

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * asm/leon_pci.h
+ * asm-generic/leon_pci.h
  *
  * Copyright (C) 2011 Aeroflex Gaisler AB, Daniel Hellstrom
  */

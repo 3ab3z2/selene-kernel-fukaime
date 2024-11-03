@@ -12,7 +12,7 @@
 #ifndef _ASM_IA64_ACENV_H
 #define _ASM_IA64_ACENV_H
 
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 
 #define COMPILER_DEPENDENT_INT64	long
 #define COMPILER_DEPENDENT_UINT64	unsigned long

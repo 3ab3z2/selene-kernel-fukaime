@@ -11,9 +11,9 @@
 #ifndef _ASM_IA64_TOPOLOGY_H
 #define _ASM_IA64_TOPOLOGY_H
 
-#include <asm/acpi.h>
-#include <asm/numa.h>
-#include <asm/smp.h>
+#include <asm-generic/acpi.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/smp.h>
 
 #ifdef CONFIG_NUMA
 

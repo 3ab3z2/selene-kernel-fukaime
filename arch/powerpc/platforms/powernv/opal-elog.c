@@ -19,7 +19,7 @@
 #include <linux/fcntl.h>
 #include <linux/kobject.h>
 #include <linux/uaccess.h>
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 struct elog_obj {
 	struct kobject kobj;

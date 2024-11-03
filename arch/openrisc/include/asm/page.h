@@ -36,7 +36,7 @@
 /* This is not necessarily the right place for this, but it's needed by
  * drivers/of/fdt.c
  */
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #ifndef __ASSEMBLY__
 

@@ -8,9 +8,9 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/octeon/cvmx-pip.h>
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-helper-util.h>
+#include <asm-generic/octeon/cvmx-pip.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper-util.h>
 
 /**
  * cvm_oct_get_buffer_ptr - convert packet data address to pointer

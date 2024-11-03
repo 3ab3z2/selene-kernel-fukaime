@@ -26,7 +26,7 @@
 #ifndef __IBMASM_CONDOR_H__
 #define __IBMASM_CONDOR_H__
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define VENDORID_IBM	0x1014
 #define DEVICEID_RSA	0x010F

@@ -35,7 +35,7 @@
 #include <linux/slab.h>
 
 #ifdef CONFIG_PARAVIRT
-#include <asm/paravirt.h>
+#include <asm-generic/paravirt.h>
 #endif
 
 #include "cpupri.h"

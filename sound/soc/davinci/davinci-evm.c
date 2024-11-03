@@ -21,8 +21,8 @@
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
-#include <asm/dma.h>
-#include <asm/mach-types.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/mach-types.h>
 
 struct snd_soc_card_drvdata_davinci {
 	struct clk *mclk;

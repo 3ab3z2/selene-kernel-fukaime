@@ -21,7 +21,7 @@
  * MA  02110-1301  USA.
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/delay.h>
 #include <linux/io.h>
 #include <linux/jiffies.h>

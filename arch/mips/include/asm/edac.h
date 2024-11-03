@@ -2,7 +2,7 @@
 #ifndef ASM_EDAC_H
 #define ASM_EDAC_H
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /* ECC atomic, DMA, SMP and interrupt safe scrub function */
 

@@ -12,11 +12,11 @@
 #include <linux/irq.h>
 #include <linux/sched_clock.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
-#include <asm/hardware/dec21285.h>
-#include <asm/mach/time.h>
-#include <asm/system_info.h>
+#include <asm-generic/hardware/dec21285.h>
+#include <asm-generic/mach/time.h>
+#include <asm-generic/system_info.h>
 
 #include "common.h"
 

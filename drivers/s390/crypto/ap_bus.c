@@ -38,13 +38,13 @@
 #include <linux/kthread.h>
 #include <linux/mutex.h>
 #include <linux/suspend.h>
-#include <asm/reset.h>
-#include <asm/airq.h>
+#include <asm-generic/reset.h>
+#include <asm-generic/airq.h>
 #include <linux/atomic.h>
-#include <asm/isc.h>
+#include <asm-generic/isc.h>
 #include <linux/hrtimer.h>
 #include <linux/ktime.h>
-#include <asm/facility.h>
+#include <asm-generic/facility.h>
 #include <linux/crypto.h>
 #include <linux/mod_devicetable.h>
 #include <linux/debugfs.h>

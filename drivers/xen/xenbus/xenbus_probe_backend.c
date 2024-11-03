@@ -46,10 +46,10 @@
 #include <linux/notifier.h>
 #include <linux/export.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 #include <xen/xenbus.h>
 #include <xen/features.h>
 

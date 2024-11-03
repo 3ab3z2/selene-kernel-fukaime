@@ -3,7 +3,7 @@
 #define AMIGAFFS_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define FS_OFS		0x444F5300
 #define FS_FFS		0x444F5301

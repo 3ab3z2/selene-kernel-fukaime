@@ -29,10 +29,10 @@
 #include <linux/mutex.h>
 #include <linux/device.h>
 
-#include <asm/spu.h>
-#include <asm/spu_priv1.h>
-#include <asm/firmware.h>
-#include <asm/prom.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_priv1.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/prom.h>
 
 #include "spufs/spufs.h"
 #include "interrupt.h"

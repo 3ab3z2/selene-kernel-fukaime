@@ -3,7 +3,7 @@
 #define __PPC_FSL_SOC_H
 #ifdef __KERNEL__
 
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 struct spi_device;
 

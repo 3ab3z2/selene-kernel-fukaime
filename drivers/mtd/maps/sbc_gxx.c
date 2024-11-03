@@ -47,7 +47,7 @@ separate MTD devices.
 #include <linux/module.h>
 #include <linux/ioport.h>
 #include <linux/init.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/map.h>

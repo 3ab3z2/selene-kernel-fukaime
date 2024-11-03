@@ -22,7 +22,7 @@
 #include <linux/console.h>
 #include <linux/backlight.h>
 #ifdef CONFIG_BOOTX_TEXT
-#include <asm/btext.h>
+#include <asm-generic/btext.h>
 #endif
 
 #include "nv_local.h"

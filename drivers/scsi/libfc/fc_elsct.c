@@ -22,7 +22,7 @@
  */
 
 #include <linux/export.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <scsi/fc/fc_gs.h>
 #include <scsi/fc/fc_ns.h>
 #include <scsi/fc/fc_els.h>

@@ -15,9 +15,9 @@
 #include <linux/threads.h>
 #include <linux/hardirq.h>
 
-#include <asm/dbell.h>
-#include <asm/irq_regs.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/kvm_ppc.h>
 
 #ifdef CONFIG_SMP
 

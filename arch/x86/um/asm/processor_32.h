@@ -7,8 +7,8 @@
 #define __UM_PROCESSOR_I386_H
 
 #include <linux/string.h>
-#include <asm/segment.h>
-#include <asm/ldt.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/ldt.h>
 
 extern int host_has_cmov;
 

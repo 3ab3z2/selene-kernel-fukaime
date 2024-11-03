@@ -35,8 +35,8 @@
 #include <linux/serial_core.h>
 #include <linux/reboot.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/unaligned.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/unaligned.h>
 #include "debug_core.h"
 
 #define KGDB_MAX_THREAD_QUERY 17

@@ -3,9 +3,9 @@
 #ifndef __ASM_ARC_ENTRY_ARCV2_H
 #define __ASM_ARC_ENTRY_ARCV2_H
 
-#include <asm/asm-offsets.h>
-#include <asm/irqflags-arcv2.h>
-#include <asm/thread_info.h>	/* For THREAD_SIZE */
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/irqflags-arcv2.h>
+#include <asm-generic/thread_info.h>	/* For THREAD_SIZE */
 
 /*------------------------------------------------------------------------*/
 .macro INTERRUPT_PROLOGUE	called_from

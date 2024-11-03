@@ -34,8 +34,8 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/spinlock.h>
-#include <asm/barrier.h>
-#include <asm/dma-iommu.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/dma-iommu.h>
 #include <linux/module.h>
 #include <dt-bindings/memory/mt2701-larb-port.h>
 #include <soc/mediatek/smi.h>

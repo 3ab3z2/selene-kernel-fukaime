@@ -6,7 +6,7 @@
  * Copyright 2012 Matt Evans & Michael Neuling, IBM Corporation.
  */
 
-#include <uapi/asm/tm.h>
+#include <uapi/asm-generic/tm.h>
 
 #ifndef __ASSEMBLY__
 

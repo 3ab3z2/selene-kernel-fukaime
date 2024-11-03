@@ -22,8 +22,8 @@
 #include <linux/slab.h>
 #include <linux/kthread.h>
 #include <linux/reboot.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 
 /*
  * I don't have specifications for the MCU firmware, I found this register

@@ -16,9 +16,9 @@
 #include <linux/delay.h>
 #include <linux/sched.h>
 
-#include <asm/blackfin.h>
-#include <asm/time.h>
-#include <asm/gptimers.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/time.h>
+#include <asm-generic/gptimers.h>
 
 /* This is an NTP setting */
 #define	TICK_SIZE (tick_nsec / 1000)

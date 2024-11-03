@@ -13,7 +13,7 @@
  */
 
 #include "boot.h"
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 
 /*
  * Invoke the realmode switch hook if present; otherwise

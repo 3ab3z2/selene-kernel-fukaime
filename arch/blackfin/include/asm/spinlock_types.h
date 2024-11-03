@@ -11,7 +11,7 @@
 # error "please don't include this file directly"
 #endif
 
-#include <asm/rwlock.h>
+#include <asm-generic/rwlock.h>
 
 typedef struct {
 	volatile unsigned int lock;

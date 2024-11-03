@@ -6,10 +6,10 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
-#include <asm/processor.h>
-#include <asm/extable_64.h>
-#include <asm/spitfire.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/extable_64.h>
+#include <asm-generic/spitfire.h>
 
 /*
  * Sparc section types

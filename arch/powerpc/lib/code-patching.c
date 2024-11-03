@@ -17,12 +17,12 @@
 #include <linux/uaccess.h>
 #include <linux/kprobes.h>
 
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
-#include <asm/page.h>
-#include <asm/code-patching.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
 
 static int __patch_instruction(unsigned int *exec_addr, unsigned int instr,
 			       unsigned int *patch_addr)

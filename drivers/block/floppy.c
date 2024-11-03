@@ -95,7 +95,7 @@
 
 /*
  * 1995/10/18 -- Ralf Baechle -- Portability cleanup; move machine dependent
- * features to asm/floppy.h.
+ * features to asm-generic/floppy.h.
  */
 
 /*
@@ -104,7 +104,7 @@
 
 /*
  * 1998/05/07 -- Russell King -- More portability cleanups; moved definition of
- * interrupt and dma channel to asm/floppy.h. Cleaned up some formatting &
+ * interrupt and dma channel to asm-generic/floppy.h. Cleaned up some formatting &
  * use of '0' for NULL.
  */
 
@@ -202,8 +202,8 @@ static int print_unex = 1;
 static DEFINE_MUTEX(floppy_mutex);
 static int slow_floppy;
 
-#include <asm/dma.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
 
 static int FLOPPY_IRQ = 6;
 static int FLOPPY_DMA = 2;
@@ -248,7 +248,7 @@ static int set_dor(int fdc, char mask, char data);
 
 static int allowed_drive_mask = 0x33;
 
-#include <asm/floppy.h>
+#include <asm-generic/floppy.h>
 
 static int irqdma_allocated;
 

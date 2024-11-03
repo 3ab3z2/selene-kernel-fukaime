@@ -25,11 +25,11 @@
 #include <linux/mm.h>
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/tlb.h>
-#include <asm/bug.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/pte-walk.h>
 
 
 #include <trace/events/thp.h>

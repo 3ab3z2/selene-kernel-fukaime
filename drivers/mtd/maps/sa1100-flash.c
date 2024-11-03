@@ -20,8 +20,8 @@
 #include <linux/mtd/concat.h>
 
 #include <mach/hardware.h>
-#include <asm/sizes.h>
-#include <asm/mach/flash.h>
+#include <asm-generic/sizes.h>
+#include <asm-generic/mach/flash.h>
 
 struct sa_subdev_info {
 	char name[16];

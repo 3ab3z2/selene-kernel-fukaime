@@ -16,8 +16,8 @@
 #include <linux/perf_event.h>
 #include <linux/platform_device.h>
 
-#include <asm/processor.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/stacktrace.h>
 
 /* Global control/status for all perf counters */
 #define XTENSA_PMU_PMG			0x1000

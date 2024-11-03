@@ -13,22 +13,22 @@
 #include <linux/linkage.h>
 #include <linux/threads.h>
 #include <linux/init.h>
-#include <asm/segment.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/msr.h>
-#include <asm/cache.h>
-#include <asm/processor-flags.h>
-#include <asm/percpu.h>
-#include <asm/nops.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/nops.h>
 #include "../entry/calling.h"
-#include <asm/export.h>
-#include <asm/nospec-branch.h>
-#include <asm/fixmap.h>
+#include <asm-generic/export.h>
+#include <asm-generic/nospec-branch.h>
+#include <asm-generic/fixmap.h>
 
 #ifdef CONFIG_PARAVIRT
-#include <asm/asm-offsets.h>
-#include <asm/paravirt.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/paravirt.h>
 #define GET_CR2_INTO(reg) GET_CR2_INTO_RAX ; movq %rax, reg
 #else
 #define GET_CR2_INTO(reg) movq %cr2, reg

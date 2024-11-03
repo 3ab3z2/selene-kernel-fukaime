@@ -3,9 +3,9 @@
 #define _ALPHA_SPINLOCK_H
 
 #include <linux/kernel.h>
-#include <asm/current.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/current.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 /*
  * Simple spin lock operations.  There are two variants, one clears IRQ's

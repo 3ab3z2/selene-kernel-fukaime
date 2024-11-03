@@ -10,11 +10,11 @@
  *  2 of the License, or (at your option) any later version.
  */
 
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/ppc-opcode.h>
-#include <asm/reg.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/errno.h>
 
 #ifdef CONFIG_PPC_FPU

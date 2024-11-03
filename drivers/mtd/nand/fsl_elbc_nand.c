@@ -38,8 +38,8 @@
 #include <linux/mtd/nand_ecc.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
-#include <asm/fsl_lbc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/fsl_lbc.h>
 
 #define MAX_BANKS 8
 #define ERR_BYTE 0xFF /* Value returned for read bytes when read failed */

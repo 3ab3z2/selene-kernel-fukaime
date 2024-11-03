@@ -24,9 +24,9 @@
 #ifdef __KERNEL__
 
 #ifndef __ASSEMBLY__
-#include <asm/processor.h>
-#include <asm/registers.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/page.h>
 #endif
 
 #define THREAD_SHIFT		12
@@ -67,7 +67,7 @@ struct thread_info {
 
 #else /* !__ASSEMBLY__ */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #endif  /* __ASSEMBLY__  */
 

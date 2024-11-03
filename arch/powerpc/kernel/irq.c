@@ -56,26 +56,26 @@
 #include <linux/of_irq.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/cache.h>
-#include <asm/prom.h>
-#include <asm/ptrace.h>
-#include <asm/machdep.h>
-#include <asm/udbg.h>
-#include <asm/smp.h>
-#include <asm/livepatch.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/livepatch.h>
+#include <asm-generic/asm-prototypes.h>
 
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
-#include <asm/firmware.h>
-#include <asm/lv1call.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lv1call.h>
 #endif
 #define CREATE_TRACE_POINTS
-#include <asm/trace.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/cpu_has_feature.h>
 
 DEFINE_PER_CPU_SHARED_ALIGNED(irq_cpustat_t, irq_stat);
 EXPORT_PER_CPU_SYMBOL(irq_stat);

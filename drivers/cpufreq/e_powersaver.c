@@ -18,9 +18,9 @@
 #include <linux/io.h>
 #include <linux/delay.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/msr.h>
-#include <asm/tsc.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/tsc.h>
 
 #if IS_ENABLED(CONFIG_ACPI_PROCESSOR)
 #include <linux/acpi.h>

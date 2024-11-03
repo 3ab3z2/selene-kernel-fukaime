@@ -30,7 +30,7 @@
 #include <linux/ratelimit.h>
 #include <linux/uuid.h>
 #include <linux/semaphore.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "ctree.h"
 #include "disk-io.h"
 #include "hash.h"
@@ -53,7 +53,7 @@
 #include "tree-checker.h"
 
 #ifdef CONFIG_X86
-#include <asm/cpufeature.h>
+#include <asm-generic/cpufeature.h>
 #endif
 
 #define BTRFS_SUPER_FLAG_SUPP	(BTRFS_HEADER_FLAG_WRITTEN |\

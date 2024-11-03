@@ -30,28 +30,28 @@
 #include <linux/pm.h>
 #include <linux/efi.h>
 
-#include <asm/io.h>
-#include <asm/sal.h>
-#include <asm/machvec.h>
-#include <asm/processor.h>
-#include <asm/vga.h>
-#include <asm/setup.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/nodepda.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/simulator.h>
-#include <asm/sn/leds.h>
-#include <asm/sn/bte.h>
-#include <asm/sn/shub_mmr.h>
-#include <asm/sn/clksupport.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/geo.h>
-#include <asm/sn/sn_feature_sets.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/vga.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/nodepda.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/simulator.h>
+#include <asm-generic/sn/leds.h>
+#include <asm-generic/sn/bte.h>
+#include <asm-generic/sn/shub_mmr.h>
+#include <asm-generic/sn/clksupport.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/geo.h>
+#include <asm-generic/sn/sn_feature_sets.h>
 #include "xtalk/xwidgetdev.h"
 #include "xtalk/hubdev.h"
-#include <asm/sn/klconfig.h>
+#include <asm-generic/sn/klconfig.h>
 
 
 DEFINE_PER_CPU(struct pda_s, pda_percpu);

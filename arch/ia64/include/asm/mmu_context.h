@@ -21,7 +21,7 @@
 
 #define ia64_rid(ctx,addr)	(((ctx) << 3) | (addr >> 61))
 
-# include <asm/page.h>
+# include <asm-generic/page.h>
 # ifndef __ASSEMBLY__
 
 #include <linux/compiler.h>
@@ -30,7 +30,7 @@
 #include <linux/mm_types.h>
 #include <linux/spinlock.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <asm-generic/mm_hooks.h>
 
 struct ia64_ctx {

@@ -14,7 +14,7 @@
 #include <linux/of_address.h>
 #include <linux/spinlock.h>
 
-#include <asm/mips-cps.h>
+#include <asm-generic/mips-cps.h>
 
 void __iomem *mips_cpc_base;
 

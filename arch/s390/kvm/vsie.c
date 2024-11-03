@@ -16,11 +16,11 @@
 #include <linux/bitmap.h>
 #include <linux/sched/signal.h>
 
-#include <asm/gmap.h>
-#include <asm/mmu_context.h>
-#include <asm/sclp.h>
-#include <asm/nmi.h>
-#include <asm/dis.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/dis.h>
 #include "kvm-s390.h"
 #include "gaccess.h"
 

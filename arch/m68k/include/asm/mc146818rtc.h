@@ -9,7 +9,7 @@
 #ifdef CONFIG_ATARI
 /* RTC in Atari machines */
 
-#include <asm/atarihw.h>
+#include <asm-generic/atarihw.h>
 
 #define ATARI_RTC_PORT(x)	(TT_RTC_BAS + 2*(x))
 #define RTC_ALWAYS_BCD	0

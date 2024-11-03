@@ -5,8 +5,8 @@
 #include <linux/highmem.h>
 #include <linux/sched.h>
 #include <linux/smp.h>
-#include <asm/fixmap.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/tlbflush.h>
 
 static pte_t *kmap_pte;
 

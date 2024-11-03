@@ -18,7 +18,7 @@
 #include <linux/slab.h>
 #include <linux/serio.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define PS2_CTRL		(0)
 #define PS2_STATUS		(1)

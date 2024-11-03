@@ -68,15 +68,15 @@
 #include <linux/mount.h>
 #include <linux/battery_saver.h>
 #include <linux/uaccess.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_X86
-#include <asm/nmi.h>
-#include <asm/stacktrace.h>
-#include <asm/io.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/io.h>
 #endif
 #ifdef CONFIG_SPARC
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #endif
 #ifdef CONFIG_BSD_PROCESS_ACCT
 #include <linux/acct.h>

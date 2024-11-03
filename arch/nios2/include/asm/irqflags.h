@@ -18,7 +18,7 @@
 #ifndef _ASM_IRQFLAGS_H
 #define _ASM_IRQFLAGS_H
 
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 static inline unsigned long arch_local_save_flags(void)
 {

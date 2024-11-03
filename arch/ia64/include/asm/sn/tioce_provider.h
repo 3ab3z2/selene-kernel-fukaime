@@ -9,8 +9,8 @@
 #ifndef _ASM_IA64_SN_CE_PROVIDER_H
 #define _ASM_IA64_SN_CE_PROVIDER_H
 
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/tioce.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/tioce.h>
 
 /*
  * Common TIOCE structure shared between the prom and kernel

@@ -29,9 +29,9 @@
 #include <linux/kdebug.h>
 #include <linux/slab.h>
 
-#include <asm/ptrace.h>
-#include <asm/branch.h>
-#include <asm/break.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/break.h>
 
 #include "probes-common.h"
 

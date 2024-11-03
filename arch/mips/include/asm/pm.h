@@ -14,10 +14,10 @@
 
 #ifdef __ASSEMBLY__
 
-#include <asm/asm-offsets.h>
-#include <asm/asm.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
 
 /* Save CPU state to stack for suspend to RAM */
 .macro SUSPEND_SAVE_REGS

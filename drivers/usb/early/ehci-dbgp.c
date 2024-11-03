@@ -22,9 +22,9 @@
 #include <linux/serial_core.h>
 #include <linux/kgdb.h>
 #include <linux/kthread.h>
-#include <asm/io.h>
-#include <asm/pci-direct.h>
-#include <asm/fixmap.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/fixmap.h>
 
 /* The code here is intended to talk directly to the EHCI debug port
  * and does not require that you have any kind of USB host controller

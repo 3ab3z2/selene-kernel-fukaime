@@ -21,22 +21,22 @@
 #include <linux/romfs_fs.h>
 #endif
 
-#include <asm/cplb.h>
-#include <asm/cacheflush.h>
-#include <asm/blackfin.h>
-#include <asm/cplbinit.h>
-#include <asm/clocks.h>
-#include <asm/div64.h>
-#include <asm/cpu.h>
-#include <asm/fixed_code.h>
-#include <asm/early_printk.h>
-#include <asm/irq_handler.h>
-#include <asm/pda.h>
+#include <asm-generic/cplb.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/clocks.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/early_printk.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/pda.h>
 #ifdef CONFIG_BF60x
 #include <mach/pm.h>
 #endif
 #ifdef CONFIG_SCB_PRIORITY
-#include <asm/scb.h>
+#include <asm-generic/scb.h>
 #endif
 
 u16 _bfin_swrst;

@@ -4,7 +4,7 @@
  * Copyright (C) 2012 David S. Miller (davem@davemloft.net)
  */
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 	.register	%g2, #scratch
 	.register	%g3, #scratch

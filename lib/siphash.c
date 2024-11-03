@@ -11,11 +11,11 @@
  */
 
 #include <linux/siphash.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #if defined(CONFIG_DCACHE_WORD_ACCESS) && BITS_PER_LONG == 64
 #include <linux/dcache.h>
-#include <asm/word-at-a-time.h>
+#include <asm-generic/word-at-a-time.h>
 #endif
 
 #define SIPROUND SIPHASH_PERMUTATION(v0, v1, v2, v3)

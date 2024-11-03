@@ -39,9 +39,9 @@
 #include <linux/pm_runtime.h>
 #include <linux/pinctrl/consumer.h>
 
-#include <asm/cacheflush.h>
-#include <asm/io.h>
-#include <asm/unaligned.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * Superset of MCI IP registers integrated in Atmel AT91 Processor

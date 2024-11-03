@@ -31,7 +31,7 @@
 #include <linux/user.h>
 #include <linux/elf.h>
 
-#include <asm/user.h>
+#include <asm-generic/user.h>
 
 #if arch_has_single_step()
 /*  Both called from ptrace_resume  */

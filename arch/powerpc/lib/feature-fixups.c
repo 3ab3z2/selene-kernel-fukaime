@@ -19,13 +19,13 @@
 #include <linux/init.h>
 #include <linux/sched/mm.h>
 #include <linux/stop_machine.h>
-#include <asm/cputable.h>
-#include <asm/code-patching.h>
-#include <asm/page.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/security_features.h>
-#include <asm/firmware.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/security_features.h>
+#include <asm-generic/firmware.h>
 
 struct fixup_entry {
 	unsigned long	mask;

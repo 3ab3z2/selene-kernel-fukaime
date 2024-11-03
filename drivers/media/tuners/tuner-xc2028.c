@@ -9,14 +9,14 @@
  */
 
 #include <linux/i2c.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/firmware.h>
 #include <linux/videodev2.h>
 #include <linux/delay.h>
 #include <media/tuner.h>
 #include <linux/mutex.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "tuner-i2c.h"
 #include "tuner-xc2028.h"
 #include "tuner-xc2028-types.h"

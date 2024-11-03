@@ -2,8 +2,8 @@
 #ifndef __ALPHA_LCA__H__
 #define __ALPHA_LCA__H__
 
-#include <asm/compiler.h>
-#include <asm/mce.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/mce.h>
 
 /*
  * Low Cost Alpha (LCA) definitions (these apply to 21066 and 21068,
@@ -350,7 +350,7 @@ __EXTERN_INLINE int lca_is_mmio(const volatile void __iomem *addr)
 #define lca_trivial_io_bw	0
 #define lca_trivial_io_lq	0
 #define lca_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

@@ -16,9 +16,9 @@
 
 #undef MODULE_PARAM_PREFIX
 #define MODULE_PARAM_PREFIX "cxl" "."
-#include <asm/current.h>
-#include <asm/copro.h>
-#include <asm/mmu.h>
+#include <asm-generic/current.h>
+#include <asm-generic/copro.h>
+#include <asm-generic/mmu.h>
 
 #include "cxl.h"
 #include "trace.h"

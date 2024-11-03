@@ -10,7 +10,7 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Copies a block of memory to a device in an efficient manner.
  * Assumes the device can cope with 32-bit transfers.  If it can't,

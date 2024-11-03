@@ -24,7 +24,7 @@
 #include <linux/stat.h>
 #include <linux/slab.h>
 #include <linux/pagemap.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "cifsfs.h"
 #include "cifspdu.h"
 #include "cifsglob.h"

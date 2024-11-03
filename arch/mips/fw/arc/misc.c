@@ -14,11 +14,11 @@
 #include <linux/kernel.h>
 #include <linux/irqflags.h>
 
-#include <asm/bcache.h>
+#include <asm-generic/bcache.h>
 
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/bootinfo.h>
 
 VOID __noreturn
 ArcHalt(VOID)

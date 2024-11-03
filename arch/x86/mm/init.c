@@ -7,23 +7,23 @@
 #include <linux/swapfile.h>
 #include <linux/swapops.h>
 
-#include <asm/set_memory.h>
-#include <asm/cpu_device_id.h>
-#include <asm/e820/api.h>
-#include <asm/init.h>
-#include <asm/page.h>
-#include <asm/page_types.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/tlbflush.h>
-#include <asm/tlb.h>
-#include <asm/proto.h>
-#include <asm/dma.h>		/* for MAX_DMA_PFN */
-#include <asm/microcode.h>
-#include <asm/kaslr.h>
-#include <asm/hypervisor.h>
-#include <asm/cpufeature.h>
-#include <asm/pti.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/init.h>
+#include <asm-generic/page.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/dma.h>		/* for MAX_DMA_PFN */
+#include <asm-generic/microcode.h>
+#include <asm-generic/kaslr.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/pti.h>
 
 /*
  * We need to define the tracepoints somewhere, and tlb.c

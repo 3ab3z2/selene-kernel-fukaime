@@ -15,7 +15,7 @@
 #include <linux/io.h>
 #include <linux/of_platform.h>
 
-#include <asm/mach-pic32/pic32.h>
+#include <asm-generic/mach-pic32/pic32.h>
 
 #include "pic32mzda.h"
 

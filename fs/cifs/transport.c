@@ -31,7 +31,7 @@
 #include <linux/bvec.h>
 #include <linux/highmem.h>
 #include <linux/uaccess.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/mempool.h>
 #include "cifspdu.h"
 #include "cifsglob.h"

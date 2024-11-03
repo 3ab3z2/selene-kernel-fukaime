@@ -8,8 +8,8 @@
 #include <linux/export.h>
 #include <linux/io.h>
 #include <linux/kernel.h>
-#include <asm/da.h>
-#include <asm/metag_mem.h>
+#include <asm-generic/da.h>
+#include <asm-generic/metag_mem.h>
 
 bool _metag_da_present;
 EXPORT_SYMBOL_GPL(_metag_da_present);

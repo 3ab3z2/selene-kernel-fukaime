@@ -10,7 +10,7 @@
 #ifndef ZFCP_QDIO_H
 #define ZFCP_QDIO_H
 
-#include <asm/qdio.h>
+#include <asm-generic/qdio.h>
 
 #define ZFCP_QDIO_SBALE_LEN	PAGE_SIZE
 

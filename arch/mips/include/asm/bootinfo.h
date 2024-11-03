@@ -13,7 +13,7 @@
 #define _ASM_BOOTINFO_H
 
 #include <linux/types.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /*
  * The MACH_ IDs are sort of equivalent to PCI product IDs.  As such the

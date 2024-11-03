@@ -6,8 +6,8 @@
 #include <linux/cache.h>
 #include <linux/if_vlan.h>
 
-#include <asm/cacheflush.h>
-#include <asm/ptrace.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/ptrace.h>
 
 #include "bpf_jit_32.h"
 

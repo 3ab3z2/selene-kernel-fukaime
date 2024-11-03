@@ -4,7 +4,7 @@
 
 #include <linux/types.h>
 #include <linux/compiler.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 #ifdef __GNUC__
 

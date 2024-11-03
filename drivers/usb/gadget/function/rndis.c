@@ -32,9 +32,9 @@
 #include <linux/seq_file.h>
 #include <linux/netdevice.h>
 
-#include <asm/io.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 #include "u_rndis.h"
 

@@ -17,7 +17,7 @@
 #include <linux/pci.h>
 #include <linux/fb.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "savagefb.h"
 
 #define SAVAGE_DDC 	0x50

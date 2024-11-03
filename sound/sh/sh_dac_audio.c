@@ -32,8 +32,8 @@
 #include <sound/initval.h>
 #include <sound/pcm.h>
 #include <sound/sh_dac_audio.h>
-#include <asm/clock.h>
-#include <asm/hd64461.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/hd64461.h>
 #include <mach/hp6xx.h>
 #include <cpu/dac.h>
 

@@ -16,7 +16,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 	/*
 	 * this can be optimized by doing gcc inline assemlby with

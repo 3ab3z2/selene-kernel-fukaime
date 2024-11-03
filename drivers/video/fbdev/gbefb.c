@@ -23,10 +23,10 @@
 #include <linux/io.h>
 
 #ifdef CONFIG_MIPS
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 #endif
-#include <asm/byteorder.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/tlbflush.h>
 
 #include <video/gbe.h>
 

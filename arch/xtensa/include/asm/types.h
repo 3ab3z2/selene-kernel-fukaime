@@ -10,7 +10,7 @@
 #ifndef _XTENSA_TYPES_H
 #define _XTENSA_TYPES_H
 
-#include <uapi/asm/types.h>
+#include <uapi/asm-generic/types.h>
 
 #ifndef __ASSEMBLY__
 /*

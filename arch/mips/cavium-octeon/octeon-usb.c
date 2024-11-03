@@ -15,7 +15,7 @@
 #include <linux/of_platform.h>
 #include <linux/io.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 /* USB Control Register */
 union cvm_usbdrd_uctl_ctl {

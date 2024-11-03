@@ -16,10 +16,10 @@
 #include <linux/spinlock.h>
 #include <linux/scatterlist.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
-#include <asm/mach/dma.h>
-#include <asm/hardware/dec21285.h>
+#include <asm-generic/mach/dma.h>
+#include <asm-generic/hardware/dec21285.h>
 
 #if 0
 static int fb_dma_request(unsigned int chan, dma_t *dma)

@@ -3,8 +3,8 @@
 
 #include <asm-generic/vmlinux.lds.h>
 
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
 #ifdef CONFIG_SPARC32
 #define INITIAL_ADDRESS  0x10000 + SIZEOF_HEADERS

@@ -22,9 +22,9 @@
 #ifndef __ASM_MACH_MALTA_MC146818RTC_H
 #define __ASM_MACH_MALTA_MC146818RTC_H
 
-#include <asm/io.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/malta.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/malta.h>
 
 #define RTC_PORT(x)	(0x70 + (x))
 #define RTC_IRQ		8

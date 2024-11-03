@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/kernel.h>
 #include <linux/pci.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/lasat/lasat.h>
-#include <asm/nile4.h>
+#include <asm-generic/lasat/lasat.h>
+#include <asm-generic/nile4.h>
 
 #define PCI_ACCESS_READ	 0
 #define PCI_ACCESS_WRITE 1

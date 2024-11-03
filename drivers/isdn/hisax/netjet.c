@@ -22,7 +22,7 @@
 #include <linux/interrupt.h>
 #include <linux/ppp_defs.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "netjet.h"
 
 /* Interface functions */

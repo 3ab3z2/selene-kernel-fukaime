@@ -45,9 +45,9 @@
 #include <scsi/scsi.h>
 
 #include <linux/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "ide-cd.h"
 

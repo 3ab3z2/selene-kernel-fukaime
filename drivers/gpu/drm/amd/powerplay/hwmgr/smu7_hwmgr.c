@@ -25,7 +25,7 @@
 #include <linux/fb.h>
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "pp_acpi.h"
 #include "ppatomctrl.h"
 #include "atombios.h"

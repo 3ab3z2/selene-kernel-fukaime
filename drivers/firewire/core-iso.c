@@ -31,7 +31,7 @@
 #include <linux/vmalloc.h>
 #include <linux/export.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "core.h"
 

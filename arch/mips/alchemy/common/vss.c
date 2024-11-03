@@ -8,7 +8,7 @@
 
 #include <linux/export.h>
 #include <linux/spinlock.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 #define VSS_GATE	0x00	/* gate wait timers */
 #define VSS_CLKRST	0x04	/* clock/block control */

@@ -16,7 +16,7 @@
 #include <linux/atm_idt77105.h>
 #include <linux/spinlock.h>
 #include <linux/slab.h>
-#include <asm/param.h>
+#include <asm-generic/param.h>
 #include <linux/uaccess.h>
 
 #include "idt77105.h"

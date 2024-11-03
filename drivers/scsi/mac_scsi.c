@@ -22,10 +22,10 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/hwtest.h>
-#include <asm/io.h>
-#include <asm/macints.h>
-#include <asm/setup.h>
+#include <asm-generic/hwtest.h>
+#include <asm-generic/io.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/setup.h>
 
 #include <scsi/scsi_host.h>
 

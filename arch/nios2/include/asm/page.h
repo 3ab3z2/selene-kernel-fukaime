@@ -2,7 +2,7 @@
  * Copyright (C) 2011 Tobias Klauser <tklauser@distanz.ch>
  * Copyright (C) 2004 Microtronix Datacom Ltd.
  *
- * MMU support based on asm/page.h from mips which is:
+ * MMU support based on asm-generic/page.h from mips which is:
  *
  * Copyright (C) 1994 - 1999, 2000, 03 Ralf Baechle
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.

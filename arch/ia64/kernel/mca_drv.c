@@ -25,15 +25,15 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
-#include <asm/delay.h>
-#include <asm/machvec.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/sal.h>
-#include <asm/mca.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/mca.h>
 
-#include <asm/irq.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hw_irq.h>
 
 #include "mca_drv.h"
 

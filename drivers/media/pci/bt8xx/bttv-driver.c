@@ -55,8 +55,8 @@
 
 #include <linux/dma-mapping.h>
 
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 
 #include <media/i2c/saa6588.h>
 

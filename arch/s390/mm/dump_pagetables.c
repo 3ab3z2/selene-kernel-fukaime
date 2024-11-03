@@ -3,8 +3,8 @@
 #include <linux/debugfs.h>
 #include <linux/sched.h>
 #include <linux/mm.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
 
 static unsigned long max_addr;
 

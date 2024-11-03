@@ -10,7 +10,7 @@
  * terms of the GNU General Public License version 2.
  */
 #include <linux/efi.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 #include "efistub.h"
 

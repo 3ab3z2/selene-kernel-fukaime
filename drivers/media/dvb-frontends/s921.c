@@ -23,7 +23,7 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "dvb_frontend.h"
 #include "s921.h"

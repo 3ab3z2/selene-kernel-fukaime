@@ -9,8 +9,8 @@
 
 #include <asm-generic/4level-fixup.h>
 
-#include <asm/page.h>
-#include <asm/def_LPBlackfin.h>
+#include <asm-generic/page.h>
+#include <asm-generic/def_LPBlackfin.h>
 
 typedef pte_t *pte_addr_t;
 /*

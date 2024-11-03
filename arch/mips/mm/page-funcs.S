@@ -8,9 +8,9 @@
  * Copyright (C) 2012  MIPS Technologies, Inc.
  * Copyright (C) 2012  Ralf Baechle <ralf@linux-mips.org>
  */
-#include <asm/asm.h>
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 #ifdef CONFIG_SIBYTE_DMA_PAGEOPS
 #define cpu_clear_page_function_name	clear_page_cpu

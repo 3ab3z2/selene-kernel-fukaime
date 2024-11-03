@@ -16,9 +16,9 @@
 #include <linux/init.h>
 #include <linux/of.h>
 
-#include <asm/opal.h>
-#include <asm/nvram.h>
-#include <asm/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/machdep.h>
 
 static unsigned int nvram_size;
 

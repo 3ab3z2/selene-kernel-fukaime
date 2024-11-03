@@ -3,7 +3,7 @@
 #define __ALPHA_WILDFIRE__H__
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 #define WILDFIRE_MAX_QBB	8	/* more than 8 requires other mods */
 #define WILDFIRE_PCA_PER_QBB	4
@@ -307,7 +307,7 @@ __EXTERN_INLINE int wildfire_is_mmio(const volatile void __iomem *xaddr)
 #define wildfire_trivial_io_bw		1
 #define wildfire_trivial_io_lq		1
 #define wildfire_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

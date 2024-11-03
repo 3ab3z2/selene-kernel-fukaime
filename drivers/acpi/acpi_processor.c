@@ -21,7 +21,7 @@
 
 #include <acpi/processor.h>
 
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 #include "internal.h"
 

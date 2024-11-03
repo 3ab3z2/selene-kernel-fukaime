@@ -10,7 +10,7 @@
 
 
 #include <linux/types.h>
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 #ifdef CONFIG_ARC_PLAT_EZNPS
 #define COMMAND_LINE_SIZE 2048

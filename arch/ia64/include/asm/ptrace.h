@@ -17,9 +17,9 @@
 #define _ASM_IA64_PTRACE_H
 
 #ifndef ASM_OFFSETS_C
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #endif
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 /*
  * Base-2 logarithm of number of pages to allocate per task structure
@@ -42,8 +42,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/current.h>
-#include <asm/page.h>
+#include <asm-generic/current.h>
+#include <asm-generic/page.h>
 
 /*
  * We use the ia64_psr(regs)->ri to determine which of the three

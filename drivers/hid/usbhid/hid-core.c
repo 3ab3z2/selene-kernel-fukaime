@@ -23,8 +23,8 @@
 #include <linux/mm.h>
 #include <linux/mutex.h>
 #include <linux/spinlock.h>
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 #include <linux/input.h>
 #include <linux/wait.h>
 #include <linux/workqueue.h>

@@ -126,7 +126,7 @@ lockdep_count_backward_deps(struct lock_class *class)
 
 #ifdef CONFIG_DEBUG_LOCKDEP
 
-#include <asm/local.h>
+#include <asm-generic/local.h>
 /*
  * Various lockdep statistics.
  * We want them per cpu as they are often accessed in fast path
@@ -197,7 +197,7 @@ DECLARE_PER_CPU(struct lockdep_stats, lockdep_stats);
 void lockdep_test_init(void);
 
 #ifdef MTK_LOCK_MONITOR
-#include <asm/stacktrace.h>
+#include <asm-generic/stacktrace.h>
 #include <linux/sched/task_stack.h>
 void lock_monitor_init(void);
 #endif

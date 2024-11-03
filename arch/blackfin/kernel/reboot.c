@@ -7,9 +7,9 @@
  */
 
 #include <linux/interrupt.h>
-#include <asm/bfin-global.h>
-#include <asm/reboot.h>
-#include <asm/bfrom.h>
+#include <asm-generic/bfin-global.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/bfrom.h>
 
 /* A system soft reset makes external memory unusable so force
  * this function into L1.  We use the compiler ssync here rather

@@ -9,9 +9,9 @@
 #define __ASM_SWITCH_TO_H
 
 #include <linux/thread_info.h>
-#include <asm/fpu/api.h>
-#include <asm/ptrace.h>
-#include <asm/guarded_storage.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/guarded_storage.h>
 
 extern struct task_struct *__switch_to(void *, void *);
 extern void update_cr_regs(struct task_struct *task);

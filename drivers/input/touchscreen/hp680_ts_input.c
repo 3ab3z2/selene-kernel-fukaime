@@ -2,9 +2,9 @@
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/interrupt.h>
-#include <asm/io.h>
-#include <asm/delay.h>
-#include <asm/adc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/adc.h>
 #include <mach/hp6xx.h>
 
 #define MODNAME "hp680_ts_input"

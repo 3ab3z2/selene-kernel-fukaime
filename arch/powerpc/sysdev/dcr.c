@@ -21,8 +21,8 @@
 
 #include <linux/kernel.h>
 #include <linux/export.h>
-#include <asm/prom.h>
-#include <asm/dcr.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/dcr.h>
 
 #ifdef CONFIG_PPC_DCR_MMIO
 static struct device_node *find_dcr_parent(struct device_node *node)

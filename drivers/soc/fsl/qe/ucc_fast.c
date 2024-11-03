@@ -20,7 +20,7 @@
 #include <linux/err.h>
 #include <linux/export.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <soc/fsl/qe/immap_qe.h>
 #include <soc/fsl/qe/qe.h>
 

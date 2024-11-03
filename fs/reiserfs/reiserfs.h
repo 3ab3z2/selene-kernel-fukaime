@@ -11,7 +11,7 @@
 #include <linux/sched.h>
 #include <linux/bug.h>
 #include <linux/workqueue.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/bitops.h>
 #include <linux/proc_fs.h>
 #include <linux/buffer_head.h>

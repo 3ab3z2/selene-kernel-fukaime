@@ -8,7 +8,7 @@
 
 #include <linux/errno.h>
 #include <linux/kernel.h>
-#include <asm/scb.h>
+#include <asm-generic/scb.h>
 
 __attribute__((l1_text))
 inline void scb_mi_write(unsigned long scb_mi_arbw, unsigned int slots,

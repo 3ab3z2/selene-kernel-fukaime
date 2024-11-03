@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/asm/irqflags.h
+ * include/asm-generic/irqflags.h
  *
  * IRQ flags handling
  *
@@ -11,7 +11,7 @@
 #ifndef _ASM_IRQFLAGS_H
 #define _ASM_IRQFLAGS_H
 
-#include <asm/pil.h>
+#include <asm-generic/pil.h>
 
 #ifndef __ASSEMBLY__
 

@@ -30,7 +30,7 @@
 #include <linux/pnp.h>
 #include <linux/module.h>
 #include <linux/io.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <sound/core.h>
 #include <sound/tlv.h>
 #include <sound/wss.h>

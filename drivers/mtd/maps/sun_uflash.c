@@ -15,9 +15,9 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 #include <linux/slab.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/map.h>

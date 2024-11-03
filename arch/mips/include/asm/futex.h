@@ -12,11 +12,11 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/asm-eva.h>
-#include <asm/barrier.h>
-#include <asm/compiler.h>
-#include <asm/errno.h>
-#include <asm/war.h>
+#include <asm-generic/asm-eva.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/war.h>
 
 #define __futex_atomic_op(insn, ret, oldval, uaddr, oparg)		\
 {									\

@@ -24,7 +24,7 @@
 #include <linux/of_address.h>
 #include <linux/sched_clock.h>
 
-#include <asm/cputype.h>
+#include <asm-generic/cputype.h>
 
 #define GT_COUNTER0	0x00
 #define GT_COUNTER1	0x04

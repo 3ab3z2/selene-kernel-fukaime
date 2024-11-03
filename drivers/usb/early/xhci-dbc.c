@@ -17,8 +17,8 @@
 #include <linux/pci_ids.h>
 #include <linux/bootmem.h>
 #include <linux/io.h>
-#include <asm/pci-direct.h>
-#include <asm/fixmap.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/fixmap.h>
 #include <linux/bcd.h>
 #include <linux/export.h>
 #include <linux/version.h>

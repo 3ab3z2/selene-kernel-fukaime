@@ -25,7 +25,7 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/jiffies.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/i2c.h>
 

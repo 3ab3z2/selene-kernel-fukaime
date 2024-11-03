@@ -42,7 +42,7 @@
 #include "inotify.h"
 #include "../fdinfo.h"
 
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 
 /* configurable via /proc/sys/fs/inotify/ */
 static int inotify_max_queued_events __read_mostly;

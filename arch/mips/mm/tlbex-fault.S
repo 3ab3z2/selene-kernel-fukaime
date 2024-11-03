@@ -6,9 +6,9 @@
  * Copyright (C) 1999 Ralf Baechle
  * Copyright (C) 1999 Silicon Graphics, Inc.
  */
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
 
 	.macro tlb_do_page_fault, write
 	NESTED(tlb_do_page_fault_\write, PT_SIZE, sp)

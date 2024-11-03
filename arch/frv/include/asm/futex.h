@@ -5,7 +5,7 @@
 #ifdef __KERNEL__
 
 #include <linux/futex.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include <linux/uaccess.h>
 
 extern int arch_futex_atomic_op_inuser(int op, int oparg, int *oval,

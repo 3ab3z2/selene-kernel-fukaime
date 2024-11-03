@@ -15,7 +15,7 @@
 #include <linux/module.h>
 #include <linux/mc146818rtc.h>
 
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 static int  __init add_rtc(void)
 {
@@ -37,7 +37,7 @@ static int  __init add_rtc(void)
 		return ret;
 
 	/*
-	 * RTC_PORT(x) is hardcoded in asm/mc146818rtc.h.  Verify that the
+	 * RTC_PORT(x) is hardcoded in asm-generic/mc146818rtc.h.  Verify that the
 	 * address provided by the device node matches.
 	 */
 	if (res[0].start != RTC_PORT(0))

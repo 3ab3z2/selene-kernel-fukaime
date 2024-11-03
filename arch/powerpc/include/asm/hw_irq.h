@@ -9,8 +9,8 @@
 
 #include <linux/errno.h>
 #include <linux/compiler.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_PPC64
 
@@ -40,7 +40,7 @@ extern void WatchdogException(struct pt_regs *regs);
 extern void unknown_exception(struct pt_regs *regs);
 
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 
 static inline unsigned long arch_local_save_flags(void)
 {

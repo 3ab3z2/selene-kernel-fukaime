@@ -16,7 +16,7 @@
 // #include <linux/mm.h>
 #include <linux/kbuild.h>
 
-#include <asm/hibernate.h>
+#include <asm-generic/hibernate.h>
 
 #ifdef CONFIG_SPARC32
 int sparc32_foo(void)

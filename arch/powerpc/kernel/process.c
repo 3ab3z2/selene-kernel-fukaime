@@ -43,26 +43,26 @@
 #include <linux/uaccess.h>
 #include <linux/elf-randomize.h>
 
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/mmu.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/time.h>
-#include <asm/runlatch.h>
-#include <asm/syscalls.h>
-#include <asm/switch_to.h>
-#include <asm/tm.h>
-#include <asm/debug.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/time.h>
+#include <asm-generic/runlatch.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/debug.h>
 #ifdef CONFIG_PPC64
-#include <asm/firmware.h>
+#include <asm-generic/firmware.h>
 #endif
-#include <asm/code-patching.h>
-#include <asm/exec.h>
-#include <asm/livepatch.h>
-#include <asm/cpu_has_feature.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/exec.h>
+#include <asm-generic/livepatch.h>
+#include <asm-generic/cpu_has_feature.h>
+#include <asm-generic/asm-prototypes.h>
 
 #include <linux/kprobes.h>
 #include <linux/kdebug.h>

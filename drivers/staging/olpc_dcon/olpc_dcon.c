@@ -27,8 +27,8 @@
 #include <linux/ctype.h>
 #include <linux/reboot.h>
 #include <linux/olpc-ec.h>
-#include <asm/tsc.h>
-#include <asm/olpc.h>
+#include <asm-generic/tsc.h>
+#include <asm-generic/olpc.h>
 
 #include "olpc_dcon.h"
 

@@ -24,10 +24,10 @@
 #include <linux/ipc.h>
 
 #include <linux/uaccess.h>
-#include <asm/cachectl.h>
-#include <asm/cacheflush.h>
-#include <asm/syscall.h>
-#include <asm/unistd.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/unistd.h>
 
 /*
  * sys_tas() - test-and-set

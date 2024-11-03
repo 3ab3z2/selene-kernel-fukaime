@@ -21,9 +21,9 @@
 #include <linux/compiler.h>
 #include <linux/export.h>
 
-#include <asm/io.h>
-#include <asm/firmware.h>
-#include <asm/bug.h>
+#include <asm-generic/io.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/bug.h>
 
 /* See definition in io.h */
 bool isa_io_special;

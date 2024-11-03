@@ -35,8 +35,8 @@
 #include <linux/device.h>
 #include <linux/slab.h>
 
-#include <asm/exception.h>
-#include <asm/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/irq.h>
 
 /* These definitions correspond to the "new mapping" of the
  * register set that interleaves "high" and "low". The offsets

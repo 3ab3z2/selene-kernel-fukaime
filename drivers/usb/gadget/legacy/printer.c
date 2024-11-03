@@ -12,7 +12,7 @@
 
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/usb/ch9.h>
 #include <linux/usb/composite.h>

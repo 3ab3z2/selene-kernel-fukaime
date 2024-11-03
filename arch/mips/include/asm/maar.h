@@ -11,8 +11,8 @@
 #ifndef __MIPS_ASM_MIPS_MAAR_H__
 #define __MIPS_ASM_MIPS_MAAR_H__
 
-#include <asm/hazards.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/mipsregs.h>
 
 /**
  * platform_maar_init() - perform platform-level MAAR configuration

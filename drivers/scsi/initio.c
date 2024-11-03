@@ -95,7 +95,7 @@
 #include <linux/slab.h>
 #include <linux/jiffies.h>
 #include <linux/dma-mapping.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

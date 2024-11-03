@@ -30,9 +30,9 @@
 #include <linux/pci.h>
 #include <linux/types.h>
 
-#include <asm/cpu.h>
-#include <asm/mach-rc32434/rc32434.h>
-#include <asm/mach-rc32434/pci.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mach-rc32434/rc32434.h>
+#include <asm-generic/mach-rc32434/pci.h>
 
 #define PCI_ACCESS_READ	 0
 #define PCI_ACCESS_WRITE 1

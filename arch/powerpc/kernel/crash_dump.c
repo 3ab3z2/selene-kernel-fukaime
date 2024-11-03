@@ -14,15 +14,15 @@
 #include <linux/crash_dump.h>
 #include <linux/io.h>
 #include <linux/memblock.h>
-#include <asm/code-patching.h>
-#include <asm/kdump.h>
-#include <asm/prom.h>
-#include <asm/firmware.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/kdump.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/firmware.h>
 #include <linux/uaccess.h>
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 #ifdef DEBUG
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 #define DBG(fmt...) udbg_printf(fmt)
 #else
 #define DBG(fmt...)

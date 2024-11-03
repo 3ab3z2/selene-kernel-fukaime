@@ -1,5 +1,5 @@
 /*
- * arch/xtensa/include/asm/traps.h
+ * arch/xtensa/include/asm-generic/traps.h
  *
  * This file is subject to the terms and conditions of the GNU General Public
  * License.  See the file "COPYING" in the main directory of this archive
@@ -10,7 +10,7 @@
 #ifndef _XTENSA_TRAPS_H
 #define _XTENSA_TRAPS_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * handler must be either of the following:

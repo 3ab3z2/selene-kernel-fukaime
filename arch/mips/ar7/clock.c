@@ -28,8 +28,8 @@
 #include <linux/err.h>
 #include <linux/clk.h>
 
-#include <asm/addrspace.h>
-#include <asm/mach-ar7/ar7.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/mach-ar7/ar7.h>
 
 #define BOOT_PLL_SOURCE_MASK	0x3
 #define CPU_PLL_SOURCE_SHIFT	16

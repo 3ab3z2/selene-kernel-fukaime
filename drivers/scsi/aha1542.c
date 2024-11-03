@@ -18,7 +18,7 @@
 #include <linux/pnp.h>
 #include <linux/slab.h>
 #include <linux/io.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>

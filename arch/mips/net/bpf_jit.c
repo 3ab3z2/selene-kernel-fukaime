@@ -19,11 +19,11 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 #include <linux/types.h>
-#include <asm/asm.h>
-#include <asm/bitops.h>
-#include <asm/cacheflush.h>
-#include <asm/cpu-features.h>
-#include <asm/uasm.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/uasm.h>
 
 #include "bpf_jit.h"
 

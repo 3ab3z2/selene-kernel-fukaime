@@ -18,15 +18,15 @@
 #include <linux/bcma/bcma_regs.h>
 #include <linux/platform_data/x86/apple.h>
 #include <drm/i915_drm.h>
-#include <asm/pci-direct.h>
-#include <asm/dma.h>
-#include <asm/io_apic.h>
-#include <asm/apic.h>
-#include <asm/hpet.h>
-#include <asm/iommu.h>
-#include <asm/gart.h>
-#include <asm/irq_remapping.h>
-#include <asm/early_ioremap.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/hpet.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/gart.h>
+#include <asm-generic/irq_remapping.h>
+#include <asm-generic/early_ioremap.h>
 
 #define dev_err(msg)  pr_err("pci 0000:%02x:%02x.%d: %s", bus, slot, func, msg)
 

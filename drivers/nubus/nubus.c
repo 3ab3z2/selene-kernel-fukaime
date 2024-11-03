@@ -16,11 +16,11 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/hwtest.h>
-#include <asm/mac_via.h>
-#include <asm/mac_oss.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hwtest.h>
+#include <asm-generic/mac_via.h>
+#include <asm-generic/mac_oss.h>
 
 extern void via_nubus_init(void);
 extern void oss_nubus_init(void);

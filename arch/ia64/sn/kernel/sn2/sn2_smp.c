@@ -24,23 +24,23 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 
-#include <asm/processor.h>
-#include <asm/irq.h>
-#include <asm/sal.h>
-#include <asm/delay.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/tlb.h>
-#include <asm/numa.h>
-#include <asm/hw_irq.h>
-#include <asm/current.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/shub_mmr.h>
-#include <asm/sn/nodepda.h>
-#include <asm/sn/rw_mmr.h>
-#include <asm/sn/sn_feature_sets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/current.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/shub_mmr.h>
+#include <asm-generic/sn/nodepda.h>
+#include <asm-generic/sn/rw_mmr.h>
+#include <asm-generic/sn/sn_feature_sets.h>
 
 DEFINE_PER_CPU(struct ptc_stats, ptcstats);
 DECLARE_PER_CPU(struct ptc_stats, ptcstats);

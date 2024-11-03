@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/dma-mapping.h>
 #include <linux/err.h>
 #include <linux/highmem.h>

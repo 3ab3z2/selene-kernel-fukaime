@@ -6,8 +6,8 @@
 #ifndef _ASM_S390_CHPID_H
 #define _ASM_S390_CHPID_H
 
-#include <uapi/asm/chpid.h>
-#include <asm/cio.h>
+#include <uapi/asm-generic/chpid.h>
+#include <asm-generic/cio.h>
 
 struct channel_path_desc {
 	u8 flags;

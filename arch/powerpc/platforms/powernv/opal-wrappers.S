@@ -10,10 +10,10 @@
  */
 
 #include <linux/jump_label.h>
-#include <asm/ppc_asm.h>
-#include <asm/hvcall.h>
-#include <asm/asm-offsets.h>
-#include <asm/opal.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/opal.h>
 
 	.section	".text"
 

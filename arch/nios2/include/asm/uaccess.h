@@ -15,9 +15,9 @@
 
 #include <linux/string.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 
 /*
  * Segment stuff

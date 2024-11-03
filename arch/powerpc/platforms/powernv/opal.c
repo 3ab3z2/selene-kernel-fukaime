@@ -31,12 +31,12 @@
 #include <linux/console.h>
 #include <linux/sched/debug.h>
 
-#include <asm/machdep.h>
-#include <asm/opal.h>
-#include <asm/firmware.h>
-#include <asm/mce.h>
-#include <asm/imc-pmu.h>
-#include <asm/bug.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/imc-pmu.h>
+#include <asm-generic/bug.h>
 
 #include "powernv.h"
 

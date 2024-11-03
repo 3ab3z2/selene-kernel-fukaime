@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_TYPES_H
 #define _ASM_M32R_TYPES_H
 
-#include <uapi/asm/types.h>
+#include <uapi/asm-generic/types.h>
 
 /*
  * These aren't exported outside the kernel to avoid name space clashes

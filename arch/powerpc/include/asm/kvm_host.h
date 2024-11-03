@@ -30,18 +30,18 @@
 #include <linux/kvm_para.h>
 #include <linux/list.h>
 #include <linux/atomic.h>
-#include <asm/kvm_asm.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/cacheflush.h>
-#include <asm/hvcall.h>
-#include <asm/mce.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/mce.h>
 
 #define KVM_MAX_VCPUS		NR_CPUS
 #define KVM_MAX_VCORES		NR_CPUS
 #define KVM_USER_MEM_SLOTS	512
 
-#include <asm/cputhreads.h>
+#include <asm-generic/cputhreads.h>
 #define KVM_MAX_VCPU_ID                (threads_per_subcore * KVM_MAX_VCORES)
 
 #define __KVM_HAVE_ARCH_INTC_INITIALIZED

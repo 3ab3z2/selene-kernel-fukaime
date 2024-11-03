@@ -1,8 +1,8 @@
 #ifndef _I8042_IP22_H
 #define _I8042_IP22_H
 
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/ip22.h>
 
 /*
  * This program is free software; you can redistribute it and/or modify it

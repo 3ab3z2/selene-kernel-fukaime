@@ -23,7 +23,7 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <asm/spu_csa.h>
+#include <asm-generic/spu_csa.h>
 
 .data
 .align 7

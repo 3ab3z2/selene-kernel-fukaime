@@ -37,7 +37,7 @@
 #include <linux/regulator/consumer.h>
 #include <linux/gpio.h>
 
-#include <asm/mach/flash.h>
+#include <asm-generic/mach/flash.h>
 #include <linux/platform_data/mtd-onenand-omap2.h>
 
 #include <linux/omap-dma.h>

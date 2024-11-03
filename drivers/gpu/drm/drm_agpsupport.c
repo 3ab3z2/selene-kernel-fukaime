@@ -36,7 +36,7 @@
 #include <linux/slab.h>
 #include "drm_legacy.h"
 
-#include <asm/agp.h>
+#include <asm-generic/agp.h>
 
 /**
  * Get AGP information.

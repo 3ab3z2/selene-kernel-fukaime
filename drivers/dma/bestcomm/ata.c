@@ -16,7 +16,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <linux/fsl/bestcomm/bestcomm.h>
 #include <linux/fsl/bestcomm/bestcomm_priv.h>

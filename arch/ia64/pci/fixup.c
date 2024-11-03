@@ -9,7 +9,7 @@
 #include <linux/vgaarb.h>
 #include <linux/screen_info.h>
 
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 
 /*
  * Fixup to mark boot BIOS video selected by BIOS before it changes

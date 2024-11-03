@@ -18,9 +18,9 @@
 #include <linux/tick.h>
 #include <linux/bitops.h>
 #include <linux/ptrace.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h> /* for USER_DS macros */
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 void show_regs(struct pt_regs *regs)
 {

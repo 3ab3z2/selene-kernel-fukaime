@@ -6,11 +6,11 @@
 
 #include <linux/fb.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <video/mach64.h>
 #include "atyfb.h"
 #ifdef CONFIG_PPC
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 #endif
 
 #undef DEBUG

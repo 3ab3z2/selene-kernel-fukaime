@@ -8,9 +8,9 @@
 #ifndef _SPARC_VIKING_H
 #define _SPARC_VIKING_H
 
-#include <asm/asi.h>
-#include <asm/mxcc.h>
-#include <asm/pgtsrmmu.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/mxcc.h>
+#include <asm-generic/pgtsrmmu.h>
 
 /* Bits in the SRMMU control register for GNU/Viking modules.
  *

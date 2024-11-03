@@ -10,9 +10,9 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/system_info.h>
-#include <asm/opcodes.h>
-#include <asm/probes.h>
+#include <asm-generic/system_info.h>
+#include <asm-generic/opcodes.h>
+#include <asm-generic/probes.h>
 
 #include "test-core.h"
 

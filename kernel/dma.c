@@ -18,7 +18,7 @@
 #include <linux/seq_file.h>
 #include <linux/proc_fs.h>
 #include <linux/init.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 
 

@@ -11,8 +11,8 @@
 #ifndef _XTENSA_TLB_H
 #define _XTENSA_TLB_H
 
-#include <asm/cache.h>
-#include <asm/page.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
 
 #if (DCACHE_WAY_SIZE <= PAGE_SIZE)
 

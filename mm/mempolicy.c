@@ -99,7 +99,7 @@
 #include <linux/printk.h>
 #include <linux/swapops.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 #include <linux/uaccess.h>
 
 #include "internal.h"

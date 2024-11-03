@@ -2,8 +2,8 @@
 #ifndef __ASM_SPINLOCK_LOCK1_H
 #define __ASM_SPINLOCK_LOCK1_H
 
-#include <asm/bug.h>
-#include <asm/global_lock.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/global_lock.h>
 
 static inline int arch_spin_is_locked(arch_spinlock_t *lock)
 {

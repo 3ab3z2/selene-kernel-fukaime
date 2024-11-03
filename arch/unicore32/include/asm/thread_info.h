@@ -25,7 +25,7 @@
 
 struct task_struct;
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 typedef struct {
 	unsigned long seg;

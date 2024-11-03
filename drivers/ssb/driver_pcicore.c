@@ -52,7 +52,7 @@ void pcicore_write16(struct ssb_pcicore *pc, u16 offset, u16 value)
 
 #ifdef CONFIG_SSB_PCICORE_HOSTMODE
 
-#include <asm/paccess.h>
+#include <asm-generic/paccess.h>
 /* Probe a 32bit value on the bus and catch bus exceptions.
  * Returns nonzero on a bus exception.
  * This is MIPS specific */

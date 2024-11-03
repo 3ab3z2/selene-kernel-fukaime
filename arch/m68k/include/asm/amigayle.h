@@ -18,7 +18,7 @@
 #define _M68K_AMIGAYLE_H_
 
 #include <linux/types.h>
-#include <asm/amigahw.h>
+#include <asm-generic/amigahw.h>
 
 /* memory layout */
 

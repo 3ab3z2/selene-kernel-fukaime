@@ -6,10 +6,10 @@
  * operations here; the indirect forms are better handled in C.
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/percpu.h>
-#include <asm/processor-flags.h>
-#include <asm/frame.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/frame.h>
 
 #include <linux/linkage.h>
 

@@ -15,7 +15,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/list.h>
 #include <linux/pci.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #if 1
 #define DMA_SRAM_START	dma_coherent_mem_start

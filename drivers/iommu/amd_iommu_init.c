@@ -31,13 +31,13 @@
 #include <linux/kmemleak.h>
 #include <linux/mem_encrypt.h>
 #include <linux/iopoll.h>
-#include <asm/pci-direct.h>
-#include <asm/iommu.h>
-#include <asm/gart.h>
-#include <asm/x86_init.h>
-#include <asm/iommu_table.h>
-#include <asm/io_apic.h>
-#include <asm/irq_remapping.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/gart.h>
+#include <asm-generic/x86_init.h>
+#include <asm-generic/iommu_table.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/irq_remapping.h>
 
 #include <linux/crash_dump.h>
 #include "amd_iommu_proto.h"

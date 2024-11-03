@@ -6,7 +6,7 @@
  * Copyright (C) 2004 Keith M Wesolowski (wesolows@foobazco.org)
  */
 
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 #include <linux/kernel.h>
 #include <linux/sched.h>
@@ -24,19 +24,19 @@
 #include <linux/profile.h>
 #include <linux/cpu.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
 
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/oplib.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/cpudata.h>
-#include <asm/timer.h>
-#include <asm/leon.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/leon.h>
 
 #include "kernel.h"
 #include "irq.h"

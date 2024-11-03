@@ -6,8 +6,8 @@
  *  Copyright IBM Corp. 2016
  *  Author(s): Martin Schwidefsky <schwidefsky@de.ibm.com>
  */
-#include <asm/vdso.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/asm-offsets.h>
 
 	.text
 	.align 4

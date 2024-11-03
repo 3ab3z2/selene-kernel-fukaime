@@ -23,8 +23,8 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/errno.h>
-#include <asm/io.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/delay.h>
 #include <linux/slab.h>

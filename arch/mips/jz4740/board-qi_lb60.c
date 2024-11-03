@@ -29,15 +29,15 @@
 #include <linux/power/gpio-charger.h>
 #include <linux/pwm.h>
 
-#include <asm/mach-jz4740/gpio.h>
-#include <asm/mach-jz4740/jz4740_fb.h>
-#include <asm/mach-jz4740/jz4740_mmc.h>
-#include <asm/mach-jz4740/jz4740_nand.h>
+#include <asm-generic/mach-jz4740/gpio.h>
+#include <asm-generic/mach-jz4740/jz4740_fb.h>
+#include <asm-generic/mach-jz4740/jz4740_mmc.h>
+#include <asm-generic/mach-jz4740/jz4740_nand.h>
 
 #include <linux/regulator/fixed.h>
 #include <linux/regulator/machine.h>
 
-#include <asm/mach-jz4740/platform.h>
+#include <asm-generic/mach-jz4740/platform.h>
 
 #include "clock.h"
 

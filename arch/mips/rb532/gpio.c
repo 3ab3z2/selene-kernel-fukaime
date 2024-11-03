@@ -34,8 +34,8 @@
 #include <linux/platform_device.h>
 #include <linux/gpio/driver.h>
 
-#include <asm/mach-rc32434/rb.h>
-#include <asm/mach-rc32434/gpio.h>
+#include <asm-generic/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/gpio.h>
 
 struct rb532_gpio_chip {
 	struct gpio_chip chip;

@@ -19,8 +19,8 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/rtc.h>
-#include <asm/machdep.h>
-#include <asm/MC68328.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/MC68328.h>
 #if defined(CONFIG_PILOT) || defined(CONFIG_INIT_LCD)
 #include "bootlogo.h"
 #endif

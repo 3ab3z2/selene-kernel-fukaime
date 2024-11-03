@@ -7,11 +7,11 @@
  * Copyright (C) 1999, 2000 Silicon Graphics, Inc.
  */
 #include <linux/pci.h>
-#include <asm/paccess.h>
-#include <asm/pci/bridge.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/paccess.h>
+#include <asm-generic/pci/bridge.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/sn0/hub.h>
 
 /*
  * Most of the IOC3 PCI config register aren't present

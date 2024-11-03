@@ -25,7 +25,7 @@
 #include <linux/platform_device.h>
 #include <linux/firmware.h>
 #include <linux/io.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "sst-baytrail-ipc.h"
 #include "../common/sst-dsp.h"

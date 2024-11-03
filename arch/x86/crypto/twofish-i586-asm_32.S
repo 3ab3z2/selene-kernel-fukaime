@@ -21,7 +21,7 @@
 .text
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 /* return address at 0 */
 

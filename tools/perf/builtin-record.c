@@ -41,7 +41,7 @@
 #include "util/perf-hooks.h"
 #include "util/time-utils.h"
 #include "util/units.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 
 #include <errno.h>
 #include <inttypes.h>
@@ -51,7 +51,7 @@
 #include <signal.h>
 #include <sys/mman.h>
 #include <sys/wait.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include <linux/time64.h>
 
 struct switch_output {

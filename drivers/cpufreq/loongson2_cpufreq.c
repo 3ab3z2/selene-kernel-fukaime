@@ -20,10 +20,10 @@
 #include <linux/delay.h>
 #include <linux/platform_device.h>
 
-#include <asm/clock.h>
-#include <asm/idle.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/idle.h>
 
-#include <asm/mach-loongson64/loongson.h>
+#include <asm-generic/mach-loongson64/loongson.h>
 
 static uint nowait;
 

@@ -11,11 +11,11 @@
 #include <linux/platform_device.h>
 #include <linux/pm.h>
 
-#include <asm/bootinfo.h>
-#include <asm/idle.h>
-#include <asm/reboot.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 #include <prom.h>
 

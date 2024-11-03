@@ -28,9 +28,9 @@
 #include <linux/sysfs.h>
 #include <linux/types.h>
 
-#include <asm/barrier.h>
-#include <asm/local64.h>
-#include <asm/sysreg.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/local64.h>
+#include <asm-generic/sysreg.h>
 
 #define MAX_L2_CTRS             9
 

@@ -6,9 +6,9 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
-#include <asm/synch.h>
-#include <asm/asm-compat.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/asm-compat.h>
 
 #define __futex_atomic_op(insn, ret, oldval, uaddr, oparg) \
   __asm__ __volatile ( \

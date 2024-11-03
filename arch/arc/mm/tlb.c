@@ -55,10 +55,10 @@
 #include <linux/bug.h>
 #include <linux/mm_types.h>
 
-#include <asm/arcregs.h>
-#include <asm/setup.h>
-#include <asm/mmu_context.h>
-#include <asm/mmu.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mmu.h>
 
 /*			Need for ARC MMU v2
  *

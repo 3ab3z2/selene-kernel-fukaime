@@ -10,7 +10,7 @@
 #define _ASM_IA64_SN_INTR_H
 
 #include <linux/rcupdate.h>
-#include <asm/sn/types.h>
+#include <asm-generic/sn/types.h>
 
 #define SGI_UART_VECTOR		0xe9
 

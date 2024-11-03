@@ -16,14 +16,14 @@
 #include <linux/hugetlb.h>
 #include <linux/export.h>
 
-#include <asm/cpu.h>
-#include <asm/cpu-type.h>
-#include <asm/bootinfo.h>
-#include <asm/hazards.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/tlb.h>
-#include <asm/tlbmisc.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbmisc.h>
 
 extern void build_tlb_refill_handler(void);
 

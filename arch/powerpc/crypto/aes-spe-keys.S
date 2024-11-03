@@ -10,7 +10,7 @@
  *
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 #ifdef __BIG_ENDIAN__
 #define LOAD_KEY(d, s, off) \

@@ -22,11 +22,11 @@
 #include <linux/tracehook.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/ucontext.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/coprocessor.h>
-#include <asm/unistd.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/coprocessor.h>
+#include <asm-generic/unistd.h>
 
 #define DEBUG_SIG  0
 

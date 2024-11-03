@@ -20,10 +20,10 @@
 #include <linux/fs.h>
 #include <linux/err.h>
 
-#include <asm/blackfin.h>
-#include <asm/fixed_code.h>
-#include <asm/mem_map.h>
-#include <asm/irq.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/mem_map.h>
+#include <asm-generic/irq.h>
 
 asmlinkage void ret_from_fork(void);
 

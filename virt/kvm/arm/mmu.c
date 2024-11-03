@@ -22,15 +22,15 @@
 #include <linux/hugetlb.h>
 #include <linux/sched/signal.h>
 #include <trace/events/kvm.h>
-#include <asm/pgalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/kvm_arm.h>
-#include <asm/kvm_mmu.h>
-#include <asm/kvm_mmio.h>
-#include <asm/kvm_asm.h>
-#include <asm/kvm_emulate.h>
-#include <asm/virt.h>
-#include <asm/system_misc.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/kvm_arm.h>
+#include <asm-generic/kvm_mmu.h>
+#include <asm-generic/kvm_mmio.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/virt.h>
+#include <asm-generic/system_misc.h>
 
 #include "trace.h"
 

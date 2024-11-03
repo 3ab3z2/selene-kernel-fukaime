@@ -29,10 +29,10 @@
 #include <linux/clk-provider.h>
 #include <linux/of_address.h>
 
-#include <asm/timex.h>
-#include <asm/processor.h>
-#include <asm/platform.h>
-#include <asm/bootparam.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/bootparam.h>
 #include <platform/lcd.h>
 #include <platform/hardware.h>
 

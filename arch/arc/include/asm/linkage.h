@@ -9,7 +9,7 @@
 #ifndef __ASM_LINKAGE_H
 #define __ASM_LINKAGE_H
 
-#include <asm/dwarf.h>
+#include <asm-generic/dwarf.h>
 
 #ifdef __ASSEMBLY__
 

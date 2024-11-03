@@ -26,9 +26,9 @@
 #include <linux/swapops.h>
 #include <linux/jhash.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/tlb.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlb.h>
 
 #include <linux/io.h>
 #include <linux/hugetlb.h>

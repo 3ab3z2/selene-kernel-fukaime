@@ -24,8 +24,8 @@
  */
 #include <linux/prefetch.h>
 #include <linux/string.h>
-#include <asm/page.h>
-#include <asm/extable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/extable.h>
 
 /*
  * The fs value determines whether argument validity checking should be

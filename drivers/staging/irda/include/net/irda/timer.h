@@ -30,7 +30,7 @@
 #include <linux/timer.h>
 #include <linux/jiffies.h>
 
-#include <asm/param.h>  /* for HZ */
+#include <asm-generic/param.h>  /* for HZ */
 
 #include <net/irda/irda.h>
 

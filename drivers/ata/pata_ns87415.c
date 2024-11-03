@@ -212,7 +212,7 @@ static int ns87415_check_atapi_dma(struct ata_queued_cmd *qc)
  * Workarounds taken from drivers/ide/pci/ns87415.c
  */
 
-#include <asm/superio.h>
+#include <asm-generic/superio.h>
 
 #define SUPERIO_IDE_MAX_RETRIES 25
 

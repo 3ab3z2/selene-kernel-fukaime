@@ -9,9 +9,9 @@
 #ifndef __ASM_CPU_FEATURES_H
 #define __ASM_CPU_FEATURES_H
 
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
-#include <asm/isa-rev.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/isa-rev.h>
 #include <cpu-feature-overrides.h>
 
 /*

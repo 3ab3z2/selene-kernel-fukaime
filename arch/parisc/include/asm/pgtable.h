@@ -4,7 +4,7 @@
 
 #include <asm-generic/4level-fixup.h>
 
-#include <asm/fixmap.h>
+#include <asm-generic/fixmap.h>
 
 #ifndef __ASSEMBLY__
 /*
@@ -14,8 +14,8 @@
 #include <linux/bitops.h>
 #include <linux/spinlock.h>
 #include <linux/mm_types.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
 
 extern spinlock_t pa_tlb_lock;
 
@@ -74,7 +74,7 @@ static inline void purge_tlb_entries(struct mm_struct *mm, unsigned long addr)
 
 #endif /* !__ASSEMBLY__ */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define pte_ERROR(e) \
 	printk("%s:%d: bad pte %08lx.\n", __FILE__, __LINE__, pte_val(e))

@@ -10,9 +10,9 @@
 #define __ASM_BREAK_H
 
 #ifdef __UAPI_ASM_BREAK_H
-#error "Error: Do not directly include <uapi/asm/break.h>"
+#error "Error: Do not directly include <uapi/asm-generic/break.h>"
 #endif
-#include <uapi/asm/break.h>
+#include <uapi/asm-generic/break.h>
 
 /*
  * Break codes used internally to the kernel.

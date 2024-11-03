@@ -8,7 +8,7 @@
 #ifndef _ASM_IA64_TERMIOS_H
 #define _ASM_IA64_TERMIOS_H
 
-#include <uapi/asm/termios.h>
+#include <uapi/asm-generic/termios.h>
 
 
 /*	intr=^C		quit=^\		erase=del	kill=^U

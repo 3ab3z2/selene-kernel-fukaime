@@ -38,10 +38,10 @@
 #include <linux/miscdevice.h>
 #include <linux/init.h>
 #include <linux/fs.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
-#include <asm/openpromio.h>
+#include <asm-generic/openpromio.h>
 #ifdef CONFIG_PCI
 #include <linux/pci.h>
 #endif

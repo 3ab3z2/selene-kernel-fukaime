@@ -21,7 +21,7 @@
 #ifndef _ASM_POWERPC_TSI108_PCI_H
 #define _ASM_POWERPC_TSI108_PCI_H
 
-#include <asm/tsi108.h>
+#include <asm-generic/tsi108.h>
 
 /* Register definitions */
 #define TSI108_PCI_P2O_BAR0 (TSI108_PCI_OFFSET + 0x10)

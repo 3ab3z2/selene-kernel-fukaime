@@ -32,8 +32,8 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 
-#include <asm/ip32/ip32_ints.h>
-#include <asm/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
+#include <asm-generic/ip32/mace.h>
 
 #include <sound/core.h>
 #include <sound/control.h>

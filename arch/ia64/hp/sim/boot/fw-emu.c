@@ -11,10 +11,10 @@
 #endif
 
 #include <linux/efi.h>
-#include <asm/io.h>
-#include <asm/pal.h>
-#include <asm/sal.h>
-#include <asm/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/setup.h>
 
 #include "ssc.h"
 

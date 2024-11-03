@@ -23,8 +23,8 @@
 #include <linux/interrupt.h>
 
 #include <linux/uaccess.h>
-#include <asm/atariints.h>
-#include <asm/atari_stram.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atari_stram.h>
 
 #include "dmasound.h"
 

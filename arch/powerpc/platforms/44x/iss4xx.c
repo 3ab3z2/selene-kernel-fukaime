@@ -23,14 +23,14 @@
 #include <linux/of_platform.h>
 #include <linux/rtc.h>
 
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/time.h>
-#include <asm/uic.h>
-#include <asm/ppc4xx.h>
-#include <asm/mpic.h>
-#include <asm/mmu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/uic.h>
+#include <asm-generic/ppc4xx.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/mmu.h>
 
 static const struct of_device_id iss4xx_of_bus[] __initconst = {
 	{ .compatible = "ibm,plb4", },

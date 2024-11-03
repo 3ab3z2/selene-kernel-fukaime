@@ -22,10 +22,10 @@
 #include <linux/perf_event.h>
 #include <linux/uaccess.h>
 
-#include <asm/branch.h>
-#include <asm/mmu_context.h>
-#include <asm/ptrace.h>
-#include <asm/highmem.h>		/* For VMALLOC_END */
+#include <asm-generic/branch.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/highmem.h>		/* For VMALLOC_END */
 #include <linux/kdebug.h>
 
 int show_unhandled_signals = 1;

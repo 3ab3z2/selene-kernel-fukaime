@@ -11,7 +11,7 @@
 #define _QEDI_FW_SCSI_H_
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "qedi_hsi.h"
 #include <linux/qed/qed_if.h>
 

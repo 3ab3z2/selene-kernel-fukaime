@@ -31,7 +31,7 @@
 #include <sys/mman.h>
 #include <sys/signal.h>
 #include <sys/ucontext.h>
-#include <asm/ldt.h>
+#include <asm-generic/ldt.h>
 #include <err.h>
 #include <setjmp.h>
 #include <stddef.h>

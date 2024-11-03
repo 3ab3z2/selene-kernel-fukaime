@@ -32,9 +32,9 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/vr41xx/giu.h>
-#include <asm/vr41xx/irq.h>
-#include <asm/vr41xx/vr41xx.h>
+#include <asm-generic/vr41xx/giu.h>
+#include <asm-generic/vr41xx/irq.h>
+#include <asm-generic/vr41xx/vr41xx.h>
 
 MODULE_AUTHOR("Yoichi Yuasa <yuasa@linux-mips.org>");
 MODULE_DESCRIPTION("NEC VR4100 series General-purpose I/O Unit driver");

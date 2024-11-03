@@ -5,7 +5,7 @@
  * Linker script for the real-mode code
  */
 
-#include <asm/page_types.h>
+#include <asm-generic/page_types.h>
 
 #undef i386
 

@@ -22,7 +22,7 @@
 #include <linux/iommu.h>
 #include <linux/pci.h>
 
-#include <asm/fsl_pamu_stash.h>
+#include <asm-generic/fsl_pamu_stash.h>
 
 /* Bit Field macros
  *	v = bit field variable; m = mask, m##_SHIFT = shift, x = value to load

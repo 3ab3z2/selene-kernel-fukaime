@@ -27,12 +27,12 @@
 #include <linux/string.h>
 #include <linux/signal.h>
 
-#include <asm/cacheflush.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu_context.h>
 
 /*
  * This routine will get a word off of the process kernel stack.

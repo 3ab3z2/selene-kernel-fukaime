@@ -30,9 +30,9 @@
 #include <linux/ioport.h>
 #include <linux/uaccess.h>
 
-#include <asm/coldfire.h>
-#include <asm/m54xxsim.h>
-#include <asm/m54xxgpt.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/m54xxsim.h>
+#include <asm-generic/m54xxgpt.h>
 
 static bool nowayout = WATCHDOG_NOWAYOUT;
 static unsigned int heartbeat = 30;	/* (secs) Default is 0.5 minute */

@@ -39,9 +39,9 @@
 #define _FP_EMU_H
 
 #ifdef __ASSEMBLY__
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #endif
-#include <asm/math-emu.h>
+#include <asm-generic/math-emu.h>
 
 #ifndef __ASSEMBLY__
 

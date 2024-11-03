@@ -23,8 +23,8 @@
 #include <linux/err.h>
 #include <linux/clk.h>
 
-#include <asm/time.h>
-#include <asm/mach-ar7/ar7.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mach-ar7/ar7.h>
 
 void __init plat_time_init(void)
 {

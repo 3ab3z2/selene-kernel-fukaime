@@ -37,11 +37,11 @@
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 
-#include <asm/blackfin.h>
-#include <asm/cacheflush.h>
-#include <asm/irq.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #include "../codecs/ad73311.h"
 #include "bf5xx-sport.h"

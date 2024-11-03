@@ -25,7 +25,7 @@
 #include <linux/videodev2.h>
 #include <linux/slab.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include <mach/cputype.h>
 
 #include <media/v4l2-dev.h>

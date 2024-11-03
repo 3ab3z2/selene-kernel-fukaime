@@ -35,8 +35,8 @@
 |
 
 #include <linux/linkage.h>
-#include <asm/entry.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/asm-offsets.h>
 
 
 |################################

@@ -29,13 +29,13 @@
 #include <linux/edac.h>
 #include <linux/bitops.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "edac_mc.h"
 #include "edac_module.h"
 #include <ras/ras_event.h>
 
 #ifdef CONFIG_EDAC_ATOMIC_SCRUB
-#include <asm/edac.h>
+#include <asm-generic/edac.h>
 #else
 #define edac_atomic_scrub(va, size) do { } while (0)
 #endif

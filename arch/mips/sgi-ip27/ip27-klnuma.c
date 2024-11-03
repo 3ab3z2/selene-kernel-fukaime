@@ -11,14 +11,14 @@
 #include <linux/nodemask.h>
 #include <linux/string.h>
 
-#include <asm/page.h>
-#include <asm/sections.h>
-#include <asm/sn/types.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/gda.h>
-#include <asm/sn/hub.h>
-#include <asm/sn/mapped_kernel.h>
-#include <asm/sn/sn_private.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/gda.h>
+#include <asm-generic/sn/hub.h>
+#include <asm-generic/sn/mapped_kernel.h>
+#include <asm-generic/sn/sn_private.h>
 
 static cpumask_t ktext_repmask;
 

@@ -9,9 +9,9 @@
  */
 
 #include <linux/slab.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
 
 /*
  * Trivial page table functions.

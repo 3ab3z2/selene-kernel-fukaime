@@ -5,12 +5,12 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
-#include <asm/errno.h>
-#include <asm/blackfin.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/asm-offsets.h>
 
-#include <asm/context.S>
+#include <asm-generic/context.S>
 
 #ifdef CONFIG_EXCPT_IRQ_SYSC_L1
 .section .l1.text

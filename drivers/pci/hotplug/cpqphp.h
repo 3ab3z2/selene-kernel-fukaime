@@ -29,7 +29,7 @@
 #define _CPQPHP_H
 
 #include <linux/interrupt.h>
-#include <asm/io.h>		/* for read? and write? functions */
+#include <asm-generic/io.h>		/* for read? and write? functions */
 #include <linux/delay.h>	/* for delays */
 #include <linux/mutex.h>
 #include <linux/sched/signal.h>	/* for signal_pending() */
@@ -727,7 +727,7 @@ static inline int wait_for_ctrl_irq(struct controller *ctrl)
 	return retval;
 }
 
-#include <asm/pci_x86.h>
+#include <asm-generic/pci_x86.h>
 static inline int cpqhp_routing_table_length(void)
 {
 	BUG_ON(cpqhp_routing_table == NULL);

@@ -3,8 +3,8 @@
 #define __ASM_METAG_BITOPS_H
 
 #include <linux/compiler.h>
-#include <asm/barrier.h>
-#include <asm/global_lock.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/global_lock.h>
 
 #ifdef CONFIG_SMP
 /*

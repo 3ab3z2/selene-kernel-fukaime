@@ -19,6 +19,6 @@
 
 #endif /* CONFIG_64BIT */
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* _ASM_MACH_CAVIUM_OCTEON_SPACES_H */

@@ -2,7 +2,7 @@
 #ifndef _PPC64_KDUMP_H
 #define _PPC64_KDUMP_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define KDUMP_KERNELBASE	0x2000000
 

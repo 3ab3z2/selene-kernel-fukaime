@@ -35,14 +35,14 @@
 #include <linux/module.h>
 #include <linux/of.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/mpc8260.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/cpm2.h>
-#include <asm/rheap.h>
-#include <asm/fs_pd.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mpc8260.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpm2.h>
+#include <asm-generic/rheap.h>
+#include <asm-generic/fs_pd.h>
 
 #include <sysdev/fsl_soc.h>
 

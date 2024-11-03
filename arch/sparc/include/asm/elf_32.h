@@ -6,7 +6,7 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * Sparc section types
@@ -91,7 +91,7 @@ typedef struct {
 	unsigned int	pr_q[64];
 } elf_fpregset_t;
 
-#include <asm/mbus.h>
+#include <asm-generic/mbus.h>
 
 /*
  * This is used to ensure we don't load something for the wrong architecture.

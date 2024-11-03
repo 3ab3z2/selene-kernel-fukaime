@@ -9,10 +9,10 @@
  */
 
 #include <linux/bootmem.h>
-#include <asm/bootinfo.h>
-#include <asm/traps.h>
-#include <asm/smp-ops.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/cacheflush.h>
 
 #include <loongson.h>
 

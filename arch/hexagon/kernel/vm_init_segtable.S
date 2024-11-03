@@ -22,8 +22,8 @@
  * These tables are pre-computed and linked into kernel.
  */
 
-#include <asm/vm_mmu.h>
-/*  #include <asm/iomap.h>  */
+#include <asm-generic/vm_mmu.h>
+/*  #include <asm-generic/iomap.h>  */
 
 /*
  * Start with mapping PA=0 to both VA=0x0 and VA=0xc000000 as 16MB large pages.

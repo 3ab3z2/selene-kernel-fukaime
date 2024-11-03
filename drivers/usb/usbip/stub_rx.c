@@ -17,7 +17,7 @@
  * USA.
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/kthread.h>
 #include <linux/usb.h>
 #include <linux/usb/hcd.h>

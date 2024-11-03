@@ -28,9 +28,9 @@
 #include <linux/spinlock.h>
 #include <linux/ptrace.h>
 
-#include <asm/cevt-r4k.h>
-#include <asm/mipsregs.h>
-#include <asm/time.h>
+#include <asm-generic/cevt-r4k.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/time.h>
 
 #include <msp_prom.h>
 #include <msp_int.h>

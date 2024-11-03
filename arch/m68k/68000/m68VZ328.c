@@ -23,10 +23,10 @@
 #include <linux/irq.h>
 #include <linux/rtc.h>
 
-#include <asm/pgtable.h>
-#include <asm/machdep.h>
-#include <asm/MC68VZ328.h>
-#include <asm/bootstd.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/MC68VZ328.h>
+#include <asm-generic/bootstd.h>
 
 #ifdef CONFIG_INIT_LCD
 #include "bootlogo-vz.h"

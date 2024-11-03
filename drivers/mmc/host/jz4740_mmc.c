@@ -28,12 +28,12 @@
 
 #include <linux/bitops.h>
 #include <linux/gpio.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/dma-mapping.h>
 #include <linux/dmaengine.h>
 
-#include <asm/mach-jz4740/dma.h>
-#include <asm/mach-jz4740/jz4740_mmc.h>
+#include <asm-generic/mach-jz4740/dma.h>
+#include <asm-generic/mach-jz4740/jz4740_mmc.h>
 
 #define JZ_REG_MMC_STRPCL	0x00
 #define JZ_REG_MMC_STATUS	0x04

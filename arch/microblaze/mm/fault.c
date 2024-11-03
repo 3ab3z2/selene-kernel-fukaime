@@ -29,12 +29,12 @@
 #include <linux/mm.h>
 #include <linux/interrupt.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
 #include <linux/mmu_context.h>
 #include <linux/uaccess.h>
-#include <asm/exceptions.h>
+#include <asm-generic/exceptions.h>
 
 static unsigned long pte_misses;	/* updated by do_page_fault() */
 static unsigned long pte_errors;	/* updated by do_page_fault() */

@@ -13,8 +13,8 @@
 #include <linux/kthread.h>
 #include <linux/init.h>
 #include <linux/wait.h>
-#include <asm/crw.h>
-#include <asm/ctl_reg.h>
+#include <asm-generic/crw.h>
+#include <asm-generic/ctl_reg.h>
 #include "ioasm.h"
 
 static DEFINE_MUTEX(crw_handler_mutex);

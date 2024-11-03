@@ -39,7 +39,7 @@
 #include <linux/wait.h>
 #include <linux/dma-mapping.h>
 #include <linux/atomic.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "nosy.h"
 #include "nosy-user.h"

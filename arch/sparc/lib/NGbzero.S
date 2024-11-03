@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2006 David S. Miller (davem@davemloft.net)
  */
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 #define EX_ST(x,y)		\
 98:	x,y;			\

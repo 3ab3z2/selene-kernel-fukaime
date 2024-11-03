@@ -20,9 +20,9 @@
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
 #include <crypto/serpent.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/serpent-avx.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/serpent-avx.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 #define SERPENT_AVX2_PARALLEL_BLOCKS 16
 

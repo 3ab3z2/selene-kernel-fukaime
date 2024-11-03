@@ -17,9 +17,9 @@
  *
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/export.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/export.h>
 
 /* Note: This code relies on -mminimal-toc */
 

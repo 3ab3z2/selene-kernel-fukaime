@@ -6,8 +6,8 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
-#include <asm/user.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/user.h>
 
 /*
  * 68k ELF relocation types

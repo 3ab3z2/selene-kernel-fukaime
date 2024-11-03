@@ -76,9 +76,9 @@
 
 #include <linux/prefetch.h>
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
-#include <asm/octeon/cvmx-fpa.h>
+#include <asm-generic/octeon/cvmx-fpa.h>
 /**
  * By default we disable the max depth support. Most programs
  * don't use it and it slows down the command queue processing

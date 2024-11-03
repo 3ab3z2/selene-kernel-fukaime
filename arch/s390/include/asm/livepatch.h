@@ -17,7 +17,7 @@
 #ifndef ASM_LIVEPATCH_H
 #define ASM_LIVEPATCH_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 static inline int klp_check_compiler_support(void)
 {

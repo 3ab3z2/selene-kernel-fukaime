@@ -12,8 +12,8 @@
 
 #include <linux/init.h>
 #include <linux/of_platform.h>
-#include <asm/prom.h>
-#include <asm/setup.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/setup.h>
 
 static struct of_device_id xilinx_of_bus_ids[] __initdata = {
 	{ .compatible = "simple-bus", },

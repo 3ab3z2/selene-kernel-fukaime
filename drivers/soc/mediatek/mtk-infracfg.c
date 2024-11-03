@@ -15,7 +15,7 @@
 #include <linux/jiffies.h>
 #include <linux/regmap.h>
 #include <linux/soc/mediatek/infracfg.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #define MTK_POLL_DELAY_US   10
 #define MTK_POLL_TIMEOUT    (jiffies_to_usecs(HZ))

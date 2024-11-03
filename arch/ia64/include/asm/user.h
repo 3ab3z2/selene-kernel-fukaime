@@ -32,7 +32,7 @@
 #include <linux/ptrace.h>
 #include <linux/types.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define EF_SIZE		3072	/* XXX fix me */
 

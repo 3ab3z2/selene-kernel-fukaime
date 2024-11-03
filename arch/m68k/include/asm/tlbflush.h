@@ -5,8 +5,8 @@
 #ifdef CONFIG_MMU
 #ifndef CONFIG_SUN3
 
-#include <asm/current.h>
-#include <asm/mcfmmu.h>
+#include <asm-generic/current.h>
+#include <asm-generic/mcfmmu.h>
 
 static inline void flush_tlb_kernel_page(void *addr)
 {

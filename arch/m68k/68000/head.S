@@ -13,8 +13,8 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
 
 
 /*****************************************************************************

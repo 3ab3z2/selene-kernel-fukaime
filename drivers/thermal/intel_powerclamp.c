@@ -52,11 +52,11 @@
 #include <linux/sched/rt.h>
 #include <uapi/linux/sched/types.h>
 
-#include <asm/nmi.h>
-#include <asm/msr.h>
-#include <asm/mwait.h>
-#include <asm/cpu_device_id.h>
-#include <asm/hardirq.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/mwait.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/hardirq.h>
 
 #define MAX_TARGET_RATIO (50U)
 /* For each undisturbed clamping period (no extra wake ups during idle time),

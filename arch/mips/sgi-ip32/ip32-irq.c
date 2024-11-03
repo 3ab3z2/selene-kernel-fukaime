@@ -20,13 +20,13 @@
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/signal.h>
-#include <asm/time.h>
-#include <asm/ip32/crime.h>
-#include <asm/ip32/mace.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/time.h>
+#include <asm-generic/ip32/crime.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 /* issue a PIO read to make sure no PIO writes are pending */
 static inline void flush_crime_bus(void)

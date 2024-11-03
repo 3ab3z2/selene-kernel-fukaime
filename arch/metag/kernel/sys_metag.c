@@ -14,13 +14,13 @@
 #include <linux/fs.h>
 #include <linux/uaccess.h>
 #include <linux/unistd.h>
-#include <asm/cacheflush.h>
-#include <asm/core_reg.h>
-#include <asm/global_lock.h>
-#include <asm/switch.h>
-#include <asm/syscall.h>
-#include <asm/syscalls.h>
-#include <asm/user_gateway.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/global_lock.h>
+#include <asm-generic/switch.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/user_gateway.h>
 
 #define merge_64(hi, lo) ((((unsigned long long)(hi)) << 32) + \
 			  ((lo) & 0xffffffffUL))
@@ -173,9 +173,9 @@ asmlinkage long sys_sync_file_range_metag(int fd, unsigned long offs_lo,
 
 /*
  * Note that we can't include <linux/unistd.h> here since the header
- * guard will defeat us; <asm/unistd.h> checks for __SYSCALL as well.
+ * guard will defeat us; <asm-generic/unistd.h> checks for __SYSCALL as well.
  */
 const void *sys_call_table[__NR_syscalls] = {
 	[0 ... __NR_syscalls-1] = sys_ni_syscall,
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 };

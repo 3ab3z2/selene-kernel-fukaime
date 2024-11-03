@@ -10,8 +10,8 @@
 #define _ASM_S390_SCSW_H_
 
 #include <linux/types.h>
-#include <asm/css_chars.h>
-#include <asm/cio.h>
+#include <asm-generic/css_chars.h>
+#include <asm-generic/cio.h>
 
 /**
  * struct cmd_scsw - command-mode subchannel status word

@@ -13,7 +13,7 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 #include <linux/vmstat.h>
-#include <asm/scs.h>
+#include <asm-generic/scs.h>
 
 static inline void *__scs_base(struct task_struct *tsk)
 {

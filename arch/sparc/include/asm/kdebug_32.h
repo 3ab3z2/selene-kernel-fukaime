@@ -8,8 +8,8 @@
 #ifndef _SPARC_KDEBUG_H
 #define _SPARC_KDEBUG_H
 
-#include <asm/openprom.h>
-#include <asm/vaddrs.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/vaddrs.h>
 
 /* Breakpoints are enter through trap table entry 126.  So in sparc assembly
  * if you want to drop into the debugger you do:

@@ -28,13 +28,13 @@
  *	Last modified: 17 APR 08, 1700 PDT
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/init.h>
 #include <linux/types.h>
 #include <linux/crypto.h>
 #include <linux/module.h>
 #include <linux/scatterlist.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/internal/hash.h>
 

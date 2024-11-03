@@ -14,7 +14,7 @@
  *
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/platform_device.h>
@@ -33,7 +33,7 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 #include <linux/io.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 /* For KPOC alarm */
 #include <linux/notifier.h>
 #include <linux/suspend.h>

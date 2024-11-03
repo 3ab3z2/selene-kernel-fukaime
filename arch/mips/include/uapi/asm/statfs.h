@@ -10,7 +10,7 @@
 #define _ASM_STATFS_H
 
 #include <linux/posix_types.h>
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #ifndef __KERNEL_STRICT_NAMES
 

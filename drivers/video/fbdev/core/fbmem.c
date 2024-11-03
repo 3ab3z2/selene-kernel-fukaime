@@ -37,7 +37,7 @@
 #include <linux/mem_encrypt.h>
 #include <linux/overflow.h>
 
-#include <asm/fb.h>
+#include <asm-generic/fb.h>
 
 
     /*

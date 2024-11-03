@@ -68,8 +68,8 @@
 #include <linux/of.h>
 #include <linux/pm.h>
 #include <linux/kthread.h>
-#include <asm/firmware.h>
-#include <asm/vio.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/vio.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>

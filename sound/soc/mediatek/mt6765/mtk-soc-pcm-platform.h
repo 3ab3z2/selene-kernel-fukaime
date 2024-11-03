@@ -49,7 +49,7 @@
 #include "mtk-soc-pcm-common.h"
 #include "mtk-soc-pcm-platform.h"
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/clk.h>
 #include <linux/completion.h>
 #include <linux/delay.h>

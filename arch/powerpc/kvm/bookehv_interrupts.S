@@ -21,18 +21,18 @@
  * This file is derived from arch/powerpc/kvm/booke_interrupts.S
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/kvm_asm.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/asm-compat.h>
-#include <asm/asm-offsets.h>
-#include <asm/bitsperlong.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/bitsperlong.h>
 
 #ifdef CONFIG_64BIT
-#include <asm/exception-64e.h>
-#include <asm/hw_irq.h>
-#include <asm/irqflags.h>
+#include <asm-generic/exception-64e.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/irqflags.h>
 #else
 #include "../kernel/head_booke.h" /* for THREAD_NORMSAVE() */
 #endif
@@ -176,7 +176,7 @@ END_BTB_FLUSH_SECTION
 #define EX_TLB			6
 
 /*
- * For input register values, see arch/powerpc/include/asm/kvm_booke_hv_asm.h
+ * For input register values, see arch/powerpc/include/asm-generic/kvm_booke_hv_asm.h
  */
 .macro kvm_handler intno type scratch, paca_ex, ex_r10, ex_r11, srr0, srr1, flags
  _GLOBAL(kvmppc_handler_\intno\()_\srr1)
@@ -286,7 +286,7 @@ kvm_handler BOOKE_INTERRUPT_LRAT_ERROR, EX_PARAMS(GEN), \
 	SPRN_SRR0, SPRN_SRR1, (NEED_EMU | NEED_DEAR | NEED_ESR)
 #else
 /*
- * For input register values, see arch/powerpc/include/asm/kvm_booke_hv_asm.h
+ * For input register values, see arch/powerpc/include/asm-generic/kvm_booke_hv_asm.h
  */
 .macro kvm_handler intno srr0, srr1, flags
 _GLOBAL(kvmppc_handler_\intno\()_\srr1)

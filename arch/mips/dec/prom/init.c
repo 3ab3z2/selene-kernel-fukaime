@@ -12,12 +12,12 @@
 #include <linux/string.h>
 #include <linux/types.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/cpu-type.h>
-#include <asm/processor.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/processor.h>
 
-#include <asm/dec/prom.h>
+#include <asm-generic/dec/prom.h>
 
 
 int (*__rex_bootinit)(void);

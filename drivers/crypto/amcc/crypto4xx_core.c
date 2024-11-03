@@ -32,9 +32,9 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 #include <linux/slab.h>
-#include <asm/dcr.h>
-#include <asm/dcr-regs.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-regs.h>
+#include <asm-generic/cacheflush.h>
 #include <crypto/aes.h>
 #include <crypto/sha.h>
 #include "crypto4xx_reg_def.h"

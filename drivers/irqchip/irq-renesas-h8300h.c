@@ -10,7 +10,7 @@
 #include <linux/irqchip.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static const char ipr_bit[] = {
 	 7,  6,  5,  5,

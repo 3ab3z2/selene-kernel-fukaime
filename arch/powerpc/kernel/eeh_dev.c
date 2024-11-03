@@ -38,8 +38,8 @@
 #include <linux/pci.h>
 #include <linux/string.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
 
 /**
  * eeh_dev_init - Create EEH device according to OF node

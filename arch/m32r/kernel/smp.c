@@ -24,13 +24,13 @@
 #include <linux/profile.h>
 #include <linux/cpu.h>
 
-#include <asm/cacheflush.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/atomic.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/m32r.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/tlbflush.h>
 
 /*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*/
 /* Data structures and variables                                             */

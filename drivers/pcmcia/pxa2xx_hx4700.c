@@ -12,7 +12,7 @@
 #include <linux/gpio.h>
 #include <linux/irq.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/hx4700.h>
 
 #include "soc_common.h"

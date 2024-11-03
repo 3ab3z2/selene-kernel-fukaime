@@ -26,12 +26,12 @@
 #include <linux/stop_machine.h>
 #include <linux/sched/debug.h>
 #include <linux/stringify.h>
-#include <asm/traps.h>
-#include <asm/opcodes.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/opcodes.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/percpu.h>
 #include <linux/bug.h>
-#include <asm/patch.h>
+#include <asm-generic/patch.h>
 
 #include "../decode-arm.h"
 #include "../decode-thumb.h"

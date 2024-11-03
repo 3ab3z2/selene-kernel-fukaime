@@ -42,10 +42,10 @@
 #include <linux/slab.h>
 #include <linux/export.h>
 
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 #include <linux/uaccess.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 
 #include <net/irda/irda_device.h>
 #include <net/irda/irlap.h>

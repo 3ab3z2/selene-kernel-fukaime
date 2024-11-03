@@ -4,7 +4,7 @@
 #include <linux/sched/task_stack.h>
 #include <linux/stacktrace.h>
 
-#include <asm/stacktrace.h>
+#include <asm-generic/stacktrace.h>
 
 #if defined(CONFIG_FRAME_POINTER)
 

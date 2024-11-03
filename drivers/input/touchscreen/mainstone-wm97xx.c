@@ -34,7 +34,7 @@
 
 #include <mach/regs-ac97.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 struct continuous {
 	u16 id;    /* codec id */

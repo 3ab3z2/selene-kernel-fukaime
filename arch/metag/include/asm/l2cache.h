@@ -4,8 +4,8 @@
 
 #ifdef CONFIG_METAG_L2C
 
-#include <asm/global_lock.h>
-#include <asm/io.h>
+#include <asm-generic/global_lock.h>
+#include <asm-generic/io.h>
 
 /*
  * Store the last known value of pfenable (we don't want prefetch enabled while

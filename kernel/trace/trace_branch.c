@@ -13,7 +13,7 @@
 #include <linux/ftrace.h>
 #include <linux/hash.h>
 #include <linux/fs.h>
-#include <asm/local.h>
+#include <asm-generic/local.h>
 
 #include "trace.h"
 #include "trace_stat.h"

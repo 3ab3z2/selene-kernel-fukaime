@@ -29,7 +29,7 @@
 #include <linux/uio.h>
 #include <linux/writeback.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/uaccess.h>
 
 #include "attrib.h"

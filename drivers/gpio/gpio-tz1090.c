@@ -23,7 +23,7 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/syscore_ops.h>
-#include <asm/global_lock.h>
+#include <asm-generic/global_lock.h>
 
 /* Register offsets from bank base address */
 #define REG_GPIO_DIR		0x00

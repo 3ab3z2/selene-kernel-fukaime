@@ -31,11 +31,11 @@
 #include <linux/signal.h>
 #include <linux/irq.h>
 
-#include <asm/immap_cpm2.h>
-#include <asm/mpc8260.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/fs_pd.h>
+#include <asm-generic/immap_cpm2.h>
+#include <asm-generic/mpc8260.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/fs_pd.h>
 
 #include "cpm2_pic.h"
 

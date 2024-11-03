@@ -11,7 +11,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 
 /* Values for nocacheflag and cmode */

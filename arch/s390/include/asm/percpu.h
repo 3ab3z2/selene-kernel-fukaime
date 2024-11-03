@@ -3,7 +3,7 @@
 #define __ARCH_S390_PERCPU__
 
 #include <linux/preempt.h>
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 /*
  * s390 uses its own implementation for per cpu data, the offset of

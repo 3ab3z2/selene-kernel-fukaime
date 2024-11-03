@@ -38,7 +38,7 @@
  *    the executable file might be covered by the GNU General Public License.
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 	.file	"crtsavres.S"
 

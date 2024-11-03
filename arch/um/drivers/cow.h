@@ -2,7 +2,7 @@
 #ifndef __COW_H__
 #define __COW_H__
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 extern int init_cow_file(int fd, char *cow_file, char *backing_file,
 			 int sectorsize, int alignment, int *bitmap_offset_out,

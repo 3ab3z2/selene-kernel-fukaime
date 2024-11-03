@@ -22,10 +22,10 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 #include <linux/io.h>
-#include <asm/sections.h>
-#include <asm/exceptions.h>
-#include <asm/unwind.h>
-#include <asm/switch_to.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/exceptions.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/switch_to.h>
 
 struct stack_trace;
 

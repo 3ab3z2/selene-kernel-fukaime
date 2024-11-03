@@ -9,16 +9,16 @@
 #include <linux/mm.h>
 #include <linux/string.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/traps.h>
-#include <asm/sun3xprom.h>
-#include <asm/idprom.h>
-#include <asm/segment.h>
-#include <asm/sun3ints.h>
-#include <asm/openprom.h>
-#include <asm/machines.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/sun3xprom.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/sun3ints.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/machines.h>
 
 void (*sun3x_putchar)(int);
 int (*sun3x_getchar)(void);

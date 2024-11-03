@@ -26,7 +26,7 @@
 #include <linux/profile.h>
 #include <linux/bitops.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 volatile unsigned long irq_err_count;

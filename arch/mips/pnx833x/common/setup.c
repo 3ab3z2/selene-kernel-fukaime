@@ -27,7 +27,7 @@
 #include <linux/ioport.h>
 #include <linux/io.h>
 #include <linux/pci.h>
-#include <asm/reboot.h>
+#include <asm-generic/reboot.h>
 #include <pnx833x.h>
 #include <gpio.h>
 

@@ -25,7 +25,7 @@
 #include <linux/irq.h>
 #include <linux/io.h>
 
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 
 static int openrisc_timer_set_next_event(unsigned long delta,
 					 struct clock_event_device *dev)

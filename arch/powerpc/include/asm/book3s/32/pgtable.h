@@ -5,10 +5,10 @@
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 
-#include <asm/book3s/32/hash.h>
+#include <asm-generic/book3s/32/hash.h>
 
 /* And here we include common definitions */
-#include <asm/pte-common.h>
+#include <asm-generic/pte-common.h>
 
 #define PTE_INDEX_SIZE	PTE_SHIFT
 #define PMD_INDEX_SIZE	0
@@ -93,7 +93,7 @@
 #ifndef __ASSEMBLY__
 #include <linux/sched.h>
 #include <linux/threads.h>
-#include <asm/io.h>			/* For sub-arch specific PPC_PIN_SIZE */
+#include <asm-generic/io.h>			/* For sub-arch specific PPC_PIN_SIZE */
 
 extern unsigned long ioremap_bot;
 

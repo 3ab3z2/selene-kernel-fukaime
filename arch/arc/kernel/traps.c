@@ -19,9 +19,9 @@
 #include <linux/ptrace.h>
 #include <linux/kprobes.h>
 #include <linux/kgdb.h>
-#include <asm/setup.h>
-#include <asm/unaligned.h>
-#include <asm/kprobes.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/kprobes.h>
 
 void __init trap_init(void)
 {

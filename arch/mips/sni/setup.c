@@ -16,19 +16,19 @@
 #include <linux/screen_info.h>
 
 #ifdef CONFIG_FW_ARC
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
 #endif
 
 #ifdef CONFIG_FW_SNIPROM
-#include <asm/mipsprom.h>
+#include <asm-generic/mipsprom.h>
 #endif
 
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/io.h>
-#include <asm/reboot.h>
-#include <asm/sni.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/sni.h>
 
 unsigned int sni_brd_type;
 EXPORT_SYMBOL(sni_brd_type);

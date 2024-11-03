@@ -15,7 +15,7 @@
 #include <linux/types.h>
 #include <linux/spinlock.h>
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 #define MARVEL_MAX_PIDS		 32 /* as long as we rely on 43-bit superpage */
 #define MARVEL_IRQ_VEC_PE_SHIFT	(10)
@@ -366,7 +366,7 @@ extern int marvel_is_mmio(const volatile void __iomem *);
 #define marvel_trivial_io_bw	0
 #define marvel_trivial_io_lq	1
 #define marvel_trivial_iounmap	0
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 # undef __EXTERN_INLINE

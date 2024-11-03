@@ -31,7 +31,7 @@
 #include <sound/sb.h>
 #include <sound/initval.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
 MODULE_DESCRIPTION("ALSA lowlevel driver for Sound Blaster cards");

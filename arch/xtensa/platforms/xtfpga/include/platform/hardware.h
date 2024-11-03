@@ -12,7 +12,7 @@
  * This file contains the hardware configuration of the XTAVNET boards.
  */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifndef __XTENSA_XTAVNET_HARDWARE_H
 #define __XTENSA_XTAVNET_HARDWARE_H

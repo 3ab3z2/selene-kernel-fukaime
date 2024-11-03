@@ -64,8 +64,8 @@
 #include <linux/vmalloc.h>
 
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/tlb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlb.h>
 
 #include <trace/events/task.h>
 #include "internal.h"

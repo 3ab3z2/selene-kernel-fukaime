@@ -20,8 +20,8 @@
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/watchdog.h>
-#include <asm/hypervisor.h>
-#include <asm/mdesc.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/mdesc.h>
 
 #define WDT_TIMEOUT			60
 #define WDT_MAX_TIMEOUT			31536000

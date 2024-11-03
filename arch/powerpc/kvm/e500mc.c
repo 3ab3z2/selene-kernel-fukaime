@@ -19,11 +19,11 @@
 #include <linux/miscdevice.h>
 #include <linux/module.h>
 
-#include <asm/reg.h>
-#include <asm/cputable.h>
-#include <asm/tlbflush.h>
-#include <asm/kvm_ppc.h>
-#include <asm/dbell.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/dbell.h>
 
 #include "booke.h"
 #include "e500.h"

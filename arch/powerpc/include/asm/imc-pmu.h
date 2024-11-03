@@ -18,7 +18,7 @@
 #include <linux/slab.h>
 #include <linux/of.h>
 #include <linux/io.h>
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 /*
  * Compatibility macros for IMC devices

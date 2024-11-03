@@ -14,11 +14,11 @@
 #include <linux/delay.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/dpmc.h>
-#include <asm/pm.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/pm.h>
 #include <mach/pm.h>
-#include <asm/blackfin.h>
-#include <asm/mem_init.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/mem_init.h>
 
 /***********************************************************/
 /*                                                         */

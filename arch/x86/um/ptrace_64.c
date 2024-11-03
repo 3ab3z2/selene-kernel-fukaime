@@ -9,9 +9,9 @@
 #include <linux/sched.h>
 #include <linux/errno.h>
 #define __FRAME_OFFSETS
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/uaccess.h>
-#include <asm/ptrace-abi.h>
+#include <asm-generic/ptrace-abi.h>
 
 /*
  * determines which flags the user has access to.

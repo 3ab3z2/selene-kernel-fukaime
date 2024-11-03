@@ -10,9 +10,9 @@
 #include <linux/sort.h>
 #include <linux/init.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/page.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/page.h>
 
 static int __init prom_meminit_v0(void)
 {

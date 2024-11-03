@@ -10,7 +10,7 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/reg.h>
+#include <asm-generic/reg.h>
 
 #ifdef CONFIG_VSX
 #define TS_FPRWIDTH 2
@@ -41,9 +41,9 @@
 #ifndef __ASSEMBLY__
 #include <linux/compiler.h>
 #include <linux/cache.h>
-#include <asm/ptrace.h>
-#include <asm/types.h>
-#include <asm/hw_breakpoint.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/types.h>
+#include <asm-generic/hw_breakpoint.h>
 
 /* We do _not_ want to define new machine types at all, those must die
  * in favor of using the device-tree

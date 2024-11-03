@@ -4,7 +4,7 @@
 
 #include <linux/smp.h>
 #include <linux/threads.h>
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 
 #ifdef CONFIG_NUMA
 static inline int cpu_to_node(int cpu)

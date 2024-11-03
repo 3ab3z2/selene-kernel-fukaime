@@ -13,9 +13,9 @@
 #include <linux/mm.h>
 #include <linux/vmalloc.h>
 
-#include <asm/cacheflush.h>
-#include <asm/pgtable.h>
-#include <asm/kdebug.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/kdebug.h>
 
 /*
  * Only print the results of the first pass:

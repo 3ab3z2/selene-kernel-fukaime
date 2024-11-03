@@ -17,21 +17,21 @@
 #include <linux/memblock.h>
 #include <linux/mem_encrypt.h>
 
-#include <asm/processor.h>
-#include <asm/proto.h>
-#include <asm/smp.h>
-#include <asm/setup.h>
-#include <asm/desc.h>
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
-#include <asm/kdebug.h>
-#include <asm/e820/api.h>
-#include <asm/bios_ebda.h>
-#include <asm/bootparam_utils.h>
-#include <asm/microcode.h>
-#include <asm/kasan.h>
-#include <asm/fixmap.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/bios_ebda.h>
+#include <asm-generic/bootparam_utils.h>
+#include <asm-generic/microcode.h>
+#include <asm-generic/kasan.h>
+#include <asm-generic/fixmap.h>
 
 /*
  * Manage page tables very early on.

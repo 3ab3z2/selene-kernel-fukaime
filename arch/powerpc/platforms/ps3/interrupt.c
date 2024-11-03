@@ -22,10 +22,10 @@
 #include <linux/export.h>
 #include <linux/irq.h>
 
-#include <asm/machdep.h>
-#include <asm/udbg.h>
-#include <asm/lv1call.h>
-#include <asm/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/smp.h>
 
 #include "platform.h"
 

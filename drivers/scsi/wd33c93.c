@@ -89,7 +89,7 @@
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_host.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "wd33c93.h"
 

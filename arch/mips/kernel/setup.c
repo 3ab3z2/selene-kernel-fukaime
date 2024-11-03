@@ -31,17 +31,17 @@
 #include <linux/decompress/generic.h>
 #include <linux/of_fdt.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/bugs.h>
-#include <asm/cache.h>
-#include <asm/cdmm.h>
-#include <asm/cpu.h>
-#include <asm/debug.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/smp-ops.h>
-#include <asm/prom.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cdmm.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/prom.h>
 
 #ifdef CONFIG_MIPS_ELF_APPENDED_DTB
 const char __section(.appended_dtb) __appended_dtb[0x100000];

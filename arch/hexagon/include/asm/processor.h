@@ -23,9 +23,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/mem-layout.h>
-#include <asm/registers.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/mem-layout.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/hexagon_vm.h>
 
 /*  must be a macro  */
 #define current_text_addr() ({ __label__ _l; _l: &&_l; })

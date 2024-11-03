@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/platform_device.h>
 
-#include <asm/cpu_type.h>
+#include <asm-generic/cpu_type.h>
 
 struct irq_bucket {
         struct irq_bucket *next;

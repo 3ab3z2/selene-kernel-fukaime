@@ -18,7 +18,7 @@
 #include <linux/usb/cdc.h>
 #include <linux/usb/quirks.h>
 #include <linux/usb/hcd.h>	/* for usbcore internals */
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "usb.h"
 

@@ -21,7 +21,7 @@
 #include "vfio.h"
 
 #ifdef CONFIG_SPAPR_TCE_IOMMU
-#include <asm/kvm_ppc.h>
+#include <asm-generic/kvm_ppc.h>
 #endif
 
 struct kvm_vfio_group {

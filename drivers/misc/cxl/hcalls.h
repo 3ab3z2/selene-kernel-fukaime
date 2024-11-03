@@ -11,8 +11,8 @@
 #define _HCALLS_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
-#include <asm/hvcall.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/hvcall.h>
 #include "cxl.h"
 
 #define SG_BUFFER_SIZE 4096

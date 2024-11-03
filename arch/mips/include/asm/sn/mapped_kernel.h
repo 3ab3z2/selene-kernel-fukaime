@@ -23,7 +23,7 @@
  * code. So no jumps can be done before we have switched to using
  * cksseg addresses.
  */
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 #define REP_BASE	CAC_BASE
 

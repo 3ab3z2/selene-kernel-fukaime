@@ -35,9 +35,9 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/cpu.h>
-#include <asm/io.h>
-#include <asm/vr41xx/vr41xx.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/vr41xx/vr41xx.h>
 
 #define CMU_TYPE1_BASE	0x0b000060UL
 #define CMU_TYPE1_SIZE	0x4

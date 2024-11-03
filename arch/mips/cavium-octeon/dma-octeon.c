@@ -19,14 +19,14 @@
 #include <linux/init.h>
 #include <linux/mm.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #ifdef CONFIG_PCI
-#include <asm/octeon/pci-octeon.h>
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-pci-defs.h>
+#include <asm-generic/octeon/pci-octeon.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-pci-defs.h>
 
 static dma_addr_t octeon_hole_phys_to_dma(phys_addr_t paddr)
 {

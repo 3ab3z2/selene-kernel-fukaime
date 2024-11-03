@@ -29,14 +29,14 @@
 #include <linux/vmalloc.h>
 #include <linux/fs.h>
 
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 #include <linux/uaccess.h>
-#include <asm/kvm_ppc.h>
-#include <asm/cacheflush.h>
-#include <asm/dbell.h>
-#include <asm/hw_irq.h>
-#include <asm/irq.h>
-#include <asm/time.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/time.h>
 
 #include "timing.h"
 #include "booke.h"

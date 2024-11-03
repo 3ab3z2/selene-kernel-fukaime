@@ -18,11 +18,11 @@
 #include <linux/filter.h>
 #include <linux/bpf.h>
 #include <linux/slab.h>
-#include <asm/bitops.h>
-#include <asm/byteorder.h>
-#include <asm/cacheflush.h>
-#include <asm/cpu-features.h>
-#include <asm/uasm.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/uasm.h>
 
 /* Registers used by JIT */
 #define MIPS_R_ZERO	0

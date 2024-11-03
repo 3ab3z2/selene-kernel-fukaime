@@ -23,7 +23,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/mm.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/types.h>
 
 #define WP512_DIGEST_SIZE 64

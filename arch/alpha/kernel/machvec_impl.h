@@ -7,7 +7,7 @@
  * This file has goodies to help simplify instantiation of machine vectors.
  */
 
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 /* Whee.  These systems don't have an HAE:
        IRONGATE, MARVEL, POLARIS, TSUNAMI, TITAN, WILDFIRE

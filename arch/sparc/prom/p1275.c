@@ -12,11 +12,11 @@
 #include <linux/spinlock.h>
 #include <linux/irqflags.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/spitfire.h>
-#include <asm/pstate.h>
-#include <asm/ldc.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ldc.h>
 
 struct {
 	long prom_callback;			/* 0x00 */

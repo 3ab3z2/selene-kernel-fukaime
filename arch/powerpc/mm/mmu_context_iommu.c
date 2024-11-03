@@ -18,8 +18,8 @@
 #include <linux/migrate.h>
 #include <linux/hugetlb.h>
 #include <linux/swap.h>
-#include <asm/mmu_context.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pte-walk.h>
 
 static DEFINE_MUTEX(mem_list_mutex);
 

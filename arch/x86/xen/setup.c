@@ -13,14 +13,14 @@
 #include <linux/cpuidle.h>
 #include <linux/cpufreq.h>
 
-#include <asm/elf.h>
-#include <asm/vdso.h>
-#include <asm/e820/api.h>
-#include <asm/setup.h>
-#include <asm/acpi.h>
-#include <asm/numa.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/acpi.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/xen.h>
 #include <xen/page.h>

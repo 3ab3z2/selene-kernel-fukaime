@@ -14,8 +14,8 @@
 #include <linux/edac.h>
 #include <linux/ras.h>
 #include <acpi/ghes.h>
-#include <asm/cpu.h>
-#include <asm/mce.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mce.h>
 
 #include "apei/apei-internal.h"
 #include <ras/ras_event.h>

@@ -19,7 +19,7 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 /* Map LED type to description. */
 struct led_type_map {

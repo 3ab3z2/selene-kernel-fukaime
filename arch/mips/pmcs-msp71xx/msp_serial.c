@@ -29,10 +29,10 @@
 #include <linux/serial_reg.h>
 #include <linux/slab.h>
 
-#include <asm/bootinfo.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/serial.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/serial.h>
 #include <linux/serial_8250.h>
 
 #include <msp_prom.h>

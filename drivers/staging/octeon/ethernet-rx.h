@@ -8,7 +8,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/octeon/cvmx-fau.h>
+#include <asm-generic/octeon/cvmx-fau.h>
 
 void cvm_oct_poll_controller(struct net_device *dev);
 void cvm_oct_rx_initialize(void);

@@ -1,5 +1,5 @@
 /*
- * linux/arch/mips/include/asm/perf_event.h
+ * linux/arch/mips/include/asm-generic/perf_event.h
  *
  * Copyright (C) 2010 MIPS Technologies, Inc.
  * Author: Deng-Cheng Zhu

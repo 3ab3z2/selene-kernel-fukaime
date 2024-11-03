@@ -15,10 +15,10 @@
 #include <linux/sched/task.h>
 #include <linux/kmsg_dump.h>
 
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
 #include <as-layout.h>
 #include <arch.h>
 #include <init.h>

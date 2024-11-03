@@ -18,13 +18,13 @@
 #include <linux/seq_file.h>
 #include <generated/utsrelease.h>
 
-#include <asm/machdep.h>
-#include <asm/cputable.h>
-#include <asm/pci-bridge.h>
-#include <asm/i8259.h>
-#include <asm/time.h>
-#include <asm/udbg.h>
-#include <asm/dma.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/time.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/dma.h>
 
 extern void __flush_disable_L1(void);
 

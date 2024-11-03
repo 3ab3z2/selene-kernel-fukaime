@@ -14,9 +14,9 @@
 #include <linux/of_device.h>
 #include <linux/gfp.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/dma.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
 
 #include <scsi/scsi_host.h>
 

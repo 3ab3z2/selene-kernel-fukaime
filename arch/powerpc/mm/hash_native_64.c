@@ -19,17 +19,17 @@
 #include <linux/threads.h>
 #include <linux/smp.h>
 
-#include <asm/machdep.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
-#include <asm/trace.h>
-#include <asm/tlb.h>
-#include <asm/cputable.h>
-#include <asm/udbg.h>
-#include <asm/kexec.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/ppc-opcode.h>
 
 #include <misc/cxl-base.h>
 

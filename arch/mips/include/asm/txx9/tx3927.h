@@ -50,7 +50,7 @@ struct tx3927_dma_reg {
 	volatile unsigned long unused0;
 };
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __BIG_ENDIAN
 #define endian_def_s2(e1, e2)	\

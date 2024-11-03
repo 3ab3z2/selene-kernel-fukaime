@@ -20,7 +20,7 @@
 #include <sound/pcm.h>
 #include <sound/soc.h>
 #include <sound/soc-dapm.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include "../codecs/mc13783.h"
 #include "imx-ssi.h"

@@ -8,15 +8,15 @@
 
 #include <linux/module.h>
 #include <linux/acpi.h>
-#include <asm/io.h>
-#include <asm/delay.h>
-#include <asm/vga.h>
-#include <asm/sn/nodepda.h>
-#include <asm/sn/simulator.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/shub_mmr.h>
-#include <asm/sn/acpi.h>
+#include <asm-generic/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/vga.h>
+#include <asm-generic/sn/nodepda.h>
+#include <asm-generic/sn/simulator.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/shub_mmr.h>
+#include <asm-generic/sn/acpi.h>
 
 #define IS_LEGACY_VGA_IOPORT(p) \
 	(((p) >= 0x3b0 && (p) <= 0x3bb) || ((p) >= 0x3c0 && (p) <= 0x3df))
@@ -63,7 +63,7 @@ EXPORT_SYMBOL(sn_io_addr);
 /**
  * __sn_mmiowb - I/O space memory barrier
  *
- * See arch/ia64/include/asm/io.h and Documentation/driver-api/device-io.rst
+ * See arch/ia64/include/asm-generic/io.h and Documentation/driver-api/device-io.rst
  * for details.
  *
  * On SN2, we wait for the PIO_WRITE_STATUS SHub register to clear.

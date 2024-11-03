@@ -37,7 +37,7 @@
 #include <linux/types.h>
 #include <crypto/sha.h>
 #include <crypto/sha256_base.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 #include <linux/string.h>
 
 asmlinkage void sha256_transform_ssse3(struct sha256_state *state,

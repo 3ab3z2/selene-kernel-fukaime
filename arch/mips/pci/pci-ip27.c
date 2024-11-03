@@ -11,11 +11,11 @@
 #include <linux/export.h>
 #include <linux/pci.h>
 #include <linux/smp.h>
-#include <asm/sn/arch.h>
-#include <asm/pci/bridge.h>
-#include <asm/paccess.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/pci/bridge.h>
+#include <asm-generic/paccess.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/sn0/hub.h>
 
 /*
  * Max #PCI busses we can handle; ie, max #PCI bridges.

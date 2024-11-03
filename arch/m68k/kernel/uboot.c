@@ -23,11 +23,11 @@
 #include <linux/root_dev.h>
 #include <linux/rtc.h>
 
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/machdep.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
 
 /*
  * parse_uboot_commandline

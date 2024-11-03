@@ -29,18 +29,18 @@
 #include <linux/libfdt.h>
 #include <linux/kexec.h>
 
-#include <asm/processor.h>
-#include <asm/reboot.h>
-#include <asm/smp-ops.h>
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/bootinfo.h>
-#include <asm/sections.h>
-#include <asm/time.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/time.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/pci-octeon.h>
-#include <asm/octeon/cvmx-rst-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/pci-octeon.h>
+#include <asm-generic/octeon/cvmx-rst-defs.h>
 
 /*
  * TRUE for devices having registers with little-endian byte

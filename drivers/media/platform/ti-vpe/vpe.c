@@ -1649,7 +1649,7 @@ static int __vpe_try_fmt(struct vpe_ctx *ctx, struct v4l2_format *f,
 		/*
 		 * HACK: using order_base_2() here causes lots of asm output
 		 * errors with smatch, on i386:
-		 * ./arch/x86/include/asm/bitops.h:457:22:
+		 * ./arch/x86/include/asm-generic/bitops.h:457:22:
 		 *		 warning: asm output is not an lvalue
 		 * Perhaps some gcc optimization is doing the wrong thing
 		 * there.

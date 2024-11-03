@@ -20,7 +20,7 @@
 #include <linux/pci.h>
 #endif
 
-#include <asm/iommu.h>
+#include <asm-generic/iommu.h>
 
 #include "iommu_common.h"
 #include "kernel.h"

@@ -16,7 +16,7 @@
 #include <linux/seq_file.h>
 #include <linux/clkdev.h>
 
-#include <asm/clocks.h>
+#include <asm-generic/clocks.h>
 
 #define CGU0_CTL_DF (1 << 0)
 

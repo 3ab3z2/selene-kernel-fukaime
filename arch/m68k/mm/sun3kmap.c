@@ -14,10 +14,10 @@
 #include <linux/mm.h>
 #include <linux/vmalloc.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/sun3mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sun3mmu.h>
 
 #undef SUN3_KMAP_DEBUG
 

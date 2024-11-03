@@ -10,7 +10,7 @@
  * option) any later version.
  */
 #include <linux/errno.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 #include <machine.h>

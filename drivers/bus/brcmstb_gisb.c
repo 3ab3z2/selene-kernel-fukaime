@@ -29,7 +29,7 @@
 #include <linux/notifier.h>
 
 #ifdef CONFIG_MIPS
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 #endif
 
 #define  ARB_ERR_CAP_CLEAR		(1 << 0)

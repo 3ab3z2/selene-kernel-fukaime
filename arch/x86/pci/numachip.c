@@ -14,7 +14,7 @@
  */
 
 #include <linux/pci.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/pci_x86.h>
 
 static u8 limit __read_mostly;
 

@@ -29,8 +29,8 @@
 #include <linux/interrupt.h>
 #include <linux/delay.h>
 
-#include <asm/mpc52xx.h>
-#include <asm/mpc85xx.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/mpc85xx.h>
 #include <sysdev/fsl_soc.h>
 
 #define DRV_NAME "mpc-i2c"

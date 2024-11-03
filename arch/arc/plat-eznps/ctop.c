@@ -15,7 +15,7 @@
  */
 
 #include <linux/sched.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <plat/ctop.h>
 
 void dp_save_restore(struct task_struct *prev, struct task_struct *next)

@@ -108,7 +108,7 @@ static struct fb_videomode gx_modedb[] = {
 };
 
 #ifdef CONFIG_OLPC
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 
 static struct fb_videomode gx_dcon_modedb[] = {
 	/* The only mode the DCON has is 1200x900 */

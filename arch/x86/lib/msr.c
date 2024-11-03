@@ -2,9 +2,9 @@
 #include <linux/export.h>
 #include <linux/percpu.h>
 #include <linux/preempt.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 #define CREATE_TRACE_POINTS
-#include <asm/msr-trace.h>
+#include <asm-generic/msr-trace.h>
 
 struct msr *msrs_alloc(void)
 {

@@ -25,12 +25,12 @@
 #include <linux/mc146818rtc.h>
 #include <linux/bcd.h>
 
-#include <asm/sections.h>
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/machdep.h>
-#include <asm/time.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/time.h>
 
 #include "maple.h"
 

@@ -29,7 +29,7 @@
 #include <linux/of_dma.h>
 #include <linux/list.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "dmaengine.h"
 

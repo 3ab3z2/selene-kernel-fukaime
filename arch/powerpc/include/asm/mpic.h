@@ -4,8 +4,8 @@
 #ifdef __KERNEL__
 
 #include <linux/irq.h>
-#include <asm/dcr.h>
-#include <asm/msi_bitmap.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/msi_bitmap.h>
 
 /*
  * Global registers

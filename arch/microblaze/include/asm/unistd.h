@@ -9,7 +9,7 @@
 #ifndef _ASM_MICROBLAZE_UNISTD_H
 #define _ASM_MICROBLAZE_UNISTD_H
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #ifndef __ASSEMBLY__
 

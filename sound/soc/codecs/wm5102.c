@@ -28,7 +28,7 @@
 
 #include <linux/mfd/arizona/core.h>
 #include <linux/mfd/arizona/registers.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "arizona.h"
 #include "wm5102.h"

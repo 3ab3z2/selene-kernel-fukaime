@@ -15,8 +15,8 @@
 #include <linux/sched/debug.h>
 #include <linux/debug_locks.h>
 
-#include <asm/exceptions.h>
-#include <asm/unwind.h>
+#include <asm-generic/exceptions.h>
+#include <asm-generic/unwind.h>
 
 void trap_init(void)
 {

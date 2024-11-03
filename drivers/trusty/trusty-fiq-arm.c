@@ -12,7 +12,7 @@
  *
  */
 
-#include <asm/fiq_glue.h>
+#include <asm-generic/fiq_glue.h>
 #include <linux/platform_device.h>
 #include <linux/trusty/smcall.h>
 #include <linux/trusty/trusty.h>

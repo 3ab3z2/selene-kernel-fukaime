@@ -24,10 +24,10 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <linux/gpio.h>
 #include <linux/io.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #define pr_devinit(fmt, args...) \
 		({ static const char __fmt[] = fmt; printk(__fmt, ## args); })

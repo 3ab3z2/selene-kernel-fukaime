@@ -17,8 +17,8 @@
 #include <linux/init.h>
 #include <linux/platform_device.h>
 
-#include <asm/m32r.h>
-#include <asm/io.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/io.h>
 
 /*
  * OPSP Interrupt Control Unit (Level 1)
@@ -399,7 +399,7 @@ static struct platform_device smc91x_device = {
 #if defined(CONFIG_FB_S1D13XXX)
 
 #include <video/s1d13xxxfb.h>
-#include <asm/s1d13806.h>
+#include <asm-generic/s1d13806.h>
 
 static struct s1d13xxxfb_pdata s1d13xxxfb_data = {
 	.initregs		= s1d13xxxfb_initregs,

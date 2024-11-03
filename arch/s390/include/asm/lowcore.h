@@ -10,9 +10,9 @@
 #define _ASM_S390_LOWCORE_H
 
 #include <linux/types.h>
-#include <asm/ptrace.h>
-#include <asm/cpu.h>
-#include <asm/types.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/types.h>
 
 #define LC_ORDER 1
 #define LC_PAGES 2

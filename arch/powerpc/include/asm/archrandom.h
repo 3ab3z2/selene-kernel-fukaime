@@ -4,7 +4,7 @@
 
 #ifdef CONFIG_ARCH_RANDOM
 
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 static inline bool arch_get_random_long(unsigned long *v)
 {

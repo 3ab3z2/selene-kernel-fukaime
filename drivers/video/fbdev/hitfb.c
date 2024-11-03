@@ -21,11 +21,11 @@
 #include <linux/platform_device.h>
 #include <linux/fb.h>
 
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/hd64461.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hd64461.h>
 #include <cpu/dac.h>
 
 #define	WIDTH 640

@@ -6,7 +6,7 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #define EM_PARISC 15
 

@@ -7,7 +7,7 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>, Hewlett-Packard Co
  */
 
-#include <asm/intrinsics.h>
+#include <asm-generic/intrinsics.h>
 
 /*
  * In kernel mode, thread pointer (r13) is used to point to the current task

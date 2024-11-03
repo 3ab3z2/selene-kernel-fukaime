@@ -12,7 +12,7 @@
 #ifndef _ASM_PROCESSOR_H
 #define _ASM_PROCESSOR_H
 
-#include <asm/mem-layout.h>
+#include <asm-generic/mem-layout.h>
 
 #ifndef __ASSEMBLY__
 /*
@@ -23,13 +23,13 @@
 
 #include <linux/compiler.h>
 #include <linux/linkage.h>
-#include <asm/sections.h>
-#include <asm/segment.h>
-#include <asm/fpu.h>
-#include <asm/registers.h>
-#include <asm/ptrace.h>
-#include <asm/current.h>
-#include <asm/cache.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/current.h>
+#include <asm-generic/cache.h>
 
 /* Forward declaration, a strange C thing */
 struct task_struct;

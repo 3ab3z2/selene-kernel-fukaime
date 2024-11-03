@@ -14,9 +14,9 @@
 #include <linux/init.h>
 #include <linux/ioctl.h>
 #include <linux/fs.h>
-#include <asm/compat.h>
-#include <asm/sclp_ctl.h>
-#include <asm/sclp.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/sclp_ctl.h>
+#include <asm-generic/sclp.h>
 
 #include "sclp.h"
 

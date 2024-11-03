@@ -23,7 +23,7 @@
 #include "mdfld_dsi_output.h"
 #include "tc35876x-dsi-lvds.h"
 
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 #ifdef CONFIG_BACKLIGHT_CLASS_DEVICE
 

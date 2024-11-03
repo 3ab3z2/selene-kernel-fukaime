@@ -7,7 +7,7 @@
 #include <linux/kernel.h>
 #include <linux/slab.h>
 #include <linux/export.h>
-#include <asm/qdio.h>
+#include <asm-generic/qdio.h>
 
 #include "cio.h"
 #include "css.h"

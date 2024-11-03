@@ -41,7 +41,7 @@
 
 #include <linux/libcfs/libcfs.h>
 #include <linux/module.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <obd.h>
 #include <obd_class.h>

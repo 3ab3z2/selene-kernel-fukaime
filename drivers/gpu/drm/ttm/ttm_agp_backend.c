@@ -39,7 +39,7 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/io.h>
-#include <asm/agp.h>
+#include <asm-generic/agp.h>
 
 struct ttm_agp_backend {
 	struct ttm_tt ttm;

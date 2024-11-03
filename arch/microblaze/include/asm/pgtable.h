@@ -11,7 +11,7 @@
 #ifndef _ASM_MICROBLAZE_PGTABLE_H
 #define _ASM_MICROBLAZE_PGTABLE_H
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #ifndef __ASSEMBLY__
 extern int mem_init_done;
@@ -68,9 +68,9 @@ extern int mem_init_done;
 
 #include <linux/sched.h>
 #include <linux/threads.h>
-#include <asm/processor.h>		/* For TASK_SIZE */
-#include <asm/mmu.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>		/* For TASK_SIZE */
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
 
 #define FIRST_USER_ADDRESS	0UL
 

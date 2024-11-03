@@ -39,7 +39,7 @@
 #include <linux/firmware.h>
 #endif
 #include "include/gt1x_tpd_common.h"
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 #ifdef CONFIG_GTP_REQUEST_FW_UPDATE
 #define GT1151_FW_SIZE 5000

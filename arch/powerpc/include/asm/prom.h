@@ -16,7 +16,7 @@
  * 2 of the License, or (at your option) any later version.
  */
 #include <linux/types.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/atomic.h>
 
 /* These includes should be removed once implicit includes are cleaned up. */

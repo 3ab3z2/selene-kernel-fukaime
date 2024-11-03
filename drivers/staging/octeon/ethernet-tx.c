@@ -25,20 +25,20 @@
 #include <linux/atomic.h>
 #include <net/sch_generic.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "ethernet-defines.h"
 #include "octeon-ethernet.h"
 #include "ethernet-tx.h"
 #include "ethernet-util.h"
 
-#include <asm/octeon/cvmx-wqe.h>
-#include <asm/octeon/cvmx-fau.h>
-#include <asm/octeon/cvmx-pip.h>
-#include <asm/octeon/cvmx-pko.h>
-#include <asm/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-wqe.h>
+#include <asm-generic/octeon/cvmx-fau.h>
+#include <asm-generic/octeon/cvmx-pip.h>
+#include <asm-generic/octeon/cvmx-pko.h>
+#include <asm-generic/octeon/cvmx-helper.h>
 
-#include <asm/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
 
 #define CVM_OCT_SKB_CB(skb)	((u64 *)((skb)->cb))
 

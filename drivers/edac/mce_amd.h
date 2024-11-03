@@ -4,7 +4,7 @@
 
 #include <linux/notifier.h>
 
-#include <asm/mce.h>
+#include <asm-generic/mce.h>
 
 #define EC(x)				((x) & 0xffff)
 #define XEC(x, mask)			(((x) >> 16) & mask)

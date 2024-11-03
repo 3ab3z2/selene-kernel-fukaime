@@ -2,7 +2,7 @@
 #ifndef _PTRACE32_H
 #define _PTRACE32_H
 
-#include <asm/ptrace.h>    /* needed for NUM_CR_WORDS */
+#include <asm-generic/ptrace.h>    /* needed for NUM_CR_WORDS */
 #include "compat_linux.h"  /* needed for psw_compat_t */
 
 struct compat_per_struct_kernel {

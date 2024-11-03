@@ -6,7 +6,7 @@
  * as published by the Free Software Foundation; either version
  * 2 of the License, or (at your option) any later version.
  */
-#include <asm/ppc-opcode.h>
+#include <asm-generic/ppc-opcode.h>
 
 #define CR0_SHIFT	28
 #define CR0_MASK	0xF

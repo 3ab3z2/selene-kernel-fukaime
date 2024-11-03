@@ -35,7 +35,7 @@
 #include <linux/of_gpio.h>
 #include <linux/of_irq.h>
 #include <linux/platform_data/nxp-nci.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <net/nfc/nfc.h>
 

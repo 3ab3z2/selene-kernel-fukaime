@@ -35,7 +35,7 @@
 
 /* bootinfo.h defines the machine type values, needed when checking */
 /* whether are really running on a maxine, KM                       */
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 static struct fb_info fb_info;
 

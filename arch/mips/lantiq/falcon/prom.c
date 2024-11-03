@@ -8,9 +8,9 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/cacheflush.h>
-#include <asm/traps.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/io.h>
 
 #include <lantiq_soc.h>
 

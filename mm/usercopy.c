@@ -21,7 +21,7 @@
 #include <linux/sched/task.h>
 #include <linux/sched/task_stack.h>
 #include <linux/thread_info.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 /*
  * Checks if a given pointer and length is contained by the current

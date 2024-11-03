@@ -16,14 +16,14 @@
 #include <linux/initrd.h>
 
 #include <linux/bug.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 #include <linux/delay.h>
 #include <linux/io.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/param.h>
-#include <asm/pvr.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/pvr.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
 
 static int show_cpuinfo(struct seq_file *m, void *v)
 {

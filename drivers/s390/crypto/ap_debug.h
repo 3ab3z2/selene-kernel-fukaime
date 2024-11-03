@@ -6,7 +6,7 @@
 #ifndef AP_DEBUG_H
 #define AP_DEBUG_H
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 #define DBF_ERR		3	/* error conditions   */
 #define DBF_WARN	4	/* warning conditions */

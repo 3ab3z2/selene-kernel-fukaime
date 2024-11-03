@@ -27,7 +27,7 @@
 #ifndef __ASM_TXX9_RBTX4927_H
 #define __ASM_TXX9_RBTX4927_H
 
-#include <asm/txx9/tx4927.h>
+#include <asm-generic/txx9/tx4927.h>
 
 #define RBTX4927_PCIMEM		0x08000000
 #define RBTX4927_PCIMEM_SIZE	0x08000000

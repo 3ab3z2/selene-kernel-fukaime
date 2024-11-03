@@ -18,7 +18,7 @@
  * option) any later version.
  */
 #include <linux/export.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <loongson.h>
 #include <boot_param.h>
 #include <workarounds.h>

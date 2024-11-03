@@ -30,9 +30,9 @@
 #include <linux/smp.h>
 #include <linux/init.h>
 #include <linux/vmalloc.h>
-#include <asm/eeh.h>       /* for eeh_add_device() */
-#include <asm/rtas.h>		/* rtas_call */
-#include <asm/pci-bridge.h>	/* for pci_controller */
+#include <asm-generic/eeh.h>       /* for eeh_add_device() */
+#include <asm-generic/rtas.h>		/* rtas_call */
+#include <asm-generic/pci-bridge.h>	/* for pci_controller */
 #include "../pci.h"		/* for pci_add_new_bus */
 				/* and pci_do_scan_bus */
 #include "rpaphp.h"

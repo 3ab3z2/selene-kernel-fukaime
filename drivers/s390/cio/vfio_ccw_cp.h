@@ -11,8 +11,8 @@
 #ifndef _VFIO_CCW_CP_H_
 #define _VFIO_CCW_CP_H_
 
-#include <asm/cio.h>
-#include <asm/scsw.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/scsw.h>
 
 #include "orb.h"
 

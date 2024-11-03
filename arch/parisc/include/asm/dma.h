@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* asm/dma.h: Defines for using and allocating dma channels.
+/* asm-generic/dma.h: Defines for using and allocating dma channels.
  * Written by Hennus Bergman, 1992.
  * High DMA channel support & info by Hannu Savolainen
  * and John Boyd, Nov. 1992.
@@ -9,7 +9,7 @@
 #ifndef _ASM_DMA_H
 #define _ASM_DMA_H
 
-#include <asm/io.h>		/* need byte IO */
+#include <asm-generic/io.h>		/* need byte IO */
 
 #define dma_outb	outb
 #define dma_inb		inb

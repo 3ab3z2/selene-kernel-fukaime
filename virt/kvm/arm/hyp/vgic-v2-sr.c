@@ -19,8 +19,8 @@
 #include <linux/irqchip/arm-gic.h>
 #include <linux/kvm_host.h>
 
-#include <asm/kvm_emulate.h>
-#include <asm/kvm_hyp.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/kvm_hyp.h>
 
 static void __hyp_text save_elrsr(struct kvm_vcpu *vcpu, void __iomem *base)
 {

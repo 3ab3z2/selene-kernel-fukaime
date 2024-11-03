@@ -24,7 +24,7 @@
 #include <linux/pci-ats.h>
 #include <linux/dmar.h>
 #include <linux/interrupt.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 static irqreturn_t prq_event_thread(int irq, void *d);
 

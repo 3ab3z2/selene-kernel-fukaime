@@ -14,10 +14,10 @@
 #include <linux/perf_event.h>
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
-#include <asm/pmc.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/ptrace.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/ptrace.h>
 
 #define PERF_8xx_ID_CPU_CYCLES		1
 #define PERF_8xx_ID_HW_INSTRUCTIONS	2

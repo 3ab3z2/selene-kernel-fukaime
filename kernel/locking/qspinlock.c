@@ -29,8 +29,8 @@
 #include <linux/hardirq.h>
 #include <linux/mutex.h>
 #include <linux/prefetch.h>
-#include <asm/byteorder.h>
-#include <asm/qspinlock.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/qspinlock.h>
 
 /*
  * The basic principle of a queue-based spinlock can best be understood

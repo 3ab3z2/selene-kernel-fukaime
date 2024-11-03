@@ -19,8 +19,8 @@
 #include <linux/cryptohash.h>
 #include <linux/types.h>
 #include <crypto/sha.h>
-#include <asm/byteorder.h>
-#include <asm/switch_to.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/switch_to.h>
 #include <linux/hardirq.h>
 
 /*

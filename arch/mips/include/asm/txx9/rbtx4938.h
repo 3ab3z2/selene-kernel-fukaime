@@ -11,9 +11,9 @@
 #ifndef __ASM_TXX9_RBTX4938_H
 #define __ASM_TXX9_RBTX4938_H
 
-#include <asm/addrspace.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/tx4938.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/tx4938.h>
 
 /* Address map */
 #define RBTX4938_FPGA_REG_ADDR	(IO_BASE + TXX9_CE(2) + 0x00000000)

@@ -49,10 +49,10 @@
 #include <linux/scatterlist.h>
 #include <linux/bitops.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 int ide_end_rq(ide_drive_t *drive, struct request *rq, blk_status_t error,
 	       unsigned int nr_bytes)

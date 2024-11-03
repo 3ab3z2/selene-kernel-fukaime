@@ -34,13 +34,13 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/errno.h>
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/traps.h>
-#include <asm/unistd.h>
-#include <asm/asm-offsets.h>
-#include <asm/entry.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/entry.h>
 
 .globl system_call, buserr, trap, resume
 .globl sys_call_table

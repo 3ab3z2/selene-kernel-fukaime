@@ -14,7 +14,7 @@
 
 #include <linux/efi.h>
 #include <linux/sort.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 #include "efistub.h"
 

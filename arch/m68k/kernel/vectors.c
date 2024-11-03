@@ -23,9 +23,9 @@
 #include <linux/init.h>
 #include <linux/kallsyms.h>
 
-#include <asm/setup.h>
-#include <asm/fpu.h>
-#include <asm/traps.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/traps.h>
 
 /* assembler routines */
 asmlinkage void system_call(void);

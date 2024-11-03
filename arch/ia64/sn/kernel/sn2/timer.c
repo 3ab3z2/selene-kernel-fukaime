@@ -14,12 +14,12 @@
 #include <linux/interrupt.h>
 #include <linux/clocksource.h>
 
-#include <asm/hw_irq.h>
-#include <asm/timex.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/timex.h>
 
-#include <asm/sn/leds.h>
-#include <asm/sn/shub_mmr.h>
-#include <asm/sn/clksupport.h>
+#include <asm-generic/sn/leds.h>
+#include <asm-generic/sn/shub_mmr.h>
+#include <asm-generic/sn/clksupport.h>
 
 extern unsigned long sn_rtc_cycles_per_second;
 

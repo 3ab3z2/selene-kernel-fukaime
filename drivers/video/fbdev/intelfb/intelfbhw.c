@@ -33,7 +33,7 @@
 #include <linux/pagemap.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "intelfb.h"
 #include "intelfbhw.h"

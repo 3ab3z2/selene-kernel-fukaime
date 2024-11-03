@@ -12,11 +12,11 @@
 #include <linux/memblock.h>
 #include <linux/export.h>
 #include <linux/pci.h>
-#include <asm/vio.h>
-#include <asm/bug.h>
-#include <asm/machdep.h>
-#include <asm/swiotlb.h>
-#include <asm/iommu.h>
+#include <asm-generic/vio.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/iommu.h>
 
 /*
  * Generic direct DMA implementation

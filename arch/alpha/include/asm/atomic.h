@@ -3,8 +3,8 @@
 #define _ALPHA_ATOMIC_H
 
 #include <linux/types.h>
-#include <asm/barrier.h>
-#include <asm/cmpxchg.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/cmpxchg.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

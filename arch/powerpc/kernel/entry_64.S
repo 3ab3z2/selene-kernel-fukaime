@@ -20,29 +20,29 @@
 
 #include <linux/errno.h>
 #include <linux/err.h>
-#include <asm/unistd.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/thread_info.h>
-#include <asm/code-patching-asm.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cputable.h>
-#include <asm/firmware.h>
-#include <asm/bug.h>
-#include <asm/ptrace.h>
-#include <asm/irqflags.h>
-#include <asm/hw_irq.h>
-#include <asm/context_tracking.h>
-#include <asm/tm.h>
-#include <asm/ppc-opcode.h>
-#include <asm/barrier.h>
-#include <asm/export.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/code-patching-asm.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/context_tracking.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/export.h>
 #ifdef CONFIG_PPC_BOOK3S
-#include <asm/exception-64s.h>
+#include <asm-generic/exception-64s.h>
 #else
-#include <asm/exception-64e.h>
+#include <asm-generic/exception-64e.h>
 #endif
 
 /*

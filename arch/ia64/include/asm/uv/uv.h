@@ -2,7 +2,7 @@
 #ifndef _ASM_IA64_UV_UV_H
 #define _ASM_IA64_UV_UV_H
 
-#include <asm/sn/simulator.h>
+#include <asm-generic/sn/simulator.h>
 
 static inline int is_uv_system(void)
 {

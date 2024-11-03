@@ -11,7 +11,7 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 #if XCHAL_HAVE_S32C1I
 

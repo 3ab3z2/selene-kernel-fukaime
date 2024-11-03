@@ -1,7 +1,7 @@
 ;;; SPDX-License-Identifier: GPL-2.0
 ;;; strncpy.S
 
-#include <asm/linkage.h>
+#include <asm-generic/linkage.h>
 
 	.text
 .global strncpy_from_user

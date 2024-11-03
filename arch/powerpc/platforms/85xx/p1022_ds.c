@@ -19,14 +19,14 @@
 #include <linux/fsl/guts.h>
 #include <linux/pci.h>
 #include <linux/of_platform.h>
-#include <asm/div64.h>
-#include <asm/mpic.h>
-#include <asm/swiotlb.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/swiotlb.h>
 
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
-#include <asm/udbg.h>
-#include <asm/fsl_lbc.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/fsl_lbc.h>
 #include "smp.h"
 
 #include "mpc85xx.h"

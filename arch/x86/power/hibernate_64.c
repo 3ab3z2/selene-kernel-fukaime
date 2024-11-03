@@ -17,15 +17,15 @@
 
 #include <crypto/hash.h>
 
-#include <asm/e820/api.h>
-#include <asm/init.h>
-#include <asm/proto.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mtrr.h>
-#include <asm/sections.h>
-#include <asm/suspend.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/init.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mtrr.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/suspend.h>
+#include <asm-generic/tlbflush.h>
 
 /* Defined in hibernate_asm_64.S */
 extern asmlinkage __visible int restore_image(void);

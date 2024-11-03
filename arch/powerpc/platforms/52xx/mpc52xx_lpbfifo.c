@@ -15,10 +15,10 @@
 #include <linux/of_platform.h>
 #include <linux/spinlock.h>
 #include <linux/module.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/mpc52xx.h>
-#include <asm/time.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/time.h>
 
 #include <linux/fsl/bestcomm/bestcomm.h>
 #include <linux/fsl/bestcomm/bestcomm_priv.h>

@@ -7,5 +7,5 @@
  */
 
 #define MACHVEC_PLATFORM_NAME	uv
-#define MACHVEC_PLATFORM_HEADER	<asm/machvec_uv.h>
-#include <asm/machvec_init.h>
+#define MACHVEC_PLATFORM_HEADER	<asm-generic/machvec_uv.h>
+#include <asm-generic/machvec_init.h>

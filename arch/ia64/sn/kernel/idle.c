@@ -6,7 +6,7 @@
  * Copyright (c) 2001-2004 Silicon Graphics, Inc.  All rights reserved.
  */
 
-#include <asm/sn/leds.h>
+#include <asm-generic/sn/leds.h>
 
 void snidle(int state)
 {

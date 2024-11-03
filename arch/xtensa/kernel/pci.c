@@ -26,8 +26,8 @@
 #include <linux/errno.h>
 #include <linux/bootmem.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/platform.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/platform.h>
 
 #undef DEBUG
 

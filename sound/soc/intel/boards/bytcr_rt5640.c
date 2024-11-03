@@ -25,8 +25,8 @@
 #include <linux/device.h>
 #include <linux/dmi.h>
 #include <linux/slab.h>
-#include <asm/cpu_device_id.h>
-#include <asm/platform_sst_audio.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/platform_sst_audio.h>
 #include <linux/clk.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

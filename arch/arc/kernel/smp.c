@@ -26,9 +26,9 @@
 #include <linux/export.h>
 #include <linux/of_fdt.h>
 
-#include <asm/processor.h>
-#include <asm/setup.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/mach_desc.h>
 
 #ifndef CONFIG_ARC_HAS_LLSC
 arch_spinlock_t smp_atomic_ops_lock = __ARCH_SPIN_LOCK_UNLOCKED;

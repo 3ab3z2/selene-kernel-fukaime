@@ -21,7 +21,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/vr41xx/tb0219.h>
+#include <asm-generic/vr41xx/tb0219.h>
 
 int pcibios_map_irq(const struct pci_dev *dev, u8 slot, u8 pin)
 {

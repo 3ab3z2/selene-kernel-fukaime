@@ -29,7 +29,7 @@
 #include <linux/skbuff.h>
 #include <linux/string.h>
 #include <linux/module.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/wrapper.h>

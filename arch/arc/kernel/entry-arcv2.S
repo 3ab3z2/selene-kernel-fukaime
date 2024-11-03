@@ -9,10 +9,10 @@
  */
 
 #include <linux/linkage.h>   /* ARC_{EXTRY,EXIT} */
-#include <asm/entry.h>       /* SAVE_ALL_{INT1,INT2,TRAP...} */
-#include <asm/errno.h>
-#include <asm/arcregs.h>
-#include <asm/irqflags.h>
+#include <asm-generic/entry.h>       /* SAVE_ALL_{INT1,INT2,TRAP...} */
+#include <asm-generic/errno.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/irqflags.h>
 
 ; A maximum number of supported interrupts in the core interrupt controller.
 ; This number is not equal to the maximum interrupt number (256) because

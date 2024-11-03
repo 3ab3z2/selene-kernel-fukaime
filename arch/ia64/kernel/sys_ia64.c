@@ -20,7 +20,7 @@
 #include <linux/highuid.h>
 #include <linux/hugetlb.h>
 
-#include <asm/shmparam.h>
+#include <asm-generic/shmparam.h>
 #include <linux/uaccess.h>
 
 unsigned long

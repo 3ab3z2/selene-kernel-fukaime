@@ -7,8 +7,8 @@
  * Compatibility with board caches, Ulf Carlsson
  */
 #include <linux/kernel.h>
-#include <asm/sgialib.h>
-#include <asm/bcache.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/bcache.h>
 
 /*
  * IP22 boardcache is not compatible with board caches.	 Thus we disable it

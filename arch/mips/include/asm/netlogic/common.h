@@ -53,8 +53,8 @@
 #ifndef __ASSEMBLY__
 #include <linux/cpumask.h>
 #include <linux/spinlock.h>
-#include <asm/irq.h>
-#include <asm/mach-netlogic/multi-node.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-netlogic/multi-node.h>
 
 struct irq_desc;
 void nlm_smp_function_ipi_handler(struct irq_desc *desc);

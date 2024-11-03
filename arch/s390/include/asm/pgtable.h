@@ -17,8 +17,8 @@
 #include <linux/page-flags.h>
 #include <linux/radix-tree.h>
 #include <linux/atomic.h>
-#include <asm/bug.h>
-#include <asm/page.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/page.h>
 
 extern pgd_t swapper_pg_dir[];
 extern void paging_init(void);

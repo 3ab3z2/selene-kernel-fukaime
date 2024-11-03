@@ -34,7 +34,7 @@
 #include <linux/reboot.h>
 #include <linux/delay.h>
 #ifdef CONFIG_X86
-#include <asm/mpspec.h>
+#include <asm-generic/mpspec.h>
 #endif
 #include <linux/acpi_iort.h>
 #include <linux/pci.h>

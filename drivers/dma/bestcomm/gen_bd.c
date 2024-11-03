@@ -15,11 +15,11 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/types.h>
-#include <asm/errno.h>
-#include <asm/io.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/io.h>
 
-#include <asm/mpc52xx.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #include <linux/fsl/bestcomm/bestcomm.h>
 #include <linux/fsl/bestcomm/bestcomm_priv.h>

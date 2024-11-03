@@ -14,12 +14,12 @@
 #include <linux/cpu.h>
 #include <linux/notifier.h>
 
-#include <asm/paca.h>
-#include <asm/reg.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/runlatch.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/runlatch.h>
+#include <asm-generic/plpar_wrappers.h>
 
 struct cpuidle_driver pseries_idle_driver = {
 	.name             = "pseries_idle",

@@ -45,12 +45,12 @@
 #include <linux/extable.h>
 #include <linux/tracehook.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/traps.h>
-#include <asm/ucontext.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/cacheflush.h>
 
 #ifdef CONFIG_MMU
 

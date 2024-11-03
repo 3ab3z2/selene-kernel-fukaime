@@ -13,10 +13,10 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 #include <linux/nodemask.h>
-#include <asm/io.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/addrs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/addrs.h>
 
 MODULE_DESCRIPTION("PROM version reporting for /proc");
 MODULE_AUTHOR("Chad Talbott");

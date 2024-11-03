@@ -23,14 +23,14 @@
 #include <linux/security.h>
 #include <linux/bootmem.h>
 #include <linux/compat.h>
-#include <asm/asm-offsets.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/sections.h>
-#include <asm/vdso.h>
-#include <asm/facility.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/facility.h>
 
 #ifdef CONFIG_COMPAT
 extern char vdso32_start, vdso32_end;

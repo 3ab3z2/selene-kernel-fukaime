@@ -27,8 +27,8 @@
 #include <linux/in.h>
 #include <linux/ctype.h>
 #include <linux/fs.h>
-#include <asm/div64.h>
-#include <asm/byteorder.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/byteorder.h>
 #include <linux/inet.h>
 #include "cifsfs.h"
 #include "cifspdu.h"

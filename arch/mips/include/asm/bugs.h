@@ -8,8 +8,8 @@
 #include <linux/bug.h>
 #include <linux/smp.h>
 
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
 
 extern int daddiu_bug;
 

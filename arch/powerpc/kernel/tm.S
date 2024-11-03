@@ -6,12 +6,12 @@
  * Copyright 2012 Matt Evans & Michael Neuling, IBM Corporation.
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/ppc_asm.h>
-#include <asm/ppc-opcode.h>
-#include <asm/ptrace.h>
-#include <asm/reg.h>
-#include <asm/bug.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/bug.h>
 
 #ifdef CONFIG_VSX
 /* See fpu.S, this is borrowed from there */

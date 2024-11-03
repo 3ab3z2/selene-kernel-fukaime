@@ -41,8 +41,8 @@
 #include <linux/delay.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/vga.h>
+#include <asm-generic/io.h>
+#include <asm-generic/vga.h>
 
 static DEFINE_SPINLOCK(mda_lock);
 

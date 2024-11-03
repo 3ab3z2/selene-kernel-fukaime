@@ -4,8 +4,8 @@
 
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 #if defined(CONFIG_METAG_ATOMICITY_IRQSOFF)
 /* The simple UP case. */
@@ -13,9 +13,9 @@
 #else
 
 #if defined(CONFIG_METAG_ATOMICITY_LOCK1)
-#include <asm/atomic_lock1.h>
+#include <asm-generic/atomic_lock1.h>
 #else
-#include <asm/atomic_lnkget.h>
+#include <asm-generic/atomic_lnkget.h>
 #endif
 
 #define atomic_add_negative(a, v)       (atomic_add_return((a), (v)) < 0)

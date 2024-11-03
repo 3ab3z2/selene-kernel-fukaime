@@ -11,7 +11,7 @@
 #include <linux/compiler.h>
 #include <linux/string.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #define ARCH_HAS_SORT_EXTABLE
 #define ARCH_HAS_SEARCH_EXTABLE

@@ -12,19 +12,19 @@
 #ifdef __KERNEL__
 
 #include <linux/stringify.h>
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 
 /* Pickup Book E specific registers. */
 #if defined(CONFIG_BOOKE) || defined(CONFIG_40x)
-#include <asm/reg_booke.h>
+#include <asm-generic/reg_booke.h>
 #endif /* CONFIG_BOOKE || CONFIG_40x */
 
 #ifdef CONFIG_FSL_EMB_PERFMON
-#include <asm/reg_fsl_emb.h>
+#include <asm-generic/reg_fsl_emb.h>
 #endif
 
 #ifdef CONFIG_PPC_8xx
-#include <asm/reg_8xx.h>
+#include <asm-generic/reg_8xx.h>
 #endif /* CONFIG_PPC_8xx */
 
 #define MSR_SF_LG	63              /* Enable 64 bit mode */

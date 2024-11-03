@@ -14,9 +14,9 @@
 #include <linux/init.h>
 #include <linux/spinlock.h>
 #include <linux/uaccess.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/rtas.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
 #include "chrp.h"
 
 static unsigned int nvram_size;

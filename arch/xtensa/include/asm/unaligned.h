@@ -10,7 +10,7 @@
 #ifndef _ASM_XTENSA_UNALIGNED_H
 #define _ASM_XTENSA_UNALIGNED_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __LITTLE_ENDIAN
 # include <linux/unaligned/le_struct.h>

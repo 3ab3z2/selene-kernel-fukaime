@@ -12,8 +12,8 @@
 #include <linux/thread_info.h>
 #include <linux/kbuild.h>
 #include <linux/ptrace.h>
-#include <asm/hardirq.h>
-#include <asm/page.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/page.h>
 
 int main(void)
 {

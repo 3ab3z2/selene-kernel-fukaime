@@ -17,7 +17,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 
 struct crypto_fpu_ctx {
 	struct crypto_skcipher *child;

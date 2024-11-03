@@ -39,9 +39,9 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/spi_bitbang.h>
 
-#include <asm/io.h>
-#include <asm/dcr.h>
-#include <asm/dcr-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-regs.h>
 
 /* bits in mode register - bit 0 is MSb */
 

@@ -11,7 +11,7 @@
 #ifndef __ASM_DEC_MACHTYPE_H
 #define __ASM_DEC_MACHTYPE_H
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #define TURBOCHANNEL	(mips_machtype == MACH_DS5000_200 || \
 			 mips_machtype == MACH_DS5000_1XX || \

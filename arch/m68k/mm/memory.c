@@ -14,12 +14,12 @@
 #include <linux/pagemap.h>
 #include <linux/gfp.h>
 
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
 
 
 /* ++andreas: {get,free}_pointer_table rewritten to use unused fields from

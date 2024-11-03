@@ -11,7 +11,7 @@
 #include <linux/msi.h>
 #include <linux/pci.h>
 
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 int arch_setup_msi_irqs(struct pci_dev *dev, int nvec, int type)
 {

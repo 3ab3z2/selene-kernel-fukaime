@@ -13,7 +13,7 @@
 #include <linux/list.h>
 #include <linux/list_sort.h>
 #include <linux/slab.h>
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 
 #include "toptree.h"
 

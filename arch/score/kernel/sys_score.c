@@ -31,7 +31,7 @@
 #include <linux/slab.h>
 #include <linux/unistd.h>
 #include <linux/syscalls.h>
-#include <asm/syscalls.h>
+#include <asm-generic/syscalls.h>
 
 asmlinkage long 
 sys_mmap2(unsigned long addr, unsigned long len, unsigned long prot,

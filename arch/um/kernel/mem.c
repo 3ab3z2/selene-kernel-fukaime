@@ -10,8 +10,8 @@
 #include <linux/mm.h>
 #include <linux/swap.h>
 #include <linux/slab.h>
-#include <asm/fixmap.h>
-#include <asm/page.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/page.h>
 #include <as-layout.h>
 #include <init.h>
 #include <kern.h>

@@ -12,8 +12,8 @@
 #include <linux/init.h>
 #include <linux/pm.h>
 
-#include <asm/idle.h>
-#include <asm/reboot.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
 
 #include <loongson.h>
 #include <boot_param.h>

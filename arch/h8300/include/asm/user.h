@@ -2,7 +2,7 @@
 #ifndef _H8300_USER_H
 #define _H8300_USER_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /* Core file format: The core file is written in such a way that gdb
    can understand it and provide useful information to the user (under

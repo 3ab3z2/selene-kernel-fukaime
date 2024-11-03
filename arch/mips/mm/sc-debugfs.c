@@ -8,8 +8,8 @@
  * option) any later version.
  */
 
-#include <asm/bcache.h>
-#include <asm/debug.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/debug.h>
 #include <linux/uaccess.h>
 #include <linux/debugfs.h>
 #include <linux/init.h>

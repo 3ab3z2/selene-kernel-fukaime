@@ -9,7 +9,7 @@
 
 #ifdef ARCH_HAS_USABLE_BUILTIN_POPCOUNT
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 static inline unsigned int __arch_hweight32(unsigned int w)
 {

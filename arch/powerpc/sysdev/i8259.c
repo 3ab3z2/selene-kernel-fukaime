@@ -12,9 +12,9 @@
 #include <linux/interrupt.h>
 #include <linux/kernel.h>
 #include <linux/delay.h>
-#include <asm/io.h>
-#include <asm/i8259.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/prom.h>
 
 static volatile void __iomem *pci_intack; /* RO, gives us the irq vector */
 

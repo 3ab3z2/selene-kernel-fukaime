@@ -16,11 +16,11 @@
 #include <asm-generic/5level-fixup.h>
 #include <linux/compiler.h>
 #include <linux/const.h>
-#include <asm/types.h>
-#include <asm/spitfire.h>
-#include <asm/asi.h>
-#include <asm/page.h>
-#include <asm/processor.h>
+#include <asm-generic/types.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
 
 /* The kernel image occupies 0x4000000 to 0x6000000 (4MB --> 96MB).
  * The page copy blockops can use 0x6000000 to 0x8000000.
@@ -1030,7 +1030,7 @@ static inline int io_remap_pfn_range(struct vm_area_struct *vma,
 }
 #define io_remap_pfn_range io_remap_pfn_range 
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 #include <asm-generic/pgtable.h>
 
 /* We provide our own get_unmapped_area to cope with VA holes and

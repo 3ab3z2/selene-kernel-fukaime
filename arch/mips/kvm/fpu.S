@@ -8,11 +8,11 @@
  * Copyright (C) 2015 Imagination Technologies Ltd.
  */
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/fpregdef.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/fpregdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
 
 /* preprocessor replaces the fp in ".set fp=64" with $30 otherwise */
 #undef fp

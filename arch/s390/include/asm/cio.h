@@ -7,14 +7,14 @@
 
 #include <linux/spinlock.h>
 #include <linux/bitops.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define LPM_ANYPATH 0xff
 #define __MAX_CSSID 0
 #define __MAX_SUBCHANNEL 65535
 #define __MAX_SSID 3
 
-#include <asm/scsw.h>
+#include <asm-generic/scsw.h>
 
 /**
  * struct ccw1 - channel command word

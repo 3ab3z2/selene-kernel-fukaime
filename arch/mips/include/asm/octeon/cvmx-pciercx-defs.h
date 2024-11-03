@@ -28,7 +28,7 @@
 #ifndef __CVMX_PCIERCX_DEFS_H__
 #define __CVMX_PCIERCX_DEFS_H__
 
-#include <uapi/asm/bitfield.h>
+#include <uapi/asm-generic/bitfield.h>
 
 #define CVMX_PCIERCX_CFG001(block_id) (0x0000000000000004ull)
 #define CVMX_PCIERCX_CFG006(block_id) (0x0000000000000018ull)

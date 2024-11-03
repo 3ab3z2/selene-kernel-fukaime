@@ -8,7 +8,7 @@
 
 #include <linux/init.h>
 #include <linux/kernel.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <linux/platform_device.h>
 #include <bcm63xx_cs.h>
 #include <bcm63xx_cpu.h>

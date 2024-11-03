@@ -73,7 +73,7 @@ typedef unsigned int   U032;
 /*
  * HW access macros.
  */
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define NV_WR08(p,i,d)  (__raw_writeb((d), (void __iomem *)(p) + (i)))
 #define NV_RD08(p,i)    (__raw_readb((void __iomem *)(p) + (i)))

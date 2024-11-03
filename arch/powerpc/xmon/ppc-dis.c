@@ -18,8 +18,8 @@ You should have received a copy of the GNU General Public License
 along with this file; see the file COPYING.  If not, write to the Free
 Software Foundation, 51 Franklin Street - Fifth Floor, Boston, MA 02110-1301, USA.  */
 
-#include <asm/cputable.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/cpu_has_feature.h>
 #include "nonstdio.h"
 #include "ansidecl.h"
 #include "ppc.h"

@@ -22,11 +22,11 @@
 #include <linux/ata_platform.h>
 #include <linux/irq.h>
 #include <linux/gpio.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
-#include <asm/bfin_sport.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/bfin_sport.h>
 
 /*
  * Name the Board for the /proc/cpuinfo

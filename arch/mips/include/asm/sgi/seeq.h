@@ -10,7 +10,7 @@
 
 #include <linux/if_ether.h>
 
-#include <asm/sgi/hpc3.h>
+#include <asm-generic/sgi/hpc3.h>
 
 struct sgiseeq_platform_data {
 	struct hpc3_regs *hpc;

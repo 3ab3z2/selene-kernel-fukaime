@@ -36,7 +36,7 @@
 #include <linux/serio.h>
 #include <linux/libps2.h>
 #include <linux/delay.h>
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 
 #include "psmouse.h"
 #include "hgpk.h"

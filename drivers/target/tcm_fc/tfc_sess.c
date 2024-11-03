@@ -31,7 +31,7 @@
 #include <linux/rcupdate.h>
 #include <linux/rculist.h>
 #include <linux/kref.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <scsi/libfc.h>
 
 #include <target/target_core_base.h>

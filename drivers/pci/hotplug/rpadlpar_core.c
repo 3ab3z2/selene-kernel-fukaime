@@ -23,10 +23,10 @@
 #include <linux/string.h>
 #include <linux/vmalloc.h>
 
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 #include <linux/mutex.h>
-#include <asm/rtas.h>
-#include <asm/vio.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/vio.h>
 
 #include "../pci.h"
 #include "rpaphp.h"

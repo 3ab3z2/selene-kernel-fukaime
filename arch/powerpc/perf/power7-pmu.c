@@ -11,8 +11,8 @@
 #include <linux/kernel.h>
 #include <linux/perf_event.h>
 #include <linux/string.h>
-#include <asm/reg.h>
-#include <asm/cputable.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cputable.h>
 
 /*
  * Bits in event code for POWER7

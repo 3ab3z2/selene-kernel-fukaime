@@ -15,7 +15,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <sys/syscall.h>
-#include <asm/ldt.h>
+#include <asm-generic/ldt.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <stdbool.h>
@@ -23,7 +23,7 @@
 #include <sched.h>
 #include <linux/futex.h>
 #include <sys/mman.h>
-#include <asm/prctl.h>
+#include <asm-generic/prctl.h>
 #include <sys/prctl.h>
 
 #define AR_ACCESSED		(1<<8)

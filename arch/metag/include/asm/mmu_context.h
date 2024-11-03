@@ -4,10 +4,10 @@
 
 #include <asm-generic/mm_hooks.h>
 
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include <linux/io.h>
 #include <linux/mm_types.h>
@@ -36,7 +36,7 @@ static inline int init_new_context(struct task_struct *tsk,
 #ifdef CONFIG_METAG_USER_TCM
 
 #include <linux/slab.h>
-#include <asm/tcm.h>
+#include <asm-generic/tcm.h>
 
 static inline void destroy_context(struct mm_struct *mm)
 {

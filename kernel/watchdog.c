@@ -26,7 +26,7 @@
 #include <linux/sched/clock.h>
 #include <linux/sched/debug.h>
 
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 #include <linux/kvm_para.h>
 #include <linux/kthread.h>
 

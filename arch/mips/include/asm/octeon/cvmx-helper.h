@@ -34,9 +34,9 @@
 #ifndef __CVMX_HELPER_H__
 #define __CVMX_HELPER_H__
 
-#include <asm/octeon/cvmx-config.h>
-#include <asm/octeon/cvmx-fpa.h>
-#include <asm/octeon/cvmx-wqe.h>
+#include <asm-generic/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-fpa.h>
+#include <asm-generic/octeon/cvmx-wqe.h>
 
 typedef enum {
 	CVMX_HELPER_INTERFACE_MODE_DISABLED,
@@ -61,14 +61,14 @@ typedef union {
 	} s;
 } cvmx_helper_link_info_t;
 
-#include <asm/octeon/cvmx-helper-errata.h>
-#include <asm/octeon/cvmx-helper-loop.h>
-#include <asm/octeon/cvmx-helper-npi.h>
-#include <asm/octeon/cvmx-helper-rgmii.h>
-#include <asm/octeon/cvmx-helper-sgmii.h>
-#include <asm/octeon/cvmx-helper-spi.h>
-#include <asm/octeon/cvmx-helper-util.h>
-#include <asm/octeon/cvmx-helper-xaui.h>
+#include <asm-generic/octeon/cvmx-helper-errata.h>
+#include <asm-generic/octeon/cvmx-helper-loop.h>
+#include <asm-generic/octeon/cvmx-helper-npi.h>
+#include <asm-generic/octeon/cvmx-helper-rgmii.h>
+#include <asm-generic/octeon/cvmx-helper-sgmii.h>
+#include <asm-generic/octeon/cvmx-helper-spi.h>
+#include <asm-generic/octeon/cvmx-helper-util.h>
+#include <asm-generic/octeon/cvmx-helper-xaui.h>
 
 /**
  * cvmx_override_pko_queue_priority(int ipd_port, uint64_t

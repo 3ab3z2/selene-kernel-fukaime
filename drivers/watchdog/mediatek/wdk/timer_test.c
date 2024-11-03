@@ -38,7 +38,7 @@
 #include <linux/irq.h>
 #include <linux/proc_fs.h>
 #include <linux/syscore_ops.h>
-#include <asm/sched_clock.h>
+#include <asm-generic/sched_clock.h>
 #include <linux/version.h>
 
 #include <mach/mt_reg_base.h>

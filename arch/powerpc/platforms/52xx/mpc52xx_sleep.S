@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/reg.h>
-#include <asm/ppc_asm.h>
-#include <asm/processor.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/processor.h>
 
 
 .text

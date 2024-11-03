@@ -12,12 +12,12 @@
 #include <linux/platform_device.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/dma.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
 
-#include <asm/jazz.h>
-#include <asm/jazzdma.h>
+#include <asm-generic/jazz.h>
+#include <asm-generic/jazzdma.h>
 
 #include <scsi/scsi_host.h>
 

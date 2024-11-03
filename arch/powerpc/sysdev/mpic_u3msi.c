@@ -11,11 +11,11 @@
 
 #include <linux/irq.h>
 #include <linux/msi.h>
-#include <asm/mpic.h>
-#include <asm/prom.h>
-#include <asm/hw_irq.h>
-#include <asm/ppc-pci.h>
-#include <asm/msi_bitmap.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/msi_bitmap.h>
 
 #include "mpic.h"
 

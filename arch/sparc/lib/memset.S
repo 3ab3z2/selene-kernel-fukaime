@@ -9,8 +9,8 @@
  * clear_user.
  */
 
-#include <asm/ptrace.h>
-#include <asm/export.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/export.h>
 
 /* Work around cpp -rob */
 #define ALLOC #alloc

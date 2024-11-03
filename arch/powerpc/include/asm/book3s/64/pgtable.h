@@ -139,7 +139,7 @@
 
 /* Permission masks used to generate the __P and __S table,
  *
- * Note:__pgprot is defined in arch/powerpc/include/asm/page.h
+ * Note:__pgprot is defined in arch/powerpc/include/asm-generic/page.h
  *
  * Write permissions imply read permissions for now (we could make write-only
  * pages on BookE but we don't bother for now). Execute permission control is
@@ -282,16 +282,16 @@ extern unsigned long ioremap_bot;
 extern unsigned long pci_io_base;
 #endif /* __ASSEMBLY__ */
 
-#include <asm/book3s/64/hash.h>
-#include <asm/book3s/64/radix.h>
+#include <asm-generic/book3s/64/hash.h>
+#include <asm-generic/book3s/64/radix.h>
 
 #ifdef CONFIG_PPC_64K_PAGES
-#include <asm/book3s/64/pgtable-64k.h>
+#include <asm-generic/book3s/64/pgtable-64k.h>
 #else
-#include <asm/book3s/64/pgtable-4k.h>
+#include <asm-generic/book3s/64/pgtable-4k.h>
 #endif
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 /*
  * The second half of the kernel virtual space is used for IO mappings,
  * it's itself carved into the PIO region (ISA and PHB IO space) and

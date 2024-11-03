@@ -28,7 +28,7 @@
 #include <linux/spi/spi.h>
 #include <linux/fsl_devices.h>
 #include <linux/gpio.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 enum {
 	TYPE_MPC5121,

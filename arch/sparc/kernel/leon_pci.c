@@ -11,8 +11,8 @@
 #include <linux/kernel.h>
 #include <linux/pci.h>
 #include <linux/export.h>
-#include <asm/leon.h>
-#include <asm/leon_pci.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/leon_pci.h>
 
 /* The LEON architecture does not rely on a BIOS or bootloader to setup
  * PCI for us. The Linux generic routines are used to setup resources,

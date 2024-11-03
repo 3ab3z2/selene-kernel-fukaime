@@ -31,10 +31,10 @@
 #include <linux/slab.h>
 #include <linux/hardirq.h>
 #include <linux/ftrace.h>
-#include <asm/set_memory.h>
-#include <asm/sections.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
-#include <asm/dis.h>
+#include <asm-generic/dis.h>
 
 DEFINE_PER_CPU(struct kprobe *, current_kprobe);
 DEFINE_PER_CPU(struct kprobe_ctlblk, kprobe_ctlblk);

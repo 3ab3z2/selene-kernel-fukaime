@@ -8,7 +8,7 @@
 #ifndef __ASM_MACH_JAZZ_DMA_COHERENCE_H
 #define __ASM_MACH_JAZZ_DMA_COHERENCE_H
 
-#include <asm/jazzdma.h>
+#include <asm-generic/jazzdma.h>
 
 struct device;
 

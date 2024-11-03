@@ -8,14 +8,14 @@
 #include <linux/interrupt.h>
 #include <linux/string.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/checksum.h>
-#include <asm/io.h>
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/tlbflush.h>
-#include <asm/pgtable.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/pgtable.h>
 
 /* platform dependent support */
 EXPORT_SYMBOL(boot_cpu_data);

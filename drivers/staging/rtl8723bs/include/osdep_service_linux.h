@@ -27,7 +27,7 @@
 	#include <linux/netdevice.h>
 	#include <linux/skbuff.h>
 	#include <linux/uaccess.h>
-	#include <asm/byteorder.h>
+	#include <asm-generic/byteorder.h>
 	#include <linux/atomic.h>
 	#include <linux/io.h>
 	#include <linux/semaphore.h>

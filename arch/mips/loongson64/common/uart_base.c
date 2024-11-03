@@ -9,7 +9,7 @@
  */
 
 #include <linux/export.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 

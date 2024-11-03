@@ -13,8 +13,8 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/fhc.h>
-#include <asm/upa.h>
+#include <asm-generic/fhc.h>
+#include <asm-generic/upa.h>
 
 MODULE_AUTHOR("David S. Miller (davem@davemloft.net)");
 MODULE_DESCRIPTION("Sun Fire LED driver");

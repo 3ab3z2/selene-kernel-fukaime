@@ -5,8 +5,8 @@
 #include <linux/percpu.h>
 #include <linux/types.h>
 #include <linux/signal.h>
-#include <asm/ptrace.h>
-#include <asm/idle.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/idle.h>
 
 extern void *restart_stack;
 extern unsigned long suspend_zero_pages;

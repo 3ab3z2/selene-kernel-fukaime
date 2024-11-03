@@ -13,8 +13,8 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/io.h>
-#include <asm/smp.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
 
 #include "pci-frv.h"
 

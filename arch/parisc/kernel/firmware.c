@@ -64,10 +64,10 @@
 #include <linux/string.h>
 #include <linux/spinlock.h>
 
-#include <asm/page.h>
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/processor.h>	/* for boot_cpu_data */
+#include <asm-generic/page.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/processor.h>	/* for boot_cpu_data */
 
 #if defined(BOOTLOADER)
 # undef  spin_lock_irqsave

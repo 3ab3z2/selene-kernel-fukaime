@@ -33,10 +33,10 @@
 #include <scsi/scsi_transport.h>
 #include <scsi/scsi_transport_fc.h>
 #include <scsi/scsi_bsg_fc.h>
-#include <asm/ccwdev.h>
-#include <asm/debug.h>
-#include <asm/ebcdic.h>
-#include <asm/sysinfo.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/sysinfo.h>
 #include "zfcp_fsf.h"
 #include "zfcp_fc.h"
 #include "zfcp_qdio.h"

@@ -19,9 +19,9 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mpc52xx.h>
 
 #include <linux/fsl/bestcomm/sram.h>
 #include <linux/fsl/bestcomm/bestcomm_priv.h>

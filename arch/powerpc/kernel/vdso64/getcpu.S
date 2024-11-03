@@ -17,8 +17,8 @@
  *
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
-#include <asm/ppc_asm.h>
-#include <asm/vdso.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/vdso.h>
 
 	.text
 /*

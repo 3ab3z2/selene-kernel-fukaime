@@ -53,10 +53,10 @@
 #include <linux/interrupt.h>	/* for struct irqaction */
 #include <linux/spinlock.h>	/* for spinlock_t and prototypes */
 
-#include <asm/pdc.h>
-#include <asm/page.h>
-#include <asm/io.h>
-#include <asm/hardware.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
 
 #include "gsc.h"
 

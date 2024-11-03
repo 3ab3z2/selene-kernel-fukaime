@@ -31,7 +31,7 @@
 #include <linux/slab.h>
 #include <linux/kobject.h>
 #include <trace/events/btrfs.h>
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 #include <linux/pagemap.h>
 #include <linux/btrfs.h>
 #include <linux/btrfs_tree.h>

@@ -6,7 +6,7 @@
  * Copyright (C) 2004-2012 Cavium Networks
  */
 
-#include <asm/cop2.h>
+#include <asm-generic/cop2.h>
 #include <linux/export.h>
 #include <linux/interrupt.h>
 #include <linux/sched/task_stack.h>

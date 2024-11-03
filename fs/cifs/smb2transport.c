@@ -28,7 +28,7 @@
 #include <linux/net.h>
 #include <linux/delay.h>
 #include <linux/uaccess.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/mempool.h>
 #include <linux/highmem.h>
 #include <crypto/aead.h>

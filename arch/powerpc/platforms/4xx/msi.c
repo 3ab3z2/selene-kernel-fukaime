@@ -28,12 +28,12 @@
 #include <linux/interrupt.h>
 #include <linux/export.h>
 #include <linux/kernel.h>
-#include <asm/prom.h>
-#include <asm/hw_irq.h>
-#include <asm/ppc-pci.h>
-#include <asm/dcr.h>
-#include <asm/dcr-regs.h>
-#include <asm/msi_bitmap.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-regs.h>
+#include <asm-generic/msi_bitmap.h>
 
 #define PEIH_TERMADH	0x00
 #define PEIH_TERMADL	0x08

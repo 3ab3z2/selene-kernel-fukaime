@@ -33,7 +33,7 @@
 #include <linux/dmi.h>
 
 #ifdef CONFIG_PPC_CHRP
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #endif
 
 #define DRV_NAME "via82cxxx"

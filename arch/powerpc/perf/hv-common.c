@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/io.h>
-#include <asm/hvcall.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hvcall.h>
 
 #include "hv-gpci.h"
 #include "hv-common.h"

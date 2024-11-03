@@ -16,8 +16,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/frame.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/frame.h>
+#include <asm-generic/nospec-branch.h>
 
 #define CAMELLIA_TABLE_BYTE_LEN 272
 

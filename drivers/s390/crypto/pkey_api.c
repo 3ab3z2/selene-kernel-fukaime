@@ -20,9 +20,9 @@
 #include <linux/slab.h>
 #include <linux/kallsyms.h>
 #include <linux/debugfs.h>
-#include <asm/zcrypt.h>
-#include <asm/cpacf.h>
-#include <asm/pkey.h>
+#include <asm-generic/zcrypt.h>
+#include <asm-generic/cpacf.h>
+#include <asm-generic/pkey.h>
 
 #include "zcrypt_api.h"
 

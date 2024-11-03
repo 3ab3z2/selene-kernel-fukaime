@@ -31,13 +31,13 @@
 #include <linux/slab.h>
 #include <linux/memblock.h>
 
-#include <asm/prom.h>
-#include <asm/iommu.h>
-#include <asm/machdep.h>
-#include <asm/pci-bridge.h>
-#include <asm/udbg.h>
-#include <asm/firmware.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/cell-regs.h>
 
 #include "cell.h"
 #include "interrupt.h"

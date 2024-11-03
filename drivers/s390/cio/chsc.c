@@ -17,12 +17,12 @@
 #include <linux/mutex.h>
 #include <linux/pci.h>
 
-#include <asm/cio.h>
-#include <asm/chpid.h>
-#include <asm/chsc.h>
-#include <asm/crw.h>
-#include <asm/isc.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/chsc.h>
+#include <asm-generic/crw.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/ebcdic.h>
 
 #include "css.h"
 #include "cio.h"

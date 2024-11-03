@@ -39,8 +39,8 @@
 #include <linux/highmem.h>
 #include <linux/string.h>
 #include <linux/slab.h>
-#include <asm/tlbflush.h>
-#include <asm/pgtable.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/pgtable.h>
 #include <linux/cpumask.h>
 #include <linux/cpu.h>
 #include <linux/vmalloc.h>

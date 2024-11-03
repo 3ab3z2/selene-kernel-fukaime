@@ -20,8 +20,8 @@
 #include <linux/io.h>
 #include <linux/of_gpio.h>
 #include <linux/slab.h>
-#include <asm/time.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpc52xx.h>
 
 MODULE_AUTHOR("Grant Likely <grant.likely@secretlab.ca>");
 MODULE_DESCRIPTION("MPC52xx SPI (non-PSC) Driver");

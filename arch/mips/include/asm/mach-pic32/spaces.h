@@ -19,6 +19,6 @@
 #define UNCAC_BASE	_AC(0xa8000000, UL)
 #endif
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* __ASM_MACH_PIC32_SPACES_H */

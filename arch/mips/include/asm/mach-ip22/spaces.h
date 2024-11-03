@@ -22,6 +22,6 @@
 
 #endif /* CONFIG_64BIT */
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* __ASM_MACH_IP22_SPACES_H */

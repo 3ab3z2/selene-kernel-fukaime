@@ -28,7 +28,7 @@
 #include <linux/sched.h> /* For struct task_struct */
 #include <linux/kdebug.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
 
 /* Compute the address of the breakpoint instruction and return it.

@@ -19,8 +19,8 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/kernel.h>
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/hid.h>
 

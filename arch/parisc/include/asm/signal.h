@@ -2,7 +2,7 @@
 #ifndef _ASM_PARISC_SIGNAL_H
 #define _ASM_PARISC_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 #define _NSIG		64
 /* bits-per-word, where word apparently means 'long' not 'int' */
@@ -29,7 +29,7 @@ struct sigaction {
 };
 #endif
 
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 
 #endif /* !__ASSEMBLY */
 #endif /* _ASM_PARISC_SIGNAL_H */

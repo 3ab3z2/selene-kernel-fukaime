@@ -25,10 +25,10 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/i8259.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/irq.h>
 #include <linux/irqchip.h>
 
 #if defined(CONFIG_PPC_I8259)

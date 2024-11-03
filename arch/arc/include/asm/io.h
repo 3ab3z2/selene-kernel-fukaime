@@ -10,12 +10,12 @@
 #define _ASM_ARC_IO_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
-#include <asm/page.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/page.h>
+#include <asm-generic/unaligned.h>
 
 #ifdef CONFIG_ISA_ARCV2
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #define __iormb()		rmb()
 #define __iowmb()		wmb()
 #else

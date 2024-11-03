@@ -9,7 +9,7 @@
 
 #include <linux/kernel.h>
 #include <linux/jump_label.h>
-#include <asm/code-patching.h>
+#include <asm-generic/code-patching.h>
 
 #ifdef HAVE_JUMP_LABEL
 void arch_jump_label_transform(struct jump_entry *entry,

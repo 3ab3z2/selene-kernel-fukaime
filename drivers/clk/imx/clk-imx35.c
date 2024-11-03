@@ -15,7 +15,7 @@
 #include <linux/err.h>
 #include <soc/imx/revision.h>
 #include <soc/imx/timer.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "clk.h"
 

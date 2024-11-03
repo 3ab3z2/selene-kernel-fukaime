@@ -7,5 +7,5 @@
 # will break.
 #
 platform-$(CONFIG_SGI_IP32)	+= sgi-ip32/
-cflags-$(CONFIG_SGI_IP32)	+= -I$(srctree)/arch/mips/include/asm/mach-ip32
+cflags-$(CONFIG_SGI_IP32)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-ip32
 load-$(CONFIG_SGI_IP32)		+= 0xffffffff80004000

@@ -12,8 +12,8 @@
 #include <linux/kernel.h>
 #include <linux/errno.h>
 #include <linux/interrupt.h>
-#include <asm/pil.h>
-#include <asm/ptrace.h>
+#include <asm-generic/pil.h>
+#include <asm-generic/ptrace.h>
 
 /* IMAP/ICLR register defines */
 #define IMAP_VALID		0x80000000UL	/* IRQ Enabled		*/

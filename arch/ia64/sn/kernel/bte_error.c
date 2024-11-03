@@ -7,15 +7,15 @@
  */
 
 #include <linux/types.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/sn_sal.h>
 #include "ioerror.h"
-#include <asm/sn/addrs.h>
-#include <asm/sn/shubio.h>
-#include <asm/sn/geo.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/shubio.h>
+#include <asm-generic/sn/geo.h>
 #include "xtalk/xwidgetdev.h"
 #include "xtalk/hubdev.h"
-#include <asm/sn/bte.h>
-#include <asm/param.h>
+#include <asm-generic/sn/bte.h>
+#include <asm-generic/param.h>
 
 /*
  * Bte error handling is done in two parts.  The first captures

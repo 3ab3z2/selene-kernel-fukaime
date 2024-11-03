@@ -16,7 +16,7 @@
 #include <linux/interrupt.h>
 #include <linux/io.h>
 
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
 #include <linux/of.h>

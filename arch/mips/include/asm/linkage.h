@@ -3,7 +3,7 @@
 #define __ASM_LINKAGE_H
 
 #ifdef __ASSEMBLY__
-#include <asm/asm.h>
+#include <asm-generic/asm.h>
 #endif
 
 #define cond_syscall(x) asm(".weak\t" #x "\n" #x "\t=\tsys_ni_syscall")

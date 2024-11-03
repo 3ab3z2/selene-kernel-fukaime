@@ -18,10 +18,10 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 
-#include <asm/cputhreads.h>
-#include <asm/firmware.h>
-#include <asm/hvcall.h>
-#include <asm/io.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/io.h>
 #include <linux/byteorder/generic.h>
 
 #include "hv-24x7.h"

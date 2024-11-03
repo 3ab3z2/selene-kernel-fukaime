@@ -17,8 +17,8 @@
 
 #include "edac_module.h"
 
-#include <asm/octeon/cvmx.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/mipsregs.h>
 
 extern int register_co_cache_error_notifier(struct notifier_block *nb);
 extern int unregister_co_cache_error_notifier(struct notifier_block *nb);

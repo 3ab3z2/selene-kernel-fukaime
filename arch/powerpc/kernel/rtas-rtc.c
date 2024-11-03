@@ -6,9 +6,9 @@
 #include <linux/rtc.h>
 #include <linux/delay.h>
 #include <linux/ratelimit.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/time.h>
 
 
 #define MAX_RTC_WAIT 5000	/* 5 sec */

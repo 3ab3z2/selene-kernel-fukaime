@@ -23,17 +23,17 @@
 #include <linux/err.h>
 #include <linux/sys.h>
 #include <linux/threads.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/cputable.h>
-#include <asm/thread_info.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/unistd.h>
-#include <asm/ptrace.h>
-#include <asm/export.h>
-#include <asm/barrier.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/export.h>
+#include <asm-generic/barrier.h>
 
 /*
  * MSR_KERNEL is > 0x10000 on 4xx/Book-E since it include MSR_CE.

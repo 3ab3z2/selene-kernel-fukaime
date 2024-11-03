@@ -21,8 +21,8 @@
 #ifndef __ASM_ELF_H
 #define __ASM_ELF_H
 
-#include <asm/ptrace.h>
-#include <asm/user.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/user.h>
 
 /*
  * This should really be in linux/elf-em.h.

@@ -32,7 +32,7 @@
 #include <linux/mtd/onenand.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * Multiblock erase if number of blocks to erase is 2 or more.

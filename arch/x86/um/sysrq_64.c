@@ -9,9 +9,9 @@
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 #include <linux/utsname.h>
-#include <asm/current.h>
-#include <asm/ptrace.h>
-#include <asm/sysrq.h>
+#include <asm-generic/current.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sysrq.h>
 
 void show_regs(struct pt_regs *regs)
 {

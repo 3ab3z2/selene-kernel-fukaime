@@ -21,10 +21,10 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/partitions.h>
 #include <linux/mtd/map.h>
-#include <asm/reboot.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/rbtx4939.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/rbtx4939.h>
 
 static void rbtx4939_machine_restart(char *command)
 {

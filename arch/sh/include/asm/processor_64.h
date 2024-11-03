@@ -16,7 +16,7 @@
 
 #include <linux/compiler.h>
 #include <asm/page.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <cpu/registers.h>
 
 /*

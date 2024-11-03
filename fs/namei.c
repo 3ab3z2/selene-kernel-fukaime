@@ -1962,11 +1962,11 @@ static int walk_component(struct nameidata *nd, int flags)
  */
 #ifdef CONFIG_DCACHE_WORD_ACCESS
 
-#include <asm/word-at-a-time.h>
+#include <asm-generic/word-at-a-time.h>
 
 #ifdef HASH_MIX
 
-/* Architecture provides HASH_MIX and fold_hash() in <asm/hash.h> */
+/* Architecture provides HASH_MIX and fold_hash() in <asm-generic/hash.h> */
 
 #elif defined(CONFIG_64BIT)
 /*

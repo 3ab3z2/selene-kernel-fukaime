@@ -18,8 +18,8 @@
 #include <linux/slab.h>
 #include <linux/jiffies.h>
 
-#include <asm/swift.h> /* for cache flushing. */
-#include <asm/io.h>
+#include <asm-generic/swift.h> /* for cache flushing. */
+#include <asm-generic/io.h>
 
 #include <linux/ctype.h>
 #include <linux/pci.h>
@@ -28,14 +28,14 @@
 #include <linux/interrupt.h>
 #include <linux/export.h>
 
-#include <asm/irq.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
-#include <asm/pcic.h>
-#include <asm/timex.h>
-#include <asm/timer.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pcic.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/timer.h>
 #include <linux/uaccess.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 #include "kernel.h"
 #include "irq.h"

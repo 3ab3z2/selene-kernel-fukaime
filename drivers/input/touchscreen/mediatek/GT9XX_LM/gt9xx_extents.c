@@ -17,7 +17,7 @@
  */
 
 #include "include/tpd_gt9xx_common.h"
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 #include <linux/delay.h>
 #include <linux/device.h>
 #include <linux/i2c.h>

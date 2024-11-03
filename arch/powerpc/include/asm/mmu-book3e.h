@@ -222,7 +222,7 @@
 #define TLBILX_T_CLASS3			7
 
 #ifndef __ASSEMBLY__
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 
 extern unsigned int tlbcam_index;
 

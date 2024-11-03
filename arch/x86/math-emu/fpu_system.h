@@ -17,8 +17,8 @@
 #include <linux/kernel.h>
 #include <linux/mm.h>
 
-#include <asm/desc.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/mmu_context.h>
 
 static inline struct desc_struct FPU_get_ldt_descriptor(unsigned seg)
 {

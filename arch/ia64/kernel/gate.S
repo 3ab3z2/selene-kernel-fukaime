@@ -8,14 +8,14 @@
  */
 
 
-#include <asm/asmmacro.h>
-#include <asm/errno.h>
-#include <asm/asm-offsets.h>
-#include <asm/sigcontext.h>
-#include <asm/unistd.h>
-#include <asm/kregs.h>
-#include <asm/page.h>
-#include <asm/native/inst.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/native/inst.h>
 
 /*
  * We can't easily refer to symbols inside the kernel.  To avoid full runtime relocation,

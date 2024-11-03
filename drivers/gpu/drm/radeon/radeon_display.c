@@ -28,7 +28,7 @@
 #include "radeon.h"
 
 #include "atom.h"
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/pm_runtime.h>
 #include <drm/drm_crtc_helper.h>

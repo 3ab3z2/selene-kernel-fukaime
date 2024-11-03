@@ -6,8 +6,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asi.h>
-#include <asm/export.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/export.h>
 
 	.text
 ENTRY(strncmp)

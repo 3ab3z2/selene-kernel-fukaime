@@ -18,9 +18,9 @@
 #include <linux/of_device.h>
 #include <linux/atomic.h>
 #include <linux/uaccess.h>		/* put_/get_user			*/
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/display7seg.h>
+#include <asm-generic/display7seg.h>
 
 #define D7S_MINOR	193
 #define DRIVER_NAME	"d7s"

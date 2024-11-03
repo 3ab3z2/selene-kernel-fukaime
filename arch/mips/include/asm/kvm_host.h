@@ -20,8 +20,8 @@
 #include <linux/threads.h>
 #include <linux/spinlock.h>
 
-#include <asm/inst.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/mipsregs.h>
 
 /* MIPS KVM register ids */
 #define MIPS_CP0_32(_R, _S)					\

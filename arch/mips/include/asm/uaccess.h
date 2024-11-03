@@ -13,8 +13,8 @@
 
 #include <linux/kernel.h>
 #include <linux/string.h>
-#include <asm/asm-eva.h>
-#include <asm/extable.h>
+#include <asm-generic/asm-eva.h>
+#include <asm-generic/extable.h>
 
 /*
  * The fs value determines whether argument validity checking should be

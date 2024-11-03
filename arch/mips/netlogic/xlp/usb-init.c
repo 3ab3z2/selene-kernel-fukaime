@@ -39,9 +39,9 @@
 #include <linux/pci.h>
 #include <linux/platform_device.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
 
 /*
  * USB glue logic registers, used only during initialization

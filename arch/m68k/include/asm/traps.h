@@ -1,5 +1,5 @@
 /*
- *  linux/include/asm/traps.h
+ *  linux/include/asm-generic/traps.h
  *
  *  Copyright (C) 1993        Hamish Macdonald
  *
@@ -14,7 +14,7 @@
 #ifndef __ASSEMBLY__
 
 #include <linux/linkage.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 typedef void (*e_vector)(void);
 extern e_vector vectors[];

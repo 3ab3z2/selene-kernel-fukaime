@@ -14,8 +14,8 @@
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 #include <linux/stacktrace.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
 
 /*
  * Save stack-backtrace addresses into a stack_trace buffer.

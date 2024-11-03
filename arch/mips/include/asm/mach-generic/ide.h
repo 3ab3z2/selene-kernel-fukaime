@@ -17,7 +17,7 @@
 
 #include <linux/pci.h>
 #include <linux/stddef.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 /* MIPS port and memory-mapped I/O string operations.  */
 static inline void __ide_flush_prologue(void)

@@ -14,7 +14,7 @@
 #define	IOMEMBASE		MCF_MBAR
 #define	IOMEMSIZE		0x01000000
 
-#include <asm/m54xxacr.h>
+#include <asm-generic/m54xxacr.h>
 
 #define MCFINT_VECBASE		64
 

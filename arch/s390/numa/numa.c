@@ -18,7 +18,7 @@
 #include <linux/slab.h>
 #include <linux/node.h>
 
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 #include "numa_mode.h"
 
 pg_data_t *node_data[MAX_NUMNODES];

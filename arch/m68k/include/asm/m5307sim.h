@@ -19,7 +19,7 @@
 #define	CPU_INSTR_PER_JIFFY	3
 #define	MCF_BUSCLK		(MCF_CLK / 2)
 
-#include <asm/m53xxacr.h>
+#include <asm-generic/m53xxacr.h>
 
 /*
  *	Define the 5307 SIM register set addresses.

@@ -2,7 +2,7 @@
 #ifndef _SPARC64_MM_INIT_H
 #define _SPARC64_MM_INIT_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /* Most of the symbols in this file are defined in init.c and
  * marked non-static so that assembler code can get at them.

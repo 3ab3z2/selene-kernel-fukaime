@@ -24,13 +24,13 @@
 #include <linux/topology.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/rtas.h>
-#include <asm/prom.h>
-#include <asm/nvram.h>
+#include <asm-generic/io.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/nvram.h>
 #include <linux/atomic.h>
-#include <asm/machdep.h>
-#include <asm/topology.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/topology.h>
 
 
 static DEFINE_SPINLOCK(rtasd_log_lock);

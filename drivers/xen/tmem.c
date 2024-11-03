@@ -18,8 +18,8 @@
 #include <xen/xen.h>
 #include <xen/interface/xen.h>
 #include <xen/page.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/tmem.h>
 
 #ifndef CONFIG_XEN_TMEM_MODULE

@@ -21,7 +21,7 @@
 #ifndef __BTRFS_MATH_H
 #define __BTRFS_MATH_H
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 static inline u64 div_factor(u64 num, int factor)
 {

@@ -37,6 +37,6 @@ DECLARE_PER_CPU(cpuinfo_sparc, __cpu_data);
 
 #endif /* !(__ASSEMBLY__) */
 
-#include <asm/trap_block.h>
+#include <asm-generic/trap_block.h>
 
 #endif /* _SPARC64_CPUDATA_H */

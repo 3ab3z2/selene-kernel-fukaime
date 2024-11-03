@@ -128,8 +128,8 @@
 #endif
 #include <linux/reboot.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/spinlock.h>
 #include <linux/blkdev.h>

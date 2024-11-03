@@ -5,18 +5,18 @@
  * Copyright (C) 1997, 2000, 2008 David S. Miller (davem@davemloft.net)
  */
 
-#include <asm/asi.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/spitfire.h>
-#include <asm/mmu_context.h>
-#include <asm/mmu.h>
-#include <asm/pil.h>
-#include <asm/head.h>
-#include <asm/thread_info.h>
-#include <asm/cacheflush.h>
-#include <asm/hypervisor.h>
-#include <asm/cpudata.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pil.h>
+#include <asm-generic/head.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/cpudata.h>
 
 	/* Basically, most of the Spitfire vs. Cheetah madness
 	 * has to do with the fact that Cheetah does not support

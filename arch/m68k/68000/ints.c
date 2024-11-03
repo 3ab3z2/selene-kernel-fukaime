@@ -14,16 +14,16 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/traps.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
 
 #if defined(CONFIG_M68328)
-#include <asm/MC68328.h>
+#include <asm-generic/MC68328.h>
 #elif defined(CONFIG_M68EZ328)
-#include <asm/MC68EZ328.h>
+#include <asm-generic/MC68EZ328.h>
 #elif defined(CONFIG_M68VZ328)
-#include <asm/MC68VZ328.h>
+#include <asm-generic/MC68VZ328.h>
 #endif
 
 /* assembler routines */

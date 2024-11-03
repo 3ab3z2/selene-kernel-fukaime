@@ -18,7 +18,7 @@
  * Routines specific to the LASAT boards
  */
 #include <linux/types.h>
-#include <asm/lasat/lasat.h>
+#include <asm-generic/lasat/lasat.h>
 
 #include <linux/sysctl.h>
 #include <linux/stddef.h>
@@ -30,7 +30,7 @@
 #include <linux/inet.h>
 #include <linux/uaccess.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #ifdef CONFIG_DS1603
 #include "ds1603.h"

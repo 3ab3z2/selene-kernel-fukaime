@@ -31,9 +31,9 @@
 #include <linux/kernel.h>
 #include <linux/moduleloader.h>
 #include <linux/bug.h>
-#include <asm/alternative.h>
-#include <asm/nospec-branch.h>
-#include <asm/facility.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/nospec-branch.h>
+#include <asm-generic/facility.h>
 
 #if 0
 #define DEBUGP printk

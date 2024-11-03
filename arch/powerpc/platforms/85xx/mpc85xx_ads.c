@@ -19,18 +19,18 @@
 #include <linux/seq_file.h>
 #include <linux/of_platform.h>
 
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/pci-bridge.h>
-#include <asm/mpic.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/mpic.h>
 #include <mm/mmu_decl.h>
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 
 #ifdef CONFIG_CPM2
-#include <asm/cpm2.h>
+#include <asm-generic/cpm2.h>
 #include <sysdev/cpm2_pic.h>
 #endif
 

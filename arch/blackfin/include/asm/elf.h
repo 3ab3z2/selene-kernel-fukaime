@@ -11,8 +11,8 @@
  * ELF register definitions..
  */
 
-#include <asm/ptrace.h>
-#include <asm/user.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/user.h>
 
 /* Processor specific flags for the ELF header e_flags field.  */
 #define EF_BFIN_PIC		0x00000001	/* -fpic */

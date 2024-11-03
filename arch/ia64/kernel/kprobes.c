@@ -31,9 +31,9 @@
 #include <linux/extable.h>
 #include <linux/kdebug.h>
 
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/exception.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/exception.h>
 
 extern void jprobe_inst_return(void);
 

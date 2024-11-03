@@ -18,7 +18,7 @@
 #define __ASM_ARC_UDELAY_H
 
 #include <asm-generic/types.h>
-#include <asm/param.h>		/* HZ */
+#include <asm-generic/param.h>		/* HZ */
 
 extern unsigned long loops_per_jiffy;
 

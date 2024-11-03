@@ -21,7 +21,7 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/sched.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-dev.h>
 #include <media/v4l2-fh.h>

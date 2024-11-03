@@ -14,7 +14,7 @@
 #include <linux/module.h>
 #include <linux/string.h>
 #include <linux/fb.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include "fb_draw.h"
 
     /*

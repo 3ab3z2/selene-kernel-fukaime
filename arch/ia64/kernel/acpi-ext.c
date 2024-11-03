@@ -13,7 +13,7 @@
 #include <linux/slab.h>
 #include <linux/acpi.h>
 
-#include <asm/acpi-ext.h>
+#include <asm-generic/acpi-ext.h>
 
 /*
  * Device CSRs that do not appear in PCI config space should be described

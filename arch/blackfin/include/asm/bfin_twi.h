@@ -9,7 +9,7 @@
 #ifndef __ASM_BFIN_TWI_H__
 #define __ASM_BFIN_TWI_H__
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <linux/types.h>
 #include <linux/i2c.h>
 

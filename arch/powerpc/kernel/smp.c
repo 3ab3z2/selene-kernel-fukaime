@@ -35,33 +35,33 @@
 #include <linux/profile.h>
 #include <linux/processor.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
-#include <asm/irq.h>
-#include <asm/hw_irq.h>
-#include <asm/kvm_ppc.h>
-#include <asm/dbell.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/cputhreads.h>
-#include <asm/cputable.h>
-#include <asm/mpic.h>
-#include <asm/vdso_datapage.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/vdso_datapage.h>
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 #endif
-#include <asm/vdso.h>
-#include <asm/debug.h>
-#include <asm/kexec.h>
-#include <asm/asm-prototypes.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/asm-prototypes.h>
+#include <asm-generic/cpu_has_feature.h>
 
 #ifdef DEBUG
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 #define DBG(fmt...) udbg_printf(fmt)
 #else
 #define DBG(fmt...)

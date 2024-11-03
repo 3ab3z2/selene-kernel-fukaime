@@ -13,8 +13,8 @@
 #include <linux/io.h>
 #include <linux/irqdomain.h>
 
-#include <asm/irq.h>
-#include <asm/hwthread.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hwthread.h>
 
 #define PERF0VECINT		0x04820580
 #define PERF1VECINT		0x04820588

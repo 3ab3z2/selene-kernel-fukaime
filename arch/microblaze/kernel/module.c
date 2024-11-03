@@ -15,8 +15,8 @@
 #include <linux/fs.h>
 #include <linux/string.h>
 
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
 
 int apply_relocate_add(Elf32_Shdr *sechdrs, const char *strtab,
 	unsigned int symindex, unsigned int relsec, struct module *module)

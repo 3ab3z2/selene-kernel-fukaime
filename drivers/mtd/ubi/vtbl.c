@@ -61,7 +61,7 @@
 #include <linux/crc32.h>
 #include <linux/err.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "ubi.h"
 
 static void self_vtbl_check(const struct ubi_device *ubi);

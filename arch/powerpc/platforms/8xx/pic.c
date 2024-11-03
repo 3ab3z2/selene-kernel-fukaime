@@ -4,10 +4,10 @@
 #include <linux/signal.h>
 #include <linux/irq.h>
 #include <linux/dma-mapping.h>
-#include <asm/prom.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/8xx_immap.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/8xx_immap.h>
 
 #include "pic.h"
 

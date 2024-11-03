@@ -26,8 +26,8 @@
 #include <linux/device.h>
 #include <linux/slab.h>
 #include <net/iucv/iucv.h>
-#include <asm/cpcmd.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/ebcdic.h>
 #include "smsgiucv.h"
 
 struct smsg_callback {

@@ -5,7 +5,7 @@
  * Copyright (C) 2001 Ken Hill (khill@microtronix.com)
  *                    Vic Phillips (vic@microtronix.com)
  *
- * based on SPARC asm/processor_32.h which is:
+ * based on SPARC asm-generic/processor_32.h which is:
  *
  * Copyright (C) 1994 David S. Miller
  *
@@ -17,9 +17,9 @@
 #ifndef _ASM_NIOS2_PROCESSOR_H
 #define _ASM_NIOS2_PROCESSOR_H
 
-#include <asm/ptrace.h>
-#include <asm/registers.h>
-#include <asm/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/page.h>
 
 #define NIOS2_FLAG_KTHREAD	0x00000001	/* task is a kernel thread */
 

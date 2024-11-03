@@ -23,9 +23,9 @@
 #define _ASM_BITOPS_H
 
 #include <linux/compiler.h>
-#include <asm/byteorder.h>
-#include <asm/atomic.h>
-#include <asm/barrier.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/atomic.h>
+#include <asm-generic/barrier.h>
 
 #ifdef __KERNEL__
 

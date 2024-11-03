@@ -18,16 +18,16 @@
 #include <linux/kvm_host.h>
 #include <linux/srcu.h>
 
-#include <asm/cpu.h>
-#include <asm/bootinfo.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
-#include <asm/tlb.h>
-#include <asm/tlbdebug.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbdebug.h>
 
 #undef CONFIG_MIPS_MT
-#include <asm/r4kcache.h>
+#include <asm-generic/r4kcache.h>
 #define CONFIG_MIPS_MT
 
 #define KVM_GUEST_PC_TLB    0

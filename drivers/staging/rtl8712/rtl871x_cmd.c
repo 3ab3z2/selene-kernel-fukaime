@@ -40,7 +40,7 @@
 #include <linux/usb/ch9.h>
 #include <linux/circ_buf.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/atomic.h>
 #include <linux/semaphore.h>
 #include <linux/rtnetlink.h>

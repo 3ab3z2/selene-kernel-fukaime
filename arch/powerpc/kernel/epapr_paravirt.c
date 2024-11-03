@@ -19,10 +19,10 @@
 
 #include <linux/of.h>
 #include <linux/of_fdt.h>
-#include <asm/epapr_hcalls.h>
-#include <asm/cacheflush.h>
-#include <asm/code-patching.h>
-#include <asm/machdep.h>
+#include <asm-generic/epapr_hcalls.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/machdep.h>
 
 #if !defined(CONFIG_64BIT) || defined(CONFIG_PPC_BOOK3E_64)
 extern void epapr_ev_idle(void);

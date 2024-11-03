@@ -21,7 +21,7 @@
 #include <sound/jack.h>
 
 #include "regs-iis.h"
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/gpio-samsung.h>
 #include "s3c24xx-i2s.h"

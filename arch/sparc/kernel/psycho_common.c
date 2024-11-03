@@ -6,7 +6,7 @@
 #include <linux/kernel.h>
 #include <linux/interrupt.h>
 
-#include <asm/upa.h>
+#include <asm-generic/upa.h>
 
 #include "pci_impl.h"
 #include "iommu_common.h"

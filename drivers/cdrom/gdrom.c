@@ -39,9 +39,9 @@
 #include <linux/workqueue.h>
 #include <linux/platform_device.h>
 #include <scsi/scsi.h>
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/delay.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/delay.h>
 #include <mach/dma.h>
 #include <mach/sysasic.h>
 

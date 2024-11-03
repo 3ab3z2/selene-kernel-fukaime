@@ -5,7 +5,7 @@
 #include <linux/fb.h>
 #include <linux/fs.h>
 #include <linux/efi.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 static inline void fb_pgprotect(struct file *file, struct vm_area_struct *vma,
 				unsigned long off)

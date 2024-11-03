@@ -24,7 +24,7 @@
 #include <sound/initval.h>
 #include <sound/tlv.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <sound/max98095.h>
 #include <sound/jack.h>
 #include "max98095.h"

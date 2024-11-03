@@ -14,7 +14,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/code-patching.h>
 
 #ifdef PPC64_ELF_ABI_v1

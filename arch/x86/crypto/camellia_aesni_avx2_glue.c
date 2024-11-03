@@ -19,9 +19,9 @@
 #include <crypto/ctr.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/camellia.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/camellia.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 #define CAMELLIA_AESNI_PARALLEL_BLOCKS 16
 #define CAMELLIA_AESNI_AVX2_PARALLEL_BLOCKS 32

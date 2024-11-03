@@ -9,7 +9,7 @@
 #define SEC(NAME) __attribute__((section(NAME), used))
 
 #include <uapi/linux/fs.h>
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 SEC("func=vfs_llseek")
 int bpf_func__vfs_llseek(void *ctx)

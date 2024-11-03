@@ -14,9 +14,9 @@
 #include <linux/init.h>
 #include <linux/types.h>
 
-#include <asm/irq.h>
-#include <asm/mips-cps.h>
-#include <asm/time.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/time.h>
 
 int get_c0_fdc_int(void)
 {

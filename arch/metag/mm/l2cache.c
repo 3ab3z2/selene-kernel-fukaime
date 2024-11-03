@@ -3,8 +3,8 @@
 #include <linux/kernel.h>
 #include <linux/delay.h>
 
-#include <asm/l2cache.h>
-#include <asm/metag_isa.h>
+#include <asm-generic/l2cache.h>
+#include <asm-generic/metag_isa.h>
 
 /* If non-0, then initialise the L2 cache */
 static int l2cache_init = 1;

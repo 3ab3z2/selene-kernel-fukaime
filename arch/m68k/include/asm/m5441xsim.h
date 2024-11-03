@@ -16,7 +16,7 @@
 #define IOMEMBASE		0xe0000000
 #define IOMEMSIZE		0x20000000
 
-#include <asm/m54xxacr.h>
+#include <asm-generic/m54xxacr.h>
 
 /*
  *  Reset Controller Module.

@@ -20,7 +20,7 @@
 #include <linux/clk-provider.h>
 #include <linux/regmap.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "clk-pll.h"
 #include "common.h"

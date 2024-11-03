@@ -23,13 +23,13 @@
 #include <linux/bootmem.h>
 #include <linux/export.h>
 
-#include <asm/machvec.h>
-#include <asm/page.h>
-#include <asm/io.h>
-#include <asm/sal.h>
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hw_irq.h>
 
 /*
  * Low-level SAL-based PCI configuration access functions. Note that SAL

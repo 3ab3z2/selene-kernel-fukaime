@@ -11,10 +11,10 @@
 #define _ASM_THREAD_INFO_H
 
 #include <linux/compiler.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifndef __ASSEMBLY__
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #endif
 
 /*

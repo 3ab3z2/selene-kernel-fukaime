@@ -13,9 +13,9 @@
 
 #include <linux/types.h>
 
-#include <asm/ptrace.h>
-#include <asm/cputable.h>
-#include <asm/auxvec.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/auxvec.h>
 
 /* PowerPC relocations defined by the ABIs */
 #define R_PPC_NONE		0

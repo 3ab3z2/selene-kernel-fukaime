@@ -17,8 +17,8 @@
 #include <linux/of_platform.h>
 #include <linux/pci.h>
 #include <linux/semaphore.h>
-#include <asm/msi_bitmap.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/ppc-pci.h>
 
 struct ppc4xx_hsta_msi {
 	struct device *dev;

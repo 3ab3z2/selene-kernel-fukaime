@@ -10,8 +10,8 @@
 #include <linux/utsname.h>
 #include <linux/vmalloc.h>
 
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 
 /* vmcoreinfo stuff */
 static unsigned char *vmcoreinfo_data;

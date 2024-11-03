@@ -49,7 +49,7 @@
 #include <linux/hdreg.h>
 #include <linux/scatterlist.h>
 #include <linux/idr.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "ubi-media.h"
 #include "ubi.h"

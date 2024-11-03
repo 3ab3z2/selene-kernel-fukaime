@@ -13,8 +13,8 @@
 #ifndef _XTENSA_ELF_H
 #define _XTENSA_ELF_H
 
-#include <asm/ptrace.h>
-#include <asm/coprocessor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/coprocessor.h>
 
 /* Xtensa processor ELF architecture-magic number */
 

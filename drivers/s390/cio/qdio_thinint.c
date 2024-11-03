@@ -11,10 +11,10 @@
 #include <linux/atomic.h>
 #include <linux/rculist.h>
 
-#include <asm/debug.h>
-#include <asm/qdio.h>
-#include <asm/airq.h>
-#include <asm/isc.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/qdio.h>
+#include <asm-generic/airq.h>
+#include <asm-generic/isc.h>
 
 #include "cio.h"
 #include "ioasm.h"

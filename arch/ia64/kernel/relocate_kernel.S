@@ -10,11 +10,11 @@
  * This source code is licensed under the GNU General Public License,
  * Version 2.  See the file COPYING for more details.
  */
-#include <asm/asmmacro.h>
-#include <asm/kregs.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mca_asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mca_asm.h>
 
        /* Must be relocatable PIC code callable as a C function
         */

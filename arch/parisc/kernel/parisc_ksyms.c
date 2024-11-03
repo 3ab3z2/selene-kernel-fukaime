@@ -53,7 +53,7 @@ extern int $global$;
 EXPORT_SYMBOL($global$);
 #endif
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 EXPORT_SYMBOL(memcpy_toio);
 EXPORT_SYMBOL(memcpy_fromio);
 EXPORT_SYMBOL(memset_io);
@@ -139,7 +139,7 @@ EXPORT_SYMBOL($$dyncall);
 #endif
 
 #ifdef CONFIG_DISCONTIGMEM
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 EXPORT_SYMBOL(node_data);
 EXPORT_SYMBOL(pfnnid_map);
 #endif

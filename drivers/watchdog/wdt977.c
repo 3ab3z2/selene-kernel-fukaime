@@ -39,7 +39,7 @@
 #include <linux/io.h>
 #include <linux/uaccess.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #define WATCHDOG_VERSION  "0.04"
 #define WATCHDOG_NAME     "Wdt977"

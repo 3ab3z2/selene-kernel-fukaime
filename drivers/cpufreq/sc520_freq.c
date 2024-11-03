@@ -24,8 +24,8 @@
 #include <linux/timex.h>
 #include <linux/io.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/msr.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/msr.h>
 
 #define MMCR_BASE	0xfffef000	/* The default base address */
 #define OFFS_CPUCTL	0x2   /* CPU Control Register */

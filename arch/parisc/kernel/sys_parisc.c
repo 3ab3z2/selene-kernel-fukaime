@@ -24,7 +24,7 @@
  */
 
 #include <linux/uaccess.h>
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 #include <linux/file.h>
 #include <linux/fs.h>
 #include <linux/linkage.h>

@@ -34,7 +34,7 @@
 #ifndef __CVMX_HELPER_BOARD_H__
 #define __CVMX_HELPER_BOARD_H__
 
-#include <asm/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper.h>
 
 enum cvmx_helper_board_usb_clock_types {
 	USB_CLOCK_TYPE_REF_12,

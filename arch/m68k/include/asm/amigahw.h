@@ -18,7 +18,7 @@
 
 #include <linux/ioport.h>
 
-#include <asm/bootinfo-amiga.h>
+#include <asm-generic/bootinfo-amiga.h>
 
 
     /*

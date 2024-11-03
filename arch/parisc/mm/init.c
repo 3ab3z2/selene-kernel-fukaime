@@ -27,13 +27,13 @@
 #include <linux/pagemap.h>	/* for release_pages */
 #include <linux/compat.h>
 
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/tlb.h>
-#include <asm/pdc_chassis.h>
-#include <asm/mmzone.h>
-#include <asm/sections.h>
-#include <asm/msgbuf.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/pdc_chassis.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/msgbuf.h>
 
 extern int  data_start;
 extern void parisc_kernel_start(void);	/* Kernel entry point in head.S */

@@ -19,7 +19,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/cpufeature.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 
 #include "sha.h"
 

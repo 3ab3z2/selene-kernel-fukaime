@@ -32,8 +32,8 @@
 #include <linux/scatterlist.h>
 #include <linux/device.h>
 #include <linux/of.h>
-#include <asm/hvcall.h>
-#include <asm/vio.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/vio.h>
 
 #include "nx_csbcpb.h"
 #include "nx.h"

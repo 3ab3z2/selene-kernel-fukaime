@@ -15,7 +15,7 @@
 #include <linux/platform_device.h>
 #include <linux/gpio.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/palmtx.h>
 #include "soc_common.h"
 

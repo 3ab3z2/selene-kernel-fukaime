@@ -19,16 +19,16 @@
 #include <linux/swiotlb.h>
 #include <linux/mem_encrypt.h>
 
-#include <asm/tlbflush.h>
-#include <asm/fixmap.h>
-#include <asm/setup.h>
-#include <asm/bootparam.h>
-#include <asm/set_memory.h>
-#include <asm/cacheflush.h>
-#include <asm/sections.h>
-#include <asm/processor-flags.h>
-#include <asm/msr.h>
-#include <asm/cmdline.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/cmdline.h>
 
 static char sme_cmdline_arg[] __initdata = "mem_encrypt";
 static char sme_cmdline_on[]  __initdata = "on";

@@ -41,8 +41,8 @@
 #include <linux/slab.h>
 #include <linux/suspend.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
 
 #define DRV_NAME			"INT0002 Virtual GPIO"
 

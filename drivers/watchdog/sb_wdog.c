@@ -55,10 +55,10 @@
 #include <linux/watchdog.h>
 #include <linux/interrupt.h>
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 
 static DEFINE_SPINLOCK(sbwd_lock);
 

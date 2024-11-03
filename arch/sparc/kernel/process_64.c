@@ -39,22 +39,22 @@
 #include <linux/signal.h>
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/pstate.h>
-#include <asm/elf.h>
-#include <asm/fpumacro.h>
-#include <asm/head.h>
-#include <asm/cpudata.h>
-#include <asm/mmu_context.h>
-#include <asm/unistd.h>
-#include <asm/hypervisor.h>
-#include <asm/syscalls.h>
-#include <asm/irq_regs.h>
-#include <asm/smp.h>
-#include <asm/pcr.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/head.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/pcr.h>
 
 #include "kstack.h"
 

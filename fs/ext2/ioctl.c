@@ -14,7 +14,7 @@
 #include <linux/sched.h>
 #include <linux/compat.h>
 #include <linux/mount.h>
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 
 

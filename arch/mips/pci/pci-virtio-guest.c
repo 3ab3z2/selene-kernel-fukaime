@@ -11,9 +11,9 @@
 #include <linux/interrupt.h>
 #include <linux/pci.h>
 
-#include <uapi/asm/bitfield.h>
-#include <asm/byteorder.h>
-#include <asm/io.h>
+#include <uapi/asm-generic/bitfield.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
 
 #define PCI_CONFIG_ADDRESS	0xcf8
 #define PCI_CONFIG_DATA		0xcfc

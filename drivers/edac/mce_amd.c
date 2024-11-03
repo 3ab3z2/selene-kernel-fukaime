@@ -1,7 +1,7 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 #include "mce_amd.h"
 

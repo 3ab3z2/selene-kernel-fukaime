@@ -2,7 +2,7 @@
 #ifndef _PARISC_PDC_H
 #define _PARISC_PDC_H
 
-#include <uapi/asm/pdc.h>
+#include <uapi/asm-generic/pdc.h>
 
 #if !defined(__ASSEMBLY__)
 

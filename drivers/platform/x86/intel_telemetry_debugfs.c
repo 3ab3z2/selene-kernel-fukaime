@@ -31,11 +31,11 @@
 #include <linux/pci.h>
 #include <linux/suspend.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/intel_pmc_ipc.h>
-#include <asm/intel_punit_ipc.h>
-#include <asm/intel_telemetry.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/intel_pmc_ipc.h>
+#include <asm-generic/intel_punit_ipc.h>
+#include <asm-generic/intel_telemetry.h>
 
 #define DRIVER_NAME	"telemetry_soc_debugfs"
 #define DRIVER_VERSION	"1.0.0"

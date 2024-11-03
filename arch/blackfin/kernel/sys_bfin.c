@@ -19,10 +19,10 @@
 #include <linux/ipc.h>
 #include <linux/unistd.h>
 
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/cachectl.h>
-#include <asm/ptrace.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/ptrace.h>
 
 asmlinkage void *sys_sram_alloc(size_t size, unsigned long flags)
 {

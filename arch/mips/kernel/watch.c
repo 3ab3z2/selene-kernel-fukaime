@@ -8,8 +8,8 @@
 
 #include <linux/sched.h>
 
-#include <asm/processor.h>
-#include <asm/watch.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/watch.h>
 
 /*
  * Install the watch registers for the current thread.	A maximum of

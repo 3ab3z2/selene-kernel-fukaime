@@ -18,10 +18,10 @@
 #include <linux/module.h>
 #include <linux/platform_device.h>
 
-#include <asm/setup.h>
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
-#include <asm/amigayle.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
+#include <asm-generic/amigayle.h>
 
 
     /*

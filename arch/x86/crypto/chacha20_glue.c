@@ -14,8 +14,8 @@
 #include <crypto/internal/skcipher.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/fpu/api.h>
-#include <asm/simd.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/simd.h>
 
 #define CHACHA20_STATE_ALIGN 16
 

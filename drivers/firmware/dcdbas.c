@@ -36,7 +36,7 @@
 #include <linux/string.h>
 #include <linux/types.h>
 #include <linux/mutex.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "dcdbas.h"
 

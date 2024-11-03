@@ -56,8 +56,8 @@
 #include <net/irda/irda_device.h>
 #include <net/irda/wrapper.h>
 #include <net/irda/crc.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 MODULE_AUTHOR("Stephen Hemminger <shemminger@linux-foundation.org>");
 MODULE_DESCRIPTION("IrDA-USB Dongle Driver for SigmaTel STIr4200");

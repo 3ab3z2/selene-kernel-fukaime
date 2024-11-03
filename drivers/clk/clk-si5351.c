@@ -30,7 +30,7 @@
 #include <linux/regmap.h>
 #include <linux/slab.h>
 #include <linux/string.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "clk-si5351.h"
 

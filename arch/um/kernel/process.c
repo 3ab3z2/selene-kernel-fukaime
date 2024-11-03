@@ -24,9 +24,9 @@
 #include <linux/tick.h>
 #include <linux/threads.h>
 #include <linux/tracehook.h>
-#include <asm/current.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/current.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
 #include <linux/uaccess.h>
 #include <as-layout.h>
 #include <kern_util.h>
@@ -344,7 +344,7 @@ int singlestepping(void * t)
 /*
  * Only x86 and x86_64 have an arch_align_stack().
  * All other arches have "#define arch_align_stack(x) (x)"
- * in their asm/exec.h
+ * in their asm-generic/exec.h
  * As this is included in UML from asm-um/system-generic.h,
  * we can use it to behave as the subarch does.
  */

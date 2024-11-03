@@ -13,8 +13,8 @@
 #include <linux/io.h>
 #include <linux/of.h>
 
-#include <asm/param.h>
-#include <asm/clock.h>
+#include <asm-generic/param.h>
+#include <asm-generic/clock.h>
 
 struct meta_clock_desc _meta_clock;
 

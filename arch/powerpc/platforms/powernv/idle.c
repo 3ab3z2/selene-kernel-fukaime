@@ -16,14 +16,14 @@
 #include <linux/device.h>
 #include <linux/cpu.h>
 
-#include <asm/firmware.h>
-#include <asm/machdep.h>
-#include <asm/opal.h>
-#include <asm/cputhreads.h>
-#include <asm/cpuidle.h>
-#include <asm/code-patching.h>
-#include <asm/smp.h>
-#include <asm/runlatch.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/runlatch.h>
 
 #include "powernv.h"
 #include "subcore.h"

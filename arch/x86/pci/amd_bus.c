@@ -5,10 +5,10 @@
 #include <linux/cpu.h>
 #include <linux/range.h>
 
-#include <asm/amd_nb.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/amd_nb.h>
+#include <asm-generic/pci_x86.h>
 
-#include <asm/pci-direct.h>
+#include <asm-generic/pci-direct.h>
 
 #include "bus_numa.h"
 

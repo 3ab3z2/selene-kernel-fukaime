@@ -11,8 +11,8 @@
 #ifndef _ASM_PTRACE_H
 #define _ASM_PTRACE_H
 
-#include <asm/irq_regs.h>
-#include <uapi/asm/ptrace.h>
+#include <asm-generic/irq_regs.h>
+#include <uapi/asm-generic/ptrace.h>
 
 #define in_syscall(regs) (((regs)->tbr & TBR_TT) == TBR_TT_TRAP0)
 #ifndef __ASSEMBLY__

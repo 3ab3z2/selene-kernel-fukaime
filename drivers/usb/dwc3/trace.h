@@ -23,7 +23,7 @@
 
 #include <linux/types.h>
 #include <linux/tracepoint.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "core.h"
 #include "debug.h"
 

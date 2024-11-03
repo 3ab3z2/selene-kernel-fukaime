@@ -3,7 +3,7 @@
 #define __ALPHA_IRONGATE__H__
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * IRONGATE is the internal name for the AMD-751 K7 core logic chipset
@@ -221,7 +221,7 @@ __EXTERN_INLINE int irongate_is_mmio(const volatile void __iomem *xaddr)
 #define irongate_trivial_io_bw		1
 #define irongate_trivial_io_lq		1
 #define irongate_trivial_iounmap	0
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

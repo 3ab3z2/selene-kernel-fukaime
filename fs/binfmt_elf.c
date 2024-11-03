@@ -41,8 +41,8 @@
 #include <linux/cred.h>
 #include <linux/dax.h>
 #include <linux/uaccess.h>
-#include <asm/param.h>
-#include <asm/page.h>
+#include <asm-generic/param.h>
+#include <asm-generic/page.h>
 
 #ifndef user_long_t
 #define user_long_t long
@@ -150,7 +150,7 @@ static int padzero(unsigned long elf_bss)
 #ifndef ELF_BASE_PLATFORM
 /*
  * AT_BASE_PLATFORM indicates the "real" hardware/microarchitecture.
- * If the arch defines ELF_BASE_PLATFORM (in asm/elf.h), the value
+ * If the arch defines ELF_BASE_PLATFORM (in asm-generic/elf.h), the value
  * will be copied to the user stack in the same manner as AT_PLATFORM.
  */
 #define ELF_BASE_PLATFORM NULL

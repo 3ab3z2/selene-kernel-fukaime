@@ -14,8 +14,8 @@
 #include <linux/init.h>
 #include <linux/cpu.h>
 #include <linux/sched/cputime.h>
-#include <asm/nmi.h>
-#include <asm/smp.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/smp.h>
 #include "entry.h"
 
 static DEFINE_PER_CPU(struct s390_idle_data, s390_idle);

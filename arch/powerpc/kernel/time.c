@@ -60,21 +60,21 @@
 #include <linux/rtc.h>
 #include <linux/sched/cputime.h>
 #include <linux/processor.h>
-#include <asm/trace.h>
+#include <asm-generic/trace.h>
 
-#include <asm/io.h>
-#include <asm/nvram.h>
-#include <asm/cache.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/machdep.h>
 #include <linux/uaccess.h>
-#include <asm/time.h>
-#include <asm/prom.h>
-#include <asm/irq.h>
-#include <asm/div64.h>
-#include <asm/smp.h>
-#include <asm/vdso_datapage.h>
-#include <asm/firmware.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/asm-prototypes.h>
 
 /* powerpc clocksource/clockevent code */
 

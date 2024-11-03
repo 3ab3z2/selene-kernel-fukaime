@@ -12,7 +12,7 @@
 #include <linux/kernel.h>
 #include <linux/time.h>
 #include <linux/refcount.h>
-#include <uapi/asm/debug.h>
+#include <uapi/asm-generic/debug.h>
 
 #define DEBUG_MAX_LEVEL            6  /* debug levels range from 0 to 6 */
 #define DEBUG_OFF_LEVEL            -1 /* level where debug is switched off */

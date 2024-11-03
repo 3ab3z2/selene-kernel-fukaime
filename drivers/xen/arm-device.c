@@ -19,8 +19,8 @@
 #include <xen/xen.h>
 #include <xen/page.h>
 #include <xen/interface/memory.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 static int xen_unmap_device_mmio(const struct resource *resources,
 				 unsigned int count)

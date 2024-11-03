@@ -3,7 +3,7 @@
 #define __TRIGGER_H_ 1
 
 #include "util/debug.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 
 /*
  * Use trigger to model operations which need to be executed when

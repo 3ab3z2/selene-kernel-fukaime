@@ -11,8 +11,8 @@
 #include <linux/kgdb.h>
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
-#include <asm/disasm.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/disasm.h>
+#include <asm-generic/cacheflush.h>
 
 static void to_gdb_regs(unsigned long *gdb_regs, struct pt_regs *kernel_regs,
 			struct callee_regs *cregs)

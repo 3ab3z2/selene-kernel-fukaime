@@ -42,7 +42,7 @@
 #include <linux/delay.h>
 #include <linux/fb.h>
 #include <linux/init.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 #ifdef CONFIG_ZORRO
 #include <linux/zorro.h>
@@ -51,7 +51,7 @@
 #include <linux/pci.h>
 #endif
 #ifdef CONFIG_AMIGA
-#include <asm/amigahw.h>
+#include <asm-generic/amigahw.h>
 #endif
 
 #include <video/vga.h>

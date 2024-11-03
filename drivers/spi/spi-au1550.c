@@ -29,11 +29,11 @@
 #include <linux/spi/spi_bitbang.h>
 #include <linux/dma-mapping.h>
 #include <linux/completion.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_psc.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_psc.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
 
-#include <asm/mach-au1x00/au1550_spi.h>
+#include <asm-generic/mach-au1x00/au1550_spi.h>
 
 static unsigned usedma = 1;
 module_param(usedma, uint, 0644);

@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2007 (davem@davemloft.net)
  */
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 	.text
 	.align	32

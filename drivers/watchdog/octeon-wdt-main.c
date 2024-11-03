@@ -64,13 +64,13 @@
 #include <linux/cpu.h>
 #include <linux/irq.h>
 
-#include <asm/mipsregs.h>
-#include <asm/uasm.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/uasm.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-boot-vector.h>
-#include <asm/octeon/cvmx-ciu2-defs.h>
-#include <asm/octeon/cvmx-rst-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-boot-vector.h>
+#include <asm-generic/octeon/cvmx-ciu2-defs.h>
+#include <asm-generic/octeon/cvmx-rst-defs.h>
 
 /* Watchdog interrupt major block number (8 MSBs of intsn) */
 #define WD_BLOCK_NUMBER		0x01

@@ -13,7 +13,7 @@
 
 
 #include <linux/init.h>
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 #ifndef __ASSEMBLY__
 

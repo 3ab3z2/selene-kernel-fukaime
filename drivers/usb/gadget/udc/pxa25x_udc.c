@@ -39,10 +39,10 @@
 #include <linux/io.h>
 #include <linux/prefetch.h>
 
-#include <asm/byteorder.h>
-#include <asm/dma.h>
-#include <asm/mach-types.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/unaligned.h>
 
 #include <linux/usb/ch9.h>
 #include <linux/usb/gadget.h>

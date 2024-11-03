@@ -35,7 +35,7 @@
 #include <linux/delay.h>
 #include <linux/string.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "dvb_frontend.h"
 #include "dvb_math.h"

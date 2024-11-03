@@ -7,11 +7,11 @@
 #ifndef _ASMS390_SIGNAL_H
 #define _ASMS390_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 /* Most things should be clean enough to redefine this at will, if care
    is taken to make libc match.  */
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 #define _NSIG           _SIGCONTEXT_NSIG
 #define _NSIG_BPW       _SIGCONTEXT_NSIG_BPW
 #define _NSIG_WORDS     _SIGCONTEXT_NSIG_WORDS

@@ -41,7 +41,7 @@
 #include <linux/jiffies.h>
 #include <linux/semaphore.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <linux/io-64-nonatomic-lo-hi.h>
 

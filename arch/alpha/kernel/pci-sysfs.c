@@ -143,7 +143,7 @@ static int sparse_mem_mmap_fits(struct pci_dev *pdev, int num)
 
 	/* All core logic chips have 4G sparse address space, except
 	   CIA which has 16G (see xxx_SPARSE_MEM and xxx_DENSE_MEM
-	   definitions in asm/core_xxx.h files). This corresponds
+	   definitions in asm-generic/core_xxx.h files). This corresponds
 	   to 128M or 512M of the bus space. */
 	dense_offset = (long)(hose->dense_mem_base - hose->sparse_mem_base);
 	sparse_size = dense_offset >= 0x400000000UL ? 0x20000000 : 0x8000000;

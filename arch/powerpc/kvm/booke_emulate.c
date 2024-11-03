@@ -19,7 +19,7 @@
  */
 
 #include <linux/kvm_host.h>
-#include <asm/disassemble.h>
+#include <asm-generic/disassemble.h>
 
 #include "booke.h"
 

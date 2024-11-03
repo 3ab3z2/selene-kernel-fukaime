@@ -6,7 +6,7 @@
  * GPLv2
  */
 
-#include <asm/iommu.h>
+#include <asm-generic/iommu.h>
 #include <linux/irq.h>
 #include <linux/sched.h>
 #include <linux/interrupt.h>

@@ -2,7 +2,7 @@
 #ifndef _ASM_M32R_TLBFLUSH_H
 #define _ASM_M32R_TLBFLUSH_H
 
-#include <asm/m32r.h>
+#include <asm-generic/m32r.h>
 
 /*
  * TLB flushing:

@@ -3,7 +3,7 @@
 #define _ASM_POWERPC_BUG_H
 #ifdef __KERNEL__
 
-#include <asm/asm-compat.h>
+#include <asm-generic/asm-compat.h>
 
 /*
  * Define an illegal instr to trap on the bug.
@@ -16,7 +16,7 @@
 #ifdef CONFIG_BUG
 
 #ifdef __ASSEMBLY__
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #ifdef CONFIG_DEBUG_BUGVERBOSE
 .macro EMIT_BUG_ENTRY addr,file,line,flags
 	 .section __bug_table,"aw"

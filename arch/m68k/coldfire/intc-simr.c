@@ -16,9 +16,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/io.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/traps.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/traps.h>
 
 /*
  *	The EDGE Port interrupts are the fixed 7 external interrupts.

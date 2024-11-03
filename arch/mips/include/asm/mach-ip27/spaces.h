@@ -28,6 +28,6 @@
 
 #define HIGHMEM_START		(~0UL)
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* _ASM_MACH_IP27_SPACES_H */

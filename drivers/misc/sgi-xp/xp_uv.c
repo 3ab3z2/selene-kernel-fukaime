@@ -14,11 +14,11 @@
  */
 
 #include <linux/device.h>
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 #if defined CONFIG_X86_64
-#include <asm/uv/bios.h>
+#include <asm-generic/uv/bios.h>
 #elif defined CONFIG_IA64_GENERIC || defined CONFIG_IA64_SGI_UV
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/sn_sal.h>
 #endif
 #include "../sgi-gru/grukservices.h"
 #include "xp.h"

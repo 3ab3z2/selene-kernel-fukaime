@@ -7,7 +7,7 @@
  */
 
 #include <linux/of_platform.h>
-#include <asm/synch.h>
+#include <asm-generic/synch.h>
 
 #include "mpc86xx.h"
 

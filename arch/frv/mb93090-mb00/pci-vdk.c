@@ -17,10 +17,10 @@
 #include <linux/ioport.h>
 #include <linux/delay.h>
 
-#include <asm/segment.h>
-#include <asm/io.h>
-#include <asm/mb-regs.h>
-#include <asm/mb86943a.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mb-regs.h>
+#include <asm-generic/mb86943a.h>
 #include "pci-frv.h"
 
 unsigned int __nongpreldata pci_probe = 1;
@@ -353,7 +353,7 @@ int __init pcibios_init(void)
 	pci_iomem_resource.end		+= pci_iomem_resource.start;
 
 	/* Reserve somewhere to write to flush posted writes.  This is used by
-	 * __flush_PCI_writes() from asm/io.h to force the write FIFO in the
+	 * __flush_PCI_writes() from asm-generic/io.h to force the write FIFO in the
 	 * CPU-PCI bridge to flush as this doesn't happen automatically when a
 	 * read is performed on the MB93090 development kit motherboard.
 	 */

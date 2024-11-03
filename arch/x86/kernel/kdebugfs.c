@@ -15,7 +15,7 @@
 #include <linux/io.h>
 #include <linux/mm.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 struct dentry *arch_debugfs_dir;
 EXPORT_SYMBOL(arch_debugfs_dir);

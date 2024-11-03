@@ -95,12 +95,12 @@
 #include <linux/cpufreq_times.h>
 #include <linux/scs.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include <trace/events/sched.h>
 

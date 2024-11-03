@@ -4,7 +4,7 @@
  */
 #include <linux/pci.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Create a virtual mapping cookie for an IO port range */
 void __iomem *ioport_map(unsigned long port, unsigned int nr)

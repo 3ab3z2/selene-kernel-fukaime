@@ -38,16 +38,16 @@
 #include <linux/ktime.h>
 
 #ifdef CONFIG_X86
-#include <asm/desc.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
-#include <asm/io_apic.h>
-#include <asm/i8259.h>
-#include <asm/xen/pci.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/xen/pci.h>
 #endif
-#include <asm/sync_bitops.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/sync_bitops.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/page.h>
 
 #include <xen/xen.h>
@@ -61,7 +61,7 @@
 #include <xen/interface/physdev.h>
 #include <xen/interface/sched.h>
 #include <xen/interface/vcpu.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/hw_irq.h>
 
 #include "events_internal.h"
 

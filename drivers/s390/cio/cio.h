@@ -5,10 +5,10 @@
 #include <linux/mutex.h>
 #include <linux/device.h>
 #include <linux/mod_devicetable.h>
-#include <asm/chpid.h>
-#include <asm/cio.h>
-#include <asm/fcx.h>
-#include <asm/schid.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/fcx.h>
+#include <asm-generic/schid.h>
 #include "chsc.h"
 
 /*

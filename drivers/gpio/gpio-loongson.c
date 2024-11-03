@@ -17,7 +17,7 @@
 #include <linux/module.h>
 #include <linux/spinlock.h>
 #include <linux/err.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <loongson.h>
 #include <linux/gpio.h>
 

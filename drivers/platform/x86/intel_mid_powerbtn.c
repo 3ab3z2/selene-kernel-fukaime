@@ -25,9 +25,9 @@
 #include <linux/pm_wakeirq.h>
 #include <linux/slab.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 #define DRIVER_NAME "msic_power_btn"
 

@@ -31,22 +31,22 @@
 #include <linux/serial_reg.h>
 #include <linux/serial_8250.h>
 
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/sections.h>
-#include <asm/pgalloc.h>
-#include <asm/busctl-regs.h>
-#include <asm/serial-regs.h>
-#include <asm/timer-regs.h>
-#include <asm/irc-regs.h>
-#include <asm/spr-regs.h>
-#include <asm/mb-regs.h>
-#include <asm/mb93493-regs.h>
-#include <asm/gdb-stub.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/busctl-regs.h>
+#include <asm-generic/serial-regs.h>
+#include <asm-generic/timer-regs.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/spr-regs.h>
+#include <asm-generic/mb-regs.h>
+#include <asm-generic/mb93493-regs.h>
+#include <asm-generic/gdb-stub.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_BLK_DEV_INITRD
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #endif
 
 #include "local.h"

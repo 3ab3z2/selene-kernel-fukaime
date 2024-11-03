@@ -17,7 +17,7 @@
  *
  * Author: Anton Blanchard <anton@au.ibm.com>
  */
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 
 _GLOBAL(memcpy_power7)
 

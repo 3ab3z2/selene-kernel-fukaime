@@ -12,7 +12,7 @@
  * Debug Facility stuff
  */
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 #ifdef DEBUG
  #define do_debug 1

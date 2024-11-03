@@ -24,8 +24,8 @@
 #include <linux/io.h>
 #include <linux/mm.h>
 #include <linux/timer.h>
-#include <asm/unaligned.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/cacheflush.h>
 
 #include "isp1760-core.h"
 #include "isp1760-hcd.h"

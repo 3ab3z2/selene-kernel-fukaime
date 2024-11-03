@@ -40,8 +40,8 @@
 #include <linux/input.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Logitech busmouse driver");

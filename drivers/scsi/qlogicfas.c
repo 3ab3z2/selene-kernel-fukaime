@@ -27,9 +27,9 @@
 #include <linux/spinlock.h>
 #include <linux/stat.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
 
 #include "scsi.h"
 #include <scsi/scsi_host.h>

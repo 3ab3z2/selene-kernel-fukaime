@@ -41,7 +41,7 @@
 #include <linux/init.h>
 #include <linux/isapnp.h>
 #include <linux/mutex.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "../base.h"
 

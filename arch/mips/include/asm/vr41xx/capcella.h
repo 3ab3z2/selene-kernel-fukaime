@@ -20,7 +20,7 @@
 #ifndef __ZAO_CAPCELLA_H
 #define __ZAO_CAPCELLA_H
 
-#include <asm/vr41xx/irq.h>
+#include <asm-generic/vr41xx/irq.h>
 
 /*
  * General-Purpose I/O Pin Number

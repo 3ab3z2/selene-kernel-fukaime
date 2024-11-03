@@ -37,10 +37,10 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 
-#include <asm/mipsregs.h>
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/xlr/fmn.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/common.h>
 
 #define COP2_CC_INIT_CPU_DEST(dest, conf) \
 do { \

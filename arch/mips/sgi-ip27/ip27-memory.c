@@ -21,14 +21,14 @@
 #include <linux/bootmem.h>
 #include <linux/pfn.h>
 #include <linux/highmem.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sections.h>
 
-#include <asm/sn/arch.h>
-#include <asm/sn/hub.h>
-#include <asm/sn/klconfig.h>
-#include <asm/sn/sn_private.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/hub.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/sn_private.h>
 
 
 #define SLOT_PFNSHIFT		(SLOT_SHIFT - PAGE_SHIFT)

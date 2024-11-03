@@ -12,8 +12,8 @@
 
 #ifdef CONFIG_HIGHMEM
 
-#include <uapi/asm/page.h>
-#include <asm/kmap_types.h>
+#include <uapi/asm-generic/page.h>
+#include <asm-generic/kmap_types.h>
 
 /* start after vmalloc area */
 #define FIXMAP_BASE		(PAGE_OFFSET - FIXMAP_SIZE - PKMAP_SIZE)
@@ -32,7 +32,7 @@
 #define kmap_prot		PAGE_KERNEL
 
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 extern void *kmap(struct page *page);
 extern void *kmap_high(struct page *page);

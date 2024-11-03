@@ -2,7 +2,7 @@
 #ifndef _ASM_SCORE_FIXMAP_H
 #define _ASM_SCORE_FIXMAP_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define PHY_RAM_BASE		0x00000000
 #define PHY_IO_BASE		0x10000000

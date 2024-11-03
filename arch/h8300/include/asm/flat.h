@@ -1,12 +1,12 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * arch/h8300/asm/include/flat.h -- uClinux flat-format executables
+ * arch/h8300/asm-generic/include/flat.h -- uClinux flat-format executables
  */
 
 #ifndef __H8300_FLAT_H__
 #define __H8300_FLAT_H__
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #define	flat_argvp_envp_on_stack()		1
 #define	flat_old_ram_flag(flags)		1

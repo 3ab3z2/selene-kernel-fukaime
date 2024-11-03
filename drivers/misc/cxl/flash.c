@@ -4,7 +4,7 @@
 #include <linux/semaphore.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 #include "cxl.h"
 #include "hcalls.h"

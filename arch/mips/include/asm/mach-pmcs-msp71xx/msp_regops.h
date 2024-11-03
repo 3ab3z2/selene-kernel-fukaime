@@ -18,7 +18,7 @@
   * - There is a bug on the R10000 chips which has a workaround. If you
  * are affected by this bug, make sure to define the symbol 'R10000_LLSC_WAR'
  * to be non-zero.  If you are using this header from within linux, you may
- * include <asm/war.h> before including this file to have this defined
+ * include <asm-generic/war.h> before including this file to have this defined
  * appropriately for you.
  *
  * Copyright 2005-2007 PMC-Sierra, Inc.
@@ -49,8 +49,8 @@
 
 #include <linux/types.h>
 
-#include <asm/compiler.h>
-#include <asm/war.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/war.h>
 
 #ifndef R10000_LLSC_WAR
 #define R10000_LLSC_WAR 0

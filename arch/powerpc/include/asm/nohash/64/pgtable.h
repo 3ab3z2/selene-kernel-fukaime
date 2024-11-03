@@ -7,11 +7,11 @@
  */
 
 #ifdef CONFIG_PPC_64K_PAGES
-#include <asm/nohash/64/pgtable-64k.h>
+#include <asm-generic/nohash/64/pgtable-64k.h>
 #else
-#include <asm/nohash/64/pgtable-4k.h>
+#include <asm-generic/nohash/64/pgtable-4k.h>
 #endif
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #define FIRST_USER_ADDRESS	0UL
 
@@ -86,8 +86,8 @@
 /*
  * Include the PTE bits definitions
  */
-#include <asm/nohash/pte-book3e.h>
-#include <asm/pte-common.h>
+#include <asm-generic/nohash/pte-book3e.h>
+#include <asm-generic/pte-common.h>
 
 #ifndef __ASSEMBLY__
 /* pte_clear moved to later in this file */

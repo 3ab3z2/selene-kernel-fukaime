@@ -34,7 +34,7 @@ search_extable(const struct exception_table_entry *base,
 	 *	word 1: unused
 	 *	word 2: -1
 	 *
-	 * See asm/uaccess.h for more details.
+	 * See asm-generic/uaccess.h for more details.
 	 */
 
 	/* 1. Try to find an exact match. */

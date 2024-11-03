@@ -21,8 +21,8 @@
 
 #include <pcmcia/ss.h>
 
-#include <asm/mach-types.h>
-#include <asm/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/irq.h>
 
 #include <mach/pxa2xx-regs.h>
 #include <mach/mainstone.h>

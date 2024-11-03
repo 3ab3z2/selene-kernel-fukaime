@@ -10,12 +10,12 @@
 #include <linux/init.h>
 #include <linux/io.h>
 #include <linux/clk.h>
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfuart.h>
-#include <asm/mcfdma.h>
-#include <asm/mcfclk.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfuart.h>
+#include <asm-generic/mcfdma.h>
+#include <asm-generic/mcfclk.h>
 
 DEFINE_CLK(0, "flexbus", 2, MCF_CLK);
 DEFINE_CLK(0, "mcfcan.0", 8, MCF_CLK);

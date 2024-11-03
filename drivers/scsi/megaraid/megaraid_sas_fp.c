@@ -55,7 +55,7 @@
 
 #include "megaraid_sas_fusion.h"
 #include "megaraid_sas.h"
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define LB_PENDING_CMDS_DEFAULT 4
 static unsigned int lb_pending_cmds = LB_PENDING_CMDS_DEFAULT;

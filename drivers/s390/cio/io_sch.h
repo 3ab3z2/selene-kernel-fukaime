@@ -3,9 +3,9 @@
 #define S390_IO_SCH_H
 
 #include <linux/types.h>
-#include <asm/schid.h>
-#include <asm/ccwdev.h>
-#include <asm/irq.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/irq.h>
 #include "css.h"
 #include "orb.h"
 

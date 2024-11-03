@@ -9,7 +9,7 @@
 #include <linux/mm.h>
 #include <linux/hugetlb.h>
 
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 #ifdef CONFIG_PPC_FSL_BOOK3E
 #ifdef CONFIG_PPC64
@@ -55,7 +55,7 @@ static inline int mmu_get_tsize(int psize)
 }
 
 #if defined(CONFIG_PPC_FSL_BOOK3E) && defined(CONFIG_PPC64)
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 
 static inline void book3e_tlb_lock(void)
 {

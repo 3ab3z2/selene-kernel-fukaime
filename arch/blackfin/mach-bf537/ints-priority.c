@@ -8,14 +8,14 @@
 
 #include <linux/module.h>
 #include <linux/irq.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
-#include <asm/irq_handler.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/bfin_sport.h>
-#include <asm/bfin_can.h>
-#include <asm/bfin_dma.h>
-#include <asm/dpmc.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/bfin_sport.h>
+#include <asm-generic/bfin_can.h>
+#include <asm-generic/bfin_dma.h>
+#include <asm-generic/dpmc.h>
 
 void __init program_IAR(void)
 {

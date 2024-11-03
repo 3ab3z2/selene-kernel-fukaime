@@ -30,14 +30,14 @@
 #include <linux/syscore_ops.h>
 #include <linux/ratelimit.h>
 
-#include <asm/ptrace.h>
-#include <asm/signal.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/machdep.h>
-#include <asm/mpic.h>
-#include <asm/smp.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/smp.h>
 
 #include "mpic.h"
 

@@ -30,20 +30,20 @@
 #include <linux/pagemap.h>
 #include <linux/rcupdate.h>
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/uaccess.h>
-#include <asm/setup.h>
-#include <asm/pgtable.h>
-#include <asm/tlb.h>
-#include <asm/gdb-stub.h>
-#include <asm/mb-regs.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/gdb-stub.h>
+#include <asm-generic/mb-regs.h>
 
 #include "local.h"
 
 asmlinkage void ret_from_fork(void);
 asmlinkage void ret_from_kernel_thread(void);
 
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 void (*pm_power_off)(void);
 EXPORT_SYMBOL(pm_power_off);

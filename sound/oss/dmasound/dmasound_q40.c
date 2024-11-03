@@ -21,8 +21,8 @@
 #include <linux/interrupt.h>
 
 #include <linux/uaccess.h>
-#include <asm/q40ints.h>
-#include <asm/q40_master.h>
+#include <asm-generic/q40ints.h>
+#include <asm-generic/q40_master.h>
 
 #include "dmasound.h"
 

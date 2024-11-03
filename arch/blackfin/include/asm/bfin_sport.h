@@ -10,7 +10,7 @@
 
 
 #include <linux/types.h>
-#include <uapi/asm/bfin_sport.h>
+#include <uapi/asm-generic/bfin_sport.h>
 
 /*
  * All Blackfin system MMRs are padded to 32bits even if the register

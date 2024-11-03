@@ -12,8 +12,8 @@
 #include <linux/highmem.h>
 #include <linux/kvm_host.h>
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
 
 /*
  * KVM_MMU_CACHE_MIN_PAGES is the number of GPA page table translation levels

@@ -11,8 +11,8 @@
 
 #include <linux/types.h>
 #include <linux/ioctl.h>
-#include <asm/chpid.h>
-#include <asm/schid.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/schid.h>
 
 #define CHSC_SIZE 0x1000
 

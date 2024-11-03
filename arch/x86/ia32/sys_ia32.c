@@ -42,7 +42,7 @@
 #include <linux/sysctl.h>
 #include <linux/slab.h>
 #include <asm/mman.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
 #include <asm/vgtod.h>

@@ -11,7 +11,7 @@
 #define __ASM_TXX9_TX4939_H
 
 /* some controllers are compatible with 4927/4938 */
-#include <asm/txx9/tx4938.h>
+#include <asm-generic/txx9/tx4938.h>
 
 #ifdef CONFIG_64BIT
 #define TX4939_REG_BASE 0xffffffffff1f0000UL /* == TX4938_REG_BASE */

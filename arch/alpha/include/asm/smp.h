@@ -5,7 +5,7 @@
 #include <linux/threads.h>
 #include <linux/cpumask.h>
 #include <linux/bitops.h>
-#include <asm/pal.h>
+#include <asm-generic/pal.h>
 
 /* HACK: Cabrio WHAMI return value is bogus if more than 8 bits used.. :-( */
 
@@ -23,7 +23,7 @@ __hard_smp_processor_id(void)
 
 #ifdef CONFIG_SMP
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 struct cpuinfo_alpha {
 	unsigned long loops_per_jiffy;

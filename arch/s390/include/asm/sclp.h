@@ -8,8 +8,8 @@
 #define _ASM_S390_SCLP_H
 
 #include <linux/types.h>
-#include <asm/chpid.h>
-#include <asm/cpu.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/cpu.h>
 
 #define SCLP_CHP_INFO_MASK_SIZE		32
 #define SCLP_MAX_CORES			256

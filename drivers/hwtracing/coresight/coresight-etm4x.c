@@ -35,9 +35,9 @@
 #include <linux/perf_event.h>
 #include <linux/pm_runtime.h>
 #include <linux/property.h>
-#include <asm/sections.h>
-#include <asm/local.h>
-#include <asm/virt.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/local.h>
+#include <asm-generic/virt.h>
 
 #include "coresight-etm4x.h"
 #include "coresight-etm-perf.h"

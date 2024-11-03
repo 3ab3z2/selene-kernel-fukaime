@@ -2,7 +2,7 @@
 #ifndef _SPARC_TERMIOS_H
 #define _SPARC_TERMIOS_H
 
-#include <uapi/asm/termios.h>
+#include <uapi/asm-generic/termios.h>
 
 
 /*

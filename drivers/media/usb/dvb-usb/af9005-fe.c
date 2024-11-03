@@ -21,7 +21,7 @@
 #include "af9005-script.h"
 #include "mt2060.h"
 #include "qt1010.h"
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 struct af9005_fe_state {
 	struct dvb_usb_device *d;

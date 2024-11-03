@@ -46,11 +46,11 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/signal.h>
 
-#include <asm/param.h>
+#include <asm-generic/param.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/siginfo.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/cacheflush.h>
 #include "audit.h"	/* audit_signal_info() */
 
 /*

@@ -9,7 +9,7 @@
 #ifndef _BFIN_CLOCKS_H
 #define _BFIN_CLOCKS_H
 
-#include <asm/dpmc.h>
+#include <asm-generic/dpmc.h>
 
 #ifdef CONFIG_CCLK_DIV_1
 # define CONFIG_CCLK_ACT_DIV   CCLK_DIV1

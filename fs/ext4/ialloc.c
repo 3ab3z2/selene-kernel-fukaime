@@ -24,7 +24,7 @@
 #include <linux/blkdev.h>
 #include <linux/cred.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ext4.h"
 #include "ext4_jbd2.h"

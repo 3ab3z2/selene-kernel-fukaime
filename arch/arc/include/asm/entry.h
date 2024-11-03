@@ -10,16 +10,16 @@
 #ifndef __ASM_ARC_ENTRY_H
 #define __ASM_ARC_ENTRY_H
 
-#include <asm/unistd.h>		/* For NR_syscalls defination */
-#include <asm/arcregs.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>	/* For VMALLOC_START */
-#include <asm/mmu.h>
+#include <asm-generic/unistd.h>		/* For NR_syscalls defination */
+#include <asm-generic/arcregs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>	/* For VMALLOC_START */
+#include <asm-generic/mmu.h>
 
 #ifdef CONFIG_ISA_ARCOMPACT
-#include <asm/entry-compact.h>	/* ISA specific bits */
+#include <asm-generic/entry-compact.h>	/* ISA specific bits */
 #else
-#include <asm/entry-arcv2.h>
+#include <asm-generic/entry-arcv2.h>
 #endif
 
 /* Note on the LD/ST addr modes with addr reg wback

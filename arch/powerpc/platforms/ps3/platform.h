@@ -24,7 +24,7 @@
 #include <linux/rtc.h>
 #include <scsi/scsi.h>
 
-#include <asm/ps3.h>
+#include <asm-generic/ps3.h>
 
 /* htab */
 

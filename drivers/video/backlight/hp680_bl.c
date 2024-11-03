@@ -20,7 +20,7 @@
 
 #include <cpu/dac.h>
 #include <mach/hp6xx.h>
-#include <asm/hd64461.h>
+#include <asm-generic/hd64461.h>
 
 #define HP680_MAX_INTENSITY 255
 #define HP680_DEFAULT_INTENSITY 10

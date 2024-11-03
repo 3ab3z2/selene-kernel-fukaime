@@ -29,12 +29,12 @@
 #include <linux/pci.h>
 #include <linux/msi.h>
 
-#include <asm/isc.h>
-#include <asm/airq.h>
-#include <asm/facility.h>
-#include <asm/pci_insn.h>
-#include <asm/pci_clp.h>
-#include <asm/pci_dma.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/airq.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/pci_insn.h>
+#include <asm-generic/pci_clp.h>
+#include <asm-generic/pci_dma.h>
 
 #define DEBUG				/* enable pr_debug */
 

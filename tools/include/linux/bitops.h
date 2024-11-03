@@ -2,7 +2,7 @@
 #ifndef _TOOLS_LINUX_BITOPS_H_
 #define _TOOLS_LINUX_BITOPS_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #ifndef __WORDSIZE
 #define __WORDSIZE (__SIZEOF_LONG__ * 8)
 #endif
@@ -27,7 +27,7 @@ extern unsigned long __sw_hweight64(__u64 w);
  * Include this here because some architectures need generic_ffs/fls in
  * scope
  *
- * XXX: this needs to be asm/bitops.h, when we get to per arch optimizations
+ * XXX: this needs to be asm-generic/bitops.h, when we get to per arch optimizations
  */
 #include <asm-generic/bitops.h>
 

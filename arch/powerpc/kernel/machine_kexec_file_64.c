@@ -27,7 +27,7 @@
 #include <linux/memblock.h>
 #include <linux/of_fdt.h>
 #include <linux/libfdt.h>
-#include <asm/ima.h>
+#include <asm-generic/ima.h>
 
 #define SLAVE_CODE_SIZE		256
 

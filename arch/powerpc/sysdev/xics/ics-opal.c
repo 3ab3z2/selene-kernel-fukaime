@@ -22,14 +22,14 @@
 #include <linux/spinlock.h>
 #include <linux/msi.h>
 
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xics.h>
-#include <asm/opal.h>
-#include <asm/firmware.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/firmware.h>
 
 static int ics_opal_mangle_server(int server)
 {

@@ -74,8 +74,8 @@
 #include <linux/sched.h>
 #include <linux/fs_struct.h>
 #include <linux/namei.h>
-#include <asm/current.h>
-#include <asm/unaligned.h>
+#include <asm-generic/current.h>
+#include <asm-generic/unaligned.h>
 
 #include "exfat_version.h"
 #include "exfat_config.h"

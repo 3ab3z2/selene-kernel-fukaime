@@ -21,7 +21,7 @@
  *
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "smu7_thermal.h"
 #include "smu7_hwmgr.h"
 #include "smu7_common.h"

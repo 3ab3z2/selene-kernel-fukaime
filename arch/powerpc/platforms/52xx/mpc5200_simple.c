@@ -26,10 +26,10 @@
  */
 
 #undef DEBUG
-#include <asm/time.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mpc52xx.h>
 
 /*
  * Setup the architecture

@@ -4,7 +4,7 @@
 
 #if defined(__sparc__) && defined(__arch64__)
 /* 64 bit sparc */
-#include <asm/pstate.h>
+#include <asm-generic/pstate.h>
 
 /* This struct defines the way the registers are stored on the
  * stack during a system call and basically all traps.
@@ -92,7 +92,7 @@ struct sparc_trapf {
 #else
 /* 32 bit sparc */
 
-#include <asm/psr.h>
+#include <asm-generic/psr.h>
 
 /* This struct defines the way the registers are stored on the
  * stack during a system call and basically all traps.

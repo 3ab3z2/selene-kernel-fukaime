@@ -37,8 +37,8 @@
 #include <linux/interrupt.h>
 #include <linux/export.h>
 #include <linux/syscore_ops.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
 
 /*
  * The Descriptor Based DMA supports up to 16 channels.

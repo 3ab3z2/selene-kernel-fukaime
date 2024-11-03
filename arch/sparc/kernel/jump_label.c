@@ -7,7 +7,7 @@
 #include <linux/jump_label.h>
 #include <linux/memory.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #ifdef HAVE_JUMP_LABEL
 

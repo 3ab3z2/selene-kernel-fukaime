@@ -23,7 +23,7 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/uaccess.h>
-#include <asm/fixmap.h>
+#include <asm-generic/fixmap.h>
 
 extern pte_t *kmap_pte;
 extern pgprot_t kmap_prot;

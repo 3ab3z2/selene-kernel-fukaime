@@ -17,6 +17,6 @@
 
 #include <asm-generic/percpu.h>
 
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 
 #endif /* _ASM_POWERPC_PERCPU_H_ */

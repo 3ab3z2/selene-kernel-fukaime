@@ -15,11 +15,11 @@
 
 #include <linux/kernel.h>	/* For min/max macros */
 #include <linux/highmem.h>
-#include <asm/setup.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/cache.h>
-#include <asm/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/pgtable.h>
 
 #define PGDIR_ORDER	0
 

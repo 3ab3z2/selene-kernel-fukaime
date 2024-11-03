@@ -25,8 +25,8 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
 
 
     /*

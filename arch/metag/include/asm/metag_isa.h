@@ -1,5 +1,5 @@
 /*
- * asm/metag_isa.h
+ * asm-generic/metag_isa.h
  *
  * Copyright (C) 2000-2007, 2012 Imagination Technologies.
  *

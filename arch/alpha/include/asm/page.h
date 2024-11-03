@@ -3,7 +3,7 @@
 #define _ALPHA_PAGE_H
 
 #include <linux/const.h>
-#include <asm/pal.h>
+#include <asm-generic/pal.h>
 
 /* PAGE_SHIFT determines the page size */
 #define PAGE_SHIFT	13

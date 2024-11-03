@@ -36,14 +36,14 @@
 #include <linux/spinlock.h>
 #include <linux/eisa.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/hardware.h>
-#include <asm/processor.h>
-#include <asm/parisc-device.h>
-#include <asm/delay.h>
-#include <asm/eisa_bus.h>
-#include <asm/eisa_eeprom.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/eisa_bus.h>
+#include <asm-generic/eisa_eeprom.h>
 
 #if 0
 #define EISA_DBG(msg, arg...) printk(KERN_DEBUG "eisa: " msg, ## arg)
@@ -119,7 +119,7 @@ void eisa_out32(unsigned int data, unsigned short port)
 }
 
 #ifndef CONFIG_PCI
-/* We call these directly without PCI.  See asm/io.h. */
+/* We call these directly without PCI.  See asm-generic/io.h. */
 EXPORT_SYMBOL(eisa_in8);
 EXPORT_SYMBOL(eisa_in16);
 EXPORT_SYMBOL(eisa_in32);

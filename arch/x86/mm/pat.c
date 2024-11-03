@@ -18,18 +18,18 @@
 #include <linux/fs.h>
 #include <linux/rbtree.h>
 
-#include <asm/cacheflush.h>
-#include <asm/processor.h>
-#include <asm/tlbflush.h>
-#include <asm/x86_init.h>
-#include <asm/pgtable.h>
-#include <asm/fcntl.h>
-#include <asm/e820/api.h>
-#include <asm/mtrr.h>
-#include <asm/page.h>
-#include <asm/msr.h>
-#include <asm/pat.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/x86_init.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/fcntl.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/mtrr.h>
+#include <asm-generic/page.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/io.h>
 
 #include "pat_internal.h"
 #include "mm_internal.h"

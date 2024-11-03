@@ -3,7 +3,7 @@
 #define _SPARC_SWAB_H
 
 #include <linux/types.h>
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 #if defined(__sparc__) && defined(__arch64__)
 static inline __u16 __arch_swab16p(const __u16 *addr)

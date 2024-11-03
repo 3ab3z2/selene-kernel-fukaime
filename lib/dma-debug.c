@@ -35,7 +35,7 @@
 #include <linux/list.h>
 #include <linux/slab.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #define HASH_SIZE       1024ULL
 #define HASH_FN_SHIFT   13

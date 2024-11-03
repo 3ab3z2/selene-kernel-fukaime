@@ -7,9 +7,9 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/crw.h>
-#include <uapi/asm/chpid.h>
-#include <uapi/asm/schid.h>
+#include <asm-generic/crw.h>
+#include <uapi/asm-generic/chpid.h>
+#include <uapi/asm-generic/schid.h>
 #include "cio.h"
 #include "orb.h"
 

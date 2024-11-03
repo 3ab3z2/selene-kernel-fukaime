@@ -11,9 +11,9 @@
 
 #include <linux/sys.h>
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/spr-regs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/spr-regs.h>
 
 .macro DEBUG ch
 #	sethi.p		%hi(0xfeff9c00),gr4

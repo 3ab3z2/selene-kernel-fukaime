@@ -2,7 +2,7 @@
 #ifndef _SPARC64_HEAD_H
 #define _SPARC64_HEAD_H
 
-#include <asm/pstate.h>
+#include <asm-generic/pstate.h>
 
 	/* wrpr	%g0, val, %gl */
 #define SET_GL(val)	\

@@ -32,8 +32,8 @@
 
 #include <xen/acpi.h>
 #include <xen/interface/platform.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 static int xen_acpi_notify_hypervisor_state(u8 sleep_state,
 					    u32 val_a, u32 val_b,

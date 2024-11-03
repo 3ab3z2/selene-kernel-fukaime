@@ -10,7 +10,7 @@
  */
 
 #include <linux/serial_reg.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson1.h>
 #include <prom.h>

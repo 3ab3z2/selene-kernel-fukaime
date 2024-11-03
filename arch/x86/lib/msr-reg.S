@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
 #include <linux/errno.h>
-#include <asm/asm.h>
-#include <asm/msr.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/msr.h>
 
 #ifdef CONFIG_X86_64
 /*

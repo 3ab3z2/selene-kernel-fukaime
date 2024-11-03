@@ -18,10 +18,10 @@
 #include <linux/err.h>
 #include <linux/reboot.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/cpcmd.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/ebcdic.h>
 
 #include "raw3270.h"
 #include "tty3270.h"

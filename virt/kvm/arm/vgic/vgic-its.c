@@ -27,9 +27,9 @@
 
 #include <linux/irqchip/arm-gic-v3.h>
 
-#include <asm/kvm_emulate.h>
-#include <asm/kvm_arm.h>
-#include <asm/kvm_mmu.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/kvm_arm.h>
+#include <asm-generic/kvm_mmu.h>
 
 #include "vgic.h"
 #include "vgic-mmio.h"

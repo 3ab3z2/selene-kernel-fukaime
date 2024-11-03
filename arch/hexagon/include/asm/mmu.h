@@ -19,7 +19,7 @@
 #ifndef _ASM_MMU_H
 #define _ASM_MMU_H
 
-#include <asm/vdso.h>
+#include <asm-generic/vdso.h>
 
 /*
  * Architecture-specific state for a mm_struct.

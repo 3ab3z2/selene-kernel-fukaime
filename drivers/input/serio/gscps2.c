@@ -32,9 +32,9 @@
 #include <linux/delay.h>
 #include <linux/ioport.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/parisc-device.h>
 
 MODULE_AUTHOR("Laurent Canet <canetl@esiee.fr>, Thibaut Varene <varenet@parisc-linux.org>, Helge Deller <deller@gmx.de>");
 MODULE_DESCRIPTION("HP GSC PS2 port driver");

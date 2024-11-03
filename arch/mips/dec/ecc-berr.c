@@ -18,19 +18,19 @@
 #include <linux/sched.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/cpu-type.h>
-#include <asm/irq_regs.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/traps.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/traps.h>
 
-#include <asm/dec/ecc.h>
-#include <asm/dec/kn02.h>
-#include <asm/dec/kn03.h>
-#include <asm/dec/kn05.h>
+#include <asm-generic/dec/ecc.h>
+#include <asm-generic/dec/kn02.h>
+#include <asm-generic/dec/kn03.h>
+#include <asm-generic/dec/kn05.h>
 
 static volatile u32 *kn0x_erraddr;
 static volatile u32 *kn0x_chksyn;

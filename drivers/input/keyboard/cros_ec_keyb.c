@@ -35,7 +35,7 @@
 #include <linux/mfd/cros_ec.h>
 #include <linux/mfd/cros_ec_commands.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * @rows: Number of rows in the keypad

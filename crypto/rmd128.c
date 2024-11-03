@@ -18,7 +18,7 @@
 #include <linux/module.h>
 #include <linux/mm.h>
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ripemd.h"
 

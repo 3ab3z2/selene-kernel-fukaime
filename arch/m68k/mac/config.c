@@ -28,24 +28,24 @@
 #include <linux/cuda.h>
 #include <linux/rtc.h>
 
-#include <asm/setup.h>
-#include <asm/bootinfo.h>
-#include <asm/bootinfo-mac.h>
-#include <asm/byteorder.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bootinfo-mac.h>
+#include <asm-generic/byteorder.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/pgtable.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machdep.h>
 
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/machw.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/machw.h>
 
-#include <asm/mac_iop.h>
-#include <asm/mac_via.h>
-#include <asm/mac_oss.h>
-#include <asm/mac_psc.h>
+#include <asm-generic/mac_iop.h>
+#include <asm-generic/mac_via.h>
+#include <asm-generic/mac_oss.h>
+#include <asm-generic/mac_psc.h>
 
 /* Mac bootinfo struct */
 struct mac_booter_data mac_bi_data;

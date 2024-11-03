@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/asm/sunbpp.h
+ * include/asm-generic/sunbpp.h
  */
 
 #ifndef _ASM_SPARC_SUNBPP_H

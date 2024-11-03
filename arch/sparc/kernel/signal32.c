@@ -23,13 +23,13 @@
 #include <linux/tracehook.h>
 
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/pgtable.h>
-#include <asm/psrcompat.h>
-#include <asm/fpumacro.h>
-#include <asm/visasm.h>
-#include <asm/compat_signal.h>
-#include <asm/switch_to.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/psrcompat.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/compat_signal.h>
+#include <asm-generic/switch_to.h>
 
 #include "sigutil.h"
 #include "kernel.h"

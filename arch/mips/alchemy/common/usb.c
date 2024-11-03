@@ -15,8 +15,8 @@
 #include <linux/io.h>
 #include <linux/spinlock.h>
 #include <linux/syscore_ops.h>
-#include <asm/cpu.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 /* control register offsets */
 #define AU1000_OHCICFG	0x7fffc

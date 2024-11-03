@@ -24,7 +24,7 @@
 /*
  * A lot of the fixmap info is already in mem-layout.h
  */
-#include <asm/mem-layout.h>
+#include <asm-generic/mem-layout.h>
 
 #include <asm-generic/fixmap.h>
 

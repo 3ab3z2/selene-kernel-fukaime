@@ -28,7 +28,7 @@
 #include <linux/mm.h>
 #include <linux/platform_data/x86/apple.h>
 #include <linux/pm_runtime.h>
-#include <asm/dma.h>	/* isa_dma_bridge_buggy */
+#include <asm-generic/dma.h>	/* isa_dma_bridge_buggy */
 #include "pci.h"
 
 /*
@@ -774,7 +774,7 @@ DECLARE_PCI_FIXUP_FINAL(PCI_VENDOR_ID_TI, PCI_DEVICE_ID_TI_XIO2000A,
 
 #ifdef CONFIG_X86_IO_APIC
 
-#include <asm/io_apic.h>
+#include <asm-generic/io_apic.h>
 
 /*
  * VIA 686A/B: If an IO-APIC is active, we need to route all on-chip

@@ -11,13 +11,13 @@
 #include <linux/spinlock.h>
 #include <linux/interrupt.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-pci-defs.h>
-#include <asm/octeon/cvmx-npei-defs.h>
-#include <asm/octeon/cvmx-sli-defs.h>
-#include <asm/octeon/cvmx-pexp-defs.h>
-#include <asm/octeon/pci-octeon.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-pci-defs.h>
+#include <asm-generic/octeon/cvmx-npei-defs.h>
+#include <asm-generic/octeon/cvmx-sli-defs.h>
+#include <asm-generic/octeon/cvmx-pexp-defs.h>
+#include <asm-generic/octeon/pci-octeon.h>
 
 /*
  * Each bit in msi_free_irq_bitmask represents a MSI interrupt that is

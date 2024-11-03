@@ -8,7 +8,7 @@
  * Needs:
  *     void check_bugs(void);
  */
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 static void __init check_bugs(void)
 {

@@ -36,7 +36,7 @@
 #define _SB1250_DMA_H
 
 
-#include <asm/sibyte/sb1250_defs.h>
+#include <asm-generic/sibyte/sb1250_defs.h>
 
 /*  *********************************************************************
     *  DMA Registers

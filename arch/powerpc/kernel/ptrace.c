@@ -35,11 +35,11 @@
 #include <linux/context_tracking.h>
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/switch_to.h>
-#include <asm/tm.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/asm-prototypes.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/syscalls.h>

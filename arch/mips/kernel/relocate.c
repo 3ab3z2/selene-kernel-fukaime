@@ -8,12 +8,12 @@
  * Copyright (C) 2015, Imagination Technologies Ltd.
  * Authors: Matt Redfearn (matt.redfearn@mips.com)
  */
-#include <asm/bootinfo.h>
-#include <asm/cacheflush.h>
-#include <asm/fw/fw.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/timex.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/timex.h>
 #include <linux/elf.h>
 #include <linux/kernel.h>
 #include <linux/libfdt.h>

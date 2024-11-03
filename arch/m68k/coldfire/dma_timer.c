@@ -10,10 +10,10 @@
 #include <linux/clocksource.h>
 #include <linux/io.h>
 
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/mcfpit.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfpit.h>
+#include <asm-generic/mcfsim.h>
 
 #define DMA_TIMER_0	(0x00)
 #define DMA_TIMER_1	(0x40)

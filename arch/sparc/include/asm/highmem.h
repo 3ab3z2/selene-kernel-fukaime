@@ -22,9 +22,9 @@
 #ifdef __KERNEL__
 
 #include <linux/interrupt.h>
-#include <asm/vaddrs.h>
-#include <asm/kmap_types.h>
-#include <asm/pgtable.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/pgtable.h>
 
 /* declarations for highmem.c */
 extern unsigned long highstart_pfn, highend_pfn;

@@ -17,7 +17,7 @@
  *
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/dvb/frontend.h>
 #include <linux/slab.h>
 #include "dvb_math.h"

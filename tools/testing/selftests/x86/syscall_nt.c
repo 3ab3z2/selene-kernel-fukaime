@@ -21,7 +21,7 @@
 #include <signal.h>
 #include <err.h>
 #include <sys/syscall.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/processor-flags.h>
 
 #ifdef __x86_64__
 # define WIDTH "q"

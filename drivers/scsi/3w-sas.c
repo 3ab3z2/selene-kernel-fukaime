@@ -62,8 +62,8 @@
 #include <linux/time.h>
 #include <linux/mutex.h>
 #include <linux/slab.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 #include <linux/uaccess.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_host.h>

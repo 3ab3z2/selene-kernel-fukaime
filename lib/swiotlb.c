@@ -34,8 +34,8 @@
 #include <linux/scatterlist.h>
 #include <linux/mem_encrypt.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
 
 #include <linux/init.h>
 #include <linux/bootmem.h>

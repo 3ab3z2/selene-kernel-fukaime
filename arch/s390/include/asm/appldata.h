@@ -8,8 +8,8 @@
 #ifndef _ASM_S390_APPLDATA_H
 #define _ASM_S390_APPLDATA_H
 
-#include <asm/diag.h>
-#include <asm/io.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/io.h>
 
 #define APPLDATA_START_INTERVAL_REC	0x80
 #define APPLDATA_STOP_REC		0x81

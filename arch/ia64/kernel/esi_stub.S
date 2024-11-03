@@ -33,9 +33,9 @@
 #define PSR_BITS_TO_SET							\
 	(IA64_PSR_BN)
 
-#include <asm/processor.h>
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 /*
  * Inputs:

@@ -45,9 +45,9 @@
 #include <linux/platform_device.h>
 #include <linux/io.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 #define DRIVER_AUTHOR "Yuan-Hsin Chen"
 #define DRIVER_DESC "FOTG210 Host Controller (EHCI) Driver"

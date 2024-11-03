@@ -9,7 +9,7 @@
 
 #include <errno.h>
 #include <libunwind.h>
-#include <asm/perf_regs.h>
+#include <asm-generic/perf_regs.h>
 #include "../../util/unwind.h"
 #include "../../util/debug.h"
 

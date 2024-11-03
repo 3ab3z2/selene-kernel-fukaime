@@ -17,10 +17,10 @@
 #include <linux/of_address.h>
 #include <linux/of_platform.h>
 #include <linux/crash_dump.h>
-#include <asm/opal.h>
-#include <asm/io.h>
-#include <asm/imc-pmu.h>
-#include <asm/cputhreads.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/io.h>
+#include <asm-generic/imc-pmu.h>
+#include <asm-generic/cputhreads.h>
 
 /*
  * imc_get_mem_addr_nest: Function to get nest counter memory region

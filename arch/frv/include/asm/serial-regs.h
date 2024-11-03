@@ -13,7 +13,7 @@
 #define _ASM_SERIAL_REGS_H
 
 #include <linux/serial_reg.h>
-#include <asm/irc-regs.h>
+#include <asm-generic/irc-regs.h>
 
 #define SERIAL_ICLK	33333333	/* the target serial input clock */
 #define UART0_BASE	0xfeff9c00

@@ -32,7 +32,7 @@
 
 #include <linux/init.h>
 #include <linux/numa.h>
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 
 #ifdef	CONFIG_ACPI
 extern int acpi_lapic;

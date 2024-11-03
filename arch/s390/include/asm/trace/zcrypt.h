@@ -117,7 +117,7 @@ TRACE_EVENT(s390_zcrypt_rep,
 #undef TRACE_INCLUDE_PATH
 #undef TRACE_INCLUDE_FILE
 
-#define TRACE_INCLUDE_PATH asm/trace
+#define TRACE_INCLUDE_PATH asm-generic/trace
 #define TRACE_INCLUDE_FILE zcrypt
 
 #include <trace/define_trace.h>

@@ -13,7 +13,7 @@
 #include <linux/sched/mm.h>
 #include <linux/sched/task.h>
 #include <linux/mm.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #define NR_CXN	4096
 

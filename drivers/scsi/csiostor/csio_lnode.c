@@ -38,7 +38,7 @@
 #include <linux/utsname.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_transport_fc.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <scsi/fc/fc_els.h>
 #include <scsi/fc/fc_fs.h>
 #include <scsi/fc/fc_gs.h>

@@ -24,7 +24,7 @@
 
 #include <trace/events/sched.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #include "trace_output.h"
 

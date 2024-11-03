@@ -15,9 +15,9 @@
 #include <linux/kernel_stat.h>
 #include <linux/irq.h>
 #include <linux/io.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/traps.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/traps.h>
 
 /*
  * The 5272 ColdFire interrupt controller is nothing like any other

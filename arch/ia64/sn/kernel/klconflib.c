@@ -10,9 +10,9 @@
 #include <linux/ctype.h>
 #include <linux/string.h>
 #include <linux/kernel.h>
-#include <asm/sn/types.h>
-#include <asm/sn/module.h>
-#include <asm/sn/l1.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/module.h>
+#include <asm-generic/sn/l1.h>
 
 char brick_types[MAX_BRICK_TYPES + 1] = "cri.xdpn%#=vo^kjbf890123456789...";
 /*

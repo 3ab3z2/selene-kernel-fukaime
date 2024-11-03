@@ -35,8 +35,8 @@
 #include <linux/interrupt.h>
 #include <linux/mutex.h>
 
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Driver for Amiga joysticks");

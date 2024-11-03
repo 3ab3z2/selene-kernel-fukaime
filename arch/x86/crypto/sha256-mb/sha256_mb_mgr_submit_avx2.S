@@ -52,7 +52,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/frame.h>
+#include <asm-generic/frame.h>
 #include "sha256_mb_mgr_datastruct.S"
 
 .extern sha256_x8_avx2

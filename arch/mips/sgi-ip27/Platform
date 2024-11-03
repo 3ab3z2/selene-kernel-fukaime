@@ -7,7 +7,7 @@
 #
 ifdef CONFIG_SGI_IP27
 platform-$(CONFIG_SGI_IP27)	+= sgi-ip27/
-cflags-$(CONFIG_SGI_IP27)	+= -I$(srctree)/arch/mips/include/asm/mach-ip27
+cflags-$(CONFIG_SGI_IP27)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-ip27
 ifdef CONFIG_MAPPED_KERNEL
 load-$(CONFIG_SGI_IP27)		+= 0xc00000004001c000
 OBJCOPYFLAGS			:= --change-addresses=0x3fffffff80000000

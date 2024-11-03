@@ -22,9 +22,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/lasat/lasat.h>
-#include <asm/lasat/lasatint.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/lasat/lasat.h>
+#include <asm-generic/lasat/lasatint.h>
 
 #include <irq.h>
 

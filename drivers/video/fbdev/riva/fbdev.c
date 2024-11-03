@@ -42,8 +42,8 @@
 #include <linux/backlight.h>
 #include <linux/bitrev.h>
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/machdep.h>
-#include <asm/backlight.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/backlight.h>
 #endif
 
 #include "rivafb.h"

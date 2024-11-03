@@ -70,7 +70,7 @@
 #include <linux/reboot.h>
 #include <linux/dmi.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #include <video/mach64.h>
@@ -78,14 +78,14 @@
 #include "ati_ids.h"
 
 #ifdef __powerpc__
-#include <asm/machdep.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
 #include "../macmodes.h"
 #endif
 #ifdef __sparc__
-#include <asm/fbio.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
+#include <asm-generic/fbio.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
 #endif
 
 #ifdef CONFIG_ADB_PMU
@@ -93,10 +93,10 @@
 #include <linux/pmu.h>
 #endif
 #ifdef CONFIG_BOOTX_TEXT
-#include <asm/btext.h>
+#include <asm-generic/btext.h>
 #endif
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 /*

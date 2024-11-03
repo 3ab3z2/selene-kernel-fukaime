@@ -14,8 +14,8 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 #define IRQ_STATUS		0x00
 #define IRQ_RAW_STATUS		0x04

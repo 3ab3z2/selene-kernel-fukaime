@@ -47,7 +47,7 @@
 #include <linux/jiffies.h>
 #include <linux/random.h>
 #include <linux/scatterlist.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include "DAC960.h"
 

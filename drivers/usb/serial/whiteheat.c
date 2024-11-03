@@ -26,7 +26,7 @@
 #include <linux/spinlock.h>
 #include <linux/mutex.h>
 #include <linux/uaccess.h>
-#include <asm/termbits.h>
+#include <asm-generic/termbits.h>
 #include <linux/usb.h>
 #include <linux/serial_reg.h>
 #include <linux/serial.h>

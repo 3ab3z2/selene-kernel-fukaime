@@ -5,11 +5,11 @@
 #include <linux/spinlock.h>
 #include <linux/smp.h>
 #include <linux/atomic.h>
-#include <asm/sn/types.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/nmi.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/nmi.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/sn0/hub.h>
 
 #if 0
 #define NODE_NUM_CPUS(n)	CNODE_NUM_CPUS(n)

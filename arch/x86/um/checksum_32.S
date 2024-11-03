@@ -25,9 +25,9 @@
  *		2 of the License, or (at your option) any later version.
  */
 
-#include <asm/errno.h>
-#include <asm/asm.h>
-#include <asm/export.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/export.h>
 				
 /*
  * computes a partial checksum, e.g. for TCP/UDP fragments

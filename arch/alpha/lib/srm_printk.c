@@ -4,7 +4,7 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/console.h>
+#include <asm-generic/console.h>
 
 long
 srm_printk(const char *fmt, ...)

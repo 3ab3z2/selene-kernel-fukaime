@@ -14,8 +14,8 @@
 #include <linux/slab.h>
 #include <linux/syscalls.h>
 
-#include <asm/cacheflush.h>
-#include <asm/traps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/traps.h>
 
 /* sys_cacheflush -- flush the processor cache. */
 asmlinkage int sys_cacheflush(unsigned long addr, unsigned long len,

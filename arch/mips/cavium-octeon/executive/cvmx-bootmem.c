@@ -33,9 +33,9 @@
 #include <linux/export.h>
 #include <linux/kernel.h>
 
-#include <asm/octeon/cvmx.h>
-#include <asm/octeon/cvmx-spinlock.h>
-#include <asm/octeon/cvmx-bootmem.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/octeon/cvmx-spinlock.h>
+#include <asm-generic/octeon/cvmx-bootmem.h>
 
 /*#define DEBUG */
 

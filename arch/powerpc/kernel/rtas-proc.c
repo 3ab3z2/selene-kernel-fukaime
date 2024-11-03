@@ -26,12 +26,12 @@
 #include <linux/rtc.h>
 
 #include <linux/uaccess.h>
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/machdep.h> /* for ppc_md */
-#include <asm/time.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/machdep.h> /* for ppc_md */
+#include <asm-generic/time.h>
 
 /* Token for Sensors */
 #define KEY_SWITCH		0x0001

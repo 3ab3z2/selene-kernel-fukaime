@@ -12,7 +12,7 @@
 #include <linux/module.h>
 #include <linux/sched/debug.h>
 
-#include <asm/trace.h>
+#include <asm-generic/trace.h>
 
 /*
  * Checks to see if the address pointed to is either a

@@ -38,7 +38,7 @@
 #include <linux/mm.h>
 #include <linux/irq.h>
 #include <linux/slab.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "r8a66597.h"
 

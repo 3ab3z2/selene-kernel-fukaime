@@ -2,7 +2,7 @@
 #ifndef _ASM_TLB_H
 #define _ASM_TLB_H
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #ifdef CONFIG_MMU
 extern void check_pgt_cache(void);

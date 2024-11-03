@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/thread_info.h>
-#include <asm/cache.h>
-#include <asm/page.h>
-#include <asm/setup.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
 
 OUTPUT_FORMAT("elf64-alpha")
 OUTPUT_ARCH(alpha)

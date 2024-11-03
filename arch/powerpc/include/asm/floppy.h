@@ -11,7 +11,7 @@
 #define __ASM_POWERPC_FLOPPY_H
 #ifdef __KERNEL__
 
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 #define fd_inb(port)		inb_p(port)
 #define fd_outb(value,port)	outb_p(value,port)
@@ -29,7 +29,7 @@
 #define fd_free_irq()           free_irq(FLOPPY_IRQ, NULL);
 
 #include <linux/pci.h>
-#include <asm/ppc-pci.h>	/* for isa_bridge_pcidev */
+#include <asm-generic/ppc-pci.h>	/* for isa_bridge_pcidev */
 
 #define fd_dma_setup(addr,size,mode,io) fd_ops->_dma_setup(addr,size,mode,io)
 

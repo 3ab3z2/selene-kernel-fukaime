@@ -14,10 +14,10 @@
 #include <linux/signal.h>
 #include <linux/syscalls.h>
 
-#include <asm/compat.h>
-#include <asm/compat-signal.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/compat-signal.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #include "signal-common.h"
 

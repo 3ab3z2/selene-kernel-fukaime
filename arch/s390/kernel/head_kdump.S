@@ -6,7 +6,7 @@
  * Author(s): Michael Holzheu <holzheu@linux.vnet.ibm.com>
  */
 
-#include <asm/sigp.h>
+#include <asm-generic/sigp.h>
 
 #define DATAMOVER_ADDR	0x4000
 #define COPY_PAGE_ADDR	0x6000

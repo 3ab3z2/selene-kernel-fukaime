@@ -24,8 +24,8 @@
 #include <linux/uaccess.h>
 
 #include <clocksource/arm_arch_timer.h>
-#include <asm/arch_timer.h>
-#include <asm/kvm_hyp.h>
+#include <asm-generic/arch_timer.h>
+#include <asm-generic/kvm_hyp.h>
 
 #include <kvm/arm_vgic.h>
 #include <kvm/arm_arch_timer.h>

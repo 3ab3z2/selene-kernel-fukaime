@@ -3,9 +3,9 @@
 #include <linux/errno.h>
 #include <linux/init.h>
 
-#include <asm/pgtable.h>
-#include <asm/proto.h>
-#include <asm/cpufeature.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/cpufeature.h>
 
 static int disable_nx;
 

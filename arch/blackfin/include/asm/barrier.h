@@ -8,7 +8,7 @@
 #ifndef _BLACKFIN_BARRIER_H
 #define _BLACKFIN_BARRIER_H
 
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 #define nop()  __asm__ __volatile__ ("nop;\n\t" : : )
 

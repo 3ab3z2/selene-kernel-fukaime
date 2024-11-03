@@ -27,9 +27,9 @@
 #include <linux/stddef.h>
 #include <linux/tracehook.h>
 
-#include <asm/processor.h>
-#include <asm/syscall.h>
-#include <asm/ucontext.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
 
 #define DEBUG_SIG 0

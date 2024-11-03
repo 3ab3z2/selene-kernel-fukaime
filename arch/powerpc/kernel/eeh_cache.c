@@ -25,8 +25,8 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 #include <linux/atomic.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
 
 
 /**

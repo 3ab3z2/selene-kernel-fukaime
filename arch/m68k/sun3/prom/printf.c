@@ -11,8 +11,8 @@
 
 #include <linux/kernel.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 #ifdef CONFIG_KGDB
 extern int kgdb_initialized;

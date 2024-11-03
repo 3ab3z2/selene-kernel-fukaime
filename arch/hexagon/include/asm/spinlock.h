@@ -22,9 +22,9 @@
 #ifndef _ASM_SPINLOCK_H
 #define _ASM_SPINLOCK_H
 
-#include <asm/irqflags.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/irqflags.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 /*
  * This file is pulled in for SMP builds.

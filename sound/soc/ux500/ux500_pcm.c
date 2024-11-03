@@ -12,7 +12,7 @@
  * by the Free Software Foundation.
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include <linux/module.h>
 #include <linux/dma-mapping.h>

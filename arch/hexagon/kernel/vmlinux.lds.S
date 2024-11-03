@@ -19,9 +19,9 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/asm-offsets.h>	/*  Most of the kernel defines are here  */
-#include <asm/mem-layout.h>	/*  except for page_offset  */
-#include <asm/cache.h>		/*  and now we're pulling cache line size  */
+#include <asm-generic/asm-offsets.h>	/*  Most of the kernel defines are here  */
+#include <asm-generic/mem-layout.h>	/*  except for page_offset  */
+#include <asm-generic/cache.h>		/*  and now we're pulling cache line size  */
 OUTPUT_ARCH(hexagon)
 ENTRY(stext)
 

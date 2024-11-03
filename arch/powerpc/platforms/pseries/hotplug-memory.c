@@ -18,11 +18,11 @@
 #include <linux/memory_hotplug.h>
 #include <linux/slab.h>
 
-#include <asm/firmware.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/sparsemem.h>
-#include <asm/fadump.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/sparsemem.h>
+#include <asm-generic/fadump.h>
 #include "pseries.h"
 
 static bool rtas_hp_event;

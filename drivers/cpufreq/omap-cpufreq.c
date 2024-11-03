@@ -31,8 +31,8 @@
 #include <linux/platform_device.h>
 #include <linux/regulator/consumer.h>
 
-#include <asm/smp_plat.h>
-#include <asm/cpu.h>
+#include <asm-generic/smp_plat.h>
+#include <asm-generic/cpu.h>
 
 /* OPP tolerance in percentage */
 #define	OPP_TOLERANCE	4

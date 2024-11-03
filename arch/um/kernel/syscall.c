@@ -9,10 +9,10 @@
 #include <linux/sched.h>
 #include <linux/utsname.h>
 #include <linux/syscalls.h>
-#include <asm/current.h>
-#include <asm/mman.h>
+#include <asm-generic/current.h>
+#include <asm-generic/mman.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 long old_mmap(unsigned long addr, unsigned long len,
 	      unsigned long prot, unsigned long flags,

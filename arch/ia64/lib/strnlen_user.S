@@ -13,8 +13,8 @@
  * Copyright (C) 1999, 2001 David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 GLOBAL_ENTRY(__strnlen_user)
 	.prologue

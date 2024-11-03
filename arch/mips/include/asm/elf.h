@@ -14,7 +14,7 @@
 
 #include <uapi/linux/elf.h>
 
-#include <asm/current.h>
+#include <asm-generic/current.h>
 
 /* ELF header e_flags defines. */
 /* MIPS architecture level. */
@@ -434,7 +434,7 @@ do {									\
 
 #define ELF_HWCAP	(elf_hwcap)
 extern unsigned int elf_hwcap;
-#include <asm/hwcap.h>
+#include <asm-generic/hwcap.h>
 
 /*
  * This yields a string that ld.so will use to load implementation

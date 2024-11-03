@@ -13,8 +13,8 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 
-#include <asm/mpic.h>
-#include <asm/i8259.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/i8259.h>
 
 #ifdef CONFIG_PPC_I8259
 static void mpc86xx_8259_cascade(struct irq_desc *desc)

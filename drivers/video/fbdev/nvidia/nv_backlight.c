@@ -14,7 +14,7 @@
 #include <linux/pci.h>
 
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 #include "nv_local.h"

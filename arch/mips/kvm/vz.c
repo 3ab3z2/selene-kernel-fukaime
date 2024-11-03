@@ -14,17 +14,17 @@
 #include <linux/module.h>
 #include <linux/preempt.h>
 #include <linux/vmalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/cacheops.h>
-#include <asm/cmpxchg.h>
-#include <asm/fpu.h>
-#include <asm/hazards.h>
-#include <asm/inst.h>
-#include <asm/mmu_context.h>
-#include <asm/r4kcache.h>
-#include <asm/time.h>
-#include <asm/tlb.h>
-#include <asm/tlbex.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/time.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbex.h>
 
 #include <linux/kvm_host.h>
 

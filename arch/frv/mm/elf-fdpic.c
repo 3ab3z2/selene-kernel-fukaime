@@ -14,7 +14,7 @@
 #include <linux/mm.h>
 #include <linux/fs.h>
 #include <linux/elf-fdpic.h>
-#include <asm/mman.h>
+#include <asm-generic/mman.h>
 
 /*****************************************************************************/
 /*

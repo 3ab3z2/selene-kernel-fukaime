@@ -31,9 +31,9 @@
 #include <linux/gfp.h>
 
 #include <mach/hardware.h>
-#include <asm/irq.h>
-#include <asm/mach-types.h>
-#include <asm/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/pgtable.h>
 
 #include "acornfb.h"
 

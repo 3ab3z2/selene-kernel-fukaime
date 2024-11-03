@@ -7,7 +7,7 @@
  *
  */
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 static void m32r_putc(char c);
 
@@ -20,8 +20,8 @@ static int puts(const char *s)
 }
 
 #if defined(CONFIG_PLAT_M32700UT) || defined(CONFIG_PLAT_OPSPUT)
-#include <asm/m32r.h>
-#include <asm/io.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/io.h>
 
 #define USE_FPGA_MAP	0
 

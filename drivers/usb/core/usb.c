@@ -41,7 +41,7 @@
 #include <linux/debugfs.h>
 #include <linux/usb/of.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/scatterlist.h>
 #include <linux/mm.h>
 #include <linux/dma-mapping.h>

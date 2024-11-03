@@ -40,10 +40,10 @@
 #include <linux/sched.h>
 #include <linux/smp.h>
 
-#include <asm/hw_breakpoint.h>
-#include <asm/processor.h>
-#include <asm/debugreg.h>
-#include <asm/user.h>
+#include <asm-generic/hw_breakpoint.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/debugreg.h>
+#include <asm-generic/user.h>
 
 /* Per cpu debug control register value */
 DEFINE_PER_CPU(unsigned long, cpu_dr7);

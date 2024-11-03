@@ -6,7 +6,7 @@
  * Licensed under the GPLv2 or later
  */
 
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 #include "pinctrl-adi2.h"
 
 static const struct pinctrl_pin_desc adi_pads[] = {

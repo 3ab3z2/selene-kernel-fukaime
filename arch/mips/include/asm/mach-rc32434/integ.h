@@ -29,7 +29,7 @@
 #ifndef __RC32434_INTEG_H__
 #define __RC32434_INTEG_H__
 
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 #define INTEG0_BASE_ADDR	0x18030030
 

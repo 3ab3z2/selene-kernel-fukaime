@@ -24,8 +24,8 @@
 #include <linux/pci.h>
 #include <linux/ioport.h>
 #include <linux/io.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cisreg.h>

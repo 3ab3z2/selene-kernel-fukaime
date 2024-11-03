@@ -15,7 +15,7 @@
 #include <linux/device.h>
 #include <linux/spi/spi.h>
 #include <linux/spi/eeprom.h>
-#include <asm/txx9/spi.h>
+#include <asm-generic/txx9/spi.h>
 
 #define AT250X0_PAGE_SIZE	8
 

@@ -10,7 +10,7 @@
  */
 
 #include <linux/platform_device.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 #include "dev-spi.h"
 
 static struct resource ath79_spi_resources[] = {

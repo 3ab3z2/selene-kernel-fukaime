@@ -35,9 +35,9 @@
 #include <linux/edac.h>
 #include <linux/mmzone.h>
 #include <linux/smp.h>
-#include <asm/mce.h>
-#include <asm/processor.h>
-#include <asm/div64.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/div64.h>
 
 #include "edac_module.h"
 

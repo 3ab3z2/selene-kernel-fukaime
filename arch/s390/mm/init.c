@@ -30,18 +30,18 @@
 #include <linux/cma.h>
 #include <linux/gfp.h>
 #include <linux/memblock.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/dma.h>
-#include <asm/lowcore.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/sections.h>
-#include <asm/ctl_reg.h>
-#include <asm/sclp.h>
-#include <asm/set_memory.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/set_memory.h>
 
 pgd_t swapper_pg_dir[PTRS_PER_PGD] __section(.bss..swapper_pg_dir);
 

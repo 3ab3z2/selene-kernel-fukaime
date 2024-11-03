@@ -14,7 +14,7 @@
 #include <linux/of_device.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/auxio.h>
+#include <asm-generic/auxio.h>
 
 /*
  * Define this to enable exchanging drive 0 and 1 if only drive 1 is
@@ -281,8 +281,8 @@ static int sun_fd_eject(int drive)
 	return 0;
 }
 
-#include <asm/ebus_dma.h>
-#include <asm/ns87303.h>
+#include <asm-generic/ebus_dma.h>
+#include <asm-generic/ns87303.h>
 
 static struct ebus_dma_info sun_pci_fd_ebus_dma;
 static struct device *sun_floppy_dev;

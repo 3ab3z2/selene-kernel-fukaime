@@ -27,7 +27,7 @@
 #include <linux/module.h>
 
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 static int
 nubus_devices_proc_show(struct seq_file *m, void *v)

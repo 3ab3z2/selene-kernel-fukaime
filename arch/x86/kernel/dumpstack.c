@@ -19,9 +19,9 @@
 #include <linux/sysfs.h>
 #include <linux/kasan.h>
 
-#include <asm/cpu_entry_area.h>
-#include <asm/stacktrace.h>
-#include <asm/unwind.h>
+#include <asm-generic/cpu_entry_area.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/unwind.h>
 
 int panic_on_unrecovered_nmi;
 int panic_on_io_nmi;

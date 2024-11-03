@@ -8,11 +8,11 @@
 #include <linux/sched/signal.h>
 #include <linux/kernel.h>
 #include <linux/mm.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define __EXTERN_INLINE inline
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
 #undef  __EXTERN_INLINE
 
 #include <linux/signal.h>

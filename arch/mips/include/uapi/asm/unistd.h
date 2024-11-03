@@ -13,7 +13,7 @@
 #ifndef _UAPI_ASM_UNISTD_H
 #define _UAPI_ASM_UNISTD_H
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if _MIPS_SIM == _MIPS_SIM_ABI32
 

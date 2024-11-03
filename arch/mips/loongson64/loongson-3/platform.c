@@ -13,7 +13,7 @@
 #include <linux/err.h>
 #include <linux/slab.h>
 #include <linux/platform_device.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <boot_param.h>
 #include <loongson_hwmon.h>
 #include <workarounds.h>

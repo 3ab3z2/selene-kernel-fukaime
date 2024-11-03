@@ -24,8 +24,8 @@
  * execptions.
  */
 
-#include <asm/pgtable.h>
-#include <asm/traps.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
 #include <linux/mm.h>
 #include <linux/sched/signal.h>

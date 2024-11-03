@@ -18,10 +18,10 @@
 #include <linux/clk-provider.h>
 #include <linux/regmap.h>
 #include <linux/smp.h>
-#include <asm/smp_scu.h>
-#include <asm/mach/arch.h>
-#include <asm/mach/map.h>
-#include <asm/psci.h>
+#include <asm-generic/smp_scu.h>
+#include <asm-generic/mach/arch.h>
+#include <asm-generic/mach/map.h>
+#include <asm-generic/psci.h>
 #include <linux/arm-smccc.h>
 
 

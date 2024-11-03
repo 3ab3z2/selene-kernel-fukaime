@@ -9,9 +9,9 @@
  *      Hirokazu Takata <takata at linux-m32r.org>
  */
 
-#include <asm/ptrace.h>
-#include <asm/user.h>
-#include <asm/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/user.h>
+#include <asm-generic/page.h>
 
 /* M32R relocation types  */
 #define	R_M32R_NONE		0

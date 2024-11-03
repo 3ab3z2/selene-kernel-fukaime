@@ -10,7 +10,7 @@
 #define _ASM_TERMIOS_H
 
 #include <linux/uaccess.h>
-#include <uapi/asm/termios.h>
+#include <uapi/asm-generic/termios.h>
 
 /*
  *	intr=^C		quit=^\		erase=del	kill=^U

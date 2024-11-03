@@ -10,7 +10,7 @@
 #ifndef _S390_CURRENT_H
 #define _S390_CURRENT_H
 
-#include <asm/lowcore.h>
+#include <asm-generic/lowcore.h>
 
 struct task_struct;
 

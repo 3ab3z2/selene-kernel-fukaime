@@ -2,9 +2,9 @@
 #ifndef _ASM_X86_KVM_PERF_H
 #define _ASM_X86_KVM_PERF_H
 
-#include <asm/svm.h>
-#include <asm/vmx.h>
-#include <asm/kvm.h>
+#include <asm-generic/svm.h>
+#include <asm-generic/vmx.h>
+#include <asm-generic/kvm.h>
 
 #define DECODE_STR_LEN 20
 

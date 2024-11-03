@@ -23,7 +23,7 @@
 #include <linux/iio/sysfs.h>
 #include <linux/iio/trigger.h>
 #include <linux/iio/buffer.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <linux/iio/common/st_sensors.h>
 #include "st_pressure.h"

@@ -15,10 +15,10 @@
 #include <linux/of_address.h>
 #include <linux/sys_soc.h>
 
-#include <asm/cputype.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
-#include <asm/mach/map.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mach/map.h>
 
 /**
  * struct dbx500_asic_id - fields of the ASIC ID

@@ -10,13 +10,13 @@
 #ifdef __KERNEL__
 #include <linux/string.h>
 #include <linux/fs.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/param.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/param.h>
 #include <linux/sched.h>
 #include <linux/slab.h>
 #include <linux/ioport.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/vmalloc.h>
 #include <linux/uaccess.h>
 #include <linux/poll.h>

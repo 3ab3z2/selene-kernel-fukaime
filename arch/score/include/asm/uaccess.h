@@ -3,7 +3,7 @@
 #define __SCORE_UACCESS_H
 
 #include <linux/kernel.h>
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 
 #define get_ds()		(KERNEL_DS)
 #define get_fs()		(current_thread_info()->addr_limit)

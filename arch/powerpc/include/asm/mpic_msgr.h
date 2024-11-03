@@ -13,8 +13,8 @@
 
 #include <linux/types.h>
 #include <linux/spinlock.h>
-#include <asm/smp.h>
-#include <asm/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/io.h>
 
 struct mpic_msgr {
 	u32 __iomem *base;

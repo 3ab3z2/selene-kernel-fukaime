@@ -21,8 +21,8 @@
 #include <linux/suspend.h>
 #include <linux/uaccess.h>
 
-#include <asm/pgalloc.h>
-#include <asm/diag.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/diag.h>
 
 #ifdef CONFIG_CMM_IUCV
 static char *cmm_default_sender = "VMRMSVM";

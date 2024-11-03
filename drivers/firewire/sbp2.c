@@ -51,7 +51,7 @@
 #include <linux/stringify.h>
 #include <linux/workqueue.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

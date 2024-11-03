@@ -51,7 +51,7 @@
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
 
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 /* Put the bank and irq (32 bits) into the hwirq */
 #define MAKE_HWIRQ(b, n)	((b << 5) | (n))

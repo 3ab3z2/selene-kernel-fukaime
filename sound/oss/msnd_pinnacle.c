@@ -43,8 +43,8 @@
 #include <linux/gfp.h>
 #include <linux/sched/signal.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
 #include "sound_config.h"
 #include "sound_firmware.h"
 #ifdef MSND_CLASSIC

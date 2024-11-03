@@ -9,7 +9,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/nospec-insn.h>
+#include <asm-generic/nospec-insn.h>
 #include "bpf_jit.h"
 
 /*

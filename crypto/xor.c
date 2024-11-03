@@ -22,7 +22,7 @@
 #include <linux/raid/xor.h>
 #include <linux/jiffies.h>
 #include <linux/preempt.h>
-#include <asm/xor.h>
+#include <asm-generic/xor.h>
 
 #ifndef XOR_SELECT_TEMPLATE
 #define XOR_SELECT_TEMPLATE(x) (x)

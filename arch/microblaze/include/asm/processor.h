@@ -11,11 +11,11 @@
 #ifndef _ASM_MICROBLAZE_PROCESSOR_H
 #define _ASM_MICROBLAZE_PROCESSOR_H
 
-#include <asm/ptrace.h>
-#include <asm/setup.h>
-#include <asm/registers.h>
-#include <asm/entry.h>
-#include <asm/current.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/current.h>
 
 # ifndef __ASSEMBLY__
 /* from kernel/cpu/mb.c */

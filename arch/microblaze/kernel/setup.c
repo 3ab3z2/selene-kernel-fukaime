@@ -19,9 +19,9 @@
 #include <linux/debugfs.h>
 #include <linux/of_fdt.h>
 
-#include <asm/setup.h>
-#include <asm/sections.h>
-#include <asm/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/page.h>
 #include <linux/io.h>
 #include <linux/bug.h>
 #include <linux/param.h>
@@ -29,12 +29,12 @@
 #include <linux/cache.h>
 #include <linux/of_platform.h>
 #include <linux/dma-mapping.h>
-#include <asm/cacheflush.h>
-#include <asm/entry.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/cpuinfo.h>
 
-#include <asm/prom.h>
-#include <asm/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
 
 DEFINE_PER_CPU(unsigned int, KSP);	/* Saved kernel stack pointer */
 DEFINE_PER_CPU(unsigned int, KM);	/* Kernel/user mode */

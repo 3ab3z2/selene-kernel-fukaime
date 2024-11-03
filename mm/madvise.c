@@ -25,7 +25,7 @@
 #include <linux/shmem_fs.h>
 #include <linux/mmu_notifier.h>
 
-#include <asm/tlb.h>
+#include <asm-generic/tlb.h>
 
 #include "internal.h"
 

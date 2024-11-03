@@ -17,8 +17,8 @@
 #define	LOAD_OFFSET	KDATA_ADDR + (ADDR(.text) + SIZEOF(.text))
 #endif
 
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 #include <asm-generic/vmlinux.lds.h>
 
 OUTPUT_ARCH(m68k)

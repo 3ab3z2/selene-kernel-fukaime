@@ -20,7 +20,7 @@
 #include <linux/highmem.h>
 #include <linux/bootmem.h>
 #include <linux/printk.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include <trace/events/block.h>
 #include "blk.h"

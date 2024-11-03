@@ -10,10 +10,10 @@
 #ifndef __ASM_TXX9_RBTX4939_H
 #define __ASM_TXX9_RBTX4939_H
 
-#include <asm/addrspace.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/tx4939.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/tx4939.h>
 
 /* Address map */
 #define RBTX4939_IOC_REG_ADDR	(IO_BASE + TXX9_CE(1) + 0x00000000)

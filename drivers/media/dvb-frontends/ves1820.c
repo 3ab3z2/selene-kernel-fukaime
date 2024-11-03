@@ -25,7 +25,7 @@
 #include <linux/module.h>
 #include <linux/string.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "dvb_frontend.h"
 #include "ves1820.h"

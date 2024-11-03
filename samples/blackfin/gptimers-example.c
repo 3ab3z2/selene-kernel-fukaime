@@ -10,8 +10,8 @@
 #include <linux/interrupt.h>
 #include <linux/module.h>
 
-#include <asm/gptimers.h>
-#include <asm/portmux.h>
+#include <asm-generic/gptimers.h>
+#include <asm-generic/portmux.h>
 
 /* ... random driver includes ... */
 

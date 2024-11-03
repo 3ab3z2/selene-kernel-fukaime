@@ -30,10 +30,10 @@
  * interrupts into error messages.
  */
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-asxx-defs.h>
-#include <asm/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-asxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
 
 #ifndef PRINT_ERROR
 #define PRINT_ERROR(format, ...)

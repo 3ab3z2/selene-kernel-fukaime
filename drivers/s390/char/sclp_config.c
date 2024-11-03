@@ -14,7 +14,7 @@
 #include <linux/workqueue.h>
 #include <linux/slab.h>
 #include <linux/sysfs.h>
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 #include "sclp.h"
 

@@ -23,9 +23,9 @@
 #include <linux/fs.h>
 #include <linux/reboot.h>
 
-#include <asm/machdep.h>
-#include <asm/rtas.h>
-#include <asm/firmware.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/firmware.h>
 
 #include "pseries.h"
 

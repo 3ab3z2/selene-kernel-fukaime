@@ -13,12 +13,12 @@
 #include <linux/console.h>
 #include <linux/init.h>
 
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/sun3xprom.h>
-#include <asm/sun3ints.h>
-#include <asm/setup.h>
-#include <asm/oplib.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sun3xprom.h>
+#include <asm-generic/sun3ints.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/oplib.h>
 
 #include "time.h"
 

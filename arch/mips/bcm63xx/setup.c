@@ -12,10 +12,10 @@
 #include <linux/bootmem.h>
 #include <linux/ioport.h>
 #include <linux/pm.h>
-#include <asm/bootinfo.h>
-#include <asm/time.h>
-#include <asm/reboot.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/cacheflush.h>
 #include <bcm63xx_board.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_regs.h>

@@ -22,8 +22,8 @@
 #define __SPARC_PBM_H
 
 #include <linux/pci.h>
-#include <asm/oplib.h>
-#include <asm/prom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
 
 struct linux_pbm_info {
 	int		prom_node;

@@ -13,9 +13,9 @@
 #include <linux/init.h>
 #include <linux/string.h>
 
-#include <asm/oplib.h>
-#include <asm/idprom.h>
-#include <asm/machines.h>  /* Fun with Sun released architectures. */
+#include <asm-generic/oplib.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/machines.h>  /* Fun with Sun released architectures. */
 
 struct idprom *idprom;
 EXPORT_SYMBOL(idprom);

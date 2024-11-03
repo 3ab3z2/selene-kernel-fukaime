@@ -30,7 +30,7 @@
 #include <linux/sysfs.h>
 #include <sound/core.h>
 #include <sound/soc.h>
-#include <asm/platform_sst_audio.h>
+#include <asm-generic/platform_sst_audio.h>
 #include "../sst-mfld-platform.h"
 #include "sst.h"
 #include "../../common/sst-dsp.h"

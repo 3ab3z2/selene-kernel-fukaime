@@ -7,17 +7,17 @@
 #include <sys/user.h>
 #define __FRAME_OFFSETS
 #include <linux/ptrace.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef __i386__
 #define __SYSCALL_I386(nr, sym, qual) [nr] = 1,
 static char syscalls[] = {
-#include <asm/syscalls_32.h>
+#include <asm-generic/syscalls_32.h>
 };
 #else
 #define __SYSCALL_64(nr, sym, qual) [nr] = 1,
 static char syscalls[] = {
-#include <asm/syscalls_64.h>
+#include <asm-generic/syscalls_64.h>
 };
 #endif
 

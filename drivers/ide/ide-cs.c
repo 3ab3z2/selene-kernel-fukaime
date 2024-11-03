@@ -40,7 +40,7 @@
 #include <linux/ide.h>
 #include <linux/major.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <pcmcia/cistpl.h>
 #include <pcmcia/ds.h>

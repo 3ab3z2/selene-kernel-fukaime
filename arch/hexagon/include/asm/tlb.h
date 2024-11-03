@@ -20,7 +20,7 @@
 #define _ASM_TLB_H
 
 #include <linux/pagemap.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 /*
  * We don't need any special per-pte or per-vma handling...

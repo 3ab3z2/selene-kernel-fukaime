@@ -7,6 +7,6 @@
  * (at your option) any later version.
  */
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #define __ARCH_WANT_SYS_CLONE

@@ -13,7 +13,7 @@
 #ifndef __UM_SYSCALL_GENERIC_H
 #define __UM_SYSCALL_GENERIC_H
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/err.h>
 #include <linux/sched.h>
 #include <sysdep/ptrace.h>
@@ -133,6 +133,6 @@ static inline void syscall_set_arguments(struct task_struct *task,
 	}
 }
 
-/* See arch/x86/um/asm/syscall.h for syscall_get_arch() definition. */
+/* See arch/x86/um/asm-generic/syscall.h for syscall_get_arch() definition. */
 
 #endif	/* __UM_SYSCALL_GENERIC_H */

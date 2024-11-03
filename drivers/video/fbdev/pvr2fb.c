@@ -57,14 +57,14 @@
 #include <linux/pci.h>
 
 #ifdef CONFIG_SH_DREAMCAST
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 #include <mach-dreamcast/mach/sysasic.h>
 #endif
 
 #ifdef CONFIG_PVR2_DMA
 #include <linux/pagemap.h>
 #include <mach/dma.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #endif
 
 #ifdef CONFIG_SH_STORE_QUEUES

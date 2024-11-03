@@ -19,9 +19,9 @@
 #include <linux/of.h>
 #include <linux/of_fdt.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/mach/arch.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mach/arch.h>
 
 void __init early_init_dt_add_memory_arch(u64 base, u64 size)
 {

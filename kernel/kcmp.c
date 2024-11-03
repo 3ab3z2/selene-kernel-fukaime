@@ -17,7 +17,7 @@
 #include <linux/eventpoll.h>
 #include <linux/file.h>
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 /*
  * We don't expose the real in-memory order of objects for security reasons.

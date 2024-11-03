@@ -7,11 +7,11 @@
 
 #include <linux/mm.h>
 
-#include <asm/hibernate.h>
-#include <asm/visasm.h>
-#include <asm/page.h>
-#include <asm/sections.h>
-#include <asm/tlb.h>
+#include <asm-generic/hibernate.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
 
 struct saved_context saved_context;
 

@@ -20,7 +20,7 @@
 #ifndef __ASM_KVM_BOOK3S_64_H__
 #define __ASM_KVM_BOOK3S_64_H__
 
-#include <asm/book3s/64/mmu-hash.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
 
 /* Power architecture requires HPT is at least 256kiB, at most 64TiB */
 #define PPC_MIN_HPT_ORDER	18

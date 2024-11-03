@@ -14,7 +14,7 @@
 /*
  * Register used to hold the current task pointer while in the kernel.
  * Any `call clobbered' register without a special meaning should be OK,
- * but check asm/microblaze/kernel/entry.S to be sure.
+ * but check asm-generic/microblaze/kernel/entry.S to be sure.
  */
 #define CURRENT_TASK	r31
 # ifndef __ASSEMBLY__

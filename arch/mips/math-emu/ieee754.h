@@ -25,11 +25,11 @@
 #define __ARCH_MIPS_MATH_EMU_IEEE754_H
 
 #include <linux/compiler.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/kernel.h>
 #include <linux/types.h>
 #include <linux/sched.h>
-#include <asm/bitfield.h>
+#include <asm-generic/bitfield.h>
 
 union ieee754dp {
 	struct {

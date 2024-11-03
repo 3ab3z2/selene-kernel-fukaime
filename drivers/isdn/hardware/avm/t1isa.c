@@ -22,7 +22,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 #include <linux/gfp.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/isdn/capicmd.h>
 #include <linux/isdn/capiutil.h>
 #include <linux/isdn/capilli.h>

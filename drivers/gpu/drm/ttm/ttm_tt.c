@@ -44,7 +44,7 @@
 #include <drm/ttm/ttm_placement.h>
 #include <drm/ttm/ttm_page_alloc.h>
 #ifdef CONFIG_X86
-#include <asm/set_memory.h>
+#include <asm-generic/set_memory.h>
 #endif
 
 /**

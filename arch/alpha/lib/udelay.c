@@ -7,8 +7,8 @@
 
 #include <linux/module.h>
 #include <linux/sched.h> /* for udelay's use of smp_processor_id */
-#include <asm/param.h>
-#include <asm/smp.h>
+#include <asm-generic/param.h>
+#include <asm-generic/smp.h>
 #include <linux/delay.h>
 
 /*

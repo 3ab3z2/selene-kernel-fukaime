@@ -46,12 +46,12 @@
 #include <linux/compat.h>
 #include <linux/random.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/div64.h>
-#include <asm/timex.h>
-#include <asm/io.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/io.h>
 
 #include "tick-internal.h"
 

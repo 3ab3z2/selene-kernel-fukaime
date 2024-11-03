@@ -23,7 +23,7 @@
 #include <linux/time.h>
 #include <linux/vmalloc.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <acpi/cppc_acpi.h>
 
@@ -133,7 +133,7 @@ static void cppc_cpufreq_stop_cpu(struct cpufreq_policy *policy)
  * if we don't have a platform specific transition_delay_us
  */
 #ifdef CONFIG_ARM64
-#include <asm/cputype.h>
+#include <asm-generic/cputype.h>
 
 static unsigned int cppc_cpufreq_get_transition_delay_us(int cpu)
 {

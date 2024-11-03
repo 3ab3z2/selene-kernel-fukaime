@@ -14,8 +14,8 @@
 #include <linux/dma-mapping.h>
 #include <linux/iommu-helper.h>
 
-#include <asm/io.h>
-#include <asm/hwrpb.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hwrpb.h>
 
 #include "proto.h"
 #include "pci_impl.h"

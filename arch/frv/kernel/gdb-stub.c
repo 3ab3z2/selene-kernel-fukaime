@@ -124,9 +124,9 @@
 #include <linux/slab.h>
 #include <linux/nmi.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/pgtable.h>
-#include <asm/gdb-stub.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/gdb-stub.h>
 
 #define LEDS(x) do { /* *(u32*)0xe1200004 = ~(x); mb(); */ } while(0)
 

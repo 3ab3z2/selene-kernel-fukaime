@@ -10,9 +10,9 @@
 #ifndef __ASM_TXX9_JMR3927_H
 #define __ASM_TXX9_JMR3927_H
 
-#include <asm/txx9/tx3927.h>
-#include <asm/addrspace.h>
-#include <asm/txx9irq.h>
+#include <asm-generic/txx9/tx3927.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/txx9irq.h>
 
 /* CS */
 #define JMR3927_ROMCE0	0x1fc00000	/* 4M */

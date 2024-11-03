@@ -1,5 +1,5 @@
 /*
-** asm/setup.h -- Definition of the Linux/m68k setup information
+** asm-generic/setup.h -- Definition of the Linux/m68k setup information
 **
 ** Copyright 1992 by Greg Harp
 **
@@ -22,8 +22,8 @@
 #ifndef _M68K_SETUP_H
 #define _M68K_SETUP_H
 
-#include <uapi/asm/bootinfo.h>
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/bootinfo.h>
+#include <uapi/asm-generic/setup.h>
 
 
 #define CL_SIZE COMMAND_LINE_SIZE

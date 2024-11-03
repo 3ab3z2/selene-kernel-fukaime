@@ -16,10 +16,10 @@
 #include <linux/cpu.h>
 #include <linux/cpumask.h>
 
-#include <asm/cpufeature.h>
-#include <asm/perf_event.h>
-#include <asm/msr.h>
-#include <asm/smp.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/smp.h>
 
 #define NUM_COUNTERS_NB		4
 #define NUM_COUNTERS_L2		4

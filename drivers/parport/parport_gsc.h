@@ -31,7 +31,7 @@
 #ifndef	__DRIVERS_PARPORT_PARPORT_GSC_H
 #define	__DRIVERS_PARPORT_PARPORT_GSC_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/delay.h>
 
 #undef	DEBUG_PARPORT	/* undefine for production */

@@ -13,7 +13,7 @@
 #include <linux/init.h>
 #include <linux/gpio.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/assabet.h>
 
 #include "sa1100_generic.h"

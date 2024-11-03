@@ -19,7 +19,7 @@
 #include <linux/fb.h>
 #include <linux/jiffies.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "rivafb.h"
 #include "../edid.h"

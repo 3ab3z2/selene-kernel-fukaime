@@ -19,12 +19,12 @@
 #include <linux/swap.h>
 #include <linux/export.h>
 
-#include <asm/page.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
-#include <asm/sections.h>
-#include <asm/tlb.h>
-#include <asm/fixmap.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/fixmap.h>
 
 /* Use for MMU and noMMU because of PCI generic code */
 int mem_init_done;

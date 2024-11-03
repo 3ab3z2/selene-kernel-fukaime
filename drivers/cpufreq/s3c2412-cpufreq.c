@@ -23,8 +23,8 @@
 #include <linux/err.h>
 #include <linux/io.h>
 
-#include <asm/mach/arch.h>
-#include <asm/mach/map.h>
+#include <asm-generic/mach/arch.h>
+#include <asm-generic/mach/map.h>
 
 #include <mach/regs-clock.h>
 #include <mach/s3c2412.h>

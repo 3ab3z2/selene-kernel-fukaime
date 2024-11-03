@@ -14,12 +14,12 @@
 #include <linux/platform_device.h>
 #include <linux/swiotlb.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-pci-defs.h>
-#include <asm/octeon/pci-octeon.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-pci-defs.h>
+#include <asm-generic/octeon/pci-octeon.h>
 
 #include <dma-coherence.h>
 

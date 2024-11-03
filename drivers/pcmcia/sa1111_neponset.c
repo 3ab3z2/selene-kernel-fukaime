@@ -11,9 +11,9 @@
 #include <linux/init.h>
 
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/neponset.h>
-#include <asm/hardware/sa1111.h>
+#include <asm-generic/hardware/sa1111.h>
 
 #include "sa1111_generic.h"
 

@@ -14,7 +14,7 @@
 #include <linux/slab.h>
 #include <linux/fs.h>
 #include <linux/string.h>
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 
 static inline void arc_write_me(unsigned short *addr, unsigned long value)
 {

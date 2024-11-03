@@ -6,7 +6,7 @@
 #include <linux/ioport.h>
 #include <linux/etherdevice.h>
 #include <linux/of_address.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 void of_parse_dma_window(struct device_node *dn, const __be32 *dma_window,
 			 unsigned long *busno, unsigned long *phys,

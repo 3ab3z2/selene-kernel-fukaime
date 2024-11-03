@@ -52,25 +52,25 @@ enum cvmx_mips_space {
 #define CVMX_ADD_IO_SEG(add) CVMX_ADD_SEG(CVMX_IO_SEG, (add))
 #endif
 
-#include <asm/octeon/cvmx-asm.h>
-#include <asm/octeon/cvmx-packet.h>
-#include <asm/octeon/cvmx-sysinfo.h>
+#include <asm-generic/octeon/cvmx-asm.h>
+#include <asm-generic/octeon/cvmx-packet.h>
+#include <asm-generic/octeon/cvmx-sysinfo.h>
 
-#include <asm/octeon/cvmx-ciu-defs.h>
-#include <asm/octeon/cvmx-ciu3-defs.h>
-#include <asm/octeon/cvmx-gpio-defs.h>
-#include <asm/octeon/cvmx-iob-defs.h>
-#include <asm/octeon/cvmx-ipd-defs.h>
-#include <asm/octeon/cvmx-l2c-defs.h>
-#include <asm/octeon/cvmx-l2d-defs.h>
-#include <asm/octeon/cvmx-l2t-defs.h>
-#include <asm/octeon/cvmx-led-defs.h>
-#include <asm/octeon/cvmx-mio-defs.h>
-#include <asm/octeon/cvmx-pow-defs.h>
+#include <asm-generic/octeon/cvmx-ciu-defs.h>
+#include <asm-generic/octeon/cvmx-ciu3-defs.h>
+#include <asm-generic/octeon/cvmx-gpio-defs.h>
+#include <asm-generic/octeon/cvmx-iob-defs.h>
+#include <asm-generic/octeon/cvmx-ipd-defs.h>
+#include <asm-generic/octeon/cvmx-l2c-defs.h>
+#include <asm-generic/octeon/cvmx-l2d-defs.h>
+#include <asm-generic/octeon/cvmx-l2t-defs.h>
+#include <asm-generic/octeon/cvmx-led-defs.h>
+#include <asm-generic/octeon/cvmx-mio-defs.h>
+#include <asm-generic/octeon/cvmx-pow-defs.h>
 
-#include <asm/octeon/cvmx-bootinfo.h>
-#include <asm/octeon/cvmx-bootmem.h>
-#include <asm/octeon/cvmx-l2c.h>
+#include <asm-generic/octeon/cvmx-bootinfo.h>
+#include <asm-generic/octeon/cvmx-bootmem.h>
+#include <asm-generic/octeon/cvmx-l2c.h>
 
 #ifndef CVMX_ENABLE_DEBUG_PRINTS
 #define CVMX_ENABLE_DEBUG_PRINTS 1

@@ -16,8 +16,8 @@
 #include <linux/interrupt.h>
 #include <linux/device.h>
 
-#include <asm/mpic_timer.h>
-#include <asm/mpic.h>
+#include <asm-generic/mpic_timer.h>
+#include <asm-generic/mpic.h>
 
 struct fsl_mpic_timer_wakeup {
 	struct mpic_timer *timer;

@@ -11,7 +11,7 @@
 #ifndef __ASM_HARDIRQ_H
 #define __ASM_HARDIRQ_H
 
-#include <asm/lowcore.h>
+#include <asm-generic/lowcore.h>
 
 #define local_softirq_pending() (S390_lowcore.softirq_pending)
 

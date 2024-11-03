@@ -30,7 +30,7 @@
 #ifndef __UBI_MEDIA_H__
 #define __UBI_MEDIA_H__
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /* The version of UBI images supported by this implementation */
 #define UBI_VERSION 1

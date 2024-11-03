@@ -50,7 +50,7 @@
 
 #define GT641XX_IRQ_BASE		24
 
-#include <asm/irq_gt641xx.h>
+#include <asm-generic/irq_gt641xx.h>
 
 #define NR_IRQS					(GT641XX_PCI_INT3_IRQ + 1)
 

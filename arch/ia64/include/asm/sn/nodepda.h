@@ -9,10 +9,10 @@
 #define _ASM_IA64_SN_NODEPDA_H
 
 
-#include <asm/irq.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/bte.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/bte.h>
 
 /*
  * NUMA Node-Specific Data structures are defined in this file.

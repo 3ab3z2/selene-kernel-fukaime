@@ -12,10 +12,10 @@
 #include <linux/smp.h>
 #include <linux/mm.h>
 
-#include <asm/cpu.h>
-#include <asm/bootinfo.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
 
 extern void build_tlb_refill_handler(void);
 

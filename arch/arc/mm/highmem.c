@@ -10,10 +10,10 @@
 #include <linux/bootmem.h>
 #include <linux/export.h>
 #include <linux/highmem.h>
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 /*
  * HIGHMEM API:

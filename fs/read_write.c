@@ -23,7 +23,7 @@
 #include "internal.h"
 
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 const struct file_operations generic_ro_fops = {
 	.llseek		= generic_file_llseek,

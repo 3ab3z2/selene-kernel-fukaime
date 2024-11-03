@@ -51,9 +51,9 @@
 #include <linux/bootmem.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
 
 #define DEBUG_SMP
 #ifdef DEBUG_SMP

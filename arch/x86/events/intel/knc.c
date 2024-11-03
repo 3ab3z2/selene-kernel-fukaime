@@ -4,7 +4,7 @@
 #include <linux/perf_event.h>
 #include <linux/types.h>
 
-#include <asm/hardirq.h>
+#include <asm-generic/hardirq.h>
 
 #include "../perf_event.h"
 

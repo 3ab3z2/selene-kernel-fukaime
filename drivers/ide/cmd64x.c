@@ -17,7 +17,7 @@
 #include <linux/ide.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "cmd64x"
 

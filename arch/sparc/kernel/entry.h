@@ -43,7 +43,7 @@ void fpload(unsigned long *fpregs, unsigned long *fsr);
 
 #else /* CONFIG_SPARC32 */
 
-#include <asm/trap_block.h>
+#include <asm-generic/trap_block.h>
 
 struct popc_3insn_patch_entry {
 	unsigned int	addr;

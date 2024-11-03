@@ -52,8 +52,8 @@
 #include <linux/dax.h>
 #include <linux/psi.h>
 
-#include <asm/tlbflush.h>
-#include <asm/div64.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/div64.h>
 
 #include <linux/swapops.h>
 #include <linux/balloon_compaction.h>

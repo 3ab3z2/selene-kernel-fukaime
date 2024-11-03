@@ -16,7 +16,7 @@
 #include <linux/types.h>
 #include <linux/string.h>
 #if defined(__mc68000__)
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #endif
 #include <linux/font.h>
 

@@ -37,7 +37,7 @@ if ($flavour =~ /64/) {
 
 $0 =~ m/(.*[\/\\])[^\/\\]+$/; $dir=$1;
 ( $xlate="${dir}ppc-xlate.pl" and -f $xlate ) or
-( $xlate="${dir}../../perlasm/ppc-xlate.pl" and -f $xlate) or
+( $xlate="${dir}../../perlasm-generic/ppc-xlate.pl" and -f $xlate) or
 die "can't locate ppc-xlate.pl";
 
 open STDOUT,"| $^X $xlate $flavour $output" || die "can't call $xlate: $!";
@@ -120,9 +120,9 @@ $code=<<___;
 	 le?vperm	$IN,$IN,$IN,$lemask
 	vxor		$zero,$zero,$zero
 
-	vpmsumd		$Xl,$IN,$Hl		# H.lo·Xi.lo
-	vpmsumd		$Xm,$IN,$H		# H.hi·Xi.lo+H.lo·Xi.hi
-	vpmsumd		$Xh,$IN,$Hh		# H.hi·Xi.hi
+	vpmsumd		$Xl,$IN,$Hl		# H.loï¿½Xi.lo
+	vpmsumd		$Xm,$IN,$H		# H.hiï¿½Xi.lo+H.loï¿½Xi.hi
+	vpmsumd		$Xh,$IN,$Hh		# H.hiï¿½Xi.hi
 
 	vpmsumd		$t2,$Xl,$xC2		# 1st phase
 
@@ -178,11 +178,11 @@ $code=<<___;
 .align	5
 Loop:
 	 subic		$len,$len,16
-	vpmsumd		$Xl,$IN,$Hl		# H.lo·Xi.lo
+	vpmsumd		$Xl,$IN,$Hl		# H.loï¿½Xi.lo
 	 subfe.		r0,r0,r0		# borrow?-1:0
-	vpmsumd		$Xm,$IN,$H		# H.hi·Xi.lo+H.lo·Xi.hi
+	vpmsumd		$Xm,$IN,$H		# H.hiï¿½Xi.lo+H.loï¿½Xi.hi
 	 and		r0,r0,$len
-	vpmsumd		$Xh,$IN,$Hh		# H.hi·Xi.hi
+	vpmsumd		$Xh,$IN,$Hh		# H.hiï¿½Xi.hi
 	 add		$inp,$inp,r0
 
 	vpmsumd		$t2,$Xl,$xC2		# 1st phase

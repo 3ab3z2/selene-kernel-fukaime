@@ -10,7 +10,7 @@ endif
 
 x86_energy_perf_policy : x86_energy_perf_policy.c
 CFLAGS +=	-Wall -I../../../include
-CFLAGS +=	-DMSRHEADER='"../../../../arch/x86/include/asm/msr-index.h"'
+CFLAGS +=	-DMSRHEADER='"../../../../arch/x86/include/asm-generic/msr-index.h"'
 
 %: %.c
 	@mkdir -p $(BUILD_OUTPUT)

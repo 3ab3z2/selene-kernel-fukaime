@@ -6,12 +6,12 @@
  * Version 2.  See the file COPYING for more details.
  */
 
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
-#include <asm/stackframe.h>
-#include <asm/addrspace.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/addrspace.h>
 
 LEAF(relocate_new_kernel)
 	PTR_L a0,	arg0

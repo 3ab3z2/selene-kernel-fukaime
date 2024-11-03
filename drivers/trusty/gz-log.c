@@ -26,7 +26,7 @@
 #include <linux/spinlock.h>
 #include <linux/proc_fs.h>
 #include <linux/delay.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "gz-log.h"
 
 #define TRUSTY_LOG_SIZE (PAGE_SIZE * 32)

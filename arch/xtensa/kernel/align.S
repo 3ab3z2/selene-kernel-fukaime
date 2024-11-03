@@ -17,9 +17,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/current.h>
-#include <asm/asm-offsets.h>
-#include <asm/processor.h>
+#include <asm-generic/current.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/processor.h>
 
 #if XCHAL_UNALIGNED_LOAD_EXCEPTION || XCHAL_UNALIGNED_STORE_EXCEPTION
 

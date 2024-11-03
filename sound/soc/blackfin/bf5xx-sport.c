@@ -34,10 +34,10 @@
 #include <linux/gpio.h>
 #include <linux/bug.h>
 #include <linux/module.h>
-#include <asm/portmux.h>
-#include <asm/dma.h>
-#include <asm/blackfin.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cacheflush.h>
 
 #include "bf5xx-sport.h"
 /* delay between frame sync pulse and first data bit in multichannel mode */

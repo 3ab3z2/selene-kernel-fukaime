@@ -19,20 +19,20 @@
 #include <linux/msi.h>
 #include <linux/iommu.h>
 
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
-#include <asm/msi_bitmap.h>
-#include <asm/ppc-pci.h>
-#include <asm/pnv-pci.h>
-#include <asm/opal.h>
-#include <asm/iommu.h>
-#include <asm/tce.h>
-#include <asm/firmware.h>
-#include <asm/eeh_event.h>
-#include <asm/eeh.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/tce.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/eeh.h>
 
 #include "powernv.h"
 #include "pci.h"

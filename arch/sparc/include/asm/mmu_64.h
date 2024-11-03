@@ -3,8 +3,8 @@
 #define __MMU_H
 
 #include <linux/const.h>
-#include <asm/page.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hypervisor.h>
 
 #define CTX_NR_BITS		13
 

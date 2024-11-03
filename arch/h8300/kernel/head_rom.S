@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/init.h>
-#include <asm/thread_info.h>
+#include <asm-generic/thread_info.h>
 
 #if defined(CONFIG_CPU_H8300H)
 	.h8300h

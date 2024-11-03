@@ -34,12 +34,12 @@
 #include <linux/delay.h>
 #include <linux/platform_device.h>
 #include <linux/gpio.h>
-#include <asm/reboot.h>
-#include <asm/txx9pio.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/jmr3927.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/txx9pio.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/jmr3927.h>
+#include <asm-generic/mipsregs.h>
 
 static void jmr3927_machine_restart(char *command)
 {

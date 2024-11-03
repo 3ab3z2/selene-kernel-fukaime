@@ -20,14 +20,14 @@
 #include <linux/kdebug.h>
 #include <linux/mutex.h>
 
-#include <asm/stacktrace.h>
-#include <asm/cpudata.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/cpudata.h>
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
 #include <linux/sched/clock.h>
-#include <asm/nmi.h>
-#include <asm/pcr.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/pcr.h>
+#include <asm-generic/cacheflush.h>
 
 #include "kernel.h"
 #include "kstack.h"

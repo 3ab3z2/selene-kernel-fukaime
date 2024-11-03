@@ -33,9 +33,9 @@
 #ifndef __CVMX_IPD_H__
 #define __CVMX_IPD_H__
 
-#include <asm/octeon/octeon-feature.h>
+#include <asm-generic/octeon/octeon-feature.h>
 
-#include <asm/octeon/cvmx-ipd-defs.h>
+#include <asm-generic/octeon/cvmx-ipd-defs.h>
 
 enum cvmx_ipd_mode {
    CVMX_IPD_OPC_MODE_STT = 0LL,	  /* All blocks DRAM, not cached in L2 */

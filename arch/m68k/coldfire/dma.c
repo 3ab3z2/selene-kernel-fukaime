@@ -11,10 +11,10 @@
 
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/dma.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfdma.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfdma.h>
 
 /***************************************************************************/
 

@@ -16,10 +16,10 @@
 #include <generated/utsrelease.h>
 #include <linux/mm.h>
 
-#include <asm/console.h>
-#include <asm/hwrpb.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
+#include <asm-generic/console.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
 
 #include <stdarg.h>
 

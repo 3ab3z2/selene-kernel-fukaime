@@ -25,7 +25,7 @@
 #include <linux/debugfs.h>
 #include <linux/usb/ch9.h>
 #include <linux/usb/gadget.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #define BRCM_BDC_NAME "bdc"
 #define BRCM_BDC_DESC "Broadcom USB Device Controller driver"

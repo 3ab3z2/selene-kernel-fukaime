@@ -17,7 +17,7 @@
 #include <linux/crypto.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 static inline u64 mlt(u64 a, u64 b)
 {

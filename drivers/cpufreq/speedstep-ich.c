@@ -27,7 +27,7 @@
 #include <linux/pci.h>
 #include <linux/sched.h>
 
-#include <asm/cpu_device_id.h>
+#include <asm-generic/cpu_device_id.h>
 
 #include "speedstep-lib.h"
 

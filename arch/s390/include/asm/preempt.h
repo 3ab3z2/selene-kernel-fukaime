@@ -2,9 +2,9 @@
 #ifndef __ASM_PREEMPT_H
 #define __ASM_PREEMPT_H
 
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/thread_info.h>
-#include <asm/atomic_ops.h>
+#include <asm-generic/atomic_ops.h>
 
 #ifdef CONFIG_HAVE_MARCH_Z196_FEATURES
 

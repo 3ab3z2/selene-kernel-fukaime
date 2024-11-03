@@ -6,10 +6,10 @@
  *
  */
 #include <linux/kernel.h>
-#include <asm/lasat/lasat.h>
+#include <asm-generic/lasat/lasat.h>
 #include <linux/delay.h>
-#include <asm/lasat/ds1603.h>
-#include <asm/time.h>
+#include <asm-generic/lasat/ds1603.h>
+#include <asm-generic/time.h>
 
 #include "ds1603.h"
 

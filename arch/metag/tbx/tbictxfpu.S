@@ -13,8 +13,8 @@
 
 	.file	"tbifpuctx.S"
 
-#include <asm/metag_regs.h>
-#include <asm/tbx.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/tbx.h>
 
 #ifdef TBI_1_4
 /*

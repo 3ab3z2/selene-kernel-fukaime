@@ -15,7 +15,7 @@
 #include <linux/of_gpio.h>
 #include <linux/clk.h>
 
-#include <asm/mach-ralink/ralink_regs.h>
+#include <asm-generic/mach-ralink/ralink_regs.h>
 
 #define TIMER_REG_TMRSTAT		0x00
 #define TIMER_REG_TMR0LOAD		0x10

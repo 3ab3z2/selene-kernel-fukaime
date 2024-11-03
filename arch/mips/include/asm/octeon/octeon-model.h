@@ -404,6 +404,6 @@ static inline uint32_t cvmx_get_octeon_family(void)
 	return cvmx_get_proc_id() & OCTEON_FAMILY_MASK;
 }
 
-#include <asm/octeon/octeon-feature.h>
+#include <asm-generic/octeon/octeon-feature.h>
 
 #endif /* __OCTEON_MODEL_H__ */

@@ -11,7 +11,7 @@
 #ifndef _XTENSA_DMA_H
 #define _XTENSA_DMA_H
 
-#include <asm/io.h>		/* need byte IO */
+#include <asm-generic/io.h>		/* need byte IO */
 
 /*
  * This is only to be defined if we have PC-like DMA.

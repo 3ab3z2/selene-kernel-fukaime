@@ -53,11 +53,11 @@
 #include <linux/bsearch.h>
 #include <linux/kthread.h>
 
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/ioctl.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ioctl.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 #include "coalesced_mmio.h"
 #include "async_pf.h"

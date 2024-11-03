@@ -22,13 +22,13 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 #include <linux/bitops.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/addrspace.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/addrspace.h>
 
 #include <pcmcia/ss.h>
 
-/* XXX: should be moved into asm/irq.h */
+/* XXX: should be moved into asm-generic/irq.h */
 #define PCC0_IRQ 24
 #define PCC1_IRQ 25
 

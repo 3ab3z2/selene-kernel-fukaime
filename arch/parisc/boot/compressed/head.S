@@ -6,11 +6,11 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/page.h>
-#include <asm/psw.h>
-#include <asm/pdc.h>
-#include <asm/assembly.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/page.h>
+#include <asm-generic/psw.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/assembly.h>
 #include "sizes.h"
 
 #define BOOTADDR(x)	(x)

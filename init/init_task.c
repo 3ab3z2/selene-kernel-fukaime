@@ -11,7 +11,7 @@
 #include <linux/mm.h>
 #include <linux/scs.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include <linux/uaccess.h>
 
 static struct signal_struct init_signals = INIT_SIGNALS(init_signals);

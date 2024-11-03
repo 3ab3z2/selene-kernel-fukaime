@@ -9,7 +9,7 @@
 #ifndef __ASM_IP32_INTS_H
 #define __ASM_IP32_INTS_H
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 /*
  * This list reflects the assignment of interrupt numbers to

@@ -22,8 +22,8 @@
 #include <linux/stddef.h>
 #include <linux/personality.h>
 #include <linux/tracehook.h>
-#include <asm/cacheflush.h>
-#include <asm/ucontext.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
 
 #define DEBUG_SIG 0

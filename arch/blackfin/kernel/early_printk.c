@@ -14,9 +14,9 @@
 #include <linux/console.h>
 #include <linux/string.h>
 #include <linux/reboot.h>
-#include <asm/blackfin.h>
-#include <asm/irq_handler.h>
-#include <asm/early_printk.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/early_printk.h>
 
 #ifdef CONFIG_SERIAL_BFIN
 extern struct console *bfin_earlyserial_init(unsigned int port,

@@ -42,8 +42,8 @@
 
 #include <linux/types.h>
 #include <linux/errno.h>
-#include <asm/byteorder.h>
-#include <asm/epapr_hcalls.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/epapr_hcalls.h>
 
 #define FH_API_VERSION			1
 

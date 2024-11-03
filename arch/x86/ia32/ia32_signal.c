@@ -21,20 +21,20 @@
 #include <linux/personality.h>
 #include <linux/compat.h>
 #include <linux/binfmts.h>
-#include <asm/ucontext.h>
+#include <asm-generic/ucontext.h>
 #include <linux/uaccess.h>
-#include <asm/fpu/internal.h>
-#include <asm/fpu/signal.h>
-#include <asm/ptrace.h>
-#include <asm/ia32_unistd.h>
-#include <asm/user32.h>
-#include <uapi/asm/sigcontext.h>
-#include <asm/proto.h>
-#include <asm/vdso.h>
-#include <asm/sigframe.h>
-#include <asm/sighandling.h>
-#include <asm/sys_ia32.h>
-#include <asm/smap.h>
+#include <asm-generic/fpu/internal.h>
+#include <asm-generic/fpu/signal.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/ia32_unistd.h>
+#include <asm-generic/user32.h>
+#include <uapi/asm-generic/sigcontext.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/sigframe.h>
+#include <asm-generic/sighandling.h>
+#include <asm-generic/sys_ia32.h>
+#include <asm-generic/smap.h>
 
 /*
  * Do a signal return; undo the signal stack.

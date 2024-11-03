@@ -19,14 +19,14 @@
 #include <linux/bootmem.h>
 #include <linux/ctype.h>
 #include <linux/ioport.h>
-#include <asm/diag.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/ebcdic.h>
-#include <asm/errno.h>
-#include <asm/extmem.h>
-#include <asm/cpcmd.h>
-#include <asm/setup.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/extmem.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/setup.h>
 
 #define DCSS_LOADSHR    0x00
 #define DCSS_LOADNSR    0x04

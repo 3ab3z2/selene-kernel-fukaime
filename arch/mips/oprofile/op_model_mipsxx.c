@@ -10,8 +10,8 @@
 #include <linux/oprofile.h>
 #include <linux/interrupt.h>
 #include <linux/smp.h>
-#include <asm/irq_regs.h>
-#include <asm/time.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/time.h>
 
 #include "op_impl.h"
 

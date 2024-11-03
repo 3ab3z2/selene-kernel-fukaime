@@ -19,8 +19,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/types.h>
-#include <asm/cache.h>
+#include <asm-generic/types.h>
+#include <asm-generic/cache.h>
 
 #define clear_page(page)	clear_page_asm((void *)(page))
 #define copy_page(to, from)	copy_page_asm((void *)(to), (void *)(from))
@@ -177,7 +177,7 @@ extern int npmem_ranges;
 
 #include <asm-generic/memory_model.h>
 #include <asm-generic/getorder.h>
-#include <asm/pdc.h>
+#include <asm-generic/pdc.h>
 
 #define PAGE0   ((struct zeropage *)absolute_pointer(__PAGE_OFFSET))
 

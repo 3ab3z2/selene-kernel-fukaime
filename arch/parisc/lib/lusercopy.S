@@ -37,8 +37,8 @@
 
 	.text
 	
-#include <asm/assembly.h>
-#include <asm/errno.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/errno.h>
 #include <linux/linkage.h>
 
 	/*

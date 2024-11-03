@@ -2,7 +2,7 @@
 #ifndef _ASM_UNISTD_H_
 #define _ASM_UNISTD_H_
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 
 #define NR_syscalls 338

@@ -1,6 +1,6 @@
 /*
  * This file contains sequences of code that will be copied to a
- * fixed location, defined in <asm/fixed_code.h>.  The interrupt
+ * fixed location, defined in <asm-generic/fixed_code.h>.  The interrupt
  * handlers ensure that these sequences appear to be atomic when
  * executed from userspace.
  * These are aligned to 16 bytes, so that we have some space to replace
@@ -15,7 +15,7 @@
 #include <linux/linkage.h>
 #include <linux/init.h>
 #include <linux/unistd.h>
-#include <asm/entry.h>
+#include <asm-generic/entry.h>
 
 __INIT
 

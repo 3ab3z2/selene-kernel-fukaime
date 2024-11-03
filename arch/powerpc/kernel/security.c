@@ -9,11 +9,11 @@
 #include <linux/device.h>
 #include <linux/seq_buf.h>
 
-#include <asm/debugfs.h>
-#include <asm/asm-prototypes.h>
-#include <asm/code-patching.h>
-#include <asm/security_features.h>
-#include <asm/setup.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/asm-prototypes.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/security_features.h>
+#include <asm-generic/setup.h>
 
 
 unsigned long powerpc_security_features __read_mostly = SEC_FTR_DEFAULT;

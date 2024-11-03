@@ -1,5 +1,5 @@
 /*
- * arch/blackfin/include/asm/mem_init.h - reprogram clocks / memory
+ * arch/blackfin/include/asm-generic/mem_init.h - reprogram clocks / memory
  *
  * Copyright 2004-2008 Analog Devices Inc.
  *

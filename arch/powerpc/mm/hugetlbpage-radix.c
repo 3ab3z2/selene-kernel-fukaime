@@ -2,12 +2,12 @@
 #include <linux/mm.h>
 #include <linux/hugetlb.h>
 #include <linux/security.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/machdep.h>
-#include <asm/mman.h>
-#include <asm/tlb.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/tlb.h>
 
 void radix__flush_hugetlb_page(struct vm_area_struct *vma, unsigned long vmaddr)
 {

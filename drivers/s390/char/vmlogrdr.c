@@ -22,9 +22,9 @@
 #include <linux/spinlock.h>
 #include <linux/atomic.h>
 #include <linux/uaccess.h>
-#include <asm/cpcmd.h>
-#include <asm/debug.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/ebcdic.h>
 #include <net/iucv/iucv.h>
 #include <linux/kmod.h>
 #include <linux/cdev.h>

@@ -56,8 +56,8 @@
 #include <linux/vmacache.h>
 #include <linux/rcupdate.h>
 
-#include <asm/cacheflush.h>
-#include <asm/byteorder.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/byteorder.h>
 #include <linux/atomic.h>
 
 #include "debug_core.h"

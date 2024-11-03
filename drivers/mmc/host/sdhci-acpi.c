@@ -42,9 +42,9 @@
 #include <linux/mmc/slot-gpio.h>
 
 #ifdef CONFIG_X86
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/iosf_mbi.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/iosf_mbi.h>
 #include <linux/pci.h>
 #endif
 

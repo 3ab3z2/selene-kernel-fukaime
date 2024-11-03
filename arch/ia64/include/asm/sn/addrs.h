@@ -9,10 +9,10 @@
 #ifndef _ASM_IA64_SN_ADDRS_H
 #define _ASM_IA64_SN_ADDRS_H
 
-#include <asm/percpu.h>
-#include <asm/sn/types.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/pda.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/pda.h>
 
 /*
  *  Memory/SHUB Address Format:

@@ -7,9 +7,9 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/ppc_asm.h>
-#include <asm/reg.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/reg.h>
 
 #include "subcore.h"
 

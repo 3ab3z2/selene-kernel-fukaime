@@ -40,7 +40,7 @@
 #include <linux/ctype.h>
 #include <linux/efi.h>
 #include <generated/utsrelease.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 /* Macros used by the included decompressor code below. */
 #define STATIC

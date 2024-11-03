@@ -2,7 +2,7 @@
 #include <linux/init.h>
 #include <linux/types.h>
 #include <linux/audit.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include "audit.h"
 
 static unsigned dir_class[] = {

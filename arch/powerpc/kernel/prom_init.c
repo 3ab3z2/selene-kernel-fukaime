@@ -31,21 +31,21 @@
 #include <linux/delay.h>
 #include <linux/initrd.h>
 #include <linux/bitops.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/iommu.h>
-#include <asm/btext.h>
-#include <asm/sections.h>
-#include <asm/machdep.h>
-#include <asm/opal.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/asm-prototypes.h>
 
 #include <linux/linux_logo.h>
 

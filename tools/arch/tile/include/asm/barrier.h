@@ -4,7 +4,7 @@
 /*
  * FIXME: This came from tools/perf/perf-sys.h, where it was first introduced
  * in 620830b6954913647b7c7f68920cf48eddf6ad92, more work needed to make it
- * more closely follow the Linux kernel arch/tile/include/asm/barrier.h file.
+ * more closely follow the Linux kernel arch/tile/include/asm-generic/barrier.h file.
  * Probably when we continue work on tools/ Kconfig support to have all the
  * CONFIG_ needed for properly doing that.
  */

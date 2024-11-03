@@ -17,13 +17,13 @@
 
 #include <linux/vmalloc.h>
 #include <linux/io.h>
-#include <asm/pgalloc.h>
-#include <asm/kmap_types.h>
-#include <asm/fixmap.h>
-#include <asm/bug.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/pgtable.h>
 #include <linux/sched.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 extern int mem_init_done;
 

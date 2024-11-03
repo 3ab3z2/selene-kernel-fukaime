@@ -58,9 +58,9 @@
 #include <linux/pnp.h>
 #include <linux/platform_device.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/wrapper.h>
 #include <net/irda/irda.h>

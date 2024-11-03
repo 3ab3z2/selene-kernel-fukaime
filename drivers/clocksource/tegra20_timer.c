@@ -29,8 +29,8 @@
 #include <linux/sched_clock.h>
 #include <linux/delay.h>
 
-#include <asm/mach/time.h>
-#include <asm/smp_twd.h>
+#include <asm-generic/mach/time.h>
+#include <asm-generic/smp_twd.h>
 
 #define RTC_SECONDS            0x08
 #define RTC_SHADOW_SECONDS     0x0c

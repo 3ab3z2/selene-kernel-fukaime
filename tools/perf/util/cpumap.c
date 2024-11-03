@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <linux/bitmap.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 
 #include "sane_ctype.h"
 

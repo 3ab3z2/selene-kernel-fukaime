@@ -21,7 +21,7 @@
 #include <linux/usb/tilegx.h>
 #include <linux/usb.h>
 
-#include <asm/homecache.h>
+#include <asm-generic/homecache.h>
 
 #include <gxio/iorpc_usb_host.h>
 #include <gxio/usb_host.h>

@@ -11,7 +11,7 @@
 
 #include <errno.h>
 #include "../../util/kvm-stat.h"
-#include <asm/sie.h>
+#include <asm-generic/sie.h>
 
 define_exit_reasons_table(sie_exit_reasons, sie_intercept_code);
 define_exit_reasons_table(sie_icpt_insn_codes, icpt_insn_codes);

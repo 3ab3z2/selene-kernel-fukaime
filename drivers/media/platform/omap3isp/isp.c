@@ -42,7 +42,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include <linux/clk.h>
 #include <linux/clkdev.h>
@@ -61,7 +61,7 @@
 #include <linux/sched.h>
 #include <linux/vmalloc.h>
 
-#include <asm/dma-iommu.h>
+#include <asm-generic/dma-iommu.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-fwnode.h>

@@ -12,7 +12,7 @@
 #ifndef _GDB_IO_H
 #define _GDB_IO_H
 
-#include <asm/serial-regs.h>
+#include <asm-generic/serial-regs.h>
 
 #undef UART_RX
 #undef UART_TX

@@ -13,7 +13,7 @@
 #include <linux/io.h>
 #include <linux/memblock.h>
 
-#include <asm/early_ioremap.h>
+#include <asm-generic/early_ioremap.h>
 
 static int __initdata tbl_size;
 

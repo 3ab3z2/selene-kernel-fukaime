@@ -29,8 +29,8 @@
 #include <linux/cacheinfo.h>
 #include <linux/cpuhotplug.h>
 
-#include <asm/intel-family.h>
-#include <asm/intel_rdt_sched.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/intel_rdt_sched.h>
 #include "intel_rdt.h"
 
 #define MAX_MBA_BW	100u

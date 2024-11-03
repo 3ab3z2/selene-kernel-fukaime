@@ -41,9 +41,9 @@
 
 #include "../mm/internal.h"	/* For the trace_print_flags arrays */
 
-#include <asm/page.h>		/* for PAGE_SIZE */
-#include <asm/sections.h>	/* for dereference_function_descriptor() */
-#include <asm/byteorder.h>	/* cpu_to_le16 */
+#include <asm-generic/page.h>		/* for PAGE_SIZE */
+#include <asm-generic/sections.h>	/* for dereference_function_descriptor() */
+#include <asm-generic/byteorder.h>	/* cpu_to_le16 */
 
 #include <linux/string_helpers.h>
 #include "kstrtox.h"

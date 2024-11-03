@@ -16,8 +16,8 @@
 #include <linux/init.h>
 #include <linux/cpufreq.h>
 
-#include <asm/msr.h>
-#include <asm/tsc.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/tsc.h>
 #include "speedstep-lib.h"
 
 #define PFX "speedstep-lib: "

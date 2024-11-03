@@ -33,7 +33,7 @@
 #include <linux/poll.h>
 #include <linux/vmalloc.h>
 #include <linux/jiffies.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "pwc.h"
 

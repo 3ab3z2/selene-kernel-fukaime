@@ -9,9 +9,9 @@
 
 #include <linux/linkage.h>
 
-#include <asm/asmmacro.h>
-#include <asm/pgtsrmmu.h>
-#include <asm/asi.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/pgtsrmmu.h>
+#include <asm-generic/asi.h>
 
 /* unsigned int srmmu_get_mmureg(void) */
 ENTRY(srmmu_get_mmureg)

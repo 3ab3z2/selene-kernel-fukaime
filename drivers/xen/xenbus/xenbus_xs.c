@@ -46,7 +46,7 @@
 #include <linux/reboot.h>
 #include <linux/rwsem.h>
 #include <linux/mutex.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/xenbus.h>
 #include <xen/xen.h>
 #include "xenbus.h"

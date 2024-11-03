@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
 
-/* Offset is based on macros from arch/powerpc/include/uapi/asm/ptrace.h. */
+/* Offset is based on macros from arch/powerpc/include/uapi/asm-generic/ptrace.h. */
 #define R0	 0
 #define R1	 1 * 8
 #define R2	 2 * 8

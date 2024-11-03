@@ -40,15 +40,15 @@
 #include <linux/gfp.h>
 #include <linux/kprobes.h>
 #include <linux/uaccess.h>
-#include <asm/facility.h>
-#include <asm/delay.h>
-#include <asm/div64.h>
-#include <asm/vdso.h>
-#include <asm/irq.h>
-#include <asm/irq_regs.h>
-#include <asm/vtimer.h>
-#include <asm/stp.h>
-#include <asm/cio.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/vtimer.h>
+#include <asm-generic/stp.h>
+#include <asm-generic/cio.h>
 #include "entry.h"
 
 unsigned char tod_clock_base[16] __aligned(8) = {

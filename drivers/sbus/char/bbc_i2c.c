@@ -14,8 +14,8 @@
 #include <linux/interrupt.h>
 #include <linux/of.h>
 #include <linux/of_device.h>
-#include <asm/bbc.h>
-#include <asm/io.h>
+#include <asm-generic/bbc.h>
+#include <asm-generic/io.h>
 
 #include "bbc_i2c.h"
 

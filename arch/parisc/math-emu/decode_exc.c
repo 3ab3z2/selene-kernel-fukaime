@@ -46,8 +46,8 @@
 #include "dbl_float.h"
 #include "cnv_float.h"
 /* #include "types.h" */
-#include <asm/signal.h>
-#include <asm/siginfo.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/siginfo.h>
 /* #include <machine/sys/mdep_private.h> */
 
 #undef Fpustatus_register

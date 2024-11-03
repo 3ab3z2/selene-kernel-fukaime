@@ -35,7 +35,7 @@
 #include <linux/io-64-nonatomic-lo-hi.h>
 #include <linux/spinlock.h>
 
-#include <asm/intel_pmc_ipc.h>
+#include <asm-generic/intel_pmc_ipc.h>
 
 #include <linux/platform_data/itco_wdt.h>
 

@@ -76,9 +76,9 @@
 #include <linux/serial_8250.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/hardware.h>
-#include <asm/superio.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/superio.h>
 
 static struct superio_device sio_dev;
 

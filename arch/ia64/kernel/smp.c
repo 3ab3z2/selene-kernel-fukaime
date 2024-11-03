@@ -33,20 +33,20 @@
 #include <linux/kexec.h>
 
 #include <linux/atomic.h>
-#include <asm/current.h>
-#include <asm/delay.h>
-#include <asm/machvec.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/sal.h>
-#include <asm/tlbflush.h>
-#include <asm/unistd.h>
-#include <asm/mca.h>
+#include <asm-generic/current.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/mca.h>
 
 /*
  * Note: alignment of 4 entries/cacheline was empirically determined

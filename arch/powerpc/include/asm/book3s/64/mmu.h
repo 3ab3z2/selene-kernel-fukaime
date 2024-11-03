@@ -27,7 +27,7 @@ extern struct mmu_psize_def mmu_psize_defs[MMU_PAGE_COUNT];
 #endif /* __ASSEMBLY__ */
 
 /* 64-bit classic hash table MMU */
-#include <asm/book3s/64/mmu-hash.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
 
 #ifndef __ASSEMBLY__
 /*

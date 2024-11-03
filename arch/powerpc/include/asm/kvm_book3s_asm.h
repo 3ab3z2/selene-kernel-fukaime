@@ -35,7 +35,7 @@
 
 #ifdef CONFIG_KVM_BOOK3S_HANDLER
 
-#include <asm/kvm_asm.h>
+#include <asm-generic/kvm_asm.h>
 
 .macro DO_KVM intno
 	.if (\intno == BOOK3S_INTERRUPT_SYSTEM_RESET) || \

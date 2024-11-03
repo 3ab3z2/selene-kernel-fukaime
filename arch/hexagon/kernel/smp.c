@@ -31,8 +31,8 @@
 #include <linux/cpu.h>
 #include <linux/mm_types.h>
 
-#include <asm/time.h>    /*  timer_interrupt  */
-#include <asm/hexagon_vm.h>
+#include <asm-generic/time.h>    /*  timer_interrupt  */
+#include <asm-generic/hexagon_vm.h>
 
 #define BASE_IPI_IRQ 26
 

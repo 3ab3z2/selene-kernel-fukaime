@@ -26,17 +26,17 @@ extern struct pci_dev *isa_bridge_pcidev;
 
 #include <linux/device.h>
 #include <linux/compiler.h>
-#include <asm/page.h>
-#include <asm/byteorder.h>
-#include <asm/synch.h>
-#include <asm/delay.h>
-#include <asm/mmu.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/ppc_asm.h>
 
 #include <asm-generic/iomap.h>
 
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 #endif
 
 #define SIO_CONFIG_RA	0x398
@@ -272,7 +272,7 @@ extern void _memcpy_toio(volatile void __iomem *dest, const void *src,
  * in the way when building for 32 bits
  */
 #ifdef CONFIG_EEH
-#include <asm/eeh.h>
+#include <asm-generic/eeh.h>
 #endif
 
 /* Shortcut to the MMIO argument pointer */
@@ -596,7 +596,7 @@ extern struct ppc_pci_io {
 #define DEF_PCI_AC_RET(name, ret, at, al, space, aa)	ret (*name) at;
 #define DEF_PCI_AC_NORET(name, at, al, space, aa)	void (*name) at;
 
-#include <asm/io-defs.h>
+#include <asm-generic/io-defs.h>
 
 #undef DEF_PCI_AC_RET
 #undef DEF_PCI_AC_NORET
@@ -621,7 +621,7 @@ static inline void name at					\
 		__do_##name al;					\
 }
 
-#include <asm/io-defs.h>
+#include <asm-generic/io-defs.h>
 
 #undef DEF_PCI_AC_RET
 #undef DEF_PCI_AC_NORET

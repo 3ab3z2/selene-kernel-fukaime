@@ -19,8 +19,8 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/unistd.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/unistd.h>
 
 #ifndef __NR_syscall /* Only defined if _MIPS_SIM == _MIPS_SIM_ABI32 */
 #define __NR_syscall 4000

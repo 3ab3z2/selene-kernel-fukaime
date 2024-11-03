@@ -14,10 +14,10 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/grackle.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/grackle.h>
 
 #define GRACKLE_CFA(b, d, o)	(0x80 | ((b) << 8) | ((d) << 16) \
 				 | (((o) & ~3) << 24))

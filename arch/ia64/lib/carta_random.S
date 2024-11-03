@@ -9,7 +9,7 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/asmmacro.h>
+#include <asm-generic/asmmacro.h>
 
 #define a	r2
 #define m	r3

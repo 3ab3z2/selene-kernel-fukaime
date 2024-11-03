@@ -13,9 +13,9 @@
 #include <linux/kernel.h>
 #include <linux/rtc.h>
 
-#include <asm/errno.h>
-#include <asm/intersil.h>
-#include <asm/machdep.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/intersil.h>
+#include <asm-generic/machdep.h>
 
 
 /* bits to set for start/run of the intersil */

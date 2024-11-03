@@ -44,11 +44,11 @@
 #include <linux/vmalloc.h>
 #include <linux/workqueue.h>
 
-#include <asm/byteorder.h>
-#include <asm/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/page.h>
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/pmac_feature.h>
+#include <asm-generic/pmac_feature.h>
 #endif
 
 #include "core.h"

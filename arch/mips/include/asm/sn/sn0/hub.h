@@ -24,12 +24,12 @@
 
 #define MAX_HUB_PATH		80
 
-#include <asm/sn/sn0/addrs.h>
-#include <asm/sn/sn0/hubpi.h>
-#include <asm/sn/sn0/hubmd.h>
-#include <asm/sn/sn0/hubio.h>
-#include <asm/sn/sn0/hubni.h>
-//#include <asm/sn/sn0/hubcore.h>
+#include <asm-generic/sn/sn0/addrs.h>
+#include <asm-generic/sn/sn0/hubpi.h>
+#include <asm-generic/sn/sn0/hubmd.h>
+#include <asm-generic/sn/sn0/hubio.h>
+#include <asm-generic/sn/sn0/hubni.h>
+//#include <asm-generic/sn/sn0/hubcore.h>
 
 /* Translation of uncached attributes */
 #define UATTR_HSPEC	0

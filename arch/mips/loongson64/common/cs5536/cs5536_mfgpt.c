@@ -23,7 +23,7 @@
 #include <linux/interrupt.h>
 #include <linux/clockchips.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #include <cs5536/cs5536_mfgpt.h>
 

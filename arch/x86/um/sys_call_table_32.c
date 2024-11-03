@@ -8,7 +8,7 @@
 #include <linux/sys.h>
 #include <linux/cache.h>
 #include <generated/user_constants.h>
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 
 #define __NO_STUBS
 
@@ -27,7 +27,7 @@
 #define old_mmap sys_old_mmap
 
 #define __SYSCALL_I386(nr, sym, qual) extern asmlinkage long sym(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long) ;
-#include <asm/syscalls_32.h>
+#include <asm-generic/syscalls_32.h>
 
 #undef __SYSCALL_I386
 #define __SYSCALL_I386(nr, sym, qual) [ nr ] = sym,
@@ -40,7 +40,7 @@ const sys_call_ptr_t sys_call_table[] ____cacheline_aligned = {
 	 * when the & below is removed.
 	 */
 	[0 ... __NR_syscall_max] = &sys_ni_syscall,
-#include <asm/syscalls_32.h>
+#include <asm-generic/syscalls_32.h>
 };
 
 int syscall_table_size = sizeof(sys_call_table);

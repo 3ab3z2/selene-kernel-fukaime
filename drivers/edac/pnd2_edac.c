@@ -36,10 +36,10 @@
 #include <linux/bitmap.h>
 #include <linux/math64.h>
 #include <linux/mod_devicetable.h>
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/processor.h>
-#include <asm/mce.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mce.h>
 
 #include "edac_mc.h"
 #include "edac_module.h"

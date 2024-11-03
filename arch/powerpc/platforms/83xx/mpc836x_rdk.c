@@ -16,10 +16,10 @@
 #include <linux/pci.h>
 #include <linux/of_platform.h>
 #include <linux/io.h>
-#include <asm/prom.h>
-#include <asm/time.h>
-#include <asm/ipic.h>
-#include <asm/udbg.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/udbg.h>
 #include <soc/fsl/qe/qe.h>
 #include <soc/fsl/qe/qe_ic.h>
 #include <sysdev/fsl_soc.h>

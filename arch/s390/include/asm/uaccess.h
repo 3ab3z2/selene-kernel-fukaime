@@ -13,9 +13,9 @@
 /*
  * User space memory access functions
  */
-#include <asm/processor.h>
-#include <asm/ctl_reg.h>
-#include <asm/extable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/extable.h>
 
 
 /*

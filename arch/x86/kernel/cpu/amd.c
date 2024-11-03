@@ -7,17 +7,17 @@
 #include <linux/sched.h>
 #include <linux/sched/clock.h>
 #include <linux/random.h>
-#include <asm/processor.h>
-#include <asm/apic.h>
-#include <asm/cpu.h>
-#include <asm/spec-ctrl.h>
-#include <asm/smp.h>
-#include <asm/pci-direct.h>
-#include <asm/delay.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/spec-ctrl.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/delay.h>
 
 #ifdef CONFIG_X86_64
-# include <asm/mmconfig.h>
-# include <asm/set_memory.h>
+# include <asm-generic/mmconfig.h>
+# include <asm-generic/set_memory.h>
 #endif
 
 #include "cpu.h"

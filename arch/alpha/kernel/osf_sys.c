@@ -41,13 +41,13 @@
 #include <linux/rcupdate.h>
 #include <linux/slab.h>
 
-#include <asm/fpu.h>
-#include <asm/io.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/sysinfo.h>
-#include <asm/thread_info.h>
-#include <asm/hwrpb.h>
-#include <asm/processor.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/processor.h>
 
 /*
  * Brk needs to return an error.  Still support Linux's brk(0) query idiom,

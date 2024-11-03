@@ -44,8 +44,8 @@
 #include <xen/xenbus.h>
 #include <xen/events.h>
 #include <xen/interface/platform.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 
 /*

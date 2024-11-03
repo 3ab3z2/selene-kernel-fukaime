@@ -26,12 +26,12 @@
 #include <linux/ptrace.h>
 #include <linux/delay.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/emma/emma2rh.h>
 
 static void emma2rh_irq_enable(struct irq_data *d)
 {

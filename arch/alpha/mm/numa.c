@@ -16,9 +16,9 @@
 #include <linux/pfn.h>
 #include <linux/module.h>
 
-#include <asm/hwrpb.h>
-#include <asm/pgalloc.h>
-#include <asm/sections.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sections.h>
 
 pg_data_t node_data[MAX_NUMNODES];
 EXPORT_SYMBOL(node_data);

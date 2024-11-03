@@ -6,7 +6,7 @@
 #define CIA_ONE_HAE_WINDOW 1
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * CIA is the internal name for the 21171 chipset which provides
@@ -473,7 +473,7 @@ __EXTERN_INLINE int cia_bwx_is_mmio(const volatile void __iomem *addr)
 #define cia_trivial_io_bw	0
 #define cia_trivial_io_lq	0
 #define cia_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #undef __IO_PREFIX
 #define __IO_PREFIX		cia_bwx
@@ -482,7 +482,7 @@ __EXTERN_INLINE int cia_bwx_is_mmio(const volatile void __iomem *addr)
 #define cia_bwx_trivial_io_bw	1
 #define cia_bwx_trivial_io_lq	1
 #define cia_bwx_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #undef __IO_PREFIX
 #ifdef CONFIG_ALPHA_PYXIS

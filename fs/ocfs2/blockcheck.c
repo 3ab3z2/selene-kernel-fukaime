@@ -25,7 +25,7 @@
 #include <linux/debugfs.h>
 #include <linux/module.h>
 #include <linux/fs.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <cluster/masklog.h>
 

@@ -38,7 +38,7 @@
 #include <linux/io.h>
 #include <linux/i2c/pxa-i2c.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 struct pxa_reg_layout {
 	u32 ibmr;

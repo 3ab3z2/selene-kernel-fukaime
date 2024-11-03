@@ -14,7 +14,7 @@
 #include <linux/regulator/consumer.h>
 #include <linux/err.h>
 #include <linux/module.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/iio/iio.h>
 #include <linux/iio/sysfs.h>

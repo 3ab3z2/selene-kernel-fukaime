@@ -18,18 +18,18 @@
 #include <linux/stddef.h>
 #include <linux/export.h>
 
-#include <asm/bugs.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/fpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/msa.h>
-#include <asm/watch.h>
-#include <asm/elf.h>
-#include <asm/pgtable-bits.h>
-#include <asm/spram.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/msa.h>
+#include <asm-generic/watch.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/pgtable-bits.h>
+#include <asm-generic/spram.h>
 #include <linux/uaccess.h>
 
 /* Hardware capabilities */

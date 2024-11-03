@@ -128,10 +128,10 @@
 #include <linux/module.h>
 #include <linux/interrupt.h>
 #include <linux/device.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/byteorder.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/byteorder.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

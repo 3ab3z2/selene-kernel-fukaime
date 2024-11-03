@@ -12,7 +12,7 @@
 #include <linux/efi.h>
 #include <linux/slab.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 struct efi_runtime_map_entry {
 	efi_memory_desc_t md;

@@ -1,1 +1,1 @@
-#include "asm/bug.h"
+#include "asm-generic/bug.h"

@@ -9,9 +9,9 @@
  */
 
 #include <linux/init.h>
-#include <asm/asm-offsets.h>
-#include <asm/pal.h>
-#include <asm/setup.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/setup.h>
 
 __HEAD
 .globl _stext

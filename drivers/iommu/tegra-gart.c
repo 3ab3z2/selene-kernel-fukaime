@@ -31,7 +31,7 @@
 #include <linux/iommu.h>
 #include <linux/of.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 /* bitmap of the page sizes currently supported */
 #define GART_IOMMU_PGSIZES	(SZ_4K)

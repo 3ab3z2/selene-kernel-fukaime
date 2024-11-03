@@ -7,7 +7,7 @@
 #include <linux/module.h>	/* for MODULE_NAME_LEN via KSYM_SYMBOL_LEN */
 #include <linux/ftrace.h>
 #include <linux/perf_event.h>
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 
 #include "trace_output.h"
 #include "trace.h"

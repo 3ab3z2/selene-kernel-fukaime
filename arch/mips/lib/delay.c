@@ -14,9 +14,9 @@
 #include <linux/smp.h>
 #include <linux/stringify.h>
 
-#include <asm/asm.h>
-#include <asm/compiler.h>
-#include <asm/war.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/war.h>
 
 #ifndef CONFIG_CPU_DADDI_WORKAROUNDS
 #define GCC_DADDI_IMM_ASM() "I"

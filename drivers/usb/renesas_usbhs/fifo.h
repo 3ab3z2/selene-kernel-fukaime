@@ -20,7 +20,7 @@
 #include <linux/interrupt.h>
 #include <linux/sh_dma.h>
 #include <linux/workqueue.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include "pipe.h"
 
 struct usbhs_fifo {

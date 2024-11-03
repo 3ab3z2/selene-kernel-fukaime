@@ -21,14 +21,14 @@
 #include <linux/percpu.h>
 #include <linux/smp.h>
 
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/time.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/time.h>
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 
 #define IMR_IP2_VAL	K_INT_MAP_I0
 #define IMR_IP3_VAL	K_INT_MAP_I1

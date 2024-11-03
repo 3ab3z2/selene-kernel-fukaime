@@ -19,9 +19,9 @@
 #include <linux/ide.h>
 #include <linux/module.h>
 
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_baboon.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_baboon.h>
 
 #define IDE_BASE 0x50F1A000	/* Base address of IDE controller */
 

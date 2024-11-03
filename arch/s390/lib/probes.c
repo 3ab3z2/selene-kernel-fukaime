@@ -6,8 +6,8 @@
  */
 
 #include <linux/errno.h>
-#include <asm/kprobes.h>
-#include <asm/dis.h>
+#include <asm-generic/kprobes.h>
+#include <asm-generic/dis.h>
 
 int probe_is_prohibited_opcode(u16 *insn)
 {

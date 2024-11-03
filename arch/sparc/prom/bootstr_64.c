@@ -8,7 +8,7 @@
 
 #include <linux/string.h>
 #include <linux/init.h>
-#include <asm/oplib.h>
+#include <asm-generic/oplib.h>
 
 /* WARNING: The boot loader knows that these next three variables come one right
  *          after another in the .data section.  Do not move this stuff into

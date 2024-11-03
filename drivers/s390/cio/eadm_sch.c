@@ -15,12 +15,12 @@
 #include <linux/slab.h>
 #include <linux/list.h>
 
-#include <asm/css_chars.h>
-#include <asm/debug.h>
-#include <asm/isc.h>
-#include <asm/cio.h>
-#include <asm/scsw.h>
-#include <asm/eadm.h>
+#include <asm-generic/css_chars.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/scsw.h>
+#include <asm-generic/eadm.h>
 
 #include "eadm_sch.h"
 #include "ioasm.h"

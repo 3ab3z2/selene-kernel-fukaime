@@ -23,7 +23,7 @@
 #include <linux/memblock.h>
 #include <linux/of_fdt.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 void __init early_init_devtree(void *params)
 {

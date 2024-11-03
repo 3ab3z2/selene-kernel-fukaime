@@ -82,8 +82,8 @@
 #include <linux/errno.h>
 #include <linux/slab.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/processor-cyrix.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/processor-cyrix.h>
 
 /* PCI config registers, all at F0 */
 #define PCI_PMER1	0x80	/* power management enable register 1 */

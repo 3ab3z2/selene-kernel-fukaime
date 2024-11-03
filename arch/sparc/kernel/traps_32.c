@@ -19,13 +19,13 @@
 #include <linux/kdebug.h>
 #include <linux/export.h>
 
-#include <asm/delay.h>
-#include <asm/ptrace.h>
-#include <asm/oplib.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/unistd.h>
-#include <asm/traps.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/traps.h>
 
 #include "entry.h"
 #include "kernel.h"

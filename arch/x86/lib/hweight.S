@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
-#include <asm/export.h>
+#include <asm-generic/export.h>
 
-#include <asm/asm.h>
+#include <asm-generic/asm.h>
 
 /*
  * unsigned int __sw_hweight32(unsigned int w)

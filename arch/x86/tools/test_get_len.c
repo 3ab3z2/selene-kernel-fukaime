@@ -24,7 +24,7 @@
 
 #define unlikely(cond) (cond)
 
-#include <asm/insn.h>
+#include <asm-generic/insn.h>
 #include <inat.c>
 #include <insn.c>
 

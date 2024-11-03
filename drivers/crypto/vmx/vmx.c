@@ -25,7 +25,7 @@
 #include <linux/err.h>
 #include <linux/cpufeature.h>
 #include <linux/crypto.h>
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 #include <crypto/internal/hash.h>
 
 extern struct shash_alg p8_ghash_alg;

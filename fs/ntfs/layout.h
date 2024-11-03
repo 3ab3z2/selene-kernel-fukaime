@@ -27,7 +27,7 @@
 #include <linux/types.h>
 #include <linux/bitops.h>
 #include <linux/list.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "types.h"
 

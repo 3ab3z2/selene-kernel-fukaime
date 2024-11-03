@@ -24,7 +24,7 @@
 
 #include <linux/module.h>
 #include <linux/acpi.h>
-#include <asm/sal.h>
+#include <asm-generic/sal.h>
 
 MODULE_AUTHOR("Bjorn Helgaas <bjorn.helgaas@hp.com>");
 MODULE_LICENSE("GPL");

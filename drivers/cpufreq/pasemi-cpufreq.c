@@ -30,11 +30,11 @@
 #include <linux/module.h>
 #include <linux/of_address.h>
 
-#include <asm/hw_irq.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/time.h>
-#include <asm/smp.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/smp.h>
 
 #define SDCASR_REG		0x0100
 #define SDCASR_REG_STRIDE	0x1000

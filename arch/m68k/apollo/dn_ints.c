@@ -2,8 +2,8 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/traps.h>
-#include <asm/apollohw.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/apollohw.h>
 
 unsigned int apollo_irq_startup(struct irq_data *data)
 {

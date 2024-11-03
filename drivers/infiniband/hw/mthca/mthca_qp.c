@@ -37,7 +37,7 @@
 #include <linux/slab.h>
 #include <linux/sched.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <rdma/ib_verbs.h>
 #include <rdma/ib_cache.h>

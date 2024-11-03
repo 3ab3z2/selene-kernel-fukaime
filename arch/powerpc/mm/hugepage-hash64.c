@@ -16,7 +16,7 @@
  * PPC64 THP Support for hash based MMUs
  */
 #include <linux/mm.h>
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 int __hash_page_thp(unsigned long ea, unsigned long access, unsigned long vsid,
 		    pmd_t *pmdp, unsigned long trap, unsigned long flags,

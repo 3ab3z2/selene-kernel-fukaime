@@ -20,7 +20,7 @@
 #define _CHECKSUM_H
 
 #include <linux/errno.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/byteorder.h>
 #include <linux/uaccess.h>
 #include <asm/checksum.h>

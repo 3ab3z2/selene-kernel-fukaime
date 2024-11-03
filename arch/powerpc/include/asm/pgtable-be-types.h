@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_PGTABLE_BE_TYPES_H
 #define _ASM_POWERPC_PGTABLE_BE_TYPES_H
 
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 /* PTE level */
 typedef struct { __be64 pte; } pte_t;

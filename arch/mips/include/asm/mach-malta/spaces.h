@@ -41,6 +41,6 @@
 
 #endif /* CONFIG_EVA */
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* _ASM_MALTA_SPACES_H */

@@ -15,14 +15,14 @@
 #define _ASM_ATOMIC_H
 
 #include <linux/types.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 #ifdef CONFIG_SMP
 #error not SMP safe
 #endif
 
-#include <asm/atomic_defs.h>
+#include <asm-generic/atomic_defs.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

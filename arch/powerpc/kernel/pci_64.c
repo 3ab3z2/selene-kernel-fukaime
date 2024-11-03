@@ -24,13 +24,13 @@
 #include <linux/irq.h>
 #include <linux/vmalloc.h>
 
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/byteorder.h>
-#include <asm/machdep.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ppc-pci.h>
 
 /* pci_io_base -- the base address from which io bars are offsets.
  * This is the lowest I/O base address (so bar values are always positive),

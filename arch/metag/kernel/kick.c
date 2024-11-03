@@ -32,7 +32,7 @@
 #include <linux/mm.h>
 #include <linux/types.h>
 
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 /*
  * All accesses/manipulations of kick_handlers_list should be

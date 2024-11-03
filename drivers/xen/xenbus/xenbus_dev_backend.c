@@ -15,7 +15,7 @@
 #include <xen/xenbus_dev.h>
 #include <xen/grant_table.h>
 #include <xen/events.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include "xenbus.h"
 

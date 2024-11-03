@@ -19,7 +19,7 @@
  * basically just enough here to get kernel/dma.c to compile.
  */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/spinlock.h>
 
 #ifndef MAX_DMA_CHANNELS

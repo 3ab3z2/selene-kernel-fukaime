@@ -20,7 +20,7 @@
 #include <linux/mm.h>
 #include <linux/namei.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ncp_fs.h"
 

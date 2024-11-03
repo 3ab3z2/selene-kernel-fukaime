@@ -10,7 +10,7 @@
 #include <linux/cdrom.h>
 #include <linux/delay.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #include <scsi/scsi.h>

@@ -13,18 +13,18 @@
 #include <linux/sched.h>
 #include <linux/tty.h>
 
-#include <asm/addrspace.h>
-#include <asm/bcache.h>
-#include <asm/bootinfo.h>
-#include <asm/irq.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
-#include <asm/io.h>
-#include <asm/traps.h>
-#include <asm/sgialib.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/io.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 extern void ip22_be_init(void) __init;
 

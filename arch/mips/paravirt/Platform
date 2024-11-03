@@ -3,6 +3,6 @@
 #
 platform-$(CONFIG_MIPS_PARAVIRT)	+= paravirt/
 cflags-$(CONFIG_MIPS_PARAVIRT)		+=				\
-		-I$(srctree)/arch/mips/include/asm/mach-paravirt
+		-I$(srctree)/arch/mips/include/asm-generic/mach-paravirt
 
 load-$(CONFIG_MIPS_PARAVIRT)	= 0xffffffff80010000

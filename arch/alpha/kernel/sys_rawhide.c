@@ -16,14 +16,14 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 
-#include <asm/ptrace.h>
-#include <asm/dma.h>
-#include <asm/irq.h>
-#include <asm/mmu_context.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/core_mcpcia.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/core_mcpcia.h>
+#include <asm-generic/tlbflush.h>
 
 #include "proto.h"
 #include "irq_impl.h"

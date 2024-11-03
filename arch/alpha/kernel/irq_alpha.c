@@ -9,10 +9,10 @@
 #include <linux/kernel_stat.h>
 #include <linux/module.h>
 
-#include <asm/machvec.h>
-#include <asm/dma.h>
-#include <asm/perf_event.h>
-#include <asm/mce.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/mce.h>
 
 #include "proto.h"
 #include "irq_impl.h"

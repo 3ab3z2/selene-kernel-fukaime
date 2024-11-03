@@ -10,9 +10,9 @@
  *  Filler routines for DMA buffers
  */
 #include <linux/linkage.h>
-#include <asm/assembler.h>
+#include <asm-generic/assembler.h>
 #include <mach/hardware.h>
-#include <asm/hardware/iomd.h>
+#include <asm-generic/hardware/iomd.h>
 
 		.text
 

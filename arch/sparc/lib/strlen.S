@@ -7,8 +7,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asm.h>
-#include <asm/export.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/export.h>
 
 #define LO_MAGIC 0x01010101
 #define HI_MAGIC 0x80808080

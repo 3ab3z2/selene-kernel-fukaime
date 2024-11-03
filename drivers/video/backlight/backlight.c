@@ -18,7 +18,7 @@
 #include <linux/slab.h>
 
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 static struct list_head backlight_dev_list;

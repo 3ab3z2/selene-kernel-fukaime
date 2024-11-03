@@ -20,7 +20,7 @@
  ****************************************************************/
 
 #include <linux/export.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "smsendian.h"
 #include "smscoreapi.h"

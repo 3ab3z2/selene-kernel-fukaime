@@ -16,7 +16,7 @@
 #ifndef CBE_REGS_H
 #define CBE_REGS_H
 
-#include <asm/cell-pmu.h>
+#include <asm-generic/cell-pmu.h>
 
 /*
  *

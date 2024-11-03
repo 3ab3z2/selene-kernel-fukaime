@@ -21,7 +21,7 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include <linux/delay.h>
 #include <linux/slab.h>
 #include <linux/mtd/mtd.h>

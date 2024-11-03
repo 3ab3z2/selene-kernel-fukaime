@@ -53,8 +53,8 @@
 #include <sound/initval.h>
 #include <sound/info.h>
 
-#include <asm/hardware.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/parisc-device.h>
 
 #include "harmony.h"
 

@@ -19,9 +19,9 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 
-#include <asm/byteorder.h>
-#include <asm/setup.h>
-#include <asm/amigahw.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/amigahw.h>
 
 #include "zorro.h"
 

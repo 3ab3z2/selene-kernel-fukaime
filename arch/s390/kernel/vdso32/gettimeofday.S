@@ -9,9 +9,9 @@
  * it under the terms of the GNU General Public License (version 2 only)
  * as published by the Free Software Foundation.
  */
-#include <asm/vdso.h>
-#include <asm/asm-offsets.h>
-#include <asm/unistd.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/unistd.h>
 
 	.text
 	.align 4

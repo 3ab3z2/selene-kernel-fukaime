@@ -30,14 +30,14 @@
 #include <linux/highmem.h>
 #include <linux/module.h>
 
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/virtconvert.h>
-#include <asm/sections.h>
-#include <asm/tlb.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/virtconvert.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
 
 #undef DEBUG
 

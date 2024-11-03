@@ -17,12 +17,12 @@
 #include <linux/smp.h>
 #include <linux/stop_machine.h>
 
-#include <asm/cputhreads.h>
-#include <asm/cpuidle.h>
-#include <asm/kvm_ppc.h>
-#include <asm/machdep.h>
-#include <asm/opal.h>
-#include <asm/smp.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/smp.h>
 
 #include "subcore.h"
 #include "powernv.h"

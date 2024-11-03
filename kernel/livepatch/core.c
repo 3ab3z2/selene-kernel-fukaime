@@ -31,7 +31,7 @@
 #include <linux/moduleloader.h>
 #include <linux/completion.h>
 #include <linux/memory.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include "core.h"
 #include "patch.h"
 #include "transition.h"

@@ -10,11 +10,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/visasm.h>
-#include <asm/asi.h>
-#include <asm/dcu.h>
-#include <asm/spitfire.h>
-#include <asm/export.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/dcu.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/export.h>
 
 /*
  *	Requirements:

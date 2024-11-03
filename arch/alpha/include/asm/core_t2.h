@@ -7,7 +7,7 @@
 
 #include <linux/types.h>
 #include <linux/spinlock.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * T2 is the internal name for the core logic chipset which provides
@@ -603,7 +603,7 @@ IOPORT(l, 32)
 #define t2_trivial_io_bw	0
 #define t2_trivial_io_lq	0
 #define t2_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

@@ -52,7 +52,7 @@
 
 #include <linux/nmi.h>
 #include <linux/uaccess.h>
-   #include <asm/io.h>
+   #include <asm-generic/io.h>
 
    /*
     * Some handy macros

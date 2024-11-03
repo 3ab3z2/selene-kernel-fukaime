@@ -2,13 +2,13 @@
 
 #include <linux/sys.h>
 #include <linux/init.h>
-#include <asm/unistd.h>
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/errno.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/linkage.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/errno.h>
 
 #if defined(CONFIG_CPU_H8300H)
 	.h8300h

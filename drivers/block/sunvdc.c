@@ -18,8 +18,8 @@
 #include <linux/list.h>
 #include <linux/scatterlist.h>
 
-#include <asm/vio.h>
-#include <asm/ldc.h>
+#include <asm-generic/vio.h>
+#include <asm-generic/ldc.h>
 
 #define DRV_MODULE_NAME		"sunvdc"
 #define PFX DRV_MODULE_NAME	": "

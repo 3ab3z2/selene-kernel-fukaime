@@ -66,9 +66,9 @@
 #include <linux/sysfs.h>
 
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
 
 /*
  * The default value should be high enough to not crash a system that randomly

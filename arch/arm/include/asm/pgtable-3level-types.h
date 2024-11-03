@@ -20,7 +20,7 @@
 #ifndef _ASM_PGTABLE_3LEVEL_TYPES_H
 #define _ASM_PGTABLE_3LEVEL_TYPES_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 typedef u64 pteval_t;
 typedef u64 pmdval_t;

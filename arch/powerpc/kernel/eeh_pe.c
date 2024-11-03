@@ -29,8 +29,8 @@
 #include <linux/pci.h>
 #include <linux/string.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
 
 static int eeh_pe_aux_size = 0;
 static LIST_HEAD(eeh_phb_pe);

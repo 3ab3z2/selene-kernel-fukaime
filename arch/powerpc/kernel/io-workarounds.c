@@ -14,12 +14,12 @@
 #include <linux/kernel.h>
 #include <linux/sched/mm.h>	/* for init_mm */
 
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/pgtable.h>
-#include <asm/ppc-pci.h>
-#include <asm/io-workarounds.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/io-workarounds.h>
+#include <asm-generic/pte-walk.h>
 
 
 #define IOWA_MAX_BUS	8
@@ -134,7 +134,7 @@ static void iowa_##name at					\
 	__do_##name al;						\
 }
 
-#include <asm/io-defs.h>
+#include <asm-generic/io-defs.h>
 
 #undef DEF_PCI_AC_RET
 #undef DEF_PCI_AC_NORET
@@ -144,7 +144,7 @@ static const struct ppc_pci_io iowa_pci_io = {
 #define DEF_PCI_AC_RET(name, ret, at, al, space, aa)	.name = iowa_##name,
 #define DEF_PCI_AC_NORET(name, at, al, space, aa)	.name = iowa_##name,
 
-#include <asm/io-defs.h>
+#include <asm-generic/io-defs.h>
 
 #undef DEF_PCI_AC_RET
 #undef DEF_PCI_AC_NORET

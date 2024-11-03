@@ -11,7 +11,7 @@
  */
 
 #include <linux/bug.h>
-#include <asm/purgatory.h>
+#include <asm-generic/purgatory.h>
 
 #include "sha256.h"
 #include "../boot/string.h"

@@ -7,7 +7,7 @@
 #endif
 
 #ifdef CONFIG_HUGETLB_PAGE
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #endif
 
 typedef struct {

@@ -20,7 +20,7 @@
 #include <babeltrace/ctf-ir/utils.h>
 #include <babeltrace/ctf/events.h>
 #include <traceevent/event-parse.h>
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "data-convert-bt.h"
 #include "session.h"
 #include "util.h"

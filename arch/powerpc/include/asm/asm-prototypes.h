@@ -13,14 +13,14 @@
  */
 
 #include <linux/threads.h>
-#include <asm/cacheflush.h>
-#include <asm/checksum.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/checksum.h>
 #include <linux/uaccess.h>
-#include <asm/epapr_hcalls.h>
-#include <asm/dcr.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/epapr_hcalls.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/mmu_context.h>
 
-#include <uapi/asm/ucontext.h>
+#include <uapi/asm-generic/ucontext.h>
 
 /* SMP */
 extern struct thread_info *current_set[NR_CPUS];

@@ -5,7 +5,7 @@
  */
 
 #include <linux/slab.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 #include "qeth_core.h"
 #include "qeth_l2.h"
 

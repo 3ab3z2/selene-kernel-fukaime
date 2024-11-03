@@ -1,5 +1,5 @@
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "sizes.h"
 
 #ifndef CONFIG_64BIT

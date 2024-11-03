@@ -10,7 +10,7 @@
 #include <linux/page-flags.h>
 #include <linux/bitops.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /*
  * Cache flushing routines.  This is the kind of stuff that can be very expensive, so try

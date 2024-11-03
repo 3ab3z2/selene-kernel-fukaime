@@ -9,9 +9,9 @@
 #include <linux/kernel.h>
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
-#include <asm/cpu.h>
-#include <asm/debug.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/mipsregs.h>
 
 static void build_segment_config(char *str, unsigned int cfg)
 {

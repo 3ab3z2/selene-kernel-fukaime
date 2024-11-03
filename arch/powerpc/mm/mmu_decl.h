@@ -19,8 +19,8 @@
  *
  */
 #include <linux/mm.h>
-#include <asm/tlbflush.h>
-#include <asm/mmu.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu.h>
 
 #ifdef CONFIG_PPC_MMU_NOHASH
 

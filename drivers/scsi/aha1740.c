@@ -52,8 +52,8 @@
 #include <linux/dma-mapping.h>
 #include <linux/gfp.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 
 #include "scsi.h"
 #include <scsi/scsi_host.h>

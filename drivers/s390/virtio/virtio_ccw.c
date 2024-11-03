@@ -28,14 +28,14 @@
 #include <linux/io.h>
 #include <linux/kvm_para.h>
 #include <linux/notifier.h>
-#include <asm/diag.h>
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
-#include <asm/virtio-ccw.h>
-#include <asm/isc.h>
-#include <asm/airq.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/virtio-ccw.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/airq.h>
 
 /*
  * virtio related functions

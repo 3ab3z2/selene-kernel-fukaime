@@ -20,14 +20,14 @@
 #include <linux/mm.h>
 #include <linux/cpu.h>
 
-#include <asm/page.h>
-#include <asm/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/atomic.h>
 
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 #include <linux/module.h>
 

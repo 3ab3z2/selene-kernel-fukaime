@@ -25,16 +25,16 @@
 #include <linux/smp.h>
 #include <linux/security.h>
 
-#include <asm/cpu.h>
-#include <asm/dsp.h>
-#include <asm/fpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/reg.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/reg.h>
 #include <linux/uaccess.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 /*
  * Tracing a 32-bit process with a 64-bit strace and vice versa will not

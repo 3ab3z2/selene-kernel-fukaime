@@ -17,7 +17,7 @@
 #include <linux/mutex.h>
 #include <linux/etherdevice.h>
 #include <linux/netlink.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <net/sock.h>
 
 #include "netlink_k.h"

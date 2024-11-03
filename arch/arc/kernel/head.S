@@ -13,11 +13,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/entry.h>
-#include <asm/arcregs.h>
-#include <asm/cache.h>
-#include <asm/irqflags.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/irqflags.h>
 
 .macro CPU_EARLY_SETUP
 

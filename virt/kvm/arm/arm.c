@@ -35,17 +35,17 @@
 #include "trace.h"
 
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/mman.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
-#include <asm/virt.h>
-#include <asm/kvm_arm.h>
-#include <asm/kvm_asm.h>
-#include <asm/kvm_mmu.h>
-#include <asm/kvm_emulate.h>
-#include <asm/kvm_coproc.h>
-#include <asm/sections.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/virt.h>
+#include <asm-generic/kvm_arm.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/kvm_mmu.h>
+#include <asm-generic/kvm_emulate.h>
+#include <asm-generic/kvm_coproc.h>
+#include <asm-generic/sections.h>
 
 #ifdef REQUIRES_VIRT
 __asm__(".arch_extension	virt");

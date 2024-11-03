@@ -27,22 +27,22 @@
 #include <linux/slab.h>
 #include <linux/reboot.h>
 
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/hvcall.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/page.h>
-#include <asm/param.h>
-#include <asm/delay.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/page.h>
+#include <asm-generic/param.h>
+#include <asm-generic/delay.h>
 #include <linux/uaccess.h>
-#include <asm/udbg.h>
-#include <asm/syscalls.h>
-#include <asm/smp.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/smp.h>
 #include <linux/atomic.h>
-#include <asm/time.h>
-#include <asm/mmu.h>
-#include <asm/topology.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/topology.h>
 
 /* This is here deliberately so it's only used in this file */
 void enter_rtas(unsigned long);

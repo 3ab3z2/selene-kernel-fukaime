@@ -3,7 +3,7 @@
 #define _ASM_DMI_H 1
 
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Use normal IO mappings for DMI */
 #define dmi_early_remap		ioremap

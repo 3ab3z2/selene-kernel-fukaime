@@ -18,8 +18,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <asm/firmware.h>
-#include <asm/ps3.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/ps3.h>
 
 static void ps3_ehci_setup_insnreg(struct ehci_hcd *ehci)
 {

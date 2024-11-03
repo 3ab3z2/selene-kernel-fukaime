@@ -17,7 +17,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #ifdef CONFIG_MMU
 

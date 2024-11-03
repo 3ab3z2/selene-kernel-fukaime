@@ -18,12 +18,12 @@
 #include <linux/i2c.h>
 #include <linux/irq.h>
 #include <linux/interrupt.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/reboot.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
-#include <asm/bfin_sdh.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
+#include <asm-generic/bfin_sdh.h>
 #include <linux/spi/ad7877.h>
 #include <net/dsa.h>
 

@@ -50,7 +50,7 @@
 #include <trace/events/jbd2.h>
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <mt-plat/mtk_io_boost.h>
 
 #ifdef CONFIG_JBD2_DEBUG

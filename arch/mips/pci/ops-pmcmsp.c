@@ -30,9 +30,9 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #if defined(CONFIG_PMC_MSP7120_GW) || defined(CONFIG_PMC_MSP7120_EVAL)
-#include <asm/mipsmtregs.h>
+#include <asm-generic/mipsmtregs.h>
 #endif
 
 #include <msp_prom.h>

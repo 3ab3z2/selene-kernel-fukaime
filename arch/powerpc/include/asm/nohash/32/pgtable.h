@@ -8,7 +8,7 @@
 #ifndef __ASSEMBLY__
 #include <linux/sched.h>
 #include <linux/threads.h>
-#include <asm/io.h>			/* For sub-arch specific PPC_PIN_SIZE */
+#include <asm-generic/io.h>			/* For sub-arch specific PPC_PIN_SIZE */
 
 extern unsigned long ioremap_bot;
 
@@ -115,19 +115,19 @@ extern int icache_44x_need_flush;
  */
 
 #if defined(CONFIG_40x)
-#include <asm/nohash/32/pte-40x.h>
+#include <asm-generic/nohash/32/pte-40x.h>
 #elif defined(CONFIG_44x)
-#include <asm/nohash/32/pte-44x.h>
+#include <asm-generic/nohash/32/pte-44x.h>
 #elif defined(CONFIG_FSL_BOOKE) && defined(CONFIG_PTE_64BIT)
-#include <asm/nohash/pte-book3e.h>
+#include <asm-generic/nohash/pte-book3e.h>
 #elif defined(CONFIG_FSL_BOOKE)
-#include <asm/nohash/32/pte-fsl-booke.h>
+#include <asm-generic/nohash/32/pte-fsl-booke.h>
 #elif defined(CONFIG_PPC_8xx)
-#include <asm/nohash/32/pte-8xx.h>
+#include <asm-generic/nohash/32/pte-8xx.h>
 #endif
 
 /* And here we include common definitions */
-#include <asm/pte-common.h>
+#include <asm-generic/pte-common.h>
 
 #ifndef __ASSEMBLY__
 

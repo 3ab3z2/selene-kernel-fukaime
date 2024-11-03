@@ -25,8 +25,8 @@
 #include <linux/mm.h>
 #include <linux/scatterlist.h>
 #include <linux/dma-debug.h>
-#include <asm/io.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/cacheflush.h>
 
 #define __dma_alloc_coherent(dev, gfp, size, handle)	NULL
 #define __dma_free_coherent(size, addr)		((void)0)

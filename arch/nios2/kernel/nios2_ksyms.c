@@ -9,8 +9,8 @@
 #include <linux/export.h>
 #include <linux/string.h>
 
-#include <asm/cacheflush.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/pgtable.h>
 
 /* string functions */
 

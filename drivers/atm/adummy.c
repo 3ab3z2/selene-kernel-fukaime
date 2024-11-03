@@ -14,8 +14,8 @@
 #include <linux/timer.h>
 #include <linux/interrupt.h>
 #include <linux/slab.h>
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 
 #include <linux/atmdev.h>

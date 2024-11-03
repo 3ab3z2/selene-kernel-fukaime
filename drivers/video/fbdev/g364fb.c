@@ -25,8 +25,8 @@
 #include <linux/interrupt.h>
 #include <linux/fb.h>
 #include <linux/init.h>
-#include <asm/io.h>
-#include <asm/jazz.h>
+#include <asm-generic/io.h>
+#include <asm-generic/jazz.h>
 
 /* 
  * Various defines for the G364

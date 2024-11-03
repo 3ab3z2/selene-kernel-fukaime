@@ -36,8 +36,8 @@
 #include <linux/scatterlist.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
 
 #include "wbsd.h"
 

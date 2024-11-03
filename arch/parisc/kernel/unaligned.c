@@ -28,8 +28,8 @@
 #include <linux/signal.h>
 #include <linux/ratelimit.h>
 #include <linux/uaccess.h>
-#include <asm/hardirq.h>
-#include <asm/traps.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/traps.h>
 
 /* #define DEBUG_UNALIGNED 1 */
 

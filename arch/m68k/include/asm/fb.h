@@ -4,8 +4,8 @@
 
 #include <linux/fb.h>
 #include <linux/fs.h>
-#include <asm/page.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
 
 #ifdef CONFIG_MMU
 #ifdef CONFIG_SUN3

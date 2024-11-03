@@ -18,8 +18,8 @@
 #include <linux/platform_device.h>
 #include <linux/ath9k_platform.h>
 
-#include <asm/mach-ath79/ath79.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 #include "dev-wmac.h"
 
 static struct ath9k_platform_data ath79_wmac_data;

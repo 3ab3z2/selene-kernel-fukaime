@@ -9,8 +9,8 @@
 #include <linux/blkdev.h>
 #include <linux/init.h>
 
-#include <asm/ecard.h>
-#include <asm/io.h>
+#include <asm-generic/ecard.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi_host.h>
 

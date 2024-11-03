@@ -16,7 +16,7 @@
 #include <linux/module.h>
 #include <linux/gcd.h>
 #include <linux/gpio.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/clk.h>
 #include <linux/of.h>
 #include <linux/of_gpio.h>

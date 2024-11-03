@@ -22,8 +22,8 @@
 #undef DEBUG
 
 #include <linux/string.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 static void pgd_ctor(void *addr)
 {

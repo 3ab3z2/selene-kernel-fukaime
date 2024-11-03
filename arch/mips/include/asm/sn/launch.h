@@ -9,8 +9,8 @@
 #ifndef _ASM_SN_LAUNCH_H
 #define _ASM_SN_LAUNCH_H
 
-#include <asm/sn/types.h>
-#include <asm/sn/addrs.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/addrs.h>
 
 /*
  * The launch data structure resides at a fixed place in each node's memory

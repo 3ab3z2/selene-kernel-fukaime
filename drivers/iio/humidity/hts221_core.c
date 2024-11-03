@@ -14,7 +14,7 @@
 #include <linux/iio/sysfs.h>
 #include <linux/delay.h>
 #include <linux/pm.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "hts221.h"
 

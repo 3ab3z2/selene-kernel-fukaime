@@ -15,8 +15,8 @@
 #include <linux/ptrace.h>
 #include <linux/time.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/setup.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/setup.h>
 
 #include <msp_int.h>
 

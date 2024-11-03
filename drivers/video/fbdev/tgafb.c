@@ -28,7 +28,7 @@
 #include <linux/string.h>
 #include <linux/tc.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <video/tgafb.h>
 

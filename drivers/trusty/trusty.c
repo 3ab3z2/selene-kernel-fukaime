@@ -12,7 +12,7 @@
  *
  */
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 #include <linux/delay.h>
 #include <linux/module.h>
 #include <linux/of.h>

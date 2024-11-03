@@ -26,7 +26,7 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/math64.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "dvb_frontend.h"
 #include "dvb_math.h"
 #include "tda10048.h"

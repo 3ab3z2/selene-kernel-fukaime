@@ -2,7 +2,7 @@
 #ifndef CIO_DEBUG_H
 #define CIO_DEBUG_H
 
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 /* for use of debug feature */
 extern debug_info_t *cio_debug_msg_id;

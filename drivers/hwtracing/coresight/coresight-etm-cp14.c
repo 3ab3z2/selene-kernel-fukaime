@@ -15,7 +15,7 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 #include <linux/bug.h>
-#include <asm/hardware/cp14.h>
+#include <asm-generic/hardware/cp14.h>
 
 #include "coresight-etm.h"
 

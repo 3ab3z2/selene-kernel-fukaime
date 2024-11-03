@@ -16,7 +16,7 @@
 #include <linux/userfaultfd_k.h>
 #include <linux/random.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
 
 #include "internal.h"

@@ -7,7 +7,7 @@
  * option) any later version.
  */
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <prom.h>
 

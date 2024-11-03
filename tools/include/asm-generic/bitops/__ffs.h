@@ -2,8 +2,8 @@
 #ifndef _TOOLS_LINUX_ASM_GENERIC_BITOPS___FFS_H_
 #define _TOOLS_LINUX_ASM_GENERIC_BITOPS___FFS_H_
 
-#include <asm/types.h>
-#include <asm/bitsperlong.h>
+#include <asm-generic/types.h>
+#include <asm-generic/bitsperlong.h>
 
 /**
  * __ffs - find first bit in word.

@@ -29,8 +29,8 @@
 #include <linux/sysfs.h>
 #include <linux/random.h>
 
-#include <asm/setup.h>  /* for COMMAND_LINE_SIZE */
-#include <asm/page.h>
+#include <asm-generic/setup.h>  /* for COMMAND_LINE_SIZE */
+#include <asm-generic/page.h>
 
 #include "of_private.h"
 

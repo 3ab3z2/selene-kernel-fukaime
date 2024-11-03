@@ -11,11 +11,11 @@
 #include <linux/sched.h>
 #include <linux/kernel_stat.h>
 #include <linux/interrupt.h>
-#include <asm/segment.h>
-#include <asm/intersil.h>
-#include <asm/oplib.h>
-#include <asm/sun3ints.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/intersil.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/sun3ints.h>
+#include <asm-generic/irq_regs.h>
 #include <linux/seq_file.h>
 
 extern void sun3_leds (unsigned char);

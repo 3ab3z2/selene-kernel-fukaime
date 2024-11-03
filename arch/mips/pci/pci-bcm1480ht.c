@@ -39,10 +39,10 @@
 #include <linux/console.h>
 #include <linux/tty.h>
 
-#include <asm/sibyte/bcm1480_regs.h>
-#include <asm/sibyte/bcm1480_scd.h>
-#include <asm/sibyte/board.h>
-#include <asm/io.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_scd.h>
+#include <asm-generic/sibyte/board.h>
+#include <asm-generic/io.h>
 
 /*
  * Macros for calculating offsets into config space given a device

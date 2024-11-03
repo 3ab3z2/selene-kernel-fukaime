@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <ppc-asm.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 	.text
 FUNC_START(getppid_tm_active)

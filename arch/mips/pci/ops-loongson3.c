@@ -3,7 +3,7 @@
 #include <linux/pci.h>
 #include <linux/kernel.h>
 
-#include <asm/mips-boards/bonito64.h>
+#include <asm-generic/mips-boards/bonito64.h>
 
 #include <loongson.h>
 

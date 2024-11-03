@@ -28,8 +28,8 @@
 #include <linux/init.h>
 #include <linux/ioport.h>
 
-#include <asm/dma-coherence.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/dma-coherence.h>
+#include <asm-generic/mipsregs.h>
 
 #include <au1000.h>
 

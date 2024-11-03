@@ -10,7 +10,7 @@
 #ifndef __ASM_SN_NMI_H
 #define __ASM_SN_NMI_H
 
-#include <asm/sn/addrs.h>
+#include <asm-generic/sn/addrs.h>
 
 /*
  * The launch data structure resides at a fixed place in each node's memory

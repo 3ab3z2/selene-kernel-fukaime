@@ -2,7 +2,7 @@
 #ifndef _ALPHA_UNISTD_H
 #define _ALPHA_UNISTD_H
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #define NR_SYSCALLS			523
 

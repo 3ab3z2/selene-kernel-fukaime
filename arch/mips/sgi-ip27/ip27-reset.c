@@ -17,14 +17,14 @@
 #include <linux/nodemask.h>
 #include <linux/pm.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/reboot.h>
-#include <asm/sgialib.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/gda.h>
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/gda.h>
+#include <asm-generic/sn/sn0/hub.h>
 
 void machine_restart(char *command) __noreturn;
 void machine_halt(void) __noreturn;

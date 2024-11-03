@@ -20,8 +20,8 @@
 
 /* waiting for a spinlock... */
 #if defined(CONFIG_PPC_SPLPAR)
-#include <asm/hvcall.h>
-#include <asm/smp.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/smp.h>
 
 void __spin_yield(arch_spinlock_t *lock)
 {

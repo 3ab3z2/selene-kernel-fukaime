@@ -2,11 +2,11 @@
 
 #include <linux/stringify.h>
 #include <linux/linkage.h>
-#include <asm/dwarf2.h>
-#include <asm/cpufeatures.h>
-#include <asm/alternative-asm.h>
-#include <asm/export.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/dwarf2.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/alternative-asm.h>
+#include <asm-generic/export.h>
+#include <asm-generic/nospec-branch.h>
 
 .macro THUNK reg
 	.section .text.__x86.indirect_thunk

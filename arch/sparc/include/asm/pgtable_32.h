@@ -2,7 +2,7 @@
 #ifndef _SPARC_PGTABLE_H
 #define _SPARC_PGTABLE_H
 
-/*  asm/pgtable.h:  Defines and functions used to work
+/*  asm-generic/pgtable.h:  Defines and functions used to work
  *                        with Sparc page tables.
  *
  *  Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
@@ -16,11 +16,11 @@
 
 #include <linux/spinlock.h>
 #include <linux/mm_types.h>
-#include <asm/types.h>
-#include <asm/pgtsrmmu.h>
-#include <asm/vaddrs.h>
-#include <asm/oplib.h>
-#include <asm/cpu_type.h>
+#include <asm-generic/types.h>
+#include <asm-generic/pgtsrmmu.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/cpu_type.h>
 
 
 struct vm_area_struct;

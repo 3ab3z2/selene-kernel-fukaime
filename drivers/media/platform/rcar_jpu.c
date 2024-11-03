@@ -17,7 +17,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/clk.h>
 #include <linux/err.h>
 #include <linux/interrupt.h>

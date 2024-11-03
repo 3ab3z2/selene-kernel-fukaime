@@ -11,9 +11,9 @@
 #include <linux/init.h>
 #include <linux/console.h>
 #include <linux/string.h>
-#include <asm/blackfin.h>
-#include <asm/irq_handler.h>
-#include <asm/early_printk.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/early_printk.h>
 
 #define SHADOW_CONSOLE_START		(CONFIG_PHY_RAM_BASE_ADDRESS + 0x500)
 #define SHADOW_CONSOLE_END		(CONFIG_PHY_RAM_BASE_ADDRESS + 0x1000)

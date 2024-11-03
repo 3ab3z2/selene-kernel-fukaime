@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 OUTPUT_FORMAT(ELF_FORMAT)
 OUTPUT_ARCH(ELF_ARCH)
@@ -96,7 +96,7 @@ SECTIONS
 
   .kstrtab : { *(.kstrtab) }
 
-  #include <asm/common.lds.S>
+  #include <asm-generic/common.lds.S>
 
   __init_begin = .;
   init.data : { INIT_DATA }

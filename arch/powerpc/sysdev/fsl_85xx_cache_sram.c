@@ -28,8 +28,8 @@
 #include <linux/slab.h>
 #include <linux/err.h>
 #include <linux/of_platform.h>
-#include <asm/pgtable.h>
-#include <asm/fsl_85xx_cache_sram.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/fsl_85xx_cache_sram.h>
 
 #include "fsl_85xx_cache_ctlr.h"
 

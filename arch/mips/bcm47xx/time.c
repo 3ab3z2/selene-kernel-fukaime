@@ -24,7 +24,7 @@
 
 #include <linux/init.h>
 #include <linux/ssb/ssb.h>
-#include <asm/time.h>
+#include <asm-generic/time.h>
 #include <bcm47xx.h>
 #include <bcm47xx_board.h>
 

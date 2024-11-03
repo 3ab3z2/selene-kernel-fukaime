@@ -17,7 +17,7 @@
 #include <linux/notifier.h>
 #include <linux/rcupdate.h>
 #include <linux/kdebug.h>
-#include <asm/nmi.h>
+#include <asm-generic/nmi.h>
 
 static int profile_timer_exceptions_notify(struct notifier_block *self,
 					   unsigned long val, void *data)

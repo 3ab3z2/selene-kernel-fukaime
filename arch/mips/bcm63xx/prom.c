@@ -9,10 +9,10 @@
 #include <linux/init.h>
 #include <linux/bootmem.h>
 #include <linux/smp.h>
-#include <asm/bootinfo.h>
-#include <asm/bmips.h>
-#include <asm/smp-ops.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bmips.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/mipsregs.h>
 #include <bcm63xx_board.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_io.h>

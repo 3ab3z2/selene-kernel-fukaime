@@ -37,8 +37,8 @@
 #include <sound/pcm_params.h>
 #include <sound/tlv.h>
 
-#include <asm/dma.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
 MODULE_DESCRIPTION("Routines for control of CS4231(A)/CS4232/InterWave & compatible chips");

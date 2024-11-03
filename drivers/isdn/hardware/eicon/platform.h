@@ -28,8 +28,8 @@
 #include <linux/interrupt.h>
 #include <linux/delay.h>
 #include <linux/list.h>
-#include <asm/types.h>
-#include <asm/io.h>
+#include <asm-generic/types.h>
+#include <asm-generic/io.h>
 
 #include "cardtype.h"
 

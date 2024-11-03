@@ -19,7 +19,7 @@
 
 #ifndef __s390x__
 
-/* Has to be at least _NSIG_WORDS from asm/signal.h */
+/* Has to be at least _NSIG_WORDS from asm-generic/signal.h */
 #define _SIGCONTEXT_NSIG	64
 #define _SIGCONTEXT_NSIG_BPW	32
 /* Size of stack frame allocated when calling signal handler. */
@@ -27,7 +27,7 @@
 
 #else /* __s390x__ */
 
-/* Has to be at least _NSIG_WORDS from asm/signal.h */
+/* Has to be at least _NSIG_WORDS from asm-generic/signal.h */
 #define _SIGCONTEXT_NSIG	64
 #define _SIGCONTEXT_NSIG_BPW	64 
 /* Size of stack frame allocated when calling signal handler. */

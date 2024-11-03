@@ -12,7 +12,7 @@
 #define _ASM_SGIALIB_H
 
 #include <linux/compiler.h>
-#include <asm/sgiarcs.h>
+#include <asm-generic/sgiarcs.h>
 
 extern struct linux_romvec *romvec;
 extern int prom_argc;

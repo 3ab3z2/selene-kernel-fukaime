@@ -11,13 +11,13 @@
 #ifndef _ASM_SGI_SN_AGENT_H
 #define _ASM_SGI_SN_AGENT_H
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
 
 #if defined(CONFIG_SGI_IP27)
-#include <asm/sn/sn0/hub.h>
+#include <asm-generic/sn/sn0/hub.h>
 #elif defined(CONFIG_SGI_IP35)
-#include <asm/sn/sn1/hub.h>
+#include <asm-generic/sn/sn1/hub.h>
 #endif	/* !CONFIG_SGI_IP27 && !CONFIG_SGI_IP35 */
 
 /*

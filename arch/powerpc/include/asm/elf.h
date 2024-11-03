@@ -10,9 +10,9 @@
 #define _ASM_POWERPC_ELF_H
 
 #include <linux/sched.h>	/* for task_struct */
-#include <asm/page.h>
-#include <asm/string.h>
-#include <uapi/asm/elf.h>
+#include <asm-generic/page.h>
+#include <asm-generic/string.h>
+#include <uapi/asm-generic/elf.h>
 
 /*
  * This is used to ensure we don't load something for the wrong architecture.

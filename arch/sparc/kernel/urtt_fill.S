@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/thread_info.h>
-#include <asm/trap_block.h>
-#include <asm/spitfire.h>
-#include <asm/ptrace.h>
-#include <asm/head.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/trap_block.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/head.h>
 
 		.text
 		.align	8

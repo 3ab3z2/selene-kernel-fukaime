@@ -27,10 +27,10 @@
 #include <linux/sched.h>
 #include <linux/interrupt.h>
 #include <linux/kbuild.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
 
-/*  This file is used to produce asm/linkerscript constants from header
+/*  This file is used to produce asm-generic/linkerscript constants from header
     files typically used in c.  Specifically, it generates asm-offsets.h  */
 
 int main(void)

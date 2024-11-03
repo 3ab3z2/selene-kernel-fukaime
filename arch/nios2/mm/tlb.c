@@ -14,10 +14,10 @@
 #include <linux/mm.h>
 #include <linux/pagemap.h>
 
-#include <asm/tlb.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpuinfo.h>
 
 #define TLB_INDEX_MASK		\
 	((((1UL << (cpuinfo.tlb_ptr_sz - cpuinfo.tlb_num_ways_log2))) - 1) \

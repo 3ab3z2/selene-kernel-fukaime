@@ -29,7 +29,7 @@
 #include <linux/cache.h>
 #include <linux/bug.h>
 #include <linux/sort.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /* Count how many different relocations (different symbol, different
    addend) */

@@ -23,10 +23,10 @@
 
 #include <linux/mm_types.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/mem-layout.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/mem-layout.h>
 
 static inline void destroy_context(struct mm_struct *mm)
 {

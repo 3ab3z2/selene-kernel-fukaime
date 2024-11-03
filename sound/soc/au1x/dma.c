@@ -16,8 +16,8 @@
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1000_dma.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000_dma.h>
 
 #include "psc.h"
 

@@ -12,7 +12,7 @@
 #ifndef _ASM_AX88796_H
 #define _ASM_AX88796_H
 
-#include <asm/mb-regs.h>
+#include <asm-generic/mb-regs.h>
 
 #define AX88796_IOADDR		(__region_CS1 + 0x200)
 #define AX88796_IRQ		IRQ_CPU_EXTERNAL7

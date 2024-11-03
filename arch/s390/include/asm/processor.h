@@ -36,13 +36,13 @@
 
 #include <linux/linkage.h>
 #include <linux/irqflags.h>
-#include <asm/cpu.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/setup.h>
-#include <asm/runtime_instr.h>
-#include <asm/fpu/types.h>
-#include <asm/fpu/internal.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/runtime_instr.h>
+#include <asm-generic/fpu/types.h>
+#include <asm-generic/fpu/internal.h>
 
 static inline void set_cpu_flag(int flag)
 {

@@ -57,9 +57,9 @@
 #include <linux/prefetch.h>
 #include <linux/io.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 #define	DRIVER_DESC		"PLX NET228x/USB338x USB Peripheral Controller"
 #define	DRIVER_VERSION		"2005 Sept 27/v3.0"

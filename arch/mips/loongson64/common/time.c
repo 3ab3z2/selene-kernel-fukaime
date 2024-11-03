@@ -10,9 +10,9 @@
  *  Free Software Foundation;  either version 2 of the	License, or (at your
  *  option) any later version.
  */
-#include <asm/mc146818-time.h>
-#include <asm/time.h>
-#include <asm/hpet.h>
+#include <asm-generic/mc146818-time.h>
+#include <asm-generic/time.h>
+#include <asm-generic/hpet.h>
 
 #include <loongson.h>
 #include <cs5536/cs5536_mfgpt.h>

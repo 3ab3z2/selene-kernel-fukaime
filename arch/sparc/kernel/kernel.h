@@ -5,9 +5,9 @@
 #include <linux/interrupt.h>
 #include <linux/ftrace.h>
 
-#include <asm/traps.h>
-#include <asm/head.h>
-#include <asm/io.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/head.h>
+#include <asm-generic/io.h>
 
 /* cpu.c */
 extern const char *sparc_pmu_type;

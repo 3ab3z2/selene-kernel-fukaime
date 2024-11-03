@@ -13,7 +13,7 @@
 #include <linux/stat.h>
 #include <linux/pci.h>
 
-#include <asm/sclp.h>
+#include <asm-generic/sclp.h>
 
 #define zpci_attr(name, fmt, member)					\
 static ssize_t name##_show(struct device *dev,				\

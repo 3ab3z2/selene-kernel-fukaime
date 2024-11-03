@@ -41,8 +41,8 @@
 #include <linux/usb/ch9.h>
 #include <linux/usb/gadget.h>
 
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 #include "net2272.h"
 

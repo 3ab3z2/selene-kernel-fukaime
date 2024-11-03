@@ -27,12 +27,12 @@
 #include <linux/stddef.h>
 #include <linux/compat.h>
 #include <linux/elf.h>
-#include <asm/ucontext.h>
-#include <asm/rt_sigframe.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/rt_sigframe.h>
 #include <linux/uaccess.h>
-#include <asm/pgalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/asm-offsets.h>
 
 #ifdef CONFIG_COMPAT
 #include "signal32.h"

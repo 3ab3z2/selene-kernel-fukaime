@@ -18,8 +18,8 @@
 #include <linux/io.h>
 #include <linux/module.h>
 
-#include <asm/clock.h>
-#include <asm/i2c-sh7760.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/i2c-sh7760.h>
 
 /* register offsets */
 #define I2CSCR		0x0		/* slave ctrl		*/

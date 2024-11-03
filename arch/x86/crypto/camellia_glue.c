@@ -23,8 +23,8 @@
  *
  */
 
-#include <asm/processor.h>
-#include <asm/unaligned.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/unaligned.h>
 #include <linux/crypto.h>
 #include <linux/init.h>
 #include <linux/module.h>
@@ -32,8 +32,8 @@
 #include <crypto/algapi.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/crypto/camellia.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/crypto/camellia.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 /* regular block cipher functions */
 asmlinkage void __camellia_enc_blk(struct camellia_ctx *ctx, u8 *dst,

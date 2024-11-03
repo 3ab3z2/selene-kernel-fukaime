@@ -26,11 +26,11 @@
  */
 #include <linux/threads.h>
 
-#include <asm/asmmacro.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/mca_asm.h>
-#include <asm/mca.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mca_asm.h>
+#include <asm-generic/mca.h>
 
 #include "entry.h"
 

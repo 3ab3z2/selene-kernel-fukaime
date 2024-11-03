@@ -1,1 +1,1 @@
-#include <uapi/asm/reg.h>
+#include <uapi/asm-generic/reg.h>

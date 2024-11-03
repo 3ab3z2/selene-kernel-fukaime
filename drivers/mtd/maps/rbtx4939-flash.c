@@ -19,7 +19,7 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
-#include <asm/txx9/rbtx4939.h>
+#include <asm-generic/txx9/rbtx4939.h>
 
 struct rbtx4939_flash_info {
 	struct mtd_info *mtd;

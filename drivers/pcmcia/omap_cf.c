@@ -21,8 +21,8 @@
 #include <pcmcia/ss.h>
 
 #include <mach/hardware.h>
-#include <asm/io.h>
-#include <asm/sizes.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sizes.h>
 
 #include <mach/mux.h>
 #include <mach/tc.h>

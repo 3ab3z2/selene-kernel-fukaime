@@ -15,7 +15,7 @@
 #ifndef __BPF_HELPER_H__
 #define __BPF_HELPER_H__
 
-#include <asm/bitsperlong.h>	/* for __BITS_PER_LONG */
+#include <asm-generic/bitsperlong.h>	/* for __BITS_PER_LONG */
 #include <endian.h>
 #include <linux/filter.h>
 #include <linux/seccomp.h>	/* for seccomp_data */

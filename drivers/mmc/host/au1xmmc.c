@@ -44,10 +44,10 @@
 #include <linux/mmc/host.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1100_mmc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1100_mmc.h>
 
 #define DRIVER_NAME "au1xxx-mmc"
 

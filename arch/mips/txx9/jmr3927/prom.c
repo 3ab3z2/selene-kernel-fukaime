@@ -37,9 +37,9 @@
  */
 #include <linux/init.h>
 #include <linux/kernel.h>
-#include <asm/bootinfo.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/jmr3927.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/jmr3927.h>
 
 void __init jmr3927_prom_init(void)
 {

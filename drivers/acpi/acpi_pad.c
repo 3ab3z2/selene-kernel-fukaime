@@ -26,7 +26,7 @@
 #include <linux/tick.h>
 #include <linux/slab.h>
 #include <linux/acpi.h>
-#include <asm/mwait.h>
+#include <asm-generic/mwait.h>
 #include <xen/xen.h>
 
 #define ACPI_PROCESSOR_AGGREGATOR_CLASS	"acpi_pad"

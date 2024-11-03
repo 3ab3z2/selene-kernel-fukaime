@@ -17,12 +17,12 @@
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <asm/kvm_ppc.h>
-#include <asm/disassemble.h>
-#include <asm/kvm_book3s.h>
-#include <asm/reg.h>
-#include <asm/switch_to.h>
-#include <asm/time.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/time.h>
 #include "book3s.h"
 
 #define OP_19_XOP_RFID		18

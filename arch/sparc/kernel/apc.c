@@ -16,12 +16,12 @@
 #include <linux/of_device.h>
 #include <linux/module.h>
 
-#include <asm/io.h>
-#include <asm/oplib.h>
+#include <asm-generic/io.h>
+#include <asm-generic/oplib.h>
 #include <linux/uaccess.h>
-#include <asm/auxio.h>
-#include <asm/apc.h>
-#include <asm/processor.h>
+#include <asm-generic/auxio.h>
+#include <asm-generic/apc.h>
+#include <asm-generic/processor.h>
 
 /* Debugging
  * 

@@ -17,11 +17,11 @@
 #include <linux/irqflags.h>
 #include <linux/printk.h>
 #include <linux/sched.h>
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
-#include <asm/cpu-type.h>
-#include <asm/idle.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * Not all of the MIPS CPUs have the "wait" instruction available. Moreover,

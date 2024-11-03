@@ -38,7 +38,7 @@
 #include <linux/sched.h>
 #include <linux/err.h>
 #include <xen/xenbus.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/events.h>
 #include <xen/page.h>
 #include "xenbus.h"

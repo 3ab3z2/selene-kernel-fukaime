@@ -9,8 +9,8 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 #include <linux/string.h>
 
 static int __prom_console_write_buf(const char *buf, int len)

@@ -5,7 +5,7 @@
 #ifndef __UM_ELF_X86_H
 #define __UM_ELF_X86_H
 
-#include <asm/user.h>
+#include <asm-generic/user.h>
 #include <skas.h>
 
 #ifdef CONFIG_X86_32

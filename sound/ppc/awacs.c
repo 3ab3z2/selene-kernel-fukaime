@@ -21,7 +21,7 @@
 
 
 #include <linux/io.h>
-#include <asm/nvram.h>
+#include <asm-generic/nvram.h>
 #include <linux/init.h>
 #include <linux/delay.h>
 #include <linux/slab.h>

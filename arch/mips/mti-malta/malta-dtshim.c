@@ -13,13 +13,13 @@
 #include <linux/libfdt.h>
 #include <linux/of_fdt.h>
 #include <linux/sizes.h>
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/fw/fw.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/malta.h>
-#include <asm/mips-cps.h>
-#include <asm/page.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/malta.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/page.h>
 
 #define ROCIT_REG_BASE			0x1f403000
 #define ROCIT_CONFIG_GEN1		(ROCIT_REG_BASE + 0x04)

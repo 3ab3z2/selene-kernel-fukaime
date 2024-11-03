@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_IOCTLS_H
 #define _ASM_POWERPC_IOCTLS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 #define FIOCLEX		_IO('f', 1)
 #define FIONCLEX	_IO('f', 2)

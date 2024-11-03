@@ -8,9 +8,9 @@
 #ifndef _GPIO_AU1300_H_
 #define _GPIO_AU1300_H_
 
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 struct gpio;
 struct gpio_chip;

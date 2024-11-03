@@ -7,7 +7,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 /*
  * The memset implementation below is optimized to use prefetchw and prealloc

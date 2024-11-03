@@ -37,7 +37,7 @@
 #include <linux/workqueue.h>
 #include <linux/mutex.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

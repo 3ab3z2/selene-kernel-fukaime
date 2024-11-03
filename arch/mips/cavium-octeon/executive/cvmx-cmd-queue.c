@@ -32,15 +32,15 @@
 
 #include <linux/kernel.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
-#include <asm/octeon/cvmx-fpa.h>
-#include <asm/octeon/cvmx-cmd-queue.h>
+#include <asm-generic/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-fpa.h>
+#include <asm-generic/octeon/cvmx-cmd-queue.h>
 
-#include <asm/octeon/cvmx-npei-defs.h>
-#include <asm/octeon/cvmx-pexp-defs.h>
-#include <asm/octeon/cvmx-pko-defs.h>
+#include <asm-generic/octeon/cvmx-npei-defs.h>
+#include <asm-generic/octeon/cvmx-pexp-defs.h>
+#include <asm-generic/octeon/cvmx-pko-defs.h>
 
 /**
  * This application uses this pointer to access the global queue

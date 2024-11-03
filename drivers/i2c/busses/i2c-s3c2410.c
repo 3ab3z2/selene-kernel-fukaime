@@ -38,7 +38,7 @@
 #include <linux/mfd/syscon.h>
 #include <linux/regmap.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <linux/platform_data/i2c-s3c2410.h>
 

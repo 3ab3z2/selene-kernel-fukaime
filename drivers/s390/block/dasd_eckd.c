@@ -21,17 +21,17 @@
 #include <linux/init.h>
 #include <linux/seq_file.h>
 
-#include <asm/css_chars.h>
-#include <asm/debug.h>
-#include <asm/idals.h>
-#include <asm/ebcdic.h>
-#include <asm/io.h>
+#include <asm-generic/css_chars.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
-#include <asm/itcw.h>
-#include <asm/schid.h>
-#include <asm/chpid.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/itcw.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/chpid.h>
 
 #include "dasd_int.h"
 #include "dasd_eckd.h"

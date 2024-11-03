@@ -5,10 +5,10 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/processor.h>
-#include <asm/lowcore.h>
-#include <asm/ebcdic.h>
-#include <asm/irq.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/irq.h>
 #include "sclp.h"
 #include "sclp_rw.h"
 

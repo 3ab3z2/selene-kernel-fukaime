@@ -10,7 +10,7 @@
 #include <linux/export.h>
 #include <linux/kernel.h>
 #include <linux/delay.h>
-#include <asm/param.h>
+#include <asm-generic/param.h>
 
 void __delay(unsigned long loops)
 {

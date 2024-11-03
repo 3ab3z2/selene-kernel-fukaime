@@ -12,7 +12,7 @@
 #ifndef _ASM_SIGCONTEXT_H
 #define _ASM_SIGCONTEXT_H
 
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 /*
  * Signal context structure - contains all info to do with the state

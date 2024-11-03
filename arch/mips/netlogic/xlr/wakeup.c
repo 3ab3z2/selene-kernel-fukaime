@@ -35,18 +35,18 @@
 #include <linux/delay.h>
 #include <linux/threads.h>
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/mipsregs.h>
-#include <asm/addrspace.h>
-#include <asm/string.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/string.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/mips-extns.h>
 
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
 
 int xlr_wakeup_secondary_cpus(void)
 {

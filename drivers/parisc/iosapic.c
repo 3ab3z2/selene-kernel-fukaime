@@ -136,16 +136,16 @@
 #include <linux/slab.h>
 #include <linux/interrupt.h>
 
-#include <asm/byteorder.h>	/* get in-line asm for swab */
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/page.h>
-#include <asm/io.h>		/* read/write functions */
+#include <asm-generic/byteorder.h>	/* get in-line asm for swab */
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>		/* read/write functions */
 #ifdef CONFIG_SUPERIO
-#include <asm/superio.h>
+#include <asm-generic/superio.h>
 #endif
 
-#include <asm/ropes.h>
+#include <asm-generic/ropes.h>
 #include "iosapic_private.h"
 
 #define MODULE_NAME "iosapic"

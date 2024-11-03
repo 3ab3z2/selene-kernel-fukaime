@@ -17,11 +17,11 @@
 #include <linux/slab.h>
 #include <linux/platform_device.h>
 
-#include <asm/bfin_ppi.h>
-#include <asm/blackfin.h>
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/bfin_ppi.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 #include <media/blackfin/ppi.h>
 

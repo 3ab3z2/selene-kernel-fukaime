@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/page.h>
-#include <asm/setup.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
 
 
 #define MMU_BASE	8		/* MMU flags base in cpu_mmu_flags */

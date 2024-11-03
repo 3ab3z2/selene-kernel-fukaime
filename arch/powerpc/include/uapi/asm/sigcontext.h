@@ -9,9 +9,9 @@
  * 2 of the License, or (at your option) any later version.
  */
 #include <linux/compiler.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #ifdef __powerpc64__
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 #endif
 
 struct sigcontext {

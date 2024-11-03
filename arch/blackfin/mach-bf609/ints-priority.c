@@ -8,7 +8,7 @@
 
 #include <linux/module.h>
 #include <linux/irq.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 u8 sec_int_priority[] = {
 	255,	/* IRQ_SEC_ERR */

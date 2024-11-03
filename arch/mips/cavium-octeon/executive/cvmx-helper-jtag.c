@@ -32,8 +32,8 @@
  *
  */
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-helper-jtag.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-helper-jtag.h>
 
 
 /**

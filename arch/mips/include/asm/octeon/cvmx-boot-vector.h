@@ -9,7 +9,7 @@
 #ifndef __CVMX_BOOT_VECTOR_H__
 #define __CVMX_BOOT_VECTOR_H__
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 /*
  * The boot vector table is made up of an array of 1024 elements of

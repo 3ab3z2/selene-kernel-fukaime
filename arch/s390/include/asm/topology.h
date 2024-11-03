@@ -3,7 +3,7 @@
 #define _ASM_S390_TOPOLOGY_H
 
 #include <linux/cpumask.h>
-#include <asm/numa.h>
+#include <asm-generic/numa.h>
 
 struct sysinfo_15_1_x;
 struct cpu;

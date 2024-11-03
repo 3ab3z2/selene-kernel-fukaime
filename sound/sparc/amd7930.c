@@ -45,8 +45,8 @@
 #include <sound/control.h>
 #include <sound/initval.h>
 
-#include <asm/irq.h>
-#include <asm/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
 
 static int index[SNDRV_CARDS] = SNDRV_DEFAULT_IDX;	/* Index 0-MAX */
 static char *id[SNDRV_CARDS] = SNDRV_DEFAULT_STR;	/* ID for this card */

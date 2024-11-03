@@ -8,10 +8,10 @@
 #ifndef _ASM_S390_IPL_H
 #define _ASM_S390_IPL_H
 
-#include <asm/lowcore.h>
-#include <asm/types.h>
-#include <asm/cio.h>
-#include <asm/setup.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/types.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/setup.h>
 
 #define IPL_PARMBLOCK_ORIGIN	0x2000
 

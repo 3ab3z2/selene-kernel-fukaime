@@ -48,7 +48,7 @@
 #include <linux/srcu.h>
 #include <linux/slab.h>
 #include <linux/trace_clock.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/torture.h>
 #include <linux/vmalloc.h>
 

@@ -19,8 +19,8 @@
 #include <linux/audit.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/fpu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/fpu.h>
 
 #include "proto.h"
 

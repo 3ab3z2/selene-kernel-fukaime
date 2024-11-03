@@ -38,8 +38,8 @@
 #include <linux/const.h>
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
-#include <asm/page.h>
-#include <asm/mmu.h>	/* to propagate CONFIG_ARC_MMU_VER <n> */
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>	/* to propagate CONFIG_ARC_MMU_VER <n> */
 
 /**************************************************************************
  * Page Table Flags
@@ -394,7 +394,7 @@ void update_mmu_cache(struct vm_area_struct *vma, unsigned long address,
  * into virtual address `from'
  */
 #ifdef CONFIG_TRANSPARENT_HUGEPAGE
-#include <asm/hugepage.h>
+#include <asm-generic/hugepage.h>
 #endif
 
 #include <asm-generic/pgtable.h>

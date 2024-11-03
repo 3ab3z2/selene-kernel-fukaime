@@ -11,7 +11,7 @@
 #define _ASM_MICROBLAZE_SIGCONTEXT_H
 
 /* FIXME should be linux/ptrace.h */
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 struct sigcontext {
 	struct pt_regs regs;

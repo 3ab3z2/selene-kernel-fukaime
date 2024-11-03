@@ -7,9 +7,9 @@
 #include <linux/sizes.h>
 #include <linux/io.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #ifdef CONFIG_MIPS
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #endif
 
 struct foo {

@@ -14,16 +14,16 @@
 #include <linux/clocksource.h>
 #include <linux/sched_clock.h>
 
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/time.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/time.h>
 
-#include <asm/sibyte/bcm1480_regs.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/bcm1480_int.h>
-#include <asm/sibyte/bcm1480_scd.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/bcm1480_int.h>
+#include <asm-generic/sibyte/bcm1480_scd.h>
 
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250.h>
 
 static u64 bcm1480_hpt_read(struct clocksource *cs)
 {

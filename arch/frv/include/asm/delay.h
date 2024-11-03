@@ -12,8 +12,8 @@
 #ifndef _ASM_DELAY_H
 #define _ASM_DELAY_H
 
-#include <asm/param.h>
-#include <asm/timer-regs.h>
+#include <asm-generic/param.h>
+#include <asm-generic/timer-regs.h>
 
 /*
  * delay loop - runs at __core_clock_speed_HZ / 2 [there are 2 insns in the loop]

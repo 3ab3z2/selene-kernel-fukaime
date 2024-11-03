@@ -25,13 +25,13 @@
 #include <linux/swap.h>
 #include <linux/pagemap.h>
 
-#include <asm/bootparam.h>
-#include <asm/mmu_context.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 //#define printd(x...) printk(x)
 #define printd(x...) do { } while(0)

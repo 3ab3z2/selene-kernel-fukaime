@@ -3,12 +3,12 @@
 #include <linux/sched.h>
 #include <linux/mm.h>
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/stacktrace.h>
 #include <linux/stacktrace.h>
 #include <linux/kernel.h>
-#include <asm/sections.h>
-#include <asm/inst.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/inst.h>
 
 struct stackframe {
 	unsigned long sp;

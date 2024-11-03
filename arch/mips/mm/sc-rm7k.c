@@ -11,13 +11,13 @@
 #include <linux/mm.h>
 #include <linux/bitops.h>
 
-#include <asm/addrspace.h>
-#include <asm/bcache.h>
-#include <asm/cacheops.h>
-#include <asm/mipsregs.h>
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/cacheflush.h> /* for run_uncached() */
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cacheflush.h> /* for run_uncached() */
 
 /* Primary cache parameters. */
 #define sc_lsize	32
@@ -32,7 +32,7 @@
 extern unsigned long icache_way_size, dcache_way_size;
 static unsigned long tcache_size;
 
-#include <asm/r4kcache.h>
+#include <asm-generic/r4kcache.h>
 
 static int rm7k_tcache_init;
 

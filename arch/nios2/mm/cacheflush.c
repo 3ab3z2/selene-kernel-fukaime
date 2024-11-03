@@ -12,8 +12,8 @@
 #include <linux/mm.h>
 #include <linux/fs.h>
 
-#include <asm/cacheflush.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpuinfo.h>
 
 static void __flush_dcache(unsigned long start, unsigned long end)
 {

@@ -18,7 +18,7 @@
 #include <linux/libps2.h>
 #include <linux/slab.h>
 #include <linux/module.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 #include "psmouse.h"
 #include "vmmouse.h"

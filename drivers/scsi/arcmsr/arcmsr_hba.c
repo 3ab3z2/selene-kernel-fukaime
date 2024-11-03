@@ -59,8 +59,8 @@
 #include <linux/pci.h>
 #include <linux/aer.h>
 #include <linux/circ_buf.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <scsi/scsi_host.h>
 #include <scsi/scsi.h>

@@ -8,9 +8,9 @@
  */
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/sclp.h>
-#include <asm/ipl.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/ipl.h>
 #include "sizes.h"
 
 /*

@@ -26,7 +26,7 @@
 #define HOST_FS 25
 #define HOST_GS 26
 
-/* Also defined in asm/ptrace-x86_64.h, but not in libc headers.  So, these
+/* Also defined in asm-generic/ptrace-x86_64.h, but not in libc headers.  So, these
  * are already defined for kernel code, but not for userspace code.
  */
 #ifndef FS_BASE

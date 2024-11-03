@@ -16,11 +16,11 @@ struct task_struct;	/* forward declaration for elf.h */
 #include <linux/init.h>
 #include <linux/kernel.h>
 
-#include <asm/elf.h>
-#include <asm/intrinsics.h>
-#include <asm/pal.h>
-#include <asm/pgtable.h>
-#include <asm/sal.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sal.h>
 
 #include "ssc.h"
 

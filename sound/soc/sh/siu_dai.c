@@ -25,8 +25,8 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 
-#include <asm/clock.h>
-#include <asm/siu.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/siu.h>
 
 #include <sound/control.h>
 #include <sound/soc.h>

@@ -8,7 +8,7 @@
  * option) any later version.
  */
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if _MIPS_SIM != _MIPS_SIM_ABI64 && defined(CONFIG_64BIT)
 
@@ -22,9 +22,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/asm.h>
-#include <asm/page.h>
-#include <asm/vdso.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/vdso.h>
 
 static inline unsigned long get_vdso_base(void)
 {

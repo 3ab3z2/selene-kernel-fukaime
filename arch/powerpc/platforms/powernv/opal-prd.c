@@ -26,9 +26,9 @@
 #include <linux/poll.h>
 #include <linux/mm.h>
 #include <linux/slab.h>
-#include <asm/opal-prd.h>
-#include <asm/opal.h>
-#include <asm/io.h>
+#include <asm-generic/opal-prd.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 

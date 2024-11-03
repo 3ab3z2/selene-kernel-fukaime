@@ -28,7 +28,7 @@
 #include <linux/raid/pq.h>
 #include <linux/semaphore.h>
 #include <linux/uuid.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "ctree.h"
 #include "extent_map.h"
 #include "disk-io.h"

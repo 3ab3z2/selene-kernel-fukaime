@@ -20,7 +20,7 @@
 #include <linux/slab.h>
 #include <linux/topology.h>
 
-#include <asm/cpuidle.h>
+#include <asm-generic/cpuidle.h>
 
 #include "dt_idle_states.h"
 

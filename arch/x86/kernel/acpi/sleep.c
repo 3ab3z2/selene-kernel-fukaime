@@ -11,11 +11,11 @@
 #include <linux/memblock.h>
 #include <linux/dmi.h>
 #include <linux/cpumask.h>
-#include <asm/segment.h>
-#include <asm/desc.h>
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
-#include <asm/realmode.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/realmode.h>
 
 #include <linux/ftrace.h>
 #include "../../realmode/rm/wakeup.h"

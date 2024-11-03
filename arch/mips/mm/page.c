@@ -14,27 +14,27 @@
 #include <linux/mm.h>
 #include <linux/proc_fs.h>
 
-#include <asm/bugs.h>
-#include <asm/cacheops.h>
-#include <asm/cpu-type.h>
-#include <asm/inst.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/prefetch.h>
-#include <asm/bootinfo.h>
-#include <asm/mipsregs.h>
-#include <asm/mmu_context.h>
-#include <asm/cpu.h>
-#include <asm/war.h>
+#include <asm-generic/bugs.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prefetch.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/war.h>
 
 #ifdef CONFIG_SIBYTE_DMA_PAGEOPS
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_dma.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_dma.h>
 #endif
 
-#include <asm/uasm.h>
+#include <asm-generic/uasm.h>
 
 /* Registers used in the assembled routines. */
 #define ZERO 0

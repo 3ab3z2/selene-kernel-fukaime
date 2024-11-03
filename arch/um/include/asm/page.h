@@ -20,7 +20,7 @@ struct page;
 
 #include <linux/pfn.h>
 #include <linux/types.h>
-#include <asm/vm-flags.h>
+#include <asm-generic/vm-flags.h>
 
 /*
  * These are used to make use of C type-checking..

@@ -38,10 +38,10 @@
 #include <linux/uaccess.h>
 #include <linux/vmalloc.h>
 
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
-#include <asm/cacheflush.h>
-#include <asm/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/page.h>
 
 /****************************************************************************/
 

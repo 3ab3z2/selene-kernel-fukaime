@@ -17,7 +17,7 @@
 #include <linux/highmem.h>
 #include <linux/scatterlist.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRIVER_NAME "tifm_sd"
 #define DRIVER_VERSION "0.8"

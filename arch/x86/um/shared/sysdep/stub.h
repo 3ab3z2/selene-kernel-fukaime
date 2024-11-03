@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <sys/mman.h>
 #include <signal.h>
 #include <as-layout.h>

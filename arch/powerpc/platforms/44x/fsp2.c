@@ -21,12 +21,12 @@
 #include <linux/of_platform.h>
 #include <linux/rtc.h>
 
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/time.h>
-#include <asm/uic.h>
-#include <asm/ppc4xx.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/uic.h>
+#include <asm-generic/ppc4xx.h>
 
 static __initdata struct of_device_id fsp2_of_bus[] = {
 	{ .compatible = "ibm,plb4", },

@@ -14,11 +14,11 @@
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/cop2.h>
-#include <asm/current.h>
-#include <asm/mipsregs.h>
-#include <asm/page.h>
-#include <asm/octeon/octeon.h>
+#include <asm-generic/cop2.h>
+#include <asm-generic/current.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/octeon/octeon.h>
 
 static int cnmips_cu2_call(struct notifier_block *nfb, unsigned long action,
 	void *data)

@@ -77,11 +77,11 @@
 	.level 2.0w
 #endif
 
-#include <asm/asm-offsets.h>
-#include <asm/page.h>
-#include <asm/types.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/page.h>
+#include <asm-generic/types.h>
 
-#include <asm/asmregs.h>
+#include <asm-generic/asmregs.h>
 
 	sp	=	30
 	gp	=	27

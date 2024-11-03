@@ -9,7 +9,7 @@
 #include <linux/seq_file.h>
 #include <linux/cpu.h>
 #include <linux/cacheinfo.h>
-#include <asm/facility.h>
+#include <asm-generic/facility.h>
 
 enum {
 	CACHE_SCOPE_NOTEXISTS,

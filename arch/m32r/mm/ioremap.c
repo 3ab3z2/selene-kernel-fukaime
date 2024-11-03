@@ -16,12 +16,12 @@
  */
 
 #include <linux/module.h>
-#include <asm/addrspace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/vmalloc.h>
 #include <linux/io.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 /*
  * Generic mapping function (not visible outside):

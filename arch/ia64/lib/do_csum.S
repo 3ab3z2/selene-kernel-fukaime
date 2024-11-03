@@ -24,7 +24,7 @@
  *		Set CONFIG_IA64_LOAD_LATENCY to 1 or 2 (default).
  */
 
-#include <asm/asmmacro.h>
+#include <asm-generic/asmmacro.h>
 
 //
 // Theory of operations:

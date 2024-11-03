@@ -32,9 +32,9 @@
 #include <linux/nvram.h>
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
 
 #include "macmodes.h"
 #include "platinumfb.h"

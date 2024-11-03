@@ -5,7 +5,7 @@
 #ifndef _ASM_POWERPC_SWITCH_TO_H
 #define _ASM_POWERPC_SWITCH_TO_H
 
-#include <asm/reg.h>
+#include <asm-generic/reg.h>
 
 struct thread_struct;
 struct task_struct;

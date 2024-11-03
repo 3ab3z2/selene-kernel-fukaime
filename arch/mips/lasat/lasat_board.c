@@ -19,12 +19,12 @@
  */
 #include <linux/types.h>
 #include <linux/crc32.h>
-#include <asm/lasat/lasat.h>
+#include <asm-generic/lasat/lasat.h>
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/ctype.h>
 #include <linux/mutex.h>
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 #include "at93c.h"
 /* New model description table */
 #include "lasat_models.h"

@@ -10,10 +10,10 @@
 #include <linux/suspend.h>
 #include <linux/bootmem.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmzone.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/sections.h>
 
 /* Defined in hibernate_asm_32.S */
 extern int restore_image(void);

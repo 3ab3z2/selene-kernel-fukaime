@@ -34,10 +34,10 @@
 #include <linux/hardirq.h>
 #include <linux/kbuild.h>
 
-#include <asm/pgtable.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
-#include <asm/pdc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pdc.h>
 #include <linux/uaccess.h>
 
 #ifdef CONFIG_64BIT

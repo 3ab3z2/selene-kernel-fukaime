@@ -21,11 +21,11 @@
 #include <linux/gpio.h>
 #include <linux/irq.h>
 #include <linux/i2c.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/reboot.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
 
 /*
  * Name the Board for the /proc/cpuinfo
@@ -589,7 +589,7 @@ static struct platform_device bfin_dpmc = {
 #if IS_ENABLED(CONFIG_SND_BF5XX_I2S) || \
 	IS_ENABLED(CONFIG_SND_BF5XX_AC97)
 
-#include <asm/bfin_sport.h>
+#include <asm-generic/bfin_sport.h>
 
 #define SPORT_REQ(x) \
 	[x] = {P_SPORT##x##_TFS, P_SPORT##x##_DTPRI, P_SPORT##x##_TSCLK, \

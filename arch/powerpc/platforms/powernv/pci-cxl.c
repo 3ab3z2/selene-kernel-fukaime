@@ -9,9 +9,9 @@
 
 #include <linux/module.h>
 #include <linux/msi.h>
-#include <asm/pci-bridge.h>
-#include <asm/pnv-pci.h>
-#include <asm/opal.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/opal.h>
 #include <misc/cxl.h>
 
 #include "pci.h"

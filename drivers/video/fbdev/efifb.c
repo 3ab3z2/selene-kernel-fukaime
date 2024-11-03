@@ -15,7 +15,7 @@
 #include <linux/platform_device.h>
 #include <linux/screen_info.h>
 #include <video/vga.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 static bool request_mem_succeeded = false;
 static bool nowc = false;

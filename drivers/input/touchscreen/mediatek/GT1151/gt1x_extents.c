@@ -38,7 +38,7 @@
 #ifdef CONFIG_GTP_REQUEST_FW_UPDATE
 #include <linux/firmware.h>
 #endif
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 #include "include/gt1x_tpd_common.h"
 
 #ifdef CONFIG_GTP_REQUEST_FW_UPDATE

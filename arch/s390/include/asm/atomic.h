@@ -11,9 +11,9 @@
 
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/atomic_ops.h>
-#include <asm/barrier.h>
-#include <asm/cmpxchg.h>
+#include <asm-generic/atomic_ops.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/cmpxchg.h>
 
 #define ATOMIC_INIT(i)  { (i) }
 

@@ -9,11 +9,11 @@
 #include <linux/dma-mapping.h>
 #include <linux/mem_encrypt.h>
 
-#include <asm/iommu.h>
-#include <asm/swiotlb.h>
-#include <asm/dma.h>
-#include <asm/xen/swiotlb-xen.h>
-#include <asm/iommu_table.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/xen/swiotlb-xen.h>
+#include <asm-generic/iommu_table.h>
 
 int swiotlb __read_mostly;
 

@@ -4,11 +4,11 @@
 #include <linux/mm_types.h>
 #include <linux/sched/task.h>
 
-#include <asm/branch.h>
-#include <asm/cacheflush.h>
-#include <asm/fpu_emulator.h>
-#include <asm/inst.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/branch.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/fpu_emulator.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/mipsregs.h>
 #include <linux/uaccess.h>
 
 /**

@@ -57,7 +57,7 @@
 #include <linux/mutex.h>
 #include <linux/compat.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #include <scsi/scsi.h>

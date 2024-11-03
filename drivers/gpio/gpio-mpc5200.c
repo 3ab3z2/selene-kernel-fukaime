@@ -25,7 +25,7 @@
 #include <linux/of_platform.h>
 #include <linux/module.h>
 
-#include <asm/mpc52xx.h>
+#include <asm-generic/mpc52xx.h>
 #include <sysdev/fsl_soc.h>
 
 static DEFINE_SPINLOCK(gpio_lock);

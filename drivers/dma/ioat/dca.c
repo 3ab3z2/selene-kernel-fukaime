@@ -24,7 +24,7 @@
 
 /* either a kernel change is needed, or we need something like this in kernel */
 #ifndef CONFIG_SMP
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #undef cpu_physical_id
 #define cpu_physical_id(cpu) (cpuid_ebx(1) >> 24)
 #endif

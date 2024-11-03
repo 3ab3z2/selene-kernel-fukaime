@@ -36,7 +36,7 @@
 #include <target/target_core_base.h>
 #include <target/target_core_backend.h>
 #include <target/target_core_fabric.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "sbp_target.h"
 

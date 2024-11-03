@@ -24,7 +24,7 @@
 #include <linux/platform_device.h>
 #include <linux/device.h>
 #include <linux/slab.h>
-#include <asm/platform_sst_audio.h>
+#include <asm-generic/platform_sst_audio.h>
 #include <linux/clk.h>
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>

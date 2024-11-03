@@ -15,7 +15,7 @@
  * Code generated for this function might be very inefficient
  * for some CPUs. __div64_32() can be overridden by linking arch-specific
  * assembly versions such as arch/ppc/lib/div64.S and arch/sh/lib/div64.S
- * or by defining a preprocessor macro in arch/include/asm/div64.h.
+ * or by defining a preprocessor macro in arch/include/asm-generic/div64.h.
  */
 
 #include <linux/export.h>

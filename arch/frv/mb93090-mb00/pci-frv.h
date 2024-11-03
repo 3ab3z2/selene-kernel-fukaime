@@ -5,7 +5,7 @@
  *	(c) 1999 Martin Mares <mj@ucw.cz>
  */
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #undef DEBUG
 

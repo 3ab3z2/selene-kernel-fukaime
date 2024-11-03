@@ -56,17 +56,17 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/irq.h>
-#include <asm/unistd.h>
-#include <asm/assembler.h>
-#include <asm/thread_info.h>
-#include <asm/errno.h>
-#include <asm/segment.h>
-#include <asm/smp.h>
-#include <asm/page.h>
-#include <asm/m32r.h>
-#include <asm/mmu_context.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/page.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/asm-offsets.h>
 
 #if !defined(CONFIG_MMU)
 #define sys_madvise		sys_ni_syscall

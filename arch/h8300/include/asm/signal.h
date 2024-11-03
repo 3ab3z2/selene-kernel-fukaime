@@ -2,7 +2,7 @@
 #ifndef _H8300_SIGNAL_H
 #define _H8300_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 /* Most things should be clean enough to redefine this at will, if care
    is taken to make libc match.  */
@@ -18,6 +18,6 @@ typedef struct {
 } sigset_t;
 
 #define __ARCH_HAS_SA_RESTORER
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 
 #endif /* _H8300_SIGNAL_H */

@@ -30,9 +30,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/inst.h>
-#include <asm/frame.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/frame.h>
+#include <asm-generic/nospec-branch.h>
 
 /*
  * The following macros are used to move an (un)aligned 16 byte value to/from

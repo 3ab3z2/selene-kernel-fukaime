@@ -18,7 +18,7 @@
 #include <linux/of.h>
 #include <linux/delay.h>
 #include <linux/mvebu-pmsu.h>
-#include <asm/smp_plat.h>
+#include <asm-generic/smp_plat.h>
 
 #define SYS_CTRL_CLK_DIVIDER_CTRL_OFFSET               0x0
 #define   SYS_CTRL_CLK_DIVIDER_CTRL_RESET_ALL          0xff

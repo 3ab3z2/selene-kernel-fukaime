@@ -6,9 +6,9 @@
  */
 
 #include <linux/cpu.h>
-#include <asm/apic.h>
-#include <asm/pat.h>
-#include <asm/processor.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/pat.h>
+#include <asm-generic/processor.h>
 
 /* leaf 0xb SMT level */
 #define SMT_LEVEL	0

@@ -10,8 +10,8 @@
  */
 #include <linux/string.h>
 #include <linux/perf_event.h>
-#include <asm/reg.h>
-#include <asm/cputable.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cputable.h>
 
 #define N_COUNTER	6	/* Number of hardware counters */
 #define MAX_ALT		3	/* Maximum number of event alternative codes */

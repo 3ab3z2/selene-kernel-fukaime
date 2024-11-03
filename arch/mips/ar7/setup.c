@@ -20,9 +20,9 @@
 #include <linux/pm.h>
 #include <linux/time.h>
 
-#include <asm/reboot.h>
-#include <asm/mach-ar7/ar7.h>
-#include <asm/mach-ar7/prom.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/mach-ar7/ar7.h>
+#include <asm-generic/mach-ar7/prom.h>
 
 static void ar7_machine_restart(char *command)
 {

@@ -7,11 +7,11 @@
  * Copyright (C) 1998 Jakub Jelinek   (jj@ultra.linux.cz)
  */
 
-#include <asm/ptrace.h>
-#include <asm/psr.h>
-#include <asm/smp.h>
-#include <asm/spinlock.h>
-#include <asm/export.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/spinlock.h>
+#include <asm-generic/export.h>
 
 	.text
 	.align	4

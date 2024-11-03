@@ -36,13 +36,13 @@
 #include <linux/spi/flash.h>
 #include <linux/smc91x.h>
 #include <linux/ata_platform.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1100_mmc.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1xxx_psc.h>
-#include <asm/mach-au1x00/au1200fb.h>
-#include <asm/mach-au1x00/au1550_spi.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1100_mmc.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1xxx_psc.h>
+#include <asm-generic/mach-au1x00/au1200fb.h>
+#include <asm-generic/mach-au1x00/au1550_spi.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 #include "platform.h"
 

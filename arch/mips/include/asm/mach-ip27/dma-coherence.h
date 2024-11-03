@@ -9,7 +9,7 @@
 #ifndef __ASM_MACH_IP27_DMA_COHERENCE_H
 #define __ASM_MACH_IP27_DMA_COHERENCE_H
 
-#include <asm/pci/bridge.h>
+#include <asm-generic/pci/bridge.h>
 
 #define pdev_to_baddr(pdev, addr) \
 	(BRIDGE_CONTROLLER(pdev->bus)->baddr + (addr))

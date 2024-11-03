@@ -15,7 +15,7 @@
 #include <linux/vt_buffer.h>
 #include <linux/vt_kern.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define FBCON_FLAGS_INIT         1
 #define FBCON_FLAGS_CURSOR_TIMER 2

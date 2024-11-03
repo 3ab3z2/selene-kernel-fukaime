@@ -15,8 +15,8 @@
 #include <linux/log2.h>
 #include <linux/uaccess.h>
 #include <linux/vmalloc.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
 
 #include "interrupt.h"
 

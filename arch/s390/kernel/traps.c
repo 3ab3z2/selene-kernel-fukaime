@@ -23,7 +23,7 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 #include <linux/cpu.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 #include "entry.h"
 
 static inline void __user *get_trap_ip(struct pt_regs *regs)

@@ -18,10 +18,10 @@
 #include <linux/clockchips.h>
 #include <linux/cpufreq.h>
 
-#include <asm/blackfin.h>
-#include <asm/time.h>
-#include <asm/gptimers.h>
-#include <asm/nmi.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/time.h>
+#include <asm-generic/gptimers.h>
+#include <asm-generic/nmi.h>
 
 
 #if defined(CONFIG_CYCLES_CLOCKSOURCE)

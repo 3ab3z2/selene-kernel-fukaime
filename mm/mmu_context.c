@@ -10,7 +10,7 @@
 #include <linux/mmu_context.h>
 #include <linux/export.h>
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 /*
  * use_mm

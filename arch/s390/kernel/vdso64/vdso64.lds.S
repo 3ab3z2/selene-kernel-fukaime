@@ -4,8 +4,8 @@
  * library
  */
 
-#include <asm/page.h>
-#include <asm/vdso.h>
+#include <asm-generic/page.h>
+#include <asm-generic/vdso.h>
 
 OUTPUT_FORMAT("elf64-s390", "elf64-s390", "elf64-s390")
 OUTPUT_ARCH(s390:64-bit)

@@ -33,9 +33,9 @@
 #include <linux/pm.h>
 #include <linux/stringify.h>
 #include <linux/bsg-lib.h>
-#include <asm/firmware.h>
-#include <asm/irq.h>
-#include <asm/vio.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/vio.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>

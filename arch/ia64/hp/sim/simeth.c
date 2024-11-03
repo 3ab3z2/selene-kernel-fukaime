@@ -21,8 +21,8 @@
 #include <linux/skbuff.h>
 #include <linux/notifier.h>
 #include <linux/bitops.h>
-#include <asm/irq.h>
-#include <asm/hpsim.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hpsim.h>
 
 #include "hpsim_ssc.h"
 

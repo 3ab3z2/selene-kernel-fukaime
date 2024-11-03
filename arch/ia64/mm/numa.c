@@ -17,8 +17,8 @@
 #include <linux/init.h>
 #include <linux/bootmem.h>
 #include <linux/module.h>
-#include <asm/mmzone.h>
-#include <asm/numa.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/numa.h>
 
 
 /*

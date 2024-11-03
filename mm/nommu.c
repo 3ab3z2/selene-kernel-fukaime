@@ -37,9 +37,9 @@
 #include <linux/printk.h>
 
 #include <linux/uaccess.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
 #include "internal.h"
 
 void *high_memory;

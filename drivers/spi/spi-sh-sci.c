@@ -22,8 +22,8 @@
 #include <linux/spi/spi_bitbang.h>
 #include <linux/module.h>
 
-#include <asm/spi.h>
-#include <asm/io.h>
+#include <asm-generic/spi.h>
+#include <asm-generic/io.h>
 
 struct sh_sci_spi {
 	struct spi_bitbang bitbang;

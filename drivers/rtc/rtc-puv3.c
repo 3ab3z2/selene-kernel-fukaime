@@ -23,7 +23,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <mach/hardware.h>
 
 static struct resource *puv3_rtc_mem;

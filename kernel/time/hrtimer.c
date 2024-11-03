@@ -53,7 +53,7 @@
 #include <linux/freezer.h>
 #include <linux/compat.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
 
 #include <trace/events/timer.h>

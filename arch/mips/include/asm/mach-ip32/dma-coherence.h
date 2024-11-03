@@ -9,7 +9,7 @@
 #ifndef __ASM_MACH_IP32_DMA_COHERENCE_H
 #define __ASM_MACH_IP32_DMA_COHERENCE_H
 
-#include <asm/ip32/crime.h>
+#include <asm-generic/ip32/crime.h>
 
 struct device;
 

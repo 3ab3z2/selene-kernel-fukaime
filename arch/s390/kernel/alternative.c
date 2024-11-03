@@ -1,7 +1,7 @@
 #include <linux/module.h>
-#include <asm/alternative.h>
-#include <asm/facility.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/nospec-branch.h>
 
 #define MAX_PATCH_LEN (255 - 1)
 

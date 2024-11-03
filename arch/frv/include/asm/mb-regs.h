@@ -12,9 +12,9 @@
 #ifndef _ASM_MB_REGS_H
 #define _ASM_MB_REGS_H
 
-#include <asm/cpu-irqs.h>
-#include <asm/sections.h>
-#include <asm/mem-layout.h>
+#include <asm-generic/cpu-irqs.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/mem-layout.h>
 
 #ifndef __ASSEMBLY__
 /* gcc builtins, annotated */
@@ -39,7 +39,7 @@ void __builtin_write32(volatile void __iomem *, unsigned long);
  * VDK motherboard and CPU card specific stuff
  */
 
-#include <asm/mb93091-fpga-irqs.h>
+#include <asm-generic/mb93091-fpga-irqs.h>
 
 #define IRQ_CPU_MB93493_0	IRQ_CPU_EXTERNAL0
 #define IRQ_CPU_MB93493_1	IRQ_CPU_EXTERNAL1
@@ -133,7 +133,7 @@ do {									\
  * PDK unit specific stuff
  */
 
-#include <asm/mb93093-fpga-irqs.h>
+#include <asm-generic/mb93093-fpga-irqs.h>
 
 #define IRQ_CPU_MB93493_0	IRQ_CPU_EXTERNAL0
 #define IRQ_CPU_MB93493_1	IRQ_CPU_EXTERNAL1

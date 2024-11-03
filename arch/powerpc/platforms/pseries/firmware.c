@@ -23,9 +23,9 @@
 
 
 #include <linux/of_fdt.h>
-#include <asm/firmware.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
 
 #include "pseries.h"
 

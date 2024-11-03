@@ -35,7 +35,7 @@
 #include <linux/uaccess.h>
 #include <linux/module.h>
 #include <linux/crc32.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/ethtool.h>
 #include <linux/mii.h>
 #include <linux/phy.h>

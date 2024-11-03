@@ -6,7 +6,7 @@
  * Verify that we have not overflowed the stack.  Oops if we have.
  */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 	.text
 	.set noat

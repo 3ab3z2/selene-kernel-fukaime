@@ -39,12 +39,12 @@
 #include <linux/dma-mapping.h>
 #include <linux/prefetch.h>
 
-#include <asm/delay.h>		/* ia64_get_itc() */
-#include <asm/io.h>
-#include <asm/page.h>		/* PAGE_OFFSET */
-#include <asm/dma.h>
+#include <asm-generic/delay.h>		/* ia64_get_itc() */
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>		/* PAGE_OFFSET */
+#include <asm-generic/dma.h>
 
-#include <asm/acpi-ext.h>
+#include <asm-generic/acpi-ext.h>
 
 extern int swiotlb_late_init_with_default_size (size_t size);
 

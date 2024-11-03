@@ -18,9 +18,9 @@
 #include <linux/platform_device.h>
 #include <linux/of_platform.h>
 
-#include <asm/opal.h>
-#include <asm/firmware.h>
-#include <asm/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/machdep.h>
 
 static void opal_to_tm(u32 y_m_d, u64 h_m_s_ms, struct rtc_time *tm)
 {

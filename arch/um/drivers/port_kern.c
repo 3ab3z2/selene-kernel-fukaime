@@ -9,7 +9,7 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <linux/workqueue.h>
-#include <asm/atomic.h>
+#include <asm-generic/atomic.h>
 #include <init.h>
 #include <irq_kern.h>
 #include <os.h>

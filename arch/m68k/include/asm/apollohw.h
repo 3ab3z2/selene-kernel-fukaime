@@ -6,7 +6,7 @@
 
 #include <linux/types.h>
 
-#include <asm/bootinfo-apollo.h>
+#include <asm-generic/bootinfo-apollo.h>
 
 
 extern u_long apollo_model;

@@ -15,12 +15,12 @@
 #include <linux/uaccess.h>
 #include <linux/kdebug.h>
 #include <linux/perf_event.h>
-#include <asm/pgalloc.h>
-#include <asm/mmu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/mmu.h>
 
 /*
  * kernel virtual address is required to implement vmalloc/pkmap/fixmap
- * Refer to asm/processor.h for System Memory Map
+ * Refer to asm-generic/processor.h for System Memory Map
  *
  * It simply copies the PMD entry (pointer to 2nd level page table or hugepage)
  * from swapper pgdir to task pgdir. The 2nd level table/page is thus shared

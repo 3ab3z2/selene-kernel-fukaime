@@ -33,20 +33,20 @@
 #include <linux/initrd.h>
 #include <linux/timer.h>
 
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/dma.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/hydra.h>
-#include <asm/sections.h>
-#include <asm/time.h>
-#include <asm/i8259.h>
-#include <asm/mpic.h>
-#include <asm/rtas.h>
-#include <asm/xmon.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hydra.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/time.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/xmon.h>
 
 #include "chrp.h"
 #include "gg2.h"

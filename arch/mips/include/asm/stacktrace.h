@@ -2,8 +2,8 @@
 #ifndef _ASM_STACKTRACE_H
 #define _ASM_STACKTRACE_H
 
-#include <asm/ptrace.h>
-#include <asm/asm.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/asm.h>
 #include <linux/stringify.h>
 
 #ifdef CONFIG_KALLSYMS

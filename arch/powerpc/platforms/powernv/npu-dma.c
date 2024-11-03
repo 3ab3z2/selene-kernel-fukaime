@@ -18,15 +18,15 @@
 #include <linux/memblock.h>
 #include <linux/iommu.h>
 
-#include <asm/tlb.h>
-#include <asm/powernv.h>
-#include <asm/reg.h>
-#include <asm/opal.h>
-#include <asm/io.h>
-#include <asm/iommu.h>
-#include <asm/pnv-pci.h>
-#include <asm/msi_bitmap.h>
-#include <asm/opal.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/powernv.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/io.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/opal.h>
 
 #include "powernv.h"
 #include "pci.h"

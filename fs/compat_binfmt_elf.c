@@ -10,7 +10,7 @@
  * Red Hat Author: Roland McGrath.
  *
  * This file is used in a 64-bit kernel that wants to support 32-bit ELF.
- * asm/elf.h is responsible for defining the compat_* and COMPAT_* macros
+ * asm-generic/elf.h is responsible for defining the compat_* and COMPAT_* macros
  * used below, with definitions appropriate for 32-bit ABI compatibility.
  *
  * We use macros to rename the ABI types and machine-dependent
@@ -46,7 +46,7 @@
 
 /*
  * The machine-dependent core note format types are defined in elfcore-compat.h,
- * which requires asm/elf.h to define compat_elf_gregset_t et al.
+ * which requires asm-generic/elf.h to define compat_elf_gregset_t et al.
  */
 #define elf_prstatus	compat_elf_prstatus
 #define elf_prpsinfo	compat_elf_prpsinfo
@@ -55,7 +55,7 @@
 #define ns_to_timeval ns_to_compat_timeval
 
 /*
- * To use this file, asm/elf.h must define compat_elf_check_arch.
+ * To use this file, asm-generic/elf.h must define compat_elf_check_arch.
  * The other following macros can be defined if the compat versions
  * differ from the native ones, or omitted when they match.
  */

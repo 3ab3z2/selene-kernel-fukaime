@@ -27,9 +27,9 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
-#include <asm/machdep.h>
-#include <asm/opal.h>
-#include <asm/cputable.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/cputable.h>
 
 static int opal_mem_err_nb_init;
 static LIST_HEAD(opal_memory_err_list);

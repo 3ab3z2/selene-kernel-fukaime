@@ -2,7 +2,7 @@
 #ifndef _PARISC_SWAB_H
 #define _PARISC_SWAB_H
 
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 #include <linux/types.h>
 #include <linux/compiler.h>
 

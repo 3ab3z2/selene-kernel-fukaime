@@ -7,7 +7,7 @@
 #define __IRQ_KERN_H__
 
 #include <linux/interrupt.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 extern int um_request_irq(unsigned int irq, int fd, int type,
 			  irq_handler_t handler,

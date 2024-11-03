@@ -6,7 +6,7 @@
  */
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * The generic probe_kernel_write() uses the user copy code which can split the

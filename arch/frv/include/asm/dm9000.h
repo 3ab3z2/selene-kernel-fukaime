@@ -12,7 +12,7 @@
 #ifndef _ASM_DM9000_H
 #define _ASM_DM9000_H
 
-#include <asm/mb-regs.h>
+#include <asm-generic/mb-regs.h>
 
 #define DM9000_ARCH_IOBASE	(__region_CS6 + 0x300)
 #define DM9000_ARCH_IRQ		IRQ_CPU_EXTERNAL3	/* XIRQ #3 (shared with FPGA) */

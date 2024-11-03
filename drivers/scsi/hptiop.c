@@ -27,8 +27,8 @@
 #include <linux/spinlock.h>
 #include <linux/gfp.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/div64.h>
+#include <asm-generic/io.h>
+#include <asm-generic/div64.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi.h>

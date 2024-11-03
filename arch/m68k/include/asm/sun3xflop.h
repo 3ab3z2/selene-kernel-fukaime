@@ -10,10 +10,10 @@
 #ifndef __ASM_SUN3X_FLOPPY_H
 #define __ASM_SUN3X_FLOPPY_H
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/sun3x.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sun3x.h>
 
 /* default interrupt vector */
 #define SUN3X_FDC_IRQ 0x40

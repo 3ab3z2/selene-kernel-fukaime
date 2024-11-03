@@ -16,13 +16,13 @@
 #include <linux/bootmem.h>
 #include <linux/spinlock.h>
 #include <linux/gfp.h>
-#include <asm/mipsregs.h>
-#include <asm/jazz.h>
-#include <asm/io.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/jazz.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/dma.h>
-#include <asm/jazzdma.h>
-#include <asm/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/jazzdma.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Set this to one to enable additional vdma debug code.

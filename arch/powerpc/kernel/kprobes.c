@@ -32,10 +32,10 @@
 #include <linux/extable.h>
 #include <linux/kdebug.h>
 #include <linux/slab.h>
-#include <asm/code-patching.h>
-#include <asm/cacheflush.h>
-#include <asm/sstep.h>
-#include <asm/sections.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/sstep.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
 
 DEFINE_PER_CPU(struct kprobe *, current_kprobe) = NULL;

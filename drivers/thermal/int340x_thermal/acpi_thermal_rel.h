@@ -2,7 +2,7 @@
 #ifndef __ACPI_ACPI_THERMAL_H
 #define __ACPI_ACPI_THERMAL_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 #define ACPI_THERMAL_MAGIC 's'
 

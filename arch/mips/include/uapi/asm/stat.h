@@ -12,7 +12,7 @@
 
 #include <linux/types.h>
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if (_MIPS_SIM == _MIPS_SIM_ABI32) || (_MIPS_SIM == _MIPS_SIM_NABI32)
 

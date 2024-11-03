@@ -17,18 +17,18 @@
 #include <linux/delay.h>
 #include <linux/spinlock.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/mpic.h>
-#include <asm/rtas.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/rtas.h>
 
 static int smp_chrp_kick_cpu(int nr)
 {

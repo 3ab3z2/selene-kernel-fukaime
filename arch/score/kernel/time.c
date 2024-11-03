@@ -26,7 +26,7 @@
 #include <linux/clockchips.h>
 #include <linux/interrupt.h>
 
-#include <asm/scoreregs.h>
+#include <asm-generic/scoreregs.h>
 
 static irqreturn_t timer_interrupt(int irq, void *dev_id)
 {

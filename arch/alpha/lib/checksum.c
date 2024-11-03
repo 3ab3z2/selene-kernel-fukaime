@@ -13,7 +13,7 @@
 #include <linux/module.h>
 #include <linux/string.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 static inline unsigned short from64to16(unsigned long x)
 {

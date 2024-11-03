@@ -4,8 +4,8 @@
 
 #include <linux/io.h>
 #include <linux/sched.h>
-#include <asm/metag_mem.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/pgalloc.h>
 
 /*
  * TLB flushing:

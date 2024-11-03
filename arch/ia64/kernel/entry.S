@@ -38,18 +38,18 @@
  */
 
 
-#include <asm/asmmacro.h>
-#include <asm/cache.h>
-#include <asm/errno.h>
-#include <asm/kregs.h>
-#include <asm/asm-offsets.h>
-#include <asm/pgtable.h>
-#include <asm/percpu.h>
-#include <asm/processor.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
-#include <asm/ftrace.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/export.h>
 
 #include "minstate.h"
 

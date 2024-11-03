@@ -10,9 +10,9 @@
  */
 
 #include <linux/types.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/hw_irq.h>
 #include <linux/device.h>
-#include <uapi/asm/perf_event.h>
+#include <uapi/asm-generic/perf_event.h>
 
 /* Update perf_event_print_debug() if this changes */
 #define MAX_HWEVENTS		8

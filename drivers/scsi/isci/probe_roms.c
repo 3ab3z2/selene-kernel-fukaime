@@ -28,7 +28,7 @@
 #include <linux/firmware.h>
 #include <linux/uaccess.h>
 #include <linux/efi.h>
-#include <asm/probe_roms.h>
+#include <asm-generic/probe_roms.h>
 
 #include "isci.h"
 #include "task.h"

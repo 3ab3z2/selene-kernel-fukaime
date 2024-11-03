@@ -9,7 +9,7 @@
 #include <linux/sched/mm.h>
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>
-#include <asm/prctl.h> /* XXX This should get the constants from libc */
+#include <asm-generic/prctl.h> /* XXX This should get the constants from libc */
 #include <os.h>
 #include <registers.h>
 

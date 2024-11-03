@@ -15,9 +15,9 @@
 #include <linux/sched.h>
 #include <linux/kernel_stat.h>
 #include <linux/kbuild.h>
-#include <asm/bootinfo.h>
-#include <asm/irq.h>
-#include <asm/amigahw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/amigahw.h>
 #include <linux/font.h>
 
 int main(void)

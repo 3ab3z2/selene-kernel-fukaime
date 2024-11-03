@@ -11,8 +11,8 @@
 #ifndef _ASM_IA64_IRQFLAGS_H
 #define _ASM_IA64_IRQFLAGS_H
 
-#include <asm/pal.h>
-#include <asm/kregs.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/kregs.h>
 
 #ifdef CONFIG_IA64_DEBUG_IRQ
 extern unsigned long last_cli_ip;

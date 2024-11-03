@@ -13,7 +13,7 @@
 
 #include <linux/module.h>
 #include <linux/kernel.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/lzo.h>
 #include "lzodefs.h"
 

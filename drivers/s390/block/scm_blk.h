@@ -9,8 +9,8 @@
 #include <linux/genhd.h>
 #include <linux/list.h>
 
-#include <asm/debug.h>
-#include <asm/eadm.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/eadm.h>
 
 #define SCM_NR_PARTS 8
 #define SCM_QUEUE_DELAY 5

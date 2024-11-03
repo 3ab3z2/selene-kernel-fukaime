@@ -10,7 +10,7 @@
 #define _XTENSA_TLBFLUSH_H
 
 #include <linux/stringify.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #define DTLB_WAY_PGD	7
 

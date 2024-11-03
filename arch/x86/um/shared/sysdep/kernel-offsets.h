@@ -4,7 +4,7 @@
 #include <linux/elf.h>
 #include <linux/crypto.h>
 #include <linux/kbuild.h>
-#include <asm/mman.h>
+#include <asm-generic/mman.h>
 
 void foo(void)
 {

@@ -17,7 +17,7 @@
  */
 
 #include <linux/smp.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/hexagon_vm.h>
 
 void machine_power_off(void)
 {

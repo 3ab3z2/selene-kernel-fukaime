@@ -15,19 +15,19 @@
  */
 
 #include <linux/sys.h>
-#include <asm/unistd.h>
-#include <asm/errno.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/cache.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cputable.h>
-#include <asm/thread_info.h>
-#include <asm/kexec.h>
-#include <asm/ptrace.h>
-#include <asm/mmu.h>
-#include <asm/export.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/export.h>
 
 	.text
 

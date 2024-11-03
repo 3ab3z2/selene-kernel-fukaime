@@ -7,8 +7,8 @@
  */
 
 #include <linux/init.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/rbtx4939.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/rbtx4939.h>
 
 void __init rbtx4939_prom_init(void)
 {

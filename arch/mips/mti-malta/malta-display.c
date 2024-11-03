@@ -14,7 +14,7 @@
 #include <linux/timer.h>
 #include <linux/io.h>
 
-#include <asm/mips-boards/generic.h>
+#include <asm-generic/mips-boards/generic.h>
 
 extern const char display_string[];
 static unsigned int display_count;

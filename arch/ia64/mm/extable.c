@@ -6,10 +6,10 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/ptrace.h>
-#include <asm/extable.h>
-#include <asm/errno.h>
-#include <asm/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/extable.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/processor.h>
 
 void
 ia64_handle_exception (struct pt_regs *regs, const struct exception_table_entry *e)

@@ -582,7 +582,7 @@ X
 #include <errno.h>
 #include <unistd.h>
 #include <asm/io.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 X
 #define IREG_LOGDEVICE		0x07
 #define IREG_ACTIVATE		0x30

@@ -9,7 +9,7 @@
 #include <linux/kernel.h>
 #include <linux/cpumask.h>
 #include <linux/spinlock.h>
-#include <asm/cpudata.h>
+#include <asm-generic/cpudata.h>
 #include "cpumap.h"
 
 

@@ -15,7 +15,7 @@
 #include <linux/module.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/vpac270.h>
 

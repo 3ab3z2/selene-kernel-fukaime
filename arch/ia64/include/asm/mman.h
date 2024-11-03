@@ -8,7 +8,7 @@
 #ifndef _ASM_IA64_MMAN_H
 #define _ASM_IA64_MMAN_H
 
-#include <uapi/asm/mman.h>
+#include <uapi/asm-generic/mman.h>
 
 #ifndef __ASSEMBLY__
 #define arch_mmap_check	ia64_mmap_check

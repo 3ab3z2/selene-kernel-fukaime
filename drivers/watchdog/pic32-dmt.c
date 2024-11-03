@@ -21,7 +21,7 @@
 #include <linux/pm.h>
 #include <linux/watchdog.h>
 
-#include <asm/mach-pic32/pic32.h>
+#include <asm-generic/mach-pic32/pic32.h>
 
 /* Deadman Timer Regs */
 #define DMTCON_REG	0x00

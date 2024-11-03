@@ -14,9 +14,9 @@
 #include <linux/irqflags.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/vtimer.h>
-#include <asm/div64.h>
-#include <asm/idle.h>
+#include <asm-generic/vtimer.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/idle.h>
 
 void __delay(unsigned long loops)
 {

@@ -26,9 +26,9 @@
 #include <linux/audit.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/asm-offsets.h>
 
 /* PSW bits we allow the debugger to modify */
 #define USER_PSW_BITS	(PSW_N | PSW_B | PSW_V | PSW_CB)

@@ -48,10 +48,10 @@
 #include <linux/nvram.h>
 #include <linux/adb.h>
 #include <linux/cuda.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pgtable.h>
-#include <asm/btext.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/btext.h>
 
 #include "macmodes.h"
 #include "controlfb.h"

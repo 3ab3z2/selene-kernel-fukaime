@@ -21,7 +21,7 @@
 #include <linux/acpi.h>
 #include <xen/interface/version.h>
 #include <xen/xen-ops.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 #define ACPI_PROCESSOR_AGGREGATOR_CLASS	"acpi_pad"
 #define ACPI_PROCESSOR_AGGREGATOR_DEVICE_NAME "Processor Aggregator"

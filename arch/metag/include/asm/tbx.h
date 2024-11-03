@@ -1,5 +1,5 @@
 /*
- * asm/tbx.h
+ * asm-generic/tbx.h
  *
  * Copyright (C) 2000-2012 Imagination Technologies.
  *
@@ -14,9 +14,9 @@
 #define _ASM_METAG_TBX_H_
 
 /* for CACHEW_* values */
-#include <asm/metag_isa.h>
+#include <asm-generic/metag_isa.h>
 /* for LINSYSEVENT_* addresses */
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 #ifdef  TBI_1_4
 #ifndef TBI_MUTEXES_1_4

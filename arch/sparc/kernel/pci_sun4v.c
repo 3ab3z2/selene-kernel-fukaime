@@ -18,10 +18,10 @@
 #include <linux/of_device.h>
 #include <linux/iommu-common.h>
 
-#include <asm/iommu.h>
-#include <asm/irq.h>
-#include <asm/hypervisor.h>
-#include <asm/prom.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/prom.h>
 
 #include "pci_impl.h"
 #include "iommu_common.h"

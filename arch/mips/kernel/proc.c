@@ -8,13 +8,13 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/seq_file.h>
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/idle.h>
-#include <asm/mipsregs.h>
-#include <asm/processor.h>
-#include <asm/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/prom.h>
 
 unsigned int vced_count, vcei_count;
 

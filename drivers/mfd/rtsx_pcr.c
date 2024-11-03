@@ -31,7 +31,7 @@
 #include <linux/mfd/core.h>
 #include <linux/mfd/rtsx_pci.h>
 #include <linux/mmc/card.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "rtsx_pcr.h"
 

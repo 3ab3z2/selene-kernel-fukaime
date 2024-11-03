@@ -11,7 +11,7 @@
 #ifndef _ASM_SOCKIOS_H
 #define _ASM_SOCKIOS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 /* Socket-level I/O control calls. */
 #define FIOGETOWN	_IOR('f', 123, int)

@@ -13,13 +13,13 @@
 #include <linux/string.h>
 #include <linux/init.h>
 #include <generated/utsrelease.h>
-#include <asm/sections.h>
-#include <asm/prom.h>
-#include <asm/page.h>
-#include <asm/bootx.h>
-#include <asm/btext.h>
-#include <asm/io.h>
-#include <asm/setup.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/page.h>
+#include <asm-generic/bootx.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/io.h>
+#include <asm-generic/setup.h>
 
 #undef DEBUG
 #define SET_BOOT_BAT

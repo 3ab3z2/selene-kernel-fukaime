@@ -39,13 +39,13 @@
 #include <linux/hardirq.h>
 #include <linux/gfp.h>
 
-#include <asm/pgalloc.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
 #include <linux/uaccess.h>
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 static int map_page(unsigned long va, unsigned long pa, pgprot_t prot)
 {

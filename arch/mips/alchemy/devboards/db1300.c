@@ -24,14 +24,14 @@
 #include <linux/smsc911x.h>
 #include <linux/wm97xx.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1300.h>
-#include <asm/mach-au1x00/au1100_mmc.h>
-#include <asm/mach-au1x00/au1200fb.h>
-#include <asm/mach-au1x00/au1xxx_dbdma.h>
-#include <asm/mach-au1x00/au1xxx_psc.h>
-#include <asm/mach-db1x00/bcsr.h>
-#include <asm/mach-au1x00/prom.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1300.h>
+#include <asm-generic/mach-au1x00/au1100_mmc.h>
+#include <asm-generic/mach-au1x00/au1200fb.h>
+#include <asm-generic/mach-au1x00/au1xxx_dbdma.h>
+#include <asm-generic/mach-au1x00/au1xxx_psc.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
+#include <asm-generic/mach-au1x00/prom.h>
 
 #include "platform.h"
 

@@ -203,7 +203,7 @@
  */
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /* add_ssaaaa is used in op-2.h and should be equivalent to
  * #define add_ssaaaa(sh,sl,ah,al,bh,bl) (sh = ah+bh+ (( sl = al+bl) < al))

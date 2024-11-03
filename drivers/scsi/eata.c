@@ -491,10 +491,10 @@
 #include <linux/spinlock.h>
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -527,7 +527,7 @@ static struct scsi_host_template driver_template = {
 };
 
 #if !defined(__BIG_ENDIAN_BITFIELD) && !defined(__LITTLE_ENDIAN_BITFIELD)
-#error "Adjust your <asm/byteorder.h> defines"
+#error "Adjust your <asm-generic/byteorder.h> defines"
 #endif
 
 /* Subversion values */

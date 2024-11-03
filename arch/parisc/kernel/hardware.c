@@ -27,7 +27,7 @@
  */
 
 
-#include <asm/hardware.h>
+#include <asm-generic/hardware.h>
 #include <linux/stddef.h>
 #include <linux/kernel.h>
 #include <linux/init.h>

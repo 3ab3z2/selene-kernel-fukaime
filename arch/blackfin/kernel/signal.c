@@ -14,10 +14,10 @@
 #include <linux/tracehook.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/cacheflush.h>
-#include <asm/ucontext.h>
-#include <asm/fixed_code.h>
-#include <asm/syscall.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/syscall.h>
 
 /* Location of the trace bit in SYSCFG. */
 #define TRACE_BITS 0x0001

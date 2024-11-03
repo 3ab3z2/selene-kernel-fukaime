@@ -2,7 +2,7 @@
 #ifndef _SPARC64_LDC_H
 #define _SPARC64_LDC_H
 
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 extern int ldom_domaining_enabled;
 void ldom_set_var(const char *var, const char *value);

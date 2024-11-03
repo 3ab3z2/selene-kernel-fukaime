@@ -10,7 +10,7 @@
 #ifndef __ASM_IOCTLS_H
 #define __ASM_IOCTLS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 #define TCGETA		0x5401
 #define TCSETA		0x5402	/* Clashes with SNDCTL_TMR_START sound ioctl */

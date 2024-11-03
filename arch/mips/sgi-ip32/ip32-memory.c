@@ -11,11 +11,11 @@
 #include <linux/kernel.h>
 #include <linux/mm.h>
 
-#include <asm/ip32/crime.h>
-#include <asm/bootinfo.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/ip32/crime.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 
 extern void crime_init(void);
 

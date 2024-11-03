@@ -5,8 +5,8 @@ OUTPUT_FORMAT(CONFIG_OUTPUT_FORMAT, CONFIG_OUTPUT_FORMAT, CONFIG_OUTPUT_FORMAT)
 
 #undef i386
 
-#include <asm/cache.h>
-#include <asm/page_types.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page_types.h>
 
 #ifdef CONFIG_X86_64
 OUTPUT_ARCH(i386:x86-64)

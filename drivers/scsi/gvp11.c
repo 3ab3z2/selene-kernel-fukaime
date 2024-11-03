@@ -7,10 +7,10 @@
 #include <linux/zorro.h>
 #include <linux/module.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/amigaints.h>
-#include <asm/amigahw.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/amigaints.h>
+#include <asm-generic/amigahw.h>
 
 #include "scsi.h"
 #include "wd33c93.h"

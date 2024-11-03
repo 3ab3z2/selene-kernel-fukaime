@@ -6,7 +6,7 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 /* XXX TODO-- need to add sync barriers! */
 

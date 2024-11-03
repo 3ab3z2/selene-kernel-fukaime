@@ -30,7 +30,7 @@
 #include <sound/soc.h>
 #include <sound/jack.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/board-ams-delta.h>
 #include <linux/platform_data/asoc-ti-mcbsp.h>

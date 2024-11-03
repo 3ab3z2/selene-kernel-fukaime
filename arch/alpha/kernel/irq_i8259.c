@@ -14,7 +14,7 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "proto.h"
 #include "irq_impl.h"

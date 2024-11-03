@@ -13,11 +13,11 @@
 
 #include <linux/kvm_host.h>
 #include <linux/log2.h>
-#include <asm/mmu_context.h>
-#include <asm/msa.h>
-#include <asm/setup.h>
-#include <asm/tlbex.h>
-#include <asm/uasm.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/msa.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbex.h>
+#include <asm-generic/uasm.h>
 
 /* Register names */
 #define ZERO		0

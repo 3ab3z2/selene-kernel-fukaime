@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 
 
 /*

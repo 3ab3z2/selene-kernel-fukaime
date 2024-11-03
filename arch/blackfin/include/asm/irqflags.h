@@ -11,8 +11,8 @@
 #include <mach/blackfin.h>
 
 #ifdef CONFIG_SMP
-# include <asm/pda.h>
-# include <asm/processor.h>
+# include <asm-generic/pda.h>
+# include <asm-generic/processor.h>
 # define bfin_irq_flags cpu_pda[blackfin_core_id()].imask
 #else
 extern unsigned long bfin_irq_flags;
@@ -97,7 +97,7 @@ static inline notrace void __hard_local_irq_restore(unsigned long flags)
 /*
  * Way too many inter-deps between low-level headers in this port, so
  * we redeclare the required bits we cannot pick from
- * <asm/ipipe_base.h> to prevent circular dependencies.
+ * <asm-generic/ipipe_base.h> to prevent circular dependencies.
  */
 void __ipipe_stall_root(void);
 void __ipipe_unstall_root(void);

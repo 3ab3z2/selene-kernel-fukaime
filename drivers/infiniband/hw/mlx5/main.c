@@ -39,7 +39,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 #if defined(CONFIG_X86)
-#include <asm/pat.h>
+#include <asm-generic/pat.h>
 #endif
 #include <linux/sched.h>
 #include <linux/sched/mm.h>

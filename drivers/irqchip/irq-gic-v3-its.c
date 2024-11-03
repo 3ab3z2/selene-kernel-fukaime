@@ -38,8 +38,8 @@
 #include <linux/irqchip/arm-gic-v3.h>
 #include <linux/irqchip/arm-gic-v4.h>
 
-#include <asm/cputype.h>
-#include <asm/exception.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/exception.h>
 
 #include "irq-gic-common.h"
 

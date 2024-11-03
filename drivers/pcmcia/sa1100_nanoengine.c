@@ -27,8 +27,8 @@
 #include <linux/module.h>
 #include <linux/signal.h>
 
-#include <asm/mach-types.h>
-#include <asm/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/irq.h>
 
 #include <mach/hardware.h>
 #include <mach/nanoengine.h>

@@ -35,9 +35,9 @@
 #include <linux/io.h>
 #include <linux/thread_info.h>
 #include <linux/kbuild.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
 
 int main(void)
 {

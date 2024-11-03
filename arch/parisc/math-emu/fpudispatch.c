@@ -52,7 +52,7 @@
 #include "float.h"
 #include <linux/bug.h>
 #include <linux/kernel.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 /* #include <sys/debug.h> */
 /* #include <machine/sys/mdep_private.h> */
 

@@ -22,12 +22,12 @@
 
 #include <linux/kprobes.h>
 #include <linux/jump_label.h>
-#include <asm/kprobes.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/kprobes.h>
+#include <asm-generic/cacheflush.h>
 /* for arm_gen_branch */
-#include <asm/insn.h>
+#include <asm-generic/insn.h>
 /* for patch_text */
-#include <asm/patch.h>
+#include <asm-generic/patch.h>
 
 #include "core.h"
 

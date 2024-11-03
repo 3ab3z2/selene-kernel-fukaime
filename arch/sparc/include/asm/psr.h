@@ -11,7 +11,7 @@
 #ifndef __LINUX_SPARC_PSR_H
 #define __LINUX_SPARC_PSR_H
 
-#include <uapi/asm/psr.h>
+#include <uapi/asm-generic/psr.h>
 
 
 #ifndef __ASSEMBLY__

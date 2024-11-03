@@ -23,8 +23,8 @@
 #include <linux/list.h>
 #include <linux/mm.h>
 #include <linux/spinlock.h>
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 #include <linux/input.h>
 #include <linux/wait.h>
 #include <linux/vmalloc.h>

@@ -11,7 +11,7 @@
  */
 
 #include <linux/efi.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 #include "efistub.h"
 

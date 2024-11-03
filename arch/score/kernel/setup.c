@@ -32,7 +32,7 @@
 #include <linux/screen_info.h>
 
 #include <asm-generic/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 struct screen_info screen_info;
 unsigned long kernelsp;

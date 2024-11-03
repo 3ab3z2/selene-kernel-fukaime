@@ -4,7 +4,7 @@
  *
  */
 
-#include <asm/ftrace.h>
+#include <asm-generic/ftrace.h>
 
 	.text
 #ifdef CONFIG_DYNAMIC_FTRACE

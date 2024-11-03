@@ -10,13 +10,13 @@
 #include "bf609.h"
 #include "anomaly.h"
 
-#include <asm/def_LPBlackfin.h>
+#include <asm-generic/def_LPBlackfin.h>
 #ifdef CONFIG_BF609
 # include "defBF609.h"
 #endif
 
 #ifndef __ASSEMBLY__
-# include <asm/cdef_LPBlackfin.h>
+# include <asm-generic/cdef_LPBlackfin.h>
 # ifdef CONFIG_BF609
 #  include "cdefBF609.h"
 # endif

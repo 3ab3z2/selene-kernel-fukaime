@@ -89,10 +89,10 @@
 #include <linux/cache.h>
 #include <linux/rodata_test.h>
 
-#include <asm/io.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cacheflush.h>
 
 #ifdef CONFIG_MTK_RAM_CONSOLE
 #include <mt-plat/mtk_ram_console.h>

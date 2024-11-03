@@ -31,7 +31,7 @@
 #include <linux/types.h>
 #include <linux/notifier.h>
 #include <linux/reboot.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <drm/drmP.h>
 #include <drm/drm_atomic_helper.h>
 #include <drm/drm_crtc.h>

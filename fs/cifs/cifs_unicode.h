@@ -33,7 +33,7 @@
 #ifndef _CIFS_UNICODE_H
 #define _CIFS_UNICODE_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/types.h>
 #include <linux/nls.h>
 

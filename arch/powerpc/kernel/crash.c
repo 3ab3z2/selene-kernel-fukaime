@@ -20,14 +20,14 @@
 #include <linux/irq.h>
 #include <linux/types.h>
 
-#include <asm/processor.h>
-#include <asm/machdep.h>
-#include <asm/kexec.h>
-#include <asm/kdump.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/setjmp.h>
-#include <asm/debug.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/kdump.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/setjmp.h>
+#include <asm-generic/debug.h>
 
 /*
  * The primary CPU waits a while for all secondary CPUs to enter. This is to

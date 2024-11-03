@@ -17,8 +17,8 @@
 #include <linux/module.h>
 #include <linux/types.h>
 #include <crypto/sha3.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 #define KECCAK_ROUNDS 24
 

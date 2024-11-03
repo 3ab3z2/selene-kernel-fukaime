@@ -27,13 +27,13 @@
 #include <linux/kdebug.h>
 #include <linux/sched.h>
 #include <linux/smp.h>
-#include <asm/inst.h>
-#include <asm/fpu.h>
-#include <asm/cacheflush.h>
-#include <asm/processor.h>
-#include <asm/sigcontext.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sigcontext.h>
 #include <linux/uaccess.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 static struct hard_trap_info {
 	unsigned char tt;	/* Trap type code for MIPS R3xxx and R4xxx */

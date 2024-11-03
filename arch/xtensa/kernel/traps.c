@@ -34,14 +34,14 @@
 #include <linux/delay.h>
 #include <linux/hardirq.h>
 
-#include <asm/stacktrace.h>
-#include <asm/ptrace.h>
-#include <asm/timex.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/timex.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/traps.h>
-#include <asm/hw_breakpoint.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/hw_breakpoint.h>
 
 /*
  * Machine specific interrupt handlers

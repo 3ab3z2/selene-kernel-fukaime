@@ -25,13 +25,13 @@
 #include <linux/interrupt.h>
 #include <linux/types.h>
 #include <linux/export.h>
-#include <asm/io.h>
-#include <asm/irq_regs.h>
-#include <asm/machdep.h>
-#include <asm/pmc.h>
-#include <asm/reg.h>
-#include <asm/spu.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/cell-regs.h>
 
 #include "interrupt.h"
 

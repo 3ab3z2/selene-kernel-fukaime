@@ -33,7 +33,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/delay.h>
 #include <linux/kthread.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

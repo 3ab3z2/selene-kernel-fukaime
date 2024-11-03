@@ -35,12 +35,12 @@
 #include <linux/kobject.h>
 #include <linux/sysfs.h>
 
-#include <asm/debugfs.h>
-#include <asm/page.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/fadump.h>
-#include <asm/setup.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/fadump.h>
+#include <asm-generic/setup.h>
 
 static struct fw_dump fw_dump;
 static struct fadump_mem_struct fdm;

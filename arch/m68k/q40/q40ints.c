@@ -17,11 +17,11 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/ptrace.h>
-#include <asm/traps.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/traps.h>
 
-#include <asm/q40_master.h>
-#include <asm/q40ints.h>
+#include <asm-generic/q40_master.h>
+#include <asm-generic/q40ints.h>
 
 /*
  * Q40 IRQs are defined as follows:

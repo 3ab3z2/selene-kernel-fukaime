@@ -27,7 +27,7 @@
 #include <linux/pci.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define PCICONFDREG	(void __iomem *)KSEG1ADDR(0x0f000c14)
 #define PCICONFAREG	(void __iomem *)KSEG1ADDR(0x0f000c18)

@@ -13,9 +13,9 @@
 #include <linux/module.h>
 #include <linux/uaccess.h>
 
-#include <asm/setup.h>
-#include <asm/traps.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/pgalloc.h>
 
 extern void die_if_kernel(char *, struct pt_regs *, long);
 

@@ -16,8 +16,8 @@
 #include <linux/edac.h>
 #include <linux/ctype.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-lmcx-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-lmcx-defs.h>
 
 #include "edac_module.h"
 

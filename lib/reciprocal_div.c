@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/bug.h>
 #include <linux/kernel.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/reciprocal_div.h>
 #include <linux/export.h>
 

@@ -14,8 +14,8 @@
 #include <linux/of_platform.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
-#include <asm/mpc5121.h>
-#include <asm/io.h>
+#include <asm-generic/mpc5121.h>
+#include <asm-generic/io.h>
 #include <linux/spinlock.h>
 #include <linux/slab.h>
 #include <linux/dmaengine.h>

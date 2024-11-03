@@ -12,7 +12,7 @@
 
 	.file	"tbisoft.S"
 
-#include <asm/tbx.h>
+#include <asm-generic/tbx.h>
 
 #ifdef METAC_1_0
 /* Ax.4 is saved in TBICTX */

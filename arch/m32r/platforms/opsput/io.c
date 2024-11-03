@@ -11,10 +11,10 @@
  *  archive for more details.
  */
 
-#include <asm/m32r.h>
-#include <asm/page.h>
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 
 #if defined(CONFIG_PCMCIA) && defined(CONFIG_M32R_CFC)
 #include <linux/types.h>

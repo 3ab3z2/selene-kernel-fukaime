@@ -26,7 +26,7 @@
 #include <linux/platform_device.h>
 #include <linux/mutex.h>
 #include <linux/goldfish.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/dma-mapping.h>
 
 #include "goldfish_nand_reg.h"

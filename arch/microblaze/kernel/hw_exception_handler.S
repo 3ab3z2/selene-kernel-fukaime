@@ -64,19 +64,19 @@
  * exceptions. JW
  */
 
-#include <asm/exceptions.h>
-#include <asm/unistd.h>
-#include <asm/page.h>
+#include <asm-generic/exceptions.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/page.h>
 
-#include <asm/entry.h>
-#include <asm/current.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/current.h>
 #include <linux/linkage.h>
 
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/signal.h>
-#include <asm/registers.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/asm-offsets.h>
 
 #undef DEBUG
 

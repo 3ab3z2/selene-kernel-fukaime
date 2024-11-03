@@ -22,11 +22,11 @@
 #include <linux/uaccess.h>
 #include <linux/tracehook.h>
 
-#include <asm/ucontext.h>
-#include <asm/cacheflush.h>
-#include <asm/switch.h>
-#include <asm/syscall.h>
-#include <asm/syscalls.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/switch.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/syscalls.h>
 
 #define REG_FLAGS	ctx.SaveMask
 #define REG_RETVAL	ctx.DX[0].U0

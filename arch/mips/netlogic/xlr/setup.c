@@ -36,21 +36,21 @@
 #include <linux/serial_8250.h>
 #include <linux/pm.h>
 
-#include <asm/idle.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/psb-bootinfo.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/psb-bootinfo.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
 
-#include <asm/netlogic/xlr/xlr.h>
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/gpio.h>
-#include <asm/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/gpio.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
 
 uint64_t nlm_io_base = DEFAULT_NETLOGIC_IO_BASE;
 struct psb_info nlm_prom_info;

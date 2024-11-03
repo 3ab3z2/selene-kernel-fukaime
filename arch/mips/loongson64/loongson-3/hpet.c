@@ -6,8 +6,8 @@
 #include <linux/spinlock.h>
 #include <linux/interrupt.h>
 
-#include <asm/hpet.h>
-#include <asm/time.h>
+#include <asm-generic/hpet.h>
+#include <asm-generic/time.h>
 
 #define SMBUS_CFG_BASE		(loongson_sysconf.ht_control_base + 0x0300a000)
 #define SMBUS_PCI_REG40		0x40

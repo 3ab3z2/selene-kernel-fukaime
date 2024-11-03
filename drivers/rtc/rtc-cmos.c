@@ -42,7 +42,7 @@
 #include <linux/of.h>
 #include <linux/of_platform.h>
 #ifdef CONFIG_X86
-#include <asm/i8259.h>
+#include <asm-generic/i8259.h>
 #endif
 
 /* this is for "generic access to PC-style RTC" using CMOS_READ/CMOS_WRITE */
@@ -100,7 +100,7 @@ static inline int is_intr(u8 rtc_intr)
  * want to use HPET for anything except those IRQs though...
  */
 #ifdef CONFIG_HPET_EMULATE_RTC
-#include <asm/hpet.h>
+#include <asm-generic/hpet.h>
 #else
 
 static inline int is_hpet_enabled(void)

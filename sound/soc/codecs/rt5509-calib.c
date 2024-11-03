@@ -20,7 +20,7 @@
 #include <linux/delay.h>
 /* vfs */
 #include <linux/fs.h>
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 #include <linux/uaccess.h>
 #include <linux/buffer_head.h>
 /* alsa sound header */

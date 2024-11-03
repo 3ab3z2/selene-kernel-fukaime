@@ -11,12 +11,12 @@
 #include <linux/bootmem.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/dec/machtype.h>
-#include <asm/dec/prom.h>
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/dec/machtype.h>
+#include <asm-generic/dec/prom.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 
 
 volatile unsigned long mem_err;		/* So we know an error occurred */

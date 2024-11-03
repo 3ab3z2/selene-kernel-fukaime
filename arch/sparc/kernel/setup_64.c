@@ -13,7 +13,7 @@
 #include <linux/stddef.h>
 #include <linux/unistd.h>
 #include <linux/ptrace.h>
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #include <linux/user.h>
 #include <linux/screen_info.h>
 #include <linux/delay.h>
@@ -34,26 +34,26 @@
 #include <linux/start_kernel.h>
 #include <linux/bootmem.h>
 
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/oplib.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/idprom.h>
-#include <asm/head.h>
-#include <asm/starfire.h>
-#include <asm/mmu_context.h>
-#include <asm/timer.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/mmu.h>
-#include <asm/ns87303.h>
-#include <asm/btext.h>
-#include <asm/elf.h>
-#include <asm/mdesc.h>
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/head.h>
+#include <asm-generic/starfire.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/ns87303.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/mdesc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
 
 #ifdef CONFIG_IP_PNP
 #include <net/ipconfig.h>
@@ -63,7 +63,7 @@
 #include "kernel.h"
 
 /* Used to synchronize accesses to NatSemi SUPER I/O chip configure
- * operations in asm/ns87303.h
+ * operations in asm-generic/ns87303.h
  */
 DEFINE_SPINLOCK(ns87303_lock);
 EXPORT_SYMBOL(ns87303_lock);

@@ -13,15 +13,15 @@
 #include <linux/init.h>
 #include <linux/rculist.h>
 #include <linux/slab.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/pcibr_provider.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/shub_mmr.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/sn_feature_sets.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/pcibr_provider.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/shub_mmr.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/sn_feature_sets.h>
 
 static void register_intr_pda(struct sn_irq_info *sn_irq_info);
 static void unregister_intr_pda(struct sn_irq_info *sn_irq_info);

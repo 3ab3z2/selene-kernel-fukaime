@@ -10,7 +10,7 @@
 #define __ASM_ARC_ELF_H
 
 #include <linux/types.h>
-#include <uapi/asm/elf.h>
+#include <uapi/asm-generic/elf.h>
 
 /* These ELF defines belong to uapi but libc elf.h already defines them */
 #define EM_ARCOMPACT		93

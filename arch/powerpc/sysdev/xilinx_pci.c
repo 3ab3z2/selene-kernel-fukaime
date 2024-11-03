@@ -18,8 +18,8 @@
 #include <linux/of.h>
 #include <linux/pci.h>
 #include <mm/mmu_decl.h>
-#include <asm/io.h>
-#include <asm/xilinx_pci.h>
+#include <asm-generic/io.h>
+#include <asm-generic/xilinx_pci.h>
 
 #define XPLB_PCI_ADDR 0x10c
 #define XPLB_PCI_DATA 0x110

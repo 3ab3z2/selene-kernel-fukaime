@@ -24,12 +24,12 @@
 #include <linux/memblock.h>
 #include <linux/slab.h>
 
-#include <asm/cell-regs.h>
-#include <asm/firmware.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
-#include <asm/lv1call.h>
-#include <asm/setup.h>
+#include <asm-generic/cell-regs.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/setup.h>
 
 #include "platform.h"
 

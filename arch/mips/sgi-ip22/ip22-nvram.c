@@ -6,8 +6,8 @@
  */
 #include <linux/export.h>
 
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 /* Control opcode for serial eeprom  */
 #define EEPROM_READ	0xc000	/* serial memory read */

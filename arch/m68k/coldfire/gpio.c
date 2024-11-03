@@ -19,9 +19,9 @@
 #include <linux/device.h>
 
 #include <linux/io.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfgpio.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfgpio.h>
 
 int __mcfgpio_get_value(unsigned gpio)
 {

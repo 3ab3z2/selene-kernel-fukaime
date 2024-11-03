@@ -27,19 +27,19 @@
 #include <linux/hugetlb.h>
 #include <linux/list.h>
 
-#include <asm/tlbflush.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/book3s/64/mmu-hash.h>
-#include <asm/mmu_context.h>
-#include <asm/hvcall.h>
-#include <asm/synch.h>
-#include <asm/ppc-opcode.h>
-#include <asm/kvm_host.h>
-#include <asm/udbg.h>
-#include <asm/iommu.h>
-#include <asm/tce.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/kvm_host.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/tce.h>
+#include <asm-generic/pte-walk.h>
 
 #ifdef CONFIG_BUG
 

@@ -7,14 +7,14 @@
  * Copyright (C) 1999  Pavel Semerad  (semerad@ss1000.ms.mff.cuni.cz)
  */
 
-#include <asm/ptrace.h>
-#include <asm/psr.h>
-#include <asm/asm-offsets.h>
-#include <asm/asi.h>
-#include <asm/mxcc.h>
-#include <asm/page.h>
-#include <asm/pgtsrmmu.h>
-#include <asm/viking.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/mxcc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtsrmmu.h>
+#include <asm-generic/viking.h>
 
 #ifdef CONFIG_SMP
 	.data

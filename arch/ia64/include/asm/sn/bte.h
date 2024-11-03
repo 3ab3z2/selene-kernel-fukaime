@@ -13,9 +13,9 @@
 #include <linux/timer.h>
 #include <linux/spinlock.h>
 #include <linux/cache.h>
-#include <asm/sn/pda.h>
-#include <asm/sn/types.h>
-#include <asm/sn/shub_mmr.h>
+#include <asm-generic/sn/pda.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/shub_mmr.h>
 
 #define IBCT_NOTIFY             (0x1UL << 4)
 #define IBCT_ZFIL_MODE          (0x1UL << 0)

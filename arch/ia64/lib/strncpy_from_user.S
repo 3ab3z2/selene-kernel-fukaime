@@ -17,8 +17,8 @@
  *			 by Andreas Schwab <schwab@suse.de>).
  */
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 GLOBAL_ENTRY(__strncpy_from_user)
 	alloc r2=ar.pfs,3,0,0,0

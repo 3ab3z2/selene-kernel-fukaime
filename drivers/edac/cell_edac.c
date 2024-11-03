@@ -16,8 +16,8 @@
 #include <linux/stop_machine.h>
 #include <linux/io.h>
 #include <linux/of_address.h>
-#include <asm/machdep.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cell-regs.h>
 
 #include "edac_module.h"
 

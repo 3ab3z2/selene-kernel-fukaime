@@ -9,9 +9,9 @@
 #include <linux/init.h>
 #include <linux/console.h>
 
-#include <asm/btext.h>
-#include <asm/oplib.h>
-#include <asm/io.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/io.h>
 
 #define NO_SCROLL
 

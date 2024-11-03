@@ -4,10 +4,10 @@
 
 #include <linux/types.h>
 #include <linux/cpumask.h>
-#include <asm/sn/types.h>
-#include <asm/sn/io.h>
-#include <asm/sn/klkernvars.h>
-#include <asm/xtalk/xtalk.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/io.h>
+#include <asm-generic/sn/klkernvars.h>
+#include <asm-generic/xtalk/xtalk.h>
 
 /* ip27-hubio.c */
 extern unsigned long hub_pio_map(cnodeid_t cnode, xwidgetnum_t widget,

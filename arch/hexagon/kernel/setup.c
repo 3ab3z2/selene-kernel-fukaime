@@ -26,13 +26,13 @@
 #include <linux/seq_file.h>
 #include <linux/console.h>
 #include <linux/of_fdt.h>
-#include <asm/io.h>
-#include <asm/sections.h>
-#include <asm/setup.h>
-#include <asm/processor.h>
-#include <asm/hexagon_vm.h>
-#include <asm/vm_mmu.h>
-#include <asm/time.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/hexagon_vm.h>
+#include <asm-generic/vm_mmu.h>
+#include <asm-generic/time.h>
 
 char cmd_line[COMMAND_LINE_SIZE];
 static char default_command_line[COMMAND_LINE_SIZE] __initdata = CONFIG_CMDLINE;

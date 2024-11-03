@@ -33,8 +33,8 @@
 #include <linux/stddef.h>
 #include <linux/kmod.h>
 #include <linux/kernel.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <linux/wait.h>
 #include <linux/ioport.h>
 #include <linux/major.h>
@@ -46,7 +46,7 @@
 #include <linux/device.h>
 
 /*
- * This ought to be moved into include/asm/dma.h
+ * This ought to be moved into include/asm-generic/dma.h
  */
 #ifndef valid_dma
 #define valid_dma(n) ((n) >= 0 && (n) < MAX_DMA_CHANNELS && (n) != 4)

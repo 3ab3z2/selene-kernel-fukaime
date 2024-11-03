@@ -3,7 +3,7 @@
 /* Fast hashing routine for ints,  longs and pointers.
    (C) 2002 Nadia Yvette Chambers, IBM */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/compiler.h>
 
 /*

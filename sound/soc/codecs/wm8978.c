@@ -26,7 +26,7 @@
 #include <sound/soc.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "wm8978.h"
 

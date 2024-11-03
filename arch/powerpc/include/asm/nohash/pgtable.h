@@ -3,9 +3,9 @@
 #define _ASM_POWERPC_NOHASH_PGTABLE_H
 
 #if defined(CONFIG_PPC64)
-#include <asm/nohash/64/pgtable.h>
+#include <asm-generic/nohash/64/pgtable.h>
 #else
-#include <asm/nohash/32/pgtable.h>
+#include <asm-generic/nohash/32/pgtable.h>
 #endif
 
 #ifndef __ASSEMBLY__

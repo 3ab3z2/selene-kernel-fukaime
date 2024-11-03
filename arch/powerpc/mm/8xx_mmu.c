@@ -13,8 +13,8 @@
  */
 
 #include <linux/memblock.h>
-#include <asm/fixmap.h>
-#include <asm/code-patching.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/code-patching.h>
 
 #include "mmu_decl.h"
 

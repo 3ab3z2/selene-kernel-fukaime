@@ -12,7 +12,7 @@
 #include <linux/io.h>
 #include <linux/of.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "spi-cavium.h"
 

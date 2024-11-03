@@ -27,8 +27,8 @@
 #include <linux/types.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/setup.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq_cpu.h>
 #include <bcm47xx.h>
 
 asmlinkage void plat_irq_dispatch(void)

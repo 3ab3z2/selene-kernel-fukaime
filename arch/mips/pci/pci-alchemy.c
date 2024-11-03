@@ -18,9 +18,9 @@
 #include <linux/syscore_ops.h>
 #include <linux/vmalloc.h>
 
-#include <asm/dma-coherence.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/tlbmisc.h>
+#include <asm-generic/dma-coherence.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/tlbmisc.h>
 
 #ifdef CONFIG_PCI_DEBUG
 #define DBG(x...) printk(KERN_DEBUG x)

@@ -21,10 +21,10 @@
 #include <linux/irq.h>
 #include <linux/mm.h>
 
-#include <asm/io.h>
-#include <asm/timer-regs.h>
-#include <asm/mb-regs.h>
-#include <asm/mb86943a.h>
+#include <asm-generic/io.h>
+#include <asm-generic/timer-regs.h>
+#include <asm-generic/mb-regs.h>
+#include <asm-generic/mb86943a.h>
 
 #include <linux/timex.h>
 

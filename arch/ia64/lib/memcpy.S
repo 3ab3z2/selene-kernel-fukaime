@@ -14,8 +14,8 @@
  *	Stephane Eranian <eranian@hpl.hp.com>
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 GLOBAL_ENTRY(memcpy)
 

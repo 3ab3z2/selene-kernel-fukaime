@@ -27,10 +27,10 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 #include <linux/console.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 /*

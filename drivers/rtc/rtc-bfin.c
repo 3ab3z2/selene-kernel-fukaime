@@ -53,7 +53,7 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 #define dev_dbg_stamp(dev) dev_dbg(dev, "%s:%i: here i am\n", __func__, __LINE__)
 

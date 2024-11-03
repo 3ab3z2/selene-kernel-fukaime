@@ -9,8 +9,8 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/spr-regs.h>
-#include <asm/cache.h>
+#include <asm-generic/spr-regs.h>
+#include <asm-generic/cache.h>
 
         .text
         .p2align	4

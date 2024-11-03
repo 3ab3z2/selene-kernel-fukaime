@@ -17,7 +17,7 @@
 #include <linux/delay.h>
 #include <linux/interrupt.h>
 
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 #define DUMP_TYPE_FSP	0x01
 

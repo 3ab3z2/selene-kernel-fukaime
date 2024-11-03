@@ -9,7 +9,7 @@
 #include <linux/kernel.h>
 #include <linux/efi.h>
 #include <linux/io.h>
-#include <asm/early_ioremap.h>
+#include <asm-generic/early_ioremap.h>
 #include <linux/memblock.h>
 #include <linux/slab.h>
 

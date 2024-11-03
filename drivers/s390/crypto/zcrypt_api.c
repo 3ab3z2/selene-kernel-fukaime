@@ -39,10 +39,10 @@
 #include <linux/uaccess.h>
 #include <linux/hw_random.h>
 #include <linux/debugfs.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 
 #define CREATE_TRACE_POINTS
-#include <asm/trace/zcrypt.h>
+#include <asm-generic/trace/zcrypt.h>
 
 #include "zcrypt_api.h"
 #include "zcrypt_debug.h"

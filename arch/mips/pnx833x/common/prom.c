@@ -23,7 +23,7 @@
  *  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 #include <linux/init.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <linux/string.h>
 
 void __init prom_init_cmdline(void)

@@ -8,10 +8,10 @@
 #include <linux/string.h>
 #include "../core/fb_draw.h"
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef __sparc__
-#include <asm/fbio.h>
+#include <asm-generic/fbio.h>
 #endif
 
 #include <video/mach64.h>

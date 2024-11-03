@@ -9,9 +9,9 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/ptrace.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/asm-offsets.h>
 
 #define	OPT_SLOT_SIZE	65536
 

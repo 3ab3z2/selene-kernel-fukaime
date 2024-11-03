@@ -46,7 +46,7 @@
 #include <linux/slab.h>
 #include <linux/stat.h>
 #include <linux/of_platform.h>
-#include <asm/ibmebus.h>
+#include <asm-generic/ibmebus.h>
 
 static struct device ibmebus_bus_device = { /* fake "parent" device */
 	.init_name = "ibmebus",

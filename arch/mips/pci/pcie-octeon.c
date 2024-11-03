@@ -13,17 +13,17 @@
 #include <linux/delay.h>
 #include <linux/moduleparam.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-npei-defs.h>
-#include <asm/octeon/cvmx-pciercx-defs.h>
-#include <asm/octeon/cvmx-pescx-defs.h>
-#include <asm/octeon/cvmx-pexp-defs.h>
-#include <asm/octeon/cvmx-pemx-defs.h>
-#include <asm/octeon/cvmx-dpi-defs.h>
-#include <asm/octeon/cvmx-sli-defs.h>
-#include <asm/octeon/cvmx-sriox-defs.h>
-#include <asm/octeon/cvmx-helper-errata.h>
-#include <asm/octeon/pci-octeon.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-npei-defs.h>
+#include <asm-generic/octeon/cvmx-pciercx-defs.h>
+#include <asm-generic/octeon/cvmx-pescx-defs.h>
+#include <asm-generic/octeon/cvmx-pexp-defs.h>
+#include <asm-generic/octeon/cvmx-pemx-defs.h>
+#include <asm-generic/octeon/cvmx-dpi-defs.h>
+#include <asm-generic/octeon/cvmx-sli-defs.h>
+#include <asm-generic/octeon/cvmx-sriox-defs.h>
+#include <asm-generic/octeon/cvmx-helper-errata.h>
+#include <asm-generic/octeon/pci-octeon.h>
 
 #define MRRS_CN5XXX 0 /* 128 byte Max Read Request Size */
 #define MPS_CN5XXX  0 /* 128 byte Max Packet Size (Limit of most PCs) */

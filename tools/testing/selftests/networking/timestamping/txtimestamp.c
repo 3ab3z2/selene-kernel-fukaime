@@ -33,7 +33,7 @@
 #define _GNU_SOURCE
 
 #include <arpa/inet.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <error.h>
 #include <errno.h>
 #include <inttypes.h>

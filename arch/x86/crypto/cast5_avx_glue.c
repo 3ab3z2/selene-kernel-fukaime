@@ -31,8 +31,8 @@
 #include <crypto/cast5.h>
 #include <crypto/cryptd.h>
 #include <crypto/ctr.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 #define CAST5_PARALLEL_BLOCKS 16
 

@@ -42,15 +42,15 @@
 #include <linux/ipc.h>
 #include <linux/slab.h>
 
-#include <asm/ptrace.h>
-#include <asm/types.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/types.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/time.h>
-#include <asm/mmu_context.h>
-#include <asm/ppc-pci.h>
-#include <asm/syscalls.h>
-#include <asm/switch_to.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/switch_to.h>
 
 
 asmlinkage long ppc32_select(u32 n, compat_ulong_t __user *inp,

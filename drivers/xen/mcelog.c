@@ -50,8 +50,8 @@
 #include <xen/events.h>
 #include <xen/interface/vcpu.h>
 #include <xen/xen.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 static struct mc_info g_mi;
 static struct mcinfo_logical_cpu *g_physinfo;

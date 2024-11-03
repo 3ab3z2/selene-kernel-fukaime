@@ -9,8 +9,8 @@
 
 #include <linux/efi.h>
 #include <linux/screen_info.h>
-#include <asm/efi.h>
-#include <asm/setup.h>
+#include <asm-generic/efi.h>
+#include <asm-generic/setup.h>
 
 static void find_bits(unsigned long mask, u8 *pos, u8 *size)
 {

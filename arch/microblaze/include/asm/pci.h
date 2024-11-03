@@ -18,9 +18,9 @@
 #include <linux/pci.h>
 #include <linux/scatterlist.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
 
 #define PCIBIOS_MIN_IO		0x1000
 #define PCIBIOS_MIN_MEM		0x10000000

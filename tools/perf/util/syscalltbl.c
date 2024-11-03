@@ -23,7 +23,7 @@
 #include "util.h"
 
 #if defined(__x86_64__)
-#include <asm/syscalls_64.c>
+#include <asm-generic/syscalls_64.c>
 const int syscalltbl_native_max_id = SYSCALLTBL_x86_64_MAX_ID;
 static const char **syscalltbl_native = syscalltbl_x86_64;
 #endif

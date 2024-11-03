@@ -27,20 +27,20 @@
 #include <linux/irq.h>
 #include <linux/bootmem.h>
 
-#include <asm/cacheflush.h>
-#include <asm/cachepart.h>
-#include <asm/core_reg.h>
-#include <asm/cpu.h>
-#include <asm/global_lock.h>
-#include <asm/metag_mem.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/setup.h>
-#include <asm/tlbflush.h>
-#include <asm/hwthread.h>
-#include <asm/traps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cachepart.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/global_lock.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/hwthread.h>
+#include <asm-generic/traps.h>
 
 #define SYSC_DCPART(n)	(SYSC_DCPART0 + SYSC_xCPARTn_STRIDE * (n))
 #define SYSC_ICPART(n)	(SYSC_ICPART0 + SYSC_xCPARTn_STRIDE * (n))

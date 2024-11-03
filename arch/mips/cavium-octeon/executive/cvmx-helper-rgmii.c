@@ -29,18 +29,18 @@
  * Functions for RGMII/GMII/MII initialization, configuration,
  * and monitoring.
  */
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-pko.h>
-#include <asm/octeon/cvmx-helper.h>
-#include <asm/octeon/cvmx-helper-board.h>
+#include <asm-generic/octeon/cvmx-pko.h>
+#include <asm-generic/octeon/cvmx-helper.h>
+#include <asm-generic/octeon/cvmx-helper-board.h>
 
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-gmxx-defs.h>
-#include <asm/octeon/cvmx-asxx-defs.h>
-#include <asm/octeon/cvmx-dbg-defs.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-asxx-defs.h>
+#include <asm-generic/octeon/cvmx-dbg-defs.h>
 
 void __cvmx_interrupt_gmxx_enable(int interface);
 void __cvmx_interrupt_asxx_enable(int block);

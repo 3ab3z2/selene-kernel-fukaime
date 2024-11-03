@@ -26,8 +26,8 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/delay.h>
-#include <asm/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/io.h>
 
 #define PCCR 0xa4000104
 #define PDCR 0xa4000106

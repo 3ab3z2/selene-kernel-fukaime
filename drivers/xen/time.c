@@ -7,9 +7,9 @@
 #include <linux/math64.h>
 #include <linux/gfp.h>
 
-#include <asm/paravirt.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/events.h>
 #include <xen/features.h>

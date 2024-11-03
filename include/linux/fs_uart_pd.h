@@ -12,7 +12,7 @@
 #ifndef FS_UART_PD_H
 #define FS_UART_PD_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 enum fs_uart_id {
 	fsid_smc1_uart,

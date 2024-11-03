@@ -10,9 +10,9 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 
-#include <asm/bootinfo.h>
-#include <asm/sgialib.h>
-#include <asm/smp-ops.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/smp-ops.h>
 
 #undef DEBUG_PROM_INIT
 

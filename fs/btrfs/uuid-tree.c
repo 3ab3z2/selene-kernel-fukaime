@@ -16,7 +16,7 @@
  * Boston, MA 021110-1307, USA.
  */
 #include <linux/uuid.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "ctree.h"
 #include "transaction.h"
 #include "disk-io.h"

@@ -9,8 +9,8 @@
 
 #include <linux/slab.h>
 #include <linux/cpu.h>
-#include <asm/diag.h>
-#include <asm/hypfs.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/hypfs.h>
 #include "hypfs.h"
 
 #define DBFS_D0C_HDR_VERSION 0

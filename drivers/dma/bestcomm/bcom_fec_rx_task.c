@@ -11,7 +11,7 @@
  * on Tue Mar 22 11:19:38 2005 GMT
  */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * The header consists of the following fields:

@@ -43,7 +43,7 @@
 #include <linux/of_reserved_mem.h>
 #include <linux/prefetch.h>
 #include <linux/genalloc.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 /* For 2-element tables related to cache-inhibited and cache-enabled mappings */
 #define DPAA_PORTAL_CE 0

@@ -18,7 +18,7 @@
 #include <linux/module.h>
 
 #ifdef CONFIG_X86
-#include <asm/cpufeature.h>	/* for boot_cpu_has below */
+#include <asm-generic/cpufeature.h>	/* for boot_cpu_has below */
 #endif
 
 #define TEST(bit, op, c_op, val)				\

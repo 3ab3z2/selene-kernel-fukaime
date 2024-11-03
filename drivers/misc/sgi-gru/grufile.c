@@ -36,15 +36,15 @@
 #include <linux/proc_fs.h>
 #include <linux/uaccess.h>
 #ifdef CONFIG_X86_64
-#include <asm/uv/uv_irq.h>
+#include <asm-generic/uv/uv_irq.h>
 #endif
-#include <asm/uv/uv.h>
+#include <asm-generic/uv/uv.h>
 #include "gru.h"
 #include "grulib.h"
 #include "grutables.h"
 
-#include <asm/uv/uv_hub.h>
-#include <asm/uv/uv_mmrs.h>
+#include <asm-generic/uv/uv_hub.h>
+#include <asm-generic/uv/uv_mmrs.h>
 
 struct gru_blade_state *gru_base[GRU_MAX_BLADES] __read_mostly;
 unsigned long gru_start_paddr __read_mostly;

@@ -38,7 +38,7 @@
 #include <linux/hardirq.h>
 #include <linux/sched.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <rdma/ib_pack.h>
 

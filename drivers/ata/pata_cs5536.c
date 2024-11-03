@@ -40,7 +40,7 @@
 #include <linux/dmi.h>
 
 #ifdef CONFIG_X86_32
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 static int use_msr;
 module_param_named(msr, use_msr, int, 0644);
 MODULE_PARM_DESC(msr, "Force using MSR to configure IDE function (Default: 0)");

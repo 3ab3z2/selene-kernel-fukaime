@@ -8,7 +8,7 @@
 
 #include <linux/ip_vs.h>                /* definitions shared with userland */
 
-#include <asm/types.h>                  /* for __uXX types */
+#include <asm-generic/types.h>                  /* for __uXX types */
 
 #include <linux/list.h>                 /* for struct list_head */
 #include <linux/spinlock.h>             /* for struct rwlock_t */

@@ -27,15 +27,15 @@
 #include <linux/poison.h>
 #include <linux/gfp.h>
 
-#include <asm/sections.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/vaddrs.h>
-#include <asm/pgalloc.h>	/* bug in asm-generic/tlb.h: check_pgt_cache */
-#include <asm/setup.h>
-#include <asm/tlb.h>
-#include <asm/prom.h>
-#include <asm/leon.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/pgalloc.h>	/* bug in asm-generic/tlb.h: check_pgt_cache */
+#include <asm-generic/setup.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/leon.h>
 
 #include "mm_32.h"
 

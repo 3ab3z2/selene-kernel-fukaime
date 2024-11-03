@@ -20,7 +20,7 @@
 
 #include <linux/err.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 static inline long
 syscall_get_nr(struct task_struct *task, struct pt_regs *regs)

@@ -31,12 +31,12 @@
 #include <linux/kernel.h>
 #include <linux/pci.h>
 
-#include <asm/microcode_amd.h>
-#include <asm/microcode.h>
-#include <asm/processor.h>
-#include <asm/setup.h>
-#include <asm/cpu.h>
-#include <asm/msr.h>
+#include <asm-generic/microcode_amd.h>
+#include <asm-generic/microcode.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/msr.h>
 
 static struct equiv_cpu_entry *equiv_cpu_table;
 

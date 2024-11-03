@@ -30,7 +30,7 @@
 #ifndef DISCOVERY_H
 #define DISCOVERY_H
 
-#include <asm/param.h>
+#include <asm-generic/param.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/irqueue.h>		/* irda_queue_t */

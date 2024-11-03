@@ -35,7 +35,7 @@
 #include <linux/list.h>
 #include <linux/spinlock.h>
 #include <rdma/ib_verbs.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include "t3cdev.h"
 #include "iwch.h"
 #include "cxio_wr.h"

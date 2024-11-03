@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
 #define ROMTOP 0x000000
 #define RAMTOP 0x400000

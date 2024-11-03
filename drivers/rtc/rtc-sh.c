@@ -28,7 +28,7 @@
 #include <linux/clk.h>
 #include <linux/slab.h>
 #ifdef CONFIG_SUPERH
-#include <asm/rtc.h>
+#include <asm-generic/rtc.h>
 #else
 /* Default values for RZ/A RTC */
 #define rtc_reg_size		sizeof(u16)
@@ -105,7 +105,7 @@ struct sh_rtc {
 	struct clk		*clk;
 	struct rtc_device	*rtc_dev;
 	spinlock_t		lock;
-	unsigned long		capabilities;	/* See asm/rtc.h for cap bits */
+	unsigned long		capabilities;	/* See asm-generic/rtc.h for cap bits */
 	unsigned short		periodic_freq;
 };
 

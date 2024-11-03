@@ -26,7 +26,7 @@
 #include <sys/time.h>
 #include <linux/futex.h>
 #include <unistd.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <string.h>
 #include <stdlib.h>
 #include <fcntl.h>

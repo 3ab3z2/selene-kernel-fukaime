@@ -36,7 +36,7 @@
 #include <linux/bitops.h>
 #include <linux/slab.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/irttp.h>

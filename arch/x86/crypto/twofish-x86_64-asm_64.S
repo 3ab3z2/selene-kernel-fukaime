@@ -21,7 +21,7 @@
 .text
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #define a_offset	0
 #define b_offset	4

@@ -18,12 +18,12 @@
 #include <linux/init.h>
 #include <linux/bootmem.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/machdep.h>
-#include <asm/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
 
 extern void mmu_emu_init (unsigned long bootmem_end);
 

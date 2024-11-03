@@ -5,8 +5,8 @@
  */
 
 #include <linux/uaccess.h>
-#include <asm/unaligned.h>
-#include <asm/page.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/page.h>
 #include "sizes.h"
 
 /*

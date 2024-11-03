@@ -12,7 +12,7 @@
 #define _BLACKFIN_TIMERS_H_
 
 #include <linux/types.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 /*
  * BF51x/BF52x/BF537: 8 timers:

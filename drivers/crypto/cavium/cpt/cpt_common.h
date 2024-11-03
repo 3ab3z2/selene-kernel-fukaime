@@ -9,7 +9,7 @@
 #ifndef __CPT_COMMON_H
 #define __CPT_COMMON_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/delay.h>
 #include <linux/pci.h>
 

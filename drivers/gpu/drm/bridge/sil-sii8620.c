@@ -9,7 +9,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <drm/bridge/mhl.h>
 #include <drm/drm_crtc.h>

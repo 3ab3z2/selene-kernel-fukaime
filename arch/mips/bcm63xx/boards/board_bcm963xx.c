@@ -14,7 +14,7 @@
 #include <linux/string.h>
 #include <linux/platform_device.h>
 #include <linux/ssb/ssb.h>
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 #include <bcm63xx_board.h>
 #include <bcm63xx_cpu.h>
 #include <bcm63xx_dev_uart.h>

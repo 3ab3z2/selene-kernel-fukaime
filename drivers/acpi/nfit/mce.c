@@ -15,7 +15,7 @@
 #include <linux/notifier.h>
 #include <linux/acpi.h>
 #include <linux/nd.h>
-#include <asm/mce.h>
+#include <asm-generic/mce.h>
 #include "nfit.h"
 
 static int nfit_handle_mce(struct notifier_block *nb, unsigned long val,

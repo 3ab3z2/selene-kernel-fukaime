@@ -11,15 +11,15 @@
 
 #ifdef __KERNEL__
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #ifdef CONFIG_SPARC64
-#include <asm/pgalloc.h>
-#include <asm/spitfire.h>
-#include <asm/cacheflush.h>
-#include <asm/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/page.h>
 #else
-#include <asm/pgtable.h>
-#include <asm/psr.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/psr.h>
 #endif
 
 #define __ide_insl(data_reg, buffer, wcount) \

@@ -20,7 +20,7 @@
 #include <linux/err.h>
 #include <linux/slab.h>
 
-#include <asm/rheap.h>
+#include <asm-generic/rheap.h>
 
 /*
  * Fixup a list_head, needed when copying lists.  If the pointers fall

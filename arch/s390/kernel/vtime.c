@@ -13,10 +13,10 @@
 #include <linux/types.h>
 #include <linux/time.h>
 
-#include <asm/vtimer.h>
-#include <asm/vtime.h>
-#include <asm/cpu_mf.h>
-#include <asm/smp.h>
+#include <asm-generic/vtimer.h>
+#include <asm-generic/vtime.h>
+#include <asm-generic/cpu_mf.h>
+#include <asm-generic/smp.h>
 
 #include "entry.h"
 

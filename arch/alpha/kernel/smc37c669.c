@@ -8,9 +8,9 @@
 #include <linux/delay.h>
 #include <linux/spinlock.h>
 
-#include <asm/hwrpb.h>
-#include <asm/io.h>
-#include <asm/segment.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/io.h>
+#include <asm-generic/segment.h>
 
 #if 0
 # define DBG_DEVS(args)         printk args

@@ -53,8 +53,8 @@
 #include <linux/device.h>
 #include <linux/crc32.h>
 
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 
 #include <net/irda/irda.h>

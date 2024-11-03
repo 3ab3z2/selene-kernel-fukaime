@@ -28,7 +28,7 @@
 #include <linux/types.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #include "io-pgtable.h"
 

@@ -27,15 +27,15 @@
 #include <linux/interrupt.h>
 #include <linux/bcd.h>
 
-#include <asm/bootinfo.h>
-#include <asm/bootinfo-vme.h>
-#include <asm/byteorder.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/bvme6000hw.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bootinfo-vme.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/bvme6000hw.h>
 
 static void bvme6000_get_model(char *model);
 extern void bvme6000_sched_init(irq_handler_t handler);

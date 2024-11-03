@@ -53,25 +53,25 @@
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
 
-#include <asm/reg.h>
-#include <asm/sections.h>
-#include <asm/prom.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/pci-bridge.h>
-#include <asm/ohare.h>
-#include <asm/mediabay.h>
-#include <asm/machdep.h>
-#include <asm/dma.h>
-#include <asm/cputable.h>
-#include <asm/btext.h>
-#include <asm/pmac_feature.h>
-#include <asm/time.h>
-#include <asm/mmu_context.h>
-#include <asm/iommu.h>
-#include <asm/smu.h>
-#include <asm/pmc.h>
-#include <asm/udbg.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ohare.h>
+#include <asm-generic/mediabay.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/smu.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/udbg.h>
 
 #include "pmac.h"
 

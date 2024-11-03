@@ -13,11 +13,11 @@
 #include <linux/mm_types.h>
 #include <linux/mm.h>
 
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/mmu.h>
-#include <asm/tlb.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/tlb.h>
 
 #include "mmu_decl.h"
 

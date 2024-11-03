@@ -4,7 +4,7 @@
 
 #include <linux/ceph/ceph_debug.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/backing-dev.h>
 #include <linux/completion.h>
 #include <linux/exportfs.h>

@@ -24,8 +24,8 @@
 #include <linux/moduleparam.h>
 #include <linux/types.h>
 
-#include <asm/cputype.h>
-#include <asm/mach-types.h>
+#include <asm-generic/cputype.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/generic.h>
 #include <mach/hardware.h>

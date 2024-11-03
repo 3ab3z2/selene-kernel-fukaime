@@ -14,9 +14,9 @@
 #include <linux/cpufreq.h>
 #include <linux/fs.h>
 #include <linux/delay.h>
-#include <asm/blackfin.h>
-#include <asm/time.h>
-#include <asm/dpmc.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/time.h>
+#include <asm-generic/dpmc.h>
 
 
 /* this is the table of CCLK frequencies, in Hz */

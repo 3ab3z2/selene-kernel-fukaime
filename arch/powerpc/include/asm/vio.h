@@ -21,7 +21,7 @@
 #include <linux/mod_devicetable.h>
 #include <linux/scatterlist.h>
 
-#include <asm/hvcall.h>
+#include <asm-generic/hvcall.h>
 
 /*
  * Architecture-specific constants for drivers to

@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifndef __ASM_ARCH_HARDWARE_H
 #define __ASM_ARCH_HARDWARE_H
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifndef __ASSEMBLY__
 extern u16 iop13xx_dev_id(void);

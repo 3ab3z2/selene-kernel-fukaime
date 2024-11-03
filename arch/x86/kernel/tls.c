@@ -8,10 +8,10 @@
 #include <linux/nospec.h>
 
 #include <linux/uaccess.h>
-#include <asm/desc.h>
-#include <asm/ldt.h>
-#include <asm/processor.h>
-#include <asm/proto.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/ldt.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/proto.h>
 
 #include "tls.h"
 

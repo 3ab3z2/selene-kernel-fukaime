@@ -22,9 +22,9 @@
 #include <linux/pm.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
-#include <asm/hardware.h>
-#include <asm/led.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/led.h>
 
 #include "gsc.h"
 

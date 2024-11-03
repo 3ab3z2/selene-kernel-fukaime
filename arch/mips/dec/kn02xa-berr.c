@@ -18,15 +18,15 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 
-#include <asm/addrspace.h>
-#include <asm/cpu-type.h>
-#include <asm/irq_regs.h>
-#include <asm/ptrace.h>
-#include <asm/traps.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/traps.h>
 
-#include <asm/dec/kn02ca.h>
-#include <asm/dec/kn02xa.h>
-#include <asm/dec/kn05.h>
+#include <asm-generic/dec/kn02ca.h>
+#include <asm-generic/dec/kn02xa.h>
+#include <asm-generic/dec/kn05.h>
 
 static inline void dec_kn02xa_be_ack(void)
 {

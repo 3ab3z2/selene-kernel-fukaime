@@ -57,7 +57,7 @@ typedef struct { pte_t pte; } real_pte_t;
 #endif
 
 #ifdef CONFIG_PPC_STD_MMU_64
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 static inline bool pte_xchg(pte_t *ptep, pte_t old, pte_t new)
 {

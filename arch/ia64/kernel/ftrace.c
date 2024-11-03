@@ -14,8 +14,8 @@
 #include <linux/uaccess.h>
 #include <linux/ftrace.h>
 
-#include <asm/cacheflush.h>
-#include <asm/patch.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/patch.h>
 
 /* In IA64, each function will be added below two bundles with -pg option */
 static unsigned char __attribute__((aligned(8)))

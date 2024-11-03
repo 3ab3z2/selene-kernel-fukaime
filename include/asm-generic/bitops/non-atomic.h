@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS_NON_ATOMIC_H_
 #define _ASM_GENERIC_BITOPS_NON_ATOMIC_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /**
  * __set_bit - Set a bit in memory

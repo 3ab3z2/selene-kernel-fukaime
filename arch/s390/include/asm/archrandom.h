@@ -16,7 +16,7 @@
 #include <linux/static_key.h>
 #include <linux/preempt.h>
 #include <linux/atomic.h>
-#include <asm/cpacf.h>
+#include <asm-generic/cpacf.h>
 
 DECLARE_STATIC_KEY_FALSE(s390_arch_random_available);
 extern atomic64_t s390_arch_random_counter;

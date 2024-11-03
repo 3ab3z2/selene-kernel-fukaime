@@ -37,10 +37,10 @@
 #include <linux/page-flags.h>
 #include <linux/mm.h>
 
-#include <asm/intrinsics.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/extable.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/extable.h>
 
 /*
  * For historical reasons, the following macros are grossly misnamed:

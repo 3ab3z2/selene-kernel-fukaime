@@ -31,7 +31,7 @@
 #include <crypto/internal/skcipher.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 static int __glue_ecb_crypt_128bit(const struct common_glue_ctx *gctx,
 				   struct blkcipher_desc *desc,

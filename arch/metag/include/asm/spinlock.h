@@ -2,13 +2,13 @@
 #ifndef __ASM_SPINLOCK_H
 #define __ASM_SPINLOCK_H
 
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_METAG_ATOMICITY_LOCK1
-#include <asm/spinlock_lock1.h>
+#include <asm-generic/spinlock_lock1.h>
 #else
-#include <asm/spinlock_lnkget.h>
+#include <asm-generic/spinlock_lnkget.h>
 #endif
 
 /*

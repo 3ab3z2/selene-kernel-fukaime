@@ -92,8 +92,8 @@
 #include <linux/user_namespace.h>
 #include <linux/fs_struct.h>
 
-#include <asm/pgtable.h>
-#include <asm/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
 #include "internal.h"
 
 static inline void task_name(struct seq_file *m, struct task_struct *p)

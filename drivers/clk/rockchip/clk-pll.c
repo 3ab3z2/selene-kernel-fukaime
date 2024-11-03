@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/slab.h>
 #include <linux/io.h>
 #include <linux/delay.h>

@@ -13,9 +13,9 @@
 
 	.file	"tbicore.S"
 /* Get data structures and defines from the TBI C header */
-#include <asm/metag_mem.h>
-#include <asm/metag_regs.h>
-#include <asm/tbx.h>
+#include <asm-generic/metag_mem.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/tbx.h>
 
 	.data
 	.balign	8

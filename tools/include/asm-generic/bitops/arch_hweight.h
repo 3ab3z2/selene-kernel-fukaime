@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS_ARCH_HWEIGHT_H_
 #define _ASM_GENERIC_BITOPS_ARCH_HWEIGHT_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 static inline unsigned int __arch_hweight32(unsigned int w)
 {

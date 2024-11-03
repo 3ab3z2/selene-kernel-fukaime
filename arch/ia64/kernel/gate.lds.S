@@ -6,7 +6,7 @@
  * its layout.
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 SECTIONS
 {

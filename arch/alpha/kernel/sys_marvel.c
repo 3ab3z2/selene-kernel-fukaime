@@ -13,16 +13,16 @@
 #include <linux/init.h>
 #include <linux/bitops.h>
 
-#include <asm/ptrace.h>
-#include <asm/dma.h>
-#include <asm/irq.h>
-#include <asm/mmu_context.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/core_marvel.h>
-#include <asm/hwrpb.h>
-#include <asm/tlbflush.h>
-#include <asm/vga.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/core_marvel.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/vga.h>
 
 #include "proto.h"
 #include "err_impl.h"

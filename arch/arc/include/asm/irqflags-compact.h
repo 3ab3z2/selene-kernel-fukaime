@@ -16,7 +16,7 @@
  *  -Conditionally disable interrupts (if they are not enabled, don't disable)
 */
 
-#include <asm/arcregs.h>
+#include <asm-generic/arcregs.h>
 
 /* status32 Reg bits related to Interrupt Handling */
 #define STATUS_E1_BIT		1	/* Int 1 enable */

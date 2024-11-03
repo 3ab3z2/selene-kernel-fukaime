@@ -11,7 +11,7 @@
 #include <linux/export.h>
 #include <linux/clkdev.h>
 #include <linux/of_address.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 #include <lantiq_soc.h>
 

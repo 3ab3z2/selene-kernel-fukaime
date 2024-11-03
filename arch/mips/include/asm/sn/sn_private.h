@@ -2,7 +2,7 @@
 #ifndef __ASM_SN_SN_PRIVATE_H
 #define __ASM_SN_SN_PRIVATE_H
 
-#include <asm/sn/types.h>
+#include <asm-generic/sn/types.h>
 
 extern nasid_t master_nasid;
 

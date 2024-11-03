@@ -61,8 +61,8 @@
 #include <linux/slab.h>
 #include <linux/interrupt.h>
 #include <linux/thermal.h>
-#include <asm/cpu_device_id.h>
-#include <asm/iosf_mbi.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/iosf_mbi.h>
 
 #define X86_FAMILY_QUARK	0x5
 #define X86_MODEL_QUARK_X1000	0x9

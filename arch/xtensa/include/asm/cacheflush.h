@@ -10,8 +10,8 @@
 #define _XTENSA_CACHEFLUSH_H
 
 #include <linux/mm.h>
-#include <asm/processor.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
 
 /*
  * Lo-level routines for cache flushing.

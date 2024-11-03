@@ -43,7 +43,7 @@
 #include <linux/ioport.h>
 #include <linux/interrupt.h>
 #include <linux/input.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 MODULE_AUTHOR("Daniel Quinlan <quinlan@pathname.com>, Vojtech Pavlik <vojtech@suse.cz>");
 MODULE_DESCRIPTION("ICS MicroClock MK712 TouchScreen driver");

@@ -29,7 +29,7 @@
  * ########################################################################
  */
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 #include <linux/types.h>
 
 #ifndef _ASM_MSP_REGS_H

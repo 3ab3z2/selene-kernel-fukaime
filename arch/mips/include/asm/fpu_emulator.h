@@ -24,11 +24,11 @@
 #define _ASM_FPU_EMULATOR_H
 
 #include <linux/sched.h>
-#include <asm/dsemul.h>
-#include <asm/thread_info.h>
-#include <asm/inst.h>
-#include <asm/local.h>
-#include <asm/processor.h>
+#include <asm-generic/dsemul.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/local.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_DEBUG_FS
 

@@ -7,5 +7,5 @@
  */
 
 #define MACHVEC_PLATFORM_NAME	sn2
-#define MACHVEC_PLATFORM_HEADER	<asm/machvec_sn2.h>
-#include <asm/machvec_init.h>
+#define MACHVEC_PLATFORM_HEADER	<asm-generic/machvec_sn2.h>
+#include <asm-generic/machvec_init.h>

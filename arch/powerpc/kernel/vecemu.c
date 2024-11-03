@@ -6,8 +6,8 @@
 #include <linux/kernel.h>
 #include <linux/errno.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
 
 /* Functions in vector.S */

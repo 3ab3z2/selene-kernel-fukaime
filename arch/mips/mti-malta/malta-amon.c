@@ -11,10 +11,10 @@
 #include <linux/kernel.h>
 #include <linux/smp.h>
 
-#include <asm/addrspace.h>
-#include <asm/mipsmtregs.h>
-#include <asm/mips-boards/launch.h>
-#include <asm/vpe.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/mips-boards/launch.h>
+#include <asm-generic/vpe.h>
 
 int amon_cpu_avail(int cpu)
 {

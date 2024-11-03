@@ -2,7 +2,7 @@
 #include <linux/export.h>
 #include <linux/preempt.h>
 #include <linux/smp.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 
 static void __rdmsr_on_cpu(void *info)
 {

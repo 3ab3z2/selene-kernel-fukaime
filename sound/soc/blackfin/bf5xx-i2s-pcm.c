@@ -37,7 +37,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include "bf5xx-sport.h"
 #include "bf5xx-i2s-pcm.h"

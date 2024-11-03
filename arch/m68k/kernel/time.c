@@ -22,9 +22,9 @@
 #include <linux/rtc.h>
 #include <linux/platform_device.h>
 
-#include <asm/machdep.h>
-#include <asm/io.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq_regs.h>
 
 #include <linux/time.h>
 #include <linux/timex.h>

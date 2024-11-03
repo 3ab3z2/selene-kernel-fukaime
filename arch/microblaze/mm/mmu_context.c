@@ -27,8 +27,8 @@
 #include <linux/mm.h>
 #include <linux/init.h>
 
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
 
 mm_context_t next_mmu_context;
 unsigned long context_map[LAST_CONTEXT / BITS_PER_LONG + 1];

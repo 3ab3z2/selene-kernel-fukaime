@@ -31,11 +31,11 @@
 #include <linux/unistd.h>
 #include <linux/poll.h>
 
-#include <asm/io.h>
-#include <asm/spu.h>
-#include <asm/spu_csa.h>
-#include <asm/spu_info.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/io.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_csa.h>
+#include <asm-generic/spu_info.h>
+#include <asm-generic/mmu_context.h>
 #include "spufs.h"
 
 /*

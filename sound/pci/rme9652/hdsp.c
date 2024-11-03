@@ -42,8 +42,8 @@
 #include <sound/initval.h>
 #include <sound/hdsp.h>
 
-#include <asm/byteorder.h>
-#include <asm/current.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/current.h>
 
 static int index[SNDRV_CARDS] = SNDRV_DEFAULT_IDX;	/* Index 0-MAX */
 static char *id[SNDRV_CARDS] = SNDRV_DEFAULT_STR;	/* ID for this card */

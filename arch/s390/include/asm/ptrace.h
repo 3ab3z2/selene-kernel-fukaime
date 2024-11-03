@@ -8,7 +8,7 @@
 #define _S390_PTRACE_H
 
 #include <linux/const.h>
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 #define PIF_SYSCALL		0	/* inside a system call */
 #define PIF_PER_TRAP		1	/* deliver sigtrap on return to user */

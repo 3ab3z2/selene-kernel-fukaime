@@ -24,7 +24,7 @@
 #include <linux/irq.h>
 #include <linux/irqdesc.h>
 
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 static int
 armpmu_map_cache_event(const unsigned (*cache_map)

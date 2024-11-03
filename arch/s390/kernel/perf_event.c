@@ -19,11 +19,11 @@
 #include <linux/seq_file.h>
 #include <linux/spinlock.h>
 #include <linux/sysfs.h>
-#include <asm/irq.h>
-#include <asm/cpu_mf.h>
-#include <asm/lowcore.h>
-#include <asm/processor.h>
-#include <asm/sysinfo.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cpu_mf.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sysinfo.h>
 
 const char *perf_pmu_name(void)
 {

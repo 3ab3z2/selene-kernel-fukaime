@@ -28,7 +28,7 @@
 #include <linux/debugfs.h>
 #include <linux/seq_file.h>
 
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 
 /*

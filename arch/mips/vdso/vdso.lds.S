@@ -8,7 +8,7 @@
  * option) any later version.
  */
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if _MIPS_SIM == _MIPS_SIM_ABI64
 OUTPUT_FORMAT("elf64-tradlittlemips", "elf64-tradbigmips", "elf64-tradlittlemips")

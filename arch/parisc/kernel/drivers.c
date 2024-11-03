@@ -34,10 +34,10 @@
 #include <linux/spinlock.h>
 #include <linux/string.h>
 #include <linux/export.h>
-#include <asm/hardware.h>
-#include <asm/io.h>
-#include <asm/pdc.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/parisc-device.h>
 
 /* See comments in include/asm-parisc/pci.h */
 const struct dma_map_ops *hppa_dma_ops __read_mostly;

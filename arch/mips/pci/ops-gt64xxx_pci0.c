@@ -21,7 +21,7 @@
 #include <linux/pci.h>
 #include <linux/kernel.h>
 
-#include <asm/gt64120.h>
+#include <asm-generic/gt64120.h>
 
 #define PCI_ACCESS_READ	 0
 #define PCI_ACCESS_WRITE 1

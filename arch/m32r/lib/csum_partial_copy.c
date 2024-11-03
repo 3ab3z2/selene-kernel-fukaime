@@ -21,7 +21,7 @@
 #include <linux/string.h>
 
 #include <net/checksum.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/uaccess.h>
 
 /*

@@ -21,15 +21,15 @@
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/kernel.h>
-#include <asm/io.h>
-#include <asm/page.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
 #include <linux/kmod.h>
 #include <linux/vmalloc.h>
 #include <linux/init.h>
 #include <linux/device.h>
 #include <linux/pci.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/signal.h>
 #include <linux/sched.h>
 #include <linux/interrupt.h>

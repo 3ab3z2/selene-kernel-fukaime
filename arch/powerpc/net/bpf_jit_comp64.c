@@ -12,11 +12,11 @@
  * of the License.
  */
 #include <linux/moduleloader.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/netdevice.h>
 #include <linux/filter.h>
 #include <linux/if_vlan.h>
-#include <asm/kprobes.h>
+#include <asm-generic/kprobes.h>
 #include <linux/bpf.h>
 
 #include "bpf_jit64.h"

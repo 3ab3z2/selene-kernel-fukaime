@@ -13,7 +13,7 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/perf_event.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/cpu_device_id.h>
 #include "../perf_event.h"
 
 #define MSR_F15H_CU_PWR_ACCUMULATOR     0xc001007a

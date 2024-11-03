@@ -21,10 +21,10 @@
 #include <linux/of_platform.h>
 #include <linux/io.h>
 
-#include <asm/cpm2.h>
-#include <asm/udbg.h>
-#include <asm/machdep.h>
-#include <asm/time.h>
+#include <asm-generic/cpm2.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/time.h>
 
 #include <platforms/82xx/pq2.h>
 

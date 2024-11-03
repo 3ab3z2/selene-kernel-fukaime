@@ -9,7 +9,7 @@
 #ifndef __ASM_IRQFLAGS_ARCV2_H
 #define __ASM_IRQFLAGS_ARCV2_H
 
-#include <asm/arcregs.h>
+#include <asm-generic/arcregs.h>
 
 /* status32 Bits */
 #define STATUS_AD_BIT	19   /* Disable Align chk: core supports non-aligned */

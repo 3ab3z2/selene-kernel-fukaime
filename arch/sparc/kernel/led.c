@@ -10,7 +10,7 @@
 #include <linux/uaccess.h>
 #include <linux/sched/loadavg.h>
 
-#include <asm/auxio.h>
+#include <asm-generic/auxio.h>
 
 #define LED_MAX_LENGTH 8 /* maximum chars written to proc file */
 

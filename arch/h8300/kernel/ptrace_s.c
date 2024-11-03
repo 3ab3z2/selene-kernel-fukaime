@@ -12,7 +12,7 @@
 #include <linux/linkage.h>
 #include <linux/sched/signal.h>
 #include <linux/errno.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #define CCR_MASK  0x6f
 #define EXR_TRACE 0x80

@@ -13,8 +13,8 @@
 #include <linux/spinlock.h>
 #include <linux/timex.h>
 
-#include <asm/irq.h>
-#include <asm/mach/time.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/time.h>
 
 #include "common.h"
 

@@ -19,14 +19,14 @@
 #include <linux/mm.h>
 #include <linux/sched.h>
 #include <linux/seq_file.h>
-#include <asm/fixmap.h>
-#include <asm/pgtable.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/pgtable.h>
 #include <linux/const.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/plpar_wrappers.h>
 #include <linux/memblock.h>
-#include <asm/firmware.h>
+#include <asm-generic/firmware.h>
 
 struct pg_state {
 	struct seq_file *seq;

@@ -15,7 +15,7 @@
  *    GNU General Public License for more details.
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include "dvb_frontend.h"
 
 #include "atbm8830.h"

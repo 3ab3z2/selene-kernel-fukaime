@@ -12,7 +12,7 @@
  * published by the Free Software Foundation.
  */
 
-#include <asm/vectors.h>
+#include <asm-generic/vectors.h>
 OUTPUT_ARCH(xtensa)
 ENTRY(_ResetVector)
 

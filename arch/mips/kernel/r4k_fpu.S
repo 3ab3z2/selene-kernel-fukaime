@@ -12,14 +12,14 @@
  * Copyright (C) 2000 MIPS Technologies, Inc.
  * Copyright (C) 1999, 2001 Silicon Graphics, Inc.
  */
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/errno.h>
-#include <asm/export.h>
-#include <asm/fpregdef.h>
-#include <asm/mipsregs.h>
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/export.h>
+#include <asm-generic/fpregdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
 
 /* preprocessor replaces the fp in ".set fp=64" with $30 otherwise */
 #undef fp

@@ -10,10 +10,10 @@
 
 #include <linux/mm.h>
 #include <linux/hugetlb.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/machdep.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/machdep.h>
 
 extern long hpte_insert_repeating(unsigned long hash, unsigned long vpn,
 				  unsigned long pa, unsigned long rlags,

@@ -38,7 +38,7 @@
 
 #include <asm/sizes.h>
 #ifndef __ASSEMBLER__
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <mach/soc.h>
 
 /*

@@ -36,17 +36,17 @@
 #include <linux/of_device.h>
 #include <linux/platform_device.h>
 
-#include <asm/mc146818rtc.h>
-#include <asm/oplib.h>
-#include <asm/timex.h>
-#include <asm/timer.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/idprom.h>
-#include <asm/page.h>
-#include <asm/pcic.h>
-#include <asm/irq_regs.h>
-#include <asm/setup.h>
+#include <asm-generic/mc146818rtc.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pcic.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/setup.h>
 
 #include "kernel.h"
 #include "irq.h"

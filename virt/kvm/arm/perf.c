@@ -20,7 +20,7 @@
 #include <linux/perf_event.h>
 #include <linux/kvm_host.h>
 
-#include <asm/kvm_emulate.h>
+#include <asm-generic/kvm_emulate.h>
 
 static int kvm_is_in_guest(void)
 {

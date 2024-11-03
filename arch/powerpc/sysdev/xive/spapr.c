@@ -20,14 +20,14 @@
 #include <linux/cpumask.h>
 #include <linux/mm.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xive.h>
-#include <asm/xive-regs.h>
-#include <asm/hvcall.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/xive-regs.h>
+#include <asm-generic/hvcall.h>
 
 #include "xive-internal.h"
 

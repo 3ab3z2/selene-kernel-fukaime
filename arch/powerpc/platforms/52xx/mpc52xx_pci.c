@@ -13,9 +13,9 @@
 #undef DEBUG
 
 #include <linux/pci.h>
-#include <asm/mpc52xx.h>
-#include <asm/delay.h>
-#include <asm/machdep.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/machdep.h>
 #include <linux/kernel.h>
 
 

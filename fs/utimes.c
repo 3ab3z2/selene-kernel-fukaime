@@ -6,7 +6,7 @@
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>
 #include <linux/compat.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #ifdef __ARCH_WANT_SYS_UTIME
 

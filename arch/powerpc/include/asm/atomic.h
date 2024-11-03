@@ -8,8 +8,8 @@
 
 #ifdef __KERNEL__
 #include <linux/types.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 #define ATOMIC_INIT(i)		{ (i) }
 

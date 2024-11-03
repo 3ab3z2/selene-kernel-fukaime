@@ -8,9 +8,9 @@
 #include <linux/mm.h>
 #include <linux/module.h>
 #include <linux/sched.h>
-#include <asm/current.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/current.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 #include <kern_util.h>
 #include <os.h>
 

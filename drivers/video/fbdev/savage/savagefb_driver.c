@@ -53,9 +53,9 @@
 #include <linux/init.h>
 #include <linux/console.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pgtable.h>
 
 #include "savagefb.h"
 

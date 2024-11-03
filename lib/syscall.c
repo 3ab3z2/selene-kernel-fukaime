@@ -3,7 +3,7 @@
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
 #include <linux/export.h>
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 
 static int collect_syscall(struct task_struct *target, long *callno,
 			   unsigned long args[6], unsigned int maxargs,

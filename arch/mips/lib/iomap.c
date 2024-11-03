@@ -8,7 +8,7 @@
  *     written by Ralf Baechle <ralf@linux-mips.org>
  */
 #include <linux/export.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * Read/write from/to an (offsettable) iomem cookie. It might be a PIO

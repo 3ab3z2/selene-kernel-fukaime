@@ -27,8 +27,8 @@
 #include <linux/dma-mapping.h>
 #include <linux/of.h>
 #include <linux/of_address.h>
-#include <asm/rheap.h>
-#include <asm/ppc4xx_ocm.h>
+#include <asm-generic/rheap.h>
+#include <asm-generic/ppc4xx_ocm.h>
 #include <linux/slab.h>
 #include <linux/debugfs.h>
 

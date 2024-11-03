@@ -15,12 +15,12 @@
 #include <linux/syscalls.h>
 #include <linux/mm.h>
 
-#include <asm/cacheflush.h>
-#include <asm/highmem.h>
-#include <asm/processor.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/setup.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/highmem.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/setup.h>
 
 /* Cache operations. */
 void (*flush_cache_all)(void);

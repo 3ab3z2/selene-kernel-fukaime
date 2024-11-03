@@ -24,8 +24,8 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/uaccess.h>
-#include <asm/blackfin.h>
-#include <asm/bfin_watchdog.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/bfin_watchdog.h>
 
 #define stamp(fmt, args...) \
 	pr_debug("%s:%i: " fmt "\n", __func__, __LINE__, ## args)

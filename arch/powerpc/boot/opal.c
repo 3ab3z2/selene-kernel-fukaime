@@ -11,7 +11,7 @@
 #include "stdio.h"
 #include "io.h"
 #include <libfdt.h>
-#include "../include/asm/opal-api.h"
+#include "../include/asm-generic/opal-api.h"
 
 #ifdef CONFIG_PPC64_BOOT_WRAPPER
 

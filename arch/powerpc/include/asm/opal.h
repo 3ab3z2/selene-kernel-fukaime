@@ -12,7 +12,7 @@
 #ifndef _ASM_POWERPC_OPAL_H
 #define _ASM_POWERPC_OPAL_H
 
-#include <asm/opal-api.h>
+#include <asm-generic/opal-api.h>
 
 #ifndef __ASSEMBLY__
 

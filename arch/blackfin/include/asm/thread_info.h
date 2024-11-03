@@ -7,9 +7,9 @@
 #ifndef _ASM_THREAD_INFO_H
 #define _ASM_THREAD_INFO_H
 
-#include <asm/page.h>
-#include <asm/entry.h>
-#include <asm/l1layout.h>
+#include <asm-generic/page.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/l1layout.h>
 #include <linux/compiler.h>
 
 #ifdef __KERNEL__

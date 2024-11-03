@@ -17,7 +17,7 @@
 #include <linux/module.h>
 #include <linux/sched/debug.h>
 
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 #include <linux/perf_event.h>
 
 static DEFINE_PER_CPU(bool, hard_watchdog_warn);

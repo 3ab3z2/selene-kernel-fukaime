@@ -6,11 +6,11 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
-#include <asm/apollohw.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
+#include <asm-generic/apollohw.h>
 #include <linux/fb.h>
 #include <linux/module.h>
 

@@ -16,8 +16,8 @@
 #include <linux/slab.h>
 #include <linux/mmzone.h>
 #include <linux/edac.h>
-#include <asm/cpu_device_id.h>
-#include <asm/msr.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/msr.h>
 #include "edac_module.h"
 #include "mce_amd.h"
 

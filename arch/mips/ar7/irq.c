@@ -21,9 +21,9 @@
 #include <linux/io.h>
 #include <linux/irq.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mach-ar7/ar7.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mach-ar7/ar7.h>
 
 #define EXCEPT_OFFSET	0x80
 #define PACE_OFFSET	0xA0

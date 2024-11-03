@@ -3,7 +3,7 @@
 #ifdef __KERNEL__
 
 #include <linux/processor.h>
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 /*
  * Copyright 1996, Paul Mackerras.

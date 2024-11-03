@@ -43,7 +43,7 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/inet.h>
 #include <linux/io.h>
 #include <rdma/ib_addr.h>

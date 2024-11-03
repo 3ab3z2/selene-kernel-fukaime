@@ -12,8 +12,8 @@
 #include <linux/gpio.h>
 #include <linux/io.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-gpio-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-gpio-defs.h>
 
 #define RX_DAT 0x80
 #define TX_SET 0x88

@@ -6,8 +6,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page_types.h>
-#include <asm/segment.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/segment.h>
 
 #include "realmode.h"
 	

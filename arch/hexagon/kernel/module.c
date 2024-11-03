@@ -18,7 +18,7 @@
  * 02110-1301, USA.
  */
 
-#include <asm/module.h>
+#include <asm-generic/module.h>
 #include <linux/elf.h>
 #include <linux/module.h>
 #include <linux/moduleloader.h>

@@ -26,7 +26,7 @@
 #include <linux/types.h>
 #include <linux/bitops.h>
 #include <crypto/algapi.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define SALSA20_IV_SIZE        8U
 #define SALSA20_MIN_KEY_SIZE  16U

@@ -9,7 +9,7 @@
 #include <linux/signal.h>
 #include <linux/mm.h>
 #include <linux/slab.h>
-#include <asm/guarded_storage.h>
+#include <asm-generic/guarded_storage.h>
 #include "entry.h"
 
 void exit_thread_gs(void)

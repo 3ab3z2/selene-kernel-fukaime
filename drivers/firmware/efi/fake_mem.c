@@ -31,7 +31,7 @@
 #include <linux/memblock.h>
 #include <linux/types.h>
 #include <linux/sort.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 #define EFI_MAX_FAKEMEM CONFIG_EFI_MAX_FAKE_MEM
 

@@ -22,7 +22,7 @@
 #include <linux/slab.h>
 #include <linux/atomic.h>
 #include <linux/device.h>
-#include <asm/poll.h>
+#include <asm-generic/poll.h>
 
 #include "internal.h"
 

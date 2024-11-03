@@ -28,8 +28,8 @@
 #include <linux/mtd/nand_ecc.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/msr.h>
-#include <asm/io.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/io.h>
 
 #define NR_CS553X_CONTROLLERS	4
 

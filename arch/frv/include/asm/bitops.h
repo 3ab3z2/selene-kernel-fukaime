@@ -15,7 +15,7 @@
 #define _ASM_BITOPS_H
 
 #include <linux/compiler.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __KERNEL__
 
@@ -25,7 +25,7 @@
 
 #include <asm-generic/bitops/ffz.h>
 
-#include <asm/atomic.h>
+#include <asm-generic/atomic.h>
 
 static inline int test_and_clear_bit(unsigned long nr, volatile void *addr)
 {

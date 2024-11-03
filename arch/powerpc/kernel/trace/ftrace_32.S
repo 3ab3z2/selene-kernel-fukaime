@@ -8,11 +8,11 @@
  */
 
 #include <linux/magic.h>
-#include <asm/reg.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/ftrace.h>
-#include <asm/export.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/export.h>
 
 #ifdef CONFIG_DYNAMIC_FTRACE
 _GLOBAL(mcount)

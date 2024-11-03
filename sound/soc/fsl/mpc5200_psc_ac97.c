@@ -19,10 +19,10 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/time.h>
-#include <asm/delay.h>
-#include <asm/mpc52xx.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/time.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/mpc52xx.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #include "mpc5200_dma.h"
 

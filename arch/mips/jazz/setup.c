@@ -17,11 +17,11 @@
 #include <linux/platform_device.h>
 #include <linux/serial_8250.h>
 
-#include <asm/jazz.h>
-#include <asm/jazzdma.h>
-#include <asm/reboot.h>
-#include <asm/pgtable.h>
-#include <asm/tlbmisc.h>
+#include <asm-generic/jazz.h>
+#include <asm-generic/jazzdma.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbmisc.h>
 
 extern asmlinkage void jazz_handle_int(void);
 

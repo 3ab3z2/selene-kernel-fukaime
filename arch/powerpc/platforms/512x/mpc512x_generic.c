@@ -16,10 +16,10 @@
 #include <linux/kernel.h>
 #include <linux/of_platform.h>
 
-#include <asm/machdep.h>
-#include <asm/ipic.h>
-#include <asm/prom.h>
-#include <asm/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
 
 #include "mpc512x.h"
 

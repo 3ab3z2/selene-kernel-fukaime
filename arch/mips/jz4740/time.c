@@ -22,10 +22,10 @@
 #include <linux/clockchips.h>
 #include <linux/sched_clock.h>
 
-#include <asm/mach-jz4740/clock.h>
-#include <asm/mach-jz4740/irq.h>
-#include <asm/mach-jz4740/timer.h>
-#include <asm/time.h>
+#include <asm-generic/mach-jz4740/clock.h>
+#include <asm-generic/mach-jz4740/irq.h>
+#include <asm-generic/mach-jz4740/timer.h>
+#include <asm-generic/time.h>
 
 #include "clock.h"
 

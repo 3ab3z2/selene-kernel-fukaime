@@ -15,10 +15,10 @@
 #include <linux/notifier.h>
 #include <linux/ptrace.h>
 
-#include <asm/fpu.h>
-#include <asm/cop2.h>
-#include <asm/current.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/cop2.h>
+#include <asm-generic/current.h>
+#include <asm-generic/mipsregs.h>
 
 static int loongson_cu2_call(struct notifier_block *nfb, unsigned long action,
 	void *data)

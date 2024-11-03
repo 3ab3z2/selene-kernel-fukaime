@@ -6,7 +6,7 @@
 #ifndef __HARDWARE_H
 #define __HARDWARE_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * Note about PCI IO space mappings

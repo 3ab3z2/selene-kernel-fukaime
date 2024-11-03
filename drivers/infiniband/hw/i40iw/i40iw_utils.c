@@ -45,8 +45,8 @@
 #include <linux/tcp.h>
 #include <linux/init.h>
 #include <linux/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 #include <net/netevent.h>
 #include <net/neighbour.h>
 #include "i40iw.h"

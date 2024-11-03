@@ -10,7 +10,7 @@
 #include <linux/videodev2.h>
 #include <linux/delay.h>
 #include <linux/module.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <media/v4l2-device.h>
 #include <media/v4l2-ctrls.h>
 #include <media/i2c/mt9v011.h>

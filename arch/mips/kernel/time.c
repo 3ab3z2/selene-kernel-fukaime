@@ -25,10 +25,10 @@
 #include <linux/cpufreq.h>
 #include <linux/delay.h>
 
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/div64.h>
-#include <asm/time.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/time.h>
 
 #ifdef CONFIG_CPU_FREQ
 

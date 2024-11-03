@@ -30,11 +30,11 @@
 #include <linux/gpio.h>
 #include <linux/i2c.h>
 #include <linux/i2c-gpio.h>
-#include <asm/bootinfo.h>
-#include <asm/idle.h>
-#include <asm/reboot.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/gpio-au1000.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1000.h>
 #include <prom.h>
 
 const char *get_system_type(void)

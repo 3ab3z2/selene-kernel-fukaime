@@ -27,7 +27,7 @@
 #include <linux/rcupdate.h>
 #include <linux/binfmts.h>
 
-#include <asm/spu.h>
+#include <asm-generic/spu.h>
 
 /* protected by rcu */
 static struct spufs_calls *spufs_calls;

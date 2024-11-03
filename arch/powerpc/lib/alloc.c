@@ -4,7 +4,7 @@
 #include <linux/slab.h>
 #include <linux/bootmem.h>
 #include <linux/string.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 
 void * __ref zalloc_maybe_bootmem(size_t size, gfp_t mask)

@@ -35,8 +35,8 @@
 #include <sound/soc.h>
 #include <sound/pcm_params.h>
 
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 #include <linux/gpio.h>
 #include "../codecs/ssm2602.h"
 #include "bf5xx-sport.h"

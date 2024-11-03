@@ -18,14 +18,14 @@
 #include <linux/gpio.h>
 #include <linux/mtd/physmap.h>
 
-#include <asm/reboot.h>
-#include <asm/io.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/rbtx4938.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/io.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/rbtx4938.h>
 #include <linux/spi/spi.h>
-#include <asm/txx9/spi.h>
-#include <asm/txx9pio.h>
+#include <asm-generic/txx9/spi.h>
+#include <asm-generic/txx9pio.h>
 
 static void rbtx4938_machine_restart(char *command)
 {

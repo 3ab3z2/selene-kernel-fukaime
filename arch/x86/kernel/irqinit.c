@@ -18,15 +18,15 @@
 #include <linux/delay.h>
 
 #include <linux/atomic.h>
-#include <asm/timer.h>
-#include <asm/hw_irq.h>
-#include <asm/pgtable.h>
-#include <asm/desc.h>
-#include <asm/apic.h>
-#include <asm/setup.h>
-#include <asm/i8259.h>
-#include <asm/traps.h>
-#include <asm/prom.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/prom.h>
 
 /*
  * ISA PIC or low IO-APIC triggered (INTA-cycle or APIC) interrupts:

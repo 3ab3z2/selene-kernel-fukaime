@@ -13,7 +13,7 @@
 #ifndef __ASM_MIPS_DEC_KN02CA_H
 #define __ASM_MIPS_DEC_KN02CA_H
 
-#include <asm/dec/kn02xa.h>		/* For common definitions. */
+#include <asm-generic/dec/kn02xa.h>		/* For common definitions. */
 
 /*
  * CPU interrupt bits.

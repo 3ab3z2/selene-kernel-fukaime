@@ -18,12 +18,12 @@
 #include <linux/sched.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/cop2.h>
-#include <asm/current.h>
-#include <asm/mipsregs.h>
-#include <asm/page.h>
+#include <asm-generic/cop2.h>
+#include <asm-generic/current.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/page.h>
 
-#include <asm/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/mips-extns.h>
 
 /*
  * 64 bit ops are done in inline assembly to support 32 bit

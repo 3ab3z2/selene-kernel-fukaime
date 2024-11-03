@@ -16,7 +16,7 @@
 #include <linux/fb.h>
 #include <linux/vt_kern.h>
 #include <linux/console.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include "fbcon.h"
 
 /*

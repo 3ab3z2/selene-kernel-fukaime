@@ -15,7 +15,7 @@
 #include <linux/ptrace.h>
 #include <linux/slab.h>
 #include <linux/initrd.h>
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #include <linux/user.h>
 #include <linux/screen_info.h>
 #include <linux/delay.h>
@@ -35,19 +35,19 @@
 #include <linux/export.h>
 #include <linux/start_kernel.h>
 
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/oplib.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/traps.h>
-#include <asm/vaddrs.h>
-#include <asm/mbus.h>
-#include <asm/idprom.h>
-#include <asm/cpudata.h>
-#include <asm/setup.h>
-#include <asm/cacheflush.h>
-#include <asm/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/mbus.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/sections.h>
 
 #include "kernel.h"
 

@@ -26,8 +26,8 @@
 #ifndef __S390_KVM_PARA_H
 #define __S390_KVM_PARA_H
 
-#include <uapi/asm/kvm_para.h>
-#include <asm/diag.h>
+#include <uapi/asm-generic/kvm_para.h>
+#include <asm-generic/diag.h>
 
 static inline long __kvm_hypercall0(unsigned long nr)
 {

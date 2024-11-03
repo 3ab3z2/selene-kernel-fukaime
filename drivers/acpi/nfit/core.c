@@ -22,7 +22,7 @@
 #include <linux/sort.h>
 #include <linux/io.h>
 #include <linux/nd.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include "nfit.h"
 
 /*

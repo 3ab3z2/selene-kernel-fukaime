@@ -28,9 +28,9 @@
 #include <xen/xen.h>
 #include <xen/xen-ops.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 #define INIT_EFI_OP(name) \
 	{.cmd = XENPF_efi_runtime_call, \

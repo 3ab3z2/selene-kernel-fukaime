@@ -12,8 +12,8 @@
 #include <linux/export.h>
 #include <linux/etherdevice.h>
 
-#include <asm/oplib.h>
-#include <asm/idprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/idprom.h>
 
 struct idprom *idprom;
 EXPORT_SYMBOL(idprom);
@@ -21,7 +21,7 @@ EXPORT_SYMBOL(idprom);
 static struct idprom idprom_buffer;
 
 #ifdef CONFIG_SPARC32
-#include <asm/machines.h>  /* Fun with Sun released architectures. */
+#include <asm-generic/machines.h>  /* Fun with Sun released architectures. */
 
 /* Here is the master table of Sun machines which use some implementation
  * of the Sparc CPU and have a meaningful IDPROM machtype value that we

@@ -34,8 +34,8 @@
 #include <linux/wait.h>
 #include <linux/workqueue.h>
 #include <linux/platform_device.h>
-#include <asm/dma.h>
-#include <asm/bfin_sport.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin_sport.h>
 
 #define DESC_ELEMENT_COUNT 9
 

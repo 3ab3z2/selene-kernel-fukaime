@@ -18,7 +18,7 @@
 #include <linux/kernel.h>
 #include <linux/sort.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 /* Count how many different relocations (different symbol, different
    addend) */

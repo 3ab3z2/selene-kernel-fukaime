@@ -17,8 +17,8 @@
 #define _XTENSA_UACCESS_H
 
 #include <linux/prefetch.h>
-#include <asm/types.h>
-#include <asm/extable.h>
+#include <asm-generic/types.h>
+#include <asm-generic/extable.h>
 
 /*
  * The fs value determines whether argument validity checking should

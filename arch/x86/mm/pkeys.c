@@ -16,8 +16,8 @@
 #include <linux/pkeys.h>                /* PKEY_*                       */
 #include <uapi/asm-generic/mman-common.h>
 
-#include <asm/cpufeature.h>             /* boot_cpu_has, ...            */
-#include <asm/mmu_context.h>            /* vma_pkey()                   */
+#include <asm-generic/cpufeature.h>             /* boot_cpu_has, ...            */
+#include <asm-generic/mmu_context.h>            /* vma_pkey()                   */
 
 int __execute_only_pkey(struct mm_struct *mm)
 {

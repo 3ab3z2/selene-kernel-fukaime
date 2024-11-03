@@ -23,13 +23,13 @@
 #include <linux/mm.h>
 #include <linux/notifier.h>
 
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
-#include <asm/ppc-pci.h>
-#include <asm/isa-bridge.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/isa-bridge.h>
 
 unsigned long isa_io_base;	/* NULL if no ISA bus */
 EXPORT_SYMBOL(isa_io_base);

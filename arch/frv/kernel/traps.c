@@ -21,13 +21,13 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/setup.h>
-#include <asm/fpu.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/fpu.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/siginfo.h>
-#include <asm/unaligned.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/unaligned.h>
 
 void show_backtrace(struct pt_regs *, unsigned long);
 

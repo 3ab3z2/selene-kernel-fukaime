@@ -41,7 +41,7 @@
  *
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/device.h>
 #include <linux/leds.h>
 #include <linux/module.h>

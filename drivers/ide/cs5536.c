@@ -35,7 +35,7 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 #include <linux/ide.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 
 #define DRV_NAME	"cs5536"
 

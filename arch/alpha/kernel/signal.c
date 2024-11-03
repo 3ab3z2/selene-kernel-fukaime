@@ -25,8 +25,8 @@
 #include <linux/tracehook.h>
 
 #include <linux/uaccess.h>
-#include <asm/sigcontext.h>
-#include <asm/ucontext.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/ucontext.h>
 
 #include "proto.h"
 

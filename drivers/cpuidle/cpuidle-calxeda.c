@@ -27,8 +27,8 @@
 #include <linux/platform_device.h>
 #include <linux/psci.h>
 
-#include <asm/cpuidle.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/suspend.h>
 
 #include <uapi/linux/psci.h>
 

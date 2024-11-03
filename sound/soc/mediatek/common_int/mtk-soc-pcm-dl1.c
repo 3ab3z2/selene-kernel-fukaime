@@ -58,7 +58,7 @@
 #include "mtk-soc-pcm-platform.h"
 #include "mtk-auddrv-gpio.h"
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/clk.h>
 #include <linux/completion.h>
 #include <linux/delay.h>

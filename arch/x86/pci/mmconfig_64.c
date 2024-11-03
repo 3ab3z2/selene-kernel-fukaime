@@ -11,8 +11,8 @@
 #include <linux/acpi.h>
 #include <linux/bitmap.h>
 #include <linux/rcupdate.h>
-#include <asm/e820/api.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/pci_x86.h>
 
 #define PREFIX "PCI: "
 

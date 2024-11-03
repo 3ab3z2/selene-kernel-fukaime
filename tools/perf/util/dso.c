@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include <linux/kernel.h>
 #include <sys/time.h>
 #include <sys/resource.h>

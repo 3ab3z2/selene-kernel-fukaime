@@ -15,7 +15,7 @@
 #include <linux/percpu.h>
 #include <linux/smp.h>
 #include <linux/time.h>
-#include <asm/mips-cps.h>
+#include <asm-generic/mips-cps.h>
 
 static DEFINE_PER_CPU(struct clock_event_device, gic_clockevent_device);
 static int gic_timer_irq;

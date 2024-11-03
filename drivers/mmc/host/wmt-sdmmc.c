@@ -31,7 +31,7 @@
 #include <linux/mmc/mmc.h>
 #include <linux/mmc/sd.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 
 #define DRIVER_NAME "wmt-sdhc"

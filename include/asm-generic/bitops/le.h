@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS_LE_H_
 #define _ASM_GENERIC_BITOPS_LE_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/byteorder.h>
 
 #if defined(__LITTLE_ENDIAN)

@@ -8,7 +8,7 @@
  */
 
 #ifdef CONFIG_X86
-#include <asm/x86_init.h>
+#include <asm-generic/x86_init.h>
 #endif
 
 /*

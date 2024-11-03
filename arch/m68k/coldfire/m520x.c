@@ -16,11 +16,11 @@
 #include <linux/param.h>
 #include <linux/init.h>
 #include <linux/io.h>
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfuart.h>
-#include <asm/mcfclk.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfuart.h>
+#include <asm-generic/mcfclk.h>
 
 /***************************************************************************/
 

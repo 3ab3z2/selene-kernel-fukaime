@@ -12,7 +12,7 @@
 #include "mac.h"
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 extern void note_bootable_part(dev_t dev, int part, int goodness);
 #endif
 

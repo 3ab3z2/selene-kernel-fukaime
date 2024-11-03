@@ -10,7 +10,7 @@
 #include <linux/kernel.h>
 #include <linux/sched.h>
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define add_ssaaaa(sh, sl, ah, al, bh, bl) 	\
   __asm__ ("addcc %4,%5,%1\n\t"			\

@@ -8,8 +8,8 @@
 #ifndef _CTCM_MAIN_H_
 #define _CTCM_MAIN_H_
 
-#include <asm/ccwdev.h>
-#include <asm/ccwgroup.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/ccwgroup.h>
 
 #include <linux/skbuff.h>
 #include <linux/netdevice.h>

@@ -120,9 +120,9 @@
 
 #include	<net/sock.h>
 
-#include	<asm/cacheflush.h>
-#include	<asm/tlbflush.h>
-#include	<asm/page.h>
+#include	<asm-generic/cacheflush.h>
+#include	<asm-generic/tlbflush.h>
+#include	<asm-generic/page.h>
 
 #include <trace/events/kmem.h>
 

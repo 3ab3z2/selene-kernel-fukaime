@@ -24,10 +24,10 @@
 #include <linux/interrupt.h>
 #include <linux/workqueue.h>
 #include <linux/bitops.h>
-#include <asm/ps3.h>
+#include <asm-generic/ps3.h>
 
-#include <asm/firmware.h>
-#include <asm/lv1call.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lv1call.h>
 
 #include "vuart.h"
 

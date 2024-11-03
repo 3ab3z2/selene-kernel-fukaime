@@ -23,7 +23,7 @@
  *  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 #include <linux/init.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <linux/mm.h>
 #include <pnx833x.h>
 #include <gpio.h>

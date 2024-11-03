@@ -21,8 +21,8 @@
 #define _LINUX_ATARIHW_H_
 
 #include <linux/types.h>
-#include <asm/bootinfo-atari.h>
-#include <asm/raw_io.h>
+#include <asm-generic/bootinfo-atari.h>
+#include <asm-generic/raw_io.h>
 
 extern u_long atari_mch_cookie;
 extern u_long atari_mch_type;
@@ -134,7 +134,7 @@ extern struct atari_hw_present atari_hw_present;
 
 
 #include <linux/mm.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 static inline void dma_cache_maintenance( unsigned long paddr,
 					  unsigned long len,

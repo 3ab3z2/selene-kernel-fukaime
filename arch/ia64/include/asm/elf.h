@@ -10,9 +10,9 @@
  */
 
 
-#include <asm/fpu.h>
-#include <asm/page.h>
-#include <asm/auxvec.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/auxvec.h>
 
 /*
  * This is used to ensure we don't load something for the wrong architecture.

@@ -19,8 +19,8 @@
 #include <linux/mm.h>
 #include <linux/sram.h>
 
-#include <asm/fncpy.h>
-#include <asm/set_memory.h>
+#include <asm-generic/fncpy.h>
+#include <asm-generic/set_memory.h>
 
 #include "sram.h"
 

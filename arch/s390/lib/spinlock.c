@@ -11,7 +11,7 @@
 #include <linux/spinlock.h>
 #include <linux/init.h>
 #include <linux/smp.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 int spin_retry = -1;
 

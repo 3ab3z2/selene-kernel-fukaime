@@ -13,9 +13,9 @@
 #include <xen/page.h>
 #include <xen/swiotlb-xen.h>
 
-#include <asm/cacheflush.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/interface.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/interface.h>
 
 struct xen_p2m_entry {
 	unsigned long pfn;

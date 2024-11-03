@@ -2,10 +2,10 @@
 #include <linux/linkage.h>
 #include <linux/init.h>
 
-#include <asm/entry.h>
-#include <asm/page.h>
-#include <asm/contregs.h>
-#include <asm/sun3-head.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/page.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/sun3-head.h>
 
 PSL_HIGHIPL     = 0x2700
 NBSG            = 0x20000

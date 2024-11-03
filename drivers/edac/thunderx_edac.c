@@ -21,7 +21,7 @@
 #include <linux/bitfield.h>
 #include <linux/circ_buf.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include "edac_module.h"
 

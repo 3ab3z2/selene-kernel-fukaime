@@ -23,7 +23,7 @@
 #include <linux/netdevice.h>
 #include <linux/slab.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cistpl.h>

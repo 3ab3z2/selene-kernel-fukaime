@@ -113,8 +113,8 @@
 #include <linux/timer.h>
 #include <linux/types.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

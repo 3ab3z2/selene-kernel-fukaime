@@ -12,8 +12,8 @@
  * Chris Zankel <chris@zankel.net>
  */
 
-#include <asm/processor.h>
-#include <asm/coprocessor.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/coprocessor.h>
 
 #include <linux/types.h>
 #include <linux/stddef.h>
@@ -22,8 +22,8 @@
 #include <linux/mm.h>
 #include <linux/kbuild.h>
 
-#include <asm/ptrace.h>
-#include <asm/traps.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
 
 int main(void)

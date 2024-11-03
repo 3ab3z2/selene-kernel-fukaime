@@ -13,10 +13,10 @@
 
 #include <linux/compiler.h>
 
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/mipsregs.h>
-#include <asm/cpu-type.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/cpu-type.h>
 
 /*
  * This is the clock rate of the i8253 PIT.  A MIPS system may not have

@@ -210,7 +210,7 @@ config PM_TRACE
 
 	  The architecture specific code must provide the extern
 	  functions from <linux/resume-trace.h> as well as the
-	  <asm/resume-trace.h> header with a TRACE_RESUME() macro.
+	  <asm-generic/resume-trace.h> header with a TRACE_RESUME() macro.
 
 	  The way the information is presented is architecture-
 	  dependent, x86 will print the information during a

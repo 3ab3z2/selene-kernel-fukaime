@@ -32,7 +32,7 @@
 #include <linux/jiffies.h>
 #include <linux/drbd.h>
 #include <linux/uaccess.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <net/sock.h>
 #include <linux/ctype.h>
 #include <linux/mutex.h>

@@ -12,8 +12,8 @@
 #include <linux/percpu.h>
 #include <linux/spinlock.h>
 
-#include <asm/mips-cps.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mipsregs.h>
 
 void __iomem *mips_gcr_base;
 void __iomem *mips_cm_l2sync_base;

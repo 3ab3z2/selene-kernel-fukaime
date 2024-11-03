@@ -6,8 +6,8 @@
  * Return the address of a given character within a null-terminated
  * string, or null if it is not found.
  */
-#include <asm/export.h>
-#include <asm/regdef.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
 
 	.set noreorder
 	.set noat

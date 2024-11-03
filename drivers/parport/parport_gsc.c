@@ -32,15 +32,15 @@
 #include <linux/pci.h>
 #include <linux/sysctl.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
 #include <linux/uaccess.h>
-#include <asm/superio.h>
+#include <asm-generic/superio.h>
 
 #include <linux/parport.h>
-#include <asm/pdc.h>
-#include <asm/parisc-device.h>
-#include <asm/hardware.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/hardware.h>
 #include "parport_gsc.h"
 
 

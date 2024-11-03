@@ -10,7 +10,7 @@
 #ifndef _XTENSA_PTRACE_H
 #define _XTENSA_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 /*
  * Kernel stack
@@ -54,7 +54,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/coprocessor.h>
+#include <asm-generic/coprocessor.h>
 
 /*
  * This struct defines the way the registers are stored on the
@@ -115,7 +115,7 @@ struct pt_regs {
 
 #else	/* __ASSEMBLY__ */
 
-# include <asm/asm-offsets.h>
+# include <asm-generic/asm-offsets.h>
 #define PT_REGS_OFFSET	  (KERNEL_STACK_SIZE - PT_USER_SIZE)
 
 #endif	/* !__ASSEMBLY__ */

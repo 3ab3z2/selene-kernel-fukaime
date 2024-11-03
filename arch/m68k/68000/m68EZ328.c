@@ -17,11 +17,11 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/rtc.h>
-#include <asm/pgtable.h>
-#include <asm/machdep.h>
-#include <asm/MC68EZ328.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/MC68EZ328.h>
 #ifdef CONFIG_UCSIMM
-#include <asm/bootstd.h>
+#include <asm-generic/bootstd.h>
 #endif
 
 /***************************************************************************/

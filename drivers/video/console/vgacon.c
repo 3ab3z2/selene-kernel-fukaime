@@ -49,7 +49,7 @@
 #include <linux/init.h>
 #include <linux/screen_info.h>
 #include <video/vga.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static DEFINE_RAW_SPINLOCK(vga_lock);
 static int cursor_size_lastfrom;

@@ -18,12 +18,12 @@
 #include <linux/bootmem.h>
 #include <linux/vmalloc.h>
 
-#include <asm/sun3x.h>
-#include <asm/dvma.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/sun3x.h>
+#include <asm-generic/dvma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
 
 /* IOMMU support */
 

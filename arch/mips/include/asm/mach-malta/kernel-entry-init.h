@@ -10,8 +10,8 @@
 #ifndef __ASM_MACH_MIPS_KERNEL_ENTRY_INIT_H
 #define __ASM_MACH_MIPS_KERNEL_ENTRY_INIT_H
 
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
 
 	/*
 	 * Prepare segments for EVA boot:

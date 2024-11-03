@@ -30,11 +30,11 @@
 #include <linux/leds.h>
 #include <linux/ide.h>
 
-#include <asm/byteorder.h>
-#include <asm/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/irq.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/div64.h>
+#include <asm-generic/io.h>
+#include <asm-generic/div64.h>
 
 #include "ide-disk.h"
 

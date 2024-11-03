@@ -3,11 +3,11 @@
  * ACPI wakeup real mode startup stub
  */
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/msr-index.h>
-#include <asm/page_types.h>
-#include <asm/pgtable_types.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/msr-index.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/pgtable_types.h>
+#include <asm-generic/processor-flags.h>
 #include "realmode.h"
 #include "wakeup.h"
 

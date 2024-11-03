@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_FTRACE
 #define _ASM_POWERPC_FTRACE
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef CONFIG_FUNCTION_TRACER
 #define MCOUNT_ADDR		((unsigned long)(_mcount))

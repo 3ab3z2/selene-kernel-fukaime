@@ -3,13 +3,13 @@
 #define _ASM_POWERPC_PGTABLE_RADIX_H
 
 #ifndef __ASSEMBLY__
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 #endif
 
 #ifdef CONFIG_PPC_64K_PAGES
-#include <asm/book3s/64/radix-64k.h>
+#include <asm-generic/book3s/64/radix-64k.h>
 #else
-#include <asm/book3s/64/radix-4k.h>
+#include <asm-generic/book3s/64/radix-4k.h>
 #endif
 
 /*
@@ -19,8 +19,8 @@
 
 
 #ifndef __ASSEMBLY__
-#include <asm/book3s/64/tlbflush-radix.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/book3s/64/tlbflush-radix.h>
+#include <asm-generic/cpu_has_feature.h>
 #endif
 
 /* An empty PTE can still have a R or C writeback */

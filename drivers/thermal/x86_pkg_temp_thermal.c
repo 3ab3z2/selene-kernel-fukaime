@@ -29,8 +29,8 @@
 #include <linux/pm.h>
 #include <linux/thermal.h>
 #include <linux/debugfs.h>
-#include <asm/cpu_device_id.h>
-#include <asm/mce.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/mce.h>
 
 /*
 * Rate control delay: Idea is to introduce denounce effect

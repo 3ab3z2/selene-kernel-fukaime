@@ -17,12 +17,12 @@
 #include <linux/delay.h>
 #include <linux/cpu.h>
 
-#include <asm/diag.h>
-#include <asm/facility.h>
-#include <asm/elf.h>
-#include <asm/lowcore.h>
-#include <asm/param.h>
-#include <asm/smp.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/param.h>
+#include <asm-generic/smp.h>
 
 struct cpu_info {
 	unsigned int cpu_mhz_dynamic;

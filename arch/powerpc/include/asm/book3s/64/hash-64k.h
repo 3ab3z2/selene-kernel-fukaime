@@ -40,7 +40,7 @@
 #define PTE_FRAG_SIZE (1UL << PTE_FRAG_SIZE_SHIFT)
 
 #ifndef __ASSEMBLY__
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 /*
  * With 64K pages on hash table, we have a special PTE format that

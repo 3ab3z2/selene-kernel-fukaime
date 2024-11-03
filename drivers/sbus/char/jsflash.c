@@ -38,12 +38,12 @@
 #include <linux/genhd.h>
 #include <linux/blkdev.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/pcic.h>
-#include <asm/oplib.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pcic.h>
+#include <asm-generic/oplib.h>
 
-#include <asm/jsflash.h>		/* ioctl arguments. <linux/> ?? */
+#include <asm-generic/jsflash.h>		/* ioctl arguments. <linux/> ?? */
 #define JSFIDSZ		(sizeof(struct jsflash_ident_arg))
 #define JSFPRGSZ	(sizeof(struct jsflash_program_arg))
 

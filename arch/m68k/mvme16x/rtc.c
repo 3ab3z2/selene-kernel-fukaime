@@ -17,11 +17,11 @@
 #include <linux/poll.h>
 #include <linux/rtc.h>	/* For struct rtc_time and ioctls, etc */
 #include <linux/bcd.h>
-#include <asm/mvme16xhw.h>
+#include <asm-generic/mvme16xhw.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 /*
  *	We sponge a minor off of the misc major. No need slurping

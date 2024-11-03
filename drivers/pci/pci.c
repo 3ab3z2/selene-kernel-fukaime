@@ -29,8 +29,8 @@
 #include <linux/pci_hotplug.h>
 #include <linux/vmalloc.h>
 #include <linux/pci-ats.h>
-#include <asm/setup.h>
-#include <asm/dma.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/dma.h>
 #include <linux/aer.h>
 #include "pci.h"
 

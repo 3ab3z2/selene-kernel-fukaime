@@ -14,7 +14,7 @@
 #include <linux/irqchip.h>
 #include <linux/of.h>
 
-#include <asm/mxregs.h>
+#include <asm-generic/mxregs.h>
 
 #define HW_IRQ_IPI_COUNT 2
 #define HW_IRQ_MX_BASE 2

@@ -30,7 +30,7 @@
 #include <linux/regulator/machine.h>
 #include <linux/i2c/pxa-i2c.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/setup.h>
 #include <asm/memory.h>
 #include <asm/mach-types.h>

@@ -2,8 +2,8 @@
 #ifndef _UAPI_ASM_TERMIOS_H
 #define _UAPI_ASM_TERMIOS_H
 
-#include <asm/termbits.h>
-#include <asm/ioctls.h>
+#include <asm-generic/termbits.h>
+#include <asm-generic/ioctls.h>
 
 struct winsize {
 	unsigned short ws_row;

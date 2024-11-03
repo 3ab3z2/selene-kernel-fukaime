@@ -6,8 +6,8 @@
 #include <linux/compat.h>
 #include <linux/compiler.h>
 
-#include <asm/signal.h>
-#include <asm/siginfo.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/siginfo.h>
 
 #include <linux/uaccess.h>
 

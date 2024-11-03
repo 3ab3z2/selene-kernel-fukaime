@@ -25,8 +25,8 @@
 #include <linux/io.h>
 
 #include <mach/hardware.h>
-#include <asm/irq.h>
-#include <asm/hardware/iomd.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hardware/iomd.h>
 
 MODULE_AUTHOR("Vojtech Pavlik, Russell King");
 MODULE_DESCRIPTION("Acorn RiscPC mouse driver");

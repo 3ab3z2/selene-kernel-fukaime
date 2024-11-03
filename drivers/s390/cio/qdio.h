@@ -7,9 +7,9 @@
 #ifndef _CIO_QDIO_H
 #define _CIO_QDIO_H
 
-#include <asm/page.h>
-#include <asm/schid.h>
-#include <asm/debug.h>
+#include <asm-generic/page.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/debug.h>
 #include "chsc.h"
 
 #define QDIO_BUSY_BIT_PATIENCE		(100 << 12)	/* 100 microseconds */

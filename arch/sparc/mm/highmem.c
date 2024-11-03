@@ -27,10 +27,10 @@
 #include <linux/export.h>
 #include <linux/mm.h>
 
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/pgalloc.h>
-#include <asm/vaddrs.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/vaddrs.h>
 
 pgprot_t kmap_prot;
 

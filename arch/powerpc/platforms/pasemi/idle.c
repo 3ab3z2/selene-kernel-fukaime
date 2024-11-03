@@ -24,9 +24,9 @@
 #include <linux/string.h>
 #include <linux/irq.h>
 
-#include <asm/machdep.h>
-#include <asm/reg.h>
-#include <asm/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/smp.h>
 
 #include "pasemi.h"
 

@@ -13,7 +13,7 @@
 #include <linux/smp.h>
 #include <linux/irqdomain.h>
 
-#include <asm/mipsmtregs.h>
+#include <asm-generic/mipsmtregs.h>
 
 #include <irq.h>
 

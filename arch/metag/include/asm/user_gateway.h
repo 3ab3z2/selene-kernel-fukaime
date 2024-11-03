@@ -6,7 +6,7 @@
 #ifndef __ASM_METAG_USER_GATEWAY_H
 #define __ASM_METAG_USER_GATEWAY_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /* Page of kernel code accessible to userspace. */
 #define USER_GATEWAY_PAGE	0x6ffff000

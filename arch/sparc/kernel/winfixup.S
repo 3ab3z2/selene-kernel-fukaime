@@ -4,13 +4,13 @@
  * Copyright (C) 1997, 2006 David S. Miller (davem@davemloft.net)
  */
 
-#include <asm/asi.h>
-#include <asm/head.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
-#include <asm/spitfire.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/head.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/thread_info.h>
 
 	.text
 

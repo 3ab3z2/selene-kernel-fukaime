@@ -26,8 +26,8 @@
 #include <linux/signal.h>
 #include <linux/device.h>
 #include <linux/spinlock.h>
-#include <asm/irq.h>
-#include <asm/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
 #include <soc/fsl/qe/qe_ic.h>
 
 #include "qe_ic.h"

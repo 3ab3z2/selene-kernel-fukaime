@@ -13,7 +13,7 @@
 
 #include <linux/export.h>
 #include <linux/uaccess.h>
-#include <asm/cache.h>			/* def of L1_CACHE_BYTES */
+#include <asm-generic/cache.h>			/* def of L1_CACHE_BYTES */
 
 #define USE_RAPF
 #define RAPF_MIN_BUF_SIZE	(3*L1_CACHE_BYTES)

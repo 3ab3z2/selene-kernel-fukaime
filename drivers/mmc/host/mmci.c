@@ -38,8 +38,8 @@
 #include <linux/types.h>
 #include <linux/pinctrl/consumer.h>
 
-#include <asm/div64.h>
-#include <asm/io.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/io.h>
 
 #include "mmci.h"
 #include "mmci_qcom_dml.h"

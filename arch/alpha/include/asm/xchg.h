@@ -5,7 +5,7 @@
 /*
  * xchg/xchg_local and cmpxchg/cmpxchg_local share the same code
  * except that local version do not have the expensive memory barrier.
- * So this file is included twice from asm/cmpxchg.h.
+ * So this file is included twice from asm-generic/cmpxchg.h.
  */
 
 /*

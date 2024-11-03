@@ -20,13 +20,13 @@
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/kvm_asm.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/asm-offsets.h>
-#include <asm/exception-64s.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/exception-64s.h>
+#include <asm-generic/ppc-opcode.h>
 
 /*****************************************************************************
  *                                                                           *

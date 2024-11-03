@@ -13,12 +13,12 @@
 #include <linux/kernel.h>
 #include <linux/spinlock.h>
 
-#include <asm/io.h>
-#include <asm/bootinfo.h>
-#include <asm/sgialib.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/io.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ip22.h>
 
 struct sgimc_regs *sgimc;
 

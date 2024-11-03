@@ -26,7 +26,7 @@
 #include <linux/init.h>
 #include <linux/delay.h>
 #include <linux/acpi.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static int pm_tmr_ioport = 0;
 

@@ -25,7 +25,7 @@
 */
 #ifndef DRBD_H
 #define DRBD_H
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef __KERNEL__
 #include <linux/types.h>

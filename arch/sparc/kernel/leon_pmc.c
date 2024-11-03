@@ -7,10 +7,10 @@
 #include <linux/init.h>
 #include <linux/pm.h>
 
-#include <asm/leon_amba.h>
-#include <asm/cpu_type.h>
-#include <asm/leon.h>
-#include <asm/processor.h>
+#include <asm-generic/leon_amba.h>
+#include <asm-generic/cpu_type.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/processor.h>
 
 /* List of Systems that need fixup instructions around power-down instruction */
 static unsigned int pmc_leon_fixup_ids[] = {

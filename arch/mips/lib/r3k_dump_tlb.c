@@ -9,11 +9,11 @@
 #include <linux/kernel.h>
 #include <linux/mm.h>
 
-#include <asm/mipsregs.h>
-#include <asm/mmu_context.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/tlbdebug.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbdebug.h>
 
 extern int r3k_have_wired_reg;
 

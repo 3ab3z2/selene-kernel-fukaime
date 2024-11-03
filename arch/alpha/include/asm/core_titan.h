@@ -3,7 +3,7 @@
 #define __ALPHA_TITAN__H__
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * TITAN is the internal names for a core logic chipset which provides
@@ -398,7 +398,7 @@ extern int titan_is_mmio(const volatile void __iomem *addr);
 #define titan_trivial_io_bw	1
 #define titan_trivial_io_lq	1
 #define titan_trivial_iounmap	0
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

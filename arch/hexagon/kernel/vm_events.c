@@ -20,7 +20,7 @@
 
 #include <linux/kernel.h>
 #include <linux/sched/debug.h>
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 #include <linux/irq.h>
 #include <linux/hardirq.h>
 

@@ -32,7 +32,7 @@
 #include <linux/of_gpio.h>
 #include <linux/slab.h>
 #include <soc/fsl/qe/qe.h>
-#include <asm/fsl_gtm.h>
+#include <asm-generic/fsl_gtm.h>
 #include "fhci.h"
 
 void fhci_start_sof_timer(struct fhci_hcd *fhci)

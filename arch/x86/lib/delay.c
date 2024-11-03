@@ -18,13 +18,13 @@
 #include <linux/preempt.h>
 #include <linux/delay.h>
 
-#include <asm/processor.h>
-#include <asm/delay.h>
-#include <asm/timer.h>
-#include <asm/mwait.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/mwait.h>
 
 #ifdef CONFIG_SMP
-# include <asm/smp.h>
+# include <asm-generic/smp.h>
 #endif
 
 /* simple loop based delay: */

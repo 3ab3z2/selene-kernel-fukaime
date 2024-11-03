@@ -11,8 +11,8 @@
 #include <linux/tty.h>
 #include <linux/console.h>
 #include <linux/vt.h>
-#include <asm/vga.h>
-#include <asm/machvec.h>
+#include <asm-generic/vga.h>
+#include <asm-generic/machvec.h>
 
 #include "pci_impl.h"
 

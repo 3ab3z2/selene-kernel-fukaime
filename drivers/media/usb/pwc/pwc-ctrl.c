@@ -41,7 +41,7 @@
 #ifdef __KERNEL__
 #include <linux/uaccess.h>
 #endif
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 #include "pwc.h"
 #include "pwc-kiara.h"

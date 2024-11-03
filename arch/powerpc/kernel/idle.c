@@ -26,12 +26,12 @@
 #include <linux/sysctl.h>
 #include <linux/tick.h>
 
-#include <asm/processor.h>
-#include <asm/cputable.h>
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/runlatch.h>
-#include <asm/smp.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/runlatch.h>
+#include <asm-generic/smp.h>
 
 
 unsigned long cpuidle_disable = IDLE_NO_OVERRIDE;

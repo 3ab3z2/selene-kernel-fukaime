@@ -19,7 +19,7 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 #include <linux/dvb/frontend.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #include "dvb-pll.h"
 

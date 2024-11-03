@@ -7,7 +7,7 @@
 #ifndef _SPARC_TRAPS_H
 #define _SPARC_TRAPS_H
 
-#include <uapi/asm/traps.h>
+#include <uapi/asm-generic/traps.h>
 
 #ifndef __ASSEMBLY__
 /* This is for V8 compliant Sparc CPUS */

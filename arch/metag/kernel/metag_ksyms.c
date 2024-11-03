@@ -2,12 +2,12 @@
 #include <linux/export.h>
 #include <linux/types.h>
 
-#include <asm/checksum.h>
-#include <asm/div64.h>
-#include <asm/ftrace.h>
-#include <asm/page.h>
-#include <asm/string.h>
-#include <asm/tbx.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/string.h>
+#include <asm-generic/tbx.h>
 
 EXPORT_SYMBOL(clear_page);
 EXPORT_SYMBOL(copy_page);

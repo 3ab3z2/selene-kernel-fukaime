@@ -13,7 +13,7 @@
 #include <linux/gpio/driver.h>
 #include <linux/errno.h>
 #include <linux/io.h>
-#include <asm/txx9pio.h>
+#include <asm-generic/txx9pio.h>
 
 static DEFINE_SPINLOCK(txx9_gpio_lock);
 

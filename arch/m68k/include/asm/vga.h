@@ -2,7 +2,7 @@
 #ifndef _ASM_M68K_VGA_H
 #define _ASM_M68K_VGA_H
 
-#include <asm/raw_io.h>
+#include <asm-generic/raw_io.h>
 
 /*
  * FIXME

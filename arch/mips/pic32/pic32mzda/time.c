@@ -18,7 +18,7 @@
 #include <linux/of.h>
 #include <linux/of_irq.h>
 
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #include "pic32mzda.h"
 

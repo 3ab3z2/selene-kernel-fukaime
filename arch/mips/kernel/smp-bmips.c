@@ -26,18 +26,18 @@
 #include <linux/bug.h>
 #include <linux/kernel.h>
 
-#include <asm/time.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/bootinfo.h>
-#include <asm/pmon.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/mipsregs.h>
-#include <asm/bmips.h>
-#include <asm/traps.h>
-#include <asm/barrier.h>
-#include <asm/cpu-features.h>
+#include <asm-generic/time.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/pmon.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/bmips.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/cpu-features.h>
 
 static int __maybe_unused max_cpus = 1;
 

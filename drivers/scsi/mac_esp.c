@@ -21,11 +21,11 @@
 #include <linux/nubus.h>
 #include <linux/slab.h>
 
-#include <asm/irq.h>
-#include <asm/dma.h>
-#include <asm/macints.h>
-#include <asm/macintosh.h>
-#include <asm/mac_via.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/mac_via.h>
 
 #include <scsi/scsi_host.h>
 

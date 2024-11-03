@@ -4,7 +4,7 @@
 
 #include <linux/string.h>
 #include <linux/compiler.h>
-#include <asm/page.h>  /* __va */
+#include <asm-generic/page.h>  /* __va */
 
 #ifdef __KERNEL__
 

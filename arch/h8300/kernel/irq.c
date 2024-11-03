@@ -10,7 +10,7 @@
 #include <linux/irq.h>
 #include <linux/irqdomain.h>
 #include <linux/of_irq.h>
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 #ifdef CONFIG_RAMKERNEL
 typedef void (*h8300_vector)(void);

@@ -16,7 +16,7 @@
 #ifdef __KERNEL__
 
 #ifndef __ASSEMBLY__
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #endif
 
 #define THREAD_SIZE		8192
@@ -46,7 +46,7 @@ struct thread_info {
 
 #else /* !__ASSEMBLY__ */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #endif
 

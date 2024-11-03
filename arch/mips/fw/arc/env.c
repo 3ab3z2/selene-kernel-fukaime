@@ -11,8 +11,8 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
 
 PCHAR __init
 ArcGetEnvironmentVariable(CHAR *name)

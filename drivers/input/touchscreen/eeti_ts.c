@@ -33,7 +33,7 @@
 #include <linux/timer.h>
 #include <linux/gpio/consumer.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 static bool flip_x;
 module_param(flip_x, bool, 0644);

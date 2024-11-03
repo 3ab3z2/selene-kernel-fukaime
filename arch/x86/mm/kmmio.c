@@ -22,10 +22,10 @@
 #include <linux/mutex.h>
 #include <linux/io.h>
 #include <linux/slab.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 #include <linux/errno.h>
-#include <asm/debugreg.h>
+#include <asm-generic/debugreg.h>
 #include <linux/mmiotrace.h>
 
 #define KMMIO_PAGE_HASH_BITS 4

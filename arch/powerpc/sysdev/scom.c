@@ -21,9 +21,9 @@
 #include <linux/kernel.h>
 #include <linux/slab.h>
 #include <linux/export.h>
-#include <asm/debugfs.h>
-#include <asm/prom.h>
-#include <asm/scom.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/scom.h>
 #include <linux/uaccess.h>
 
 const struct scom_controller *scom_controller;

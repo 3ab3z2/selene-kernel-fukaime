@@ -43,11 +43,11 @@
 #include <linux/spinlock.h>
 #include <linux/kd.h>
 
-#include <asm/io.h>
-#include <asm/unaligned.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unaligned.h>
 
 #if defined(CONFIG_PPC_PMAC)
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include "../macmodes.h"
 #endif
 

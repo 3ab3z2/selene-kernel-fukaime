@@ -15,13 +15,13 @@
 #include <linux/types.h>
 #include <linux/mm.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cachectl.h>
-#include <asm/dma.h>
-#include <asm/floppy.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/pgtable.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/floppy.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * How to access the FDC's registers.

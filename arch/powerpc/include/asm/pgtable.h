@@ -5,23 +5,23 @@
 #ifndef __ASSEMBLY__
 #include <linux/mmdebug.h>
 #include <linux/mmzone.h>
-#include <asm/processor.h>		/* For TASK_SIZE */
-#include <asm/mmu.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>		/* For TASK_SIZE */
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
 
 struct mm_struct;
 
 #endif /* !__ASSEMBLY__ */
 
 #ifdef CONFIG_PPC_BOOK3S
-#include <asm/book3s/pgtable.h>
+#include <asm-generic/book3s/pgtable.h>
 #else
-#include <asm/nohash/pgtable.h>
+#include <asm-generic/nohash/pgtable.h>
 #endif /* !CONFIG_PPC_BOOK3S */
 
 #ifndef __ASSEMBLY__
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 /* Keep these as a macros to avoid include dependency mess */
 #define pte_page(x)		pfn_to_page(pte_pfn(x))

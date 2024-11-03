@@ -26,7 +26,7 @@
 #include <linux/slab.h>
 #include <linux/interrupt.h>
 #include <linux/delay.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/firmware.h>
 
 #include "cimax2.h"

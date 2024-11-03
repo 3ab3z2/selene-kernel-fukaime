@@ -15,9 +15,9 @@
 
 #include <linux/clockchips.h>
 
-#include <asm/irq.h>
-#include <asm/numachip/numachip.h>
-#include <asm/numachip/numachip_csr.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/numachip/numachip.h>
+#include <asm-generic/numachip/numachip_csr.h>
 
 static DEFINE_PER_CPU(struct clock_event_device, numachip2_ced);
 

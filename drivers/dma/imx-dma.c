@@ -30,7 +30,7 @@
 #include <linux/of_device.h>
 #include <linux/of_dma.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/platform_data/dma-imx.h>
 
 #include "dmaengine.h"

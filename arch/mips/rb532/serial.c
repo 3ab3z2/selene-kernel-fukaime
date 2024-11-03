@@ -31,8 +31,8 @@
 #include <linux/serial_8250.h>
 #include <linux/irq.h>
 
-#include <asm/serial.h>
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/serial.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 extern unsigned int idt_cpu_freq;
 

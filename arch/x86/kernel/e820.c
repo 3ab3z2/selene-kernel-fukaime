@@ -16,8 +16,8 @@
 #include <linux/memblock.h>
 #include <linux/sort.h>
 
-#include <asm/e820/api.h>
-#include <asm/setup.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/setup.h>
 
 /*
  * We organize the E820 table into three main data structures:

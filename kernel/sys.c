@@ -70,8 +70,8 @@
 #include <generated/utsrelease.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/unistd.h>
+#include <asm-generic/io.h>
+#include <asm-generic/unistd.h>
 #ifdef CONFIG_MTK_TASK_TURBO
 #include <mt-plat/turbo_common.h>
 #endif

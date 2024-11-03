@@ -18,22 +18,22 @@
 #include <linux/bootmem.h>
 #include <linux/platform_device.h>
 
-#include <asm/oplib.h>
-#include <asm/setup.h>
-#include <asm/contregs.h>
-#include <asm/movs.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/sun3-head.h>
-#include <asm/sun3mmu.h>
-#include <asm/machdep.h>
-#include <asm/machines.h>
-#include <asm/idprom.h>
-#include <asm/intersil.h>
-#include <asm/irq.h>
-#include <asm/sections.h>
-#include <asm/segment.h>
-#include <asm/sun3ints.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/movs.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sun3-head.h>
+#include <asm-generic/sun3mmu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/machines.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/intersil.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/sun3ints.h>
 
 char sun3_reserved_pmeg[SUN3_PMEGS_NUM];
 

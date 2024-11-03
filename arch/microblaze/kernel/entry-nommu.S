@@ -9,14 +9,14 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
+#include <asm-generic/thread_info.h>
 #include <linux/errno.h>
-#include <asm/entry.h>
-#include <asm/asm-offsets.h>
-#include <asm/registers.h>
-#include <asm/unistd.h>
-#include <asm/percpu.h>
-#include <asm/signal.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/signal.h>
 
 #if CONFIG_XILINX_MICROBLAZE0_USE_MSR_INSTR
 	.macro	disable_irq

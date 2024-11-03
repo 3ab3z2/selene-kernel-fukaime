@@ -14,10 +14,10 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #else
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #endif
-#include <asm/asm-compat.h>
-#include <asm/kdump.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/kdump.h>
 
 /*
  * On regular PPC32 page size is 4K (but we support 4K/16K/64K/256K pages
@@ -251,9 +251,9 @@ extern long long virt_phys_offset;
 				 VM_MAYREAD | VM_MAYWRITE | VM_MAYEXEC)
 
 #ifdef __powerpc64__
-#include <asm/page_64.h>
+#include <asm-generic/page_64.h>
 #else
-#include <asm/page_32.h>
+#include <asm-generic/page_32.h>
 #endif
 
 /* align addr on a size boundary - adjust address up/down if needed */
@@ -303,9 +303,9 @@ extern long long virt_phys_offset;
 #ifndef __ASSEMBLY__
 
 #ifdef CONFIG_PPC_BOOK3S_64
-#include <asm/pgtable-be-types.h>
+#include <asm-generic/pgtable-be-types.h>
 #else
-#include <asm/pgtable-types.h>
+#include <asm-generic/pgtable-types.h>
 #endif
 
 
@@ -344,6 +344,6 @@ typedef struct page *pgtable_t;
 
 #include <asm-generic/memory_model.h>
 #endif /* __ASSEMBLY__ */
-#include <asm/slice.h>
+#include <asm-generic/slice.h>
 
 #endif /* _ASM_POWERPC_PAGE_H */

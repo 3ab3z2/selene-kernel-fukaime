@@ -7,8 +7,8 @@
 #include <linux/irq.h>
 #include <linux/msi.h>
 #include <linux/dmar.h>
-#include <asm/smp.h>
-#include <asm/msidef.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/msidef.h>
 
 static struct irq_chip	ia64_msi_chip;
 

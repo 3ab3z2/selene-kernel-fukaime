@@ -15,13 +15,13 @@
 #include <linux/smp.h>
 #include <linux/mm.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu_context.h>
-#include <asm/isadep.h>
-#include <asm/io.h>
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/isadep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
 
 static unsigned long icache_size, dcache_size;		/* Size in bytes */
 static unsigned long icache_lsize, dcache_lsize;	/* Size in bytes */

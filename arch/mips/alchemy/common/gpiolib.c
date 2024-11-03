@@ -34,8 +34,8 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 #include <linux/gpio.h>
-#include <asm/mach-au1x00/gpio-au1000.h>
-#include <asm/mach-au1x00/gpio-au1300.h>
+#include <asm-generic/mach-au1x00/gpio-au1000.h>
+#include <asm-generic/mach-au1x00/gpio-au1300.h>
 
 static int gpio2_get(struct gpio_chip *chip, unsigned offset)
 {

@@ -18,7 +18,7 @@
 #include <linux/pci.h>
 #include <linux/of_address.h>
 
-#include <asm/cpu-info.h>
+#include <asm-generic/cpu-info.h>
 
 /*
  * If PCI_PROBE_ONLY in pci_flags is set, we don't change any PCI resource

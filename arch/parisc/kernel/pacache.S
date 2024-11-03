@@ -32,11 +32,11 @@
 	.level	2.0
 #endif
 
-#include <asm/psw.h>
-#include <asm/assembly.h>
-#include <asm/pgtable.h>
-#include <asm/cache.h>
-#include <asm/ldcw.h>
+#include <asm-generic/psw.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/ldcw.h>
 #include <linux/linkage.h>
 
 	.text

@@ -15,17 +15,17 @@
  *
  */
 
-#include <asm/asmmacro.h>
-#include <asm/errno.h>
-#include <asm/asm-offsets.h>
-#include <asm/percpu.h>
-#include <asm/thread_info.h>
-#include <asm/sal.h>
-#include <asm/signal.h>
-#include <asm/unistd.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/unistd.h>
 
 #include "entry.h"
-#include <asm/native/inst.h>
+#include <asm-generic/native/inst.h>
 
 /*
  * See Documentation/ia64/fsys.txt for details on fsyscalls.

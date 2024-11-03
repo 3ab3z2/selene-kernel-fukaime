@@ -22,8 +22,8 @@
 #include <linux/poll.h>
 #include <linux/usb.h>
 #include <linux/usb/cdc.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 #include <linux/usb/cdc-wdm.h>
 
 #define DRIVER_AUTHOR "Oliver Neukum"

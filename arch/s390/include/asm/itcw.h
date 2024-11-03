@@ -10,7 +10,7 @@
 #define _ASM_S390_ITCW_H
 
 #include <linux/types.h>
-#include <asm/fcx.h>
+#include <asm-generic/fcx.h>
 
 #define ITCW_OP_READ	0
 #define ITCW_OP_WRITE	1

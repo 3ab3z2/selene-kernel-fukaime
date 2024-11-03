@@ -21,9 +21,9 @@
 #include <linux/dma-mapping.h>
 #include <linux/delay.h>
 #include <linux/module.h>
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <mach/dma.h>
 #include <mach/sysasic.h>
 

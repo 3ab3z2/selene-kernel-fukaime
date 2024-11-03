@@ -2,10 +2,10 @@
 #ifndef __M68K_ENTRY_H
 #define __M68K_ENTRY_H
 
-#include <asm/setup.h>
-#include <asm/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
 #ifdef __ASSEMBLY__
-#include <asm/thread_info.h>
+#include <asm-generic/thread_info.h>
 #endif
 
 /*

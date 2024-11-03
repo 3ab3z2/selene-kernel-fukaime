@@ -8,7 +8,7 @@
 #ifndef _LINUX_ASM_VGA_H_
 #define _LINUX_ASM_VGA_H_
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define VT_BUF_HAVE_RW
 #define VT_BUF_HAVE_MEMSETW

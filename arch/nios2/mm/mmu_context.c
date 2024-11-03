@@ -12,9 +12,9 @@
 
 #include <linux/mm.h>
 
-#include <asm/cpuinfo.h>
-#include <asm/mmu_context.h>
-#include <asm/tlb.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlb.h>
 
 /* The pids position and mask in context */
 #define PID_SHIFT	0

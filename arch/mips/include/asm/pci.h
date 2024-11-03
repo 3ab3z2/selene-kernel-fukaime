@@ -13,7 +13,7 @@
 /*
  * This file essentially defines the interface between board
  * specific PCI code and MIPS common PCI code.	Should potentially put
- * into include/asm/pci.h file.
+ * into include/asm-generic/pci.h file.
  */
 
 #include <linux/ioport.h>
@@ -121,7 +121,7 @@ extern void pcibios_set_master(struct pci_dev *dev);
 #include <linux/slab.h>
 #include <linux/scatterlist.h>
 #include <linux/string.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 struct pci_dev;
 

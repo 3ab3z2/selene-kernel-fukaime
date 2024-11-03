@@ -11,16 +11,16 @@
 #include <linux/module.h>
 #include <linux/sched/signal.h>
 #include <linux/sched/debug.h>
-#include <asm/traps.h>
-#include <asm/cplb.h>
-#include <asm/blackfin.h>
-#include <asm/irq_handler.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/cplb.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq_handler.h>
 #include <linux/irq.h>
-#include <asm/trace.h>
-#include <asm/fixed_code.h>
-#include <asm/pseudo_instructions.h>
-#include <asm/pda.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/pseudo_instructions.h>
+#include <asm-generic/pda.h>
+#include <asm-generic/asm-offsets.h>
 
 #ifdef CONFIG_KGDB
 # include <linux/kgdb.h>

@@ -19,7 +19,7 @@
 #include <linux/cpuidle.h>
 #include <linux/io.h>
 #include <linux/export.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/cpuidle.h>
 
 #define AT91_MAX_STATES	2
 

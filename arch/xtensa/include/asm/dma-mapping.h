@@ -10,8 +10,8 @@
 #ifndef _XTENSA_DMA_MAPPING_H
 #define _XTENSA_DMA_MAPPING_H
 
-#include <asm/cache.h>
-#include <asm/io.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/io.h>
 
 #include <linux/mm.h>
 #include <linux/scatterlist.h>

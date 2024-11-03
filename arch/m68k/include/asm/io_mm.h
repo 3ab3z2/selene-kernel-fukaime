@@ -24,13 +24,13 @@
 #define ARCH_HAS_IOREMAP_WT
 
 #include <linux/compiler.h>
-#include <asm/raw_io.h>
-#include <asm/virtconvert.h>
+#include <asm-generic/raw_io.h>
+#include <asm-generic/virtconvert.h>
 
 #include <asm-generic/iomap.h>
 
 #ifdef CONFIG_ATARI
-#include <asm/atarihw.h>
+#include <asm-generic/atarihw.h>
 #endif
 
 
@@ -53,7 +53,7 @@
 #endif /* Q40 */
 
 #ifdef CONFIG_AMIGA_PCMCIA
-#include <asm/amigayle.h>
+#include <asm-generic/amigayle.h>
 
 #define AG_ISA_IO_B(ioaddr) ( GAYLE_IO+(ioaddr)+(((ioaddr)&1)*GAYLE_ODD) )
 #define AG_ISA_IO_W(ioaddr) ( GAYLE_IO+(ioaddr) )

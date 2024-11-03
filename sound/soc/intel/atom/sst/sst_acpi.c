@@ -30,7 +30,7 @@
 #include <linux/pm_qos.h>
 #include <linux/dmi.h>
 #include <linux/acpi.h>
-#include <asm/platform_sst_audio.h>
+#include <asm-generic/platform_sst_audio.h>
 #include <sound/core.h>
 #include <sound/soc.h>
 #include <sound/compress_driver.h>
@@ -39,8 +39,8 @@
 #include <acpi/platform/aclinux.h>
 #include <acpi/actypes.h>
 #include <acpi/acpi_bus.h>
-#include <asm/cpu_device_id.h>
-#include <asm/iosf_mbi.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/iosf_mbi.h>
 #include "../sst-mfld-platform.h"
 #include "../../common/sst-dsp.h"
 #include "../../common/sst-acpi.h"

@@ -17,8 +17,8 @@
 #include <linux/rculist.h>
 #include <linux/slab.h>
 
-#include <asm/airq.h>
-#include <asm/isc.h>
+#include <asm-generic/airq.h>
+#include <asm-generic/isc.h>
 
 #include "cio.h"
 #include "cio_debug.h"

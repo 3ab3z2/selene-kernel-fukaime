@@ -9,11 +9,11 @@
 #include <linux/export.h>
 #include <linux/timer.h>
 #include <linux/slab.h>
-#include <asm/facility.h>
-#include <asm/sysinfo.h>
-#include <asm/ebcdic.h>
-#include <asm/debug.h>
-#include <asm/ipl.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/ipl.h>
 
 #define LGR_TIMER_INTERVAL_SECS (30 * 60)
 #define VM_LEVEL_MAX 2 /* Maximum is 8, but we only record two levels */

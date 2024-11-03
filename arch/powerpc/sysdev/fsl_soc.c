@@ -32,15 +32,15 @@
 #include <linux/reboot.h>
 
 #include <linux/atomic.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/time.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 #include <sysdev/fsl_soc.h>
 #include <mm/mmu_decl.h>
-#include <asm/cpm2.h>
-#include <asm/fsl_hcalls.h>	/* For the Freescale hypervisor */
+#include <asm-generic/cpm2.h>
+#include <asm-generic/fsl_hcalls.h>	/* For the Freescale hypervisor */
 
 extern void init_fcc_ioports(struct fs_platform_info*);
 extern void init_fec_ioports(struct fs_platform_info*);

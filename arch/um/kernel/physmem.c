@@ -7,8 +7,8 @@
 #include <linux/bootmem.h>
 #include <linux/mm.h>
 #include <linux/pfn.h>
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 #include <as-layout.h>
 #include <init.h>
 #include <kern.h>

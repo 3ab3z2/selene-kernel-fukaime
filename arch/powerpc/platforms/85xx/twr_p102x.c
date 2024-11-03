@@ -19,9 +19,9 @@
 #include <linux/pci.h>
 #include <linux/of_platform.h>
 
-#include <asm/pci-bridge.h>
-#include <asm/udbg.h>
-#include <asm/mpic.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/mpic.h>
 #include <soc/fsl/qe/qe.h>
 #include <soc/fsl/qe/qe_ic.h>
 

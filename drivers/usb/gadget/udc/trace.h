@@ -25,7 +25,7 @@
 
 #include <linux/types.h>
 #include <linux/tracepoint.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/usb/gadget.h>
 
 DECLARE_EVENT_CLASS(udc_log_gadget,

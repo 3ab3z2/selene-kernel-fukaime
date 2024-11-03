@@ -11,10 +11,10 @@
 #include <linux/interrupt.h>
 #include <mach/dma.h>
 #include <linux/atomic.h>
-#include <asm/blackfin.h>
-#include <asm/page.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/page.h>
 #include <asm-generic/dma.h>
-#include <asm/bfin_dma.h>
+#include <asm-generic/bfin_dma.h>
 
 /*-------------------------
  * config reg bits value

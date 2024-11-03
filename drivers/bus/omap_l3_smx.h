@@ -328,7 +328,7 @@ static u32 *omap3_l3_bases[] = {
 
 /*
  * REVISIT define __raw_readll/__raw_writell here, but move them to
- * <asm/io.h> at some point
+ * <asm-generic/io.h> at some point
  */
 #define __raw_writell(v, a)	(__chk_io_ptr(a), \
 				*(volatile u64 __force *)(a) = (v))

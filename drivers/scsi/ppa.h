@@ -85,7 +85,7 @@
 #include  <linux/sched.h>
 #include  <linux/interrupt.h>
 
-#include  <asm/io.h>
+#include  <asm-generic/io.h>
 #include  <scsi/scsi_host.h>
 /* batteries not included :-) */
 

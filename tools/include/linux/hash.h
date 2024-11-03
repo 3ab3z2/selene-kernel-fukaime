@@ -3,7 +3,7 @@
 /* Fast hashing routine for ints,  longs and pointers.
    (C) 2002 Nadia Yvette Chambers, IBM */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/compiler.h>
 
 /*
@@ -43,14 +43,14 @@
 
 #ifdef CONFIG_HAVE_ARCH_HASH
 /* This header may use the GOLDEN_RATIO_xx constants */
-#include <asm/hash.h>
+#include <asm-generic/hash.h>
 #endif
 
 /*
  * The _generic versions exist only so lib/test_hash.c can compare
  * the arch-optimized versions with the generic.
  *
- * Note that if you change these, any <asm/hash.h> that aren't updated
+ * Note that if you change these, any <asm-generic/hash.h> that aren't updated
  * to match need to have their HAVE_ARCH_* define values updated so the
  * self-test will not false-positive.
  */

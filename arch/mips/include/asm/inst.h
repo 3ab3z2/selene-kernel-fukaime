@@ -11,7 +11,7 @@
 #ifndef _ASM_INST_H
 #define _ASM_INST_H
 
-#include <uapi/asm/inst.h>
+#include <uapi/asm-generic/inst.h>
 
 /* HACHACHAHCAHC ...  */
 

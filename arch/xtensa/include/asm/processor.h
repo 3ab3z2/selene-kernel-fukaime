@@ -14,9 +14,9 @@
 #include <platform/hardware.h>
 
 #include <linux/compiler.h>
-#include <asm/ptrace.h>
-#include <asm/types.h>
-#include <asm/regs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/types.h>
+#include <asm-generic/regs.h>
 
 /* Assertions. */
 

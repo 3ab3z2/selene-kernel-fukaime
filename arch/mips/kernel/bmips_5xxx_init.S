@@ -12,15 +12,15 @@
 
 #include <linux/init.h>
 
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/cacheops.h>
-#include <asm/regdef.h>
-#include <asm/mipsregs.h>
-#include <asm/stackframe.h>
-#include <asm/addrspace.h>
-#include <asm/hazards.h>
-#include <asm/bmips.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/cacheops.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/bmips.h>
 
 #ifdef CONFIG_CPU_BMIPS5000
 

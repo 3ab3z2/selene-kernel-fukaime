@@ -33,7 +33,7 @@
 #include <linux/uaccess.h>		/* For copy_to_user/put_user/... */
 #include <linux/io.h>			/* For devm_ioremap_nocache */
 
-#include <asm/mach-rc32434/integ.h>	/* For the Watchdog registers */
+#include <asm-generic/mach-rc32434/integ.h>	/* For the Watchdog registers */
 
 #define VERSION "1.0"
 

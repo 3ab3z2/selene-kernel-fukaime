@@ -8,12 +8,12 @@
 #include <linux/cpu.h>
 #include <linux/debugfs.h>
 
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
-#include <asm/nospec-branch.h>
-#include <asm/cache.h>
-#include <asm/apic.h>
-#include <asm/uv/uv.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/nospec-branch.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/uv/uv.h>
 
 /*
  *	TLB flushing, formerly SMP-only

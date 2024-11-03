@@ -9,11 +9,11 @@
 
 #include <linux/kernel.h>
 #include <linux/smp.h>
-#include <asm/sn/types.h>
-#include <asm/sn/klconfig.h>
-#include <asm/sn/hub.h>
-#include <asm/pci/bridge.h>
-#include <asm/xtalk/xtalk.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/hub.h>
+#include <asm-generic/pci/bridge.h>
+#include <asm-generic/xtalk/xtalk.h>
 
 
 #define XBOW_WIDGET_PART_NUM	0x0

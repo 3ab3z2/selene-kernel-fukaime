@@ -38,15 +38,15 @@
 #include <linux/of_irq.h>
 
 #include <linux/atomic.h>
-#include <asm/cpu.h>
-#include <asm/processor.h>
-#include <asm/idle.h>
-#include <asm/r4k-timer.h>
-#include <asm/mips-cps.h>
-#include <asm/mmu_context.h>
-#include <asm/time.h>
-#include <asm/setup.h>
-#include <asm/maar.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/r4k-timer.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/time.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/maar.h>
 
 int __cpu_number_map[NR_CPUS];		/* Map physical to logical */
 EXPORT_SYMBOL(__cpu_number_map);

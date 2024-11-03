@@ -24,9 +24,9 @@
 #include <linux/reboot.h>
 #include <linux/sched/signal.h>
 
-#include <asm/firmware.h>
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
 
 #include "vuart.h"
 

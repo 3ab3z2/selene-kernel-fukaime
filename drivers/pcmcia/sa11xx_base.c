@@ -40,7 +40,7 @@
 #include <linux/slab.h>
 
 #include <mach/hardware.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "soc_common.h"
 #include "sa11xx_base.h"

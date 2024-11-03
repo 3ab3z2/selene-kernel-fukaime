@@ -6,8 +6,8 @@
 #include <linux/kernel.h>
 #include <linux/compat.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
-#include <asm/thread_info.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/thread_info.h>
 
 /*
  * The syscall table always contains 32 bit pointers since we know that the

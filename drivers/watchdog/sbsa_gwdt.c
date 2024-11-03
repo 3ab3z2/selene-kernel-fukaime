@@ -59,7 +59,7 @@
 #include <linux/platform_device.h>
 #include <linux/uaccess.h>
 #include <linux/watchdog.h>
-#include <asm/arch_timer.h>
+#include <asm-generic/arch_timer.h>
 
 #define DRV_NAME		"sbsa-gwdt"
 #define WATCHDOG_NAME		"SBSA Generic Watchdog"

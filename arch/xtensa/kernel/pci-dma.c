@@ -23,8 +23,8 @@
 #include <linux/pci.h>
 #include <linux/string.h>
 #include <linux/types.h>
-#include <asm/cacheflush.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
 
 void dma_cache_sync(struct device *dev, void *vaddr, size_t size,
 		    enum dma_data_direction dir)

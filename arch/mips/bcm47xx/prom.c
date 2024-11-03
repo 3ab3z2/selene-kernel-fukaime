@@ -31,7 +31,7 @@
 #include <linux/ssb/ssb_driver_chipcommon.h>
 #include <linux/ssb/ssb_regs.h>
 #include <linux/smp.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 #include <bcm47xx.h>
 #include <bcm47xx_board.h>
 
@@ -121,7 +121,7 @@ void __init prom_free_prom_memory(void)
 #define EXTVBASE	0xc0000000
 #define ENTRYLO(x)	((pte_val(pfn_pte((x) >> _PFN_SHIFT, PAGE_KERNEL_UNCACHED)) >> 6) | 1)
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 /* Stripped version of tlb_init, with the call to build_tlb_refill_handler
  * dropped. Calling it at this stage causes a hang.

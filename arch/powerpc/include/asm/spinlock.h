@@ -17,16 +17,16 @@
  * as published by the Free Software Foundation; either version
  * 2 of the License, or (at your option) any later version.
  *
- * (the type definitions are in asm/spinlock_types.h)
+ * (the type definitions are in asm-generic/spinlock_types.h)
  */
 #include <linux/irqflags.h>
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
-#include <asm/hvcall.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/hvcall.h>
 #endif
-#include <asm/asm-compat.h>
-#include <asm/synch.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/ppc-opcode.h>
 
 #ifdef CONFIG_PPC64
 /* use 0x800000yy when locked, where yy == CPU number */

@@ -19,7 +19,7 @@
 #include "util.h"
 #include "cpumap.h"
 #include "perf_regs.h"
-#include "asm/bug.h"
+#include "asm-generic/bug.h"
 #include "auxtrace.h"
 #include "thread.h"
 #include "thread-stack.h"

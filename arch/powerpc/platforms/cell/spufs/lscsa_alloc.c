@@ -25,9 +25,9 @@
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 
-#include <asm/spu.h>
-#include <asm/spu_csa.h>
-#include <asm/mmu.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_csa.h>
+#include <asm-generic/mmu.h>
 
 #include "spufs.h"
 

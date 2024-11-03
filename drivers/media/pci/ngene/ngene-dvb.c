@@ -29,7 +29,7 @@
 #include <linux/slab.h>
 #include <linux/poll.h>
 #include <linux/io.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/pci.h>
 #include <linux/timer.h>
 #include <linux/byteorder/generic.h>

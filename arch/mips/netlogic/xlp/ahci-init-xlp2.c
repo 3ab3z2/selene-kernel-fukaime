@@ -42,14 +42,14 @@
 #include <linux/pci_ids.h>
 #include <linux/nodemask.h>
 
-#include <asm/cpu.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mipsregs.h>
 
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/mips-extns.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
 
 #define SATA_CTL		0x0
 #define SATA_STATUS		0x1 /* Status Reg */

@@ -11,7 +11,7 @@
 #define TXX9DMAC_H
 
 #include <linux/dmaengine.h>
-#include <asm/txx9/dmac.h>
+#include <asm-generic/txx9/dmac.h>
 
 /*
  * Design Notes:

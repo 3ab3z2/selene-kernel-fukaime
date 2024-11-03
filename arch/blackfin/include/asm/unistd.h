@@ -6,7 +6,7 @@
 #ifndef __ASM_BFIN_UNISTD_H
 #define __ASM_BFIN_UNISTD_H
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #define __ARCH_WANT_STAT64
 #define __ARCH_WANT_SYS_ALARM

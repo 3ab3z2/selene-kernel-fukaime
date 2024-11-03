@@ -14,8 +14,8 @@
 #include <linux/sched.h>
 #include <linux/console.h>
 #include <linux/init.h>
-#include <asm/processor.h>
-#include <asm/udbg.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/udbg.h>
 
 void (*udbg_putc)(char c);
 void (*udbg_flush)(void);

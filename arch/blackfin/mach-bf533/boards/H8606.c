@@ -19,10 +19,10 @@
 #endif
 #include <linux/irq.h>
 
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/reboot.h>
-#include <asm/portmux.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/portmux.h>
 
 /*
  * Name the Board for the /proc/cpuinfo

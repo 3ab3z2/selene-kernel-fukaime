@@ -7,8 +7,8 @@
 #include <linux/spinlock.h>
 #include <linux/of_irq.h>
 
-#include <asm/pmac_feature.h>
-#include <asm/pmac_pfunc.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/pmac_pfunc.h>
 
 #undef DEBUG
 #ifdef DEBUG

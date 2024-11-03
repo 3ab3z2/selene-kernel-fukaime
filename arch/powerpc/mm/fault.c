@@ -37,14 +37,14 @@
 #include <linux/hugetlb.h>
 #include <linux/uaccess.h>
 
-#include <asm/firmware.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
-#include <asm/siginfo.h>
-#include <asm/debug.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/debug.h>
 
 static inline bool notify_page_fault(struct pt_regs *regs)
 {

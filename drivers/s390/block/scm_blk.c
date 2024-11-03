@@ -17,7 +17,7 @@
 #include <linux/genhd.h>
 #include <linux/slab.h>
 #include <linux/list.h>
-#include <asm/eadm.h>
+#include <asm-generic/eadm.h>
 #include "scm_blk.h"
 
 debug_info_t *scm_debug;

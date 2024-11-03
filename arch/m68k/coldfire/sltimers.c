@@ -19,12 +19,12 @@
 #include <linux/irq.h>
 #include <linux/profile.h>
 #include <linux/clocksource.h>
-#include <asm/io.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/mcfslt.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/io.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfslt.h>
+#include <asm-generic/mcfsim.h>
 
 /***************************************************************************/
 

@@ -19,7 +19,7 @@
 #include <linux/clk.h>
 #include <linux/err.h>
 #include <linux/io.h>
-#include <asm/txx9tmr.h>
+#include <asm-generic/txx9tmr.h>
 
 #define WD_TIMER_CCD	7		/* 1/256 */
 #define WD_TIMER_CLK	(clk_get_rate(txx9_imclk) / (2 << WD_TIMER_CCD))

@@ -17,8 +17,8 @@
 #include <linux/personality.h>
 #include <linux/tracehook.h>
 
-#include <asm/ucontext.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/cacheflush.h>
 
 #define _BLOCKABLE (~(sigmask(SIGKILL) | sigmask(SIGSTOP)))
 

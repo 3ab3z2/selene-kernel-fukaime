@@ -11,9 +11,9 @@
 #include <linux/sched.h>
 #include <linux/module.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/auxio.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/auxio.h>
 
 extern void restore_current(void);
 

@@ -16,8 +16,8 @@
 #define _ASM_MICROBLAZE_PAGE_H
 
 #include <linux/pfn.h>
-#include <asm/setup.h>
-#include <asm/asm-compat.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/asm-compat.h>
 #include <linux/const.h>
 
 #ifdef __KERNEL__

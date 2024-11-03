@@ -28,7 +28,7 @@
  *			transfers
  *  02-05-1998	RMK	Added extra checks in fas216_reset
  *  24-05-1998	RMK	Fixed synchronous transfers with period >= 200ns
- *  27-06-1998	RMK	Changed asm/delay.h to linux/delay.h
+ *  27-06-1998	RMK	Changed asm-generic/delay.h to linux/delay.h
  *  26-08-1998	RMK	Improved message support wrt MESSAGE_REJECT
  *  02-04-2000	RMK	Converted to use the new error handling, and
  *			automatically request sense data upon check
@@ -45,10 +45,10 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/ecard.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/ecard.h>
 
 #include "../scsi.h"
 #include <scsi/scsi_dbg.h>

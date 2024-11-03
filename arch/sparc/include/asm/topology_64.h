@@ -4,7 +4,7 @@
 
 #ifdef CONFIG_NUMA
 
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 
 static inline int cpu_to_node(int cpu)
 {
@@ -43,7 +43,7 @@ int __node_distance(int, int);
 
 #ifdef CONFIG_SMP
 
-#include <asm/cpudata.h>
+#include <asm-generic/cpudata.h>
 
 #define topology_physical_package_id(cpu)	(cpu_data(cpu).proc_id)
 #define topology_core_id(cpu)			(cpu_data(cpu).core_id)

@@ -3,7 +3,7 @@
 #include <linux/linkage.h>
 #include <linux/errno.h>
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 /*  we can't #include <linux/syscalls.h> here,
     but tell gcc to not warn with -Wmissing-prototypes  */

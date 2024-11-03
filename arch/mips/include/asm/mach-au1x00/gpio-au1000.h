@@ -9,7 +9,7 @@
 #ifndef _ALCHEMY_GPIO_AU1000_H_
 #define _ALCHEMY_GPIO_AU1000_H_
 
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 /* The default GPIO numberspace as documented in the Alchemy manuals.
  * GPIO0-31 from GPIO1 block,	GPIO200-215 from GPIO2 block.

@@ -6,7 +6,7 @@
 #include <linux/mm.h>
 #include <linux/sched.h>
 #include <linux/uaccess.h>
-#include <asm/ptrace-abi.h>
+#include <asm-generic/ptrace-abi.h>
 #include <skas.h>
 
 extern int arch_switch_tls(struct task_struct *to);

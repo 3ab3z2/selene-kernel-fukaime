@@ -43,13 +43,13 @@
 #include <linux/resource.h>
 #include <linux/phy.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/xlr/fmn.h>
-#include <asm/netlogic/xlr/xlr.h>
-#include <asm/netlogic/psb-bootinfo.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/psb-bootinfo.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
 
 #include "platform_net.h"
 

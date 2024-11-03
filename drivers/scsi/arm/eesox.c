@@ -18,7 +18,7 @@
  *   14-03-1998	RMK		Updated DMA support
  *				Added terminator control
  *   15-04-1998	RMK		Only do PIO if FAS216 will allow it.
- *   27-06-1998	RMK		Changed asm/delay.h to linux/delay.h
+ *   27-06-1998	RMK		Changed asm-generic/delay.h to linux/delay.h
  *   02-04-2000	RMK	0.0.3	Fixed NO_IRQ/NO_DMA problem, updated for new
  *				error handling code.
  */
@@ -33,10 +33,10 @@
 #include <linux/init.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/ecard.h>
-#include <asm/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/ecard.h>
+#include <asm-generic/pgtable.h>
 
 #include "../scsi.h"
 #include <scsi/scsi_host.h>

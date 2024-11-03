@@ -19,9 +19,9 @@
 #include <linux/slab.h>
 #include <linux/mutex.h>
 #include <linux/rculist.h>
-#include <asm/e820/api.h>
-#include <asm/pci_x86.h>
-#include <asm/acpi.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/acpi.h>
 
 #define PREFIX "PCI: "
 

@@ -6,11 +6,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
-#include <asm/cache.h>
-#include <asm/asm-offsets.h>
-#include <asm/rwlock.h>
-#include <asm/cplb.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/rwlock.h>
+#include <asm-generic/cplb.h>
 
 .text
 

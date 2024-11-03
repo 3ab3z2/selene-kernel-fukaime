@@ -7,7 +7,7 @@
  */
 
 #include <linux/uaccess.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 static int validate_memory_access_address(unsigned long addr, int size)
 {

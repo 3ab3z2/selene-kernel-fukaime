@@ -23,7 +23,7 @@
 #include <linux/delay.h>
 #include <linux/smp.h>
 
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 
 /*
  * The watchdog has a simple timer that runs on each CPU, once per timer

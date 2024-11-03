@@ -11,14 +11,14 @@
 #include <linux/mm_types.h>
 #include <linux/mmzone.h>
 #ifdef CONFIG_32BIT
-#include <asm/pgtable-32.h>
+#include <asm-generic/pgtable-32.h>
 #endif
 #ifdef CONFIG_64BIT
-#include <asm/pgtable-64.h>
+#include <asm-generic/pgtable-64.h>
 #endif
 
-#include <asm/io.h>
-#include <asm/pgtable-bits.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable-bits.h>
 
 struct mm_struct;
 struct vm_area_struct;

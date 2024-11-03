@@ -14,7 +14,7 @@
 #include <linux/interrupt.h>
 #include <linux/kernel.h>
 #include <linux/timer.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include "hpsim_ssc.h"
 
 #include <scsi/scsi.h>

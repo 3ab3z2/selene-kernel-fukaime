@@ -24,9 +24,9 @@
 #include <linux/sched.h>
 #include <linux/bootmem.h>
 
-#include <asm/addrspace.h>
-#include <asm/bootinfo.h>
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/emma/emma2rh.h>
 
 const char *get_system_type(void)
 {

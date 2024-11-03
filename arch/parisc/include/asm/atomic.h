@@ -7,8 +7,8 @@
 #define _ASM_PARISC_ATOMIC_H_
 
 #include <linux/types.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for
@@ -19,8 +19,8 @@
  */
 
 #ifdef CONFIG_SMP
-#include <asm/spinlock.h>
-#include <asm/cache.h>		/* we use L1_CACHE_BYTES */
+#include <asm-generic/spinlock.h>
+#include <asm-generic/cache.h>		/* we use L1_CACHE_BYTES */
 
 /* Use an array of spinlocks for our atomic_ts.
  * Hash function to index into a different SPINLOCK.

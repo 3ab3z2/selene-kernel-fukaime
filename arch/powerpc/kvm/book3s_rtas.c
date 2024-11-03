@@ -12,11 +12,11 @@
 #include <linux/err.h>
 
 #include <linux/uaccess.h>
-#include <asm/kvm_book3s.h>
-#include <asm/kvm_ppc.h>
-#include <asm/hvcall.h>
-#include <asm/rtas.h>
-#include <asm/xive.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/xive.h>
 
 #ifdef CONFIG_KVM_XICS
 static void kvm_rtas_set_xive(struct kvm_vcpu *vcpu, struct rtas_args *args)

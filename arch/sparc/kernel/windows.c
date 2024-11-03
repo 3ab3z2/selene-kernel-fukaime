@@ -11,7 +11,7 @@
 #include <linux/mm.h>
 #include <linux/smp.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
 
 #include "kernel.h"

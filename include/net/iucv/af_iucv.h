@@ -10,7 +10,7 @@
 #ifndef __AFIUCV_H
 #define __AFIUCV_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/byteorder.h>
 #include <linux/list.h>
 #include <linux/poll.h>

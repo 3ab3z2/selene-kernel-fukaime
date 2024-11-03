@@ -75,8 +75,8 @@
 #include <linux/timer.h>
 #include <linux/dmi.h>
 #include <drm/i915_drm.h>
-#include <asm/msr.h>
-#include <asm/processor.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/processor.h>
 #include "intel_ips.h"
 
 #include <linux/io-64-nonatomic-lo-hi.h>

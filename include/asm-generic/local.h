@@ -4,7 +4,7 @@
 
 #include <linux/percpu.h>
 #include <linux/atomic.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * A signed long type for operations which are atomic for a single CPU.

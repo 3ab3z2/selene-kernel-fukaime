@@ -26,7 +26,7 @@
 #include <linux/usb.h>
 #include <linux/usb/hcd.h>
 #include <soc/fsl/qe/qe.h>
-#include <asm/fsl_gtm.h>
+#include <asm-generic/fsl_gtm.h>
 #include "fhci.h"
 
 static void recycle_frame(struct fhci_usb *usb, struct packet *pkt)

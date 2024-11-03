@@ -16,12 +16,12 @@
 #include <linux/sizes.h>
 #include <linux/threads.h>
 
-#include <asm/cachectl.h>
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
-#include <asm/dsemul.h>
-#include <asm/mipsregs.h>
-#include <asm/prefetch.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/dsemul.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/prefetch.h>
 
 /*
  * Return current * instruction pointer ("program counter").
@@ -130,7 +130,7 @@ BUILD_FPR_ACCESS(64)
 /*
  * It would be nice to add some more fields for emulator statistics,
  * the additional information is private to the FPU emulator for now.
- * See arch/mips/include/asm/fpu_emulator.h.
+ * See arch/mips/include/asm-generic/fpu_emulator.h.
  */
 
 struct mips_fpu_struct {

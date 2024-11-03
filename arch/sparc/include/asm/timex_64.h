@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * linux/include/asm/timex.h
+ * linux/include/asm-generic/timex.h
  *
  * sparc64 architecture timex specifications
  */
 #ifndef _ASMsparc64_TIMEX_H
 #define _ASMsparc64_TIMEX_H
 
-#include <asm/timer.h>
+#include <asm-generic/timer.h>
 
 #define CLOCK_TICK_RATE	1193180 /* Underlying HZ */
 

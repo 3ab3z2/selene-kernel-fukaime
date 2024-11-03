@@ -23,7 +23,7 @@
 #include <sound/soc.h>
 #include <sound/jack.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/audio.h>
 #include <linux/platform_data/asoc-palm27x.h>
 

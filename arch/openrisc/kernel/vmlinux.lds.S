@@ -26,8 +26,8 @@
 #  define LOAD_OFFSET  PAGE_OFFSET
 #  define LOAD_BASE    PAGE_OFFSET
 
-#include <asm/page.h>
-#include <asm/cache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
 #include <asm-generic/vmlinux.lds.h>
 
 #ifdef __OR1K__

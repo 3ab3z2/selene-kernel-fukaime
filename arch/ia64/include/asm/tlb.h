@@ -42,10 +42,10 @@
 #include <linux/pagemap.h>
 #include <linux/swap.h>
 
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/tlbflush.h>
-#include <asm/machvec.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/machvec.h>
 
 /*
  * If we can't allocate a page to make a big batch of page pointers

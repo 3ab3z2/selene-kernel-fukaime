@@ -13,7 +13,7 @@
 #include <linux/io.h>
 #include <linux/pci.h>
 
-#include <asm/mach-malta/malta-pm.h>
+#include <asm-generic/mach-malta/malta-pm.h>
 
 static struct pci_bus *pm_pci_bus;
 static resource_size_t pm_io_offset;

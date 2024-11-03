@@ -29,8 +29,8 @@
 #include <asm-generic/pgtable-nopmd.h>
 
 #ifndef __ASSEMBLY__
-#include <asm/mmu.h>
-#include <asm/fixmap.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/fixmap.h>
 
 /*
  * The Linux memory management assumes a three-level page table setup. On

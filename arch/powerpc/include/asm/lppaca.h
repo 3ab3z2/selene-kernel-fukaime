@@ -32,8 +32,8 @@
  */
 #include <linux/cache.h>
 #include <linux/threads.h>
-#include <asm/types.h>
-#include <asm/mmu.h>
+#include <asm-generic/types.h>
+#include <asm-generic/mmu.h>
 
 /*
  * We only have to have statically allocated lppaca structs on

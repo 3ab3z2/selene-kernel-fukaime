@@ -2,8 +2,8 @@
 #define _PPC64_PPC32_H
 
 #include <linux/compat.h>
-#include <asm/siginfo.h>
-#include <asm/signal.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/signal.h>
 
 /*
  * Data types and macros for providing 32b PowerPC support.

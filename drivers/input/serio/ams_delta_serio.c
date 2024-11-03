@@ -26,7 +26,7 @@
 #include <linux/slab.h>
 #include <linux/module.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/board-ams-delta.h>
 
 #include <mach/ams-delta-fiq.h>

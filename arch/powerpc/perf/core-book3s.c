@@ -14,12 +14,12 @@
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
 #include <linux/uaccess.h>
-#include <asm/reg.h>
-#include <asm/pmc.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/ptrace.h>
-#include <asm/code-patching.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/code-patching.h>
 
 #define BHRB_MAX_ENTRIES	32
 #define BHRB_TARGET		0x0000000000000002

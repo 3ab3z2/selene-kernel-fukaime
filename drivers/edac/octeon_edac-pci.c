@@ -13,10 +13,10 @@
 #include <linux/io.h>
 #include <linux/edac.h>
 
-#include <asm/octeon/cvmx.h>
-#include <asm/octeon/cvmx-npi-defs.h>
-#include <asm/octeon/cvmx-pci-defs.h>
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/octeon/cvmx-npi-defs.h>
+#include <asm-generic/octeon/cvmx-pci-defs.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "edac_module.h"
 

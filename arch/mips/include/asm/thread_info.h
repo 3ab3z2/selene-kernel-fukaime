@@ -13,7 +13,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 /*
  * low level task data that entry.S needs immediate access to

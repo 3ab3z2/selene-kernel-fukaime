@@ -27,20 +27,20 @@
 #include <linux/nospec.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/fpu/internal.h>
-#include <asm/fpu/signal.h>
-#include <asm/fpu/regset.h>
-#include <asm/debugreg.h>
-#include <asm/ldt.h>
-#include <asm/desc.h>
-#include <asm/prctl.h>
-#include <asm/proto.h>
-#include <asm/hw_breakpoint.h>
-#include <asm/traps.h>
-#include <asm/syscall.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/fpu/internal.h>
+#include <asm-generic/fpu/signal.h>
+#include <asm-generic/fpu/regset.h>
+#include <asm-generic/debugreg.h>
+#include <asm-generic/ldt.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/prctl.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/hw_breakpoint.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/mmu_context.h>
 
 #include "tls.h"
 
@@ -929,8 +929,8 @@ long arch_ptrace(struct task_struct *child, long request,
 
 #include <linux/compat.h>
 #include <linux/syscalls.h>
-#include <asm/ia32.h>
-#include <asm/user32.h>
+#include <asm-generic/ia32.h>
+#include <asm-generic/user32.h>
 
 #define R32(l,q)							\
 	case offsetof(struct user32, regs.l):				\

@@ -19,9 +19,9 @@
 #include <linux/io.h>
 #include <linux/pci.h>
 #include <linux/fs.h>
-#include <asm/cputable.h>
-#include <asm/mmu.h>
-#include <asm/reg.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/reg.h>
 #include <misc/cxl-base.h>
 
 #include <misc/cxl.h>

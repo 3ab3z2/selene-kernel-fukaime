@@ -37,16 +37,16 @@
 #include <linux/mm.h>
 #include <linux/delay.h>
 
-#include <asm/mipsregs.h>
-#include <asm/time.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/time.h>
 
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/bridge.h>
-#include <asm/netlogic/xlp-hal/pic.h>
-#include <asm/netlogic/xlp-hal/sys.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/bridge.h>
+#include <asm-generic/netlogic/xlp-hal/pic.h>
+#include <asm-generic/netlogic/xlp-hal/sys.h>
 
 /* Main initialization */
 void nlm_node_init(int node)

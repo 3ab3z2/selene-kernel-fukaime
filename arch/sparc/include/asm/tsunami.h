@@ -8,7 +8,7 @@
 #ifndef _SPARC_TSUNAMI_H
 #define _SPARC_TSUNAMI_H
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 /* The MMU control register on the Tsunami:
  *

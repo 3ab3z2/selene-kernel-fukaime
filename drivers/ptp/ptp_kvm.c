@@ -20,10 +20,10 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <uapi/linux/kvm_para.h>
-#include <asm/kvm_para.h>
-#include <asm/pvclock.h>
-#include <asm/kvmclock.h>
-#include <uapi/asm/kvm_para.h>
+#include <asm-generic/kvm_para.h>
+#include <asm-generic/pvclock.h>
+#include <asm-generic/kvmclock.h>
+#include <uapi/asm-generic/kvm_para.h>
 
 #include <linux/ptp_clock_kernel.h>
 

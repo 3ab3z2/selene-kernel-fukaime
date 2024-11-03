@@ -19,8 +19,8 @@
 #include <linux/glob.h>
 
 #ifdef CONFIG_FTRACE_SYSCALLS
-#include <asm/unistd.h>		/* For NR_SYSCALLS	     */
-#include <asm/syscall.h>	/* some archs define it here */
+#include <asm-generic/unistd.h>		/* For NR_SYSCALLS	     */
+#include <asm-generic/syscall.h>	/* some archs define it here */
 #endif
 
 enum trace_type {

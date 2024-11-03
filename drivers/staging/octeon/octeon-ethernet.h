@@ -16,7 +16,7 @@
 
 #include <linux/of.h>
 
-#include <asm/octeon/cvmx-helper-board.h>
+#include <asm-generic/octeon/cvmx-helper-board.h>
 
 /**
  * This is the definition of the Ethernet driver's private

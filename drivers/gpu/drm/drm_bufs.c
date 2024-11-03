@@ -32,7 +32,7 @@
 #include <linux/slab.h>
 #include <linux/log2.h>
 #include <linux/export.h>
-#include <asm/shmparam.h>
+#include <asm-generic/shmparam.h>
 #include <drm/drmP.h>
 #include "drm_legacy.h"
 

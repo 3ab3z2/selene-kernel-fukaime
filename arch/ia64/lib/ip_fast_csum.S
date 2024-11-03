@@ -13,8 +13,8 @@
  * Copyright (C) 2002, 2006 Ken Chen <kenneth.w.chen@intel.com>
  */
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 /*
  * Since we know that most likely this function is called with buf aligned

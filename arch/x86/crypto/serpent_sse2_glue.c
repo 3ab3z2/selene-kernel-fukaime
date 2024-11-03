@@ -42,8 +42,8 @@
 #include <crypto/ctr.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/crypto/serpent-sse2.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/crypto/serpent-sse2.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 static void serpent_decrypt_cbc_xway(void *ctx, u128 *dst, const u128 *src)
 {

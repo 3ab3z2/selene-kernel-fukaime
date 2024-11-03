@@ -22,12 +22,12 @@
 #include <linux/virtio_ring.h>
 #include <linux/export.h>
 #include <linux/pfn.h>
-#include <asm/io.h>
-#include <asm/kvm_para.h>
-#include <asm/kvm_virtio.h>
-#include <asm/sclp.h>
-#include <asm/setup.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/kvm_para.h>
+#include <asm-generic/kvm_virtio.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
 
 #define VIRTIO_SUBCODE_64 0x0D00
 

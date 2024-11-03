@@ -9,7 +9,7 @@
 #ifndef __BFIN_ASM_FIXED_CODE_H__
 #define __BFIN_ASM_FIXED_CODE_H__
 
-#include <uapi/asm/fixed_code.h>
+#include <uapi/asm-generic/fixed_code.h>
 
 #ifndef __ASSEMBLY__
 #include <linux/linkage.h>

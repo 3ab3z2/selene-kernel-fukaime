@@ -30,9 +30,9 @@
 #include <linux/sysfs.h>
 #include <linux/types.h>
 
-#include <asm/arm_dsu_pmu.h>
-#include <asm/local64.h>
-#include <asm/smp_plat.h>
+#include <asm-generic/arm_dsu_pmu.h>
+#include <asm-generic/local64.h>
+#include <asm-generic/smp_plat.h>
 
 /* PMU event codes */
 #define DSU_PMU_EVT_CYCLES		0x11

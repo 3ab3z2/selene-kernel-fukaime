@@ -40,10 +40,10 @@
 #include <linux/workqueue.h>
 #include <linux/debugfs.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 
 
 #define DRIVER_AUTHOR "Roman Weissgaerber, David Brownell"

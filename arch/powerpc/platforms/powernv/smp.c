@@ -20,28 +20,28 @@
 #include <linux/spinlock.h>
 #include <linux/cpu.h>
 
-#include <asm/irq.h>
-#include <asm/smp.h>
-#include <asm/paca.h>
-#include <asm/machdep.h>
-#include <asm/cputable.h>
-#include <asm/firmware.h>
-#include <asm/vdso_datapage.h>
-#include <asm/cputhreads.h>
-#include <asm/xics.h>
-#include <asm/xive.h>
-#include <asm/opal.h>
-#include <asm/runlatch.h>
-#include <asm/code-patching.h>
-#include <asm/dbell.h>
-#include <asm/kvm_ppc.h>
-#include <asm/ppc-opcode.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/runlatch.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/cpuidle.h>
 
 #include "powernv.h"
 
 #ifdef DEBUG
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 #define DBG(fmt...) udbg_printf(fmt)
 #else
 #define DBG(fmt...) do { } while (0)

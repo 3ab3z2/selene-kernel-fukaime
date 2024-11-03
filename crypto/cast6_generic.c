@@ -18,7 +18,7 @@
  */
 
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/init.h>
 #include <linux/crypto.h>
 #include <linux/module.h>

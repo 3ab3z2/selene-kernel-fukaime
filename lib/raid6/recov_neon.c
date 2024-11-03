@@ -11,7 +11,7 @@
 #include <linux/raid/pq.h>
 
 #ifdef __KERNEL__
-#include <asm/neon.h>
+#include <asm-generic/neon.h>
 #else
 #define kernel_neon_begin()
 #define kernel_neon_end()

@@ -17,10 +17,10 @@
 #include <linux/err.h>
 #include <linux/export.h>
 #include <linux/slab.h>
-#include <asm/prom.h>
-#include <asm/hw_irq.h>
-#include <asm/ppc-pci.h>
-#include <asm/mpic_msgr.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/mpic_msgr.h>
 
 #define MPIC_MSGR_REGISTERS_PER_BLOCK	4
 #define MPIC_MSGR_STRIDE		0x10

@@ -28,8 +28,8 @@
 #include <linux/delay.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/rtas.h>
-#include <asm/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/prom.h>
 
 #define MODULE_VERS "1.0"
 #define MODULE_NAME "scanlog"

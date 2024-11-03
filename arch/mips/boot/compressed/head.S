@@ -12,8 +12,8 @@
  * Copyright (C) 1999 Silicon Graphics, Inc.
  */
 
-#include <asm/asm.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/regdef.h>
 
 	.set noreorder
 	.cprestore

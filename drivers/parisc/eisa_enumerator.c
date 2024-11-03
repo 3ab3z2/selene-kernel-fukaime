@@ -14,12 +14,12 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
-#include <asm/eisa_bus.h>
-#include <asm/eisa_eeprom.h>
+#include <asm-generic/eisa_bus.h>
+#include <asm-generic/eisa_eeprom.h>
 
 
 /*

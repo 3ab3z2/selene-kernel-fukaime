@@ -10,7 +10,7 @@
  * published by the Free Software Foundation.
  */
 #include <crypto/internal/hash.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/string.h>

@@ -14,15 +14,15 @@
 #include <linux/clocksource.h>
 #include <linux/clockchips.h>
 
-#include <asm/oplib.h>
-#include <asm/timer.h>
-#include <asm/prom.h>
-#include <asm/leon.h>
-#include <asm/leon_amba.h>
-#include <asm/traps.h>
-#include <asm/cacheflush.h>
-#include <asm/smp.h>
-#include <asm/setup.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/leon_amba.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/setup.h>
 
 #include "kernel.h"
 #include "prom.h"

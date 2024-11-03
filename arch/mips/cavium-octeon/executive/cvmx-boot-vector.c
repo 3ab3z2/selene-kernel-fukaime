@@ -107,7 +107,7 @@ wait_loop:
 
  */
 
-#include <asm/octeon/cvmx-boot-vector.h>
+#include <asm-generic/octeon/cvmx-boot-vector.h>
 
 static unsigned long long _cvmx_bootvector_data[16] = {
 	0x40baf80040bbf803ull,  /* patch low order 8-bits if no KScratch*/

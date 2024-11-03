@@ -8,7 +8,7 @@
 #ifndef __ASM_SGI_WD_H
 #define __ASM_SGI_WD_H
 
-#include <asm/sgi/hpc3.h>
+#include <asm-generic/sgi/hpc3.h>
 
 struct sgiwd93_platform_data {
 	unsigned int unit;

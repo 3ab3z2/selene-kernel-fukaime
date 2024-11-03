@@ -5,8 +5,8 @@
 #include <linux/sched.h>
 #include <linux/ptrace.h>
 
-#include <asm/page.h>
-#include <asm/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/reg.h>
 
 /*
  * Core file format: The core file is written in such a way that gdb

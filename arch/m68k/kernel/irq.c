@@ -15,7 +15,7 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/seq_file.h>
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 asmlinkage void do_IRQ(int irq, struct pt_regs *regs)
 {

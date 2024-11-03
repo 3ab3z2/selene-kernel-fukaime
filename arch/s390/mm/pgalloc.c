@@ -8,11 +8,11 @@
 
 #include <linux/mm.h>
 #include <linux/sysctl.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
-#include <asm/gmap.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
 
 #ifdef CONFIG_PGSTE
 

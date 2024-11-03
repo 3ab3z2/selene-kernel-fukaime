@@ -11,7 +11,7 @@
 #include <linux/bitops.h>
 #include <linux/cryptohash.h>
 #include <linux/string.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * If you have 32 registers or more, the compiler can (and should)

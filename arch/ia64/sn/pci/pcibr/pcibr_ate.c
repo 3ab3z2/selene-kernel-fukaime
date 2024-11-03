@@ -7,10 +7,10 @@
  */
 
 #include <linux/types.h>
-#include <asm/sn/sn_sal.h>
-#include <asm/sn/pcibr_provider.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
+#include <asm-generic/sn/sn_sal.h>
+#include <asm-generic/sn/pcibr_provider.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
 
 int pcibr_invalidate_ate;	/* by default don't invalidate ATE on free */
 

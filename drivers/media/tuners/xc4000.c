@@ -25,7 +25,7 @@
 #include <linux/dvb/frontend.h>
 #include <linux/i2c.h>
 #include <linux/mutex.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "dvb_frontend.h"
 

@@ -35,24 +35,24 @@
 #include <linux/cpu.h>
 #include <linux/compiler.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
-#include <asm/code-patching.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/time.h>
-#include <asm/mpic.h>
-#include <asm/cacheflush.h>
-#include <asm/keylargo.h>
-#include <asm/pmac_low_i2c.h>
-#include <asm/pmac_pfunc.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/keylargo.h>
+#include <asm-generic/pmac_low_i2c.h>
+#include <asm-generic/pmac_pfunc.h>
 
 #include "pmac.h"
 

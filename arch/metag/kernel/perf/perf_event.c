@@ -21,10 +21,10 @@
 #include <linux/perf_event.h>
 #include <linux/slab.h>
 
-#include <asm/core_reg.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/processor.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/processor.h>
 
 #include "perf_event.h"
 

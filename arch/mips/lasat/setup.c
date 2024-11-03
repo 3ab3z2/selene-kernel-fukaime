@@ -28,21 +28,21 @@
 #include <linux/interrupt.h>
 #include <linux/tty.h>
 
-#include <asm/time.h>
-#include <asm/cpu.h>
-#include <asm/bootinfo.h>
-#include <asm/irq.h>
-#include <asm/lasat/lasat.h>
-#include <asm/lasat/serial.h>
+#include <asm-generic/time.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/lasat/lasat.h>
+#include <asm-generic/lasat/serial.h>
 
 #ifdef CONFIG_PICVUE
 #include <linux/notifier.h>
 #endif
 
 #include "ds1603.h"
-#include <asm/lasat/ds1603.h>
-#include <asm/lasat/picvue.h>
-#include <asm/lasat/eeprom.h>
+#include <asm-generic/lasat/ds1603.h>
+#include <asm-generic/lasat/picvue.h>
+#include <asm-generic/lasat/eeprom.h>
 
 #include "prom.h"
 

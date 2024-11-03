@@ -21,11 +21,11 @@
 #include <linux/init.h>
 #include <linux/cpu.h>
 #include <linux/irq.h>
-#include <asm/irq_regs.h>
-#include <asm/cputime.h>
-#include <asm/lowcore.h>
-#include <asm/irq.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/cputime.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hw_irq.h>
 #include "entry.h"
 
 DEFINE_PER_CPU_SHARED_ALIGNED(struct irq_stat, irq_stat);

@@ -23,7 +23,7 @@
 
 #include <linux/of.h>
 #include <linux/kernel.h>
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 static int mode_spin;
 

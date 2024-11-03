@@ -12,18 +12,18 @@
 #define _XTENSA_MMU_CONTEXT_H
 
 #ifndef CONFIG_MMU
-#include <asm/nommu_context.h>
+#include <asm-generic/nommu_context.h>
 #else
 
 #include <linux/stringify.h>
 #include <linux/sched.h>
 #include <linux/mm_types.h>
 
-#include <asm/vectors.h>
+#include <asm-generic/vectors.h>
 
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 #include <asm-generic/mm_hooks.h>
 #include <asm-generic/percpu.h>
 

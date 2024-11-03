@@ -37,11 +37,11 @@
 #include <net/sock.h>
 #include <net/scm.h>
 
-#include <asm/compat-signal.h>
-#include <asm/sim.h>
+#include <asm-generic/compat-signal.h>
+#include <asm-generic/sim.h>
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/mman.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/mman.h>
 
 /* Use this to get at 32-bit user passed pointers. */
 /* A() macro should be used for places where you e.g.

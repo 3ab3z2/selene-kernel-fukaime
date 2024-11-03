@@ -50,12 +50,12 @@
 #include <linux/security.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/tlbflush.h>
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/vm86.h>
-#include <asm/switch_to.h>
+#include <asm-generic/io.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/vm86.h>
+#include <asm-generic/switch_to.h>
 
 /*
  * Known problems:

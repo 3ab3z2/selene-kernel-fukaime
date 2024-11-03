@@ -7,8 +7,8 @@
  */
 
 #include <linux/interrupt.h>
-#include <asm/hardware.h>
-#include <asm/parisc-device.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/parisc-device.h>
 
 #define OFFSET_IRR 0x0000   /* Interrupt request register */
 #define OFFSET_IMR 0x0004   /* Interrupt mask register */

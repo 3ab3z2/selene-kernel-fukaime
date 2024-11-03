@@ -6,10 +6,10 @@
 
 #include <linux/kernel.h>
 #include <linux/mm.h>
-#include <asm/compiler.h>
-#include <asm/pgtable.h>
-#include <asm/machvec.h>
-#include <asm/hwrpb.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/hwrpb.h>
 
 /* The generic header contains only prototypes.  Including it ensures that
    the implementation we have here matches that interface.  */
@@ -210,29 +210,29 @@ static inline int generic_is_mmio(const volatile void __iomem *a)
 #else
 
 #if defined(CONFIG_ALPHA_APECS)
-# include <asm/core_apecs.h>
+# include <asm-generic/core_apecs.h>
 #elif defined(CONFIG_ALPHA_CIA)
-# include <asm/core_cia.h>
+# include <asm-generic/core_cia.h>
 #elif defined(CONFIG_ALPHA_IRONGATE)
-# include <asm/core_irongate.h>
+# include <asm-generic/core_irongate.h>
 #elif defined(CONFIG_ALPHA_JENSEN)
-# include <asm/jensen.h>
+# include <asm-generic/jensen.h>
 #elif defined(CONFIG_ALPHA_LCA)
-# include <asm/core_lca.h>
+# include <asm-generic/core_lca.h>
 #elif defined(CONFIG_ALPHA_MARVEL)
-# include <asm/core_marvel.h>
+# include <asm-generic/core_marvel.h>
 #elif defined(CONFIG_ALPHA_MCPCIA)
-# include <asm/core_mcpcia.h>
+# include <asm-generic/core_mcpcia.h>
 #elif defined(CONFIG_ALPHA_POLARIS)
-# include <asm/core_polaris.h>
+# include <asm-generic/core_polaris.h>
 #elif defined(CONFIG_ALPHA_T2)
-# include <asm/core_t2.h>
+# include <asm-generic/core_t2.h>
 #elif defined(CONFIG_ALPHA_TSUNAMI)
-# include <asm/core_tsunami.h>
+# include <asm-generic/core_tsunami.h>
 #elif defined(CONFIG_ALPHA_TITAN)
-# include <asm/core_titan.h>
+# include <asm-generic/core_titan.h>
 #elif defined(CONFIG_ALPHA_WILDFIRE)
-# include <asm/core_wildfire.h>
+# include <asm-generic/core_wildfire.h>
 #else
 #error "What system is this?"
 #endif

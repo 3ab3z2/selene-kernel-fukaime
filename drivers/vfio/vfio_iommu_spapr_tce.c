@@ -23,9 +23,9 @@
 #include <linux/sched/mm.h>
 #include <linux/sched/signal.h>
 
-#include <asm/iommu.h>
-#include <asm/tce.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/tce.h>
+#include <asm-generic/mmu_context.h>
 
 #define DRIVER_VERSION  "0.1"
 #define DRIVER_AUTHOR   "aik@ozlabs.ru"

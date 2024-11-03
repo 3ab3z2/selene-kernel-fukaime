@@ -254,7 +254,7 @@ else
   entry-y = $(entry-noisa-y)
 endif
 
-cflags-y			+= -I$(srctree)/arch/mips/include/asm/mach-generic
+cflags-y			+= -I$(srctree)/arch/mips/include/asm-generic/mach-generic
 drivers-$(CONFIG_PCI)		+= arch/mips/pci/
 
 #

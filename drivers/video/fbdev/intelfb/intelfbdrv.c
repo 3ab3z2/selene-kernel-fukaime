@@ -122,7 +122,7 @@
 #include <linux/pagemap.h>
 #include <linux/screen_info.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "intelfb.h"
 #include "intelfbhw.h"

@@ -65,7 +65,7 @@ verify_target_bpf: verify_cmds
 
 $(src)/*.c: verify_target_bpf
 
-# asm/sysreg.h - inline assembly used by it is incompatible with llvm.
+# asm-generic/sysreg.h - inline assembly used by it is incompatible with llvm.
 # But, there is no easy way to fix it, so just exclude it since it is
 # useless for BPF samples.
 $(obj)/%.o: $(src)/%.c

@@ -100,19 +100,19 @@ extern void machvec_timer_interrupt (int, void *);
 extern void machvec_tlb_migrate_finish (struct mm_struct *);
 
 # if defined (CONFIG_IA64_HP_SIM)
-#  include <asm/machvec_hpsim.h>
+#  include <asm-generic/machvec_hpsim.h>
 # elif defined (CONFIG_IA64_DIG)
-#  include <asm/machvec_dig.h>
+#  include <asm-generic/machvec_dig.h>
 # elif defined(CONFIG_IA64_DIG_VTD)
-#  include <asm/machvec_dig_vtd.h>
+#  include <asm-generic/machvec_dig_vtd.h>
 # elif defined (CONFIG_IA64_HP_ZX1)
-#  include <asm/machvec_hpzx1.h>
+#  include <asm-generic/machvec_hpzx1.h>
 # elif defined (CONFIG_IA64_HP_ZX1_SWIOTLB)
-#  include <asm/machvec_hpzx1_swiotlb.h>
+#  include <asm-generic/machvec_hpzx1_swiotlb.h>
 # elif defined (CONFIG_IA64_SGI_SN2)
-#  include <asm/machvec_sn2.h>
+#  include <asm-generic/machvec_sn2.h>
 # elif defined (CONFIG_IA64_SGI_UV)
-#  include <asm/machvec_uv.h>
+#  include <asm-generic/machvec_uv.h>
 # elif defined (CONFIG_IA64_GENERIC)
 
 # ifdef MACHVEC_PLATFORM_HEADER
@@ -245,7 +245,7 @@ extern void machvec_init (const char *name);
 extern void machvec_init_from_cmdline(const char *cmdline);
 
 # else
-#  error Unknown configuration.  Update arch/ia64/include/asm/machvec.h.
+#  error Unknown configuration.  Update arch/ia64/include/asm-generic/machvec.h.
 # endif /* CONFIG_IA64_GENERIC */
 
 extern void swiotlb_dma_init(void);

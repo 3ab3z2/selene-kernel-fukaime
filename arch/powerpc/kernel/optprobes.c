@@ -14,12 +14,12 @@
 #include <linux/types.h>
 #include <linux/slab.h>
 #include <linux/list.h>
-#include <asm/kprobes.h>
-#include <asm/ptrace.h>
-#include <asm/cacheflush.h>
-#include <asm/code-patching.h>
-#include <asm/sstep.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/kprobes.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/sstep.h>
+#include <asm-generic/ppc-opcode.h>
 
 #define TMPL_CALL_HDLR_IDX	\
 	(optprobe_template_call_handler - optprobe_template_entry)

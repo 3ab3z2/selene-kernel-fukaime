@@ -21,8 +21,8 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 
-#include <asm/io.h>
-#include <asm/mmu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu.h>
 
 #include <linux/fsl/bestcomm/sram.h>
 

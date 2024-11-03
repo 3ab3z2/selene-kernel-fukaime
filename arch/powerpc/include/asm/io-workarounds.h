@@ -22,7 +22,7 @@
 #define _IO_WORKAROUNDS_H
 
 #include <linux/io.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 
 /* Bus info */
 struct iowa_bus {

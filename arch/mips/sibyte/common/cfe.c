@@ -25,13 +25,13 @@
 #include <linux/pm.h>
 #include <linux/smp.h>
 
-#include <asm/bootinfo.h>
-#include <asm/reboot.h>
-#include <asm/sibyte/board.h>
-#include <asm/smp-ops.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/sibyte/board.h>
+#include <asm-generic/smp-ops.h>
 
-#include <asm/fw/cfe/cfe_api.h>
-#include <asm/fw/cfe/cfe_error.h>
+#include <asm-generic/fw/cfe/cfe_api.h>
+#include <asm-generic/fw/cfe/cfe_error.h>
 
 /* Max ram addressable in 32-bit segments */
 #ifdef CONFIG_64BIT

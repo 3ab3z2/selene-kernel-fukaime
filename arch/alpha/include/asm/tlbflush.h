@@ -4,8 +4,8 @@
 
 #include <linux/mm.h>
 #include <linux/sched.h>
-#include <asm/compiler.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/pgalloc.h>
 
 #ifndef __EXTERN_INLINE
 #define __EXTERN_INLINE extern inline

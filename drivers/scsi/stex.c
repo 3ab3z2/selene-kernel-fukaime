@@ -27,9 +27,9 @@
 #include <linux/spinlock.h>
 #include <linux/ktime.h>
 #include <linux/reboot.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_device.h>
 #include <scsi/scsi_cmnd.h>

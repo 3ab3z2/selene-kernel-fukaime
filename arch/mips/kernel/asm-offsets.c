@@ -15,11 +15,11 @@
 #include <linux/mm.h>
 #include <linux/kbuild.h>
 #include <linux/suspend.h>
-#include <asm/cpu-info.h>
-#include <asm/pm.h>
-#include <asm/ptrace.h>
-#include <asm/processor.h>
-#include <asm/smp-cps.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/pm.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/smp-cps.h>
 
 #include <linux/kvm_host.h>
 

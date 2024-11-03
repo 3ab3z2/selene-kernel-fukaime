@@ -15,18 +15,18 @@
 #include <linux/tboot.h>
 #include <linux/dmi.h>
 
-#include <asm/pgtable.h>
-#include <asm/proto.h>
-#include <asm/mtrr.h>
-#include <asm/page.h>
-#include <asm/mce.h>
-#include <asm/suspend.h>
-#include <asm/fpu/internal.h>
-#include <asm/debugreg.h>
-#include <asm/cpu.h>
-#include <asm/mmu_context.h>
-#include <asm/cpu_device_id.h>
-#include <asm/microcode.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/mtrr.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/suspend.h>
+#include <asm-generic/fpu/internal.h>
+#include <asm-generic/debugreg.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/microcode.h>
 
 #ifdef CONFIG_X86_32
 __visible unsigned long saved_context_ebx;

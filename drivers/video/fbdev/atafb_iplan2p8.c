@@ -14,7 +14,7 @@
 #include <linux/string.h>
 #include <linux/fb.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #include "atafb.h"
 

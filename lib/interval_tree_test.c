@@ -3,7 +3,7 @@
 #include <linux/interval_tree.h>
 #include <linux/random.h>
 #include <linux/slab.h>
-#include <asm/timex.h>
+#include <asm-generic/timex.h>
 
 #define __param(type, name, init, msg)		\
 	static type name = init;		\

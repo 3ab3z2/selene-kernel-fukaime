@@ -20,7 +20,7 @@
 #define _POWERPC_PMC_H
 #ifdef __KERNEL__
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 typedef void (*perf_irq_t)(struct pt_regs *);
 extern perf_irq_t perf_irq;
@@ -30,7 +30,7 @@ void release_pmc_hardware(void);
 void ppc_enable_pmcs(void);
 
 #ifdef CONFIG_PPC_BOOK3S_64
-#include <asm/lppaca.h>
+#include <asm-generic/lppaca.h>
 
 static inline void ppc_set_pmu_inuse(int inuse)
 {

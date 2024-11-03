@@ -11,7 +11,7 @@
  * by the Free Software Foundation.
  */
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <linux/module.h>
 #include <linux/io.h>

@@ -17,13 +17,13 @@
 #include <linux/pci_regs.h>
 #include <linux/serial_core.h>
 
-#include <asm/cacheflush.h>
-#include <asm/smp-ops.h>
-#include <asm/traps.h>
-#include <asm/fw/fw.h>
-#include <asm/mips-cps.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/malta.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/malta.h>
 
 static int mips_revision_corid;
 int mips_revision_sconid;

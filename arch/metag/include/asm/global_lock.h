@@ -2,7 +2,7 @@
 #ifndef __ASM_METAG_GLOBAL_LOCK_H
 #define __ASM_METAG_GLOBAL_LOCK_H
 
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 /**
  * __global_lock1() - Acquire global voluntary lock (LOCK1).

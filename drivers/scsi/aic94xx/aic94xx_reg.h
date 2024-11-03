@@ -27,7 +27,7 @@
 #ifndef _AIC94XX_REG_H_
 #define _AIC94XX_REG_H_
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "aic94xx_hwi.h"
 
 /* Values */

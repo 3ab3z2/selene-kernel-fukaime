@@ -15,10 +15,10 @@
  */
 
 #include <linux/mm.h>
-#include <asm/processor.h>
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
 
 
 static inline void __flush_itlb_all (void)

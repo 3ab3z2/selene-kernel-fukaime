@@ -10,14 +10,14 @@
 #include <linux/kernel.h>
 #include <linux/interrupt.h>
 
-#include <asm/machdep.h>
-#include <asm/page.h>
-#include <asm/firmware.h>
-#include <asm/kexec.h>
-#include <asm/xics.h>
-#include <asm/xive.h>
-#include <asm/smp.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/page.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/plpar_wrappers.h>
 
 #include "pseries.h"
 

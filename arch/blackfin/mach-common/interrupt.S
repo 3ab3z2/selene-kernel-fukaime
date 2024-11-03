@@ -8,16 +8,16 @@
  * Licensed under the GPL-2 or later.
  */
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <mach/irq.h>
 #include <linux/linkage.h>
-#include <asm/entry.h>
-#include <asm/asm-offsets.h>
-#include <asm/trace.h>
-#include <asm/traps.h>
-#include <asm/thread_info.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/thread_info.h>
 
-#include <asm/context.S>
+#include <asm-generic/context.S>
 
 .extern _ret_from_exception
 

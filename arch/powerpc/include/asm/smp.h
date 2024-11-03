@@ -25,9 +25,9 @@
 #ifndef __ASSEMBLY__
 
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
+#include <asm-generic/paca.h>
 #endif
-#include <asm/percpu.h>
+#include <asm-generic/percpu.h>
 
 extern int boot_cpuid;
 extern int spinning_secondaries;

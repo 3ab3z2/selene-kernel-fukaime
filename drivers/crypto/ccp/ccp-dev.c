@@ -23,7 +23,7 @@
 #include <linux/hw_random.h>
 #include <linux/cpu.h>
 #ifdef CONFIG_X86
-#include <asm/cpu_device_id.h>
+#include <asm-generic/cpu_device_id.h>
 #endif
 #include <linux/ccp.h>
 

@@ -23,9 +23,9 @@
  * 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  */
 
-#include <asm/asmmacro.h>
-#include <asm/pgtable-bits.h>
-#include <asm/scoreregs.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/pgtable-bits.h>
+#include <asm-generic/scoreregs.h>
 
 /*
 * After this macro runs, the pte faulted on is

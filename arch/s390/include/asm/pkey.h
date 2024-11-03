@@ -13,7 +13,7 @@
 
 #include <linux/ioctl.h>
 #include <linux/types.h>
-#include <uapi/asm/pkey.h>
+#include <uapi/asm-generic/pkey.h>
 
 /*
  * Generate (AES) random secure key.

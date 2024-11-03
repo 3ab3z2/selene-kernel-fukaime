@@ -37,16 +37,16 @@
 #include <linux/pci.h>
 #include <linux/efi-bgrt.h>
 
-#include <asm/e820/api.h>
-#include <asm/irqdomain.h>
-#include <asm/pci_x86.h>
-#include <asm/pgtable.h>
-#include <asm/io_apic.h>
-#include <asm/apic.h>
-#include <asm/io.h>
-#include <asm/mpspec.h>
-#include <asm/smp.h>
-#include <asm/i8259.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/irqdomain.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mpspec.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/i8259.h>
 
 #include "sleep.h" /* To include x86_acpi_suspend_lowlevel */
 static int __initdata acpi_force = 0;
@@ -54,7 +54,7 @@ int acpi_disabled;
 EXPORT_SYMBOL(acpi_disabled);
 
 #ifdef	CONFIG_X86_64
-# include <asm/proto.h>
+# include <asm-generic/proto.h>
 #endif				/* X86 */
 
 #define PREFIX			"ACPI: "
@@ -877,7 +877,7 @@ static int __init acpi_parse_sbf(struct acpi_table_header *table)
 }
 
 #ifdef CONFIG_HPET_TIMER
-#include <asm/hpet.h>
+#include <asm-generic/hpet.h>
 
 static struct resource *hpet_res __initdata;
 

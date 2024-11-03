@@ -19,15 +19,15 @@
 #include <linux/of_platform.h>
 #include <linux/libfdt.h>
 #include <linux/smp.h>
-#include <asm/addrspace.h>
-#include <asm/bmips.h>
-#include <asm/bootinfo.h>
-#include <asm/cpu-type.h>
-#include <asm/mipsregs.h>
-#include <asm/prom.h>
-#include <asm/smp-ops.h>
-#include <asm/time.h>
-#include <asm/traps.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bmips.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/time.h>
+#include <asm-generic/traps.h>
 
 #define RELO_NORMAL_VEC		BIT(18)
 

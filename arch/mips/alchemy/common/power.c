@@ -34,7 +34,7 @@
 #include <linux/jiffies.h>
 
 #include <linux/uaccess.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 /*
  * We need to save/restore a bunch of core registers that are

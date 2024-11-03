@@ -30,8 +30,8 @@
 #include <linux/of_device.h>
 
 #include <linux/uaccess.h>
-#include <asm/envctrl.h>
-#include <asm/io.h>
+#include <asm-generic/envctrl.h>
+#include <asm-generic/io.h>
 
 #define DRIVER_NAME	"envctrl"
 #define PFX		DRIVER_NAME ": "

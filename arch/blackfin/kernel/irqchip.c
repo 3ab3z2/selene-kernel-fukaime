@@ -12,9 +12,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/seq_file.h>
-#include <asm/irq_handler.h>
-#include <asm/trace.h>
-#include <asm/pda.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/pda.h>
 
 static atomic_t irq_err_count;
 void ack_bad_irq(unsigned int irq)

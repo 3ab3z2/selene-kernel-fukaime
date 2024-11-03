@@ -41,10 +41,10 @@
 #include <linux/platform_device.h>
 #include <linux/irq.h>
 
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
 
 #define XLPII_USB3_CTL_0		0xc0
 #define XLPII_VAUXRST			BIT(0)

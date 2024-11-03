@@ -36,8 +36,8 @@
 #include <linux/dmapool.h>
 #include <linux/prefetch.h>
 #include <linux/moduleparam.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 #include "amd5536udc.h"
 
 static void udc_tasklet_disconnect(unsigned long);

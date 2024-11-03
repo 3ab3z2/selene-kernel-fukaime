@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/device.h>
 
-#include <asm/intel_telemetry.h>
+#include <asm-generic/intel_telemetry.h>
 
 #define DRIVER_NAME "intel_telemetry_core"
 

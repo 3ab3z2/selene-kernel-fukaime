@@ -16,7 +16,7 @@
 #include <linux/ioport.h>
 #include <linux/interrupt.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "hysdn_defs.h"
 

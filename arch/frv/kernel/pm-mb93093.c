@@ -19,7 +19,7 @@
 #include <linux/delay.h>
 #include <linux/uaccess.h>
 
-#include <asm/mb86943a.h>
+#include <asm-generic/mb86943a.h>
 
 #include "local.h"
 

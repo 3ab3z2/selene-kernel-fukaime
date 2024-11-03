@@ -36,24 +36,24 @@
 #include <linux/tracehook.h>
 #include <linux/rcupdate.h>
 
-#include <asm/cpu.h>
-#include <asm/delay.h>
-#include <asm/elf.h>
-#include <asm/irq.h>
-#include <asm/kexec.h>
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/sal.h>
-#include <asm/switch_to.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tlbflush.h>
 #include <linux/uaccess.h>
-#include <asm/unwind.h>
-#include <asm/user.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/user.h>
 
 #include "entry.h"
 
 #ifdef CONFIG_PERFMON
-# include <asm/perfmon.h>
+# include <asm-generic/perfmon.h>
 #endif
 
 #include "sigframe.h"

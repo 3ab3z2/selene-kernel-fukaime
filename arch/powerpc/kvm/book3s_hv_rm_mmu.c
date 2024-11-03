@@ -14,15 +14,15 @@
 #include <linux/module.h>
 #include <linux/log2.h>
 
-#include <asm/tlbflush.h>
-#include <asm/trace.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/book3s/64/mmu-hash.h>
-#include <asm/hvcall.h>
-#include <asm/synch.h>
-#include <asm/ppc-opcode.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/pte-walk.h>
 
 /* Translate address of a vmalloc'd thing to a linear map address */
 static void *real_vmalloc_addr(void *x)

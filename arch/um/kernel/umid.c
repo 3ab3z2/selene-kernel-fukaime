@@ -3,7 +3,7 @@
  * Licensed under the GPL
  */
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include <init.h>
 #include <kern.h>
 #include <os.h>

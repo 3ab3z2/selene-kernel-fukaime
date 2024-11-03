@@ -10,7 +10,7 @@
 #include <linux/console.h>
 #include <linux/init.h>
 #include <linux/string.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 extern void mvme16x_cons_write(struct console *co,
 			       const char *str, unsigned count);

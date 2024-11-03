@@ -14,8 +14,8 @@
 #include <linux/errno.h>
 #include <linux/gfp.h>
 #include <linux/cpu.h>
-#include <asm/ctl_reg.h>
-#include <asm/io.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/io.h>
 
 static notrace long s390_kernel_write_odd(void *dst, const void *src, size_t size)
 {

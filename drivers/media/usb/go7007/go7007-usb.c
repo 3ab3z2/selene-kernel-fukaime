@@ -22,7 +22,7 @@
 #include <linux/mm.h>
 #include <linux/usb.h>
 #include <linux/i2c.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <media/i2c/saa7115.h>
 #include <media/tuner.h>
 #include <media/i2c/uda1342.h>

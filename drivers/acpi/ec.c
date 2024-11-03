@@ -40,7 +40,7 @@
 #include <linux/slab.h>
 #include <linux/acpi.h>
 #include <linux/dmi.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "internal.h"
 

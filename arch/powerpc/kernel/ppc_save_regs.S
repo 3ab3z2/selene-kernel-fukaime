@@ -8,10 +8,10 @@
  *
  * NOTE: assert(sizeof(buf) > 23 * sizeof(long))
  */
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * Grab the register values as they are now.

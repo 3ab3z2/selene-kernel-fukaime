@@ -4,10 +4,10 @@
 #include <linux/blkdev.h>
 #include <linux/interrupt.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/mvme147hw.h>
-#include <asm/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mvme147hw.h>
+#include <asm-generic/irq.h>
 
 #include "scsi.h"
 #include <scsi/scsi_host.h>

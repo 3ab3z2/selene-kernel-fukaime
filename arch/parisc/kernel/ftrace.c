@@ -14,9 +14,9 @@
 #include <linux/init.h>
 #include <linux/ftrace.h>
 
-#include <asm/assembly.h>
-#include <asm/sections.h>
-#include <asm/ftrace.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/ftrace.h>
 
 
 #define __hot __attribute__ ((__section__ (".text.hot")))

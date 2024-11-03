@@ -3,7 +3,7 @@
  * This is the infamous ld script for the 64 bits vdso
  * library
  */
-#include <asm/vdso.h>
+#include <asm-generic/vdso.h>
 
 #ifdef __LITTLE_ENDIAN__
 OUTPUT_FORMAT("elf64-powerpcle", "elf64-powerpcle", "elf64-powerpcle")

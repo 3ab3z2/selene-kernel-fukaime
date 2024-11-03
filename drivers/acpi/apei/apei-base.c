@@ -36,7 +36,7 @@
 #include <linux/rculist.h>
 #include <linux/interrupt.h>
 #include <linux/debugfs.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "apei-internal.h"
 

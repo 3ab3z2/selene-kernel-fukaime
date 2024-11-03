@@ -44,7 +44,7 @@
  *
  */
 
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 #include <net/sock.h>
 #include <net/tcp.h>
 #include <linux/pagemap.h>

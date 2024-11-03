@@ -6,10 +6,10 @@
  * Copyright (C) 2003 Silicon Graphics, Inc. All rights reserved.
  *
  * The generic kernel requires function pointers to these routines, so
- * we wrap the inlines from asm/ia64/sn/sn2/io.h here.
+ * we wrap the inlines from asm-generic/ia64/sn/sn2/io.h here.
  */
 
-#include <asm/sn/io.h>
+#include <asm-generic/sn/io.h>
 
 #ifdef CONFIG_IA64_GENERIC
 

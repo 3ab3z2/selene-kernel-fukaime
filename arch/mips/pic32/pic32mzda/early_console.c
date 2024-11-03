@@ -11,8 +11,8 @@
  *  FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
  *  for more details.
  */
-#include <asm/mach-pic32/pic32.h>
-#include <asm/fw/fw.h>
+#include <asm-generic/mach-pic32/pic32.h>
+#include <asm-generic/fw/fw.h>
 
 #include "pic32mzda.h"
 #include "early_pin.h"

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 /* Lasat 100	*/
 #define DS1603_REG_100		(KSEG1ADDR(0x1c810000))

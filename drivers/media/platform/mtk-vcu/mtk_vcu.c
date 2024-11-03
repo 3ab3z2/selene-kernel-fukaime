@@ -12,7 +12,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/cdev.h>
 #include <linux/delay.h>
 #include <linux/dma-mapping.h>

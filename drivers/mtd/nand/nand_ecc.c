@@ -45,7 +45,7 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/rawnand.h>
 #include <linux/mtd/nand_ecc.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #else
 #include <stdint.h>
 struct mtd_info;

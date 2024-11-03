@@ -8,13 +8,13 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
-#include <asm/assembler.h>
-#include <asm/mmu_context.h>
-#include <asm/m32r.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/m32r.h>
 
 /*
  * References to members of the boot_cpu_data structure.

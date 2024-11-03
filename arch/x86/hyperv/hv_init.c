@@ -19,9 +19,9 @@
 
 #include <linux/efi.h>
 #include <linux/types.h>
-#include <asm/hypervisor.h>
-#include <asm/hyperv.h>
-#include <asm/mshyperv.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/hyperv.h>
+#include <asm-generic/mshyperv.h>
 #include <linux/version.h>
 #include <linux/vmalloc.h>
 #include <linux/mm.h>

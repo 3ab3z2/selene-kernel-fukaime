@@ -8,7 +8,7 @@
 #include <signal.h>
 #include <errno.h>
 #include <sys/time.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <aio.h>
 #include <init.h>
 #include <kern_util.h>

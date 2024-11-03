@@ -11,8 +11,8 @@
 #include <linux/list.h>
 #include <linux/log2.h>
 
-#include <asm/ldc.h>
-#include <asm/mdesc.h>
+#include <asm-generic/ldc.h>
+#include <asm-generic/mdesc.h>
 
 struct vio_msg_tag {
 	u8			type;

@@ -13,9 +13,9 @@
 #include <linux/export.h>
 #include <linux/spinlock.h>
 #include <linux/irq.h>
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 static struct bcsr_reg {
 	void __iomem *raddr;

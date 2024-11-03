@@ -36,9 +36,9 @@
 #include <linux/cpu.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/hyperv.h>
-#include <asm/hypervisor.h>
-#include <asm/mshyperv.h>
+#include <asm-generic/hyperv.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/mshyperv.h>
 #include <linux/notifier.h>
 #include <linux/ptrace.h>
 #include <linux/screen_info.h>

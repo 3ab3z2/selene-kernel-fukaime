@@ -29,8 +29,8 @@
 #include <linux/types.h>
 #include <linux/module.h>
 
-#include <asm/unaligned.h>
-#include <asm/byteorder.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/parameters.h>

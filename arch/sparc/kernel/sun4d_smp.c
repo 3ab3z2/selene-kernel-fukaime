@@ -14,13 +14,13 @@
 #include <linux/sched/mm.h>
 #include <linux/cpu.h>
 
-#include <asm/cacheflush.h>
-#include <asm/switch_to.h>
-#include <asm/tlbflush.h>
-#include <asm/timer.h>
-#include <asm/oplib.h>
-#include <asm/sbi.h>
-#include <asm/mmu.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/sbi.h>
+#include <asm-generic/mmu.h>
 
 #include "kernel.h"
 #include "irq.h"

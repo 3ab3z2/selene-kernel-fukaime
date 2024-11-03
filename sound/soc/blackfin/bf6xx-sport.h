@@ -21,7 +21,7 @@
 #define _BF6XX_SPORT_H_
 
 #include <linux/platform_device.h>
-#include <asm/bfin_sport3.h>
+#include <asm-generic/bfin_sport3.h>
 
 struct sport_device {
 	struct platform_device *pdev;

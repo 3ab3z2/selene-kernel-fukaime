@@ -18,9 +18,9 @@
 #include <linux/slab.h>
 #include <linux/proc_fs.h>
 #include <linux/reboot.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 #include <linux/uaccess.h>
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 #define MODULE_VERS "1.0"
 #define MODULE_NAME "rtas_flash"

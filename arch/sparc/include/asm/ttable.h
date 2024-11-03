@@ -2,11 +2,11 @@
 #ifndef _SPARC64_TTABLE_H
 #define _SPARC64_TTABLE_H
 
-#include <asm/utrap.h>
-#include <asm/pil.h>
+#include <asm-generic/utrap.h>
+#include <asm-generic/pil.h>
 
 #ifdef __ASSEMBLY__
-#include <asm/thread_info.h>
+#include <asm-generic/thread_info.h>
 #endif
 
 #define BOOT_KERNEL b sparc64_boot; nop; nop; nop; nop; nop; nop; nop;

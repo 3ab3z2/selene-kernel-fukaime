@@ -13,7 +13,7 @@
 
 #ifdef CONFIG_KGDB
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /* to ensure compatibility with Linux 2.6.35, we don't implement the get/set
  * register API yet */

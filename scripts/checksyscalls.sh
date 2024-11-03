@@ -12,7 +12,7 @@
 
 ignore_list() {
 cat << EOF
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/unistd.h>
 
 /* *at */

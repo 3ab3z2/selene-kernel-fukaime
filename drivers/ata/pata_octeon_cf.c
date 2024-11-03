@@ -20,8 +20,8 @@
 #include <linux/platform_device.h>
 #include <scsi/scsi_host.h>
 
-#include <asm/byteorder.h>
-#include <asm/octeon/octeon.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/octeon/octeon.h>
 
 /*
  * The Octeon bootbus compact flash interface is connected in at least

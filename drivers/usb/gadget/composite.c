@@ -20,7 +20,7 @@
 
 #include <linux/usb/composite.h>
 #include <linux/usb/otg.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "u_os_desc.h"
 

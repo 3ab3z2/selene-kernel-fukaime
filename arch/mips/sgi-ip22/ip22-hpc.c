@@ -10,10 +10,10 @@
 #include <linux/init.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/ip22.h>
 
 struct hpc3_regs *hpc3c0, *hpc3c1;
 

@@ -15,8 +15,8 @@
 #ifndef __ASM_MIPS_DEC_KN03_H
 #define __ASM_MIPS_DEC_KN03_H
 
-#include <asm/dec/ecc.h>
-#include <asm/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ecc.h>
+#include <asm-generic/dec/ioasic_addrs.h>
 
 #define KN03_SLOT_BASE		0x1f800000
 

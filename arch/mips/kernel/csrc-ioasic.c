@@ -17,10 +17,10 @@
 #include <linux/sched_clock.h>
 #include <linux/init.h>
 
-#include <asm/ds1287.h>
-#include <asm/time.h>
-#include <asm/dec/ioasic.h>
-#include <asm/dec/ioasic_addrs.h>
+#include <asm-generic/ds1287.h>
+#include <asm-generic/time.h>
+#include <asm-generic/dec/ioasic.h>
+#include <asm-generic/dec/ioasic_addrs.h>
 
 static u64 dec_ioasic_hpt_read(struct clocksource *cs)
 {

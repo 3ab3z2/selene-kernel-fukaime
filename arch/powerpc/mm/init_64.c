@@ -46,25 +46,25 @@
 #include <linux/libfdt.h>
 #include <linux/memremap.h>
 
-#include <asm/pgalloc.h>
-#include <asm/page.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/io.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/page.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
 #include <linux/uaccess.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/tlb.h>
-#include <asm/eeh.h>
-#include <asm/processor.h>
-#include <asm/mmzone.h>
-#include <asm/cputable.h>
-#include <asm/sections.h>
-#include <asm/iommu.h>
-#include <asm/vdso.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/vdso.h>
 
 #include "mmu_decl.h"
 

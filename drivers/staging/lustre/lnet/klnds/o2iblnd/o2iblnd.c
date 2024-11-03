@@ -34,8 +34,8 @@
  * Author: Eric Barton <eric@bartonsoftware.com>
  */
 
-#include <asm/div64.h>
-#include <asm/page.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/page.h>
 #include "o2iblnd.h"
 
 static struct lnet_lnd the_o2iblnd;

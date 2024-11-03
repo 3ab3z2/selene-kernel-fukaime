@@ -9,7 +9,7 @@
 #ifndef _ASM_SIGCONTEXT_H
 #define _ASM_SIGCONTEXT_H
 
-#include <uapi/asm/sigcontext.h>
+#include <uapi/asm-generic/sigcontext.h>
 
 #if _MIPS_SIM == _MIPS_SIM_ABI64 || _MIPS_SIM == _MIPS_SIM_NABI32
 

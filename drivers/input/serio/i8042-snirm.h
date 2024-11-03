@@ -1,7 +1,7 @@
 #ifndef _I8042_SNIRM_H
 #define _I8042_SNIRM_H
 
-#include <asm/sni.h>
+#include <asm-generic/sni.h>
 
 /*
  * This program is free software; you can redistribute it and/or modify it

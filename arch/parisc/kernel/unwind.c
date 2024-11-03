@@ -18,11 +18,11 @@
 #include <linux/sched.h>
 
 #include <linux/uaccess.h>
-#include <asm/assembly.h>
-#include <asm/asm-offsets.h>
-#include <asm/ptrace.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ptrace.h>
 
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 
 /* #define DEBUG 1 */
 #ifdef DEBUG

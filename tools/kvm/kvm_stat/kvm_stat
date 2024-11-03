@@ -150,7 +150,7 @@ SVM_EXIT_REASONS = {
     'NPF':            0x400,
 }
 
-# EC definition of HSR (from arch/arm64/include/asm/kvm_arm.h)
+# EC definition of HSR (from arch/arm64/include/asm-generic/kvm_arm.h)
 AARCH64_EXIT_REASONS = {
     'UNKNOWN':      0x00,
     'WFI':          0x01,

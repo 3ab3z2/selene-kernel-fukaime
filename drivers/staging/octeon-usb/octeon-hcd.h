@@ -47,7 +47,7 @@
 #ifndef __OCTEON_HCD_H__
 #define __OCTEON_HCD_H__
 
-#include <asm/bitfield.h>
+#include <asm-generic/bitfield.h>
 
 #define CVMX_USBCXBASE 0x00016F0010000000ull
 #define CVMX_USBCXREG1(reg, bid) \

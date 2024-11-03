@@ -9,9 +9,9 @@
 #include <linux/bitops.h>
 #include <linux/string.h>
 #include <linux/mmzone.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/hub.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/hub.h>
 
 
 static int force_fire_and_forget = 1;

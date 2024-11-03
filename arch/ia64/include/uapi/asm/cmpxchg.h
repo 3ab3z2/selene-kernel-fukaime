@@ -3,7 +3,7 @@
 #define _ASM_IA64_CMPXCHG_H
 
 /*
- * Compare/Exchange, forked from asm/intrinsics.h
+ * Compare/Exchange, forked from asm-generic/intrinsics.h
  * which was:
  *
  *	Copyright (C) 2002-2003 Hewlett-Packard Co
@@ -14,11 +14,11 @@
 
 #include <linux/types.h>
 /* include compiler specific intrinsics */
-#include <asm/ia64regs.h>
+#include <asm-generic/ia64regs.h>
 #ifdef __INTEL_COMPILER
-# include <asm/intel_intrin.h>
+# include <asm-generic/intel_intrin.h>
 #else
-# include <asm/gcc_intrin.h>
+# include <asm-generic/gcc_intrin.h>
 #endif
 
 /*

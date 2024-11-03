@@ -18,10 +18,10 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/hardware.h>
-#include <asm/irq.h>
-#include <asm/hardware/scoop.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hardware/scoop.h>
 
 #include "soc_common.h"
 

@@ -17,11 +17,11 @@
 
 #include <linux/kernel.h>
 #include <linux/of_fdt.h>
-#include <asm/machdep.h>
-#include <asm/pgtable.h>
-#include <asm/time.h>
-#include <asm/udbg.h>
-#include <asm/mpic.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/mpic.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 #include "smp.h"

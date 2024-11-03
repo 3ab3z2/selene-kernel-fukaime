@@ -8,9 +8,9 @@
 
 #include <linux/atomic.h>
 
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/metag_regs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/metag_regs.h>
 
 /*
  * Default implementation of macro that returns current

@@ -9,8 +9,8 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/blackfin.h>
-#include <asm/irqflags.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irqflags.h>
 
 #ifndef bfin_iwr_restore
 static inline void

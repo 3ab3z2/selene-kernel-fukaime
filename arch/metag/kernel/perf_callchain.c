@@ -9,8 +9,8 @@
 #include <linux/sched.h>
 #include <linux/perf_event.h>
 #include <linux/uaccess.h>
-#include <asm/ptrace.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/stacktrace.h>
 
 static bool is_valid_call(unsigned long calladdr)
 {

@@ -16,8 +16,8 @@
 #include <linux/platform_device.h>
 #include <linux/io.h>
 
-#include <asm/ide.h>
-#include <asm/txx9/tx4938.h>
+#include <asm-generic/ide.h>
+#include <asm-generic/txx9/tx4938.h>
 
 static void tx4938ide_tune_ebusc(unsigned int ebus_ch,
 				 unsigned int gbus_clock,

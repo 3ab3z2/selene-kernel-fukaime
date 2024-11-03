@@ -20,12 +20,12 @@
 #include <linux/swap.h>
 #include <linux/swapops.h>
 #include <linux/kmemleak.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/setup.h>
-#include <asm/hugetlb.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/hugetlb.h>
+#include <asm-generic/pte-walk.h>
 
 
 #ifdef CONFIG_HUGETLB_PAGE

@@ -220,7 +220,7 @@
 		 ESR_ELx_SYS64_ISS_OP2_SHIFT))
 
 #ifndef __ASSEMBLY__
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 static inline bool esr_is_data_abort(u32 esr)
 {

@@ -71,11 +71,11 @@
 #include <linux/completion.h>
 #include <linux/wait.h>
 
-#include <asm/atafd.h>
-#include <asm/atafdreg.h>
-#include <asm/atariints.h>
-#include <asm/atari_stdma.h>
-#include <asm/atari_stram.h>
+#include <asm-generic/atafd.h>
+#include <asm-generic/atafdreg.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atari_stdma.h>
+#include <asm-generic/atari_stram.h>
 
 #define	FD_MAX_UNITS 2
 

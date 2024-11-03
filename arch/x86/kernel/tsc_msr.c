@@ -8,11 +8,11 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/processor.h>
-#include <asm/setup.h>
-#include <asm/apic.h>
-#include <asm/param.h>
-#include <asm/tsc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/param.h>
+#include <asm-generic/tsc.h>
 
 #define MAX_NUM_FREQS	9
 

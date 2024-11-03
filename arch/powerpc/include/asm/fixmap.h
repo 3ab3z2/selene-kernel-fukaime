@@ -16,11 +16,11 @@
 
 #ifndef __ASSEMBLY__
 #include <linux/kernel.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 #ifdef CONFIG_HIGHMEM
 #include <linux/threads.h>
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 #endif
 
 #define FIXADDR_TOP	((unsigned long)(-PAGE_SIZE))

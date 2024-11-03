@@ -13,7 +13,7 @@
  *
  */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <linux/vmalloc.h>
 
@@ -46,7 +46,7 @@ static char *virtual_dma_addr=NULL;
 static int virtual_dma_mode=0;
 static int doing_pdma=0;
 
-#include <asm/sun3xflop.h>
+#include <asm-generic/sun3xflop.h>
 
 extern spinlock_t  dma_spin_lock;
 

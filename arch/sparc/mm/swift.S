@@ -5,11 +5,11 @@
  * Copyright (C) 1999 David S. Miller (davem@redhat.com)
  */
 
-#include <asm/psr.h>
-#include <asm/asi.h>
-#include <asm/page.h>
-#include <asm/pgtsrmmu.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtsrmmu.h>
+#include <asm-generic/asm-offsets.h>
 
 	.text
 	.align	4

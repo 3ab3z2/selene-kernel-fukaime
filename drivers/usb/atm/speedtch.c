@@ -23,7 +23,7 @@
  *
  ******************************************************************************/
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/device.h>
 #include <linux/errno.h>
 #include <linux/firmware.h>

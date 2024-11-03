@@ -2,9 +2,9 @@
 #ifndef _ASM_MACH_TOPOLOGY_H
 #define _ASM_MACH_TOPOLOGY_H	1
 
-#include <asm/sn/hub.h>
-#include <asm/sn/types.h>
-#include <asm/mmzone.h>
+#include <asm-generic/sn/hub.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/mmzone.h>
 
 struct cpuinfo_ip27 {
 //	cpuid_t		p_cpuid;	/* PROM assigned cpuid */

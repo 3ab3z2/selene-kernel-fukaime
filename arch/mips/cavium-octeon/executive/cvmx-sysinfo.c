@@ -31,8 +31,8 @@
  */
 #include <linux/export.h>
 
-#include <asm/octeon/cvmx.h>
-#include <asm/octeon/cvmx-sysinfo.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/octeon/cvmx-sysinfo.h>
 
 /*
  * This structure defines the private state maintained by sysinfo module.

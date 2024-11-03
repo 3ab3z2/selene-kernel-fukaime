@@ -11,9 +11,9 @@
 #include <linux/kernel.h>
 #include <linux/irq.h>
 
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_baboon.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_baboon.h>
 
 int baboon_present;
 static volatile struct baboon *baboon;

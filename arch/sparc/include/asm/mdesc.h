@@ -4,7 +4,7 @@
 
 #include <linux/types.h>
 #include <linux/cpumask.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 struct mdesc_handle;
 

@@ -4,11 +4,11 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page_types.h>
-#include <asm/segment.h>
-#include <asm/export.h>
-#include <asm/ftrace.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/export.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/nospec-branch.h>
 
 #ifdef CC_USING_FENTRY
 # define function_hook	__fentry__

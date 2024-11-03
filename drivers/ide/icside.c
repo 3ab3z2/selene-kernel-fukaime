@@ -17,8 +17,8 @@
 #include <linux/scatterlist.h>
 #include <linux/io.h>
 
-#include <asm/dma.h>
-#include <asm/ecard.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/ecard.h>
 
 #define DRV_NAME "icside"
 

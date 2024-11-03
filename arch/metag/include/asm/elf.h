@@ -49,10 +49,10 @@
  * ELF register definitions.
  */
 
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/user.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/user.h>
 
 typedef unsigned long elf_greg_t;
 

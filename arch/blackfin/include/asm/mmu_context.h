@@ -11,11 +11,11 @@
 #include <linux/sched.h>
 #include <linux/mm_types.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/cplbinit.h>
-#include <asm/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/sections.h>
 
 /* Note: L1 stacks are CPU-private things, so we bluntly disable this
    feature in SMP mode, and use the per-CPU scratch SRAM bank only to

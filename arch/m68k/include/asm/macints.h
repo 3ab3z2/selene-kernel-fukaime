@@ -12,7 +12,7 @@
 #ifndef _ASM_MACINTS_H_
 #define _ASM_MACINTS_H_
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 /*
  * Base IRQ number for all Mac68K interrupt sources. Each source
@@ -124,4 +124,4 @@
 #define INT_CLK   24576	    /* CLK while int_clk =2.456MHz and divide = 100 */
 #define INT_TICKS 246	    /* to make sched_time = 99.902... HZ */
 
-#endif /* asm/macints.h */
+#endif /* asm-generic/macints.h */

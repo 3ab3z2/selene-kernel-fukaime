@@ -8,8 +8,8 @@
 #ifndef _SPARC64_FPUMACRO_H
 #define _SPARC64_FPUMACRO_H
 
-#include <asm/asi.h>
-#include <asm/visasm.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/visasm.h>
 
 struct fpustate {
 	u32	regs[64];

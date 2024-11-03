@@ -26,10 +26,10 @@
 #include <linux/io.h>
 #include <linux/mm.h>
 
-#include <asm/spu.h>
-#include <asm/spu_priv1.h>
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_priv1.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
 
 #include "../cell/spufs/spufs.h"
 #include "platform.h"

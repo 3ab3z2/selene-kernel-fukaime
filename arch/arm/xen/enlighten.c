@@ -12,11 +12,11 @@
 #include <xen/page.h>
 #include <xen/interface/sched.h>
 #include <xen/xen-ops.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/xen-ops.h>
-#include <asm/system_misc.h>
-#include <asm/efi.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/xen-ops.h>
+#include <asm-generic/system_misc.h>
+#include <asm-generic/efi.h>
 #include <linux/interrupt.h>
 #include <linux/irqreturn.h>
 #include <linux/module.h>

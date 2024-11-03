@@ -9,10 +9,10 @@
  * by the Free Software Foundation.
  */
 
-#include <asm/page.h>
-#include <asm/ppc_asm.h>
-#include <asm/reg.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/asm-offsets.h>
 
 #define SS_MEMSAVE	0x00 /* First 8 bytes of RAM */
 #define SS_HID		0x08 /* 3 HIDs */

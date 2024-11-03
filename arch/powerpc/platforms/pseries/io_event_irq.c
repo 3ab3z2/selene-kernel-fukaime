@@ -16,10 +16,10 @@
 #include <linux/list.h>
 #include <linux/notifier.h>
 
-#include <asm/machdep.h>
-#include <asm/rtas.h>
-#include <asm/irq.h>
-#include <asm/io_event_irq.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io_event_irq.h>
 
 #include "pseries.h"
 
@@ -39,7 +39,7 @@
  * Usage:
  *
  * Notifier function:
- * #include <asm/io_event_irq.h>
+ * #include <asm-generic/io_event_irq.h>
  * int event_handler(struct notifier_block *nb, unsigned long val, void *data) {
  * 	p = (struct pseries_io_event_sect_data *) data;
  * 	if (! is_my_event(p->scope, p->event_type)) return NOTIFY_DONE;

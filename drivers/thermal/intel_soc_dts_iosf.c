@@ -18,7 +18,7 @@
 #include <linux/module.h>
 #include <linux/slab.h>
 #include <linux/interrupt.h>
-#include <asm/iosf_mbi.h>
+#include <asm-generic/iosf_mbi.h>
 #include "intel_soc_dts_iosf.h"
 
 #define SOC_DTS_OFFSET_ENABLE		0xB0

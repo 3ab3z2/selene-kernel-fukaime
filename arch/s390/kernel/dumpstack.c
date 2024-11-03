@@ -16,10 +16,10 @@
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 #include <linux/sched/task_stack.h>
-#include <asm/processor.h>
-#include <asm/debug.h>
-#include <asm/dis.h>
-#include <asm/ipl.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/dis.h>
+#include <asm-generic/ipl.h>
 
 /*
  * For dump_trace we have tree different stack to consider:

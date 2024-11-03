@@ -16,7 +16,7 @@
 #ifndef __PPC_KERNEL_TSI108_H
 #define __PPC_KERNEL_TSI108_H
 
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 
 /* Size of entire register space */
 #define TSI108_REG_SIZE		(0x10000)

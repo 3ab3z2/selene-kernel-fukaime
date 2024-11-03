@@ -26,7 +26,7 @@
 #include <linux/slab.h>
 #include <linux/suspend.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@suse.cz>");
 MODULE_DESCRIPTION("i8042 keyboard and mouse controller driver");

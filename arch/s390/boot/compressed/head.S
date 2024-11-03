@@ -9,9 +9,9 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/page.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/page.h>
 #include "sizes.h"
 
 __HEAD

@@ -6,8 +6,8 @@
  */
 
 #define __EXTERN_INLINE inline
-#include <asm/io.h>
-#include <asm/core_titan.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_titan.h>
 #undef __EXTERN_INLINE
 
 #include <linux/module.h>
@@ -18,11 +18,11 @@
 #include <linux/vmalloc.h>
 #include <linux/bootmem.h>
 
-#include <asm/ptrace.h>
-#include <asm/smp.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/vga.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/vga.h>
 
 #include "proto.h"
 #include "pci_impl.h"
@@ -575,7 +575,7 @@ EXPORT_SYMBOL(titan_is_mmio);
  * AGP GART Support.
  */
 #include <linux/agp_backend.h>
-#include <asm/agp_backend.h>
+#include <asm-generic/agp_backend.h>
 #include <linux/slab.h>
 #include <linux/delay.h>
 

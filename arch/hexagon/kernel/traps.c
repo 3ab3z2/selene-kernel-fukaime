@@ -28,12 +28,12 @@
 #include <linux/syscalls.h>
 #include <linux/signal.h>
 #include <linux/tracehook.h>
-#include <asm/traps.h>
-#include <asm/vm_fault.h>
-#include <asm/syscall.h>
-#include <asm/registers.h>
-#include <asm/unistd.h>
-#include <asm/sections.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/vm_fault.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/sections.h>
 #ifdef CONFIG_KGDB
 # include <linux/kgdb.h>
 #endif

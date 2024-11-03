@@ -10,7 +10,7 @@
 #define _ASM_SN_IO_H
 
 #if defined(CONFIG_SGI_IP27)
-#include <asm/sn/sn0/hubio.h>
+#include <asm-generic/sn/sn0/hubio.h>
 #endif
 
 

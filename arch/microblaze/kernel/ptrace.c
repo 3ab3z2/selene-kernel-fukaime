@@ -36,11 +36,11 @@
 #include <linux/tracehook.h>
 
 #include <linux/errno.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/asm-offsets.h>
-#include <asm/cacheflush.h>
-#include <asm/syscall.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscall.h>
 #include <linux/io.h>
 
 /* Returns the address where the register at REG_OFFS in P is stashed away. */

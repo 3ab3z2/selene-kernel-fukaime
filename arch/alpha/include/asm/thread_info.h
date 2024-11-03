@@ -5,10 +5,10 @@
 #ifdef __KERNEL__
 
 #ifndef __ASSEMBLY__
-#include <asm/processor.h>
-#include <asm/types.h>
-#include <asm/hwrpb.h>
-#include <asm/sysinfo.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/types.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/sysinfo.h>
 #endif
 
 #ifndef __ASSEMBLY__

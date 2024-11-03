@@ -11,8 +11,8 @@
 #include <linux/interrupt.h>
 #include <linux/delay.h>
 
-#include <asm/ebus_dma.h>
-#include <asm/io.h>
+#include <asm-generic/ebus_dma.h>
+#include <asm-generic/io.h>
 
 #define EBDMA_CSR	0x00UL	/* Control/Status */
 #define EBDMA_ADDR	0x04UL	/* DMA Address */

@@ -23,10 +23,10 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 
-#include <asm/time.h>
-#include <asm/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/reboot.h>
 
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/emma/emma2rh.h>
 
 #define USE_CPU_COUNTER_TIMER	/* whether we use cpu counter */
 

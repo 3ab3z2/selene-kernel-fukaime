@@ -42,9 +42,9 @@
 #include <linux/timekeeping.h>
 
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/tlb.h>
-#include <asm/exec.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/exec.h>
 
 #include <trace/events/task.h>
 #include "internal.h"

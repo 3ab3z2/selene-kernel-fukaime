@@ -8,7 +8,7 @@
 #ifndef _ASM_MICROBLAZE_PTRACE_H
 #define _ASM_MICROBLAZE_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 #ifndef __ASSEMBLY__
 #define kernel_mode(regs)		((regs)->pt_mode)

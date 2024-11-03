@@ -18,10 +18,10 @@
 #include <linux/bitops.h>
 #include <linux/irqreturn.h>
 
-#include <asm/io.h>
-#include <asm/param.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/param.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
 
 static inline unsigned int
 ia64_get_lid (void)

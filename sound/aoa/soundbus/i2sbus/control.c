@@ -11,11 +11,11 @@
 #include <linux/slab.h>
 #include <linux/io.h>
 
-#include <asm/prom.h>
-#include <asm/macio.h>
-#include <asm/pmac_feature.h>
-#include <asm/pmac_pfunc.h>
-#include <asm/keylargo.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/macio.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/pmac_pfunc.h>
+#include <asm-generic/keylargo.h>
 
 #include "i2sbus.h"
 

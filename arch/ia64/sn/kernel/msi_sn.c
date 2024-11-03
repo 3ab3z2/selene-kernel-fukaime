@@ -13,11 +13,11 @@
 #include <linux/msi.h>
 #include <linux/slab.h>
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/nodepda.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/nodepda.h>
 
 struct sn_msi_info {
 	u64 pci_addr;

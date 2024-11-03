@@ -14,9 +14,9 @@
 
 #include <sound/pcm.h>
 
-#include <asm/prom.h>
-#include <asm/pmac_feature.h>
-#include <asm/dbdma.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/dbdma.h>
 
 #include "interface.h"
 #include "../soundbus.h"

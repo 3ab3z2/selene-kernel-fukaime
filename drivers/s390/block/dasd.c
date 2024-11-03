@@ -23,11 +23,11 @@
 #include <linux/seq_file.h>
 #include <linux/vmalloc.h>
 
-#include <asm/ccwdev.h>
-#include <asm/ebcdic.h>
-#include <asm/idals.h>
-#include <asm/itcw.h>
-#include <asm/diag.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/itcw.h>
+#include <asm-generic/diag.h>
 
 /* This is ugly... */
 #define PRINTK_HEADER "dasd:"

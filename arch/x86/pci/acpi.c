@@ -6,8 +6,8 @@
 #include <linux/dmi.h>
 #include <linux/slab.h>
 #include <linux/pci-acpi.h>
-#include <asm/numa.h>
-#include <asm/pci_x86.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/pci_x86.h>
 
 struct pci_root_info {
 	struct acpi_pci_root_info common;

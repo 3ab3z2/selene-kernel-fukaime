@@ -101,9 +101,9 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 #include <linux/of.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc52xx.h>
 
 /* HW IRQ mapping */
 #define MPC52xx_IRQ_L1_CRIT	(0)

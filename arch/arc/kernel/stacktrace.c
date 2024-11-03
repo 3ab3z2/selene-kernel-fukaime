@@ -30,9 +30,9 @@
 #include <linux/kallsyms.h>
 #include <linux/sched/debug.h>
 
-#include <asm/arcregs.h>
-#include <asm/unwind.h>
-#include <asm/switch_to.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/switch_to.h>
 
 /*-------------------------------------------------------------------------
  *              Unwinder Iterator

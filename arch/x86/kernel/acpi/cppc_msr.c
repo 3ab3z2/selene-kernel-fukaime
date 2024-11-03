@@ -14,7 +14,7 @@
  */
 
 #include <acpi/cppc_acpi.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 
 /* Refer to drivers/acpi/cppc_acpi.c for the description of functions */
 

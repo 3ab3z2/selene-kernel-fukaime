@@ -29,7 +29,7 @@
 #ifndef __ASM_RC32434_TIMER_H
 #define __ASM_RC32434_TIMER_H
 
-#include <asm/mach-rc32434/rb.h>
+#include <asm-generic/mach-rc32434/rb.h>
 
 #define TIMER0_BASE_ADDR		0x18028000
 #define TIMER_COUNT			3

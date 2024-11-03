@@ -26,7 +26,7 @@
 #include <linux/uaccess.h>
 #include <linux/kdebug.h>
 
-#include <asm/sstep.h>
+#include <asm-generic/sstep.h>
 
 #define UPROBE_TRAP_NR	UINT_MAX
 

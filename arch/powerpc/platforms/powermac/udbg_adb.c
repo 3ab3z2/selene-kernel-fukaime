@@ -7,19 +7,19 @@
 #include <linux/adb.h>
 #include <linux/pmu.h>
 #include <linux/cuda.h>
-#include <asm/machdep.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/xmon.h>
-#include <asm/prom.h>
-#include <asm/bootx.h>
-#include <asm/errno.h>
-#include <asm/pmac_feature.h>
-#include <asm/processor.h>
-#include <asm/delay.h>
-#include <asm/btext.h>
-#include <asm/time.h>
-#include <asm/udbg.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/xmon.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/bootx.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/time.h>
+#include <asm-generic/udbg.h>
 
 /*
  * This implementation is "special", it can "patch" the current

@@ -8,13 +8,13 @@
 #include <linux/of_address.h>
 #include <linux/of_device.h>
 #include <linux/serial_reg.h>
-#include <asm/io.h>
-#include <asm/mmu.h>
-#include <asm/prom.h>
-#include <asm/serial.h>
-#include <asm/udbg.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/serial.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
 
 #undef DEBUG
 

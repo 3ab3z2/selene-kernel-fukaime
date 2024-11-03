@@ -15,10 +15,10 @@
 #include <linux/printk.h>
 #include <linux/sizes.h>
 
-#include <asm/fw/fw.h>
-#include <asm/io.h>
-#include <asm/machine.h>
-#include <asm/yamon-dt.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machine.h>
+#include <asm-generic/yamon-dt.h>
 
 #define SEAD_CONFIG			CKSEG1ADDR(0x1b100110)
 #define SEAD_CONFIG_GIC_PRESENT		BIT(1)

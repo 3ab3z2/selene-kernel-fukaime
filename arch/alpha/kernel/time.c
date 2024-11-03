@@ -36,8 +36,8 @@
 #include <linux/irq_work.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/hwrpb.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hwrpb.h>
 
 #include <linux/mc146818rtc.h>
 #include <linux/time.h>

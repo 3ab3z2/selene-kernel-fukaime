@@ -43,8 +43,8 @@
 #include <linux/dmi.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #include "uhci-hcd.h"
 

@@ -3,13 +3,13 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 
-#include <asm/addrspace.h>
-#include <asm/paccess.h>
-#include <asm/gio_device.h>
-#include <asm/sgi/gio.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/paccess.h>
+#include <asm-generic/gio_device.h>
+#include <asm-generic/sgi/gio.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/ip22.h>
 
 static struct bus_type gio_bus_type;
 

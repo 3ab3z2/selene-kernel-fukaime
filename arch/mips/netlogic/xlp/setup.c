@@ -35,17 +35,17 @@
 #include <linux/kernel.h>
 #include <linux/of_fdt.h>
 
-#include <asm/idle.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
 
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/sys.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/sys.h>
 
 uint64_t nlm_io_base;
 struct nlm_soc_info nlm_nodes[NLM_NR_NODES];

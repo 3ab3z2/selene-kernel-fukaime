@@ -35,10 +35,10 @@
 #include <linux/slab.h>
 #include <linux/timex.h>	/* get_tod_clock() */
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/cmb.h>
-#include <asm/div64.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/cmb.h>
+#include <asm-generic/div64.h>
 
 #include "cio.h"
 #include "css.h"

@@ -24,10 +24,10 @@
 # include "boot.h"
 #endif
 #include <linux/types.h>
-#include <asm/intel-family.h>
-#include <asm/processor-flags.h>
-#include <asm/required-features.h>
-#include <asm/msr-index.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/required-features.h>
+#include <asm-generic/msr-index.h>
 #include "string.h"
 
 static u32 err_flags[NCAPINTS];

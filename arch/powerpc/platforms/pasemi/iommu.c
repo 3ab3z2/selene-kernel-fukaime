@@ -23,9 +23,9 @@
 #include <linux/types.h>
 #include <linux/spinlock.h>
 #include <linux/pci.h>
-#include <asm/iommu.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
 
 #include "pasemi.h"
 

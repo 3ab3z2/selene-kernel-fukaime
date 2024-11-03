@@ -19,7 +19,7 @@
 #include <linux/fb.h>
 #include <linux/init.h>
 #include <linux/zorro.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  *	Some technical notes:

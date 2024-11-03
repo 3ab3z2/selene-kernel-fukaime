@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #include <drm/drmP.h>
 #include <drm/drm_atomic.h>
 #include <drm/drm_atomic_helper.h>

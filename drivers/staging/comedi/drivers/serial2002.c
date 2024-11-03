@@ -34,7 +34,7 @@
 #include <linux/ktime.h>
 
 #include <linux/termios.h>
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 #include <linux/serial.h>
 #include <linux/poll.h>
 

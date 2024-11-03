@@ -31,9 +31,9 @@
 #include <linux/stringify.h>
 #include <linux/notifier.h>
 
-#include <asm/platform.h>
-#include <asm/bootparam.h>
-#include <asm/setup.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/setup.h>
 
 #include <platform/simcall.h>
 

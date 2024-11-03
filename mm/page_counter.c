@@ -11,7 +11,7 @@
 #include <linux/string.h>
 #include <linux/sched.h>
 #include <linux/bug.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /**
  * page_counter_cancel - take pages out of the local counter

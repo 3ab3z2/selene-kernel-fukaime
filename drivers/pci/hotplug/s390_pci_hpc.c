@@ -16,8 +16,8 @@
 #include <linux/slab.h>
 #include <linux/pci.h>
 #include <linux/pci_hotplug.h>
-#include <asm/pci_debug.h>
-#include <asm/sclp.h>
+#include <asm-generic/pci_debug.h>
+#include <asm-generic/sclp.h>
 
 #define SLOT_NAME_SIZE	10
 static LIST_HEAD(s390_hotplug_slot_list);

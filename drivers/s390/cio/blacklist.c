@@ -19,8 +19,8 @@
 #include <linux/device.h>
 
 #include <linux/uaccess.h>
-#include <asm/cio.h>
-#include <asm/ipl.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ipl.h>
 
 #include "blacklist.h"
 #include "cio.h"

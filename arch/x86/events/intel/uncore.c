@@ -1,7 +1,7 @@
 #include <linux/module.h>
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
 #include "uncore.h"
 
 static struct intel_uncore_type *empty_uncore[] = { NULL, };

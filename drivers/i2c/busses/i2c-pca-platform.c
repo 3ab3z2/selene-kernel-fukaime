@@ -27,7 +27,7 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 struct i2c_pca_pf_data {
 	void __iomem			*reg_base;

@@ -19,7 +19,7 @@
 #include <linux/threads.h>
 #include <asm/page.h>
 #include <asm/thread_info.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/asm-offsets.h>
 #include <hv/hypervisor.h>
 

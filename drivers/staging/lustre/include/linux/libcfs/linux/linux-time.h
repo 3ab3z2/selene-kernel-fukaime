@@ -47,7 +47,7 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/time.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 /*
  * post 2.5 kernels.

@@ -10,7 +10,7 @@
 #ifndef __ASM_ARC_PTRACE_H
 #define __ASM_ARC_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 #ifndef __ASSEMBLY__
 

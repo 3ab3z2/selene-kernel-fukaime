@@ -18,8 +18,8 @@
 #include <linux/string.h>
 #include <linux/libfdt.h>
 
-#include <asm/addrspace.h>
-#include <asm/unaligned.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/unaligned.h>
 
 /*
  * These two variables specify the free mem region

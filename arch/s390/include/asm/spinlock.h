@@ -11,9 +11,9 @@
 #define __ASM_SPINLOCK_H
 
 #include <linux/smp.h>
-#include <asm/atomic_ops.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/atomic_ops.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 #define SPINLOCK_LOCKVAL (S390_lowcore.spinlock_lockval)
 
@@ -33,7 +33,7 @@ bool arch_vcpu_is_preempted(int cpu);
  *
  * We make no fairness assumptions. They have a cost.
  *
- * (the type definitions are in asm/spinlock_types.h)
+ * (the type definitions are in asm-generic/spinlock_types.h)
  */
 
 void arch_lock_relax(int cpu);

@@ -5,8 +5,8 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/jiffies.h>
-#include <asm/apicdef.h>
-#include <asm/nmi.h>
+#include <asm-generic/apicdef.h>
+#include <asm-generic/nmi.h>
 
 #include "../perf_event.h"
 

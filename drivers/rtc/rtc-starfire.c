@@ -11,7 +11,7 @@
 #include <linux/rtc.h>
 #include <linux/platform_device.h>
 
-#include <asm/oplib.h>
+#include <asm-generic/oplib.h>
 
 static u32 starfire_get_time(void)
 {

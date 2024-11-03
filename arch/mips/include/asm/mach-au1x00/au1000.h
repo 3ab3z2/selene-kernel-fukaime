@@ -595,7 +595,7 @@
 #include <linux/io.h>
 #include <linux/irq.h>
 
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 /* helpers to access the SYS_* registers */
 static inline unsigned long alchemy_rdsys(int regofs)

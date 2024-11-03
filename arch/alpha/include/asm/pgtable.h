@@ -9,14 +9,14 @@
  * the Alpha page table tree.
  *
  * This hopefully works with any standard Alpha page-size, as defined
- * in <asm/page.h> (currently 8192).
+ * in <asm-generic/page.h> (currently 8192).
  */
 #include <linux/mmzone.h>
 
-#include <asm/page.h>
-#include <asm/processor.h>	/* For TASK_SIZE */
-#include <asm/machvec.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>	/* For TASK_SIZE */
+#include <asm-generic/machvec.h>
+#include <asm-generic/setup.h>
 
 struct mm_struct;
 struct vm_area_struct;

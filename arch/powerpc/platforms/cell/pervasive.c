@@ -29,13 +29,13 @@
 #include <linux/types.h>
 #include <linux/kallsyms.h>
 
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/pgtable.h>
-#include <asm/reg.h>
-#include <asm/cell-regs.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cell-regs.h>
+#include <asm-generic/cpu_has_feature.h>
 
 #include "pervasive.h"
 

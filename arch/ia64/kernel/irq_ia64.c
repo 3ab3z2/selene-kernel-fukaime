@@ -33,16 +33,16 @@
 #include <linux/acpi.h>
 #include <linux/sched.h>
 
-#include <asm/delay.h>
-#include <asm/intrinsics.h>
-#include <asm/io.h>
-#include <asm/hw_irq.h>
-#include <asm/machvec.h>
-#include <asm/pgtable.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbflush.h>
 
 #ifdef CONFIG_PERFMON
-# include <asm/perfmon.h>
+# include <asm-generic/perfmon.h>
 #endif
 
 #define IRQ_DEBUG	0

@@ -2,10 +2,10 @@
 #ifndef __ASM_SPINLOCK_H
 #define __ASM_SPINLOCK_H
 
-#include <asm/barrier.h>
-#include <asm/ldcw.h>
-#include <asm/processor.h>
-#include <asm/spinlock_types.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/ldcw.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/spinlock_types.h>
 
 static inline int arch_spin_is_locked(arch_spinlock_t *x)
 {

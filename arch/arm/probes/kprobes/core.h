@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2011 Jon Medhurst <tixy@yxit.co.uk>.
  *
- * Some contents moved here from arch/arm/include/asm/kprobes.h which is
+ * Some contents moved here from arch/arm/include/asm-generic/kprobes.h which is
  * Copyright (C) 2006, 2007 Motorola Inc.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -19,7 +19,7 @@
 #ifndef _ARM_KERNEL_KPROBES_H
 #define _ARM_KERNEL_KPROBES_H
 
-#include <asm/kprobes.h>
+#include <asm-generic/kprobes.h>
 #include "../decode.h"
 
 /*

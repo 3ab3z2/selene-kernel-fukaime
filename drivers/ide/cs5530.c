@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/ide.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define DRV_NAME "cs5530"
 

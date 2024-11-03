@@ -32,19 +32,19 @@
 #include <linux/seccomp.h>
 #include <linux/ftrace.h>
 
-#include <asm/byteorder.h>
-#include <asm/cpu.h>
-#include <asm/cpu-info.h>
-#include <asm/dsp.h>
-#include <asm/fpu.h>
-#include <asm/mipsregs.h>
-#include <asm/mipsmtregs.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/syscall.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mipsmtregs.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/syscall.h>
 #include <linux/uaccess.h>
-#include <asm/bootinfo.h>
-#include <asm/reg.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/reg.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/syscalls.h>

@@ -2,7 +2,7 @@
 #ifndef __AXP_CONSOLE_H
 #define __AXP_CONSOLE_H
 
-#include <uapi/asm/console.h>
+#include <uapi/asm-generic/console.h>
 
 #ifndef __ASSEMBLY__
 extern long callback_puts(long unit, const char *s, long length);

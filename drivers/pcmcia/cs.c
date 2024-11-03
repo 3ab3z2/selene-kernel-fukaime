@@ -29,7 +29,7 @@
 #include <linux/device.h>
 #include <linux/kthread.h>
 #include <linux/freezer.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cistpl.h>

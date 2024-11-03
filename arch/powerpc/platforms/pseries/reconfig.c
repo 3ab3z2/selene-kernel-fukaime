@@ -17,10 +17,10 @@
 #include <linux/slab.h>
 #include <linux/of.h>
 
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 #include <linux/uaccess.h>
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 #include "of_helpers.h"
 

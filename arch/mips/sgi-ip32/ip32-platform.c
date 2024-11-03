@@ -10,8 +10,8 @@
 #include <linux/serial_8250.h>
 #include <linux/rtc/ds1685.h>
 
-#include <asm/ip32/mace.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 extern void ip32_prepare_poweroff(void);
 

@@ -11,9 +11,9 @@
 #include <linux/timex.h>
 #include <linux/mm.h>
 
-#include <asm/sn/klconfig.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/gda.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/gda.h>
 
 klinfo_t *find_component(lboard_t *brd, klinfo_t *kli, unsigned char struct_type)
 {

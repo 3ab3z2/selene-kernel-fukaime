@@ -7,11 +7,11 @@
  * Copyright (C) 1996,98,99 Jakub Jelinek  (jj@sunsite.mff.cuni.cz)
  */
 
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/tsb.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tsb.h>
 
 	.text
 	.align		32

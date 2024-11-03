@@ -9,13 +9,13 @@
 #include <linux/in6.h>
 #include <linux/interrupt.h>
 
-#include <asm/setup.h>
-#include <asm/pgalloc.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/checksum.h>
-#include <asm/hardirq.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/cacheflush.h>
 
 extern long __memcpy_user(void *dst, const void *src, size_t count);
 extern long __memset_user(void *dst, const void *src, size_t count);

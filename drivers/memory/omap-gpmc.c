@@ -34,7 +34,7 @@
 #include <linux/platform_data/mtd-nand-omap2.h>
 #include <linux/platform_data/mtd-onenand-omap2.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #define	DEVICE_NAME		"omap-gpmc"
 

@@ -20,11 +20,11 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/setup.h>
-#include <asm/amigahw.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/amigaints.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/amigaints.h>
 
 #undef DEBUG
 #ifdef DEBUG

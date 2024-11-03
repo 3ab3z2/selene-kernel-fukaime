@@ -7,7 +7,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/export.h>
+#include <asm-generic/export.h>
 
 /*
  * This is the main variant and is called by C code.  GCC's -pg option

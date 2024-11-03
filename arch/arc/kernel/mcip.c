@@ -13,8 +13,8 @@
 #include <linux/irqchip/chained_irq.h>
 #include <linux/spinlock.h>
 #include <soc/arc/mcip.h>
-#include <asm/irqflags-arcv2.h>
-#include <asm/setup.h>
+#include <asm-generic/irqflags-arcv2.h>
+#include <asm-generic/setup.h>
 
 static DEFINE_RAW_SPINLOCK(mcip_lock);
 

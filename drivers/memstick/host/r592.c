@@ -19,7 +19,7 @@
 #include <linux/kthread.h>
 #include <linux/sched.h>
 #include <linux/highmem.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/swab.h>
 #include "r592.h"
 

@@ -12,7 +12,7 @@
 #include "bf537.h"
 #include "anomaly.h"
 
-#include <asm/def_LPBlackfin.h>
+#include <asm-generic/def_LPBlackfin.h>
 #ifdef CONFIG_BF534
 # include "defBF534.h"
 #endif
@@ -21,7 +21,7 @@
 #endif
 
 #if !defined(__ASSEMBLY__)
-# include <asm/cdef_LPBlackfin.h>
+# include <asm-generic/cdef_LPBlackfin.h>
 # ifdef CONFIG_BF534
 #  include "cdefBF534.h"
 # endif

@@ -19,8 +19,8 @@
 #include <linux/string.h>
 #include <linux/kernel.h>
 
-#include <asm/pgtable.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cacheflush.h>
 
 /*
  * Modules should NOT be allocated with kmalloc for (obvious) reasons.

@@ -19,14 +19,14 @@
 #include <linux/init.h>
 #include <linux/jiffies.h>
 
-#include <asm/dasd.h>
-#include <asm/debug.h>
-#include <asm/diag.h>
-#include <asm/ebcdic.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/vtoc.h>
-#include <asm/diag.h>
+#include <asm-generic/dasd.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/vtoc.h>
+#include <asm-generic/diag.h>
 
 #include "dasd_int.h"
 #include "dasd_diag.h"

@@ -11,8 +11,8 @@
 #define _S390_IO_H
 
 #include <linux/kernel.h>
-#include <asm/page.h>
-#include <asm/pci_io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pci_io.h>
 
 #define xlate_dev_mem_ptr xlate_dev_mem_ptr
 void *xlate_dev_mem_ptr(phys_addr_t phys);

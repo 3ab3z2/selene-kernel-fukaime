@@ -17,10 +17,10 @@
 #include <linux/hardirq.h>
 #include <linux/perf_event.h>
 #include <linux/uaccess.h>
-#include <asm/mmu_context.h>
-#include <asm/cacheflush.h>
-#include <asm/hardirq.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/pgalloc.h>
 
 DEFINE_PER_CPU(unsigned long, asid_cache) = ASID_USER_FIRST;
 void bad_page_fault(struct pt_regs*, unsigned long, int);

@@ -17,9 +17,9 @@
 #include <linux/pagemap.h>
 #include <linux/err.h>
 #include <linux/sysctl.h>
-#include <asm/mman.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
 
 pte_t *huge_pte_alloc(struct mm_struct *mm, unsigned long addr,
 		      unsigned long sz)

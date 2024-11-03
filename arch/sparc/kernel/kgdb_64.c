@@ -9,10 +9,10 @@
 #include <linux/ftrace.h>
 #include <linux/context_tracking.h>
 
-#include <asm/cacheflush.h>
-#include <asm/kdebug.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq.h>
 
 #include "kernel.h"
 

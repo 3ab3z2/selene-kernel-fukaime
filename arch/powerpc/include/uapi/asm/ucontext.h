@@ -3,11 +3,11 @@
 #define _ASM_POWERPC_UCONTEXT_H
 
 #ifdef __powerpc64__
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 #else
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 #endif
-#include <asm/signal.h>
+#include <asm-generic/signal.h>
 
 #ifndef __powerpc64__
 struct mcontext {

@@ -2,8 +2,8 @@
 #ifndef _TOOLS_LINUX_ASM_GENERIC_BITOPS_ATOMIC_H_
 #define _TOOLS_LINUX_ASM_GENERIC_BITOPS_ATOMIC_H_
 
-#include <asm/types.h>
-#include <asm/bitsperlong.h>
+#include <asm-generic/types.h>
+#include <asm-generic/bitsperlong.h>
 
 static inline void set_bit(int nr, unsigned long *addr)
 {

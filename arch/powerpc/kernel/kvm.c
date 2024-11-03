@@ -27,12 +27,12 @@
 #include <linux/slab.h>
 #include <linux/of.h>
 
-#include <asm/reg.h>
-#include <asm/sections.h>
-#include <asm/cacheflush.h>
-#include <asm/disassemble.h>
-#include <asm/ppc-opcode.h>
-#include <asm/epapr_hcalls.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/disassemble.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/epapr_hcalls.h>
 
 #define KVM_MAGIC_PAGE		(-4096L)
 #define magic_var(x) KVM_MAGIC_PAGE + offsetof(struct kvm_vcpu_arch_shared, x)

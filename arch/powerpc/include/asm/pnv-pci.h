@@ -14,7 +14,7 @@
 #include <linux/pci_hotplug.h>
 #include <linux/irq.h>
 #include <misc/cxl-base.h>
-#include <asm/opal-api.h>
+#include <asm-generic/opal-api.h>
 
 #define PCI_SLOT_ID_PREFIX	(1UL << 63)
 #define PCI_SLOT_ID(phb_id, bdfn)	\

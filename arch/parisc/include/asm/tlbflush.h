@@ -6,7 +6,7 @@
 
 #include <linux/mm.h>
 #include <linux/sched.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 
 /* This is for the serialisation of PxTLB broadcasts.  At least on the

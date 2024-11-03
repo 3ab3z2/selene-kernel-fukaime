@@ -12,8 +12,8 @@
 #include <linux/module.h>
 #include <linux/io.h>
 
-#include <asm/blackfin.h>
-#include <asm/gptimers.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/gptimers.h>
 
 #ifdef DEBUG
 # define tassert(expr)

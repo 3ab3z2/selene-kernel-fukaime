@@ -50,7 +50,7 @@
 #include <linux/ipc.h>
 #include <linux/slab.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/uaccess.h>
 
 #include <net/scm.h>

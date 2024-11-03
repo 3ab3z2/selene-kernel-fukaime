@@ -16,7 +16,7 @@
 #include <linux/bug.h>
 #include <linux/nmi.h>
 
-#include <asm/stacktrace.h>
+#include <asm-generic/stacktrace.h>
 
 static char *exception_stack_names[N_EXCEPTION_STACKS] = {
 		[ DOUBLEFAULT_STACK-1	]	= "#DF",

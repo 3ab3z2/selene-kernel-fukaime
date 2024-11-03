@@ -12,12 +12,12 @@
 
 #include <linux/sys.h>
 #include <linux/linkage.h>
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/ptrace.h>
-#include <asm/errno.h>
-#include <asm/cache.h>
-#include <asm/spr-regs.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/spr-regs.h>
 
 #define __addr_MASK	0xfeff9820	/* interrupt controller mask */
 

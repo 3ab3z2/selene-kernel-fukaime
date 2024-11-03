@@ -48,9 +48,9 @@
 #include <linux/sched/mm.h>
 
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/tlb.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/mmu_context.h>
 
 #include "internal.h"
 

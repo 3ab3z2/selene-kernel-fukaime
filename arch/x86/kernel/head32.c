@@ -11,16 +11,16 @@
 #include <linux/mm.h>
 #include <linux/memblock.h>
 
-#include <asm/desc.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
-#include <asm/e820/api.h>
-#include <asm/page.h>
-#include <asm/apic.h>
-#include <asm/io_apic.h>
-#include <asm/bios_ebda.h>
-#include <asm/tlbflush.h>
-#include <asm/bootparam_utils.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/page.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/bios_ebda.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/bootparam_utils.h>
 
 static void __init i386_default_early_setup(void)
 {

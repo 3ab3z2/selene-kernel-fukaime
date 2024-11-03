@@ -21,7 +21,7 @@
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
 #include <linux/spinlock.h>
-#include <asm/qrwlock.h>
+#include <asm-generic/qrwlock.h>
 
 /*
  * This internal data structure is used for optimizing access to some of

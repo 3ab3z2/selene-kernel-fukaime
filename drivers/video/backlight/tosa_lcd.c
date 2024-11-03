@@ -21,7 +21,7 @@
 #include <linux/lcd.h>
 #include <linux/fb.h>
 
-#include <asm/mach/sharpsl_param.h>
+#include <asm-generic/mach/sharpsl_param.h>
 
 #include <mach/tosa.h>
 

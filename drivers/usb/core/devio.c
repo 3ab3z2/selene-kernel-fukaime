@@ -52,7 +52,7 @@
 #include <linux/scatterlist.h>
 #include <linux/uaccess.h>
 #include <linux/dma-mapping.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/moduleparam.h>
 
 #include "usb.h"

@@ -14,7 +14,7 @@
  *		2 of the License, or (at your option) any later version.
  */
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 #include <linux/linkage.h>
 #include <variant/core.h>
 

@@ -10,7 +10,7 @@
 #include <linux/clk.h>
 #include <linux/interrupt.h>
 #include <linux/sizes.h>
-#include <asm/time.h>
+#include <asm-generic/time.h>
 
 #include <loongson1.h>
 #include <platform.h>

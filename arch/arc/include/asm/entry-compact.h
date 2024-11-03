@@ -32,9 +32,9 @@
 #ifndef __ASM_ARC_ENTRY_COMPACT_H
 #define __ASM_ARC_ENTRY_COMPACT_H
 
-#include <asm/asm-offsets.h>
-#include <asm/irqflags-compact.h>
-#include <asm/thread_info.h>	/* For THREAD_SIZE */
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/irqflags-compact.h>
+#include <asm-generic/thread_info.h>	/* For THREAD_SIZE */
 
 #ifdef CONFIG_ARC_PLAT_EZNPS
 #include <plat/ctop.h>

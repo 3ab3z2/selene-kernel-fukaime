@@ -38,7 +38,7 @@
  * - xxHash source repository: https://github.com/Cyan4973/xxHash
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/errno.h>
 #include <linux/compiler.h>
 #include <linux/kernel.h>

@@ -49,10 +49,10 @@
 #include <linux/device.h>
 #include <linux/kernel.h>
 #include <linux/cpu.h>
-#include <asm/spu.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/cell-regs.h>
 
 #include "spu_priv1_mmio.h"
 

@@ -36,15 +36,15 @@
 #include <linux/scatterlist.h>
 #include <linux/slab.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/dbdma.h>
-#include <asm/ide.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/sections.h>
-#include <asm/irq.h>
-#include <asm/mediabay.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/ide.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mediabay.h>
 
 #define DRV_NAME "ide-pmac"
 

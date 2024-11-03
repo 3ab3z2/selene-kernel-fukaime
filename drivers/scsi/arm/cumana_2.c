@@ -12,7 +12,7 @@
  *   22-01-1998	RMK	0.0.1	Updated to 2.1.80.
  *   15-04-1998	RMK	0.0.1	Only do PIO if FAS216 will allow it.
  *   02-05-1998	RMK	0.0.2	Updated & added DMA support.
- *   27-06-1998	RMK		Changed asm/delay.h to linux/delay.h
+ *   27-06-1998	RMK		Changed asm-generic/delay.h to linux/delay.h
  *   18-08-1998	RMK	0.0.3	Fixed synchronous transfer depth.
  *   02-04-2000	RMK	0.0.4	Updated for new error handling code.
  */
@@ -27,10 +27,10 @@
 #include <linux/init.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/dma.h>
-#include <asm/ecard.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/ecard.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
 
 #include "../scsi.h"
 #include <scsi/scsi_host.h>

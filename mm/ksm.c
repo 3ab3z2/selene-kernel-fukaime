@@ -40,7 +40,7 @@
 #include <linux/oom.h>
 #include <linux/numa.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 #include "internal.h"
 
 #ifdef CONFIG_NUMA

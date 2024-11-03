@@ -25,11 +25,11 @@
 #include <linux/delay.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
-#include <asm/dcr.h>
-#include <asm/dcr-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-regs.h>
 #include <mm/mmu_decl.h>
 
 #include "pci.h"

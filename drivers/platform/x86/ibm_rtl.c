@@ -31,7 +31,7 @@
 #include <linux/dmi.h>
 #include <linux/efi.h>
 #include <linux/mutex.h>
-#include <asm/bios_ebda.h>
+#include <asm-generic/bios_ebda.h>
 
 #include <linux/io-64-nonatomic-lo-hi.h>
 

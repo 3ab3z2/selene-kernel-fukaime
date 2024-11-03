@@ -27,7 +27,7 @@
 #include <linux/export.h>
 #include <linux/init.h>
 #include <linux/perf_event.h>
-#include <asm/bfin_pfmon.h>
+#include <asm-generic/bfin_pfmon.h>
 
 /*
  * We have two counters, and each counter can support an event type.

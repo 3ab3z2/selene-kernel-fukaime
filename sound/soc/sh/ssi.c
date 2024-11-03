@@ -34,7 +34,7 @@
 #include <sound/pcm.h>
 #include <sound/initval.h>
 #include <sound/soc.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define SSICR	0x00
 #define SSISR	0x04

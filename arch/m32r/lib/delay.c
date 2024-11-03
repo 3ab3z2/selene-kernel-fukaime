@@ -10,10 +10,10 @@
 #include <linux/module.h>
 #ifdef CONFIG_SMP
 #include <linux/sched.h>
-#include <asm/current.h>
-#include <asm/smp.h>
+#include <asm-generic/current.h>
+#include <asm-generic/smp.h>
 #endif  /* CONFIG_SMP */
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 void __delay(unsigned long loops)
 {

@@ -20,10 +20,10 @@
 #define __ASM_OPENRISC_TLBFLUSH_H
 
 #include <linux/mm.h>
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/current.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/current.h>
 #include <linux/sched.h>
 
 /*

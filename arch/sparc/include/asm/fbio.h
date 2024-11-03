@@ -2,7 +2,7 @@
 #ifndef __LINUX_FBIO_H
 #define __LINUX_FBIO_H
 
-#include <uapi/asm/fbio.h>
+#include <uapi/asm-generic/fbio.h>
 
 #define FBIOPUTCMAP_SPARC _IOW('F', 3, struct fbcmap)
 #define FBIOGETCMAP_SPARC _IOW('F', 4, struct fbcmap)

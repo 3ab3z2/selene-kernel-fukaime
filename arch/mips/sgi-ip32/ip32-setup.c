@@ -16,17 +16,17 @@
 #include <linux/param.h>
 #include <linux/sched.h>
 
-#include <asm/bootinfo.h>
-#include <asm/mc146818-time.h>
-#include <asm/mipsregs.h>
-#include <asm/mmu_context.h>
-#include <asm/sgialib.h>
-#include <asm/time.h>
-#include <asm/traps.h>
-#include <asm/io.h>
-#include <asm/ip32/crime.h>
-#include <asm/ip32/mace.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mc146818-time.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/time.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ip32/crime.h>
+#include <asm-generic/ip32/mace.h>
+#include <asm-generic/ip32/ip32_ints.h>
 
 extern void ip32_be_init(void);
 extern void crime_init(void);

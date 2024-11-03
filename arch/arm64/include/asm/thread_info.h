@@ -29,7 +29,7 @@ struct task_struct;
 
 #include <asm/memory.h>
 #include <asm/stack_pointer.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 typedef unsigned long mm_segment_t;
 

@@ -2,7 +2,7 @@
 #ifndef AGP_H
 #define AGP_H 1
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* dummy for now */
 

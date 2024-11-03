@@ -24,8 +24,8 @@
 #include <linux/mm.h>
 #include <linux/nodemask.h>
 #include <linux/node.h>
-#include <asm/sysinfo.h>
-#include <asm/numa.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/numa.h>
 
 #define PTF_HORIZONTAL	(0UL)
 #define PTF_VERTICAL	(1UL)

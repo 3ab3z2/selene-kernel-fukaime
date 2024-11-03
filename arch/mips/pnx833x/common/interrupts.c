@@ -23,9 +23,9 @@
 #include <linux/irq.h>
 #include <linux/hardirq.h>
 #include <linux/interrupt.h>
-#include <asm/mipsregs.h>
-#include <asm/irq_cpu.h>
-#include <asm/setup.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/setup.h>
 #include <irq.h>
 #include <irq-mapping.h>
 #include <gpio.h>

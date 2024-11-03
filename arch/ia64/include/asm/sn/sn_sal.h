@@ -12,12 +12,12 @@
  */
 
 
-#include <asm/sal.h>
-#include <asm/sn/sn_cpuid.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/geo.h>
-#include <asm/sn/nodepda.h>
-#include <asm/sn/shub_mmr.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sn/sn_cpuid.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/geo.h>
+#include <asm-generic/sn/nodepda.h>
+#include <asm-generic/sn/shub_mmr.h>
 
 // SGI Specific Calls
 #define  SN_SAL_POD_MODE                           0x02000001
@@ -1096,7 +1096,7 @@ ia64_sn_get_sn_info(int fc, u8 *shubtype, u16 *nasid_bitmask, u8 *nasid_shift,
 /*
  * This is the access point to the Altix PROM hardware performance
  * and status monitoring interface. For info on using this, see
- * arch/ia64/include/asm/sn/sn2/sn_hwperf.h
+ * arch/ia64/include/asm-generic/sn/sn2/sn_hwperf.h
  */
 static inline int
 ia64_sn_hwperf_op(nasid_t nasid, u64 opcode, u64 a0, u64 a1, u64 a2,

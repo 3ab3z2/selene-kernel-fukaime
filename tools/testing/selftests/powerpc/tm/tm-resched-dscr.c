@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#include <asm/tm.h>
+#include <asm-generic/tm.h>
 
 #include "utils.h"
 #include "tm.h"

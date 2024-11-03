@@ -116,7 +116,7 @@
 #include <linux/sort.h>
 
 #ifdef CONFIG_SPARC
-#include <asm/fbio.h>
+#include <asm-generic/fbio.h>
 #endif
 
 #define convert_in_user(srcptr, dstptr)			\

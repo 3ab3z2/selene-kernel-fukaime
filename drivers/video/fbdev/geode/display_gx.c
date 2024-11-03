@@ -14,9 +14,9 @@
 #include <linux/spinlock.h>
 #include <linux/fb.h>
 #include <linux/delay.h>
-#include <asm/io.h>
-#include <asm/div64.h>
-#include <asm/delay.h>
+#include <asm-generic/io.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/delay.h>
 #include <linux/cs5535.h>
 
 #include "gxfb.h"

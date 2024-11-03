@@ -19,7 +19,7 @@
 #include <linux/uaccess.h>
 #include <linux/hugetlb.h>
 
-#include <asm/traps.h>
+#include <asm-generic/traps.h>
 
 /* Various important other fields */
 #define bit22set(x)		(x & 0x00000200)

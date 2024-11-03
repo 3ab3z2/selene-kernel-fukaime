@@ -10,8 +10,8 @@
 #include <linux/fs.h>
 #include <linux/string.h>
 #include <linux/kernel.h>
-#include <asm/dma.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/uaccess.h>
 
 #define mod_err(mod, fmt, ...)						\

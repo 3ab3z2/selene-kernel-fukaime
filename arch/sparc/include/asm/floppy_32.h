@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-/* asm/floppy.h: Sparc specific parts of the Floppy driver.
+/* asm-generic/floppy.h: Sparc specific parts of the Floppy driver.
  *
  * Copyright (C) 1995 David S. Miller (davem@davemloft.net)
  */
@@ -10,13 +10,13 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/pgtable.h>
-#include <asm/idprom.h>
-#include <asm/oplib.h>
-#include <asm/auxio.h>
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/irq.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/auxio.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/irq.h>
 
 /* We don't need no stinkin' I/O port allocation crap. */
 #undef release_region

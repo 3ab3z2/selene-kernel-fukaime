@@ -64,8 +64,8 @@
 #include <linux/mm.h>
 #include <linux/slab.h>
 
-#include <asm/pgtable.h>
-#include <asm/unwind.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/unwind.h>
 
 #if 0
 #define DEBUGP printk

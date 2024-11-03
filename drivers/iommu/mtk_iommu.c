@@ -30,9 +30,9 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/spinlock.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #ifndef CONFIG_ARM64
-#include <asm/dma-iommu.h>
+#include <asm-generic/dma-iommu.h>
 #endif
 #include <soc/mediatek/smi.h>
 

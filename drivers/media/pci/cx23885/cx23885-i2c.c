@@ -21,7 +21,7 @@
 #include <linux/moduleparam.h>
 #include <linux/init.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <media/v4l2-common.h>
 

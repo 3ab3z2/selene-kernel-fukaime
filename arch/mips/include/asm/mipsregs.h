@@ -15,8 +15,8 @@
 
 #include <linux/linkage.h>
 #include <linux/types.h>
-#include <asm/hazards.h>
-#include <asm/war.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/war.h>
 
 /*
  * The following macros are especially useful for __asm__

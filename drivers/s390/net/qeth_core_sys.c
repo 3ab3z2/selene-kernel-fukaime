@@ -11,7 +11,7 @@
 
 #include <linux/list.h>
 #include <linux/rwsem.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 
 #include "qeth_core.h"
 

@@ -12,10 +12,10 @@
 #include <linux/kdebug.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/switch_to.h>
-#include <asm/facility.h>
-#include <asm/kprobes.h>
-#include <asm/dis.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/kprobes.h>
+#include <asm-generic/dis.h>
 #include "entry.h"
 
 #define	UPROBE_TRAP_NR	UINT_MAX

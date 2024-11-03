@@ -41,7 +41,7 @@
 #include <linux/percpu-refcount.h>
 #include <linux/mount.h>
 
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 #include <linux/uaccess.h>
 #include <linux/nospec.h>
 

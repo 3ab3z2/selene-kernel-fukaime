@@ -23,14 +23,14 @@
 #include <linux/vmalloc.h>
 #include <linux/semaphore.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/checksum.h>
-#include <asm/io.h>
-#include <asm/hardirq.h>
-#include <asm/delay.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 #define DECLARE_EXPORT(name) extern void name(void); EXPORT_SYMBOL(name)
 

@@ -27,8 +27,8 @@
 #include <linux/timer.h>
 #include <linux/workqueue.h>
 #include <linux/atomic.h>
-#include <asm/machdep.h>
-#include <asm/spu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/spu.h>
 
 #define POLL_TIME	100000		/* in µs */
 #define EXP		753		/* exp(-1) in fixed-point */

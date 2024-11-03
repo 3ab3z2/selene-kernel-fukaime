@@ -8,7 +8,7 @@
 #ifndef __ASM_MACH_IP27_CPU_FEATURE_OVERRIDES_H
 #define __ASM_MACH_IP27_CPU_FEATURE_OVERRIDES_H
 
-#include <asm/cpu.h>
+#include <asm-generic/cpu.h>
 
 /*
  * IP27 only comes with R1x000 family processors, all using the same config

@@ -36,7 +36,7 @@
 #include <linux/string.h>
 #include <linux/compiler.h>
 #include <linux/slab.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/cache.h>
 
 #include "csio_hw.h"

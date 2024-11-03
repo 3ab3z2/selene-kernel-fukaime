@@ -26,7 +26,7 @@
 #include <linux/module.h>
 #include <linux/string.h>
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define MD4_DIGEST_SIZE		16
 #define MD4_HMAC_BLOCK_SIZE	64

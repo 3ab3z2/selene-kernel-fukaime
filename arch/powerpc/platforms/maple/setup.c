@@ -44,21 +44,21 @@
 #include <linux/of_device.h>
 #include <linux/memblock.h>
 
-#include <asm/processor.h>
-#include <asm/sections.h>
-#include <asm/prom.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/pci-bridge.h>
-#include <asm/iommu.h>
-#include <asm/machdep.h>
-#include <asm/dma.h>
-#include <asm/cputable.h>
-#include <asm/time.h>
-#include <asm/mpic.h>
-#include <asm/rtas.h>
-#include <asm/udbg.h>
-#include <asm/nvram.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/nvram.h>
 
 #include "maple.h"
 

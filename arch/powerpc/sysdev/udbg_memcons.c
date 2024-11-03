@@ -19,10 +19,10 @@
  */
 
 #include <linux/kernel.h>
-#include <asm/barrier.h>
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/udbg.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/udbg.h>
 
 struct memcons {
 	char *output_start;

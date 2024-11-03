@@ -14,7 +14,7 @@
 #ifndef UX500_PCM_H
 #define UX500_PCM_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include <linux/workqueue.h>
 

@@ -14,7 +14,7 @@
 #include <linux/irq.h>
 #include <linux/types.h>
 
-#include <asm/dec/kn02.h>
+#include <asm-generic/dec/kn02.h>
 
 
 /*

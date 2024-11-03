@@ -12,7 +12,7 @@
 #include <linux/preempt.h>
 #include <linux/export.h>
 #include <linux/sched.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 #include "xor_vmx.h"
 
 void xor_altivec_2(unsigned long bytes, unsigned long *v1_in,

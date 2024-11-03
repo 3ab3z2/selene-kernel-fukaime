@@ -14,8 +14,8 @@
 #include <linux/pci.h>
 #include <linux/kernel.h>
 #include <linux/interrupt.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/tx4939.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/tx4939.h>
 
 int __init tx4939_report_pciclk(void)
 {

@@ -22,17 +22,17 @@
 #include <linux/file.h>
 #include <linux/ipc.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/cachectl.h>
-#include <asm/traps.h>
-#include <asm/page.h>
-#include <asm/unistd.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/page.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/cacheflush.h>
 
 #ifdef CONFIG_MMU
 
-#include <asm/tlb.h>
+#include <asm-generic/tlb.h>
 
 asmlinkage int do_page_fault(struct pt_regs *regs, unsigned long address,
 			     unsigned long error_code);

@@ -20,8 +20,8 @@
  */
 #include <linux/uaccess.h>
 #include <linux/hardirq.h>
-#include <asm/switch_to.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/asm-prototypes.h>
 
 int enter_vmx_usercopy(void)
 {

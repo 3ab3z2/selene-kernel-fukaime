@@ -21,7 +21,7 @@
 #include <linux/err.h>
 #include <linux/kdev_t.h>
 #include <linux/root_dev.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /****************************************************************************/
 

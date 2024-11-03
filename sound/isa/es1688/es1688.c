@@ -26,7 +26,7 @@
 #include <linux/time.h>
 #include <linux/wait.h>
 #include <linux/module.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <sound/core.h>
 #include <sound/es1688.h>
 #include <sound/mpu401.h>

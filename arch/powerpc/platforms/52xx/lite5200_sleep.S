@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/reg.h>
-#include <asm/ppc_asm.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
 
 
 #define SDRAM_CTRL	0x104

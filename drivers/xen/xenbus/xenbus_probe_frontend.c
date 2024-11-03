@@ -17,9 +17,9 @@
 #include <linux/io.h>
 #include <linux/module.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/xenbus.h>
 #include <xen/events.h>
 #include <xen/page.h>

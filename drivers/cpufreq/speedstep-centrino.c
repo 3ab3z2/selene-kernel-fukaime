@@ -24,10 +24,10 @@
 #include <linux/compiler.h>
 #include <linux/gfp.h>
 
-#include <asm/msr.h>
-#include <asm/processor.h>
-#include <asm/cpufeature.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/cpu_device_id.h>
 
 #define MAINTAINER	"linux-pm@vger.kernel.org"
 

@@ -22,8 +22,8 @@
 #include <linux/amba/kmi.h>
 #include <linux/clk.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #define KMI_BASE	(kmi->base)
 

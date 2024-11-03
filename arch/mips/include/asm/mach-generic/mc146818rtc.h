@@ -10,7 +10,7 @@
 #ifndef __ASM_MACH_GENERIC_MC146818RTC_H
 #define __ASM_MACH_GENERIC_MC146818RTC_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define RTC_PORT(x)	(0x70 + (x))
 #define RTC_IRQ		8

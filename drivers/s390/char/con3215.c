@@ -22,14 +22,14 @@
 #include <linux/reboot.h>
 #include <linux/serial.h> /* ASYNC_* flags */
 #include <linux/slab.h>
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/io.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ebcdic.h>
 #include <linux/uaccess.h>
-#include <asm/delay.h>
-#include <asm/cpcmd.h>
-#include <asm/setup.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/setup.h>
 
 #include "ctrlchar.h"
 

@@ -4,8 +4,8 @@
 #include <linux/thread_info.h>
 #include <linux/ftrace.h>
 #include <linux/export.h>
-#include <asm/ptrace.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/stacktrace.h>
 
 #include "kstack.h"
 

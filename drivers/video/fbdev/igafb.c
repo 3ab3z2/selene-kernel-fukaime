@@ -42,11 +42,11 @@
 #include <linux/pci.h>
 #include <linux/nvram.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_SPARC
-#include <asm/prom.h>
-#include <asm/pcic.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pcic.h>
 #endif
 
 #include <video/iga.h>

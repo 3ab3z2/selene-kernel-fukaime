@@ -11,8 +11,8 @@
  */
 
 	.file	"tbipcx.S"
-#include <asm/metag_regs.h>
-#include <asm/tbx.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/tbx.h>
 
 /* BEGIN HACK */
 /* define these for now while doing initial conversion to GAS

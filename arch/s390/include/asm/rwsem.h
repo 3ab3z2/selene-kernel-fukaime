@@ -37,7 +37,7 @@
  */
 
 #ifndef _LINUX_RWSEM_H
-#error "please don't include asm/rwsem.h directly, use linux/rwsem.h instead"
+#error "please don't include asm-generic/rwsem.h directly, use linux/rwsem.h instead"
 #endif
 
 #define RWSEM_UNLOCKED_VALUE	0x0000000000000000L

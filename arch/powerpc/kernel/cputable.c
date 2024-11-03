@@ -17,11 +17,11 @@
 #include <linux/export.h>
 #include <linux/jump_label.h>
 
-#include <asm/oprofile_impl.h>
-#include <asm/cputable.h>
-#include <asm/prom.h>		/* for PTRRELOC on ARCH=ppc */
-#include <asm/mmu.h>
-#include <asm/setup.h>
+#include <asm-generic/oprofile_impl.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/prom.h>		/* for PTRRELOC on ARCH=ppc */
+#include <asm-generic/mmu.h>
+#include <asm-generic/setup.h>
 
 static struct cpu_spec the_cpu_spec __read_mostly;
 

@@ -14,7 +14,7 @@
 #include <linux/percpu.h>
 #include <linux/perf/arm_pmu.h>
 
-#include <asm/cputype.h>
+#include <asm-generic/cputype.h>
 
 static DEFINE_PER_CPU(struct arm_pmu *, probed_pmus);
 static DEFINE_PER_CPU(int, pmu_irqs);

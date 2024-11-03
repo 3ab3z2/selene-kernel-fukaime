@@ -13,8 +13,8 @@
 
 #include <linux/numa.h>
 
-#include <asm/percpu.h>
-#include <asm/mmzone.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/mmzone.h>
 
 #ifdef CONFIG_NUMA
 

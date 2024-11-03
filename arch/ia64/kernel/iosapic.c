@@ -70,7 +70,7 @@
  *     systems, we use one-to-one mapping between IA-64 vector and IRQ.  A
  *     platform can implement platform_irq_to_vector(irq) and
  *     platform_local_vector_to_irq(vector) APIs to differentiate the mapping.
- *     Please see also arch/ia64/include/asm/hw_irq.h for those APIs.
+ *     Please see also arch/ia64/include/asm-generic/hw_irq.h for those APIs.
  *
  * To sum up, there are three levels of mappings involved:
  *
@@ -92,13 +92,13 @@
 #include <linux/string.h>
 #include <linux/bootmem.h>
 
-#include <asm/delay.h>
-#include <asm/hw_irq.h>
-#include <asm/io.h>
-#include <asm/iosapic.h>
-#include <asm/machvec.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/iosapic.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
 
 #undef DEBUG_INTERRUPT_ROUTING
 

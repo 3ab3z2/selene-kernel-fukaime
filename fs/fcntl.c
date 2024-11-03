@@ -26,8 +26,8 @@
 #include <linux/shmem_fs.h>
 #include <linux/compat.h>
 
-#include <asm/poll.h>
-#include <asm/siginfo.h>
+#include <asm-generic/poll.h>
+#include <asm-generic/siginfo.h>
 #include <linux/uaccess.h>
 
 #define SETFL_MASK (O_APPEND | O_NONBLOCK | O_NDELAY | O_DIRECT | O_NOATIME)

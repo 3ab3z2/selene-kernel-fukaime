@@ -15,7 +15,7 @@
 #include <linux/gpio.h>
 #include <linux/io.h>
 #include <linux/cs5535.h>
-#include <asm/msr.h>
+#include <asm-generic/msr.h>
 
 #define DRV_NAME "cs5535-gpio"
 

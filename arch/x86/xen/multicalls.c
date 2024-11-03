@@ -24,7 +24,7 @@
 #include <linux/hardirq.h>
 #include <linux/debugfs.h>
 
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include "multicalls.h"
 #include "debugfs.h"

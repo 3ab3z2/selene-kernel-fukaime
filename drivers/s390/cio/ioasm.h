@@ -2,9 +2,9 @@
 #ifndef S390_CIO_IOASM_H
 #define S390_CIO_IOASM_H
 
-#include <asm/chpid.h>
-#include <asm/schid.h>
-#include <asm/crw.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/crw.h>
 #include "orb.h"
 #include "cio.h"
 #include "trace.h"

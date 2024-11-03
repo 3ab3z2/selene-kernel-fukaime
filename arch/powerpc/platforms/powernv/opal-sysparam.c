@@ -24,7 +24,7 @@
 #include <linux/of.h>
 #include <linux/gfp.h>
 #include <linux/stat.h>
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 
 #define MAX_PARAM_DATA_LEN	64
 

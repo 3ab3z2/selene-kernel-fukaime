@@ -9,8 +9,8 @@
 #ifndef _ASM_S390_HUGETLB_H
 #define _ASM_S390_HUGETLB_H
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
 
 #define is_hugepage_only_range(mm, addr, len)	0

@@ -18,7 +18,7 @@
 #include <linux/ioport.h>
 #include <linux/pci.h>
 #include <linux/capi.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/init.h>
 #include <linux/isdn/capicmd.h>
 #include <linux/isdn/capiutil.h>

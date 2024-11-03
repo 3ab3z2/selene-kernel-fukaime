@@ -18,7 +18,7 @@
 #include <linux/of_fdt.h>
 #include <linux/io.h>
 #include <linux/irqdomain.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <plat/ctop.h>
 #include <plat/smp.h>
 #include <plat/mtm.h>

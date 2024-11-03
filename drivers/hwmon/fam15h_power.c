@@ -29,8 +29,8 @@
 #include <linux/cpumask.h>
 #include <linux/time.h>
 #include <linux/sched.h>
-#include <asm/processor.h>
-#include <asm/msr.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/msr.h>
 
 MODULE_DESCRIPTION("AMD Family 15h CPU processor power monitor");
 MODULE_AUTHOR("Andreas Herrmann <herrmann.der.user@googlemail.com>");

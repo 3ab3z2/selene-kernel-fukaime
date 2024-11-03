@@ -25,7 +25,7 @@
 #include <linux/bitops.h>
 #include <linux/slab.h>
 #include <linux/export.h>
-#include <asm/fsl_gtm.h>
+#include <asm-generic/fsl_gtm.h>
 
 #define GTCFR_STP(x)		((x) & 1 ? 1 << 5 : 1 << 1)
 #define GTCFR_RST(x)		((x) & 1 ? 1 << 4 : 1 << 0)

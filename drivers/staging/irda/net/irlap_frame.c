@@ -34,7 +34,7 @@
 #include <net/pkt_sched.h>
 #include <net/sock.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/irda_device.h>

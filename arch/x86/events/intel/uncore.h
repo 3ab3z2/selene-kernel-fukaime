@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/slab.h>
 #include <linux/pci.h>
-#include <asm/apicdef.h>
+#include <asm-generic/apicdef.h>
 
 #include <linux/perf_event.h>
 #include "../perf_event.h"

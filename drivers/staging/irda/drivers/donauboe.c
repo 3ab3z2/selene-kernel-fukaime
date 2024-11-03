@@ -156,7 +156,7 @@
 #include <linux/pci.h>
 #include <linux/rtnetlink.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <net/irda/wrapper.h>
 #include <net/irda/irda.h>

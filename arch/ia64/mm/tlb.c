@@ -24,15 +24,15 @@
 #include <linux/bootmem.h>
 #include <linux/slab.h>
 
-#include <asm/delay.h>
-#include <asm/mmu_context.h>
-#include <asm/pgalloc.h>
-#include <asm/pal.h>
-#include <asm/tlbflush.h>
-#include <asm/dma.h>
-#include <asm/processor.h>
-#include <asm/sal.h>
-#include <asm/tlb.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/tlb.h>
 
 static struct {
 	u64 mask;		/* mask of supported purge page-sizes */

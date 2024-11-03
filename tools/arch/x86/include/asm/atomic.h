@@ -8,7 +8,7 @@
 
 #define LOCK_PREFIX "\n\tlock; "
 
-#include <asm/cmpxchg.h>
+#include <asm-generic/cmpxchg.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

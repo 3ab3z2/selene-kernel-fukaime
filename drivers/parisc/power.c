@@ -43,9 +43,9 @@
 #include <linux/kthread.h>
 #include <linux/pm.h>
 
-#include <asm/pdc.h>
-#include <asm/io.h>
-#include <asm/led.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/led.h>
 
 #define DRIVER_NAME  "powersw"
 #define KTHREAD_NAME "kpowerswd"

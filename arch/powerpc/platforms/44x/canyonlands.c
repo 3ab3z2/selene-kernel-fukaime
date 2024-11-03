@@ -23,10 +23,10 @@
  */
 #include <linux/kernel.h>
 #include <linux/init.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc4xx.h>
-#include <asm/udbg.h>
-#include <asm/uic.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc4xx.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/uic.h>
 #include <linux/of_platform.h>
 #include <linux/delay.h>
 #include "44x.h"

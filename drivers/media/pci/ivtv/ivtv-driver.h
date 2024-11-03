@@ -56,7 +56,7 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/dvb/video.h>
 #include <linux/dvb/audio.h>

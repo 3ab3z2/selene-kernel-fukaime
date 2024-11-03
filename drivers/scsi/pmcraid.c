@@ -41,8 +41,8 @@
 #include <linux/hdreg.h>
 #include <linux/io.h>
 #include <linux/slab.h>
-#include <asm/irq.h>
-#include <asm/processor.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/processor.h>
 #include <linux/libata.h>
 #include <linux/mutex.h>
 #include <linux/ktime.h>

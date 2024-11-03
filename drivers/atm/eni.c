@@ -19,11 +19,11 @@
 #include <linux/atm_eni.h>
 #include <linux/bitops.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/atomic.h>
 #include <linux/uaccess.h>
-#include <asm/string.h>
-#include <asm/byteorder.h>
+#include <asm-generic/string.h>
+#include <asm-generic/byteorder.h>
 
 #include "tonga.h"
 #include "midway.h"

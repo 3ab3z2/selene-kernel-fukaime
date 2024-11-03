@@ -37,7 +37,7 @@
 #include <linux/slab.h>
 #include <linux/string.h>
 #include <linux/ioport.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <scsi/scsi.h>
 #include <linux/major.h>
 #include <linux/blkdev.h>

@@ -31,7 +31,7 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/preempt.h>
-#include <asm/simd.h>
+#include <asm-generic/simd.h>
 
 struct simd_skcipher_alg {
 	const char *ialg_name;

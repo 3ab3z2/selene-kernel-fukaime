@@ -14,7 +14,7 @@
 #include <linux/uuid.h>
 #include <linux/mdev.h>
 
-#include <asm/isc.h>
+#include <asm-generic/isc.h>
 
 #include "ioasm.h"
 #include "css.h"

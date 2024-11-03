@@ -17,7 +17,7 @@
 #include <linux/timer.h>
 #include <linux/io.h>
 #include <linux/topology.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/percpu.h>
 #include <asm/uv/uv_mmrs.h>
 #include <asm/uv/bios.h>

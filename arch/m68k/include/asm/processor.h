@@ -15,9 +15,9 @@
 #define current_text_addr() ({ __label__ _l; _l: &&_l;})
 
 #include <linux/thread_info.h>
-#include <asm/segment.h>
-#include <asm/fpu.h>
-#include <asm/ptrace.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/ptrace.h>
 
 static inline unsigned long rdusp(void)
 {

@@ -30,9 +30,9 @@
 #include <linux/uaccess.h>
 #include <linux/tracehook.h>
 
-#include <asm/cacheflush.h>
-#include <asm/syscalls.h>
-#include <asm/ucontext.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/ucontext.h>
 
 struct rt_sigframe {
 	u32 rs_ass[4];		/* argument save space */

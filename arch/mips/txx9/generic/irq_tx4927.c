@@ -26,8 +26,8 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 #include <linux/irq.h>
-#include <asm/irq_cpu.h>
-#include <asm/txx9/tx4927.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/txx9/tx4927.h>
 
 void __init tx4927_irq_init(void)
 {

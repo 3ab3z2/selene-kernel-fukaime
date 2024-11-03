@@ -16,7 +16,7 @@
 #include <linux/bug.h>
 #include <errno.h>
 #include <unistd.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #define CONFIG_SMP
 

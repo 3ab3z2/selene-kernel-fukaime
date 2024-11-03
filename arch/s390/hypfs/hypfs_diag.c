@@ -16,8 +16,8 @@
 #include <linux/string.h>
 #include <linux/vmalloc.h>
 #include <linux/mm.h>
-#include <asm/diag.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/ebcdic.h>
 #include "hypfs.h"
 
 #define TMP_SIZE 64		/* size of temporary buffers */

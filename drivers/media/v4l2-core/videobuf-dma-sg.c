@@ -29,8 +29,8 @@
 #include <linux/vmalloc.h>
 #include <linux/pagemap.h>
 #include <linux/scatterlist.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
 #include <media/videobuf-dma-sg.h>
 

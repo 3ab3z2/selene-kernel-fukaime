@@ -17,9 +17,9 @@
 #include <linux/mtd/rawnand.h>
 #include <linux/mtd/partitions.h>
 #include <linux/platform_device.h>
-#include <asm/io.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1550nd.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1550nd.h>
 
 
 struct au1550nd_ctx {

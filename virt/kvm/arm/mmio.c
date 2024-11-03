@@ -17,8 +17,8 @@
  */
 
 #include <linux/kvm_host.h>
-#include <asm/kvm_mmio.h>
-#include <asm/kvm_emulate.h>
+#include <asm-generic/kvm_mmio.h>
+#include <asm-generic/kvm_emulate.h>
 #include <trace/events/kvm.h>
 
 #include "trace.h"

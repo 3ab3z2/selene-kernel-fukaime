@@ -16,8 +16,8 @@
 #include <linux/sched.h>
 #include <linux/gfp.h>
 
-#include <asm/pgtable.h>
-#include <asm/pat.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pat.h>
 
 #include "pat_internal.h"
 

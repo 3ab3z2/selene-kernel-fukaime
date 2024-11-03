@@ -19,10 +19,10 @@
 #include <linux/bio.h>
 #include <linux/timer.h>
 
-#include <asm/types.h>
-#include <asm/idals.h>
-#include <asm/ebcdic.h>
-#include <asm/tape390.h>
+#include <asm-generic/types.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/tape390.h>
 
 #define TAPE_DBF_AREA	tape_core_dbf
 

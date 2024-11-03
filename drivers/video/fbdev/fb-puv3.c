@@ -20,8 +20,8 @@
 #include <linux/console.h>
 #include <linux/mm.h>
 
-#include <asm/sizes.h>
-#include <asm/pgtable.h>
+#include <asm-generic/sizes.h>
+#include <asm-generic/pgtable.h>
 #include <mach/hardware.h>
 
 /* Platform_data reserved for unifb registers. */

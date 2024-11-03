@@ -7,7 +7,7 @@
  */
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 
 /* We let the MMU do all checking */
 static inline int access_ok(int type, const void __user *addr,

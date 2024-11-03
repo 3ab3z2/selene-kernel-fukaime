@@ -6,9 +6,9 @@
  */
 #include <linux/delay.h>
 
-#include <asm/io.h>
-#include <asm/reboot.h>
-#include <asm/sni.h>
+#include <asm-generic/io.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/sni.h>
 
 /*
  * This routine reboots the machine by asking the keyboard

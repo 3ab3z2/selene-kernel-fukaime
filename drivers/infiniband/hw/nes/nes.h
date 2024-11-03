@@ -44,7 +44,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/workqueue.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/crc32c.h>
 
 #include <rdma/ib_smi.h>

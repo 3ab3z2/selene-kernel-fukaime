@@ -18,8 +18,8 @@
 #include <linux/mm.h>
 #include <linux/ptrace.h>
 
-#include <asm/traps.h>
-#include <asm/sections.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
 
 static DEFINE_SPINLOCK(die_lock);

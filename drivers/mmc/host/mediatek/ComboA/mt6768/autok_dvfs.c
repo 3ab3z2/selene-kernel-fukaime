@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 #include <linux/uaccess.h>
 #include <linux/buffer_head.h>
 #include <linux/delay.h>

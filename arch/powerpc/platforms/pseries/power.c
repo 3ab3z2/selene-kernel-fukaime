@@ -25,7 +25,7 @@
 #include <linux/string.h>
 #include <linux/errno.h>
 #include <linux/init.h>
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 #include "pseries.h"
 

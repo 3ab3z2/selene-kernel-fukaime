@@ -27,7 +27,7 @@
 #include <linux/serial.h>
 #include <linux/tty.h>
 #include <linux/serial_8250.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/setup.h>
 #include <asm/memory.h>
 #include <mach/hardware.h>

@@ -13,8 +13,8 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 #include <linux/platform_device.h>
-#include <asm/mach-ath79/ath79.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 
 #define AR724X_PCI_REG_RESET		0x18
 #define AR724X_PCI_REG_INT_STATUS	0x4c

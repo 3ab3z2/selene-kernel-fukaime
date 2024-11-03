@@ -10,7 +10,7 @@
 
 #include <linux/errno.h>
 #include <linux/linkage.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /*
  * int __strncpy_user(char *to, char *from, int len);

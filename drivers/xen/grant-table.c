@@ -52,11 +52,11 @@
 #include <xen/hvc-console.h>
 #include <xen/swiotlb-xen.h>
 #include <xen/balloon.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/interface.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/interface.h>
 
-#include <asm/pgtable.h>
-#include <asm/sync_bitops.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sync_bitops.h>
 
 /* External tools reserve first few grant table entries. */
 #define NR_RESERVED_ENTRIES 8

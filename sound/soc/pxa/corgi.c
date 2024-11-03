@@ -24,7 +24,7 @@
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/corgi.h>
 #include <mach/audio.h>
 

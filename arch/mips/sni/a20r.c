@@ -14,8 +14,8 @@
 #include <linux/platform_device.h>
 #include <linux/serial_8250.h>
 
-#include <asm/sni.h>
-#include <asm/time.h>
+#include <asm-generic/sni.h>
+#include <asm-generic/time.h>
 
 #define PORT(_base,_irq)				\
 	{						\

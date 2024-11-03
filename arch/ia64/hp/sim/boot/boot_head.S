@@ -4,8 +4,8 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/asmmacro.h>
-#include <asm/pal.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/pal.h>
 
 	.bss
 	.align 16

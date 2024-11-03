@@ -253,7 +253,7 @@ static inline u8 emma2rh_in8(u32 offset)
  * include the board dependent part
  */
 #ifdef CONFIG_NEC_MARKEINS
-#include <asm/emma/markeins.h>
+#include <asm-generic/emma/markeins.h>
 #else
 #error "Unknown EMMA2RH board!"
 #endif

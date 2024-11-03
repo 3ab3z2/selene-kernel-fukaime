@@ -37,11 +37,11 @@
 #include <linux/ssb/ssb.h>
 #include <linux/ssb/ssb_embedded.h>
 #include <linux/bcma/bcma_soc.h>
-#include <asm/bootinfo.h>
-#include <asm/idle.h>
-#include <asm/prom.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
 #include <bcm47xx.h>
 #include <bcm47xx_board.h>
 

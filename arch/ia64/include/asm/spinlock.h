@@ -15,9 +15,9 @@
 #include <linux/bitops.h>
 
 #include <linux/atomic.h>
-#include <asm/intrinsics.h>
-#include <asm/barrier.h>
-#include <asm/processor.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h>
 
 #define arch_spin_lock_init(x)			((x)->lock = 0)
 

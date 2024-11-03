@@ -25,7 +25,7 @@
 #include <linux/pci.h>
 #include <linux/vga_switcheroo.h>
 #include <acpi/video.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /**
  * DOC: Overview

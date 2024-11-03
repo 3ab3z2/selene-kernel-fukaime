@@ -77,18 +77,18 @@
 #include <linux/mutex.h>
 #include <linux/kernel.h>
 
-#include <asm/byteorder.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_dma.h>
-#include <asm/sibyte/sb1250_scd.h>
-#include <asm/sibyte/sb1250_syncser.h>
-#include <asm/sibyte/sb1250_mac.h>
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_dma.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250_syncser.h>
+#include <asm-generic/sibyte/sb1250_mac.h>
+#include <asm-generic/sibyte/sb1250.h>
 
 #include "sleep.h"
 

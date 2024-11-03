@@ -10,8 +10,8 @@
 #include <linux/mm.h>
 #include <linux/delay.h>
 
-#include <asm/cacheflush.h>
-#include <asm/page.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/page.h>
 
 extern const unsigned char relocate_new_kernel[];
 extern const size_t relocate_new_kernel_size;

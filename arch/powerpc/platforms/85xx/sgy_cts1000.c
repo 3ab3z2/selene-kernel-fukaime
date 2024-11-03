@@ -20,7 +20,7 @@
 #include <linux/reboot.h>
 #include <linux/interrupt.h>
 
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 static struct device_node *halt_node;
 

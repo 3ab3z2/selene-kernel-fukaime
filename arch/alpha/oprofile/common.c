@@ -11,8 +11,8 @@
 #include <linux/init.h>
 #include <linux/smp.h>
 #include <linux/errno.h>
-#include <asm/ptrace.h>
-#include <asm/special_insns.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/special_insns.h>
 
 #include "op_impl.h"
 

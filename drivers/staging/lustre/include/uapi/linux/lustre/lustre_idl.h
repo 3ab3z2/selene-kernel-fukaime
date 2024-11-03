@@ -67,7 +67,7 @@
 #ifndef _LUSTRE_IDL_H_
 #define _LUSTRE_IDL_H_
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/types.h>
 
 #include <uapi/linux/lnet/lnet-types.h>

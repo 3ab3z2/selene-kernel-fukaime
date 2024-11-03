@@ -92,8 +92,8 @@
 #include <linux/slab.h>
 #include <linux/perf_event.h>
 #include <linux/nospec.h>
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
 #include "../perf_event.h"
 
 MODULE_LICENSE("GPL");

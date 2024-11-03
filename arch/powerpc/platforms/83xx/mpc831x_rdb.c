@@ -16,9 +16,9 @@
 #include <linux/pci.h>
 #include <linux/of_platform.h>
 
-#include <asm/time.h>
-#include <asm/ipic.h>
-#include <asm/udbg.h>
+#include <asm-generic/time.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/udbg.h>
 #include <sysdev/fsl_pci.h>
 
 #include "mpc83xx.h"

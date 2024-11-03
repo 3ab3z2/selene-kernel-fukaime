@@ -21,8 +21,8 @@
 #include <linux/sched/signal.h>
 
 #include <linux/uaccess.h>
-#include <asm/siginfo.h>
-#include <asm/signal.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/signal.h>
 
 #define NUM_TLB_ENTRIES 64
 #define TLB_OFFSET(add) (((add) >> PAGE_SHIFT) & (NUM_TLB_ENTRIES-1))

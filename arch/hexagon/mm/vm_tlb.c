@@ -25,8 +25,8 @@
  */
 #include <linux/mm.h>
 #include <linux/sched.h>
-#include <asm/page.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hexagon_vm.h>
 
 /*
  * Initial VM implementation has only one map active at a time, with

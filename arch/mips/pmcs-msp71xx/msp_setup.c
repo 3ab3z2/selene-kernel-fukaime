@@ -12,13 +12,13 @@
 
 #include <linux/delay.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cacheflush.h>
-#include <asm/idle.h>
-#include <asm/r4kcache.h>
-#include <asm/reboot.h>
-#include <asm/smp-ops.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/time.h>
 
 #include <msp_prom.h>
 #include <msp_regs.h>

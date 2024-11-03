@@ -16,7 +16,7 @@
 .text
 
 #include <linux/linkage.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #define R1	%rax
 #define R1E	%eax

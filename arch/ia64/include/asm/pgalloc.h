@@ -7,7 +7,7 @@
  * page tables.
  *
  * This hopefully works with any (fixed) ia-64 page-size, as defined
- * in <asm/page.h> (currently 8192).
+ * in <asm-generic/page.h> (currently 8192).
  *
  * Copyright (C) 1998-2001 Hewlett-Packard Co
  *	David Mosberger-Tang <davidm@hpl.hp.com>
@@ -21,7 +21,7 @@
 #include <linux/threads.h>
 #include <linux/quicklist.h>
 
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu_context.h>
 
 static inline pgd_t *pgd_alloc(struct mm_struct *mm)
 {

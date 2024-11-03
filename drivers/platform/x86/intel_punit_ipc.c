@@ -19,7 +19,7 @@
 #include <linux/interrupt.h>
 #include <linux/io.h>
 #include <linux/platform_device.h>
-#include <asm/intel_punit_ipc.h>
+#include <asm-generic/intel_punit_ipc.h>
 
 /* IPC Mailbox registers */
 #define OFFSET_DATA_LOW		0x0

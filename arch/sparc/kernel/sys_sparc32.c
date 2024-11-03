@@ -44,11 +44,11 @@
 #include <linux/ptrace.h>
 #include <linux/slab.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/uaccess.h>
-#include <asm/fpumacro.h>
-#include <asm/mmu_context.h>
-#include <asm/compat_signal.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/compat_signal.h>
 
 #include "systbls.h"
 

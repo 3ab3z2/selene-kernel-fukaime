@@ -12,9 +12,9 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/i8259.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/mipsregs.h>
 
 #include <loongson.h>
 #include <machine.h>

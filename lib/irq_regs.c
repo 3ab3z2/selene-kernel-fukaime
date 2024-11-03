@@ -10,7 +10,7 @@
  */
 #include <linux/export.h>
 #include <linux/percpu.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/irq_regs.h>
 
 #ifndef ARCH_HAS_OWN_IRQ_REGS
 DEFINE_PER_CPU(struct pt_regs *, __irq_regs);

@@ -45,7 +45,7 @@
 #include <linux/percpu.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 /*
  * Timer block registers.

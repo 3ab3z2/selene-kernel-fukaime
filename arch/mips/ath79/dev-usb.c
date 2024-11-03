@@ -20,8 +20,8 @@
 #include <linux/usb/ehci_pdriver.h>
 #include <linux/usb/ohci_pdriver.h>
 
-#include <asm/mach-ath79/ath79.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 #include "common.h"
 #include "dev-usb.h"
 

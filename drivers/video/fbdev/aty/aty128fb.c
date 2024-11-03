@@ -62,21 +62,21 @@
 #include <linux/ioport.h>
 #include <linux/console.h>
 #include <linux/backlight.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_PPC_PMAC
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/prom.h>
 #include "../macmodes.h"
 #endif
 
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 #ifdef CONFIG_BOOTX_TEXT
-#include <asm/btext.h>
+#include <asm-generic/btext.h>
 #endif /* CONFIG_BOOTX_TEXT */
 
 #include <video/aty128.h>

@@ -15,12 +15,12 @@
 #include <linux/of_platform.h>
 #include <linux/slab.h>
 #include <linux/smp.h>
-#include <asm/archrandom.h>
-#include <asm/cputable.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/smp.h>
+#include <asm-generic/archrandom.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/smp.h>
 #include "powernv.h"
 
 #define DARN_ERR 0xFFFFFFFFFFFFFFFFul

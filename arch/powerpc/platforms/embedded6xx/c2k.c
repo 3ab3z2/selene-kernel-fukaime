@@ -21,9 +21,9 @@
 #include <linux/time.h>
 #include <linux/of.h>
 
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/time.h>
 
 #include <mm/mmu_decl.h>
 

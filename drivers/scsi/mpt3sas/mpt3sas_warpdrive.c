@@ -42,7 +42,7 @@
 #include <linux/module.h>
 #include <linux/errno.h>
 #include <linux/types.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "mpt3sas_base.h"
 

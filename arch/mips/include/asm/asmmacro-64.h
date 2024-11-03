@@ -9,10 +9,10 @@
 #ifndef _ASM_ASMMACRO_64_H
 #define _ASM_ASMMACRO_64_H
 
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
-#include <asm/fpregdef.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/fpregdef.h>
+#include <asm-generic/mipsregs.h>
 
 	.macro	cpu_save_nonscratch thread
 	LONG_S	s0, THREAD_REG16(\thread)

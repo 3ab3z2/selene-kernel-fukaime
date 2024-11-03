@@ -12,8 +12,8 @@
 #include <linux/sched/clock.h>
 #include <linux/slab.h>
 
-#include <asm/ldc.h>
-#include <asm/vio.h>
+#include <asm-generic/ldc.h>
+#include <asm-generic/vio.h>
 
 int vio_ldc_send(struct vio_driver_state *vio, void *data, int len)
 {

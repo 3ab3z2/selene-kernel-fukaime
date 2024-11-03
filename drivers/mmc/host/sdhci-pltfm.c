@@ -32,7 +32,7 @@
 #include <linux/module.h>
 #include <linux/of.h>
 #ifdef CONFIG_PPC
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 #endif
 #include "sdhci-pltfm.h"
 

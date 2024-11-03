@@ -23,9 +23,9 @@
 #include <linux/sched.h>
 #include <linux/mm.h>
 #include <linux/export.h>
-#include <asm/reg.h>
-#include <asm/copro.h>
-#include <asm/spu.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/copro.h>
+#include <asm-generic/spu.h>
 #include <misc/cxl-base.h>
 
 /*

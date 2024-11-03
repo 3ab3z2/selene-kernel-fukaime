@@ -27,7 +27,7 @@
 #include <linux/pm.h>
 #include <linux/pci_ids.h>
 #include <linux/jiffies.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <media/v4l2-dev.h>
 
 #include "tw5864.h"

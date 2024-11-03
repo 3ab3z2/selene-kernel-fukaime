@@ -36,7 +36,7 @@
 #include "bttvp.h"
 #include <media/v4l2-common.h>
 #include <linux/jiffies.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static int i2c_debug;
 static int i2c_hw;

@@ -15,7 +15,7 @@
 #include <linux/slab.h>
 #include <linux/mm.h>
 
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Remap an arbitrary physical address space into the kernel virtual

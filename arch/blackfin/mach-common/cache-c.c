@@ -6,8 +6,8 @@
  * Licensed under the GPL-2 or later.
  */
 
-#include <asm/blackfin.h>
-#include <asm/cplbinit.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cplbinit.h>
 
 /* Invalidate the Entire Data cache by
  * clearing DMC[1:0] bits

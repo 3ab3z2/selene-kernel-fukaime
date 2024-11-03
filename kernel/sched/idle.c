@@ -12,7 +12,7 @@
 #include <linux/suspend.h>
 #include <linux/livepatch.h>
 
-#include <asm/tlb.h>
+#include <asm-generic/tlb.h>
 
 #include <trace/events/power.h>
 

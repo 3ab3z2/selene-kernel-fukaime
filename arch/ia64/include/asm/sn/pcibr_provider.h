@@ -8,8 +8,8 @@
 #ifndef _ASM_IA64_SN_PCI_PCIBR_PROVIDER_H
 #define _ASM_IA64_SN_PCI_PCIBR_PROVIDER_H
 
-#include <asm/sn/intr.h>
-#include <asm/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
 
 /* Workarounds */
 #define PV907516 (1 << 1) /* TIOCP: Don't write the write buffer flush reg */

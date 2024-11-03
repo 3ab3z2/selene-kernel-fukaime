@@ -21,9 +21,9 @@ static inline gfp_t pgtable_gfp_flags(struct mm_struct *mm, gfp_t gfp)
 #define PGALLOC_GFP (GFP_KERNEL | __GFP_ZERO)
 
 #ifdef CONFIG_PPC_BOOK3S
-#include <asm/book3s/pgalloc.h>
+#include <asm-generic/book3s/pgalloc.h>
 #else
-#include <asm/nohash/pgalloc.h>
+#include <asm-generic/nohash/pgalloc.h>
 #endif
 
 #endif /* _ASM_POWERPC_PGALLOC_H */

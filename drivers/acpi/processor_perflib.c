@@ -30,7 +30,7 @@
 #include <linux/acpi.h>
 #include <acpi/processor.h>
 #ifdef CONFIG_X86
-#include <asm/cpufeature.h>
+#include <asm-generic/cpufeature.h>
 #endif
 
 #define PREFIX "ACPI: "

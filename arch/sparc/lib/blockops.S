@@ -6,8 +6,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/export.h>
+#include <asm-generic/page.h>
+#include <asm-generic/export.h>
 
 	/* Zero out 64 bytes of memory at (buf + offset).
 	 * Assumes %g1 contains zero.

@@ -19,12 +19,12 @@
 #include <linux/irq.h>
 #include <linux/bitops.h>
 
-#include <asm/io.h>
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/irc-regs.h>
-#include <asm/mb93493-irqs.h>
-#include <asm/mb93493-regs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irc-regs.h>
+#include <asm-generic/mb93493-irqs.h>
+#include <asm-generic/mb93493-regs.h>
 
 #define IRQ_ROUTE_ONE(X) (X##_ROUTE << (X - IRQ_BASE_MB93493))
 

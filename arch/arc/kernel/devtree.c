@@ -14,7 +14,7 @@
 #include <linux/memblock.h>
 #include <linux/of.h>
 #include <linux/of_fdt.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/mach_desc.h>
 
 #ifdef CONFIG_SERIAL_EARLYCON
 

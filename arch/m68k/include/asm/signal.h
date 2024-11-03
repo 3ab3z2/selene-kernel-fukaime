@@ -2,7 +2,7 @@
 #ifndef _M68K_SIGNAL_H
 #define _M68K_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 /* Most things should be clean enough to redefine this at will, if care
    is taken to make libc match.  */
@@ -19,7 +19,7 @@ typedef struct {
 
 #define __ARCH_HAS_SA_RESTORER
 
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 
 #ifndef CONFIG_CPU_HAS_NO_BITFIELDS
 #define __HAVE_ARCH_SIG_BITOPS

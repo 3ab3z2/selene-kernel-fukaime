@@ -15,8 +15,8 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/bootinfo.h>
-#include <asm/irq_cpu.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/irq_cpu.h>
 
 #include <lantiq_soc.h>
 #include <irq.h>

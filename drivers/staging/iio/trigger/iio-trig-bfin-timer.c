@@ -13,8 +13,8 @@
 #include <linux/irq.h>
 #include <linux/delay.h>
 
-#include <asm/gptimers.h>
-#include <asm/portmux.h>
+#include <asm-generic/gptimers.h>
+#include <asm-generic/portmux.h>
 
 #include <linux/iio/iio.h>
 #include <linux/iio/trigger.h>

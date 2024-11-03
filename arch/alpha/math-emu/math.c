@@ -2,7 +2,7 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #include <linux/uaccess.h>
 

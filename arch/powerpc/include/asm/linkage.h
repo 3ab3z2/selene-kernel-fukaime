@@ -2,7 +2,7 @@
 #ifndef _ASM_POWERPC_LINKAGE_H
 #define _ASM_POWERPC_LINKAGE_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifdef PPC64_ELF_ABI_v1
 #define cond_syscall(x) \

@@ -40,8 +40,8 @@
 #include <linux/spinlock.h>
 #include <linux/efi.h>
 
-#include <asm/pal.h>
-#include <asm/fpu.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/fpu.h>
 
 extern spinlock_t sal_lock;
 

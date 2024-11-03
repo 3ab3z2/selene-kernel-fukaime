@@ -8,7 +8,7 @@
 #include <linux/slab.h>
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <os.h>
 #include <skas.h>
 #include <sysdep/tls.h>

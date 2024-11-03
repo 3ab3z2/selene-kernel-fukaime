@@ -34,11 +34,11 @@
 #include <sound/pcm.h>
 #include <sound/pcm_params.h>
 
-#include <asm/dma.h>
-#include <asm/firmware.h>
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
-#include <asm/ps3av.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
+#include <asm-generic/ps3av.h>
 
 #include "snd_ps3.h"
 #include "snd_ps3_reg.h"

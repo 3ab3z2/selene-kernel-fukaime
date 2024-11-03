@@ -20,10 +20,10 @@
 #ifndef __ASM_MIPS_BOARDS_MALTA_H
 #define __ASM_MIPS_BOARDS_MALTA_H
 
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/mips-boards/msc01_pci.h>
-#include <asm/gt64120.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mips-boards/msc01_pci.h>
+#include <asm-generic/gt64120.h>
 
 /* Mips interrupt controller found in SOCit variations */
 #define MIPS_MSC01_IC_REG_BASE		0x1bc40000

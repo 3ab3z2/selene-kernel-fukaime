@@ -8,8 +8,8 @@
  * PowerPC architecture timex specifications
  */
 
-#include <asm/cputable.h>
-#include <asm/reg.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/reg.h>
 
 #define CLOCK_TICK_RATE	1024000 /* Underlying HZ */
 

@@ -15,9 +15,9 @@
 
 #include <linux/delay.h>
 #include <linux/slab.h>
-#include <asm/uncached.h>
-#include <asm/sn/mspec.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/uncached.h>
+#include <asm-generic/sn/mspec.h>
+#include <asm-generic/sn/sn_sal.h>
 #include "xpc.h"
 
 /*

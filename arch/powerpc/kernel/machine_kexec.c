@@ -17,10 +17,10 @@
 #include <linux/irq.h>
 #include <linux/ftrace.h>
 
-#include <asm/machdep.h>
-#include <asm/pgalloc.h>
-#include <asm/prom.h>
-#include <asm/sections.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/sections.h>
 
 void machine_kexec_mask_interrupts(void) {
 	unsigned int i;

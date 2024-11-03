@@ -34,7 +34,7 @@
 #include <linux/mfd/ucb1x00.h>
 
 #include <mach/collie.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 
 

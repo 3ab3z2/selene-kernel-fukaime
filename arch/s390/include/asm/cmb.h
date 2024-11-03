@@ -2,7 +2,7 @@
 #ifndef S390_CMB_H
 #define S390_CMB_H
 
-#include <uapi/asm/cmb.h>
+#include <uapi/asm-generic/cmb.h>
 
 struct ccw_device;
 extern int enable_cmf(struct ccw_device *cdev);

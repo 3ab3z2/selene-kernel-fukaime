@@ -26,8 +26,8 @@
    vim: set ts=8:
 */
 
-#include <asm/current.h>
-#include <asm/types.h>
+#include <asm-generic/current.h>
+#include <asm-generic/types.h>
 
 #include "pwc.h"
 #include "pwc-dec1.h"

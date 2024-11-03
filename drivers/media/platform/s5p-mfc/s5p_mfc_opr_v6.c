@@ -23,7 +23,7 @@
 #include <linux/sched.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "s5p_mfc_common.h"
 #include "s5p_mfc_cmd.h"

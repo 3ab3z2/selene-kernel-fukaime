@@ -1,4 +1,4 @@
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/types.h>
 #include <stdint.h>
 #include <stdio.h>

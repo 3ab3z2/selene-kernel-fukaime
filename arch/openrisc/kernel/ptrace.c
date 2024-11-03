@@ -29,10 +29,10 @@
 #include <linux/tracehook.h>
 #include <linux/elf.h>
 
-#include <asm/thread_info.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Copy the thread state to a regset that can be interpreted by userspace.

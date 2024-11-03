@@ -20,7 +20,7 @@
 #include <linux/vmalloc.h>
 #include <linux/sort.h>
 #include <linux/uaccess.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "lockdep_internals.h"
 

@@ -55,7 +55,7 @@
 #include "umem.h"
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define MM_MAXCARDS 4
 #define MM_RAHEAD 2      /* two sectors */

@@ -33,8 +33,8 @@
 #include <linux/i2c.h>
 #include <linux/workqueue.h>
 
-#include <asm/irq.h>
-#include <asm/mach-types.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/mux.h>
 

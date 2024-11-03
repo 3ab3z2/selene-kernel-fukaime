@@ -77,7 +77,7 @@
 #include <linux/pagemap.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "ibmasm.h"
 #include "remote.h"
 #include "dot_command.h"

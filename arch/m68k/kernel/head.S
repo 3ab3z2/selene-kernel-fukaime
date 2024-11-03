@@ -111,7 +111,7 @@
  *
  *	These routines are used by other mmu routines to get a pointer into
  * a table, if necessary a new table is allocated. These routines are working
- * basically like pmd_alloc() and pte_alloc() in <asm/pgtable.h>. The root
+ * basically like pmd_alloc() and pte_alloc() in <asm-generic/pgtable.h>. The root
  * table needs of course only to be allocated once in mmu_get_root_table_entry,
  * so that here also some mmu specific initialization is done. The second page
  * at the start of the kernel (the first page is unmapped later) is used for
@@ -255,20 +255,20 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/bootinfo.h>
-#include <asm/bootinfo-amiga.h>
-#include <asm/bootinfo-atari.h>
-#include <asm/bootinfo-hp300.h>
-#include <asm/bootinfo-mac.h>
-#include <asm/bootinfo-q40.h>
-#include <asm/bootinfo-vme.h>
-#include <asm/setup.h>
-#include <asm/entry.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/bootinfo-amiga.h>
+#include <asm-generic/bootinfo-atari.h>
+#include <asm-generic/bootinfo-hp300.h>
+#include <asm-generic/bootinfo-mac.h>
+#include <asm-generic/bootinfo-q40.h>
+#include <asm-generic/bootinfo-vme.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asm-offsets.h>
 #ifdef CONFIG_MAC
-#  include <asm/machw.h>
+#  include <asm-generic/machw.h>
 #endif
 
 #ifdef CONFIG_EARLY_PRINTK

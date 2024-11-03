@@ -5,7 +5,7 @@
  * Licensed under the terms of the GNU General Public License, version 2.
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/delay.h>
 #include <linux/device.h>
 #include <linux/firewire.h>

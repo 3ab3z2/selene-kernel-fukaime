@@ -13,7 +13,7 @@
 #ifdef CONFIG_PCI
 
 #include <linux/pci.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/pci-bridge.h>
 
 extern unsigned long isa_io_base;
 

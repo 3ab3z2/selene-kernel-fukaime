@@ -2,7 +2,7 @@
 #ifndef _ASM_SCORE_PTRACE_H
 #define _ASM_SCORE_PTRACE_H
 
-#include <uapi/asm/ptrace.h>
+#include <uapi/asm-generic/ptrace.h>
 
 
 struct task_struct;

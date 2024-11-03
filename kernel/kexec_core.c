@@ -40,8 +40,8 @@
 #include <linux/hugetlb.h>
 #include <linux/frame.h>
 
-#include <asm/page.h>
-#include <asm/sections.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
 
 #include <crypto/hash.h>
 #include <crypto/sha.h>
@@ -108,7 +108,7 @@ EXPORT_SYMBOL_GPL(kexec_crash_loaded);
  * addresses where (pfn << PAGE_SHIFT) > ULONG_MAX cannot be handled.
  * If the assembly stub has more restrictive requirements
  * KEXEC_SOURCE_MEMORY_LIMIT and KEXEC_DEST_MEMORY_LIMIT can be
- * defined more restrictively in <asm/kexec.h>.
+ * defined more restrictively in <asm-generic/kexec.h>.
  *
  * The code for the transition from the current kernel to the
  * the new kernel is placed in the control_code_buffer, whose size

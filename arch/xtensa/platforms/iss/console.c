@@ -21,7 +21,7 @@
 #include <linux/serial.h>
 
 #include <linux/uaccess.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include <platform/simcall.h>
 

@@ -15,7 +15,7 @@
 #include <linux/slab.h>
 #include <linux/platform_data/bfin_rotary.h>
 
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 
 #define CNT_CONFIG_OFF		0	/* CNT Config Offset */
 #define CNT_IMASK_OFF		4	/* CNT Interrupt Mask Offset */

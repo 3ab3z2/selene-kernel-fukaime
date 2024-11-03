@@ -10,10 +10,10 @@
 #include <linux/efi.h>
 #include <linux/pci.h>
 
-#include <asm/efi.h>
-#include <asm/e820/types.h>
-#include <asm/setup.h>
-#include <asm/desc.h>
+#include <asm-generic/efi.h>
+#include <asm-generic/e820/types.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/desc.h>
 
 #include "../string.h"
 #include "eboot.h"

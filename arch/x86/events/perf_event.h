@@ -14,7 +14,7 @@
 
 #include <linux/perf_event.h>
 
-#include <asm/intel_ds.h>
+#include <asm-generic/intel_ds.h>
 
 /* To enable MSR tracing please use the generic trace points. */
 

@@ -8,10 +8,10 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/page_types.h>
-#include <asm/asm-offsets.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/processor-flags.h>
 
 .text
 

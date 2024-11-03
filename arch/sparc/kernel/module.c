@@ -15,9 +15,9 @@
 #include <linux/ctype.h>
 #include <linux/mm.h>
 
-#include <asm/processor.h>
-#include <asm/spitfire.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/cacheflush.h>
 
 #include "entry.h"
 

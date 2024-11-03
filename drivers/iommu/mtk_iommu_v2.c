@@ -31,11 +31,11 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 #include <linux/sched/clock.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #include <soc/mediatek/smi.h>
 #include <linux/dma-debug.h>
 #ifndef CONFIG_ARM64
-#include <asm/dma-iommu.h>
+#include <asm-generic/dma-iommu.h>
 #endif
 #include "mtk_lpae.h"
 #include "mtk_secure_api.h"

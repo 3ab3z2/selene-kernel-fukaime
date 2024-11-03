@@ -9,7 +9,7 @@
 #ifndef _L1LAYOUT_H_
 #define _L1LAYOUT_H_
 
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 #ifndef CONFIG_SMP
 #ifndef __ASSEMBLY__

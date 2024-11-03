@@ -11,9 +11,9 @@
 
 #include <linux/signal_types.h>
 
-#include <asm/signal.h>
-#include <asm/siginfo.h>
-#include <asm/vdso.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/siginfo.h>
+#include <asm-generic/vdso.h>
 
 struct mips_abi {
 	int (* const setup_frame)(void *sig_return, struct ksignal *ksig,

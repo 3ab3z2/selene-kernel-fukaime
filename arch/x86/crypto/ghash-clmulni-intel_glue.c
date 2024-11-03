@@ -19,8 +19,8 @@
 #include <crypto/cryptd.h>
 #include <crypto/gf128mul.h>
 #include <crypto/internal/hash.h>
-#include <asm/fpu/api.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/cpu_device_id.h>
 
 #define GHASH_BLOCK_SIZE	16
 #define GHASH_DIGEST_SIZE	16

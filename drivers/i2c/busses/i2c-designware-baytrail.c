@@ -18,7 +18,7 @@
 #include <linux/interrupt.h>
 #include <linux/pm_qos.h>
 
-#include <asm/iosf_mbi.h>
+#include <asm-generic/iosf_mbi.h>
 
 #include "i2c-designware-core.h"
 

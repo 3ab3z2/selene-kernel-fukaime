@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/paravirt.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/stringify.h>
 
 DEF_NATIVE(pv_irq_ops, irq_disable, "cli");

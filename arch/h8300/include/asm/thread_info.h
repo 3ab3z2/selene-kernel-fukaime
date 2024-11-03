@@ -9,8 +9,8 @@
 #ifndef _ASM_THREAD_INFO_H
 #define _ASM_THREAD_INFO_H
 
-#include <asm/page.h>
-#include <asm/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/segment.h>
 
 #ifdef __KERNEL__
 

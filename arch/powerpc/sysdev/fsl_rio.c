@@ -36,7 +36,7 @@
 
 #include <linux/io.h>
 #include <linux/uaccess.h>
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 #include "fsl_rio.h"
 

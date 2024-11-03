@@ -29,15 +29,15 @@
 #include <linux/random.h>
 #include <linux/export.h>
 #include <linux/init_task.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/vtimer.h>
-#include <asm/exec.h>
-#include <asm/irq.h>
-#include <asm/nmi.h>
-#include <asm/smp.h>
-#include <asm/switch_to.h>
-#include <asm/runtime_instr.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/vtimer.h>
+#include <asm-generic/exec.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/runtime_instr.h>
 #include "entry.h"
 
 asmlinkage void ret_from_fork(void) asm ("ret_from_fork");

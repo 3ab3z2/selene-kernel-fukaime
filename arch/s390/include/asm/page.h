@@ -9,7 +9,7 @@
 #define _S390_PAGE_H
 
 #include <linux/const.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define _PAGE_SHIFT	12
 #define _PAGE_SIZE	(_AC(1, UL) << _PAGE_SHIFT)
@@ -35,7 +35,7 @@
 
 #define HAVE_ARCH_HUGETLB_UNMAPPED_AREA
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #ifndef __ASSEMBLY__
 
 void __storage_key_init_range(unsigned long start, unsigned long end);

@@ -36,9 +36,9 @@
 #include <linux/of_irq.h>
 #include <linux/of_address.h>
 
-#include <asm/irq.h>
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 #define VT8500_ICPC_IRQ		0x20
 #define VT8500_ICPC_FIQ		0x24

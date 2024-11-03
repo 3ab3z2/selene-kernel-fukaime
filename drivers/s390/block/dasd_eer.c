@@ -23,7 +23,7 @@
 
 #include <linux/uaccess.h>
 #include <linux/atomic.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 
 #include "dasd_int.h"
 #include "dasd_eckd.h"

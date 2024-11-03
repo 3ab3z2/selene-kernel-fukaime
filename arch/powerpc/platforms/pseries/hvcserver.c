@@ -25,9 +25,9 @@
 #include <linux/slab.h>
 #include <linux/string.h>
 
-#include <asm/hvcall.h>
-#include <asm/hvcserver.h>
-#include <asm/io.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/hvcserver.h>
+#include <asm-generic/io.h>
 
 #define HVCS_ARCH_VERSION "1.0.0"
 

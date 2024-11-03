@@ -22,11 +22,11 @@
 #include <linux/elfnote.h>
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/segment.h>
-#include <asm/asm.h>
-#include <asm/boot.h>
-#include <asm/processor-flags.h>
-#include <asm/msr.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/boot.h>
+#include <asm-generic/processor-flags.h>
+#include <asm-generic/msr.h>
 #include <xen/interface/elfnote.h>
 
 	__HEAD

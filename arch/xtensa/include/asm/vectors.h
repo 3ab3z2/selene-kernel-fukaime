@@ -1,5 +1,5 @@
 /*
- * arch/xtensa/include/asm/xchal_vaddr_remap.h
+ * arch/xtensa/include/asm-generic/xchal_vaddr_remap.h
  *
  * Xtensa macros for MMU V3 Support. Deals with re-mapping the Virtual
  * Memory Addresses from "Virtual == Physical" to their prevvious V2 MMU
@@ -20,7 +20,7 @@
 
 #include <variant/core.h>
 #include <platform/hardware.h>
-#include <asm/kmem_layout.h>
+#include <asm-generic/kmem_layout.h>
 
 #if XCHAL_HAVE_PTP_MMU
 #define XCHAL_KIO_CACHED_VADDR		0xe0000000

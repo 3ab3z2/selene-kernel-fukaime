@@ -23,7 +23,7 @@
 #include <linux/scatterlist.h>
 #include <linux/uaccess.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 void ide_tf_readback(ide_drive_t *drive, struct ide_cmd *cmd)
 {

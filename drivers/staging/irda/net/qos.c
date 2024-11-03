@@ -30,7 +30,7 @@
 
 #include <linux/export.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/parameters.h>

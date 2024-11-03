@@ -35,8 +35,8 @@
 
 #include <linux/typecheck.h>
 #include <linux/compiler.h>
-#include <asm/atomic_ops.h>
-#include <asm/barrier.h>
+#include <asm-generic/atomic_ops.h>
+#include <asm-generic/barrier.h>
 
 #define __BITOPS_WORDS(bits) (((bits) + BITS_PER_LONG - 1) / BITS_PER_LONG)
 

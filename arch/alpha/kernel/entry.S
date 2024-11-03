@@ -5,11 +5,11 @@
  * Kernel entry-points.
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
-#include <asm/pal.h>
-#include <asm/errno.h>
-#include <asm/unistd.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/unistd.h>
 
 	.text
 	.set noat

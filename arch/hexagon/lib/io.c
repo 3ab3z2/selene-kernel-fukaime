@@ -18,7 +18,7 @@
  * 02110-1301, USA.
  */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*  These are all FIFO routines!  */
 

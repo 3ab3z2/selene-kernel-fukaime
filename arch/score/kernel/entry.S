@@ -27,9 +27,9 @@
 #include <linux/init.h>
 #include <linux/linkage.h>
 
-#include <asm/asmmacro.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
 
 /*
  * disable interrupts.

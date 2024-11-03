@@ -30,15 +30,15 @@
 #include <linux/file.h>
 #include <linux/debugfs.h>
 
-#include <asm/tlbflush.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/book3s/64/mmu-hash.h>
-#include <asm/hvcall.h>
-#include <asm/synch.h>
-#include <asm/ppc-opcode.h>
-#include <asm/cputable.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/pte-walk.h>
 
 #include "trace_hv.h"
 

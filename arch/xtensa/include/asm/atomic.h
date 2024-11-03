@@ -17,9 +17,9 @@
 #include <linux/types.h>
 
 #ifdef __KERNEL__
-#include <asm/processor.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 #define ATOMIC_INIT(i)	{ (i) }
 

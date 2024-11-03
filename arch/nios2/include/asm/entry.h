@@ -12,9 +12,9 @@
 
 #ifdef __ASSEMBLY__
 
-#include <asm/processor.h>
-#include <asm/registers.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/asm-offsets.h>
 
 /*
  * Standard Nios2 interrupt entry and exit macros.

@@ -17,8 +17,8 @@
 #ifndef __ASM_ASM_H
 #define __ASM_ASM_H
 
-#include <asm/sgidefs.h>
-#include <asm/asm-eva.h>
+#include <asm-generic/sgidefs.h>
+#include <asm-generic/asm-eva.h>
 
 #ifndef CAT
 #ifdef __STDC__
@@ -416,7 +416,7 @@ symbol		=	value
 
 #ifdef CONFIG_SGI_IP28
 /* Inhibit speculative stores to volatile (e.g.DMA) or invalid addresses. */
-#include <asm/cacheops.h>
+#include <asm-generic/cacheops.h>
 #define R10KCBARRIER(addr)  cache   Cache_Barrier, addr;
 #else
 #define R10KCBARRIER(addr)

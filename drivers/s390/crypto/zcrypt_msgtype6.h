@@ -27,7 +27,7 @@
 #ifndef _ZCRYPT_MSGTYPE6_H_
 #define _ZCRYPT_MSGTYPE6_H_
 
-#include <asm/zcrypt.h>
+#include <asm-generic/zcrypt.h>
 
 #define MSGTYPE06_NAME			"zcrypt_msgtype6"
 #define MSGTYPE06_VARIANT_DEFAULT	0

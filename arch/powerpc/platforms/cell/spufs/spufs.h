@@ -29,9 +29,9 @@
 #include <linux/cpumask.h>
 #include <linux/sched/signal.h>
 
-#include <asm/spu.h>
-#include <asm/spu_csa.h>
-#include <asm/spu_info.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_csa.h>
+#include <asm-generic/spu_info.h>
 
 #define SPUFS_PS_MAP_SIZE	0x20000
 #define SPUFS_MFC_MAP_SIZE	0x1000

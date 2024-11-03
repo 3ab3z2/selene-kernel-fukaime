@@ -12,8 +12,8 @@
 #include <linux/cpuidle.h>
 #include <linux/init.h>
 
-#include <asm/idle.h>
-#include <asm/pm-cps.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/pm-cps.h>
 
 /* Enumeration of the various idle states this driver may enter */
 enum cps_idle_state {

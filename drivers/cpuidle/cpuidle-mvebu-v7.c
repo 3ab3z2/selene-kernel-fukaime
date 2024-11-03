@@ -19,7 +19,7 @@
 #include <linux/of.h>
 #include <linux/suspend.h>
 #include <linux/platform_device.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/cpuidle.h>
 
 #define MVEBU_V7_FLAG_DEEP_IDLE	0x10000
 

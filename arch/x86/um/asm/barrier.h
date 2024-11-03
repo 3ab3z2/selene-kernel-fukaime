@@ -2,11 +2,11 @@
 #ifndef _ASM_UM_BARRIER_H_
 #define _ASM_UM_BARRIER_H_
 
-#include <asm/asm.h>
-#include <asm/segment.h>
-#include <asm/cpufeatures.h>
-#include <asm/cmpxchg.h>
-#include <asm/nops.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/nops.h>
 
 #include <linux/kernel.h>
 #include <linux/irqflags.h>

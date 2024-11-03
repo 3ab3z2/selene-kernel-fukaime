@@ -8,7 +8,7 @@
 #include <linux/interrupt.h>
 #include <linux/linkage.h>
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 typedef void __noreturn (* noret_func_t)(void);
 

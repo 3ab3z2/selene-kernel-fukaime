@@ -11,7 +11,7 @@
  */
 
 #include <linux/types.h>
-#include <asm/hw_irq.h>
+#include <asm-generic/hw_irq.h>
 
 #define MAX_HWEVENTS 6
 

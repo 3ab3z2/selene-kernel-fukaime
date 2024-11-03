@@ -14,7 +14,7 @@
 
 	.text
 #include <linux/linkage.h>
-#include <asm/assembler.h>
+#include <asm-generic/assembler.h>
 
 #ifdef CONFIG_ISA_DUAL_ISSUE
 

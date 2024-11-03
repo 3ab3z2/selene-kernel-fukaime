@@ -22,10 +22,10 @@
 #include <linux/perf_event.h>
 #include <linux/uaccess.h>
 
-#include <asm/irq.h>
-#include <asm/irq_regs.h>
-#include <asm/stacktrace.h>
-#include <asm/time.h> /* For perf_irq */
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/stacktrace.h>
+#include <asm-generic/time.h> /* For perf_irq */
 
 #define MIPS_MAX_HWEVENTS 4
 #define MIPS_TCS_PER_COUNTER 2

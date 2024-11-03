@@ -36,13 +36,13 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/entry.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/arcregs.h>
-#include <asm/cache.h>
-#include <asm/processor.h>
-#include <asm/tlb-mmu1.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/tlb-mmu1.h>
 
 #ifdef CONFIG_ISA_ARCOMPACT
 ;-----------------------------------------------------------------

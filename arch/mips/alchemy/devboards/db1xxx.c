@@ -3,9 +3,9 @@
  * Alchemy DB/PB1xxx board support.
  */
 
-#include <asm/prom.h>
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 int __init db1000_board_setup(void);
 int __init db1000_dev_setup(void);

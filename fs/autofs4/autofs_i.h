@@ -25,7 +25,7 @@
 #include <linux/spinlock.h>
 #include <linux/list.h>
 #include <linux/completion.h>
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/magic.h>
 
 /* This is the range of ioctl() numbers we claim as ours */

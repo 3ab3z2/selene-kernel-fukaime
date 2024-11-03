@@ -30,7 +30,7 @@
 #include <net/irda/irmod.h>
 #include <net/irda/wrapper.h>
 #include <net/irda/irda_device.h>
-#include <asm/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1000.h>
 
 /* registers */
 #define IR_RING_PTR_STATUS	0x00

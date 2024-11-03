@@ -24,7 +24,7 @@
 #ifndef S5H1420_PRIV
 #define S5H1420_PRIV
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 enum s5h1420_register {
 	ID01      = 0x00,

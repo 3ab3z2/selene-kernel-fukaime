@@ -41,13 +41,13 @@
 #include <linux/debugfs.h>
 #include <linux/slab.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/unaligned.h>
 
 #if defined(CONFIG_PPC_PS3)
-#include <asm/firmware.h>
+#include <asm-generic/firmware.h>
 #endif
 
 /*-------------------------------------------------------------------------*/

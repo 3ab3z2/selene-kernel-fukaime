@@ -10,9 +10,9 @@
 #include <linux/errno.h>
 #include <linux/string.h>
 #include <linux/vmalloc.h>
-#include <asm/diag.h>
-#include <asm/ebcdic.h>
-#include <asm/timex.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/timex.h>
 #include "hypfs.h"
 
 #define NAME_LEN 8

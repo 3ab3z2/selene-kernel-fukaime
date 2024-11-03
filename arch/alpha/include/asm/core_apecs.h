@@ -3,7 +3,7 @@
 #define __ALPHA_APECS__H__
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * APECS is the internal name for the 2107x chipset which provides
@@ -38,7 +38,7 @@
    Note that we actually fudge the window 1 maximum as 48Mb instead of 64Mb,
    to keep virt_to_bus() from returning an address in the first window, for
    a data area that goes beyond the 64Mb first DMA window.  Sigh...
-   The fudge factor MUST match with <asm/dma.h> MAX_DMA_ADDRESS, but
+   The fudge factor MUST match with <asm-generic/dma.h> MAX_DMA_ADDRESS, but
    we can't just use that here, because of header file looping... :-(
 
    Window 1 will be used for all DMA from the ISA bus; yes, that does
@@ -506,7 +506,7 @@ __EXTERN_INLINE int apecs_is_mmio(const volatile void __iomem *addr)
 #define apecs_trivial_rw_bw	2
 #define apecs_trivial_rw_lq	1
 #define apecs_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

@@ -23,11 +23,11 @@
 #include <linux/module.h>
 #include <linux/interrupt.h>
 #include <linux/uaccess.h>
-#include <asm/smp.h>
-#include <asm/time.h>
-#include <asm/ps3.h>
-#include <asm/lv1call.h>
-#include <asm/cell-pmu.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/time.h>
+#include <asm-generic/ps3.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/cell-pmu.h>
 
 
 /* BOOKMARK tag macros */

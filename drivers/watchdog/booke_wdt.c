@@ -18,9 +18,9 @@
 #include <linux/smp.h>
 #include <linux/watchdog.h>
 
-#include <asm/reg_booke.h>
-#include <asm/time.h>
-#include <asm/div64.h>
+#include <asm-generic/reg_booke.h>
+#include <asm-generic/time.h>
+#include <asm-generic/div64.h>
 
 /* If the kernel parameter wdt=1, the watchdog will be enabled at boot.
  * Also, the wdt_period sets the watchdog timer period timeout.

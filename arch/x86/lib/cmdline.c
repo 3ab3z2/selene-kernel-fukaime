@@ -7,7 +7,7 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/ctype.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 static inline int myisspace(u8 c)
 {

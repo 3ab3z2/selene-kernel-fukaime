@@ -2,16 +2,16 @@
 #ifndef _ASM_IA64_ASM_PROTOTYPES_H
 #define _ASM_IA64_ASM_PROTOTYPES_H
 
-#include <asm/cacheflush.h>
-#include <asm/checksum.h>
-#include <asm/esi.h>
-#include <asm/ftrace.h>
-#include <asm/page.h>
-#include <asm/pal.h>
-#include <asm/string.h>
-#include <asm/uaccess.h>
-#include <asm/unwind.h>
-#include <asm/xor.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/esi.h>
+#include <asm-generic/ftrace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/string.h>
+#include <asm-generic/uaccess.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/xor.h>
 
 extern const char ia64_ivt[];
 

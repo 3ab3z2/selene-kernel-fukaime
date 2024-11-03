@@ -8,7 +8,7 @@
 
 #ifndef __AOA_H
 #define __AOA_H
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include <linux/module.h>
 #include <sound/core.h>
 #include <sound/asound.h>

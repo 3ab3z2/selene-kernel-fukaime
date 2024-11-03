@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/cache.h>
-#include <asm/thread_info.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/thread_info.h>
 
 OUTPUT_FORMAT("elf32-littlenios2", "elf32-littlenios2", "elf32-littlenios2")
 

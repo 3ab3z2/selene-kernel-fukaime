@@ -16,8 +16,8 @@
 #include <linux/init.h>
 
 #include <linux/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
 
 static int
 indirect_read_config(struct pci_bus *bus, unsigned int devfn, int offset,

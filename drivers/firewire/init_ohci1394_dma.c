@@ -38,8 +38,8 @@
 #include <linux/pci.h>		/* for PCI defines */
 #include <linux/string.h>
 
-#include <asm/pci-direct.h>	/* for direct PCI config space access */
-#include <asm/fixmap.h>
+#include <asm-generic/pci-direct.h>	/* for direct PCI config space access */
+#include <asm-generic/fixmap.h>
 
 #include <linux/init_ohci1394_dma.h>
 #include "ohci.h"

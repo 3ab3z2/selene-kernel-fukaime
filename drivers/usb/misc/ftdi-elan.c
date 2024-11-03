@@ -72,7 +72,7 @@ static struct list_head ftdi_static_list;
  * end of the global variables protected by ftdi_module_lock
  */
 #include "usb_u132.h"
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/usb/hcd.h>
 
 /* FIXME ohci.h is ONLY for internal use by the OHCI driver.

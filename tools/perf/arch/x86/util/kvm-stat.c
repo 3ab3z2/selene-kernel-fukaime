@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <errno.h>
 #include "../../util/kvm-stat.h"
-#include <asm/svm.h>
-#include <asm/vmx.h>
-#include <asm/kvm.h>
+#include <asm-generic/svm.h>
+#include <asm-generic/vmx.h>
+#include <asm-generic/kvm.h>
 
 define_exit_reasons_table(vmx_exit_reasons, VMX_EXIT_REASONS);
 define_exit_reasons_table(svm_exit_reasons, SVM_EXIT_REASONS);

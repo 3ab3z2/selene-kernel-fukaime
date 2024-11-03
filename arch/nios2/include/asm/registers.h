@@ -20,7 +20,7 @@
 #define _ASM_NIOS2_REGISTERS_H
 
 #ifndef __ASSEMBLY__
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 #endif
 
 /* control register numbers */

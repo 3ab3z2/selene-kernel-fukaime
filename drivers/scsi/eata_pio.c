@@ -58,7 +58,7 @@
 #include <linux/spinlock.h>
 #include <linux/delay.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

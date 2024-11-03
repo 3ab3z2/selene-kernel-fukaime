@@ -18,7 +18,7 @@
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/hardware.h>
 
 static struct snd_soc_dai_link simone_dai = {

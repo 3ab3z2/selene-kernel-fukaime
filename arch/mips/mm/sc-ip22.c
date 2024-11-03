@@ -10,12 +10,12 @@
 #include <linux/sched.h>
 #include <linux/mm.h>
 
-#include <asm/bcache.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/bootinfo.h>
-#include <asm/sgi/ip22.h>
-#include <asm/sgi/mc.h>
+#include <asm-generic/bcache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/sgi/ip22.h>
+#include <asm-generic/sgi/mc.h>
 
 /* Secondary cache size in bytes, if present.  */
 static unsigned long scache_size;

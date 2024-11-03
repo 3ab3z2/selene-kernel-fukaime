@@ -25,7 +25,7 @@
  *
  */
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <crypto/blowfish.h>
 #include <linux/crypto.h>
 #include <linux/init.h>

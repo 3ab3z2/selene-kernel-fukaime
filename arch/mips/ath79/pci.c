@@ -16,9 +16,9 @@
 #include <linux/pci.h>
 #include <linux/resource.h>
 #include <linux/platform_device.h>
-#include <asm/mach-ath79/ar71xx_regs.h>
-#include <asm/mach-ath79/ath79.h>
-#include <asm/mach-ath79/irq.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/irq.h>
 #include "pci.h"
 
 static int (*ath79_pci_plat_dev_init)(struct pci_dev *dev);

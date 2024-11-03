@@ -18,10 +18,10 @@
 #include <linux/rtc.h>
 #include <linux/fsl_devices.h>
 
-#include <asm/io.h>
-#include <asm/8xx_immap.h>
-#include <asm/prom.h>
-#include <asm/fs_pd.h>
+#include <asm-generic/io.h>
+#include <asm-generic/8xx_immap.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/fs_pd.h>
 #include <mm/mmu_decl.h>
 
 #include "pic.h"

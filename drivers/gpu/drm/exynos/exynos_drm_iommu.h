@@ -18,7 +18,7 @@
 #ifdef CONFIG_DRM_EXYNOS_IOMMU
 
 #if defined(CONFIG_ARM_DMA_USE_IOMMU)
-#include <asm/dma-iommu.h>
+#include <asm-generic/dma-iommu.h>
 
 static inline int __exynos_iommu_create_mapping(struct exynos_drm_private *priv,
 					unsigned long start, unsigned long size)

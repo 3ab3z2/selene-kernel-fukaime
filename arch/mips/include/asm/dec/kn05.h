@@ -21,7 +21,7 @@
 #ifndef __ASM_MIPS_DEC_KN05_H
 #define __ASM_MIPS_DEC_KN05_H
 
-#include <asm/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ioasic_addrs.h>
 
 /*
  * The oncard MB (Memory Buffer) ASIC provides an additional address

@@ -10,7 +10,7 @@
 #include <linux/kernel.h>
 #include <linux/pci.h>
 #include <linux/types.h>
-#include <asm/sni.h>
+#include <asm-generic/sni.h>
 
 /*
  * It seems that on the RM200 only lower 3 bits of the 5 bit PCI device

@@ -208,7 +208,7 @@
 #include <linux/errno.h>
 #include <linux/stddef.h>
 #include <linux/bug.h>
-#include <asm/opcodes.h>
+#include <asm-generic/opcodes.h>
 
 #include "core.h"
 #include "test-core.h"

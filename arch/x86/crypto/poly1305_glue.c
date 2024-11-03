@@ -15,8 +15,8 @@
 #include <linux/crypto.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
-#include <asm/fpu/api.h>
-#include <asm/simd.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/simd.h>
 
 struct poly1305_simd_desc_ctx {
 	struct poly1305_desc_ctx base;

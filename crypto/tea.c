@@ -22,7 +22,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/mm.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/crypto.h>
 #include <linux/types.h>
 

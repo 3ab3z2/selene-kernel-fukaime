@@ -15,13 +15,13 @@
 #include <linux/io.h>
 #include <linux/slab.h>
 
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/opal.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
-#include <asm/debugfs.h>
-#include <asm/isa-bridge.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/isa-bridge.h>
 
 static int opal_lpc_chip_id = -1;
 

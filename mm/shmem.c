@@ -36,7 +36,7 @@
 #include <linux/khugepaged.h>
 #include <linux/hugetlb.h>
 
-#include <asm/tlbflush.h> /* for arch/microblaze update_mmu_cache() */
+#include <asm-generic/tlbflush.h> /* for arch/microblaze update_mmu_cache() */
 
 static struct vfsmount *shm_mnt;
 
@@ -79,7 +79,7 @@ static struct vfsmount *shm_mnt;
 #include <linux/uuid.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 
 #include "internal.h"
 

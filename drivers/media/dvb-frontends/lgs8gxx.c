@@ -19,7 +19,7 @@
  *
  */
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/firmware.h>
 
 #include "dvb_frontend.h"

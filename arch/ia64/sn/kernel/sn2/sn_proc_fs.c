@@ -10,7 +10,7 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 #include <linux/uaccess.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/sn_sal.h>
 
 static int partition_id_show(struct seq_file *s, void *p)
 {

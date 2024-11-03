@@ -2,8 +2,8 @@
 #ifndef _ASM_DMA_MAPPING_H
 #define _ASM_DMA_MAPPING_H
 
-#include <asm/cache.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/cacheflush.h>
 
 extern unsigned long __nongprelbss dma_coherent_mem_start;
 extern unsigned long __nongprelbss dma_coherent_mem_end;

@@ -33,7 +33,7 @@
 #include <linux/platform_device.h>
 #include <linux/printk.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/genwqe/genwqe_card.h>
 
 #define DRV_VERSION		"2.0.25"

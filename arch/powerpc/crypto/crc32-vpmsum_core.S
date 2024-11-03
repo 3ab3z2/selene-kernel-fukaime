@@ -28,8 +28,8 @@
  * 2 of the License, or (at your option) any later version.
 */
 
-#include <asm/ppc_asm.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/ppc-opcode.h>
 
 #define MAX_SIZE	32768
 

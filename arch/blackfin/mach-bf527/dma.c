@@ -8,8 +8,8 @@
 
 #include <linux/module.h>
 
-#include <asm/blackfin.h>
-#include <asm/dma.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/dma.h>
 
 struct dma_register * const dma_io_base_addr[MAX_DMA_CHANNELS] = {
 	(struct dma_register *) DMA0_NEXT_DESC_PTR,

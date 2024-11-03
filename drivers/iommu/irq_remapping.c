@@ -8,12 +8,12 @@
 #include <linux/pci.h>
 #include <linux/irqdomain.h>
 
-#include <asm/hw_irq.h>
-#include <asm/irq_remapping.h>
-#include <asm/processor.h>
-#include <asm/x86_init.h>
-#include <asm/apic.h>
-#include <asm/hpet.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/irq_remapping.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/x86_init.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/hpet.h>
 
 #include "irq_remapping.h"
 

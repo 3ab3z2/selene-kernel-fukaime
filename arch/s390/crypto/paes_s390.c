@@ -26,8 +26,8 @@
 #include <linux/init.h>
 #include <linux/spinlock.h>
 #include <crypto/xts.h>
-#include <asm/cpacf.h>
-#include <asm/pkey.h>
+#include <asm-generic/cpacf.h>
+#include <asm-generic/pkey.h>
 
 static u8 *ctrblk;
 static DEFINE_SPINLOCK(ctrblk_lock);

@@ -56,18 +56,18 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/irq.h>
-#include <asm/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
 
-#include <asm/atarihw.h>
-#include <asm/atariints.h>
-#include <asm/atari_stram.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atari_stram.h>
 
 #include <linux/fb.h>
-#include <asm/atarikb.h>
+#include <asm-generic/atarikb.h>
 
 #include "c2p.h"
 #include "atafb.h"

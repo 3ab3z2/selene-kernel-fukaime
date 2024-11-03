@@ -33,9 +33,9 @@
 #include <linux/smp.h>
 #include <linux/types.h>
 
-#include <asm/cpu-type.h>
-#include <asm/cpu.h>
-#include <asm/io.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/io.h>
 
 #define CLKSPEEDREG_TYPE1	(void __iomem *)KSEG1ADDR(0x0b000014)
 #define CLKSPEEDREG_TYPE2	(void __iomem *)KSEG1ADDR(0x0f000014)

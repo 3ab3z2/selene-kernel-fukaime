@@ -7,9 +7,9 @@
  * Author: Hu Hongbing <huhb@lemote.com>
  *	   Wu Zhangjin <wuzhangjin@gmail.com>
  */
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
-#include <asm/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/asm.h>
 
 .text
 LEAF(swsusp_arch_suspend)

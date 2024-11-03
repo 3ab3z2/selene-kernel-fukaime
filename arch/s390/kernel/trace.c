@@ -8,7 +8,7 @@
 
 #include <linux/percpu.h>
 #define CREATE_TRACE_POINTS
-#include <asm/trace/diag.h>
+#include <asm-generic/trace/diag.h>
 
 EXPORT_TRACEPOINT_SYMBOL(s390_diagnose);
 

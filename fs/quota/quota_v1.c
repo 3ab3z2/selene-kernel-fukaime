@@ -7,7 +7,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "quotaio_v1.h"
 

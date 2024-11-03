@@ -28,12 +28,12 @@
 #include <scsi/scsi_host.h>
 #include <scsi/scsi_device.h>
 
-#include <asm/macio.h>
-#include <asm/io.h>
-#include <asm/dbdma.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
-#include <asm/mediabay.h>
+#include <asm-generic/macio.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/mediabay.h>
 
 #ifdef DEBUG_DMA
 #define dev_dbgdma(dev, format, arg...)		\

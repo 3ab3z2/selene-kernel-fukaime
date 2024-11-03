@@ -23,10 +23,10 @@
 #include <linux/mutex.h>
 #include <linux/cma.h>
 #include <linux/mm.h>
-#include <asm/compat.h>
-#include <asm/cpcmd.h>
-#include <asm/debug.h>
-#include <asm/vmcp.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/vmcp.h>
 
 struct vmcp_session {
 	char *response;

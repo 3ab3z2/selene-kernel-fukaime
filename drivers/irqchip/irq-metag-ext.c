@@ -19,8 +19,8 @@
 #include <linux/slab.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/irq.h>
-#include <asm/hwthread.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/hwthread.h>
 
 #define HWSTAT_STRIDE 8
 #define HWVEC_BLK_STRIDE 0x1000

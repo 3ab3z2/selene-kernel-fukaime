@@ -72,12 +72,12 @@ typedef __u32			xfs_nlink_t;
 #include <linux/ratelimit.h>
 #include <linux/rhashtable.h>
 
-#include <asm/page.h>
-#include <asm/div64.h>
-#include <asm/param.h>
+#include <asm-generic/page.h>
+#include <asm-generic/div64.h>
+#include <asm-generic/param.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
-#include <asm/unaligned.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/unaligned.h>
 
 #include "xfs_fs.h"
 #include "xfs_stats.h"

@@ -16,8 +16,8 @@
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 
-#include <asm/blackfin.h>
-#include <asm/dma.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/dma.h>
 
 /*
  * IMPORTANT WARNING ABOUT THESE FUNCTIONS

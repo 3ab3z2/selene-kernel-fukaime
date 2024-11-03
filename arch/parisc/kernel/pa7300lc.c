@@ -9,9 +9,9 @@
 #include <linux/sched/debug.h>
 #include <linux/smp.h>
 #include <linux/kernel.h>
-#include <asm/io.h>
-#include <asm/ptrace.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/machdep.h>
 
 /* CPU register indices */
 

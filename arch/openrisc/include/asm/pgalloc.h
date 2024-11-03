@@ -19,7 +19,7 @@
 #ifndef __ASM_OPENRISC_PGALLOC_H
 #define __ASM_OPENRISC_PGALLOC_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/threads.h>
 #include <linux/mm.h>
 #include <linux/memblock.h>

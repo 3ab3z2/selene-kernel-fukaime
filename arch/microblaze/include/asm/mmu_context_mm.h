@@ -14,8 +14,8 @@
 #include <linux/atomic.h>
 #include <linux/mm_types.h>
 
-#include <asm/bitops.h>
-#include <asm/mmu.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/mmu.h>
 #include <asm-generic/mm_hooks.h>
 
 # ifdef __KERNEL__

@@ -28,14 +28,14 @@
 #include <net/iucv/af_iucv.h>
 #include <net/dsfield.h>
 
-#include <asm/ebcdic.h>
-#include <asm/chpid.h>
-#include <asm/io.h>
-#include <asm/sysinfo.h>
-#include <asm/compat.h>
-#include <asm/diag.h>
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/diag.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
 
 #include "qeth_core.h"
 

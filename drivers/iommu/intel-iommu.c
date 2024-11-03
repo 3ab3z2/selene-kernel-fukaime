@@ -46,9 +46,9 @@
 #include <linux/memblock.h>
 #include <linux/dma-contiguous.h>
 #include <linux/crash_dump.h>
-#include <asm/irq_remapping.h>
-#include <asm/cacheflush.h>
-#include <asm/iommu.h>
+#include <asm-generic/irq_remapping.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/iommu.h>
 
 #include "irq_remapping.h"
 

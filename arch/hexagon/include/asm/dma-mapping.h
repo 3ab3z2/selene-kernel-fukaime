@@ -26,7 +26,7 @@
 #include <linux/mm.h>
 #include <linux/scatterlist.h>
 #include <linux/dma-debug.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 struct device;
 

@@ -29,33 +29,33 @@
 #endif
 #include <linux/kbuild.h>
 
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/cputable.h>
-#include <asm/thread_info.h>
-#include <asm/rtas.h>
-#include <asm/vdso_datapage.h>
-#include <asm/dbell.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/dbell.h>
 #ifdef CONFIG_PPC64
-#include <asm/paca.h>
-#include <asm/lppaca.h>
-#include <asm/cache.h>
-#include <asm/compat.h>
-#include <asm/mmu.h>
-#include <asm/hvcall.h>
-#include <asm/xics.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/lppaca.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/xics.h>
 #endif
 #ifdef CONFIG_PPC_POWERNV
-#include <asm/opal.h>
+#include <asm-generic/opal.h>
 #endif
 #if defined(CONFIG_KVM) || defined(CONFIG_KVM_GUEST)
 #include <linux/kvm_host.h>
 #endif
 #if defined(CONFIG_KVM) && defined(CONFIG_PPC_BOOK3S)
-#include <asm/kvm_book3s.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/kvm_ppc.h>
 #endif
 
 #ifdef CONFIG_PPC32
@@ -69,7 +69,7 @@
 #endif
 
 #ifdef CONFIG_PPC_8xx
-#include <asm/fixmap.h>
+#include <asm-generic/fixmap.h>
 #endif
 
 #define STACK_PT_REGS_OFFSET(sym, val)	\

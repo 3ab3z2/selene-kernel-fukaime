@@ -16,9 +16,9 @@
 #include <linux/of_device.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/upa.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/upa.h>
 
 static DEFINE_MUTEX(flash_mutex);
 static DEFINE_SPINLOCK(flash_lock);

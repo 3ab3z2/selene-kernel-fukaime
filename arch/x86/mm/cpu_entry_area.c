@@ -3,10 +3,10 @@
 #include <linux/spinlock.h>
 #include <linux/percpu.h>
 
-#include <asm/cpu_entry_area.h>
-#include <asm/pgtable.h>
-#include <asm/fixmap.h>
-#include <asm/desc.h>
+#include <asm-generic/cpu_entry_area.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/desc.h>
 
 static DEFINE_PER_CPU_PAGE_ALIGNED(struct entry_stack_page, entry_stack_storage);
 

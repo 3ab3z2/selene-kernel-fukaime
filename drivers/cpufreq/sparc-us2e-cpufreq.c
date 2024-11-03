@@ -16,8 +16,8 @@
 #include <linux/delay.h>
 #include <linux/init.h>
 
-#include <asm/asi.h>
-#include <asm/timer.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/timer.h>
 
 static struct cpufreq_driver *cpufreq_us2e_driver;
 

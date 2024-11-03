@@ -24,17 +24,17 @@
 #include <linux/delay.h>
 #include <linux/bitops.h>
 
-#include <asm/bootinfo.h>
-#include <asm/io.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mipsregs.h>
 
-#include <asm/processor.h>
-#include <asm/pci/bridge.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/agent.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/hub.h>
-#include <asm/sn/intr.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pci/bridge.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/agent.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/hub.h>
+#include <asm-generic/sn/intr.h>
 
 /*
  * Linux has a controller-independent x86 interrupt architecture.

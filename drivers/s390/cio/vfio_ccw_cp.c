@@ -12,7 +12,7 @@
 #include <linux/slab.h>
 #include <linux/iommu.h>
 #include <linux/vfio.h>
-#include <asm/idals.h>
+#include <asm-generic/idals.h>
 
 #include "vfio_ccw_cp.h"
 

@@ -6,8 +6,8 @@
  */
 
 #define __EXTERN_INLINE inline
-#include <asm/io.h>
-#include <asm/core_marvel.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_marvel.h>
 #undef __EXTERN_INLINE
 
 #include <linux/types.h>
@@ -20,12 +20,12 @@
 #include <linux/module.h>
 #include <linux/bootmem.h>
 
-#include <asm/ptrace.h>
-#include <asm/smp.h>
-#include <asm/gct.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/vga.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/gct.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/vga.h>
 
 #include "proto.h"
 #include "pci_impl.h"
@@ -888,7 +888,7 @@ marvel_node_mem_size(int nid)
  * AGP GART Support.
  */
 #include <linux/agp_backend.h>
-#include <asm/agp_backend.h>
+#include <asm-generic/agp_backend.h>
 #include <linux/slab.h>
 #include <linux/delay.h>
 

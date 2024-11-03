@@ -31,7 +31,7 @@
 #include <linux/buffer_head.h>
 #include <linux/sched.h>
 #include <linux/bitops.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ufs_fs.h"
 #include "ufs.h"

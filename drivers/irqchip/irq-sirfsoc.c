@@ -14,8 +14,8 @@
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
 #include <linux/syscore_ops.h>
-#include <asm/mach/irq.h>
-#include <asm/exception.h>
+#include <asm-generic/mach/irq.h>
+#include <asm-generic/exception.h>
 
 #define SIRFSOC_INT_RISC_MASK0		0x0018
 #define SIRFSOC_INT_RISC_MASK1		0x001C

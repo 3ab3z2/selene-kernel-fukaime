@@ -35,7 +35,7 @@
 #include <linux/file.h>
 #include <linux/scatterlist.h>
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "ecryptfs_kernel.h"
 
 #define DECRYPT		0

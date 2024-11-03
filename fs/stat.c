@@ -19,7 +19,7 @@
 #include <linux/compat.h>
 
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 /**
  * generic_fillattr - Fill in the basic attributes from the inode struct

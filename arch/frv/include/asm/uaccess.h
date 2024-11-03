@@ -16,9 +16,9 @@
  * User space memory access functions
  */
 #include <linux/mm.h>
-#include <asm/segment.h>
-#include <asm/sections.h>
-#include <asm/extable.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/extable.h>
 
 #define __ptr(x) ((unsigned long __force *)(x))
 

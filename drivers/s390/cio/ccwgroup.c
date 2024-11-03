@@ -15,9 +15,9 @@
 #include <linux/ctype.h>
 #include <linux/dcache.h>
 
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
-#include <asm/ccwgroup.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/ccwgroup.h>
 
 #include "device.h"
 

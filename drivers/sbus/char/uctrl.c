@@ -16,11 +16,11 @@
 #include <linux/of.h>
 #include <linux/of_device.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
 
 #define UCTRL_MINOR	174
 

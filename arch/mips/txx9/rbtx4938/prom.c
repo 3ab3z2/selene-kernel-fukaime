@@ -12,9 +12,9 @@
 
 #include <linux/init.h>
 #include <linux/bootmem.h>
-#include <asm/bootinfo.h>
-#include <asm/txx9/generic.h>
-#include <asm/txx9/rbtx4938.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/txx9/generic.h>
+#include <asm-generic/txx9/rbtx4938.h>
 
 void __init rbtx4938_prom_init(void)
 {

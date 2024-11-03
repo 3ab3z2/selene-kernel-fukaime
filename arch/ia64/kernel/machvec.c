@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/module.h>
 #include <linux/dma-mapping.h>
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 
 #ifdef CONFIG_IA64_GENERIC
 
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 struct ia64_machine_vector ia64_mv;
 EXPORT_SYMBOL(ia64_mv);

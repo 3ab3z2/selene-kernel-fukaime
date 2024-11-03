@@ -2,7 +2,7 @@
 #ifndef _ASM_IA64_HUGETLB_H
 #define _ASM_IA64_HUGETLB_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/hugetlb.h>
 
 

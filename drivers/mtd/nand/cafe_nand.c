@@ -22,7 +22,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define CAFE_NAND_CTRL1		0x00
 #define CAFE_NAND_CTRL2		0x04

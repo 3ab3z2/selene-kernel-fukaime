@@ -5,7 +5,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 #include "n2_core.h"
 
 	/* o0: queue type

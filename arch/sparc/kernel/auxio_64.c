@@ -12,9 +12,9 @@
 #include <linux/ioport.h>
 #include <linux/of_device.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/auxio.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/auxio.h>
 
 void __iomem *auxio_register = NULL;
 EXPORT_SYMBOL(auxio_register);

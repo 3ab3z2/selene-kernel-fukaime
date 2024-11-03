@@ -27,11 +27,11 @@
 #include <crypto/algapi.h>
 #include <crypto/hash.h>
 #include <crypto/internal/hash.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
-#include <asm/dma.h>
-#include <asm/portmux.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/io.h>
 
 #include "bfin_crc.h"
 

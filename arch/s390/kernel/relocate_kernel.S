@@ -8,8 +8,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/sigp.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sigp.h>
 
 /*
  * moves the new kernel to its destination...

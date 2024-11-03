@@ -13,7 +13,7 @@
 #ifndef FIMC_IS_H_
 #define FIMC_IS_H_
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #include <linux/clk.h>
 #include <linux/device.h>
 #include <linux/kernel.h>

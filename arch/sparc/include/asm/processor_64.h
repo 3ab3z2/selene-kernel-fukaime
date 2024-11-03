@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /*
- * include/asm/processor.h
+ * include/asm-generic/processor.h
  *
  * Copyright (C) 1996 David S. Miller (davem@caip.rutgers.edu)
  */
@@ -14,10 +14,10 @@
  */
 #define current_text_addr() ({ void *pc; __asm__("rd %%pc, %0" : "=r" (pc)); pc; })
 
-#include <asm/asi.h>
-#include <asm/pstate.h>
-#include <asm/ptrace.h>
-#include <asm/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
 
 /*
  * User lives in his very own context, and cannot reference us. Note
@@ -88,7 +88,7 @@ struct thread_struct {
 #ifndef __ASSEMBLY__
 
 #include <linux/types.h>
-#include <asm/fpumacro.h>
+#include <asm-generic/fpumacro.h>
 
 struct task_struct;
 
@@ -195,7 +195,7 @@ unsigned long get_wchan(struct task_struct *task);
 #define KSTK_EIP(tsk)  (task_pt_regs(tsk)->tpc)
 #define KSTK_ESP(tsk)  (task_pt_regs(tsk)->u_regs[UREG_FP])
 
-/* Please see the commentary in asm/backoff.h for a description of
+/* Please see the commentary in asm-generic/backoff.h for a description of
  * what these instructions are doing and how they have been chosen.
  * To make a long story short, we are trying to yield the current cpu
  * strand during busy loops.

@@ -1,6 +1,6 @@
 /*
  * CPU feature definitions for module loading, used by
- * module_cpu_feature_match(), see asm/cputable.h for powerpc CPU features.
+ * module_cpu_feature_match(), see asm-generic/cputable.h for powerpc CPU features.
  *
  * Copyright 2016 Alastair D'Silva, IBM Corporation.
  *
@@ -13,9 +13,9 @@
 #ifndef __ASM_POWERPC_CPUFEATURE_H
 #define __ASM_POWERPC_CPUFEATURE_H
 
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 
-/* Keep these in step with powerpc/include/asm/cputable.h */
+/* Keep these in step with powerpc/include/asm-generic/cputable.h */
 #define MAX_CPU_FEATURES (2 * 32)
 
 /*

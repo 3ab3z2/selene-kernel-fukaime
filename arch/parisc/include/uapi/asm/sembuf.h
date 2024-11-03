@@ -2,7 +2,7 @@
 #ifndef _PARISC_SEMBUF_H
 #define _PARISC_SEMBUF_H
 
-#include <asm/bitsperlong.h>
+#include <asm-generic/bitsperlong.h>
 
 /* 
  * The semid64_ds structure for parisc architecture.

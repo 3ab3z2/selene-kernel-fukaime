@@ -10,7 +10,7 @@
 #define _ASM_MICROBLAZE_IRQFLAGS_H
 
 #include <linux/types.h>
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 #if CONFIG_XILINX_MICROBLAZE0_USE_MSR_INSTR
 

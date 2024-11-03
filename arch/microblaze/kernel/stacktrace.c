@@ -14,7 +14,7 @@
 #include <linux/stacktrace.h>
 #include <linux/thread_info.h>
 #include <linux/ptrace.h>
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 
 void save_stack_trace(struct stack_trace *trace)
 {

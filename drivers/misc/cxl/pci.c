@@ -17,11 +17,11 @@
 #include <linux/pci.h>
 #include <linux/of.h>
 #include <linux/delay.h>
-#include <asm/opal.h>
-#include <asm/msi_bitmap.h>
-#include <asm/pnv-pci.h>
-#include <asm/io.h>
-#include <asm/reg.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/msi_bitmap.h>
+#include <asm-generic/pnv-pci.h>
+#include <asm-generic/io.h>
+#include <asm-generic/reg.h>
 
 #include "cxl.h"
 #include <misc/cxl.h>

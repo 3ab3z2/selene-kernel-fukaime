@@ -19,7 +19,7 @@
 #include <linux/mfd/syscon.h>
 #include <linux/regmap.h>
 
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 #define UC_IRQ_CONTROL		0x04
 

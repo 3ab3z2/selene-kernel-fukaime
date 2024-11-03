@@ -7,16 +7,16 @@
  * (C) Copyright 2001, 2002 Ralf Baechle
  */
 #include <linux/export.h>
-#include <asm/addrspace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/byteorder.h>
 #include <linux/ioport.h>
 #include <linux/sched.h>
 #include <linux/slab.h>
 #include <linux/vmalloc.h>
 #include <linux/mm_types.h>
-#include <asm/cacheflush.h>
-#include <asm/io.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/tlbflush.h>
 
 static inline void remap_area_pte(pte_t * pte, unsigned long address,
 	phys_addr_t size, phys_addr_t phys_addr, unsigned long flags)

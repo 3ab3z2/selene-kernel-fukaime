@@ -43,11 +43,11 @@
 #ifdef __linux__
 #include "aic7xxx_osm.h"
 #include "aic7xxx_inline.h"
-#include "aicasm/aicasm_insformat.h"
+#include "aicasm-generic/aicasm_insformat.h"
 #else
 #include <dev/aic7xxx/aic7xxx_osm.h>
 #include <dev/aic7xxx/aic7xxx_inline.h>
-#include <dev/aic7xxx/aicasm/aicasm_insformat.h>
+#include <dev/aic7xxx/aicasm-generic/aicasm_insformat.h>
 #endif
 
 /***************************** Lookup Tables **********************************/

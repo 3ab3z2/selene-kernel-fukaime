@@ -32,7 +32,7 @@
 #include <linux/tc.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <video/pmag-ba-fb.h>
 

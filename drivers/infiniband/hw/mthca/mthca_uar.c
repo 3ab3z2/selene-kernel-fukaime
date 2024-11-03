@@ -30,7 +30,7 @@
  * SOFTWARE.
  */
 
-#include <asm/page.h>		/* PAGE_SHIFT */
+#include <asm-generic/page.h>		/* PAGE_SHIFT */
 
 #include "mthca_dev.h"
 #include "mthca_memfree.h"

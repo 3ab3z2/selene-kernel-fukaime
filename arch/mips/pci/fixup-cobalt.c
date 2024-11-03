@@ -13,8 +13,8 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/gt64120.h>
+#include <asm-generic/io.h>
+#include <asm-generic/gt64120.h>
 
 #include <cobalt.h>
 #include <irq.h>

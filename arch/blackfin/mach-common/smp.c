@@ -26,15 +26,15 @@
 #include <linux/irq.h>
 #include <linux/slab.h>
 #include <linux/atomic.h>
-#include <asm/cacheflush.h>
-#include <asm/irq_handler.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/cpu.h>
-#include <asm/time.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/irq_handler.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/time.h>
 #include <linux/err.h>
 
 /*

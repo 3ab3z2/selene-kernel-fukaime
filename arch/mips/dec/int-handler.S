@@ -13,19 +13,19 @@
  * by Maciej W. Rozycki.
  */
 
-#include <asm/addrspace.h>
-#include <asm/asm.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
 
-#include <asm/dec/interrupts.h>
-#include <asm/dec/ioasic_addrs.h>
-#include <asm/dec/ioasic_ints.h>
-#include <asm/dec/kn01.h>
-#include <asm/dec/kn02.h>
-#include <asm/dec/kn02xa.h>
-#include <asm/dec/kn03.h>
+#include <asm-generic/dec/interrupts.h>
+#include <asm-generic/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ioasic_ints.h>
+#include <asm-generic/dec/kn01.h>
+#include <asm-generic/dec/kn02.h>
+#include <asm-generic/dec/kn02xa.h>
+#include <asm-generic/dec/kn03.h>
 
 #define KN02_CSR_BASE		CKSEG1ADDR(KN02_SLOT_BASE + KN02_CSR)
 #define KN02XA_IOASIC_BASE	CKSEG1ADDR(KN02XA_SLOT_BASE + IOASIC_IOCTL)

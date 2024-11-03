@@ -21,7 +21,7 @@
 #define _ASM_POWERPC_DCR_MMIO_H
 #ifdef __KERNEL__
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 typedef struct {
 	void __iomem *token;

@@ -19,10 +19,10 @@
 #include <linux/i2c-algo-bit.h>
 #endif
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #if defined(CONFIG_PPC) || defined(CONFIG_SPARC)
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #endif
 
 #include <video/radeon.h>

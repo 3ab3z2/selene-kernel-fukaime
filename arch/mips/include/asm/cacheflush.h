@@ -11,7 +11,7 @@
 
 /* Keep includes the same across arches.  */
 #include <linux/mm.h>
-#include <asm/cpu-features.h>
+#include <asm-generic/cpu-features.h>
 
 /* Cache flushing:
  *

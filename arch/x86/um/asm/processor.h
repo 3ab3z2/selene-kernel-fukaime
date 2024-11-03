@@ -18,7 +18,7 @@
 #define ARCH_IS_STACKGROW(address) \
        (address + 65536 + 32 * sizeof(unsigned long) >= UPT_SP(&current->thread.regs.regs))
 
-#include <asm/user.h>
+#include <asm-generic/user.h>
 
 /* REP NOP (PAUSE) is a good thing to insert into busy-wait loops. */
 static inline void rep_nop(void)
@@ -30,6 +30,6 @@ static inline void rep_nop(void)
 
 #define task_pt_regs(t) (&(t)->thread.regs)
 
-#include <asm/processor-generic.h>
+#include <asm-generic/processor-generic.h>
 
 #endif

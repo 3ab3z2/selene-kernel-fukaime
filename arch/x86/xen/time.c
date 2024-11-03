@@ -17,9 +17,9 @@
 #include <linux/pvclock_gtod.h>
 #include <linux/timekeeper_internal.h>
 
-#include <asm/pvclock.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/pvclock.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/events.h>
 #include <xen/features.h>

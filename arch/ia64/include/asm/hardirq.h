@@ -18,7 +18,7 @@
 #include <linux/threads.h>
 #include <linux/irq.h>
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 extern void __iomem *ipi_base_addr;
 

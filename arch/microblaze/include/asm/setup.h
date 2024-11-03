@@ -10,7 +10,7 @@
 #ifndef _ASM_MICROBLAZE_SETUP_H
 #define _ASM_MICROBLAZE_SETUP_H
 
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 # ifndef __ASSEMBLY__
 extern unsigned int boot_cpuid; /* move to smp.h */

@@ -3,8 +3,8 @@
 #define __POWERNV_PCI_H
 
 #include <linux/iommu.h>
-#include <asm/iommu.h>
-#include <asm/msi_bitmap.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/msi_bitmap.h>
 
 struct pci_dn;
 

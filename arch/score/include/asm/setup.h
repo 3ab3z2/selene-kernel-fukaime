@@ -2,7 +2,7 @@
 #ifndef _ASM_SCORE_SETUP_H
 #define _ASM_SCORE_SETUP_H
 
-#include <uapi/asm/setup.h>
+#include <uapi/asm-generic/setup.h>
 
 
 extern void pagetable_init(void);

@@ -2,8 +2,8 @@
 #include <linux/module.h>
 #include <linux/device.h>
 #include <linux/cpu.h>
-#include <asm/facility.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/nospec-branch.h>
 
 static int __init nobp_setup_early(char *str)
 {

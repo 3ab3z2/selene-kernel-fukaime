@@ -17,12 +17,12 @@
 #include <linux/delay.h>
 
 #include <linux/atomic.h>
-#include <asm/timer.h>
-#include <asm/hw_irq.h>
-#include <asm/pgtable.h>
-#include <asm/desc.h>
-#include <asm/apic.h>
-#include <asm/i8259.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/i8259.h>
 
 /*
  * This is the 'legacy' 8259A Programmable Interrupt Controller,

@@ -2,7 +2,7 @@
 #ifndef _M68K_BVME6000HW_H_
 #define _M68K_BVME6000HW_H_
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 /*
  * PIT structure

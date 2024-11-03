@@ -5,7 +5,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/context.S>
+#include <asm-generic/context.S>
 
 /* void *strncpy(char *dest, const char *src, size_t n);
  * R0 = address (dest)

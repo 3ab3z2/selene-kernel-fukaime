@@ -111,9 +111,9 @@
 #include <linux/init.h>
 #include <linux/interrupt.h>
 
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_iop.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_iop.h>
 
 #ifdef DEBUG
 #define iop_pr_debug(fmt, ...) \

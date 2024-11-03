@@ -15,15 +15,15 @@
 #include <linux/init.h>
 #include <linux/linkage.h>
 #include <linux/unistd.h>
-#include <asm/blackfin.h>
-#include <asm/errno.h>
-#include <asm/fixed_code.h>
-#include <asm/thread_info.h>  /* TIF_NEED_RESCHED */
-#include <asm/asm-offsets.h>
-#include <asm/trace.h>
-#include <asm/traps.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/fixed_code.h>
+#include <asm-generic/thread_info.h>  /* TIF_NEED_RESCHED */
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/trace.h>
+#include <asm-generic/traps.h>
 
-#include <asm/context.S>
+#include <asm-generic/context.S>
 
 
 #ifdef CONFIG_EXCPT_IRQ_SYSC_L1

@@ -16,7 +16,7 @@
 #include <stdio.h>
 
 /* Minimal definition of disklabel, so we don't have to include
- * asm/disklabel.h (confuses make)
+ * asm-generic/disklabel.h (confuses make)
  */
 #ifndef MAXPARTITIONS
 #define MAXPARTITIONS   8                       /* max. # of partitions */

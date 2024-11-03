@@ -12,8 +12,8 @@
  */
 
 	.file	"tbictx.S"
-#include <asm/metag_regs.h>
-#include <asm/tbx.h>
+#include <asm-generic/metag_regs.h>
+#include <asm-generic/tbx.h>
 
 #ifdef METAC_1_0
 /* Ax.4 is NOT saved in XAX3 */

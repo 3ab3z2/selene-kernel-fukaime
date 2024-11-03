@@ -17,7 +17,7 @@
 #include <linux/interrupt.h>
 #include <linux/ioport.h>
 #include <linux/init.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/capi.h>
 #include <linux/b1pcmcia.h>
 #include <linux/isdn/capicmd.h>

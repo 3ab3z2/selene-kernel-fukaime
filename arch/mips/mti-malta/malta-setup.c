@@ -26,15 +26,15 @@
 #include <linux/screen_info.h>
 #include <linux/time.h>
 
-#include <asm/fw/fw.h>
-#include <asm/mach-malta/malta-dtshim.h>
-#include <asm/mips-cps.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/malta.h>
-#include <asm/mips-boards/maltaint.h>
-#include <asm/dma.h>
-#include <asm/prom.h>
-#include <asm/traps.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/mach-malta/malta-dtshim.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/malta.h>
+#include <asm-generic/mips-boards/maltaint.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/traps.h>
 #ifdef CONFIG_VT
 #include <linux/console.h>
 #endif

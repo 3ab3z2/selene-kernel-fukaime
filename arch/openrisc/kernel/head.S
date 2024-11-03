@@ -20,14 +20,14 @@
 #include <linux/errno.h>
 #include <linux/init.h>
 #include <linux/serial_reg.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/thread_info.h>
-#include <asm/cache.h>
-#include <asm/spr_defs.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/spr_defs.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/of_fdt.h>
 
 #define tophys(rd,rs)				\

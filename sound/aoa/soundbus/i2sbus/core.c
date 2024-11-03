@@ -16,8 +16,8 @@
 
 #include <sound/core.h>
 
-#include <asm/macio.h>
-#include <asm/dbdma.h>
+#include <asm-generic/macio.h>
+#include <asm-generic/dbdma.h>
 
 #include "../soundbus.h"
 #include "i2sbus.h"

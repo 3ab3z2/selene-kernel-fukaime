@@ -17,11 +17,11 @@
 #include <linux/delay.h>
 #include <linux/pci.h>
 #include <linux/uaccess.h>
-#include <asm/pci_debug.h>
-#include <asm/pci_clp.h>
-#include <asm/compat.h>
-#include <asm/clp.h>
-#include <uapi/asm/clp.h>
+#include <asm-generic/pci_debug.h>
+#include <asm-generic/pci_clp.h>
+#include <asm-generic/compat.h>
+#include <asm-generic/clp.h>
+#include <uapi/asm-generic/clp.h>
 
 bool zpci_unique_uid;
 

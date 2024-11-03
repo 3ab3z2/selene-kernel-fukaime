@@ -15,10 +15,10 @@
 #include <linux/gfp.h>
 #include <linux/slab.h>
 
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/opal.h>
-#include <asm/scom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/scom.h>
 
 /*
  * We could probably fit that inside the scom_map_t

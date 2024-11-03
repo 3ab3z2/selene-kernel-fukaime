@@ -11,9 +11,9 @@
 #include <linux/jiffies.h>
 #include <linux/string.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/chpid.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/chpid.h>
 
 #include "cio.h"
 #include "cio_debug.h"

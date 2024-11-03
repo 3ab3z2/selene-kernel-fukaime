@@ -13,7 +13,7 @@
 #include <linux/seq_file.h>
 #include <linux/capability.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "pci.h"
 
 static int proc_initialized;	/* = 0 */

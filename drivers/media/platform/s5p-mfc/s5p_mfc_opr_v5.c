@@ -20,7 +20,7 @@
 #include "s5p_mfc_pm.h"
 #include "s5p_mfc_opr.h"
 #include "s5p_mfc_opr_v5.h"
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/delay.h>
 #include <linux/dma-mapping.h>
 #include <linux/err.h>

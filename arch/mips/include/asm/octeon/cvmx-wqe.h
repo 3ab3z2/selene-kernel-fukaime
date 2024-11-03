@@ -40,7 +40,7 @@
 #ifndef __CVMX_WQE_H__
 #define __CVMX_WQE_H__
 
-#include <asm/octeon/cvmx-packet.h>
+#include <asm-generic/octeon/cvmx-packet.h>
 
 
 #define OCT_TAG_TYPE_STRING(x)						\

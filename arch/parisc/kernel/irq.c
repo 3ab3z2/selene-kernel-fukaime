@@ -28,10 +28,10 @@
 #include <linux/kernel_stat.h>
 #include <linux/seq_file.h>
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/smp.h>
-#include <asm/ldcw.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/ldcw.h>
 
 #undef PARISC_IRQ_CR16_COUNTS
 

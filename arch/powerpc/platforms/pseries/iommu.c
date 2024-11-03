@@ -38,18 +38,18 @@
 #include <linux/of.h>
 #include <linux/iommu.h>
 #include <linux/rculist.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/rtas.h>
-#include <asm/iommu.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/tce.h>
-#include <asm/ppc-pci.h>
-#include <asm/udbg.h>
-#include <asm/mmzone.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/tce.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/plpar_wrappers.h>
 
 #include "pseries.h"
 

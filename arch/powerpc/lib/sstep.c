@@ -12,11 +12,11 @@
 #include <linux/kprobes.h>
 #include <linux/ptrace.h>
 #include <linux/prefetch.h>
-#include <asm/sstep.h>
-#include <asm/processor.h>
+#include <asm-generic/sstep.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
-#include <asm/cpu_has_feature.h>
-#include <asm/cputable.h>
+#include <asm-generic/cpu_has_feature.h>
+#include <asm-generic/cputable.h>
 
 extern char system_call_common[];
 

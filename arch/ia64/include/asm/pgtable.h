@@ -7,17 +7,17 @@
  * the IA-64 page table tree.
  *
  * This hopefully works with any (fixed) IA-64 page-size, as defined
- * in <asm/page.h>.
+ * in <asm-generic/page.h>.
  *
  * Copyright (C) 1998-2005 Hewlett-Packard Co
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
 
-#include <asm/mman.h>
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/types.h>
+#include <asm-generic/mman.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/types.h>
 
 #define IA64_MAX_PHYS_BITS	50	/* max. number of physical address bits (architected) */
 
@@ -150,8 +150,8 @@
 
 #include <linux/sched/mm.h>	/* for mm_struct */
 #include <linux/bitops.h>
-#include <asm/cacheflush.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/mmu_context.h>
 
 /*
  * Next come the mappings that determine how mmap() protection bits

@@ -7,10 +7,10 @@
 #define _ASM_IA64_THREAD_INFO_H
 
 #ifndef ASM_OFFSETS_C
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #endif
-#include <asm/processor.h>
-#include <asm/ptrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
 
 #ifndef __ASSEMBLY__
 

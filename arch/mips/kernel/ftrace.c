@@ -14,12 +14,12 @@
 #include <linux/ftrace.h>
 #include <linux/syscalls.h>
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/cacheflush.h>
-#include <asm/syscall.h>
-#include <asm/uasm.h>
-#include <asm/unistd.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscall.h>
+#include <asm-generic/uasm.h>
+#include <asm-generic/unistd.h>
 
 #include <asm-generic/sections.h>
 

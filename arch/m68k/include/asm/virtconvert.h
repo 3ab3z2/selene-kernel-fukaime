@@ -10,8 +10,8 @@
 
 #include <linux/compiler.h>
 #include <linux/mmzone.h>
-#include <asm/setup.h>
-#include <asm/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
 
 /*
  * Change virtual addresses to physical addresses and vv.

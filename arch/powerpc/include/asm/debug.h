@@ -5,7 +5,7 @@
 #ifndef _ASM_POWERPC_DEBUG_H
 #define _ASM_POWERPC_DEBUG_H
 
-#include <asm/hw_breakpoint.h>
+#include <asm-generic/hw_breakpoint.h>
 
 struct pt_regs;
 

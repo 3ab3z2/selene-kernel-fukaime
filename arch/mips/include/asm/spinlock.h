@@ -9,9 +9,9 @@
 #ifndef _ASM_SPINLOCK_H
 #define _ASM_SPINLOCK_H
 
-#include <asm/processor.h>
-#include <asm/qrwlock.h>
-#include <asm/qspinlock.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/qrwlock.h>
+#include <asm-generic/qspinlock.h>
 
 #define arch_read_lock_flags(lock, flags) arch_read_lock(lock)
 #define arch_write_lock_flags(lock, flags) arch_write_lock(lock)

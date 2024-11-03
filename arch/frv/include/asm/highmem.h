@@ -19,17 +19,17 @@
 
 #include <linux/init.h>
 #include <linux/highmem.h>
-#include <asm/mem-layout.h>
-#include <asm/spr-regs.h>
-#include <asm/mb-regs.h>
+#include <asm-generic/mem-layout.h>
+#include <asm-generic/spr-regs.h>
+#include <asm-generic/mb-regs.h>
 
 #define NR_TLB_LINES		64	/* number of lines in the TLB */
 
 #ifndef __ASSEMBLY__
 
 #include <linux/interrupt.h>
-#include <asm/kmap_types.h>
-#include <asm/pgtable.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/pgtable.h>
 
 #ifdef CONFIG_DEBUG_HIGHMEM
 #define HIGHMEM_DEBUG 1

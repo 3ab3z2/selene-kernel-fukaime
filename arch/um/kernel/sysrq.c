@@ -14,8 +14,8 @@
 #include <linux/sched/debug.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/sysrq.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/sysrq.h>
+#include <asm-generic/stacktrace.h>
 #include <os.h>
 
 static void _print_addr(void *data, unsigned long address, int reliable)

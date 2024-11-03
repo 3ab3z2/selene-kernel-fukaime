@@ -15,8 +15,8 @@
  * rings where each mailbox channel represents a separate FlexRM ring.
  */
 
-#include <asm/barrier.h>
-#include <asm/byteorder.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/byteorder.h>
 #include <linux/atomic.h>
 #include <linux/bitmap.h>
 #include <linux/debugfs.h>

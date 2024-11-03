@@ -18,8 +18,8 @@
 #ifndef __ASM_SIBYTE_SENTOSA_H
 #define __ASM_SIBYTE_SENTOSA_H
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_int.h>
 
 #ifdef CONFIG_SIBYTE_SENTOSA
 #define SIBYTE_BOARD_NAME "BCM91250E (Sentosa)"

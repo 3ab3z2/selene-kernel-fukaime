@@ -6,12 +6,12 @@
  * Copyright (C) 2001, 2002 Ralf Baechle
  */
 
-#include <asm/page.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/sn0/hub.h>
-#include <asm/sn/klconfig.h>
-#include <asm/sn/ioc3.h>
-#include <asm/sn/sn_private.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/sn0/hub.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/ioc3.h>
+#include <asm-generic/sn/sn_private.h>
 
 #include <linux/serial.h>
 #include <linux/serial_core.h>

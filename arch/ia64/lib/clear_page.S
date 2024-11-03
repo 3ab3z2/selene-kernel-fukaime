@@ -10,9 +10,9 @@
  * 3/08/02 davidm	Some more tweaking
  */
 
-#include <asm/asmmacro.h>
-#include <asm/page.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/page.h>
+#include <asm-generic/export.h>
 
 #ifdef CONFIG_ITANIUM
 # define L3_LINE_SIZE	64	// Itanium L3 line size

@@ -11,12 +11,12 @@
 #include <linux/slab.h>
 #include <linux/cache.h>
 
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
-#include <asm/page.h>
-#include <asm/initialize_mmu.h>
-#include <asm/io.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/initialize_mmu.h>
+#include <asm-generic/io.h>
 
 #if defined(CONFIG_HIGHMEM)
 static void * __init init_pmd(unsigned long vaddr, unsigned long n_pages)

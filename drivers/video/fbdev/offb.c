@@ -26,10 +26,10 @@
 #include <linux/init.h>
 #include <linux/ioport.h>
 #include <linux/pci.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifdef CONFIG_PPC32
-#include <asm/bootx.h>
+#include <asm-generic/bootx.h>
 #endif
 
 #include "macmodes.h"

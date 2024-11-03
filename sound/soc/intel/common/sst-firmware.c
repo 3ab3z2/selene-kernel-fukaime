@@ -28,8 +28,8 @@
 /* supported DMA engine drivers */
 #include <linux/dma/dw.h>
 
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
 #include "sst-dsp.h"
 #include "sst-dsp-priv.h"

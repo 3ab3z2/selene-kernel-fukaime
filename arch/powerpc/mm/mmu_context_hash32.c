@@ -26,8 +26,8 @@
 #include <linux/init.h>
 #include <linux/export.h>
 
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
 
 /*
  * On 32-bit PowerPC 6xx/7xx/7xxx CPUs, we use a set of 16 VSIDs

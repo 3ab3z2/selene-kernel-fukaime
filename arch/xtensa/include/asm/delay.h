@@ -12,8 +12,8 @@
 #ifndef _XTENSA_DELAY_H
 #define _XTENSA_DELAY_H
 
-#include <asm/timex.h>
-#include <asm/param.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/param.h>
 
 extern unsigned long loops_per_jiffy;
 

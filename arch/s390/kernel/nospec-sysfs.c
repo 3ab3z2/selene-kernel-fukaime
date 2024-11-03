@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/device.h>
 #include <linux/cpu.h>
-#include <asm/facility.h>
-#include <asm/nospec-branch.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/nospec-branch.h>
 
 ssize_t cpu_show_spectre_v1(struct device *dev,
 			    struct device_attribute *attr, char *buf)

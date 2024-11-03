@@ -11,7 +11,7 @@
 #endif
 
 #if BITS_PER_LONG != __BITS_PER_LONG
-#error Inconsistent word size. Check asm/bitsperlong.h
+#error Inconsistent word size. Check asm-generic/bitsperlong.h
 #endif
 
 #ifndef BITS_PER_LONG_LONG

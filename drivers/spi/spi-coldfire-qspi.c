@@ -27,9 +27,9 @@
 #include <linux/spi/spi.h>
 #include <linux/pm_runtime.h>
 
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfqspi.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfqspi.h>
 
 #define	DRIVER_NAME "mcfqspi"
 

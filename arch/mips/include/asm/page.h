@@ -12,7 +12,7 @@
 #include <spaces.h>
 #include <linux/const.h>
 #include <linux/kernel.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 /*
  * PAGE_SHIFT determines the page size
@@ -191,7 +191,7 @@ static inline unsigned long ___pa(unsigned long x)
 }
 #define __pa(x)		___pa((unsigned long)(x))
 #define __va(x)		((void *)((unsigned long)(x) + PAGE_OFFSET - PHYS_OFFSET))
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * RELOC_HIDE was originally added by 6007b903dfe5f1d13e0c711ac2894bdd4a61b1ad

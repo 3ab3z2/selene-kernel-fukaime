@@ -15,7 +15,7 @@
 #include <linux/bitops.h>
 #include <linux/irq.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 #include <msp_cic_int.h>
 #include <msp_regs.h>

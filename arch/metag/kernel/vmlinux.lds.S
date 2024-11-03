@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 /* ld script to make Meta Linux kernel */
 
-#include <asm/thread_info.h>
-#include <asm/page.h>
-#include <asm/cache.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
 
 #include <asm-generic/vmlinux.lds.h>
 

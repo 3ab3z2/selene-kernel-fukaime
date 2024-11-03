@@ -13,7 +13,7 @@
 #include <linux/firmware.h>
 #include <linux/module.h>
 
-#include <asm/clock.h>
+#include <asm-generic/clock.h>
 
 #include <cpu/sh7722.h>
 

@@ -11,8 +11,8 @@
 #include <linux/pwm.h>
 #include <linux/slab.h>
 
-#include <asm/gptimers.h>
-#include <asm/portmux.h>
+#include <asm-generic/gptimers.h>
+#include <asm-generic/portmux.h>
 
 struct bfin_pwm_chip {
 	struct pwm_chip chip;

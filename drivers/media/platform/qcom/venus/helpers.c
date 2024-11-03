@@ -19,7 +19,7 @@
 #include <linux/slab.h>
 #include <media/videobuf2-dma-sg.h>
 #include <media/v4l2-mem2mem.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "core.h"
 #include "helpers.h"

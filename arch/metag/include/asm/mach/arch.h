@@ -1,5 +1,5 @@
 /*
- * arch/metag/include/asm/mach/arch.h
+ * arch/metag/include/asm-generic/mach/arch.h
  *
  * Copyright (C) 2012 Imagination Technologies Ltd.
  *
@@ -16,7 +16,7 @@
 
 #include <linux/stddef.h>
 
-#include <asm/clock.h>
+#include <asm-generic/clock.h>
 
 /**
  * struct machine_desc - Describes a board controlled by a Meta.

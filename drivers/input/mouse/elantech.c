@@ -18,7 +18,7 @@
 #include <linux/input/mt.h>
 #include <linux/serio.h>
 #include <linux/libps2.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "psmouse.h"
 #include "elantech.h"
 

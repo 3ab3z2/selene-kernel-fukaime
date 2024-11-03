@@ -15,7 +15,7 @@
 #include <linux/mm.h>
 #include <linux/uaccess.h>
 #include <linux/delay.h>
-#include <asm/synch.h>
+#include <asm-generic/synch.h>
 #include <misc/cxl-base.h>
 
 #include "cxl.h"

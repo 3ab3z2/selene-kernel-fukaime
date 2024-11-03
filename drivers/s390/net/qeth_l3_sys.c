@@ -8,7 +8,7 @@
  */
 
 #include <linux/slab.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 #include <linux/hashtable.h>
 #include "qeth_l3.h"
 

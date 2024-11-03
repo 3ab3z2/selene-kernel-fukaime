@@ -35,9 +35,9 @@
 #include <linux/wait.h>
 #include <linux/io.h>
 #include <linux/rbtree.h>
-#include <asm/setup.h>
-#include <asm/pgalloc.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/hypervisor.h>
 #include <xen/grant_table.h>
 #include <xen/page.h>
 #include <xen/xenbus.h>

@@ -7,9 +7,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/page_types.h>
-#include <asm/kexec.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/page_types.h>
+#include <asm-generic/kexec.h>
+#include <asm-generic/processor-flags.h>
 
 /*
  * Must be relocatable PIC code callable as a C function

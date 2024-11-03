@@ -18,9 +18,9 @@
 #include <linux/of_platform.h>
 #include <linux/libfdt.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/io.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach_desc.h>
 #include <soc/arc/mcip.h>
 
 #define AXS_MB_CGU		0xE0010000

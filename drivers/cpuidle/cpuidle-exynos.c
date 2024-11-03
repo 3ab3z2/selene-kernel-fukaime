@@ -19,8 +19,8 @@
 #include <linux/of.h>
 #include <linux/platform_data/cpuidle-exynos.h>
 
-#include <asm/suspend.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/suspend.h>
+#include <asm-generic/cpuidle.h>
 
 static atomic_t exynos_idle_barrier;
 

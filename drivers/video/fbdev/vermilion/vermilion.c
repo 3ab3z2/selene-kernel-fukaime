@@ -37,8 +37,8 @@
 #include <linux/mm.h>
 #include <linux/fb.h>
 #include <linux/pci.h>
-#include <asm/set_memory.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/set_memory.h>
+#include <asm-generic/tlbflush.h>
 #include <linux/mmzone.h>
 
 /* #define VERMILION_DEBUG */

@@ -8,9 +8,9 @@
 #include <linux/export.h>
 #include <linux/pm.h>
 
-#include <asm/oplib.h>
-#include <asm/prom.h>
-#include <asm/setup.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/setup.h>
 
 /* sysctl - toggle power-off restriction for serial console
  * systems in machine_power_off()

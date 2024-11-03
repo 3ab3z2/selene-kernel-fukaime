@@ -13,8 +13,8 @@
 #ifndef _ASM_MICROBLAZE_ENTRY_H
 #define _ASM_MICROBLAZE_ENTRY_H
 
-#include <asm/percpu.h>
-#include <asm/ptrace.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/ptrace.h>
 #include <linux/linkage.h>
 
 /*

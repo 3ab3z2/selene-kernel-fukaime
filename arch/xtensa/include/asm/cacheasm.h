@@ -8,8 +8,8 @@
  * Copyright (C) 2006 Tensilica Inc.
  */
 
-#include <asm/cache.h>
-#include <asm/asmmacro.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/asmmacro.h>
 #include <linux/stringify.h>
 
 /*

@@ -12,7 +12,7 @@
 #ifndef _XTENSA_SOCKET_H
 #define _XTENSA_SOCKET_H
 
-#include <asm/sockios.h>
+#include <asm-generic/sockios.h>
 
 /* For setsockoptions(2) */
 #define SOL_SOCKET	1

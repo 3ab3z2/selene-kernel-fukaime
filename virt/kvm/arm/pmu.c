@@ -20,7 +20,7 @@
 #include <linux/kvm_host.h>
 #include <linux/perf_event.h>
 #include <linux/uaccess.h>
-#include <asm/kvm_emulate.h>
+#include <asm-generic/kvm_emulate.h>
 #include <kvm/arm_pmu.h>
 #include <kvm/arm_vgic.h>
 

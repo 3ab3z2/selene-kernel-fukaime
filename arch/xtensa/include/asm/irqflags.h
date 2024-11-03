@@ -13,7 +13,7 @@
 #define _XTENSA_IRQFLAGS_H
 
 #include <linux/types.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 static inline unsigned long arch_local_save_flags(void)
 {

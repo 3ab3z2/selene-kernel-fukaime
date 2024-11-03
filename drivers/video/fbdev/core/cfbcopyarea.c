@@ -26,8 +26,8 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/fb.h>
-#include <asm/types.h>
-#include <asm/io.h>
+#include <asm-generic/types.h>
+#include <asm-generic/io.h>
 #include "fb_draw.h"
 
 #if BITS_PER_LONG == 32

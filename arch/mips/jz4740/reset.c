@@ -17,10 +17,10 @@
 #include <linux/kernel.h>
 #include <linux/pm.h>
 
-#include <asm/reboot.h>
+#include <asm-generic/reboot.h>
 
-#include <asm/mach-jz4740/base.h>
-#include <asm/mach-jz4740/timer.h>
+#include <asm-generic/mach-jz4740/base.h>
+#include <asm-generic/mach-jz4740/timer.h>
 
 #include "reset.h"
 #include "clock.h"

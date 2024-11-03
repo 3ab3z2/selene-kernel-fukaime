@@ -21,9 +21,9 @@
 #include <linux/sched.h>
 #include <linux/root_dev.h>
 
-#include <asm/io.h>
-#include <asm/machvec.h>
-#include <asm/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/setup.h>
 
 void __init
 dig_setup (char **cmdline_p)

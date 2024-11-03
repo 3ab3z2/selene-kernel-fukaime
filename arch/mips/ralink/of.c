@@ -19,10 +19,10 @@
 #include <linux/of_platform.h>
 #include <linux/of_address.h>
 
-#include <asm/reboot.h>
-#include <asm/bootinfo.h>
-#include <asm/addrspace.h>
-#include <asm/prom.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/prom.h>
 
 #include "common.h"
 

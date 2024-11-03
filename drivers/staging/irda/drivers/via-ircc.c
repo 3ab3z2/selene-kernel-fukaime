@@ -51,9 +51,9 @@ F02 Oct/28/02: Add SB device ID for 3147 and 3177.
 #include <linux/dma-mapping.h>
 #include <linux/gfp.h>
 
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/pm.h>
 

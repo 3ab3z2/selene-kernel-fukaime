@@ -12,12 +12,12 @@
  * Initial Version 04-23-1999 by Helge Deller <deller@gmx.de>
  */
 
-#include <asm/asm-offsets.h>
-#include <asm/psw.h>
-#include <asm/pdc.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/psw.h>
+#include <asm-generic/pdc.h>
 	
-#include <asm/assembly.h>
-#include <asm/pgtable.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/pgtable.h>
 
 #include <linux/linkage.h>
 #include <linux/init.h>

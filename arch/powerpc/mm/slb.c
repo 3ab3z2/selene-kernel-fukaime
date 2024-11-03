@@ -14,18 +14,18 @@
  *      2 of the License, or (at your option) any later version.
  */
 
-#include <asm/pgtable.h>
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
-#include <asm/paca.h>
-#include <asm/cputable.h>
-#include <asm/cacheflush.h>
-#include <asm/smp.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/smp.h>
 #include <linux/compiler.h>
 #include <linux/mm_types.h>
 
-#include <asm/udbg.h>
-#include <asm/code-patching.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/code-patching.h>
 
 enum slb_index {
 	LINEAR_INDEX	= 0, /* Kernel linear map  (0xc000000000000000) */

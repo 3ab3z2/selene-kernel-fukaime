@@ -19,7 +19,7 @@
 #include <linux/pagemap.h>
 #include <linux/spinlock.h>
 #include <linux/page-flags.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 #include "ctree.h"
 #include "extent_io.h"
 #include "locking.h"

@@ -6,8 +6,8 @@
 
 #ifdef __KERNEL__
 #include <linux/linkage.h>
-#include <asm/asi.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/thread_info.h>
 #define GLOBAL_SPARE	%g7
 #define RESTORE_ASI(TMP)	\
 	ldub	[%g6 + TI_CURRENT_DS], TMP;  \

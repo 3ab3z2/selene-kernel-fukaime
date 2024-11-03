@@ -14,17 +14,17 @@
  *
  */
 
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/mmu.h>
-#include <asm/pgtable.h>
-#include <asm/cputable.h>
-#include <asm/cache.h>
-#include <asm/thread_info.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/ptrace.h>
-#include <asm/export.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/export.h>
 
 #ifdef CONFIG_VSX
 #define __REST_1FPVSR(n,c,base)						\

@@ -37,14 +37,14 @@
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/device.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>
 #include <sound/soc.h>
 
 #include <linux/gpio.h>
-#include <asm/portmux.h>
+#include <asm-generic/portmux.h>
 
 #include "bf5xx-ac97.h"
 

@@ -20,10 +20,10 @@
 #include <linux/slab.h>
 #include <linux/mm.h>
 #include <linux/moduleparam.h>
-#include <asm/cpu_mf.h>
-#include <asm/irq.h>
-#include <asm/debug.h>
-#include <asm/timex.h>
+#include <asm-generic/cpu_mf.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/timex.h>
 
 /* Minimum number of sample-data-block-tables:
  * At least one table is required for the sampling buffer structure.

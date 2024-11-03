@@ -21,9 +21,9 @@
 #include <linux/bootmem.h>
 #include <linux/compat.h>
 
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ebcdic.h>
 #include <linux/uaccess.h>
 
 #include "raw3270.h"

@@ -8,8 +8,8 @@
 #ifndef _SPARC_ROSS_H
 #define _SPARC_ROSS_H
 
-#include <asm/asi.h>
-#include <asm/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
 
 /* Ross made Hypersparcs have a %psr 'impl' field of '0001'.  The 'vers'
  * field has '1111'.

@@ -14,7 +14,7 @@
 #include "qla_devtbl.h"
 
 #ifdef CONFIG_SPARC
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #endif
 
 #include <target/target_core_base.h>

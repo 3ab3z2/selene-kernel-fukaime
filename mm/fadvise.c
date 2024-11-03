@@ -20,7 +20,7 @@
 #include <linux/syscalls.h>
 #include <linux/swap.h>
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 /*
  * POSIX_FADV_WILLNEED could set PG_Referenced, and POSIX_FADV_NOREUSE could

@@ -23,8 +23,8 @@
 
 #include <linux/init.h>
 #include <linux/export.h>
-#include <asm/processor.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/hypervisor.h>
 
 extern const struct hypervisor_x86 x86_hyper_vmware;
 extern const struct hypervisor_x86 x86_hyper_ms_hyperv;

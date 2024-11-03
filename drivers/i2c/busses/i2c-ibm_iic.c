@@ -39,7 +39,7 @@
 #include <linux/interrupt.h>
 #include <linux/sched/signal.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/io.h>
 #include <linux/i2c.h>
 #include <linux/of_address.h>

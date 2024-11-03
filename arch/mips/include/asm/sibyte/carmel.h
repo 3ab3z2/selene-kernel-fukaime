@@ -18,8 +18,8 @@
 #ifndef __ASM_SIBYTE_CARMEL_H
 #define __ASM_SIBYTE_CARMEL_H
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_int.h>
 
 #define SIBYTE_BOARD_NAME "Carmel"
 

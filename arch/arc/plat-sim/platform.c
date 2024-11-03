@@ -9,7 +9,7 @@
  */
 
 #include <linux/init.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/mach_desc.h>
 
 /*----------------------- Machine Descriptions ------------------------------
  *

@@ -11,8 +11,8 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/futex.h>
-#include <asm/errno.h>
+#include <asm-generic/futex.h>
+#include <asm-generic/errno.h>
 
 /*
  * the various futex operations; MMU fault checking is ignored under no-MMU

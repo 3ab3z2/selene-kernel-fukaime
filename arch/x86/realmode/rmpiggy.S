@@ -4,7 +4,7 @@
  * before copying to low memory.
  */
 #include <linux/linkage.h>
-#include <asm/page_types.h>
+#include <asm-generic/page_types.h>
 
 	.section ".init.data","aw"
 

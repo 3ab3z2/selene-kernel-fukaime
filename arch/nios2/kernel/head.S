@@ -16,12 +16,12 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
-#include <asm/page.h>
-#include <asm/asm-offsets.h>
-#include <asm/asm-macros.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asm-macros.h>
 
 /*
  * ZERO_PAGE is a special page that is used for zero-initialized

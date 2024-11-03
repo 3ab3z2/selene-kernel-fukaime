@@ -43,12 +43,12 @@
 #include <linux/blkdev.h>
 #include <linux/workqueue.h>
 #include <linux/rcupdate.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/hardware.h>
-#include <asm/param.h>		/* HZ */
-#include <asm/led.h>
-#include <asm/pdc.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/param.h>		/* HZ */
+#include <asm-generic/led.h>
+#include <asm-generic/pdc.h>
 #include <linux/uaccess.h>
 
 /* The control of the LEDs and LCDs on PARISC-machines have to be done 

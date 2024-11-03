@@ -20,8 +20,8 @@
 #include <linux/suspend.h>
 #include <linux/completion.h>
 #include <linux/platform_device.h>
-#include <asm/types.h>
-#include <asm/irq.h>
+#include <asm-generic/types.h>
+#include <asm-generic/irq.h>
 
 #include "sclp.h"
 

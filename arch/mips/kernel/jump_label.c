@@ -13,8 +13,8 @@
 #include <linux/types.h>
 #include <linux/cpu.h>
 
-#include <asm/cacheflush.h>
-#include <asm/inst.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/inst.h>
 
 #ifdef HAVE_JUMP_LABEL
 

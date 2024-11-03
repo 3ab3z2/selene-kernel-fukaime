@@ -57,8 +57,8 @@
 #include <linux/regulator/consumer.h>
 #include "unipro.h"
 
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
 #include <scsi/scsi_host.h>

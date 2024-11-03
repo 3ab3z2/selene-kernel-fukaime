@@ -24,9 +24,9 @@
 
 #include <linux/types.h>
 #include <linux/ptrace.h>
-#include <asm/mmu.h>
-#include <asm/mce.h>
-#include <asm/machdep.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/machdep.h>
 
 static void flush_tlb_206(unsigned int num_sets, unsigned int action)
 {

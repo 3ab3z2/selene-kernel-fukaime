@@ -19,7 +19,7 @@
 #include <linux/wait.h>
 #include <linux/workqueue.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include <dvb_demux.h>
 

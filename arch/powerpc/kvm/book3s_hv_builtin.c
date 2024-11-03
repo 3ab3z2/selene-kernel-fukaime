@@ -18,17 +18,17 @@
 #include <linux/cma.h>
 #include <linux/bitops.h>
 
-#include <asm/cputable.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/archrandom.h>
-#include <asm/xics.h>
-#include <asm/xive.h>
-#include <asm/dbell.h>
-#include <asm/cputhreads.h>
-#include <asm/io.h>
-#include <asm/opal.h>
-#include <asm/smp.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/archrandom.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/io.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/smp.h>
 
 #define KVM_CMA_CHUNK_ORDER	18
 

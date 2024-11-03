@@ -22,10 +22,10 @@
 #include "of_helpers.h"
 #include "pseries.h"
 
-#include <asm/prom.h>
-#include <asm/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
 #include <linux/uaccess.h>
-#include <asm/rtas.h>
+#include <asm-generic/rtas.h>
 
 static struct workqueue_struct *pseries_hp_wq;
 

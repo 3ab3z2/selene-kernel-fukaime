@@ -8,11 +8,11 @@
  * option) any later version.
  */
 
-#include <asm/addrspace.h>
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/mipsregs.h>
-#include <asm/regdef.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/regdef.h>
 #include <linux/serial_reg.h>
 
 #define UART_TX_OFS	(UART_TX << CONFIG_MIPS_CPS_NS16550_SHIFT)

@@ -15,9 +15,9 @@
 #include <linux/types.h>
 #include <linux/pci.h>
 #include <linux/time.h>
-#include <asm/platform.h>
-#include <asm/timex.h>
-#include <asm/param.h>		/* HZ */
+#include <asm-generic/platform.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/param.h>		/* HZ */
 
 #define _F(r,f,a,b)							\
 	r __platform_##f a b;                                   	\

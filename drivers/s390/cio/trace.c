@@ -6,7 +6,7 @@
  * Author(s): Peter Oberparleiter <oberpar@linux.vnet.ibm.com>
  */
 
-#include <asm/crw.h>
+#include <asm-generic/crw.h>
 #include "cio.h"
 
 #define CREATE_TRACE_POINTS

@@ -21,8 +21,8 @@
 #include <linux/cpufreq.h>
 #include <linux/delay.h>
 #include <linux/io.h>
-#include <asm/ist.h>
-#include <asm/cpu_device_id.h>
+#include <asm-generic/ist.h>
+#include <asm-generic/cpu_device_id.h>
 
 #include "speedstep-lib.h"
 

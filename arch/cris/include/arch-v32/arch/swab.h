@@ -2,7 +2,7 @@
 #ifndef _ASM_CRIS_ARCH_SWAB_H
 #define _ASM_CRIS_ARCH_SWAB_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define __SWAB_64_THRU_32__
 

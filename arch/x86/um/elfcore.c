@@ -4,7 +4,7 @@
 #include <linux/fs.h>
 #include <linux/mm.h>
 
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 
 
 Elf32_Half elf_core_extra_phdrs(void)

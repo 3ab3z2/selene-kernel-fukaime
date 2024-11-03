@@ -23,10 +23,10 @@
 
 #ifndef __ASSEMBLY__
 #include <linux/cache.h>
-#include <asm/processor.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
 #include <linux/stringify.h>
-#include <asm/accounting.h>
+#include <asm-generic/accounting.h>
 
 /*
  * low level task data.

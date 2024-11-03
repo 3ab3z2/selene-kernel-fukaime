@@ -22,11 +22,11 @@
 #include <linux/kdebug.h>
 #include <linux/uaccess.h>
 
-#include <asm/fpswa.h>
-#include <asm/intrinsics.h>
-#include <asm/processor.h>
-#include <asm/exception.h>
-#include <asm/setup.h>
+#include <asm-generic/fpswa.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/setup.h>
 
 fpswa_interface_t *fpswa_interface;
 EXPORT_SYMBOL(fpswa_interface);

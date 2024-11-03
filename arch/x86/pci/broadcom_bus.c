@@ -14,8 +14,8 @@
 #include <linux/dmi.h>
 #include <linux/pci.h>
 #include <linux/init.h>
-#include <asm/pci_x86.h>
-#include <asm/pci-direct.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/pci-direct.h>
 
 #include "bus_numa.h"
 

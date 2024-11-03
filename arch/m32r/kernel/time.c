@@ -29,10 +29,10 @@
 #include <linux/interrupt.h>
 #include <linux/profile.h>
 
-#include <asm/io.h>
-#include <asm/m32r.h>
+#include <asm-generic/io.h>
+#include <asm-generic/m32r.h>
 
-#include <asm/hw_irq.h>
+#include <asm-generic/hw_irq.h>
 
 #if defined(CONFIG_RTC_DRV_CMOS) || defined(CONFIG_RTC_DRV_CMOS_MODULE)
 /* this needs a better home */

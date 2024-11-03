@@ -14,12 +14,12 @@
 #include <linux/rtc.h>
 #include <linux/bcd.h>
 
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/traps.h>
-#include <asm/sun3x.h>
-#include <asm/sun3ints.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/sun3x.h>
+#include <asm-generic/sun3ints.h>
 
 #include "time.h"
 

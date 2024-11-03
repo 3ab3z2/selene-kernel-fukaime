@@ -5,12 +5,12 @@
  * Copyright (C) 1997 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <asm/ptrace.h>
-#include <asm/psr.h>
-#include <asm/asm-offsets.h>
-#include <asm/asi.h>
-#include <asm/page.h>
-#include <asm/pgtsrmmu.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtsrmmu.h>
 #include <linux/init.h>
 
 	.text

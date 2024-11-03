@@ -18,7 +18,7 @@
 
 #include <linux/fsl/bestcomm/bestcomm.h>
 #include <linux/fsl/bestcomm/gen_bd.h>
-#include <asm/mpc52xx_psc.h>
+#include <asm-generic/mpc52xx_psc.h>
 
 #include "mpc5200_dma.h"
 

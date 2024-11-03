@@ -35,8 +35,8 @@
 #include <linux/amba/bus.h>
 #include <linux/irqchip/arm-vic.h>
 
-#include <asm/exception.h>
-#include <asm/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/irq.h>
 
 #define VIC_IRQ_STATUS			0x00
 #define VIC_FIQ_STATUS			0x04

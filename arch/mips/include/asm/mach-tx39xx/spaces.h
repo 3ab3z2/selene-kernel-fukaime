@@ -12,6 +12,6 @@
 
 #define FIXADDR_TOP		((unsigned long)(long)(int)0xfefe0000)
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* __ASM_TX39XX_SPACES_H */

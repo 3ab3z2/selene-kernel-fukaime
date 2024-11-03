@@ -3,7 +3,7 @@
 #
 
 platform-$(CONFIG_LANTIQ)	+= lantiq/
-cflags-$(CONFIG_LANTIQ)		+= -I$(srctree)/arch/mips/include/asm/mach-lantiq
+cflags-$(CONFIG_LANTIQ)		+= -I$(srctree)/arch/mips/include/asm-generic/mach-lantiq
 load-$(CONFIG_LANTIQ)		= 0xffffffff80002000
-cflags-$(CONFIG_SOC_TYPE_XWAY)	+= -I$(srctree)/arch/mips/include/asm/mach-lantiq/xway
-cflags-$(CONFIG_SOC_FALCON)	+= -I$(srctree)/arch/mips/include/asm/mach-lantiq/falcon
+cflags-$(CONFIG_SOC_TYPE_XWAY)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-lantiq/xway
+cflags-$(CONFIG_SOC_FALCON)	+= -I$(srctree)/arch/mips/include/asm-generic/mach-lantiq/falcon

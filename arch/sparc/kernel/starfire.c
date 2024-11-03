@@ -9,11 +9,11 @@
 #include <linux/kernel.h>
 #include <linux/slab.h>
 
-#include <asm/page.h>
-#include <asm/oplib.h>
-#include <asm/smp.h>
-#include <asm/upa.h>
-#include <asm/starfire.h>
+#include <asm-generic/page.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/upa.h>
+#include <asm-generic/starfire.h>
 
 /*
  * A few places around the kernel check this to see if

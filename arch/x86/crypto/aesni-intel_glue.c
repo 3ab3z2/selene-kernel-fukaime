@@ -30,9 +30,9 @@
 #include <crypto/b128ops.h>
 #include <crypto/gcm.h>
 #include <crypto/xts.h>
-#include <asm/cpu_device_id.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/aes.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/aes.h>
 #include <crypto/scatterwalk.h>
 #include <crypto/internal/aead.h>
 #include <crypto/internal/simd.h>
@@ -40,7 +40,7 @@
 #include <linux/workqueue.h>
 #include <linux/spinlock.h>
 #ifdef CONFIG_X86_64
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/crypto/glue_helper.h>
 #endif
 
 

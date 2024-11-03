@@ -15,7 +15,7 @@
 #include <linux/module.h>
 #include <linux/init.h>
 #include <linux/bug.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 bool blake2s_selftest(void);
 

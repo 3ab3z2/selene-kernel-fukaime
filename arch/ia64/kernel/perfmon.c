@@ -46,14 +46,14 @@
 #include <linux/slab.h>
 #include <linux/cpu.h>
 
-#include <asm/errno.h>
-#include <asm/intrinsics.h>
-#include <asm/page.h>
-#include <asm/perfmon.h>
-#include <asm/processor.h>
-#include <asm/signal.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/page.h>
+#include <asm-generic/perfmon.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/signal.h>
 #include <linux/uaccess.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 #ifdef CONFIG_PERFMON
 /*

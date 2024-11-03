@@ -15,8 +15,8 @@
 
 #include <linux/compiler.h>
 #include <linux/stringify.h>
-#include <asm/compiler.h>
-#include <asm/hazards.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/hazards.h>
 
 #if defined(CONFIG_CPU_MIPSR2) || defined (CONFIG_CPU_MIPSR6)
 

@@ -25,12 +25,12 @@
 #include <linux/init.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/list.h>
 #include <linux/ioport.h>
 #include <linux/memory.h>
 #include <linux/sched/task.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 #include "internal.h"
 
 #define CORE_STR "CORE"

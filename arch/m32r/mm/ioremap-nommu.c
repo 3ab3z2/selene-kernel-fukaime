@@ -16,14 +16,14 @@
  */
 
 #include <linux/module.h>
-#include <asm/addrspace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/byteorder.h>
 
 #include <linux/vmalloc.h>
-#include <asm/io.h>
-#include <asm/pgalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
 
 /*

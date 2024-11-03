@@ -22,7 +22,7 @@
 #include <linux/mfd/core.h>
 #include <linux/mfd/intel_soc_pmic.h>
 #include <linux/mfd/intel_soc_pmic_bxtwc.h>
-#include <asm/intel_pmc_ipc.h>
+#include <asm-generic/intel_pmc_ipc.h>
 
 /* PMIC device registers */
 #define REG_ADDR_MASK		0xFF00

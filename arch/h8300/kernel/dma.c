@@ -8,7 +8,7 @@
 #include <linux/kernel.h>
 #include <linux/scatterlist.h>
 #include <linux/module.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 static void *dma_alloc(struct device *dev, size_t size,
 		       dma_addr_t *dma_handle, gfp_t gfp,

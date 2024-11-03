@@ -25,7 +25,7 @@
 #include <linux/slab.h>
 #include <linux/sched/signal.h>
 
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 
 #undef DEBUG

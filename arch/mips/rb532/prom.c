@@ -33,9 +33,9 @@
 #include <linux/ioport.h>
 #include <linux/blkdev.h>
 
-#include <asm/bootinfo.h>
-#include <asm/mach-rc32434/ddr.h>
-#include <asm/mach-rc32434/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/mach-rc32434/ddr.h>
+#include <asm-generic/mach-rc32434/prom.h>
 
 unsigned int idt_cpu_freq = 132000000;
 EXPORT_SYMBOL(idt_cpu_freq);

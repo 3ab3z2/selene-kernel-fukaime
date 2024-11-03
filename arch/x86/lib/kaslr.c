@@ -6,20 +6,20 @@
  * kernel starts. This file is included in the compressed kernel and
  * normally linked in the regular.
  */
-#include <asm/asm.h>
-#include <asm/kaslr.h>
-#include <asm/msr.h>
-#include <asm/archrandom.h>
-#include <asm/e820/api.h>
-#include <asm/io.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/kaslr.h>
+#include <asm-generic/msr.h>
+#include <asm-generic/archrandom.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/io.h>
 
 /*
  * When built for the regular kernel, several functions need to be stubbed out
  * or changed to their regular kernel equivalent.
  */
 #ifndef KASLR_COMPRESSED_BOOT
-#include <asm/cpufeature.h>
-#include <asm/setup.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/setup.h>
 
 #define debug_putstr(v) early_printk("%s", v)
 #define has_cpuflag(f) boot_cpu_has(f)

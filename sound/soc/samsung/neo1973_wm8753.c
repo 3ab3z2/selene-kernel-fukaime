@@ -21,7 +21,7 @@
 #include <sound/soc.h>
 
 #include <mach/gpio-samsung.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include "regs-iis.h"
 
 #include "../codecs/wm8753.h"

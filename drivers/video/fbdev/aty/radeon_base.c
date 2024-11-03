@@ -71,7 +71,7 @@
 #include <linux/vmalloc.h>
 #include <linux/device.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 #ifdef CONFIG_PPC
@@ -79,7 +79,7 @@
 #include "../macmodes.h"
 
 #ifdef CONFIG_BOOTX_TEXT
-#include <asm/btext.h>
+#include <asm-generic/btext.h>
 #endif
 
 #endif /* CONFIG_PPC */

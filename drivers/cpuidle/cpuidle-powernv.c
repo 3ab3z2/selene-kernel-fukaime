@@ -16,11 +16,11 @@
 #include <linux/of.h>
 #include <linux/slab.h>
 
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/opal.h>
-#include <asm/runlatch.h>
-#include <asm/cpuidle.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/runlatch.h>
+#include <asm-generic/cpuidle.h>
 
 /*
  * Expose only those Hardware idle states via the cpuidle framework

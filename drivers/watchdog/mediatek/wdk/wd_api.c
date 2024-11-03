@@ -19,7 +19,7 @@
 #include <linux/reboot.h>
 #include <mt-plat/mtk_reboot.h>
 #include <mt-plat/mtk_rtc.h>
-#include <asm/system_misc.h>
+#include <asm-generic/system_misc.h>
 #include <linux/console.h>
 #ifdef CONFIG_MTK_SECURITY_SW_SUPPORT
 #include <sec_hal.h>

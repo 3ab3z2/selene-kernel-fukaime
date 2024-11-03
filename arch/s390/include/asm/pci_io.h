@@ -6,7 +6,7 @@
 
 #include <linux/kernel.h>
 #include <linux/slab.h>
-#include <asm/pci_insn.h>
+#include <asm-generic/pci_insn.h>
 
 /* I/O Map */
 #define ZPCI_IOMAP_SHIFT		48

@@ -13,8 +13,8 @@
 #include <linux/bootmem.h>
 #include <linux/syscore_ops.h>
 
-#include <asm/mmu.h>
-#include <asm/mmu_context.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/mmu_context.h>
 
 unsigned long mmu_read_first_level_page(unsigned long vaddr)
 {

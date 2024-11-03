@@ -22,7 +22,7 @@
 #include <linux/amba/bus.h>
 #include <linux/coresight.h>
 #include <linux/cpumask.h>
-#include <asm/smp_plat.h>
+#include <asm-generic/smp_plat.h>
 
 
 static int of_dev_node_match(struct device *dev, void *data)

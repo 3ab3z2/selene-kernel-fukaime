@@ -1,6 +1,6 @@
 /*
  * Driver for the ICST307 VCO clock found in the ARM Reference designs.
- * We wrap the custom interface from <asm/hardware/icst.h> into the generic
+ * We wrap the custom interface from <asm-generic/hardware/icst.h> into the generic
  * clock framework.
  *
  * Copyright (C) 2012-2015 Linus Walleij

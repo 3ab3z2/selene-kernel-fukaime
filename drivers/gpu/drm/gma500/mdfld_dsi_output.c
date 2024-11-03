@@ -33,7 +33,7 @@
 #include "mdfld_dsi_pkg_sender.h"
 #include "tc35876x-dsi-lvds.h"
 #include <linux/pm_runtime.h>
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 /* get the LABC from command line. */
 static int LABC_control = 1;

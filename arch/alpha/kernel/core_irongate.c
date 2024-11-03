@@ -11,8 +11,8 @@
  */
 
 #define __EXTERN_INLINE inline
-#include <asm/io.h>
-#include <asm/core_irongate.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_irongate.h>
 #undef __EXTERN_INLINE
 
 #include <linux/types.h>
@@ -22,9 +22,9 @@
 #include <linux/initrd.h>
 #include <linux/bootmem.h>
 
-#include <asm/ptrace.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include "proto.h"
 #include "pci_impl.h"
@@ -304,7 +304,7 @@ irongate_init_arch(void)
 #include <linux/agp_backend.h>
 #include <linux/agpgart.h>
 #include <linux/export.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/pgalloc.h>
 
 #define GET_PAGE_DIR_OFF(addr) (addr >> 22)
 #define GET_PAGE_DIR_IDX(addr) (GET_PAGE_DIR_OFF(addr))

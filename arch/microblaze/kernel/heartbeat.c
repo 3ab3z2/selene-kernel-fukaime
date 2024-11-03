@@ -12,9 +12,9 @@
 #include <linux/sched/loadavg.h>
 #include <linux/io.h>
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/prom.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/prom.h>
 
 static unsigned int base_addr;
 

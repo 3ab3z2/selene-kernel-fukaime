@@ -2,7 +2,7 @@
 #ifndef _SPARC_TLBFLUSH_H
 #define _SPARC_TLBFLUSH_H
 
-#include <asm/cachetlb_32.h>
+#include <asm-generic/cachetlb_32.h>
 
 #define flush_tlb_all() \
 	sparc32_cachetlb_ops->tlb_all()

@@ -6,7 +6,7 @@
 #include <linux/slab.h>
 #include <linux/completion.h>
 #include <linux/irqreturn.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <irq_kern.h>
 #include <os.h>
 

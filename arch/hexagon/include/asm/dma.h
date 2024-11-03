@@ -19,7 +19,7 @@
 #ifndef _ASM_DMA_H
 #define _ASM_DMA_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define MAX_DMA_CHANNELS 1
 #define MAX_DMA_ADDRESS  (PAGE_OFFSET)

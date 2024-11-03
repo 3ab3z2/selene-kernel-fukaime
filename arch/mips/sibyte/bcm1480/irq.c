@@ -24,17 +24,17 @@
 #include <linux/mm.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/errno.h>
-#include <asm/irq_regs.h>
-#include <asm/signal.h>
-#include <asm/io.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/io.h>
 
-#include <asm/sibyte/bcm1480_regs.h>
-#include <asm/sibyte/bcm1480_int.h>
-#include <asm/sibyte/bcm1480_scd.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_int.h>
+#include <asm-generic/sibyte/bcm1480_scd.h>
 
-#include <asm/sibyte/sb1250_uart.h>
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_uart.h>
+#include <asm-generic/sibyte/sb1250.h>
 
 /*
  * These are the routines that handle all the low level interrupt stuff.

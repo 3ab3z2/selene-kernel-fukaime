@@ -25,7 +25,7 @@
 #include <linux/memcontrol.h>
 
 #include <linux/uaccess.h>
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 
 #include "internal.h"
 

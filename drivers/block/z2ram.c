@@ -36,9 +36,9 @@
 #include <linux/mutex.h>
 #include <linux/slab.h>
 
-#include <asm/setup.h>
-#include <asm/amigahw.h>
-#include <asm/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/pgtable.h>
 
 #include <linux/zorro.h>
 

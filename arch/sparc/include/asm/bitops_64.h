@@ -13,8 +13,8 @@
 #endif
 
 #include <linux/compiler.h>
-#include <asm/byteorder.h>
-#include <asm/barrier.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/barrier.h>
 
 int test_and_set_bit(unsigned long nr, volatile unsigned long *addr);
 int test_and_clear_bit(unsigned long nr, volatile unsigned long *addr);

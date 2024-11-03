@@ -6,17 +6,17 @@
 #include <xen/events.h>
 #include <xen/interface/memory.h>
 
-#include <asm/cpu.h>
-#include <asm/smp.h>
-#include <asm/reboot.h>
-#include <asm/setup.h>
-#include <asm/hypervisor.h>
-#include <asm/e820/api.h>
-#include <asm/early_ioremap.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/early_ioremap.h>
 
-#include <asm/xen/cpuid.h>
-#include <asm/xen/hypervisor.h>
-#include <asm/xen/page.h>
+#include <asm-generic/xen/cpuid.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/xen/page.h>
 
 #include "xen-ops.h"
 #include "mmu.h"

@@ -19,7 +19,7 @@
 #include <linux/of_irq.h>
 #include <linux/irqchip.h>
 #include <linux/irqdomain.h>
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 #define LOCAL_CONTROL			0x000
 #define LOCAL_PRESCALER			0x008

@@ -14,10 +14,10 @@
 #include <linux/in6.h>
 #include <linux/syscalls.h>
 
-#include <asm/checksum.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/io.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/ftrace.h>
 #include <linux/uaccess.h>
 

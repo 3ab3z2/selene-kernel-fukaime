@@ -21,15 +21,15 @@
 #include <linux/cpu.h>
 #include <linux/fsl/guts.h>
 
-#include <asm/machdep.h>
-#include <asm/pgtable.h>
-#include <asm/page.h>
-#include <asm/mpic.h>
-#include <asm/cacheflush.h>
-#include <asm/dbell.h>
-#include <asm/code-patching.h>
-#include <asm/cputhreads.h>
-#include <asm/fsl_pm.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dbell.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/fsl_pm.h>
 
 #include <sysdev/fsl_soc.h>
 #include <sysdev/mpic.h>

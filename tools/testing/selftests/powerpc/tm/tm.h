@@ -6,8 +6,8 @@
 #ifndef _SELFTESTS_POWERPC_TM_TM_H
 #define _SELFTESTS_POWERPC_TM_TM_H
 
-#include <asm/tm.h>
-#include <asm/cputable.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/cputable.h>
 #include <stdbool.h>
 
 #include "utils.h"

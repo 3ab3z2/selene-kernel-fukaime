@@ -2,7 +2,7 @@
 #ifndef __ASM_LIBGCC_H
 #define __ASM_LIBGCC_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __BIG_ENDIAN
 struct DWstruct {

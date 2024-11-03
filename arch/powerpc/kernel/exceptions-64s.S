@@ -13,11 +13,11 @@
  *
  */
 
-#include <asm/hw_irq.h>
-#include <asm/exception-64s.h>
-#include <asm/ptrace.h>
-#include <asm/cpuidle.h>
-#include <asm/head-64.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/exception-64s.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/head-64.h>
 
 /*
  * There are a few constraints to be concerned with.

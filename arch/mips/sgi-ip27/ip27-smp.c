@@ -12,20 +12,20 @@
 #include <linux/topology.h>
 #include <linux/nodemask.h>
 
-#include <asm/page.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/gda.h>
-#include <asm/sn/intr.h>
-#include <asm/sn/klconfig.h>
-#include <asm/sn/launch.h>
-#include <asm/sn/mapped_kernel.h>
-#include <asm/sn/sn_private.h>
-#include <asm/sn/types.h>
-#include <asm/sn/sn0/hubpi.h>
-#include <asm/sn/sn0/hubio.h>
-#include <asm/sn/sn0/ip27.h>
+#include <asm-generic/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/gda.h>
+#include <asm-generic/sn/intr.h>
+#include <asm-generic/sn/klconfig.h>
+#include <asm-generic/sn/launch.h>
+#include <asm-generic/sn/mapped_kernel.h>
+#include <asm-generic/sn/sn_private.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/sn0/hubpi.h>
+#include <asm-generic/sn/sn0/hubio.h>
+#include <asm-generic/sn/sn0/ip27.h>
 
 /*
  * Takes as first input the PROM assigned cpu id, and the kernel

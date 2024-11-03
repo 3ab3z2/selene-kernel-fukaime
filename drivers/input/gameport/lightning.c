@@ -26,7 +26,7 @@
  * Vojtech Pavlik, Simunkova 1594, Prague 8, 182 00 Czech Republic
  */
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/delay.h>
 #include <linux/errno.h>
 #include <linux/ioport.h>

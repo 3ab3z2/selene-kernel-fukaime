@@ -38,8 +38,8 @@
 #include <linux/blkdev.h>
 #include <linux/stat.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #include <../drivers/scsi/scsi.h>
 #include <scsi/scsi_host.h>

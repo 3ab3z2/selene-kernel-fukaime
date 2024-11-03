@@ -17,8 +17,8 @@
 #include <linux/sched.h>
 #include <linux/compiler.h>
 
-#include <asm/intrinsics.h>
-#include <asm/processor.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/processor.h>
 
 static __inline__ void
 ia64_set_itm (unsigned long val)

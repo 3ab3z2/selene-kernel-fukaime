@@ -21,12 +21,12 @@
 #include <linux/pci.h>
 #include <linux/font.h>
 
-#include <asm/hardware.h>
-#include <asm/page.h>
-#include <asm/parisc-device.h>
-#include <asm/pdc.h>
-#include <asm/cacheflush.h>
-#include <asm/grfioctl.h>
+#include <asm-generic/hardware.h>
+#include <asm-generic/page.h>
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/grfioctl.h>
 
 #include "../fbdev/sticore.h"
 

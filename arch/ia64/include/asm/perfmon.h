@@ -6,7 +6,7 @@
 #ifndef _ASM_IA64_PERFMON_H
 #define _ASM_IA64_PERFMON_H
 
-#include <uapi/asm/perfmon.h>
+#include <uapi/asm-generic/perfmon.h>
 
 
 extern long perfmonctl(int fd, int cmd, void *arg, int narg);

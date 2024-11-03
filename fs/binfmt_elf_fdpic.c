@@ -41,8 +41,8 @@
 #include <linux/dax.h>
 
 #include <linux/uaccess.h>
-#include <asm/param.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/param.h>
+#include <asm-generic/pgalloc.h>
 
 typedef char *elf_caddr_t;
 
@@ -481,7 +481,7 @@ error:
 #ifndef ELF_BASE_PLATFORM
 /*
  * AT_BASE_PLATFORM indicates the "real" hardware/microarchitecture.
- * If the arch defines ELF_BASE_PLATFORM (in asm/elf.h), the value
+ * If the arch defines ELF_BASE_PLATFORM (in asm-generic/elf.h), the value
  * will be copied to the user stack in the same manner as AT_PLATFORM.
  */
 #define ELF_BASE_PLATFORM NULL

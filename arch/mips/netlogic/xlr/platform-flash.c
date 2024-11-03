@@ -22,12 +22,12 @@
 #include <linux/mtd/rawnand.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/flash.h>
-#include <asm/netlogic/xlr/bridge.h>
-#include <asm/netlogic/xlr/gpio.h>
-#include <asm/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/flash.h>
+#include <asm-generic/netlogic/xlr/bridge.h>
+#include <asm-generic/netlogic/xlr/gpio.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
 
 /*
  * Default NOR partition layout

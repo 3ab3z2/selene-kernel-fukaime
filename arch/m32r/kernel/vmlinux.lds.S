@@ -3,9 +3,9 @@
  */
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/addrspace.h>
-#include <asm/page.h>
-#include <asm/thread_info.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/thread_info.h>
 
 OUTPUT_ARCH(m32r)
 #if defined(__LITTLE_ENDIAN__)

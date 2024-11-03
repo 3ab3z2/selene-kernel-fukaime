@@ -13,7 +13,7 @@
  *
  */
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/errno.h>
 #include <linux/slab.h>
 #include <linux/tty.h>

@@ -17,7 +17,7 @@
 #include <linux/pci.h>
 #include <linux/fb.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "nv_type.h"
 #include "nv_local.h"

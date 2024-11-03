@@ -2,7 +2,7 @@
 #ifndef _PARISC_DMA_MAPPING_H
 #define _PARISC_DMA_MAPPING_H
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 /*
 ** We need to support 4 different coherent dma models with one binary:

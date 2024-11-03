@@ -6,7 +6,7 @@
 #include <linux/types.h>
 #include <linux/serial_reg.h>
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 #if defined(CONFIG_MACH_LOONGSON64) || defined(CONFIG_MIPS_MALTA)
 #define UART_BASE 0x1fd003f8
@@ -19,7 +19,7 @@
 #endif
 
 #if defined(CONFIG_MACH_JZ4740) || defined(CONFIG_MACH_JZ4780)
-#include <asm/mach-jz4740/base.h>
+#include <asm-generic/mach-jz4740/base.h>
 #define PORT(offset) (CKSEG1ADDR(JZ4740_UART0_BASE_ADDR) + (4 * offset))
 #endif
 

@@ -20,7 +20,7 @@
  * included with this package.                                     *
  *******************************************************************/
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 struct lpfc_hba;
 #define LPFC_FCP_CDB_LEN 16

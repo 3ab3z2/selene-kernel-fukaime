@@ -15,14 +15,14 @@
 #include <linux/of_address.h>
 #include <linux/of_fdt.h>
 
-#include <asm/cacheflush.h>
-#include <asm/dma-coherence.h>
-#include <asm/fw/fw.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-cps.h>
-#include <asm/prom.h>
-#include <asm/smp-ops.h>
-#include <asm/traps.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma-coherence.h>
+#include <asm-generic/fw/fw.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp-ops.h>
+#include <asm-generic/traps.h>
 
 /*
  * Core revision register decoding

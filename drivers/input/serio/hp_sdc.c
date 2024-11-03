@@ -70,12 +70,12 @@
 #include <linux/semaphore.h>
 #include <linux/slab.h>
 #include <linux/hil.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Machine-specific abstraction */
 
 #if defined(__hppa__)
-# include <asm/parisc-device.h>
+# include <asm-generic/parisc-device.h>
 # define sdc_readb(p)		gsc_readb(p)
 # define sdc_writeb(v,p)	gsc_writeb((v),(p))
 #elif defined(__mc68000__)

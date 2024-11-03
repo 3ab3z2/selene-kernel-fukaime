@@ -14,7 +14,7 @@
 #include <linux/module.h>
 
 #ifdef CONFIG_M68K
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #endif
 
 static bool nologo;

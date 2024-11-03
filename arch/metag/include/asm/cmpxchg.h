@@ -2,14 +2,14 @@
 #ifndef __ASM_METAG_CMPXCHG_H
 #define __ASM_METAG_CMPXCHG_H
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #if defined(CONFIG_METAG_ATOMICITY_IRQSOFF)
-#include <asm/cmpxchg_irq.h>
+#include <asm-generic/cmpxchg_irq.h>
 #elif defined(CONFIG_METAG_ATOMICITY_LOCK1)
-#include <asm/cmpxchg_lock1.h>
+#include <asm-generic/cmpxchg_lock1.h>
 #elif defined(CONFIG_METAG_ATOMICITY_LNKGET)
-#include <asm/cmpxchg_lnkget.h>
+#include <asm-generic/cmpxchg_lnkget.h>
 #endif
 
 extern void __xchg_called_with_bad_pointer(void);

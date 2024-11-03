@@ -23,7 +23,7 @@
 #include <linux/vmalloc.h>
 #include <linux/pagemap.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include "internal.h"
 
 /* List representing chunks of contiguous memory areas and their offsets in

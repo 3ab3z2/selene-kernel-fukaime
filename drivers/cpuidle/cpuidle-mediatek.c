@@ -14,8 +14,8 @@
 #include <linux/of_platform.h>
 #include <linux/smp.h>
 
-#include <asm/cpuidle.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/suspend.h>
 #include <dt_idle_states.h>
 
 #define MTK_CPUIDLE_PREPARE		(0)

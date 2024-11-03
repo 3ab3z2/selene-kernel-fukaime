@@ -14,7 +14,7 @@
 #define	CPU_INSTR_PER_JIFFY	3
 #define	MCF_BUSCLK		(MCF_CLK / 3)
 
-#include <asm/m53xxacr.h>
+#include <asm-generic/m53xxacr.h>
 
 #define MCFINT_VECBASE      64
 #define MCFINT_UART0        26          /* Interrupt number for UART0 */

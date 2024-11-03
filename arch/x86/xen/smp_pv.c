@@ -23,19 +23,19 @@
 #include <linux/nmi.h>
 #include <linux/cpuhotplug.h>
 
-#include <asm/paravirt.h>
-#include <asm/desc.h>
-#include <asm/pgtable.h>
-#include <asm/cpu.h>
-#include <asm/fpu/internal.h>
+#include <asm-generic/paravirt.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/fpu/internal.h>
 
 #include <xen/interface/xen.h>
 #include <xen/interface/vcpu.h>
 #include <xen/interface/xenpmu.h>
 
-#include <asm/spec-ctrl.h>
-#include <asm/xen/interface.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/spec-ctrl.h>
+#include <asm-generic/xen/interface.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/xen.h>
 #include <xen/page.h>

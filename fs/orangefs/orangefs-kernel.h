@@ -52,7 +52,7 @@
 #include <linux/xattr.h>
 #include <linux/exportfs.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "orangefs-dev-proto.h"
 

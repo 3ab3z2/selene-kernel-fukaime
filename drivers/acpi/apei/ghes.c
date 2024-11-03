@@ -50,8 +50,8 @@
 #include <acpi/actbl1.h>
 #include <acpi/ghes.h>
 #include <acpi/apei.h>
-#include <asm/fixmap.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/tlbflush.h>
 #include <ras/ras_event.h>
 
 #include "apei-internal.h"

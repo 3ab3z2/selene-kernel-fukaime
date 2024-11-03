@@ -4,9 +4,9 @@
 
 #include <linux/mm.h>
 #include <linux/sched.h>
-#include <asm/processor.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Flush all TLB entries on the local CPU.

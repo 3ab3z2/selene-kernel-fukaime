@@ -21,11 +21,11 @@
 #include <linux/sched/task_stack.h>
 #include <linux/smp.h>
 #include <linux/cpufreq.h>
-#include <asm/processor.h>
-#include <asm/time.h>
-#include <asm/clock.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/time.h>
+#include <asm-generic/clock.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
 #include <loongson.h>
 #include <workarounds.h>
 

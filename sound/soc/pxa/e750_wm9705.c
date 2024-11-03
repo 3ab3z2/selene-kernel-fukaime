@@ -20,7 +20,7 @@
 #include <mach/audio.h>
 #include <mach/eseries-gpio.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 static int e750_spk_amp_event(struct snd_soc_dapm_widget *w,
 				struct snd_kcontrol *kcontrol, int event)

@@ -11,7 +11,7 @@
 #include <linux/slab.h>
 #include <linux/atomic.h>
 
-#include <asm/paravirt.h>
+#include <asm-generic/paravirt.h>
 
 #include <xen/interface/xen.h>
 #include <xen/events.h>
@@ -24,7 +24,7 @@ static DEFINE_PER_CPU(char *, irq_name);
 static DEFINE_PER_CPU(atomic_t, xen_qlock_wait_nest);
 static bool xen_pvspin = true;
 
-#include <asm/qspinlock.h>
+#include <asm-generic/qspinlock.h>
 
 static void xen_qlock_kick(int cpu)
 {

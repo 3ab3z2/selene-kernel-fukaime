@@ -27,7 +27,7 @@
 #ifndef __CS46XX_DSP_SCB_TYPES_H__
 #define __CS46XX_DSP_SCB_TYPES_H__
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifndef ___DSP_DUAL_16BIT_ALLOC
 #if   defined(__LITTLE_ENDIAN)

@@ -30,15 +30,15 @@
 #include <linux/elf.h>
 #include <linux/context_tracking.h>
 
-#include <asm/asi.h>
-#include <asm/pgtable.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pgtable.h>
 #include <linux/uaccess.h>
-#include <asm/psrcompat.h>
-#include <asm/visasm.h>
-#include <asm/spitfire.h>
-#include <asm/page.h>
-#include <asm/cpudata.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/psrcompat.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/cacheflush.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/syscalls.h>

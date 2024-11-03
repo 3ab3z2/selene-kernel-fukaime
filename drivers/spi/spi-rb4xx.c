@@ -19,7 +19,7 @@
 #include <linux/clk.h>
 #include <linux/spi/spi.h>
 
-#include <asm/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
 
 struct rb4xx_spi {
 	void __iomem *base;

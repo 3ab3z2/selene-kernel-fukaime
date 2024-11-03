@@ -13,12 +13,12 @@
 #include <linux/fs_enet_pd.h>
 #include <linux/of_platform.h>
 
-#include <asm/time.h>
-#include <asm/machdep.h>
-#include <asm/cpm1.h>
-#include <asm/fs_pd.h>
-#include <asm/udbg.h>
-#include <asm/prom.h>
+#include <asm-generic/time.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cpm1.h>
+#include <asm-generic/fs_pd.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/prom.h>
 
 #include "mpc8xx.h"
 

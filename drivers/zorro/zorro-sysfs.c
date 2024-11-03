@@ -16,7 +16,7 @@
 #include <linux/stat.h>
 #include <linux/string.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "zorro.h"
 

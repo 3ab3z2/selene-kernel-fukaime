@@ -36,7 +36,7 @@
 
 #define DEBUG_SUBSYSTEM D_OTHER
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <obd_support.h>
 #include <lustre_debug.h>

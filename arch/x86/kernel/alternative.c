@@ -11,16 +11,16 @@
 #include <linux/stop_machine.h>
 #include <linux/slab.h>
 #include <linux/kdebug.h>
-#include <asm/text-patching.h>
-#include <asm/alternative.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
-#include <asm/mce.h>
-#include <asm/nmi.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
-#include <asm/io.h>
-#include <asm/fixmap.h>
+#include <asm-generic/text-patching.h>
+#include <asm-generic/alternative.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/fixmap.h>
 
 int __read_mostly alternatives_patched;
 

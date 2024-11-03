@@ -28,10 +28,10 @@
 #include <linux/of_fdt.h>
 #include <linux/dma-contiguous.h>
 
-#include <asm/bootparam.h>
-#include <asm/page.h>
-#include <asm/sections.h>
-#include <asm/sysmem.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/sysmem.h>
 
 /*
  * Initialize the bootmem system and give it all low memory we have available.

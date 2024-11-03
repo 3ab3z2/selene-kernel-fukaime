@@ -9,7 +9,7 @@
 #ifndef __ASM_BOOTX_H__
 #define __ASM_BOOTX_H__
 
-#include <uapi/asm/bootx.h>
+#include <uapi/asm-generic/bootx.h>
 
 /* (*) The format of the colormap is 256 * 3 * 2 bytes. Each color index
  * is represented by 3 short words containing a 16 bits (unsigned) color

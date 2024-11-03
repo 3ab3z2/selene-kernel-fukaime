@@ -9,8 +9,8 @@
 #include <linux/pci.h>
 #include <linux/module.h>
 #include <linux/dmar.h>
-#include <asm/iommu.h>
-#include <asm/machvec.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machvec.h>
 #include <linux/dma-mapping.h>
 
 
@@ -18,7 +18,7 @@
 
 #include <linux/kernel.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 dma_addr_t bad_dma_address __read_mostly;
 EXPORT_SYMBOL(bad_dma_address);

@@ -35,17 +35,17 @@
 # include <linux/seq_file.h>
 #endif
 
-#include <asm/bootparam.h>
-#include <asm/mmu_context.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/timex.h>
-#include <asm/platform.h>
-#include <asm/page.h>
-#include <asm/setup.h>
-#include <asm/param.h>
-#include <asm/smp.h>
-#include <asm/sysmem.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/platform.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/param.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/sysmem.h>
 
 #include <platform/hardware.h>
 

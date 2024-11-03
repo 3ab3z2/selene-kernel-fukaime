@@ -24,7 +24,7 @@
 #include <linux/syscalls.h>
 #include <linux/ipc.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
 
 asmlinkage long sys_mmap2(unsigned long addr, unsigned long len,

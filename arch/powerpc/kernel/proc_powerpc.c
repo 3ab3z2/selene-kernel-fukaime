@@ -21,11 +21,11 @@
 #include <linux/proc_fs.h>
 #include <linux/kernel.h>
 
-#include <asm/machdep.h>
-#include <asm/vdso_datapage.h>
-#include <asm/rtas.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/vdso_datapage.h>
+#include <asm-generic/rtas.h>
 #include <linux/uaccess.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 #ifdef CONFIG_PPC64
 

@@ -35,9 +35,9 @@
  */
 #include <linux/export.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-helper-jtag.h>
+#include <asm-generic/octeon/cvmx-helper-jtag.h>
 
 /**
  * Due to errata G-720, the 2nd order CDR circuit on CN52XX pass

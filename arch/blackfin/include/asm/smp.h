@@ -12,7 +12,7 @@
 #include <linux/threads.h>
 #include <linux/cpumask.h>
 #include <linux/cache.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 #include <mach/smp.h>
 
 #define raw_smp_processor_id()  blackfin_core_id()

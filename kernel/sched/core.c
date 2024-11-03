@@ -34,10 +34,10 @@
 #include <linux/smp.h>
 #include <linux/timer.h>
 
-#include <asm/switch_to.h>
-#include <asm/tlb.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tlb.h>
 #ifdef CONFIG_PARAVIRT
-#include <asm/paravirt.h>
+#include <asm-generic/paravirt.h>
 #endif
 
 #include "sched.h"

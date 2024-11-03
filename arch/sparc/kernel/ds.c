@@ -16,12 +16,12 @@
 #include <linux/reboot.h>
 #include <linux/cpu.h>
 
-#include <asm/hypervisor.h>
-#include <asm/ldc.h>
-#include <asm/vio.h>
-#include <asm/mdesc.h>
-#include <asm/head.h>
-#include <asm/irq.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/ldc.h>
+#include <asm-generic/vio.h>
+#include <asm-generic/mdesc.h>
+#include <asm-generic/head.h>
+#include <asm-generic/irq.h>
 
 #include "kernel.h"
 

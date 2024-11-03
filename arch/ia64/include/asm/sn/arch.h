@@ -12,10 +12,10 @@
 #define _ASM_IA64_SN_ARCH_H
 
 #include <linux/numa.h>
-#include <asm/types.h>
-#include <asm/percpu.h>
-#include <asm/sn/types.h>
-#include <asm/sn/sn_cpuid.h>
+#include <asm-generic/types.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/sn_cpuid.h>
 
 /*
  * This is the maximum number of NUMALINK nodes that can be part of a single

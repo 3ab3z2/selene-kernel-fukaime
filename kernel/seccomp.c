@@ -32,7 +32,7 @@
 #define SECCOMP_MODE_DEAD	(SECCOMP_MODE_FILTER + 1)
 
 #ifdef CONFIG_HAVE_ARCH_SECCOMP_FILTER
-#include <asm/syscall.h>
+#include <asm-generic/syscall.h>
 #endif
 
 #ifdef CONFIG_SECCOMP_FILTER

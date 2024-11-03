@@ -14,7 +14,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/sn/types.h>
+#include <asm-generic/sn/types.h>
 
 typedef struct kern_vars_s {
 	int		kv_magic;

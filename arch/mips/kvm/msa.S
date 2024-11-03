@@ -8,10 +8,10 @@
  * Copyright (C) 2015 Imagination Technologies Ltd.
  */
 
-#include <asm/asm.h>
-#include <asm/asm-offsets.h>
-#include <asm/asmmacro.h>
-#include <asm/regdef.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/regdef.h>
 
 	.set	noreorder
 	.set	noat

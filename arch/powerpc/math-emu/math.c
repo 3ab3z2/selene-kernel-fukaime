@@ -7,10 +7,10 @@
 #include <linux/sched.h>
 
 #include <linux/uaccess.h>
-#include <asm/reg.h>
-#include <asm/switch_to.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/switch_to.h>
 
-#include <asm/sfp-machine.h>
+#include <asm-generic/sfp-machine.h>
 #include <math-emu/double.h>
 
 #define FLOATFUNC(x)	extern int x(void *, void *, void *, void *)

@@ -8,7 +8,7 @@
 #ifndef _SPARC_OBIO_H
 #define _SPARC_OBIO_H
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 /* This weird monster likes to use the very upper parts of
    36bit PA for these things :) */

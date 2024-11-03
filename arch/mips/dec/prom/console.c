@@ -13,7 +13,7 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 
-#include <asm/dec/prom.h>
+#include <asm-generic/dec/prom.h>
 
 static void __init prom_console_write(struct console *con, const char *s,
 				      unsigned int c)

@@ -3,9 +3,9 @@
 #include <linux/sched/debug.h>
 #include <xen/xen.h>
 
-#include <asm/fpu/internal.h>
-#include <asm/traps.h>
-#include <asm/kdebug.h>
+#include <asm-generic/fpu/internal.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/kdebug.h>
 
 typedef bool (*ex_handler_t)(const struct exception_table_entry *,
 			    struct pt_regs *, int);

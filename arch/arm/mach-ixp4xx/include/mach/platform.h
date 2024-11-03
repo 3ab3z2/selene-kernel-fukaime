@@ -16,7 +16,7 @@
 
 #include <linux/reboot.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #ifndef	__ARMEB__
 #define	REG_OFFSET	0

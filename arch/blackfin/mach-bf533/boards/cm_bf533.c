@@ -19,10 +19,10 @@
 #include <linux/usb/isp1362.h>
 #endif
 #include <linux/irq.h>
-#include <asm/dma.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/portmux.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/dpmc.h>
 
 /*
  * Name the Board for the /proc/cpuinfo

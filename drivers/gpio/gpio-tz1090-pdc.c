@@ -17,7 +17,7 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 #include <linux/syscore_ops.h>
-#include <asm/global_lock.h>
+#include <asm-generic/global_lock.h>
 
 /* Register offsets from SOC_GPIO_CONTROL0 */
 #define REG_SOC_GPIO_CONTROL0	0x00

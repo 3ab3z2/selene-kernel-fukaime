@@ -6,9 +6,9 @@
 #include <linux/sched.h>
 #include <linux/io.h>
 
-#include <asm/l2cache.h>
-#include <asm/metag_isa.h>
-#include <asm/metag_mem.h>
+#include <asm-generic/l2cache.h>
+#include <asm-generic/metag_isa.h>
+#include <asm-generic/metag_mem.h>
 
 void metag_cache_probe(void);
 

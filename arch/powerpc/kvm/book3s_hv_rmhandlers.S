@@ -17,21 +17,21 @@
  * Authors: Alexander Graf <agraf@suse.de>
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/code-patching-asm.h>
-#include <asm/kvm_asm.h>
-#include <asm/reg.h>
-#include <asm/mmu.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/hvcall.h>
-#include <asm/asm-offsets.h>
-#include <asm/exception-64s.h>
-#include <asm/kvm_book3s_asm.h>
-#include <asm/book3s/64/mmu-hash.h>
-#include <asm/tm.h>
-#include <asm/opal.h>
-#include <asm/xive-regs.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/code-patching-asm.h>
+#include <asm-generic/kvm_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/exception-64s.h>
+#include <asm-generic/kvm_book3s_asm.h>
+#include <asm-generic/book3s/64/mmu-hash.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/xive-regs.h>
 
 /* Sign-extend HDEC if not on POWER9 */
 #define EXTEND_HDEC(reg)			\

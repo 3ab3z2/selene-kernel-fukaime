@@ -20,8 +20,8 @@
 
 #include <linux/kernel.h>
 #include <linux/export.h>
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
 
 /**
  * Staticly linked routines that allow late binding of a loaded sys-manager

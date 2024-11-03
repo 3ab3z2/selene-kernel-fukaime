@@ -21,7 +21,7 @@
 #include <linux/regmap.h>
 #include <linux/math64.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "clk-rcg.h"
 #include "common.h"

@@ -11,7 +11,7 @@
  */
 
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 
 #if defined(CONFIG_VGA_CONSOLE) || defined(CONFIG_MDA_CONSOLE)

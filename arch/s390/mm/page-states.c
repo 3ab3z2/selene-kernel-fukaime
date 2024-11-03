@@ -14,8 +14,8 @@
 #include <linux/memblock.h>
 #include <linux/gfp.h>
 #include <linux/init.h>
-#include <asm/facility.h>
-#include <asm/page-states.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/page-states.h>
 
 static int cmma_flag = 1;
 

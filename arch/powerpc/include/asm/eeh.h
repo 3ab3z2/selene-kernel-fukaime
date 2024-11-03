@@ -27,7 +27,7 @@
 #include <linux/time.h>
 #include <linux/atomic.h>
 
-#include <uapi/asm/eeh.h>
+#include <uapi/asm-generic/eeh.h>
 
 struct pci_dev;
 struct pci_bus;

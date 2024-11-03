@@ -38,7 +38,7 @@
  * for them to fix it and steal their solution.   prumpf
  */
  
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define STI_WAIT 1
 

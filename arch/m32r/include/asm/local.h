@@ -12,8 +12,8 @@
  */
 
 #include <linux/percpu.h>
-#include <asm/assembler.h>
-#include <asm/local.h>
+#include <asm-generic/assembler.h>
+#include <asm-generic/local.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

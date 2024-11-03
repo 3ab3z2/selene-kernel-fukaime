@@ -21,19 +21,19 @@
  */
 
 
-#include <asm/asmmacro.h>
-#include <asm/fpu.h>
-#include <asm/kregs.h>
-#include <asm/mmu_context.h>
-#include <asm/asm-offsets.h>
-#include <asm/pal.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/ptrace.h>
-#include <asm/mca_asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/pal.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/mca_asm.h>
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/export.h>
+#include <asm-generic/export.h>
 
 #ifdef CONFIG_HOTPLUG_CPU
 #define SAL_PSR_BITS_TO_SET				\

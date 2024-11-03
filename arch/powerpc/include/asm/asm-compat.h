@@ -1,8 +1,8 @@
 #ifndef _ASM_POWERPC_ASM_COMPAT_H
 #define _ASM_POWERPC_ASM_COMPAT_H
 
-#include <asm/types.h>
-#include <asm/ppc-opcode.h>
+#include <asm-generic/types.h>
+#include <asm-generic/ppc-opcode.h>
 
 #ifdef __ASSEMBLY__
 #  define stringify_in_c(...)	__VA_ARGS__

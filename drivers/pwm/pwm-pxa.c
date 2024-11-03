@@ -21,7 +21,7 @@
 #include <linux/pwm.h>
 #include <linux/of_device.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define HAS_SECONDARY_PWM	0x10
 

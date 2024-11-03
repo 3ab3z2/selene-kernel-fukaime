@@ -20,7 +20,7 @@
 #include <linux/interrupt.h>
 #include <linux/vmalloc.h>
 #include <linux/delay.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "hysdn_defs.h"
 #include "boardergo.h"

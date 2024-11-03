@@ -29,7 +29,7 @@
 #include "amdgpu_i2c.h"
 #include "atom.h"
 #include "amdgpu_connectors.h"
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include <linux/pm_runtime.h>
 #include <drm/drm_crtc_helper.h>

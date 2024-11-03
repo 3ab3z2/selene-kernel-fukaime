@@ -13,7 +13,7 @@
 #include <linux/module.h>
 #include <linux/ctype.h>
 #include <linux/slab.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 #include "zfcp_dbf.h"
 #include "zfcp_ext.h"
 #include "zfcp_fc.h"

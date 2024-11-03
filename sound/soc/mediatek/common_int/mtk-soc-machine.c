@@ -53,7 +53,7 @@
 #include "mtk-auddrv-kernel.h"
 #include "mtk-soc-afe-control.h"
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/completion.h>
 #include <linux/delay.h>
 #include <linux/device.h>

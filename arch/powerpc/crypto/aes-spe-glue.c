@@ -19,8 +19,8 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 #include <linux/crypto.h>
-#include <asm/byteorder.h>
-#include <asm/switch_to.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/switch_to.h>
 #include <crypto/algapi.h>
 #include <crypto/xts.h>
 

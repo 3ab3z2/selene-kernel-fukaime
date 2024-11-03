@@ -12,8 +12,8 @@
 #ifndef _ASM_SGIARCS_H
 #define _ASM_SGIARCS_H
 
-#include <asm/types.h>
-#include <asm/fw/arc/types.h>
+#include <asm-generic/types.h>
+#include <asm-generic/fw/arc/types.h>
 
 /* Various ARCS error codes. */
 #define PROM_ESUCCESS			0x00

@@ -28,7 +28,7 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/sh7760fb.h>
+#include <asm-generic/sh7760fb.h>
 
 struct sh7760fb_par {
 	void __iomem *base;

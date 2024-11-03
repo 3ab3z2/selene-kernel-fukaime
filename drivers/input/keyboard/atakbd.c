@@ -46,10 +46,10 @@
 #include <linux/delay.h>
 #include <linux/interrupt.h>
 
-#include <asm/atariints.h>
-#include <asm/atarihw.h>
-#include <asm/atarikb.h>
-#include <asm/irq.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/atarikb.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Michael Schmitz <schmitz@biophys.uni-duesseldorf.de>");
 MODULE_DESCRIPTION("Atari keyboard driver");

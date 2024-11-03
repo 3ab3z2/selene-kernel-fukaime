@@ -14,7 +14,7 @@
 #ifndef _UAPI_ASM_INST_H
 #define _UAPI_ASM_INST_H
 
-#include <asm/bitfield.h>
+#include <asm-generic/bitfield.h>
 
 /*
  * Major opcodes; before MIPS IV cop1x was called cop3.

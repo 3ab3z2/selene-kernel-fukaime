@@ -17,7 +17,7 @@
 #include <linux/types.h>
 #include <linux/errno.h>
 #include <linux/crypto.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define SEED_NUM_KCONSTANTS	16
 #define SEED_KEY_SIZE		16

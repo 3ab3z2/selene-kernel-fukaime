@@ -26,12 +26,12 @@
 #include <linux/init.h>
 #include <linux/gfp.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/ppc-pci.h>
-#include <asm/firmware.h>
-#include <asm/eeh.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/eeh.h>
 
 /*
  * The function is used to find the firmware data of one

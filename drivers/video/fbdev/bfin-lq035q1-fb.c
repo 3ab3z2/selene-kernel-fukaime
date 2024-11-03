@@ -25,13 +25,13 @@
 #include <linux/platform_device.h>
 #include <linux/spi/spi.h>
 
-#include <asm/blackfin.h>
-#include <asm/irq.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
-#include <asm/gptimers.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/gptimers.h>
 
-#include <asm/bfin-lq035q1.h>
+#include <asm-generic/bfin-lq035q1.h>
 
 #if defined(BF533_FAMILY) || defined(BF538_FAMILY)
 #define TIMER_HSYNC_id			TIMER1_id

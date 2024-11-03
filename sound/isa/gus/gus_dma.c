@@ -19,7 +19,7 @@
  *
  */
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/slab.h>
 #include <sound/core.h>
 #include <sound/gus.h>

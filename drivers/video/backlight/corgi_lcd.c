@@ -25,7 +25,7 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/corgi_lcd.h>
 #include <linux/slab.h>
-#include <asm/mach/sharpsl_param.h>
+#include <asm-generic/mach/sharpsl_param.h>
 
 #define POWER_IS_ON(pwr)	((pwr) <= FB_BLANK_NORMAL)
 

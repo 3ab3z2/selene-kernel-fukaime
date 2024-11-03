@@ -37,9 +37,9 @@
 #include <linux/keyboard.h>
 #include <linux/platform_device.h>
 
-#include <asm/amigaints.h>
-#include <asm/amigahw.h>
-#include <asm/irq.h>
+#include <asm-generic/amigaints.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/irq.h>
 
 MODULE_AUTHOR("Vojtech Pavlik <vojtech@ucw.cz>");
 MODULE_DESCRIPTION("Amiga keyboard driver");

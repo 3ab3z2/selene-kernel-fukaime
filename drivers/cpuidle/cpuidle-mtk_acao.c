@@ -17,8 +17,8 @@
 #include <linux/of.h>
 #include <linux/slab.h>
 
-#include <asm/cpuidle.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/suspend.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/mtk_idle_event.h>

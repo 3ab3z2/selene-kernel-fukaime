@@ -197,7 +197,7 @@ my $mtsle	= sub {
     "	.long	".sprintf "0x%X",(31<<26)|($arg<<21)|(147*2);
 };
 
-print "#include <asm/ppc_asm.h>\n" if $flavour =~ /linux/;
+print "#include <asm-generic/ppc_asm.h>\n" if $flavour =~ /linux/;
 
 while($line=<>) {
 

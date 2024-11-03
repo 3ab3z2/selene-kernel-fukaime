@@ -5,10 +5,10 @@
 #include <linux/of.h>
 #include <linux/of_platform.h>
 
-#include <asm/oplib.h>
-#include <asm/prom.h>
-#include <asm/irq.h>
-#include <asm/upa.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/upa.h>
 
 #include "prom.h"
 

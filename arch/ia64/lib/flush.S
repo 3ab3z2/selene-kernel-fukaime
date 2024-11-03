@@ -7,8 +7,8 @@
  * 05/28/05 Zoltan Menyhart	Dynamic stride size
  */
 
-#include <asm/asmmacro.h>
-#include <asm/export.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/export.h>
 
 
 	/*

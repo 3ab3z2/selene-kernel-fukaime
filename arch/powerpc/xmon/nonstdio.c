@@ -7,8 +7,8 @@
  *      2 of the License, or (at your option) any later version.
  */
 #include <linux/string.h>
-#include <asm/udbg.h>
-#include <asm/time.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/time.h>
 #include "nonstdio.h"
 
 static bool paginating, paginate_skipping;

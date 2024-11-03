@@ -13,7 +13,7 @@
 #endif
 
 #include <linux/compiler.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 /*
  *	Bit access functions vary across the ColdFire and 68k families.

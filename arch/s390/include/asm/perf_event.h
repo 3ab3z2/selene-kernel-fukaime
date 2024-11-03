@@ -12,7 +12,7 @@
 
 #include <linux/perf_event.h>
 #include <linux/device.h>
-#include <asm/cpu_mf.h>
+#include <asm-generic/cpu_mf.h>
 
 /* Per-CPU flags for PMU states */
 #define PMU_F_RESERVED			0x1000

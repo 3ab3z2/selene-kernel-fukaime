@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/bpf.h>
 #include <unistd.h>
 

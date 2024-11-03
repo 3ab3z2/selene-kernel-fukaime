@@ -18,34 +18,34 @@
  * (SIM) definitions.
  */
 #if defined(CONFIG_M5206) || defined(CONFIG_M5206e)
-#include <asm/m5206sim.h>
-#include <asm/mcfintc.h>
+#include <asm-generic/m5206sim.h>
+#include <asm-generic/mcfintc.h>
 #elif defined(CONFIG_M520x)
-#include <asm/m520xsim.h>
+#include <asm-generic/m520xsim.h>
 #elif defined(CONFIG_M523x)
-#include <asm/m523xsim.h>
-#include <asm/mcfintc.h>
+#include <asm-generic/m523xsim.h>
+#include <asm-generic/mcfintc.h>
 #elif defined(CONFIG_M5249) || defined(CONFIG_M525x)
-#include <asm/m525xsim.h>
-#include <asm/mcfintc.h>
+#include <asm-generic/m525xsim.h>
+#include <asm-generic/mcfintc.h>
 #elif defined(CONFIG_M527x)
-#include <asm/m527xsim.h>
+#include <asm-generic/m527xsim.h>
 #elif defined(CONFIG_M5272)
-#include <asm/m5272sim.h>
+#include <asm-generic/m5272sim.h>
 #elif defined(CONFIG_M528x)
-#include <asm/m528xsim.h>
+#include <asm-generic/m528xsim.h>
 #elif defined(CONFIG_M5307)
-#include <asm/m5307sim.h>
-#include <asm/mcfintc.h>
+#include <asm-generic/m5307sim.h>
+#include <asm-generic/mcfintc.h>
 #elif defined(CONFIG_M53xx)
-#include <asm/m53xxsim.h>
+#include <asm-generic/m53xxsim.h>
 #elif defined(CONFIG_M5407)
-#include <asm/m5407sim.h>
-#include <asm/mcfintc.h>
+#include <asm-generic/m5407sim.h>
+#include <asm-generic/mcfintc.h>
 #elif defined(CONFIG_M54xx)
-#include <asm/m54xxsim.h>
+#include <asm-generic/m54xxsim.h>
 #elif defined(CONFIG_M5441x)
-#include <asm/m5441xsim.h>
+#include <asm-generic/m5441xsim.h>
 #endif
 
 /****************************************************************************/

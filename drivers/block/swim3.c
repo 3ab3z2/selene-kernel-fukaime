@@ -31,13 +31,13 @@
 #include <linux/module.h>
 #include <linux/spinlock.h>
 #include <linux/wait.h>
-#include <asm/io.h>
-#include <asm/dbdma.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
-#include <asm/mediabay.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
+#include <asm-generic/mediabay.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
 
 #define MAX_FLOPPIES	2
 

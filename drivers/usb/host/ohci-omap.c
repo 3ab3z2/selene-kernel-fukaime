@@ -30,8 +30,8 @@
 
 #include "ohci.h"
 
-#include <asm/io.h>
-#include <asm/mach-types.h>
+#include <asm-generic/io.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/mux.h>
 

@@ -31,23 +31,23 @@
 #include <linux/scatterlist.h>
 #include <linux/iommu-helper.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/dma.h>		/* for DMA_CHUNK_SIZE */
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>		/* for DMA_CHUNK_SIZE */
 
-#include <asm/hardware.h>	/* for register_parisc_driver() stuff */
+#include <asm-generic/hardware.h>	/* for register_parisc_driver() stuff */
 
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 #include <linux/module.h>
 
-#include <asm/ropes.h>
-#include <asm/mckinley.h>	/* for proc_mckinley_root */
-#include <asm/runway.h>		/* for proc_runway_root */
-#include <asm/page.h>		/* for PAGE0 */
-#include <asm/pdc.h>		/* for PDC_MODEL_* */
-#include <asm/pdcpat.h>		/* for is_pdc_pat() */
-#include <asm/parisc-device.h>
+#include <asm-generic/ropes.h>
+#include <asm-generic/mckinley.h>	/* for proc_mckinley_root */
+#include <asm-generic/runway.h>		/* for proc_runway_root */
+#include <asm-generic/page.h>		/* for PAGE0 */
+#include <asm-generic/pdc.h>		/* for PDC_MODEL_* */
+#include <asm-generic/pdcpat.h>		/* for is_pdc_pat() */
+#include <asm-generic/parisc-device.h>
 
 #define MODULE_NAME "SBA"
 

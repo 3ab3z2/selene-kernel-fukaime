@@ -2,7 +2,7 @@
 #ifndef _ASM_S390_PCI_CLP_H
 #define _ASM_S390_PCI_CLP_H
 
-#include <asm/clp.h>
+#include <asm-generic/clp.h>
 
 /*
  * Call Logical Processor - Command Codes

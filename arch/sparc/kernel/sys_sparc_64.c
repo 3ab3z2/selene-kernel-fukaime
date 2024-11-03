@@ -30,8 +30,8 @@
 #include <linux/context_tracking.h>
 
 #include <linux/uaccess.h>
-#include <asm/utrap.h>
-#include <asm/unistd.h>
+#include <asm-generic/utrap.h>
+#include <asm-generic/unistd.h>
 
 #include "entry.h"
 #include "kernel.h"

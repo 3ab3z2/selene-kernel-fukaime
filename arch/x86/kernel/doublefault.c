@@ -6,9 +6,9 @@
 #include <linux/fs.h>
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/desc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/desc.h>
 
 #ifdef CONFIG_X86_32
 

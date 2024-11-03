@@ -11,8 +11,8 @@
 
 #include <linux/types.h>
 #include <linux/list.h>
-#include <asm/sclp.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/sclp.h>
+#include <asm-generic/ebcdic.h>
 
 /* maximum number of pages concerning our own memory management */
 #define MAX_KMEM_PAGES (sizeof(unsigned long) << 3)

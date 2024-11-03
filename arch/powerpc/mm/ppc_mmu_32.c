@@ -28,9 +28,9 @@
 #include <linux/highmem.h>
 #include <linux/memblock.h>
 
-#include <asm/prom.h>
-#include <asm/mmu.h>
-#include <asm/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/machdep.h>
 
 #include "mmu_decl.h"
 

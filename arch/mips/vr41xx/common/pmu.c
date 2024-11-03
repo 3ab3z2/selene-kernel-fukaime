@@ -25,12 +25,12 @@
 #include <linux/sched.h>
 #include <linux/types.h>
 
-#include <asm/cacheflush.h>
-#include <asm/cpu.h>
-#include <asm/idle.h>
-#include <asm/io.h>
-#include <asm/processor.h>
-#include <asm/reboot.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/idle.h>
+#include <asm-generic/io.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/reboot.h>
 
 #define PMU_TYPE1_BASE	0x0b0000a0UL
 #define PMU_TYPE1_SIZE	0x0eUL

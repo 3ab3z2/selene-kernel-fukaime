@@ -4,10 +4,10 @@
  */
 #include <linux/kernel.h>
 #include <linux/init.h>
-#include <asm/processor.h>
-#include <asm/facility.h>
-#include <asm/lowcore.h>
-#include <asm/sclp.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/sclp.h>
 #include "entry.h"
 
 /*

@@ -39,12 +39,12 @@
 #include <linux/tty.h>
 #include <linux/vt.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/sibyte/sb1250_defs.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_scd.h>
-#include <asm/sibyte/board.h>
+#include <asm-generic/sibyte/sb1250_defs.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/board.h>
 
 /*
  * Macros for calculating offsets into config space given a device

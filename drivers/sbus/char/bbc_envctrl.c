@@ -11,7 +11,7 @@
 #include <linux/of.h>
 #include <linux/slab.h>
 #include <linux/of_device.h>
-#include <asm/oplib.h>
+#include <asm-generic/oplib.h>
 
 #include "bbc_i2c.h"
 #include "max1617.h"

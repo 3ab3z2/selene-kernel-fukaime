@@ -12,7 +12,7 @@
 #ifndef _FRV_LOCAL_H
 #define _FRV_LOCAL_H
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #ifndef __ASSEMBLY__
 

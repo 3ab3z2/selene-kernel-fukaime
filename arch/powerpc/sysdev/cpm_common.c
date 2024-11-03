@@ -25,10 +25,10 @@
 #include <linux/of_address.h>
 #include <linux/slab.h>
 
-#include <asm/udbg.h>
-#include <asm/io.h>
-#include <asm/cpm.h>
-#include <asm/fixmap.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/io.h>
+#include <asm-generic/cpm.h>
+#include <asm-generic/fixmap.h>
 #include <soc/fsl/qe/qe.h>
 
 #include <mm/mmu_decl.h>

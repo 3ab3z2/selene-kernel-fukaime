@@ -10,9 +10,9 @@
 
 #include <linux/io.h>
 #include <linux/vmalloc.h>
-#include <asm/cacheflush.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
 
 static void __iomem *xtensa_ioremap(unsigned long paddr, unsigned long size,
 				    pgprot_t prot)

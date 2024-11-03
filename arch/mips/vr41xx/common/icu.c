@@ -36,10 +36,10 @@
 #include <linux/smp.h>
 #include <linux/types.h>
 
-#include <asm/cpu.h>
-#include <asm/io.h>
-#include <asm/vr41xx/irq.h>
-#include <asm/vr41xx/vr41xx.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/io.h>
+#include <asm-generic/vr41xx/irq.h>
+#include <asm-generic/vr41xx/vr41xx.h>
 
 static void __iomem *icu1_base;
 static void __iomem *icu2_base;

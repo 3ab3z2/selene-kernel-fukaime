@@ -30,14 +30,14 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
-#include <asm/page.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/page.h>
 #include <linux/of_fdt.h>		/* for OF_DT_HEADER */
 
 #ifdef CONFIG_MMU
-#include <asm/setup.h> /* COMMAND_LINE_SIZE */
-#include <asm/mmu.h>
-#include <asm/processor.h>
+#include <asm-generic/setup.h> /* COMMAND_LINE_SIZE */
+#include <asm-generic/mmu.h>
+#include <asm-generic/processor.h>
 
 .section .data
 .global empty_zero_page

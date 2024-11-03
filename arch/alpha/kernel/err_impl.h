@@ -8,7 +8,7 @@
  * 	implementations.
  */
 
-#include <asm/mce.h>
+#include <asm-generic/mce.h>
 
 union el_timestamp;
 struct el_subpacket;

@@ -16,11 +16,11 @@
 #include <linux/init.h>
 #include <linux/export.h>
 
-#include <asm/mmu_context.h>
-#include <asm/time.h>
-#include <asm/setup.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/time.h>
+#include <asm-generic/setup.h>
 
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
 #include "octeon_boot.h"
 

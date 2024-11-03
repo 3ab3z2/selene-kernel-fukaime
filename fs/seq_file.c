@@ -17,7 +17,7 @@
 #include <linux/string_helpers.h>
 
 #include <linux/uaccess.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 static void seq_set_overflow(struct seq_file *m)
 {

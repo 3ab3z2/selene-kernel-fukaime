@@ -26,7 +26,7 @@
 #ifndef _CHECKSUM_IPV6_H
 #define _CHECKSUM_IPV6_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/byteorder.h>
 #include <net/ip.h>
 #include <asm/checksum.h>

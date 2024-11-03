@@ -7,7 +7,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/export.h>
+#include <asm-generic/export.h>
 
 	.text
 ENTRY(__ashldi3)

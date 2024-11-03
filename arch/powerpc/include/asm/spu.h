@@ -27,8 +27,8 @@
 #include <linux/workqueue.h>
 #include <linux/device.h>
 #include <linux/mutex.h>
-#include <asm/reg.h>
-#include <asm/copro.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/copro.h>
 
 #define LS_SIZE (256 * 1024)
 #define LS_ADDR_MASK (LS_SIZE - 1)

@@ -12,12 +12,12 @@
  */
 
 	.file	"tbiroot.S"
-#include <asm/metag_regs.h>
+#include <asm-generic/metag_regs.h>
 
 /*
  * Get data structures and defines from the TBI C header
  */
-#include <asm/tbx.h>
+#include <asm-generic/tbx.h>
 
 
 /* If signals need to be exchanged we must create a TBI Root Block */

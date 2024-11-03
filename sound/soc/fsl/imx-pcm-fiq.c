@@ -28,7 +28,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 
-#include <asm/fiq.h>
+#include <asm-generic/fiq.h>
 
 #include <linux/platform_data/asoc-imx-ssi.h>
 

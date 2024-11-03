@@ -15,7 +15,7 @@
 #include <linux/slab.h>
 
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 #define MAX_RADEON_LEVEL 0xFF

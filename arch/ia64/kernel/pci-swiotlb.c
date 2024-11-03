@@ -7,10 +7,10 @@
 #include <linux/module.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/swiotlb.h>
-#include <asm/dma.h>
-#include <asm/iommu.h>
-#include <asm/machvec.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machvec.h>
 
 int swiotlb __read_mostly;
 EXPORT_SYMBOL(swiotlb);

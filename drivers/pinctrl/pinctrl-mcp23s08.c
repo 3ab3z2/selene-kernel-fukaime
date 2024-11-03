@@ -9,7 +9,7 @@
 #include <linux/spi/spi.h>
 #include <linux/spi/mcp23s08.h>
 #include <linux/slab.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/interrupt.h>
 #include <linux/of_device.h>
 #include <linux/regmap.h>

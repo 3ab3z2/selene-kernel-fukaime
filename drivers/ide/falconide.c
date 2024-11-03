@@ -16,11 +16,11 @@
 #include <linux/ide.h>
 #include <linux/init.h>
 
-#include <asm/setup.h>
-#include <asm/atarihw.h>
-#include <asm/atariints.h>
-#include <asm/atari_stdma.h>
-#include <asm/ide.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/atariints.h>
+#include <asm-generic/atari_stdma.h>
+#include <asm-generic/ide.h>
 
 #define DRV_NAME "falconide"
 

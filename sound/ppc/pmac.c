@@ -21,7 +21,7 @@
 
 
 #include <linux/io.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/init.h>
 #include <linux/delay.h>
 #include <linux/slab.h>
@@ -33,7 +33,7 @@
 #include <sound/core.h>
 #include "pmac.h"
 #include <sound/pcm_params.h>
-#include <asm/pmac_feature.h>
+#include <asm-generic/pmac_feature.h>
 
 
 /* fixed frequency table for awacs, screamer, burgundy, DACA (44100 max) */

@@ -12,8 +12,8 @@
 #ifndef _ASM_RC32434_DMA_V_H_
 #define _ASM_RC32434_DMA_V_H_
 
-#include  <asm/mach-rc32434/dma.h>
-#include  <asm/mach-rc32434/rc32434.h>
+#include  <asm-generic/mach-rc32434/dma.h>
+#include  <asm-generic/mach-rc32434/rc32434.h>
 
 #define DMA_CHAN_OFFSET		0x14
 #define IS_DMA_USED(X)		(((X) & \

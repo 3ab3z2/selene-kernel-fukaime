@@ -22,7 +22,7 @@
  * Reworked and rebased over arm version by: Mark Salyzyn <salyzyn@android.com>
  */
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #include <linux/compiler.h>	/* for notrace				*/
 #include <linux/math64.h>	/* for __iter_div_u64_rem()		*/
 #include <uapi/linux/time.h>	/* for struct timespec			*/

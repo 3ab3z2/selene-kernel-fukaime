@@ -44,9 +44,9 @@
 #include <linux/inetdevice.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/byteorder.h>
 
 #include <rdma/iw_cm.h>
 #include <rdma/ib_verbs.h>

@@ -4,11 +4,11 @@
 
 #include <linux/types.h>
 #include <linux/device.h>
-#include <asm/css_chars.h>
-#include <asm/chpid.h>
-#include <asm/chsc.h>
-#include <asm/schid.h>
-#include <asm/qdio.h>
+#include <asm-generic/css_chars.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/chsc.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/qdio.h>
 
 #define CHSC_SDA_OC_MSS   0x2
 

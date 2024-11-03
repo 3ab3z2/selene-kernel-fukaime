@@ -6,7 +6,7 @@
 
 #include <signal.h>
 #include <sched.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <sys/time.h>
 #include <as-layout.h>
 #include <ptrace_user.h>

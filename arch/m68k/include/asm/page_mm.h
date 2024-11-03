@@ -5,7 +5,7 @@
 #ifndef __ASSEMBLY__
 
 #include <linux/compiler.h>
-#include <asm/module.h>
+#include <asm-generic/module.h>
 
 /*
  * We don't need to check for alignment etc.

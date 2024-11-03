@@ -17,16 +17,16 @@
 #include <linux/types.h>
 #include <linux/irqflags.h>
 
-#include <asm/addrspace.h>
-#include <asm/bug.h>
-#include <asm/byteorder.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/bug.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
 #include <asm-generic/iomap.h>
-#include <asm/page.h>
-#include <asm/pgtable-bits.h>
-#include <asm/processor.h>
-#include <asm/string.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable-bits.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/string.h>
 
 #include <ioremap.h>
 #include <mangle-port.h>

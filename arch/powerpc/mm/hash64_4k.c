@@ -13,8 +13,8 @@
  */
 
 #include <linux/mm.h>
-#include <asm/machdep.h>
-#include <asm/mmu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu.h>
 
 int __hash_page_4K(unsigned long ea, unsigned long access, unsigned long vsid,
 		   pte_t *ptep, unsigned long trap, unsigned long flags,

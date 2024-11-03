@@ -25,11 +25,11 @@
 #include <linux/of_platform.h>
 #include <linux/export.h>
 
-#include <asm/reg.h>
-#include <asm/io.h>
-#include <asm/time.h>
-#include <asm/mpc6xx.h>
-#include <asm/switch_to.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/io.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mpc6xx.h>
+#include <asm-generic/switch_to.h>
 
 #include <sysdev/fsl_soc.h>
 

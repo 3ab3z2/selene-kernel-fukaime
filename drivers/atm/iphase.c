@@ -56,11 +56,11 @@
 #include <linux/interrupt.h>
 #include <linux/wait.h>
 #include <linux/slab.h>
-#include <asm/io.h>  
+#include <asm-generic/io.h>  
 #include <linux/atomic.h>
 #include <linux/uaccess.h>  
-#include <asm/string.h>  
-#include <asm/byteorder.h>  
+#include <asm-generic/string.h>  
+#include <asm-generic/byteorder.h>  
 #include <linux/vmalloc.h>
 #include <linux/jiffies.h>
 #include <linux/nospec.h>

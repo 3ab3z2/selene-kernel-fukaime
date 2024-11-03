@@ -30,11 +30,11 @@
 #include <linux/screen_info.h>
 #include <linux/clocksource.h>
 
-#include <asm/setup.h>
-#include <asm/irq.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/page.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/page.h>
 
 #if defined(CONFIG_CPU_H8300H)
 #define CPU "H8/300H"

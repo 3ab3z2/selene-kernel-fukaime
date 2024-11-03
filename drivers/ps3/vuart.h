@@ -21,7 +21,7 @@
 #if !defined(_PS3_VUART_H)
 #define _PS3_VUART_H
 
-#include <asm/ps3.h>
+#include <asm-generic/ps3.h>
 
 struct ps3_vuart_stats {
 	unsigned long bytes_written;

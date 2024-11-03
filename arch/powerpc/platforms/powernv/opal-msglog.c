@@ -9,12 +9,12 @@
  * 2 of the License, or (at your option) any later version.
  */
 
-#include <asm/io.h>
-#include <asm/opal.h>
+#include <asm-generic/io.h>
+#include <asm-generic/opal.h>
 #include <linux/debugfs.h>
 #include <linux/of.h>
 #include <linux/types.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 /* OPAL in-memory console. Defined in OPAL source at core/console.c */
 struct memcons {

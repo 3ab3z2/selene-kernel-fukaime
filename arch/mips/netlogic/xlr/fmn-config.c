@@ -32,16 +32,16 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <asm/cpu-info.h>
+#include <asm-generic/cpu-info.h>
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 
-#include <asm/cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/netlogic/xlr/fmn.h>
-#include <asm/netlogic/xlr/xlr.h>
-#include <asm/netlogic/common.h>
-#include <asm/netlogic/haldefs.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/xlr/xlr.h>
+#include <asm-generic/netlogic/common.h>
+#include <asm-generic/netlogic/haldefs.h>
 
 struct xlr_board_fmn_config xlr_board_fmn_config;
 

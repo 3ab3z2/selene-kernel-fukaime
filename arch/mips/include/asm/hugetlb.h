@@ -9,7 +9,7 @@
 #ifndef __ASM_HUGETLB_H
 #define __ASM_HUGETLB_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/hugetlb.h>
 
 

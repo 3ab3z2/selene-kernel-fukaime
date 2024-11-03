@@ -1,9 +1,9 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
-#include <asm/dpmc.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/dpmc.h>
 
-#include <asm/context.S>
+#include <asm-generic/context.S>
 
 #define PM_STACK   (COREA_L1_SCRATCH_START + L1_SCRATCH_LENGTH - 12)
 

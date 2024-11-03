@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #include <variant/core.h>
-#include <asm/regs.h>
-#include <asm/asmmacro.h>
-#include <asm/cacheasm.h>
+#include <asm-generic/regs.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/cacheasm.h>
 	/*
 	 * RB-Data: RedBoot data/bss
 	 * P:	    Boot-Parameters

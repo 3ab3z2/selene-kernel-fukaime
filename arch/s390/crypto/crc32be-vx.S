@@ -13,8 +13,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/nospec-insn.h>
-#include <asm/vx-insn.h>
+#include <asm-generic/nospec-insn.h>
+#include <asm-generic/vx-insn.h>
 
 /* Vector register range containing CRC-32 constants */
 #define CONST_R1R2		%v9

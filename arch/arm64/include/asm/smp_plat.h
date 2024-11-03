@@ -21,7 +21,7 @@
 
 #include <linux/cpumask.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 struct mpidr_hash {
 	u64	mask;

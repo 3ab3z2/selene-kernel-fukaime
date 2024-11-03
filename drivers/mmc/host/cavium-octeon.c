@@ -14,7 +14,7 @@
 #include <linux/mmc/slot-gpio.h>
 #include <linux/module.h>
 #include <linux/of_platform.h>
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 #include "cavium.h"
 
 #define CVMX_MIO_BOOT_CTL CVMX_ADD_IO_SEG(0x00011800000000D0ull)

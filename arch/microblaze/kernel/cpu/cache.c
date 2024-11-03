@@ -10,10 +10,10 @@
  * archive for more details.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/cache.h>
-#include <asm/cpuinfo.h>
-#include <asm/pvr.h>
+#include <asm-generic/cpuinfo.h>
+#include <asm-generic/pvr.h>
 
 static inline void __enable_icache_msr(void)
 {

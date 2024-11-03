@@ -23,14 +23,14 @@
 #include <linux/tracehook.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/registers.h>
-#include <asm/thread_info.h>
-#include <asm/unistd.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/unistd.h>
 #include <linux/uaccess.h>
-#include <asm/ucontext.h>
-#include <asm/cacheflush.h>
-#include <asm/signal.h>
-#include <asm/vdso.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/vdso.h>
 
 struct rt_sigframe {
 	unsigned long tramp[2];

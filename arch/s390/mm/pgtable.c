@@ -18,12 +18,12 @@
 #include <linux/ksm.h>
 #include <linux/mman.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/tlbflush.h>
-#include <asm/mmu_context.h>
-#include <asm/page-states.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page-states.h>
 
 static inline void ptep_ipte_local(struct mm_struct *mm, unsigned long addr,
 				   pte_t *ptep, int nodat)

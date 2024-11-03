@@ -23,8 +23,8 @@
 #include <linux/pci.h>
 #include <linux/slab.h>
 #include <linux/kthread.h>
-#include <asm/eeh_event.h>
-#include <asm/ppc-pci.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/ppc-pci.h>
 
 /** Overview:
  *  EEH error states may be detected within exception handlers;

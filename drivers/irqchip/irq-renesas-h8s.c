@@ -9,7 +9,7 @@
 #include <linux/irqchip.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static void *intc_baseaddr;
 #define IPRA ((unsigned long)intc_baseaddr)

@@ -36,8 +36,8 @@
 #include <linux/firmware.h>
 #include <net/checksum.h>
 
-#include <asm/unaligned.h>
-#include <asm/io.h>
+#include <asm-generic/unaligned.h>
+#include <asm-generic/io.h>
 
 #include "bttvp.h"
 #include <media/v4l2-common.h>

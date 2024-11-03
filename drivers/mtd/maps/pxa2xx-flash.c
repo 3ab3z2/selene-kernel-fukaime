@@ -18,10 +18,10 @@
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <mach/hardware.h>
 
-#include <asm/mach/flash.h>
+#include <asm-generic/mach/flash.h>
 
 #define CACHELINESIZE	32
 

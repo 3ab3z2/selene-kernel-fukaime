@@ -11,21 +11,21 @@
 
 #include <linux/init.h>
 #include <linux/linkage.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
-#include <asm/errno.h>
-#include <asm/ptrace.h>
-#include <asm/thread_info.h>
-#include <asm/asm-offsets.h>
-#include <asm/unistd.h>
-#include <asm/page.h>
-#include <asm/sigp.h>
-#include <asm/irq.h>
-#include <asm/vx-insn.h>
-#include <asm/setup.h>
-#include <asm/nmi.h>
-#include <asm/export.h>
-#include <asm/nospec-insn.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/page.h>
+#include <asm-generic/sigp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/vx-insn.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/export.h>
+#include <asm-generic/nospec-insn.h>
 
 __PT_R0      =	__PT_GPRS
 __PT_R1      =	__PT_GPRS + 8

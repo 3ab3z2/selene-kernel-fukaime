@@ -21,11 +21,11 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
-#include <asm/asm-offsets.h>
-#include <asm/mem-layout.h>
-#include <asm/vm_mmu.h>
-#include <asm/page.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/mem-layout.h>
+#include <asm-generic/vm_mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/hexagon_vm.h>
 
 #define SEGTABLE_ENTRIES #0x0e0
 

@@ -14,7 +14,7 @@
  *   I don't want/intend to extend unwinding code to understand raw asm
  */
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/sched.h>
 #include <linux/sched/debug.h>
 #ifdef CONFIG_ARC_PLAT_EZNPS

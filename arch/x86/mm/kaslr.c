@@ -24,10 +24,10 @@
 #include <linux/init.h>
 #include <linux/random.h>
 
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/kaslr.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/kaslr.h>
 
 #include "mm_internal.h"
 

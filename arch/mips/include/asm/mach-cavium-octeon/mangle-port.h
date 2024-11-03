@@ -8,7 +8,7 @@
 #ifndef __ASM_MACH_GENERIC_MANGLE_PORT_H
 #define __ASM_MACH_GENERIC_MANGLE_PORT_H
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __BIG_ENDIAN
 

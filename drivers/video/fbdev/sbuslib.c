@@ -13,7 +13,7 @@
 #include <linux/uaccess.h>
 #include <linux/of_device.h>
 
-#include <asm/fbio.h>
+#include <asm-generic/fbio.h>
 
 #include "sbuslib.h"
 

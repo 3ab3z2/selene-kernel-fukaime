@@ -5,7 +5,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 	/* %o0: devhandle
 	 * %o1:	tsbid

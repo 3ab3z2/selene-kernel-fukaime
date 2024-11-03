@@ -12,9 +12,9 @@
 #define _ASM_SN_ARCH_H
 
 #include <linux/types.h>
-#include <asm/sn/types.h>
+#include <asm-generic/sn/types.h>
 #ifdef CONFIG_SGI_IP27
-#include <asm/sn/sn0/arch.h>
+#include <asm-generic/sn/sn0/arch.h>
 #endif
 
 typedef u64	hubreg_t;

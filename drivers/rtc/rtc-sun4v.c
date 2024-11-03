@@ -14,7 +14,7 @@
 #include <linux/rtc.h>
 #include <linux/platform_device.h>
 
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 static unsigned long hypervisor_get_time(void)
 {

@@ -23,11 +23,11 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 
-#include <asm/cacheflush.h>
-#include <asm/efi.h>
-#include <asm/mmu.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/efi.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 extern u64 efi_system_table;
 
@@ -41,7 +41,7 @@ static struct mm_struct efi_mm = {
 };
 
 #ifdef CONFIG_ARM64_PTDUMP_DEBUGFS
-#include <asm/ptdump.h>
+#include <asm-generic/ptdump.h>
 
 static struct ptdump_info efi_ptdump_info = {
 	.mm		= &efi_mm,

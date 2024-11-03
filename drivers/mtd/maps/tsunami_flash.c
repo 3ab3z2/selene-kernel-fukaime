@@ -4,8 +4,8 @@
  *
  * flash chip on alpha ds10...
  */
-#include <asm/io.h>
-#include <asm/core_tsunami.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_tsunami.h>
 #include <linux/init.h>
 #include <linux/mtd/map.h>
 #include <linux/mtd/mtd.h>

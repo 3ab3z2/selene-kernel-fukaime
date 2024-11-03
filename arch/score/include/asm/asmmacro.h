@@ -2,7 +2,7 @@
 #ifndef _ASM_SCORE_ASMMACRO_H
 #define _ASM_SCORE_ASMMACRO_H
 
-#include <asm/asm-offsets.h>
+#include <asm-generic/asm-offsets.h>
 
 #ifdef __ASSEMBLY__
 

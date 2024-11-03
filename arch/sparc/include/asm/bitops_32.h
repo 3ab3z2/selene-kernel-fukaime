@@ -11,7 +11,7 @@
 #define _SPARC_BITOPS_H
 
 #include <linux/compiler.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #ifdef __KERNEL__
 

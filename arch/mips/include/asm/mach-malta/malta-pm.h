@@ -11,7 +11,7 @@
 #ifndef __ASM_MIPS_MACH_MALTA_PM_H__
 #define __ASM_MIPS_MACH_MALTA_PM_H__
 
-#include <asm/mips-boards/piix4.h>
+#include <asm-generic/mips-boards/piix4.h>
 
 #ifdef CONFIG_MIPS_MALTA_PM
 

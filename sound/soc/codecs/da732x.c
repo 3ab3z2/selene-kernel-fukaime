@@ -27,7 +27,7 @@
 #include <sound/soc-dapm.h>
 #include <sound/initval.h>
 #include <sound/tlv.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "da732x.h"
 #include "da732x_reg.h"

@@ -7,7 +7,7 @@
 #include <linux/kernel.h>
 #include <linux/string.h>
 #include <linux/errno.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <scsi/scsi_common.h>
 
 /* NB: These are exposed through /proc/scsi/scsi and form part of the ABI.

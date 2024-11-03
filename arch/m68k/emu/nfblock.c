@@ -18,7 +18,7 @@
 #include <linux/hdreg.h>
 #include <linux/slab.h>
 
-#include <asm/natfeat.h>
+#include <asm-generic/natfeat.h>
 
 static long nfhd_id;
 

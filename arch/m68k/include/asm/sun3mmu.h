@@ -6,8 +6,8 @@
 #define __SUN3_MMU_H__
 
 #include <linux/types.h>
-#include <asm/movs.h>
-#include <asm/sun3-head.h>
+#include <asm-generic/movs.h>
+#include <asm-generic/sun3-head.h>
 
 /* MMU characteristics. */
 #define SUN3_SEGMAPS_PER_CONTEXT	2048

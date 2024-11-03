@@ -2,8 +2,8 @@
 #ifndef _UAPI_SPARC_TERMIOS_H
 #define _UAPI_SPARC_TERMIOS_H
 
-#include <asm/ioctls.h>
-#include <asm/termbits.h>
+#include <asm-generic/ioctls.h>
+#include <asm-generic/termbits.h>
 
 #if defined(__KERNEL__) || defined(__DEFINE_BSD_TERMIOS)
 struct sgttyb {

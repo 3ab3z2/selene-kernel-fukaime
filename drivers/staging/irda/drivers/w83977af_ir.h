@@ -25,7 +25,7 @@
 #ifndef W83977AF_IR_H
 #define W83977AF_IR_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/types.h>
 
 /* Flags for configuration register CRF0 */

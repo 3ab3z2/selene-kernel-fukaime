@@ -33,8 +33,8 @@
 
 #include <pcmcia/ss.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-db1x00/bcsr.h>
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-db1x00/bcsr.h>
 
 #define MEM_MAP_SIZE	0x400000
 #define IO_MAP_SIZE	0x1000

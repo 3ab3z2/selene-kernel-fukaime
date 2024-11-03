@@ -49,9 +49,9 @@
 #include <linux/cpu.h>
 #include <linux/jump_label.h>
 
-#include <asm/sections.h>
-#include <asm/cacheflush.h>
-#include <asm/errno.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/errno.h>
 #include <linux/uaccess.h>
 
 #define KPROBE_HASH_BITS 6

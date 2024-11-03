@@ -37,8 +37,8 @@
 
 #include <trace/events/sched.h>
 
-#include <asm/sections.h>
-#include <asm/setup.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/setup.h>
 
 #include "trace_output.h"
 #include "trace_stat.h"

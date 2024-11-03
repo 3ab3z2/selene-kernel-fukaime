@@ -8,7 +8,7 @@
 #include <linux/fcntl.h>
 #include <linux/mm.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 #include <boot_param.h>
@@ -106,7 +106,7 @@ int __uncached_access(struct file *file, unsigned long addr)
 
 #include <linux/pci.h>
 #include <linux/sched.h>
-#include <asm/current.h>
+#include <asm-generic/current.h>
 
 static unsigned long uca_start, uca_end;
 

@@ -13,10 +13,10 @@ static inline void enter_lazy_tlb(struct mm_struct *mm, struct task_struct *tsk)
 
 #if defined(CONFIG_COLDFIRE)
 
-#include <asm/atomic.h>
-#include <asm/bitops.h>
-#include <asm/mcfmmu.h>
-#include <asm/mmu.h>
+#include <asm-generic/atomic.h>
+#include <asm-generic/bitops.h>
+#include <asm-generic/mcfmmu.h>
+#include <asm-generic/mmu.h>
 
 #define NO_CONTEXT		256
 #define LAST_CONTEXT		255
@@ -160,7 +160,7 @@ end:
 }
 
 #elif defined(CONFIG_SUN3)
-#include <asm/sun3mmu.h>
+#include <asm-generic/sun3mmu.h>
 #include <linux/sched.h>
 
 extern unsigned long get_free_context(struct mm_struct *mm);
@@ -211,9 +211,9 @@ static inline void activate_mm(struct mm_struct *prev_mm,
 
 #else
 
-#include <asm/setup.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
 
 static inline int init_new_context(struct task_struct *tsk,
 				   struct mm_struct *mm)

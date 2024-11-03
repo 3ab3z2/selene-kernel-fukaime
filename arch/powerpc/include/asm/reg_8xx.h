@@ -5,7 +5,7 @@
 #ifndef _ASM_POWERPC_REG_8xx_H
 #define _ASM_POWERPC_REG_8xx_H
 
-#include <asm/mmu.h>
+#include <asm-generic/mmu.h>
 
 /* Cache control on the MPC8xx is provided through some additional
  * special purpose registers.

@@ -2,8 +2,8 @@
 #ifndef BOOT_CPUFLAGS_H
 #define BOOT_CPUFLAGS_H
 
-#include <asm/cpufeatures.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/processor-flags.h>
 
 struct cpu_features {
 	int level;		/* Family, or 64 for x86-64 */

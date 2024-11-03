@@ -19,7 +19,7 @@
 #ifndef _ARCH_POWERPC_INCLUDE_ASM_ICSWX_H_
 #define _ARCH_POWERPC_INCLUDE_ASM_ICSWX_H_
 
-#include <asm/ppc-opcode.h> /* for PPC_ICSWX */
+#include <asm-generic/ppc-opcode.h> /* for PPC_ICSWX */
 
 /* Chapter 6.5.8 Coprocessor-Completion Block (CCB) */
 

@@ -3,10 +3,10 @@
 #include <linux/types.h>
 #include <linux/slab.h>
 
-#include <asm/cpu_entry_area.h>
-#include <asm/perf_event.h>
-#include <asm/tlbflush.h>
-#include <asm/insn.h>
+#include <asm-generic/cpu_entry_area.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/insn.h>
 
 #include "../perf_event.h"
 

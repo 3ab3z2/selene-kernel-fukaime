@@ -11,8 +11,8 @@
 #include <linux/init.h>
 #include <linux/oprofile.h>
 #include <linux/smp.h>
-#include <asm/cpu-info.h>
-#include <asm/cpu-type.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/cpu-type.h>
 
 #include "op_impl.h"
 

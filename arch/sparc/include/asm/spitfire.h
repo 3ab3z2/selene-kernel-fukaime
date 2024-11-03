@@ -9,7 +9,7 @@
 
 #ifdef CONFIG_SPARC64
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 /* The following register addresses are accessible via ASI_DMMU
  * and ASI_IMMU, that is there is a distinct and unique copy of

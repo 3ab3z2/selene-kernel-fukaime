@@ -16,8 +16,8 @@
 #include <linux/interrupt.h>
 #include <linux/module.h>
 #include <linux/types.h>
-#include <asm/io.h>
-#include <asm/led.h>
+#include <asm-generic/io.h>
+#include <asm-generic/led.h>
 
 #include "gsc.h"
 

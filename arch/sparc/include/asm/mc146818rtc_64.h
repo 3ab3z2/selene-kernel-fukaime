@@ -5,7 +5,7 @@
 #ifndef __ASM_SPARC64_MC146818RTC_H
 #define __ASM_SPARC64_MC146818RTC_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifndef RTC_PORT
 extern unsigned long cmos_regs;

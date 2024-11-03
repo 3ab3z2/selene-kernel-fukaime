@@ -21,11 +21,11 @@
 #include <linux/of_address.h>
 #include <linux/root_dev.h>
 #include <linux/initrd.h>
-#include <asm/time.h>
-#include <asm/io.h>
-#include <asm/machdep.h>
-#include <asm/prom.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/time.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc52xx.h>
 
 /* ************************************************************************
  *

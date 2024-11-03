@@ -16,8 +16,8 @@
 #include <linux/kvm_host.h>
 #include <kvm/arm_vgic.h>
 #include <linux/uaccess.h>
-#include <asm/kvm_mmu.h>
-#include <asm/cputype.h>
+#include <asm-generic/kvm_mmu.h>
+#include <asm-generic/cputype.h>
 #include "vgic.h"
 
 /* common helpers */

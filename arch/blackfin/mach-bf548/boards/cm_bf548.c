@@ -18,13 +18,13 @@
 #include <linux/interrupt.h>
 #include <linux/usb/musb.h>
 #include <linux/gpio.h>
-#include <asm/bfin5xx_spi.h>
-#include <asm/dma.h>
-#include <asm/nand.h>
-#include <asm/portmux.h>
-#include <asm/bfin_sdh.h>
+#include <asm-generic/bfin5xx_spi.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/nand.h>
+#include <asm-generic/portmux.h>
+#include <asm-generic/bfin_sdh.h>
 #include <mach/bf54x_keys.h>
-#include <asm/dpmc.h>
+#include <asm-generic/dpmc.h>
 #include <linux/input.h>
 #include <linux/spi/ad7877.h>
 

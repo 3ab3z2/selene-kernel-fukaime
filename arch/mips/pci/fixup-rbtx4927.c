@@ -33,8 +33,8 @@
  *  675 Mass Ave, Cambridge, MA 02139, USA.
  */
 #include <linux/types.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/rbtx4927.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/rbtx4927.h>
 
 int rbtx4927_pci_map_irq(const struct pci_dev *dev, u8 slot, u8 pin)
 {

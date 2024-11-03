@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <media/media-device.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #include "smsir.h"
 

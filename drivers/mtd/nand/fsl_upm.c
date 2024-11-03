@@ -23,7 +23,7 @@
 #include <linux/of_gpio.h>
 #include <linux/io.h>
 #include <linux/slab.h>
-#include <asm/fsl_lbc.h>
+#include <asm-generic/fsl_lbc.h>
 
 #define FSL_UPM_WAIT_RUN_PATTERN  0x1
 #define FSL_UPM_WAIT_WRITE_BYTE   0x2

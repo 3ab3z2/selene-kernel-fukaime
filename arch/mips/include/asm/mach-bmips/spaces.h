@@ -11,8 +11,8 @@
 #define _ASM_BMIPS_SPACES_H
 
 /* Avoid collisions with system base register (SBR) region on BMIPS3300 */
-#include <asm/bmips-spaces.h>
+#include <asm-generic/bmips-spaces.h>
 
-#include <asm/mach-generic/spaces.h>
+#include <asm-generic/mach-generic/spaces.h>
 
 #endif /* __ASM_BMIPS_SPACES_H */

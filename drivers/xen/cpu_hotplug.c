@@ -6,8 +6,8 @@
 #include <xen/xen.h>
 #include <xen/xenbus.h>
 
-#include <asm/xen/hypervisor.h>
-#include <asm/cpu.h>
+#include <asm-generic/xen/hypervisor.h>
+#include <asm-generic/cpu.h>
 
 static void enable_hotplug_cpu(int cpu)
 {

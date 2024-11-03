@@ -30,11 +30,11 @@
 #include <linux/atomic.h>
 #include <linux/time.h>
 #include <linux/io.h>
-#include <asm/machdep.h>
-#include <asm/ipic.h>
-#include <asm/irq.h>
-#include <asm/prom.h>
-#include <asm/udbg.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ipic.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/udbg.h>
 #include <sysdev/fsl_soc.h>
 #include <sysdev/fsl_pci.h>
 #include <soc/fsl/qe/qe.h>

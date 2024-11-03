@@ -36,15 +36,15 @@
 #include <linux/of.h>
 
 #include <linux/atomic.h>
-#include <asm/debugfs.h>
-#include <asm/eeh.h>
-#include <asm/eeh_event.h>
-#include <asm/io.h>
-#include <asm/iommu.h>
-#include <asm/machdep.h>
-#include <asm/ppc-pci.h>
-#include <asm/rtas.h>
-#include <asm/pte-walk.h>
+#include <asm-generic/debugfs.h>
+#include <asm-generic/eeh.h>
+#include <asm-generic/eeh_event.h>
+#include <asm-generic/io.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/pte-walk.h>
 
 
 /** Overview:

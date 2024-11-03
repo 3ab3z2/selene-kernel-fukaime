@@ -11,8 +11,8 @@
 #include <linux/sched/task.h>
 #include <linux/sched/task_stack.h>
 #include <linux/slab.h>
-#include <asm/current.h>
-#include <asm/processor.h>
+#include <asm-generic/current.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
 #include <as-layout.h>
 #include <mem_user.h>

@@ -17,7 +17,7 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 
-#include <asm/natfeat.h>
+#include <asm-generic/natfeat.h>
 
 static int stderr_id;
 static struct tty_port nfcon_tty_port;

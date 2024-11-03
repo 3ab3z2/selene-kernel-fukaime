@@ -2,10 +2,10 @@
 #ifndef _SPARC_VADDRS_H
 #define _SPARC_VADDRS_H
 
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 /*
- * asm/vaddrs.h:  Here we define the virtual addresses at
+ * asm-generic/vaddrs.h:  Here we define the virtual addresses at
  *                      which important things will be mapped.
  *
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
@@ -32,7 +32,7 @@
 #define SRMMU_NOCACHE_ALCRATIO	64	/* 256 pages per 64MB of system RAM */
 
 #ifndef __ASSEMBLY__
-#include <asm/kmap_types.h>
+#include <asm-generic/kmap_types.h>
 
 enum fixed_addresses {
 	FIX_HOLE,

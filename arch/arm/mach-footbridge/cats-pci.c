@@ -10,9 +10,9 @@
 #include <linux/pci.h>
 #include <linux/init.h>
 
-#include <asm/irq.h>
-#include <asm/mach/pci.h>
-#include <asm/mach-types.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach/pci.h>
+#include <asm-generic/mach-types.h>
 
 /* cats host-specific stuff */
 static int irqmap_cats[] = { IRQ_PCI, IRQ_IN0, IRQ_IN1, IRQ_IN3 };

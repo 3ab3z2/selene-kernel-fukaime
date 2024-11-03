@@ -9,7 +9,7 @@
 #include <linux/io.h>
 #include <linux/uaccess.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #define D04_MOVT_TEMPLATE	0x02200005
 #define D04_CALL_TEMPLATE	0xAC200005

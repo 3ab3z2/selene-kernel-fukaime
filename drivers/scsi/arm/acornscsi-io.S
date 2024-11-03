@@ -7,7 +7,7 @@
  */
 #include <linux/linkage.h>
 
-#include <asm/assembler.h>
+#include <asm-generic/assembler.h>
 #include <mach/hardware.h>
 
 #if defined(__APCS_32__)

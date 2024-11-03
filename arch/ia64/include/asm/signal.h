@@ -9,7 +9,7 @@
 #ifndef _ASM_IA64_SIGNAL_H
 #define _ASM_IA64_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 
 #define _NSIG		64
@@ -27,7 +27,7 @@ typedef struct {
 	unsigned long sig[_NSIG_WORDS];
 } sigset_t;
 
-#  include <asm/sigcontext.h>
+#  include <asm-generic/sigcontext.h>
 
 # endif /* !__ASSEMBLY__ */
 #endif /* _ASM_IA64_SIGNAL_H */

@@ -8,11 +8,11 @@
 #include <xen/grant_table.h>
 #include <xen/events.h>
 
-#include <asm/cpufeatures.h>
-#include <asm/msr-index.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/page.h>
-#include <asm/fixmap.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/msr-index.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/page.h>
+#include <asm-generic/fixmap.h>
 
 #include "xen-ops.h"
 #include "mmu.h"

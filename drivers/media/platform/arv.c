@@ -35,10 +35,10 @@
 #include <linux/mutex.h>
 
 #include <linux/uaccess.h>
-#include <asm/m32r.h>
-#include <asm/io.h>
-#include <asm/dma.h>
-#include <asm/byteorder.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/byteorder.h>
 
 #if 0
 #define DEBUG(n, args...) printk(KERN_INFO args)

@@ -25,8 +25,8 @@
 #include <linux/clk.h>
 #include <linux/err.h>
 
-#include <asm/mach-ath79/ar71xx_regs.h>
-#include <asm/mach-ath79/ath79_spi_platform.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79_spi_platform.h>
 
 #define DRV_NAME	"ath79-spi"
 

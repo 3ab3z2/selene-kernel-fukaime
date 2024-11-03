@@ -9,11 +9,11 @@
  *      2 of the License, or (at your option) any later version.
  */
 #include <linux/types.h>
-#include <asm/udbg.h>
-#include <asm/processor.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pmac_feature.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pmac_feature.h>
 
 extern u8 real_readb(volatile u8 __iomem  *addr);
 extern void real_writeb(u8 data, volatile u8 __iomem *addr);

@@ -2,7 +2,7 @@
 #ifndef _ASMSPARC64_SHMPARAM_H
 #define _ASMSPARC64_SHMPARAM_H
 
-#include <asm/spitfire.h>
+#include <asm-generic/spitfire.h>
 
 #define __ARCH_FORCE_SHMLBA	1
 /* attach addr a multiple of this */

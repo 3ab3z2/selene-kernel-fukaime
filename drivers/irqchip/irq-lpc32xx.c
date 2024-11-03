@@ -18,7 +18,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 #include <linux/slab.h>
-#include <asm/exception.h>
+#include <asm-generic/exception.h>
 
 #define LPC32XX_INTC_MASK		0x00
 #define LPC32XX_INTC_RAW		0x04

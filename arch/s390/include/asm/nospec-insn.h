@@ -2,8 +2,8 @@
 #ifndef _ASM_S390_NOSPEC_ASM_H
 #define _ASM_S390_NOSPEC_ASM_H
 
-#include <asm/alternative-asm.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/alternative-asm.h>
+#include <asm-generic/asm-offsets.h>
 
 #ifdef __ASSEMBLY__
 

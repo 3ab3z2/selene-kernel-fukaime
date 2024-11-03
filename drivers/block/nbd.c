@@ -38,7 +38,7 @@
 #include <linux/blk-mq.h>
 
 #include <linux/uaccess.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #include <linux/nbd.h>
 #include <linux/nbd-netlink.h>

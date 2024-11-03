@@ -9,7 +9,7 @@
 #ifndef _UAPI_ASM_FCNTL_H
 #define _UAPI_ASM_FCNTL_H
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #define O_APPEND	0x0008
 #define O_DSYNC		0x0010	/* used to be O_SYNC, see below */

@@ -20,12 +20,12 @@
 #include <linux/device.h>
 #include <linux/platform_device.h>
 #include <linux/of_net.h>
-#include <asm/tsi108.h>
+#include <asm-generic/tsi108.h>
 
 #include <linux/atomic.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
 #include <mm/mmu_decl.h>
 
 #undef DEBUG

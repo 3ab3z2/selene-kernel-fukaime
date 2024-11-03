@@ -40,11 +40,11 @@
 #include <net/arp.h>
 #include <net/ip.h>
 
-#include <asm/debug.h>
-#include <asm/idals.h>
-#include <asm/timex.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/idals.h>
+#include <asm-generic/timex.h>
 #include <linux/device.h>
-#include <asm/ccwgroup.h>
+#include <asm-generic/ccwgroup.h>
 
 #include "lcs.h"
 

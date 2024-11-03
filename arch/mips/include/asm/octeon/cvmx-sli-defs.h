@@ -28,7 +28,7 @@
 #ifndef __CVMX_SLI_DEFS_H__
 #define __CVMX_SLI_DEFS_H__
 
-#include <uapi/asm/bitfield.h>
+#include <uapi/asm-generic/bitfield.h>
 
 #define CVMX_SLI_PCIE_MSI_RCV CVMX_SLI_PCIE_MSI_RCV_FUNC()
 static inline uint64_t CVMX_SLI_PCIE_MSI_RCV_FUNC(void)

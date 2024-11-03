@@ -22,8 +22,8 @@
 #include <linux/platform_device.h>
 #include <linux/rtc.h>
 
-#include <asm/lv1call.h>
-#include <asm/ps3.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/ps3.h>
 
 
 static u64 read_rtc(void)

@@ -27,9 +27,9 @@
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
 #include <linux/hugetlb.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/tlb.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/tlb.h>
 
 static inline int is_exec_fault(void)
 {

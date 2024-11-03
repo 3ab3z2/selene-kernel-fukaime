@@ -8,8 +8,8 @@
 #ifndef _ASM_MIPSMTREGS_H
 #define _ASM_MIPSMTREGS_H
 
-#include <asm/mipsregs.h>
-#include <asm/war.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/war.h>
 
 #ifndef __ASSEMBLY__
 

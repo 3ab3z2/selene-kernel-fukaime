@@ -61,9 +61,9 @@
 #include <linux/ctype.h>
 #include <net/dst.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
-#include <asm/ebcdic.h>
+#include <asm-generic/ebcdic.h>
 
 #include <net/iucv/iucv.h>
 #include "fsm.h"

@@ -8,8 +8,8 @@
 #ifndef __ASM_OCTEON_OCTEON_H
 #define __ASM_OCTEON_OCTEON_H
 
-#include <asm/octeon/cvmx.h>
-#include <asm/bitfield.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/bitfield.h>
 
 extern uint64_t octeon_bootmem_alloc_range_phys(uint64_t size,
 						uint64_t alignment,

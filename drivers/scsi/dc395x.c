@@ -58,7 +58,7 @@
 #include <linux/list.h>
 #include <linux/vmalloc.h>
 #include <linux/slab.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsicam.h>	/* needed for scsicam_bios_param */

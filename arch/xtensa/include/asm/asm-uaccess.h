@@ -17,14 +17,14 @@
 #define _XTENSA_ASM_UACCESS_H
 
 #include <linux/errno.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
-#include <asm/current.h>
-#include <asm/asm-offsets.h>
-#include <asm/processor.h>
+#include <asm-generic/current.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/processor.h>
 
 /*
- * These assembly macros mirror the C macros in asm/uaccess.h.  They
+ * These assembly macros mirror the C macros in asm-generic/uaccess.h.  They
  * should always have identical functionality.  See
  * arch/xtensa/kernel/sys.S for usage.
  */

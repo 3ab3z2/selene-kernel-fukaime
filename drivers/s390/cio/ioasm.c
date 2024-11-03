@@ -5,9 +5,9 @@
 
 #include <linux/export.h>
 
-#include <asm/chpid.h>
-#include <asm/schid.h>
-#include <asm/crw.h>
+#include <asm-generic/chpid.h>
+#include <asm-generic/schid.h>
+#include <asm-generic/crw.h>
 
 #include "ioasm.h"
 #include "orb.h"

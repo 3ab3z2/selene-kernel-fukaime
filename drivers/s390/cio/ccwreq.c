@@ -11,8 +11,8 @@
 
 #include <linux/types.h>
 #include <linux/err.h>
-#include <asm/ccwdev.h>
-#include <asm/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/cio.h>
 
 #include "io_sch.h"
 #include "cio.h"

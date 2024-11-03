@@ -71,9 +71,9 @@
 #include <linux/khugepaged.h>
 #include <linux/psi.h>
 
-#include <asm/sections.h>
-#include <asm/tlbflush.h>
-#include <asm/div64.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/div64.h>
 #include "internal.h"
 
 #if defined(CONFIG_DMAUSER_PAGES)

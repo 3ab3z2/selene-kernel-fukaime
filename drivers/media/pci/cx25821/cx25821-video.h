@@ -30,7 +30,7 @@
 #include <linux/interrupt.h>
 #include <linux/delay.h>
 #include <linux/kthread.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "cx25821.h"
 #include <media/v4l2-common.h>

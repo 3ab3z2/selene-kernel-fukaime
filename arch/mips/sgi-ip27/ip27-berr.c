@@ -14,12 +14,12 @@
 #include <linux/sched/debug.h>
 #include <linux/sched/signal.h>
 
-#include <asm/ptrace.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/sn0/hub.h>
-#include <asm/tlbdebug.h>
-#include <asm/traps.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/sn0/hub.h>
+#include <asm-generic/tlbdebug.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
 
 static void dump_hub_information(unsigned long errst0, unsigned long errst1)

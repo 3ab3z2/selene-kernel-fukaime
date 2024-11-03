@@ -29,12 +29,12 @@
 #include <linux/memblock.h>
 #include <linux/slab.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/fixmap.h>
-#include <asm/io.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
 
 #include "mmu_decl.h"
 

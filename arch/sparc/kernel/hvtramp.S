@@ -5,16 +5,16 @@
  */
 
 
-#include <asm/thread_info.h>
-#include <asm/hypervisor.h>
-#include <asm/scratchpad.h>
-#include <asm/spitfire.h>
-#include <asm/hvtramp.h>
-#include <asm/pstate.h>
-#include <asm/ptrace.h>
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/pil.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/scratchpad.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/hvtramp.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pil.h>
 
 	.align		8
 	.globl		hv_cpu_startup, hv_cpu_startup_end

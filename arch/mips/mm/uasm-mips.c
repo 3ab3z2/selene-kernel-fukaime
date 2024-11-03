@@ -16,11 +16,11 @@
 #include <linux/kernel.h>
 #include <linux/types.h>
 
-#include <asm/inst.h>
-#include <asm/elf.h>
-#include <asm/bugs.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/bugs.h>
 #define UASM_ISA	_UASM_ISA_CLASSIC
-#include <asm/uasm.h>
+#include <asm-generic/uasm.h>
 
 #define RS_MASK		0x1f
 #define RS_SH		21

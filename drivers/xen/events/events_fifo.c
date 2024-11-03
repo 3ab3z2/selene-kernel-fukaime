@@ -40,10 +40,10 @@
 #include <linux/percpu.h>
 #include <linux/cpu.h>
 
-#include <asm/barrier.h>
-#include <asm/sync_bitops.h>
-#include <asm/xen/hypercall.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/sync_bitops.h>
+#include <asm-generic/xen/hypercall.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include <xen/xen.h>
 #include <xen/xen-ops.h>

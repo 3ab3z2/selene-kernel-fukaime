@@ -10,9 +10,9 @@
 #include <linux/percpu.h>
 #include <linux/init.h>
 
-#include <asm/cpudata.h>
-#include <asm/hypervisor.h>
-#include <asm/spitfire.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/spitfire.h>
 
 static DEFINE_PER_CPU(struct hv_mmu_statistics, mmu_stats) __attribute__((aligned(64)));
 

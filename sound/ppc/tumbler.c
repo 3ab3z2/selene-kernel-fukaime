@@ -34,9 +34,9 @@
 #include <linux/of_irq.h>
 #include <linux/io.h>
 #include <sound/core.h>
-#include <asm/irq.h>
-#include <asm/machdep.h>
-#include <asm/pmac_feature.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pmac_feature.h>
 #include "pmac.h"
 #include "tumbler_volume.h"
 

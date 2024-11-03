@@ -17,7 +17,7 @@
 #include <linux/err.h>
 #include <linux/uaccess.h>
 
-#include <asm/switch.h>
+#include <asm-generic/switch.h>
 
 static inline long syscall_get_nr(struct task_struct *task,
 				  struct pt_regs *regs)

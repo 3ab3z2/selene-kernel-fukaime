@@ -39,12 +39,12 @@
 #include <linux/of_fdt.h>
 #include <linux/hugetlb.h>
 
-#include <asm/tlbflush.h>
-#include <asm/tlb.h>
-#include <asm/code-patching.h>
-#include <asm/cputhreads.h>
-#include <asm/hugetlb.h>
-#include <asm/paca.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/hugetlb.h>
+#include <asm-generic/paca.h>
 
 #include "mmu_decl.h"
 

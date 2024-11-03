@@ -30,9 +30,9 @@
 #include <linux/uaccess.h>
 #include <linux/io.h>
 #include <linux/kallsyms.h>
-#include <asm/pgtable.h>
+#include <asm-generic/pgtable.h>
 #include <linux/mmiotrace.h>
-#include <asm/e820/api.h> /* for ISA_START_ADDRESS */
+#include <asm-generic/e820/api.h> /* for ISA_START_ADDRESS */
 #include <linux/atomic.h>
 #include <linux/percpu.h>
 #include <linux/cpu.h>

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/iommu.h>
-#include <asm/machvec.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/machvec.h>
 
 extern ia64_mv_send_ipi_t ia64_send_ipi;
 extern ia64_mv_global_tlb_purge_t ia64_global_tlb_purge;

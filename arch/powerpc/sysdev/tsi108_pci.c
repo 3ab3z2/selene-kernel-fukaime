@@ -27,16 +27,16 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 
-#include <asm/byteorder.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 #include <linux/uaccess.h>
-#include <asm/machdep.h>
-#include <asm/pci-bridge.h>
-#include <asm/tsi108.h>
-#include <asm/tsi108_pci.h>
-#include <asm/tsi108_irq.h>
-#include <asm/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/tsi108.h>
+#include <asm-generic/tsi108_pci.h>
+#include <asm-generic/tsi108_irq.h>
+#include <asm-generic/prom.h>
 
 #undef DEBUG
 #ifdef DEBUG

@@ -40,7 +40,7 @@
 #include <linux/crc32.h>
 #include <linux/virtio_ids.h>
 #include <linux/virtio_ring.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "remoteproc_internal.h"
 

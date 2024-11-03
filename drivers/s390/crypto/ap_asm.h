@@ -9,7 +9,7 @@
 #ifndef _AP_ASM_H_
 #define _AP_ASM_H_
 
-#include <asm/isc.h>
+#include <asm-generic/isc.h>
 
 /**
  * ap_intructions_available() - Test if AP instructions are available.

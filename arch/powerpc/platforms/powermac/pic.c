@@ -25,15 +25,15 @@
 #include <linux/adb.h>
 #include <linux/pmu.h>
 
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/time.h>
-#include <asm/pmac_feature.h>
-#include <asm/mpic.h>
-#include <asm/xmon.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/time.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/xmon.h>
 
 #include "pmac.h"
 

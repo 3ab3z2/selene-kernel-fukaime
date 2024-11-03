@@ -15,8 +15,8 @@
 #include <linux/pci.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
-#include <asm/superio.h>
+#include <asm-generic/io.h>
+#include <asm-generic/superio.h>
 
 #define DEBUG_RESOURCES 0
 #define DEBUG_CONFIG 0

@@ -17,7 +17,7 @@
 #include <linux/compat.h>
 #include <linux/sched/signal.h>
 
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 
 #include "../../mount.h"
 #include "../fdinfo.h"

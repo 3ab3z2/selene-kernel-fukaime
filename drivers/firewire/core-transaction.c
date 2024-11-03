@@ -39,7 +39,7 @@
 #include <linux/types.h>
 #include <linux/workqueue.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "core.h"
 

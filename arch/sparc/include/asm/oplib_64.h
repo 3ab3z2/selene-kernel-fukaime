@@ -9,7 +9,7 @@
 #ifndef __SPARC64_OPLIB_H
 #define __SPARC64_OPLIB_H
 
-#include <asm/openprom.h>
+#include <asm-generic/openprom.h>
 
 /* OBP version string. */
 extern char prom_version[];

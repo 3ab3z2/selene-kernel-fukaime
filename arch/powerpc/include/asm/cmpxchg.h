@@ -4,8 +4,8 @@
 
 #ifdef __KERNEL__
 #include <linux/compiler.h>
-#include <asm/synch.h>
-#include <asm/asm-compat.h>
+#include <asm-generic/synch.h>
+#include <asm-generic/asm-compat.h>
 #include <linux/bug.h>
 
 #ifdef __BIG_ENDIAN

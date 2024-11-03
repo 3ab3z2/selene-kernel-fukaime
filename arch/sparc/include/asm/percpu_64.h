@@ -8,7 +8,7 @@ register unsigned long __local_per_cpu_offset asm("g5");
 
 #ifdef CONFIG_SMP
 
-#include <asm/trap_block.h>
+#include <asm-generic/trap_block.h>
 
 #define __per_cpu_offset(__cpu) \
 	(trap_block[(__cpu)].__per_cpu_base)

@@ -29,7 +29,7 @@
 #include <linux/mutex.h>
 #include <linux/pm_qos.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <media/v4l2-common.h>
 #include <media/v4l2-ioctl.h>

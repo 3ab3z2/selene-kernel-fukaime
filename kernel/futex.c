@@ -69,7 +69,7 @@
 #include <linux/bootmem.h>
 #include <linux/fault-inject.h>
 
-#include <asm/futex.h>
+#include <asm-generic/futex.h>
 
 #include "locking/rtmutex_common.h"
 

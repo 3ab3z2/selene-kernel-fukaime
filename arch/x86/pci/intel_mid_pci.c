@@ -28,11 +28,11 @@
 #include <linux/io.h>
 #include <linux/smp.h>
 
-#include <asm/segment.h>
-#include <asm/pci_x86.h>
-#include <asm/hw_irq.h>
-#include <asm/io_apic.h>
-#include <asm/intel-mid.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/hw_irq.h>
+#include <asm-generic/io_apic.h>
+#include <asm-generic/intel-mid.h>
 
 #define PCIE_CAP_OFFSET	0x100
 

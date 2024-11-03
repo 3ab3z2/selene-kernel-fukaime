@@ -2,7 +2,7 @@
 #ifndef _SPARC64_UPA_H
 #define _SPARC64_UPA_H
 
-#include <asm/asi.h>
+#include <asm-generic/asi.h>
 
 /* UPA level registers and defines. */
 

@@ -60,7 +60,7 @@
 #include <net/Space.h>
 
 #include <asm/io.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/byteorder.h>
 #include <asm/irq.h>
 #include <linux/uaccess.h>

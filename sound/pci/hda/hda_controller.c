@@ -30,7 +30,7 @@
 
 #ifdef CONFIG_X86
 /* for art-tsc conversion */
-#include <asm/tsc.h>
+#include <asm-generic/tsc.h>
 #endif
 
 #include <sound/core.h>

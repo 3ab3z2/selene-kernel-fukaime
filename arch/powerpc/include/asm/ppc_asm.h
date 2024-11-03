@@ -5,10 +5,10 @@
 #define _ASM_POWERPC_PPC_ASM_H
 
 #include <linux/stringify.h>
-#include <asm/asm-compat.h>
-#include <asm/processor.h>
-#include <asm/ppc-opcode.h>
-#include <asm/firmware.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc-opcode.h>
+#include <asm-generic/firmware.h>
 
 #ifdef __ASSEMBLY__
 

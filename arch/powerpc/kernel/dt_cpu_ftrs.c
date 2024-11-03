@@ -15,12 +15,12 @@
 #include <linux/string.h>
 #include <linux/threads.h>
 
-#include <asm/cputable.h>
-#include <asm/dt_cpu_ftrs.h>
-#include <asm/mmu.h>
-#include <asm/oprofile_impl.h>
-#include <asm/prom.h>
-#include <asm/setup.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/dt_cpu_ftrs.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/oprofile_impl.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/setup.h>
 
 
 /* Device-tree visible constants follow */

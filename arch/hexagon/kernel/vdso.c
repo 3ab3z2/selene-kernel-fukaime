@@ -23,7 +23,7 @@
 #include <linux/vmalloc.h>
 #include <linux/binfmts.h>
 
-#include <asm/vdso.h>
+#include <asm-generic/vdso.h>
 
 static struct page *vdso_page;
 

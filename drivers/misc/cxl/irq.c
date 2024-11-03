@@ -13,7 +13,7 @@
 #include <linux/wait.h>
 #include <linux/slab.h>
 #include <linux/pid.h>
-#include <asm/cputable.h>
+#include <asm-generic/cputable.h>
 #include <misc/cxl-base.h>
 
 #include "cxl.h"

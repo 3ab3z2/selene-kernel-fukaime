@@ -4,8 +4,8 @@
 
 #include <linux/thread_info.h>
 #include <linux/sched.h>
-#include <asm/ptrace.h>
-#include <asm/irq.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/irq.h>
 
 /* SP must be STACK_BIAS adjusted already.  */
 static inline bool kstack_valid(struct thread_info *tp, unsigned long sp)

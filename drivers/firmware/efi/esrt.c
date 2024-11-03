@@ -24,8 +24,8 @@
 #include <linux/slab.h>
 #include <linux/types.h>
 
-#include <asm/io.h>
-#include <asm/early_ioremap.h>
+#include <asm-generic/io.h>
+#include <asm-generic/early_ioremap.h>
 
 struct efi_system_resource_entry_v1 {
 	efi_guid_t	fw_class;

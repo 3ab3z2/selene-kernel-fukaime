@@ -1,5 +1,5 @@
 /*
- * arch/hexagon/include/asm/kgdb.h - Hexagon KGDB Support
+ * arch/hexagon/include/asm-generic/kgdb.h - Hexagon KGDB Support
  *
  * Copyright (c) 2011, The Linux Foundation. All rights reserved.
  *

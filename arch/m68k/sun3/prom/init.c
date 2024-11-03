@@ -9,8 +9,8 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
 
 struct linux_romvec *romvec;
 enum prom_major_version prom_vers;

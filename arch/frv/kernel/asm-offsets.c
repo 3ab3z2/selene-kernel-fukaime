@@ -9,11 +9,11 @@
 #include <linux/signal.h>
 #include <linux/personality.h>
 #include <linux/kbuild.h>
-#include <asm/registers.h>
-#include <asm/ucontext.h>
-#include <asm/processor.h>
-#include <asm/thread_info.h>
-#include <asm/gdb-stub.h>
+#include <asm-generic/registers.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/gdb-stub.h>
 
 #define DEF_PTREG(sym, reg) OFFSET(sym, pt_regs, reg)
 #define DEF_IREG(sym, reg) OFFSET(sym, user_context, reg)

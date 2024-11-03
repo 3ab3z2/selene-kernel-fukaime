@@ -17,7 +17,7 @@
  * Adapted from the highbank_mc_edac driver.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/ctype.h>
 #include <linux/delay.h>
 #include <linux/edac.h>

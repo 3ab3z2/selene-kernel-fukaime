@@ -17,7 +17,7 @@
 #include <linux/module.h>
 #include <linux/pci.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <misc/cxl.h>
 

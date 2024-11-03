@@ -20,10 +20,10 @@
 #include <linux/init.h>
 #include <linux/irq.h>
 
-#include <asm/traps.h>
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_psc.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_psc.h>
 
 #define DEBUG_PSC
 

@@ -15,7 +15,7 @@
 #include <uapi/linux/audit.h>
 #include <linux/sched.h>
 #include <linux/err.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 /*
  * The syscall table always contains 32 bit pointers since we know that the

@@ -26,12 +26,12 @@
 #include <linux/ftrace.h>
 #include <linux/bug.h>
 #include <linux/uaccess.h>
-#include <asm/module.h>
-#include <asm/firmware.h>
-#include <asm/code-patching.h>
+#include <asm-generic/module.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/code-patching.h>
 #include <linux/sort.h>
-#include <asm/setup.h>
-#include <asm/sections.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/sections.h>
 
 /* FIXME: We don't do .init separately.  To do this, we'd need to have
    a separate r2 value in the init and core section, and stub between

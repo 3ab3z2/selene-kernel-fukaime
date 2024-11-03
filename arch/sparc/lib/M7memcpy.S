@@ -88,8 +88,8 @@
  *
  */
 
-#include <asm/visasm.h>
-#include <asm/asi.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/asi.h>
 
 #if !defined(EX_LD) && !defined(EX_ST)
 #define NON_USER_COPY

@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_BITOPS___FLS_H_
 #define _ASM_GENERIC_BITOPS___FLS_H_
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /**
  * __fls - find last (most-significant) set bit in a long word

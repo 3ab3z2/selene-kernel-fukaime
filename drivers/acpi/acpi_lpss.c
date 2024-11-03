@@ -30,9 +30,9 @@ ACPI_MODULE_NAME("acpi_lpss");
 
 #ifdef CONFIG_X86_INTEL_LPSS
 
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/iosf_mbi.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/iosf_mbi.h>
 
 #define LPSS_ADDR(desc) ((unsigned long)&desc)
 

@@ -15,7 +15,7 @@
 #include <linux/fb.h>
 #include <linux/dio.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 
 static struct fb_info fb_info = {

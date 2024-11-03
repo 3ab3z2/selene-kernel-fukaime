@@ -19,8 +19,8 @@
  * Add an appropriate section for your OS or processor architecture.
  */
 #if defined(__KERNEL__)
-#include <asm/page.h>
-#include <asm/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/io.h>
 #define STG_WRITE_REG(reg,data) (writel(data,&pSTGReg->reg))
 #define STG_READ_REG(reg)      (readl(&pSTGReg->reg))
 #else

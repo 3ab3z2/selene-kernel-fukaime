@@ -57,9 +57,9 @@ MODULE_DESCRIPTION("Adaptec I2O RAID Driver");
 #include <linux/ioport.h>
 #include <linux/mutex.h>
 
-#include <asm/processor.h>	/* for boot_cpu_data */
-#include <asm/pgtable.h>
-#include <asm/io.h>
+#include <asm-generic/processor.h>	/* for boot_cpu_data */
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>
@@ -1684,7 +1684,7 @@ static void adpt_alpha_info(sysInfo_S* si)
 
 #if defined __i386__
 
-#include <uapi/asm/vm86.h>
+#include <uapi/asm-generic/vm86.h>
 
 static void adpt_i386_info(sysInfo_S* si)
 {

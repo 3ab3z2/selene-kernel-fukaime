@@ -12,13 +12,13 @@
 #include <linux/cpu_pm.h>
 #include <linux/init.h>
 
-#include <asm/dsp.h>
-#include <asm/fpu.h>
-#include <asm/mmu_context.h>
-#include <asm/pm.h>
-#include <asm/watch.h>
+#include <asm-generic/dsp.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/pm.h>
+#include <asm-generic/watch.h>
 
-/* Used by PM helper macros in asm/pm.h */
+/* Used by PM helper macros in asm-generic/pm.h */
 struct mips_static_suspend_state mips_static_suspend_state;
 
 /**

@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <err.h>
 #include <string.h>
-#include <asm/ptrace-abi.h>
+#include <asm-generic/ptrace-abi.h>
 #include <sys/auxv.h>
 
 /* Bitness-agnostic defines for user_regs_struct fields. */

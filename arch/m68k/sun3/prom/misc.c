@@ -9,11 +9,11 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/sched.h>
-#include <asm/sun3-head.h>
-#include <asm/idprom.h>
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/movs.h>
+#include <asm-generic/sun3-head.h>
+#include <asm-generic/idprom.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/movs.h>
 
 /* Reset and reboot the machine with the command 'bcommand'. */
 void

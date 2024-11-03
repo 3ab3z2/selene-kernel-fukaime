@@ -43,7 +43,7 @@
 #include <linux/spinlock.h>
 #include <linux/types.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 #include "io-pgtable.h"
 

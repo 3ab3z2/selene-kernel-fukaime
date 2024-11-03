@@ -24,7 +24,7 @@
 /*
  * Page table definitions for Qualcomm Hexagon processor.
  */
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 
@@ -39,7 +39,7 @@ extern unsigned long zero_page_mask;
  * the underlying Hexagon processor. A kernel built to run on the
  * virtual machine has no need to know about the underlying hardware.
  */
-#include <asm/vm_mmu.h>
+#include <asm-generic/vm_mmu.h>
 
 /*
  * To maximize the comfort level for the PTE manipulation macros,

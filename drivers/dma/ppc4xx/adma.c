@@ -41,8 +41,8 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
-#include <asm/dcr.h>
-#include <asm/dcr-regs.h>
+#include <asm-generic/dcr.h>
+#include <asm-generic/dcr-regs.h>
 #include "adma.h"
 #include "../dmaengine.h"
 

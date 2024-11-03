@@ -16,7 +16,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #ifdef CONFIG_ARC_FPU_SAVE_RESTORE
 /* These DPFP regs need to be saved/restored across ctx-sw */
@@ -126,7 +126,7 @@ extern unsigned int get_wchan(struct task_struct *p);
 
 #define VMALLOC_START	(PAGE_OFFSET - (CONFIG_ARC_KVADDR_SIZE << 20))
 
-/* 1 PGDIR_SIZE each for fixmap/pkmap, 2 PGDIR_SIZE gutter (see asm/highmem.h) */
+/* 1 PGDIR_SIZE each for fixmap/pkmap, 2 PGDIR_SIZE gutter (see asm-generic/highmem.h) */
 #define VMALLOC_SIZE	((CONFIG_ARC_KVADDR_SIZE << 20) - PGDIR_SIZE * 4)
 
 #define VMALLOC_END	(VMALLOC_START + VMALLOC_SIZE)

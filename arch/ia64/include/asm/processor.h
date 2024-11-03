@@ -15,10 +15,10 @@
  */
 
 
-#include <asm/intrinsics.h>
-#include <asm/kregs.h>
-#include <asm/ptrace.h>
-#include <asm/ustack.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/ustack.h>
 
 #define IA64_NUM_PHYS_STACK_REG	96
 #define IA64_NUM_DBG_REGS	8
@@ -71,14 +71,14 @@
 #include <linux/types.h>
 #include <linux/bitops.h>
 
-#include <asm/fpu.h>
-#include <asm/page.h>
-#include <asm/percpu.h>
-#include <asm/rse.h>
-#include <asm/unwind.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/percpu.h>
+#include <asm-generic/rse.h>
+#include <asm-generic/unwind.h>
 #include <linux/atomic.h>
 #ifdef CONFIG_NUMA
-#include <asm/nodedata.h>
+#include <asm-generic/nodedata.h>
 #endif
 
 /* like above but expressed as bitfields for more efficient access: */

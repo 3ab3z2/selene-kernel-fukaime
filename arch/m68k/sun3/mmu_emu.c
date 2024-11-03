@@ -18,16 +18,16 @@
 #include <linux/module.h>
 #include <linux/sched/mm.h>
 
-#include <asm/setup.h>
-#include <asm/traps.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/traps.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/sun3mmu.h>
-#include <asm/segment.h>
-#include <asm/oplib.h>
-#include <asm/mmu_context.h>
-#include <asm/dvma.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sun3mmu.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/dvma.h>
 
 
 #undef DEBUG_MMU_EMU
@@ -347,7 +347,7 @@ inline void mmu_emu_map_pmeg (int context, int vaddr)
  * if we successfully handled the fault.
  */
 //todo: should we bump minor pagefault counter? if so, here or in caller?
-//todo: possibly inline this into bus_error030 in <asm/buserror.h> ?
+//todo: possibly inline this into bus_error030 in <asm-generic/buserror.h> ?
 
 // kernel_fault is set when a kernel page couldn't be demand mapped,
 // and forces another try using the kernel page table.  basically a

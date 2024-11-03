@@ -14,7 +14,7 @@
 #include <linux/stacktrace.h>
 #include <linux/module.h>
 #include <linux/uaccess.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/stacktrace.h>
 
 void dump_trace(struct task_struct *tsk,
 		const struct stacktrace_ops *ops,

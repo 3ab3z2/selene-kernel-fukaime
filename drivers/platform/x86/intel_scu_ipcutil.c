@@ -22,7 +22,7 @@
 #include <linux/uaccess.h>
 #include <linux/slab.h>
 #include <linux/init.h>
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 static int major;
 

@@ -15,10 +15,10 @@
 #include <linux/string.h>
 #include <linux/init.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
 
 int __indirect_read_config(struct pci_controller *hose,
 			   unsigned char bus_number, unsigned int devfn,

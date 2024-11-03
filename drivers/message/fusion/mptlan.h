@@ -70,7 +70,7 @@
 #include <linux/delay.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
     /* Override mptbase.h by pre-defining these! */
 #define MODULEAUTHOR	"LSI Corporation"

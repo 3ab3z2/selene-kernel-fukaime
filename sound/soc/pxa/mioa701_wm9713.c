@@ -44,7 +44,7 @@
 #include <linux/moduleparam.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/audio.h>
 
 #include <sound/core.h>

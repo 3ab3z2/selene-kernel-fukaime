@@ -34,7 +34,7 @@
 #include <linux/io.h>
 #include <linux/clk.h>
 #include <linux/err.h>
-#include <asm/watchdog.h>
+#include <asm-generic/watchdog.h>
 
 #define DRV_NAME "sh-wdt"
 

@@ -19,9 +19,9 @@
 #error only <linux/bitops.h> can be included directly
 #endif
 
-#include <asm/processor.h>
-#include <asm/byteorder.h>
-#include <asm/barrier.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/barrier.h>
 
 #include <asm-generic/bitops/non-atomic.h>
 

@@ -15,7 +15,7 @@
 #include <linux/kernel.h>
 #include <linux/bitops.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 #include <msp_slp_int.h>
 #include <msp_regs.h>

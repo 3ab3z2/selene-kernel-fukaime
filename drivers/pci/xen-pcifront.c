@@ -14,7 +14,7 @@
 #include <linux/pci.h>
 #include <linux/msi.h>
 #include <xen/interface/io/pciif.h>
-#include <asm/xen/pci.h>
+#include <asm-generic/xen/pci.h>
 #include <linux/interrupt.h>
 #include <linux/atomic.h>
 #include <linux/workqueue.h>
@@ -23,7 +23,7 @@
 #include <linux/ktime.h>
 #include <xen/platform_pci.h>
 
-#include <asm/xen/swiotlb-xen.h>
+#include <asm-generic/xen/swiotlb-xen.h>
 #define INVALID_GRANT_REF (0)
 #define INVALID_EVTCHN    (-1)
 

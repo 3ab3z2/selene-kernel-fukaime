@@ -7,9 +7,9 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
-#include <asm/cache.h>
-#include <asm/page.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/page.h>
 
 /* 05000443 - IFLUSH cannot be last instruction in hardware loop */
 #if ANOMALY_05000443

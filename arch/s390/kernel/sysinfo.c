@@ -14,12 +14,12 @@
 #include <linux/delay.h>
 #include <linux/export.h>
 #include <linux/slab.h>
-#include <asm/ebcdic.h>
-#include <asm/debug.h>
-#include <asm/sysinfo.h>
-#include <asm/cpcmd.h>
-#include <asm/topology.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/sysinfo.h>
+#include <asm-generic/cpcmd.h>
+#include <asm-generic/topology.h>
+#include <asm-generic/fpu/api.h>
 
 int topology_max_mnest;
 

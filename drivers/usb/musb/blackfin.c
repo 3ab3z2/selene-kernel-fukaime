@@ -20,7 +20,7 @@
 #include <linux/prefetch.h>
 #include <linux/usb/usb_phy_generic.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "musb_core.h"
 #include "musbhsdma.h"

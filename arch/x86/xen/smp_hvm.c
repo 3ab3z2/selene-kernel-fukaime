@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 
 #include <xen/events.h>
 

@@ -16,8 +16,8 @@
 
 #include <linux/compiler.h>
 #include <linux/types.h>
-#include <asm/intrinsics.h>
-#include <asm/barrier.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/barrier.h>
 
 /**
  * set_bit - Atomically set a bit in memory

@@ -4,8 +4,8 @@
 
 #include <linux/types.h>
 #include <linux/irqflags.h>
-#include <asm/cmpxchg.h>
-#include <asm/barrier.h>
+#include <asm-generic/cmpxchg.h>
+#include <asm-generic/barrier.h>
 
 /*
  * Atomic operations that C can't guarantee us.  Useful for

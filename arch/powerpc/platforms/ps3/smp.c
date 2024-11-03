@@ -21,8 +21,8 @@
 #include <linux/kernel.h>
 #include <linux/smp.h>
 
-#include <asm/machdep.h>
-#include <asm/udbg.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/udbg.h>
 
 #include "platform.h"
 

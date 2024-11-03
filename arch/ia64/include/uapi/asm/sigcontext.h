@@ -7,7 +7,7 @@
  * Copyright (C) 1998, 1999, 2001 David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/fpu.h>
+#include <asm-generic/fpu.h>
 
 #define IA64_SC_FLAG_ONSTACK_BIT		0	/* is handler running on signal stack? */
 #define IA64_SC_FLAG_IN_SYSCALL_BIT		1	/* did signal interrupt a syscall? */

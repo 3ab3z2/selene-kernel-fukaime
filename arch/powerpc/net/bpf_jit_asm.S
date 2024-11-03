@@ -9,7 +9,7 @@
  * of the License.
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 #include "bpf_jit32.h"
 
 /*

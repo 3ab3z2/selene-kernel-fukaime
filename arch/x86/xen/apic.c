@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-2.0
 #include <linux/init.h>
 
-#include <asm/x86_init.h>
-#include <asm/apic.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/x86_init.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/xen/hypercall.h>
 
 #include <xen/xen.h>
 #include <xen/interface/physdev.h>

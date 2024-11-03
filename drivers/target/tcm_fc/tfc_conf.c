@@ -33,7 +33,7 @@
 #include <linux/configfs.h>
 #include <linux/kernel.h>
 #include <linux/ctype.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <scsi/libfc.h>
 
 #include <target/target_core_base.h>

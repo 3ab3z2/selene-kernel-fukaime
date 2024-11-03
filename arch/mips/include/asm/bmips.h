@@ -12,9 +12,9 @@
 
 #include <linux/compiler.h>
 #include <linux/linkage.h>
-#include <asm/addrspace.h>
-#include <asm/mipsregs.h>
-#include <asm/hazards.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/hazards.h>
 
 /* NOTE: the CBR register returns a PA, and it can be above 0xff00_0000 */
 #define BMIPS_GET_CBR()			((void __iomem *)(CKSEG1 | \
@@ -45,8 +45,8 @@
 #if !defined(__ASSEMBLY__)
 
 #include <linux/cpumask.h>
-#include <asm/r4kcache.h>
-#include <asm/smp-ops.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/smp-ops.h>
 
 extern const struct plat_smp_ops bmips43xx_smp_ops;
 extern const struct plat_smp_ops bmips5000_smp_ops;

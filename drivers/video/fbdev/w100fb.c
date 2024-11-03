@@ -34,7 +34,7 @@
 #include <linux/string.h>
 #include <linux/vmalloc.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/uaccess.h>
 #include <video/w100fb.h>
 #include "w100fb.h"

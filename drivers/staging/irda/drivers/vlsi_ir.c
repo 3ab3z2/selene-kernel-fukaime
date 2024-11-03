@@ -46,7 +46,7 @@ MODULE_LICENSE("GPL");
 #include <linux/math64.h>
 #include <linux/mutex.h>
 #include <linux/uaccess.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <net/irda/irda.h>
 #include <net/irda/irda_device.h>

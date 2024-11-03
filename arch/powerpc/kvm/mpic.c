@@ -30,10 +30,10 @@
 #include <linux/fs.h>
 #include <linux/anon_inodes.h>
 #include <linux/uaccess.h>
-#include <asm/mpic.h>
-#include <asm/kvm_para.h>
-#include <asm/kvm_host.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/kvm_para.h>
+#include <asm-generic/kvm_host.h>
+#include <asm-generic/kvm_ppc.h>
 #include <kvm/iodev.h>
 
 #define MAX_CPU     32

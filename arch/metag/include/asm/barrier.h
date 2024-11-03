@@ -2,7 +2,7 @@
 #ifndef _ASM_METAG_BARRIER_H
 #define _ASM_METAG_BARRIER_H
 
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 #define nop()		asm volatile ("NOP")
 

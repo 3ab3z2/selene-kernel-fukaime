@@ -2,10 +2,10 @@
 #ifndef _SUN3_PGTABLE_H
 #define _SUN3_PGTABLE_H
 
-#include <asm/sun3mmu.h>
+#include <asm-generic/sun3mmu.h>
 
 #ifndef __ASSEMBLY__
-#include <asm/virtconvert.h>
+#include <asm-generic/virtconvert.h>
 #include <linux/linkage.h>
 
 /*

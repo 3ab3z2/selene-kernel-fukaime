@@ -13,9 +13,9 @@
 #include <linux/vmalloc.h>
 
 #include "internal.h"
-#include <asm/dma.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
 
 /*
  * Permanent SPARSEMEM data:

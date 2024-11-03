@@ -32,7 +32,7 @@
 #include <linux/types.h>
 #include <linux/of_graph.h>
 #include <linux/of_device.h>
-#include <asm/sizes.h>
+#include <asm-generic/sizes.h>
 
 #include <drm/drmP.h>
 #include <drm/drm_atomic.h>

@@ -47,7 +47,7 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/fsl_lbc.h>
+#include <asm-generic/fsl_lbc.h>
 
 #define MAX_BANKS 8
 

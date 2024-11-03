@@ -29,7 +29,7 @@
 #include <linux/nfc.h>
 #include <linux/firmware.h>
 
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include <net/nfc/hci.h>
 #include <net/nfc/llc.h>

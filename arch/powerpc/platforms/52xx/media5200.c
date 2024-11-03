@@ -25,10 +25,10 @@
 #include <linux/irq.h>
 #include <linux/interrupt.h>
 #include <linux/io.h>
-#include <asm/time.h>
-#include <asm/prom.h>
-#include <asm/machdep.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/time.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mpc52xx.h>
 
 static const struct of_device_id mpc5200_gpio_ids[] __initconst = {
 	{ .compatible = "fsl,mpc5200-gpio", },

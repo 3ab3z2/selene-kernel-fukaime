@@ -2,7 +2,7 @@
 #ifndef __YENTA_H
 #define __YENTA_H
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define CB_SOCKET_EVENT		0x00
 #define    CB_CSTSEVENT		0x00000001	/* Card status event */

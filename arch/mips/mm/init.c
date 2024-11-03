@@ -33,20 +33,20 @@
 #include <linux/export.h>
 #include <linux/initrd.h>
 
-#include <asm/asm-offsets.h>
-#include <asm/bootinfo.h>
-#include <asm/cachectl.h>
-#include <asm/cpu.h>
-#include <asm/dma.h>
-#include <asm/kmap_types.h>
-#include <asm/maar.h>
-#include <asm/mmu_context.h>
-#include <asm/sections.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlb.h>
-#include <asm/fixmap.h>
-#include <asm/maar.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/maar.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/maar.h>
 
 /*
  * We have up to 8 empty zeroed pages so we can map one of the right colour

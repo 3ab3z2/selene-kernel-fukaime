@@ -35,7 +35,7 @@
 #include <linux/i2c-algo-pcf.h>
 #include <linux/io.h>
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #include "../algos/i2c-algo-pcf.h"
 

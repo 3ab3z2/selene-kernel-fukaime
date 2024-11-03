@@ -29,16 +29,16 @@
  *
  * Support library for the SPI
  */
-#include <asm/octeon/octeon.h>
+#include <asm-generic/octeon/octeon.h>
 
-#include <asm/octeon/cvmx-config.h>
+#include <asm-generic/octeon/cvmx-config.h>
 
-#include <asm/octeon/cvmx-pko.h>
-#include <asm/octeon/cvmx-spi.h>
+#include <asm-generic/octeon/cvmx-pko.h>
+#include <asm-generic/octeon/cvmx-spi.h>
 
-#include <asm/octeon/cvmx-spxx-defs.h>
-#include <asm/octeon/cvmx-stxx-defs.h>
-#include <asm/octeon/cvmx-srxx-defs.h>
+#include <asm-generic/octeon/cvmx-spxx-defs.h>
+#include <asm-generic/octeon/cvmx-stxx-defs.h>
+#include <asm-generic/octeon/cvmx-srxx-defs.h>
 
 #define INVOKE_CB(function_p, args...)		\
 	do {					\

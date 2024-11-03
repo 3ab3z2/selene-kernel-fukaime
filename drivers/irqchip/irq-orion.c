@@ -14,8 +14,8 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 /*
  * Orion SoC main interrupt controller

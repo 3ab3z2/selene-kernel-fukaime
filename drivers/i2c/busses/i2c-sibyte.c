@@ -19,8 +19,8 @@
 #include <linux/init.h>
 #include <linux/i2c.h>
 #include <linux/io.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_smbus.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_smbus.h>
 
 
 struct i2c_algo_sibyte_data {

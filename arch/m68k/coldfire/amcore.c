@@ -19,9 +19,9 @@
 #include <linux/mtd/physmap.h>
 #include <linux/i2c.h>
 
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/io.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/io.h>
 
 #if IS_ENABLED(CONFIG_DM9000)
 

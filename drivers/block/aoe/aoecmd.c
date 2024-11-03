@@ -15,7 +15,7 @@
 #include <linux/workqueue.h>
 #include <linux/kthread.h>
 #include <net/net_namespace.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include <linux/uio.h>
 #include "aoe.h"
 

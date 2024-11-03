@@ -2,7 +2,7 @@
 #ifndef __ASM_TLBEX_H
 #define __ASM_TLBEX_H
 
-#include <asm/uasm.h>
+#include <asm-generic/uasm.h>
 
 /*
  * Write random or indexed TLB entry, and care about the hazards from

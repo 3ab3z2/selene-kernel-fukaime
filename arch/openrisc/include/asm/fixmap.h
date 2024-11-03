@@ -28,7 +28,7 @@
 
 #include <linux/kernel.h>
 #include <linux/bug.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /*
  * On OpenRISC we use these special fixed_addresses for doing ioremap

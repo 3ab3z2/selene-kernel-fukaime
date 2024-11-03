@@ -13,7 +13,7 @@
 #ifndef _ASM_MICROBLAZE_CACHE_H
 #define _ASM_MICROBLAZE_CACHE_H
 
-#include <asm/registers.h>
+#include <asm-generic/registers.h>
 
 #define L1_CACHE_SHIFT 5
 /* word-granular cache in microblaze */

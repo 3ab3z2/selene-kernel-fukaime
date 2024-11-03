@@ -14,13 +14,13 @@
 #include <linux/bootmem.h>
 #include <linux/export.h>
 
-#include <asm/cpudata.h>
-#include <asm/hypervisor.h>
-#include <asm/mdesc.h>
-#include <asm/prom.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/mdesc.h>
+#include <asm-generic/prom.h>
 #include <linux/uaccess.h>
-#include <asm/oplib.h>
-#include <asm/smp.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/smp.h>
 
 /* Unlike the OBP device tree, the machine description is a full-on
  * DAG.  An arbitrary number of ARCs are possible from one

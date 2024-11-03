@@ -35,8 +35,8 @@
 #include <linux/oom.h>
 #include <linux/page_owner.h>
 
-#include <asm/tlb.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/pgalloc.h>
 #include "internal.h"
 
 /*

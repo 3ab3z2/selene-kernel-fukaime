@@ -19,8 +19,8 @@
 #include <linux/sched.h>
 #include <linux/sched/loadavg.h>
 #include <linux/sched/stat.h>
-#include <asm/appldata.h>
-#include <asm/smp.h>
+#include <asm-generic/appldata.h>
+#include <asm-generic/smp.h>
 
 #include "appldata.h"
 

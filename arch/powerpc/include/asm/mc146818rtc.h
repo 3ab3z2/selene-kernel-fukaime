@@ -12,7 +12,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #ifndef RTC_PORT
 #define RTC_PORT(x)	(0x70 + (x))

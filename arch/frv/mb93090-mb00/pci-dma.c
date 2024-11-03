@@ -16,7 +16,7 @@
 #include <linux/export.h>
 #include <linux/highmem.h>
 #include <linux/scatterlist.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 static void *frv_dma_alloc(struct device *hwdev, size_t size,
 		dma_addr_t *dma_handle, gfp_t gfp, unsigned long attrs)

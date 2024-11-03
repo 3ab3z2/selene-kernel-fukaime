@@ -21,11 +21,11 @@
 #include <linux/init.h>
 #include <linux/mm.h>
 #include <linux/bootmem.h>
-#include <asm/atomic.h>
+#include <asm-generic/atomic.h>
 #include <linux/highmem.h>
-#include <asm/tlb.h>
-#include <asm/sections.h>
-#include <asm/vm_mmu.h>
+#include <asm-generic/tlb.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/vm_mmu.h>
 
 /*
  * Define a startpg just past the end of the kernel image and a lastpg

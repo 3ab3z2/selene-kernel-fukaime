@@ -12,8 +12,8 @@
 /*
  * User space memory access functions
  */
-#include <asm/page.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/setup.h>
 #include <linux/prefetch.h>
 
 /*
@@ -111,7 +111,7 @@ static inline int access_ok(int type, const void *addr, unsigned long size)
 }
 #endif /* CONFIG_MMU */
 
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 
 /*
  * These are the main single-value transfer routines.  They automatically

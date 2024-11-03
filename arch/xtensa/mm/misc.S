@@ -14,11 +14,11 @@
 
 
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/asmmacro.h>
-#include <asm/cacheasm.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/cacheasm.h>
+#include <asm-generic/tlbflush.h>
 
 
 /*

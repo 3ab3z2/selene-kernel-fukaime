@@ -24,7 +24,7 @@
 #include <linux/sched.h>
 #include <linux/interrupt.h>
 #include <linux/i2c.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/scatterlist.h>
 
 #include <linux/dvb/frontend.h>

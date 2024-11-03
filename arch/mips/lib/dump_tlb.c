@@ -8,11 +8,11 @@
 #include <linux/kernel.h>
 #include <linux/mm.h>
 
-#include <asm/hazards.h>
-#include <asm/mipsregs.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/tlbdebug.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/tlbdebug.h>
 
 void dump_tlb_regs(void)
 {

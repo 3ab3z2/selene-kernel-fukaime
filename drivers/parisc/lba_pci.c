@@ -39,15 +39,15 @@
 #include <linux/ioport.h>
 #include <linux/slab.h>
 
-#include <asm/byteorder.h>
-#include <asm/pdc.h>
-#include <asm/pdcpat.h>
-#include <asm/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdcpat.h>
+#include <asm-generic/page.h>
 
-#include <asm/ropes.h>
-#include <asm/hardware.h>	/* for register_parisc_driver() stuff */
-#include <asm/parisc-device.h>
-#include <asm/io.h>		/* read/write stuff */
+#include <asm-generic/ropes.h>
+#include <asm-generic/hardware.h>	/* for register_parisc_driver() stuff */
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/io.h>		/* read/write stuff */
 
 #undef DEBUG_LBA	/* general stuff */
 #undef DEBUG_LBA_PORT	/* debug I/O Port access */

@@ -5,7 +5,7 @@
 #include <linux/string.h>
 #include <linux/kernel.h>
 #include <linux/cpufeature.h>
-#include <asm/switch_to.h>
+#include <asm-generic/switch_to.h>
 
 #define CHKSUM_BLOCK_SIZE	1
 #define CHKSUM_DIGEST_SIZE	4

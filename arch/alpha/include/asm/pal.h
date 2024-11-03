@@ -2,7 +2,7 @@
 #ifndef __ALPHA_PAL_H
 #define __ALPHA_PAL_H
 
-#include <uapi/asm/pal.h>
+#include <uapi/asm-generic/pal.h>
 
 #ifndef __ASSEMBLY__
 

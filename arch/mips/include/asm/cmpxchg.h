@@ -10,8 +10,8 @@
 
 #include <linux/bug.h>
 #include <linux/irqflags.h>
-#include <asm/compiler.h>
-#include <asm/war.h>
+#include <asm-generic/compiler.h>
+#include <asm-generic/war.h>
 
 /*
  * Using a branch-likely instruction to check the result of an sc instruction

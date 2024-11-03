@@ -33,7 +33,7 @@
 #include <mach/lcdc.h>
 #include <linux/omap-dma.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include "omapfb.h"
 

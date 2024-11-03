@@ -8,10 +8,10 @@
 #ifndef _SPARC_PGTSRMMU_H
 #define _SPARC_PGTSRMMU_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifdef __ASSEMBLY__
-#include <asm/thread_info.h>	/* TI_UWINMASK for WINDOW_FLUSH */
+#include <asm-generic/thread_info.h>	/* TI_UWINMASK for WINDOW_FLUSH */
 #endif
 
 /* Number of contexts is implementation-dependent; 64k is the most we support */

@@ -8,9 +8,9 @@
 #include <linux/personality.h>
 #include <linux/ptrace.h>
 #include <linux/kernel.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/uaccess.h>
-#include <asm/ucontext.h>
+#include <asm-generic/ucontext.h>
 #include <frame_kern.h>
 #include <skas.h>
 

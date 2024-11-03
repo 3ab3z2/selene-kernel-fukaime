@@ -12,7 +12,7 @@
 #include <linux/init.h>
 #include <linux/pci.h>
 
-#include <asm/gt64120.h>
+#include <asm-generic/gt64120.h>
 
 extern struct pci_ops gt64xxx_pci0_ops;
 

@@ -8,15 +8,15 @@
  */
 
 #include <linux/threads.h>
-#include <asm/epapr_hcalls.h>
-#include <asm/reg.h>
-#include <asm/page.h>
-#include <asm/cputable.h>
-#include <asm/thread_info.h>
-#include <asm/ppc_asm.h>
-#include <asm/asm-compat.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
+#include <asm-generic/epapr_hcalls.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
 
 #ifndef CONFIG_PPC64
 /* epapr_ev_idle() was derived from e500_idle() */

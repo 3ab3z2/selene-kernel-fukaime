@@ -30,8 +30,8 @@
 #include <linux/of_irq.h>
 #include <linux/module.h>
 
-#include <asm/timer-regs.h>
-#include <asm/hexagon_vm.h>
+#include <asm-generic/timer-regs.h>
+#include <asm-generic/hexagon_vm.h>
 
 /*
  * For the clocksource we need:

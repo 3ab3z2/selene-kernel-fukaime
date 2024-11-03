@@ -8,8 +8,8 @@
  */
 
 #define __EXTERN_INLINE inline
-#include <asm/io.h>
-#include <asm/core_wildfire.h>
+#include <asm-generic/io.h>
+#include <asm-generic/core_wildfire.h>
 #undef __EXTERN_INLINE
 
 #include <linux/types.h>
@@ -17,8 +17,8 @@
 #include <linux/sched.h>
 #include <linux/init.h>
 
-#include <asm/ptrace.h>
-#include <asm/smp.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/smp.h>
 
 #include "proto.h"
 #include "pci_impl.h"

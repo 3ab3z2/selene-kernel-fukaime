@@ -11,8 +11,8 @@
 #define _UAPI_ASM_TERMIOS_H
 
 #include <linux/errno.h>
-#include <asm/termbits.h>
-#include <asm/ioctls.h>
+#include <asm-generic/termbits.h>
+#include <asm-generic/ioctls.h>
 
 struct sgttyb {
 	char	sg_ispeed;

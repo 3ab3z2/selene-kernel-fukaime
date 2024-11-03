@@ -2,9 +2,9 @@
 #ifndef _ASM_MACH_MMZONE_H
 #define _ASM_MACH_MMZONE_H
 
-#include <asm/sn/addrs.h>
-#include <asm/sn/arch.h>
-#include <asm/sn/hub.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/arch.h>
+#include <asm-generic/sn/hub.h>
 
 #define pa_to_nid(addr)		NASID_TO_COMPACT_NODEID(NASID_GET(addr))
 

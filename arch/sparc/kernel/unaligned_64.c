@@ -13,19 +13,19 @@
 #include <linux/sched.h>
 #include <linux/mm.h>
 #include <linux/extable.h>
-#include <asm/asi.h>
-#include <asm/ptrace.h>
-#include <asm/pstate.h>
-#include <asm/processor.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/processor.h>
 #include <linux/uaccess.h>
 #include <linux/smp.h>
 #include <linux/bitops.h>
 #include <linux/perf_event.h>
 #include <linux/ratelimit.h>
 #include <linux/context_tracking.h>
-#include <asm/fpumacro.h>
-#include <asm/cacheflush.h>
-#include <asm/setup.h>
+#include <asm-generic/fpumacro.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/setup.h>
 
 #include "entry.h"
 #include "kernel.h"

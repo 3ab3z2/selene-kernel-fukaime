@@ -8,7 +8,7 @@
  */
 
 #include <linux/fs.h>
-#include <asm/page.h> /* for PAGE_SIZE */
+#include <asm-generic/page.h> /* for PAGE_SIZE */
 
 #include "befs.h"
 #include "super.h"

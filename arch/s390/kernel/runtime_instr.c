@@ -14,9 +14,9 @@
 #include <linux/kernel_stat.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/runtime_instr.h>
-#include <asm/cpu_mf.h>
-#include <asm/irq.h>
+#include <asm-generic/runtime_instr.h>
+#include <asm-generic/cpu_mf.h>
+#include <asm-generic/irq.h>
 
 /* empty control block to disable RI by loading it */
 struct runtime_instr_cb runtime_instr_empty_cb;

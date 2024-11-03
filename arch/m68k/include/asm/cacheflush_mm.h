@@ -4,7 +4,7 @@
 
 #include <linux/mm.h>
 #ifdef CONFIG_COLDFIRE
-#include <asm/mcfsim.h>
+#include <asm-generic/mcfsim.h>
 #endif
 
 /* cache code */

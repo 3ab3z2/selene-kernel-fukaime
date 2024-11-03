@@ -43,7 +43,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_address.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "gr_udc.h"
 

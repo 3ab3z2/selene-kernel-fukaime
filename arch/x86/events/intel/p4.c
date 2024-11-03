@@ -9,9 +9,9 @@
 
 #include <linux/perf_event.h>
 
-#include <asm/perf_event_p4.h>
-#include <asm/hardirq.h>
-#include <asm/apic.h>
+#include <asm-generic/perf_event_p4.h>
+#include <asm-generic/hardirq.h>
+#include <asm-generic/apic.h>
 
 #include "../perf_event.h"
 

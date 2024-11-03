@@ -33,7 +33,7 @@
 #ifndef __CVMX_L2C_H__
 #define __CVMX_L2C_H__
 
-#include <uapi/asm/bitfield.h>
+#include <uapi/asm-generic/bitfield.h>
 
 #define CVMX_L2_ASSOC	 cvmx_l2c_get_num_assoc()	/* Deprecated macro */
 #define CVMX_L2_SET_BITS cvmx_l2c_get_set_bits()	/* Deprecated macro */

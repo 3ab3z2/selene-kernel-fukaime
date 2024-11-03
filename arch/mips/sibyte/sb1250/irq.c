@@ -24,16 +24,16 @@
 #include <linux/mm.h>
 #include <linux/kernel_stat.h>
 
-#include <asm/errno.h>
-#include <asm/signal.h>
-#include <asm/time.h>
-#include <asm/io.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/time.h>
+#include <asm-generic/io.h>
 
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_uart.h>
-#include <asm/sibyte/sb1250_scd.h>
-#include <asm/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_uart.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250.h>
 
 /*
  * These are the routines that handle all the low level interrupt stuff.

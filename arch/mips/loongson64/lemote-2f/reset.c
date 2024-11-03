@@ -15,7 +15,7 @@
 #include <linux/delay.h>
 #include <linux/types.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 #include <loongson.h>
 

@@ -26,8 +26,8 @@
 #include <linux/node.h>
 #include <linux/memory.h>
 #include <linux/slab.h>
-#include <asm/smp.h>
-#include <asm/topology.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/topology.h>
 #include "numa_mode.h"
 #include "toptree.h"
 

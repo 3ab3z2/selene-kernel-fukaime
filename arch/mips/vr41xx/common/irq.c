@@ -21,8 +21,8 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/vr41xx/irq.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/vr41xx/irq.h>
 
 typedef struct irq_cascade {
 	int (*get_irq)(unsigned int);

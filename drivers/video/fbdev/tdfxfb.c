@@ -72,7 +72,7 @@
 #include <linux/fb.h>
 #include <linux/init.h>
 #include <linux/pci.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include <video/tdfx.h>
 

@@ -29,7 +29,7 @@
 #include <linux/vfs.h>
 #include <linux/writeback.h>
 #include <linux/namei.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include "sysv.h"
 
 static int sysv_sync_fs(struct super_block *sb, int wait)

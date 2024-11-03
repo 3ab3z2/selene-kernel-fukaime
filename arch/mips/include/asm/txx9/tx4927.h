@@ -29,8 +29,8 @@
 
 #include <linux/types.h>
 #include <linux/io.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/tx4927pcic.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/tx4927pcic.h>
 
 #ifdef CONFIG_64BIT
 #define TX4927_REG_BASE 0xffffffffff1f0000UL

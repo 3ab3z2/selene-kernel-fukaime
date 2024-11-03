@@ -41,8 +41,8 @@
 #include <linux/reboot.h>
 #endif
 #include <linux/notifier.h>
-#include <asm/setup.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/io.h>
 #include <linux/log2.h>
 #include <linux/export.h>
 
@@ -55,11 +55,11 @@ static struct notifier_block alpha_panic_block = {
 };
 
 #include <linux/uaccess.h>
-#include <asm/pgtable.h>
-#include <asm/hwrpb.h>
-#include <asm/dma.h>
-#include <asm/mmu_context.h>
-#include <asm/console.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/hwrpb.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/console.h>
 
 #include "proto.h"
 #include "pci_impl.h"

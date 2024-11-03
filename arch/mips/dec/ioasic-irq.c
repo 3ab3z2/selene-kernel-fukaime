@@ -13,9 +13,9 @@
 #include <linux/irq.h>
 #include <linux/types.h>
 
-#include <asm/dec/ioasic.h>
-#include <asm/dec/ioasic_addrs.h>
-#include <asm/dec/ioasic_ints.h>
+#include <asm-generic/dec/ioasic.h>
+#include <asm-generic/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ioasic_ints.h>
 
 static int ioasic_irq_base;
 

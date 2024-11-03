@@ -17,14 +17,14 @@
 #include <linux/pmu.h>
 
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/segment.h>
-#include <asm/setup.h>
-#include <asm/macintosh.h>
-#include <asm/mac_via.h>
-#include <asm/mac_oss.h>
+#include <asm-generic/io.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/mac_via.h>
+#include <asm-generic/mac_oss.h>
 
-#include <asm/machdep.h>
+#include <asm-generic/machdep.h>
 
 /* Offset between Unix time (1970-based) and Mac time (1904-based) */
 

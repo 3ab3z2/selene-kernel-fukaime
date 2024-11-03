@@ -16,8 +16,8 @@
 #include <linux/mtd/mtd.h>
 #include <linux/mtd/partitions.h>
 #include <linux/mtd/physmap.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
 
 /***************************************************************************/
 

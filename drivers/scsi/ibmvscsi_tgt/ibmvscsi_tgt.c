@@ -35,8 +35,8 @@
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
 
-#include <asm/hvcall.h>
-#include <asm/vio.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/vio.h>
 
 #include <scsi/viosrp.h>
 

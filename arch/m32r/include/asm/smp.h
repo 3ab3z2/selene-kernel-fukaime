@@ -8,7 +8,7 @@
 #include <linux/cpumask.h>
 #include <linux/spinlock.h>
 #include <linux/threads.h>
-#include <asm/m32r.h>
+#include <asm-generic/m32r.h>
 
 #define PHYSID_ARRAY_SIZE       1
 

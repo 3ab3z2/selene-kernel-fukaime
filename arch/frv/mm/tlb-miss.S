@@ -11,9 +11,9 @@
 
 #include <linux/sys.h>
 #include <linux/linkage.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/spr-regs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/spr-regs.h>
 
 	.section	.text..tlbmiss
 	.balign		4

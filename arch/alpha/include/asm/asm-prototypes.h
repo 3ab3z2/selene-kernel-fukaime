@@ -1,10 +1,10 @@
 #include <linux/spinlock.h>
 
-#include <asm/checksum.h>
-#include <asm/console.h>
-#include <asm/page.h>
-#include <asm/string.h>
-#include <asm/uaccess.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/console.h>
+#include <asm-generic/page.h>
+#include <asm-generic/string.h>
+#include <asm-generic/uaccess.h>
 
 #include <asm-generic/asm-prototypes.h>
 

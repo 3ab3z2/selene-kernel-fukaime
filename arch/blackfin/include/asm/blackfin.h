@@ -81,8 +81,8 @@ static inline void CSYNC(void)
 
 #endif /* __ASSEMBLY__ */
 
-#include <asm/mem_map.h>
+#include <asm-generic/mem_map.h>
 #include <mach/blackfin.h>
-#include <asm/bfin-global.h>
+#include <asm-generic/bfin-global.h>
 
 #endif				/* _BLACKFIN_H_ */

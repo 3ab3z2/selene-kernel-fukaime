@@ -24,11 +24,11 @@
 #include <linux/slab.h>
 #include <linux/device.h>
 
-#include <asm/perf_event.h>
-#include <asm/insn.h>
-#include <asm/io.h>
-#include <asm/intel_pt.h>
-#include <asm/intel-family.h>
+#include <asm-generic/perf_event.h>
+#include <asm-generic/insn.h>
+#include <asm-generic/io.h>
+#include <asm-generic/intel_pt.h>
+#include <asm-generic/intel-family.h>
 
 #include "../perf_event.h"
 #include "pt.h"

@@ -11,7 +11,7 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>, Hewlett-Packard Co
  */
 
-#include <asm/sockios.h>
+#include <asm-generic/sockios.h>
 
 /* For setsockopt(2) */
 #define SOL_SOCKET	1

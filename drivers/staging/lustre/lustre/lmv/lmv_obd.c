@@ -36,7 +36,7 @@
 #include <linux/init.h>
 #include <linux/pagemap.h>
 #include <linux/mm.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/seq_file.h>
 #include <linux/namei.h>
 #include <linux/uaccess.h>

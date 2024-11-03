@@ -9,7 +9,7 @@
 #define _ASM_PARISC_IRQ_H
 
 #include <linux/cpumask.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 #define NO_IRQ		(-1)
 

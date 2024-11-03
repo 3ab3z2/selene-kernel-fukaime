@@ -19,8 +19,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#include <asm/processor.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/ppc_asm.h>
 
 #define lv1call .long 0x44000022; extsw r3, r3
 
@@ -801,4 +801,4 @@ _GLOBAL(_##API_NAME)				\
 /* the lv1 underscored call definitions expand here */
 
 #define LV1_CALL(name, in, out, num) LV1_##in##_IN_##out##_OUT(lv1_##name, num)
-#include <asm/lv1call.h>
+#include <asm-generic/lv1call.h>

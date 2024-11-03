@@ -7,7 +7,7 @@
 #ifndef _BLACKFIN_DMA_MAPPING_H
 #define _BLACKFIN_DMA_MAPPING_H
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 extern void
 __dma_sync(dma_addr_t addr, size_t size, enum dma_data_direction dir);

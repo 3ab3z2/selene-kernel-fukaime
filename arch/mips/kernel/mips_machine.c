@@ -10,8 +10,8 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 
-#include <asm/mips_machine.h>
-#include <asm/prom.h>
+#include <asm-generic/mips_machine.h>
+#include <asm-generic/prom.h>
 
 static struct mips_machine *mips_machine __initdata;
 

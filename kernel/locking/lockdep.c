@@ -50,7 +50,7 @@
 #include <linux/random.h>
 #include <linux/jhash.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #include "lockdep_internals.h"
 

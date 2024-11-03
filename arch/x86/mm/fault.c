@@ -17,17 +17,17 @@
 #include <linux/context_tracking.h>	/* exception_enter(), ...	*/
 #include <linux/uaccess.h>		/* faulthandler_disabled()	*/
 
-#include <asm/cpufeature.h>		/* boot_cpu_has, ...		*/
-#include <asm/traps.h>			/* dotraplinkage, ...		*/
-#include <asm/pgalloc.h>		/* pgd_*(), ...			*/
-#include <asm/fixmap.h>			/* VSYSCALL_ADDR		*/
-#include <asm/vsyscall.h>		/* emulate_vsyscall		*/
-#include <asm/vm86.h>			/* struct vm86			*/
-#include <asm/mmu_context.h>		/* vma_pkey()			*/
-#include <asm/sections.h>
+#include <asm-generic/cpufeature.h>		/* boot_cpu_has, ...		*/
+#include <asm-generic/traps.h>			/* dotraplinkage, ...		*/
+#include <asm-generic/pgalloc.h>		/* pgd_*(), ...			*/
+#include <asm-generic/fixmap.h>			/* VSYSCALL_ADDR		*/
+#include <asm-generic/vsyscall.h>		/* emulate_vsyscall		*/
+#include <asm-generic/vm86.h>			/* struct vm86			*/
+#include <asm-generic/mmu_context.h>		/* vma_pkey()			*/
+#include <asm-generic/sections.h>
 
 #define CREATE_TRACE_POINTS
-#include <asm/trace/exceptions.h>
+#include <asm-generic/trace/exceptions.h>
 
 /*
  * Returns 0 if mmiotrace is disabled, or if the fault is not

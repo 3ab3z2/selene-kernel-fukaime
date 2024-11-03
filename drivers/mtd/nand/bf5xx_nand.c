@@ -53,11 +53,11 @@
 #include <linux/mtd/nand_ecc.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/blackfin.h>
-#include <asm/dma.h>
-#include <asm/cacheflush.h>
-#include <asm/nand.h>
-#include <asm/portmux.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/nand.h>
+#include <asm-generic/portmux.h>
 
 #define DRV_NAME	"bf5xx-nand"
 #define DRV_VERSION	"1.2"

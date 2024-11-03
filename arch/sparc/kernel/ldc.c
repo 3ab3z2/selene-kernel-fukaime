@@ -18,11 +18,11 @@
 #include <linux/bitmap.h>
 #include <linux/iommu-common.h>
 
-#include <asm/hypervisor.h>
-#include <asm/iommu.h>
-#include <asm/page.h>
-#include <asm/ldc.h>
-#include <asm/mdesc.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ldc.h>
+#include <asm-generic/mdesc.h>
 
 #define DRV_MODULE_NAME		"ldc"
 #define PFX DRV_MODULE_NAME	": "

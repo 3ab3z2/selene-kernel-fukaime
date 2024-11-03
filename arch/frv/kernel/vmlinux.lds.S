@@ -7,10 +7,10 @@ OUTPUT_ARCH(frv)
 ENTRY(_start)
 
 #include <asm-generic/vmlinux.lds.h>
-#include <asm/processor.h>
-#include <asm/page.h>
-#include <asm/cache.h>
-#include <asm/thread_info.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/thread_info.h>
 
 jiffies = jiffies_64 + 4;
 

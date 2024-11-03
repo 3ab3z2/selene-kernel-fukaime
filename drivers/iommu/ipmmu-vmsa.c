@@ -25,8 +25,8 @@
 #include <linux/slab.h>
 
 #if defined(CONFIG_ARM) && !defined(CONFIG_IOMMU_DMA)
-#include <asm/dma-iommu.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/dma-iommu.h>
+#include <asm-generic/pgalloc.h>
 #endif
 
 #include "io-pgtable.h"

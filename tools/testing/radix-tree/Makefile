@@ -32,7 +32,7 @@ vpath %.c ../../lib
 
 $(OFILES): Makefile *.h */*.h generated/map-shift.h \
 	../../include/linux/*.h \
-	../../include/asm/*.h \
+	../../include/asm-generic/*.h \
 	../../../include/linux/radix-tree.h \
 	../../../include/linux/idr.h
 

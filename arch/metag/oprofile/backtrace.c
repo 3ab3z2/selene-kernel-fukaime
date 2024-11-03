@@ -8,8 +8,8 @@
 
 #include <linux/oprofile.h>
 #include <linux/uaccess.h>
-#include <asm/processor.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/stacktrace.h>
 
 #include "backtrace.h"
 

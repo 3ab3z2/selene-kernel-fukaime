@@ -13,7 +13,7 @@
 #include <linux/mm.h>
 #include <asm/pgtable.h>
 #include <asm/page.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/mmu.h>
 #include <asm/io.h>
 #include <asm/mmu_context.h>

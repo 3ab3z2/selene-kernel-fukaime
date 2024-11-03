@@ -42,7 +42,7 @@ static const char *verstr = "20160209";
 #include <linux/mutex.h>
 
 #include <linux/uaccess.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_dbg.h>

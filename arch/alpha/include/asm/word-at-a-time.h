@@ -2,7 +2,7 @@
 #ifndef _ASM_WORD_AT_A_TIME_H
 #define _ASM_WORD_AT_A_TIME_H
 
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * word-at-a-time interface for Alpha.

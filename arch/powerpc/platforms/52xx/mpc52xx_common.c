@@ -18,9 +18,9 @@
 #include <linux/of_platform.h>
 #include <linux/of_gpio.h>
 #include <linux/export.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/mpc52xx.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/mpc52xx.h>
 
 /* MPC5200 device tree match tables */
 static const struct of_device_id mpc52xx_xlb_ids[] __initconst = {

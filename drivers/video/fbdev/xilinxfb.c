@@ -36,7 +36,7 @@
 #include <linux/slab.h>
 
 #ifdef CONFIG_PPC_DCR
-#include <asm/dcr.h>
+#include <asm-generic/dcr.h>
 #endif
 
 #define DRIVER_NAME		"xilinxfb"

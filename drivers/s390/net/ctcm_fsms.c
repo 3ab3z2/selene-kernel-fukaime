@@ -36,11 +36,11 @@
 #include <net/dst.h>
 
 #include <linux/io.h>
-#include <asm/ccwdev.h>
-#include <asm/ccwgroup.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/ccwgroup.h>
 #include <linux/uaccess.h>
 
-#include <asm/idals.h>
+#include <asm-generic/idals.h>
 
 #include "fsm.h"
 

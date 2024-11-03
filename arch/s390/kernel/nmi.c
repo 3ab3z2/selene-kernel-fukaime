@@ -17,15 +17,15 @@
 #include <linux/sched/signal.h>
 
 #include <linux/export.h>
-#include <asm/lowcore.h>
-#include <asm/smp.h>
-#include <asm/stp.h>
-#include <asm/cputime.h>
-#include <asm/nmi.h>
-#include <asm/crw.h>
-#include <asm/switch_to.h>
-#include <asm/ctl_reg.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/lowcore.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/stp.h>
+#include <asm-generic/cputime.h>
+#include <asm-generic/nmi.h>
+#include <asm-generic/crw.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/ctl_reg.h>
+#include <asm-generic/asm-offsets.h>
 #include <linux/kvm_host.h>
 
 struct mcck_struct {

@@ -16,8 +16,8 @@
 #include <linux/device.h>
 #include <linux/interrupt.h>
 #include <linux/iopoll.h>
-#include <asm/mach-pic32/pic32.h>
-#include <asm/traps.h>
+#include <asm-generic/mach-pic32/pic32.h>
+#include <asm-generic/traps.h>
 
 #include "clk-core.h"
 

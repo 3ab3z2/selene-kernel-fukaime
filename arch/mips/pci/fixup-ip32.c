@@ -2,7 +2,7 @@
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/pci.h>
-#include <asm/ip32/ip32_ints.h>
+#include <asm-generic/ip32/ip32_ints.h>
 /*
  * O2 has up to 5 PCI devices connected into the MACE bridge.  The device
  * map looks like this:

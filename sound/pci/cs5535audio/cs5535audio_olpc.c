@@ -15,7 +15,7 @@
 #include <sound/ac97_codec.h>
 #include <linux/gpio.h>
 
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 #include "cs5535audio.h"
 
 #define DRV_NAME "cs5535audio-olpc"

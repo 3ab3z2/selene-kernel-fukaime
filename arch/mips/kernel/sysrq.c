@@ -10,9 +10,9 @@
 #include <linux/sysrq.h>
 #include <linux/workqueue.h>
 
-#include <asm/cpu-features.h>
-#include <asm/mipsregs.h>
-#include <asm/tlbdebug.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/tlbdebug.h>
 
 /*
  * Dump TLB entries on all CPUs.

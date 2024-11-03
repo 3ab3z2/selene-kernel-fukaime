@@ -26,7 +26,7 @@
 #include <linux/workqueue.h>
 #include <linux/atomic.h>
 #include <linux/fixp-arith.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 #include "usbhid/usbhid.h"
 #include "hid-ids.h"
 

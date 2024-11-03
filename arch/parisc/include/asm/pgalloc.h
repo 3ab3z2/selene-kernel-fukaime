@@ -5,10 +5,10 @@
 #include <linux/gfp.h>
 #include <linux/mm.h>
 #include <linux/threads.h>
-#include <asm/processor.h>
-#include <asm/fixmap.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/fixmap.h>
 
-#include <asm/cache.h>
+#include <asm-generic/cache.h>
 
 /* Allocate the top level pgd (page directory)
  *

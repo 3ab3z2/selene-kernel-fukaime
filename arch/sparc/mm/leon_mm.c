@@ -12,9 +12,9 @@
 
 #include <linux/kernel.h>
 #include <linux/mm.h>
-#include <asm/asi.h>
-#include <asm/leon.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/tlbflush.h>
 
 #include "mm_32.h"
 

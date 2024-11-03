@@ -2,7 +2,7 @@
 #ifndef _UAPI__SPARC_SIGNAL_H
 #define _UAPI__SPARC_SIGNAL_H
 
-#include <asm/sigcontext.h>
+#include <asm-generic/sigcontext.h>
 #include <linux/compiler.h>
 
 

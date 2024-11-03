@@ -26,9 +26,9 @@
 #include <linux/highmem.h>
 #include <linux/module.h>
 
-#include <asm/irq.h>
-#include <asm/mmu_context.h>
-#include <asm/tlb.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlb.h>
 
 #define TLBSIZE 32
 

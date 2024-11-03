@@ -7,7 +7,7 @@
 #define _IDE_CD_H
 
 #include <linux/cdrom.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #define IDECD_DEBUG_LOG		0
 
@@ -53,7 +53,7 @@ struct atapi_toc_entry {
 	u8 control : 4;
 	u8 adr     : 4;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 	u8 track;
 	u8 reserved2;

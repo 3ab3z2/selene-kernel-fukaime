@@ -25,10 +25,10 @@
 #include <linux/err.h>
 #include <linux/slab.h>
 
-#include <asm/udbg.h>
-#include <asm/lv1call.h>
-#include <asm/firmware.h>
-#include <asm/cell-regs.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/lv1call.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/cell-regs.h>
 
 #include "platform.h"
 

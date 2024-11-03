@@ -24,7 +24,7 @@
 #include <linux/delay.h>
 #include <linux/firmware.h>
 #include <linux/i2c.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "dvb_frontend.h"
 #include "drxd.h"

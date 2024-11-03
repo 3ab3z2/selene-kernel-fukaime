@@ -23,7 +23,7 @@
 #include <sound/soc.h>
 #include <sound/jack.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/hardware.h>
 #include <mach/audio.h>
 #include <mach/z2.h>

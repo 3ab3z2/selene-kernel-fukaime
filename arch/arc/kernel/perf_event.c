@@ -16,8 +16,8 @@
 #include <linux/of.h>
 #include <linux/perf_event.h>
 #include <linux/platform_device.h>
-#include <asm/arcregs.h>
-#include <asm/stacktrace.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/stacktrace.h>
 
 struct arc_pmu {
 	struct pmu	pmu;

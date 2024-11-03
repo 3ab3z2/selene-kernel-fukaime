@@ -10,10 +10,10 @@
 #include <linux/of.h>
 #include <linux/irqchip.h>
 
-#include <asm/bmips.h>
-#include <asm/irq.h>
-#include <asm/irq_cpu.h>
-#include <asm/time.h>
+#include <asm-generic/bmips.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/time.h>
 
 static const struct of_device_id smp_intc_dt_match[] = {
 	{ .compatible = "brcm,bcm7038-l1-intc" },

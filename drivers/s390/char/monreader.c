@@ -24,8 +24,8 @@
 #include <linux/slab.h>
 #include <net/iucv/iucv.h>
 #include <linux/uaccess.h>
-#include <asm/ebcdic.h>
-#include <asm/extmem.h>
+#include <asm-generic/ebcdic.h>
+#include <asm-generic/extmem.h>
 
 
 #define MON_COLLECT_SAMPLE 0x80

@@ -13,8 +13,8 @@
  */
 
 #include <linux/mm.h>
-#include <asm/machdep.h>
-#include <asm/mmu.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mmu.h>
 /*
  * index from 0 - 15
  */

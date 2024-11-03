@@ -7,8 +7,8 @@
 #include <linux/types.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 #include <linux/errno.h>
 #include <linux/slab.h>
 #include <linux/interrupt.h>

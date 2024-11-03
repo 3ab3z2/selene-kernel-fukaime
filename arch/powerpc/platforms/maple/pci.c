@@ -17,14 +17,14 @@
 #include <linux/init.h>
 #include <linux/irq.h>
 
-#include <asm/sections.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/pci-bridge.h>
-#include <asm/machdep.h>
-#include <asm/iommu.h>
-#include <asm/ppc-pci.h>
-#include <asm/isa-bridge.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/ppc-pci.h>
+#include <asm-generic/isa-bridge.h>
 
 #include "maple.h"
 

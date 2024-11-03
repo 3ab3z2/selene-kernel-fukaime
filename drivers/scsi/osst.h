@@ -3,7 +3,7 @@
  *	$Header: /cvsroot/osst/Driver/osst.h,v 1.16 2005/01/01 21:13:35 wriede Exp $
  */
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/completion.h>
 #include <linux/mutex.h>
 
@@ -142,7 +142,7 @@ typedef struct {
         unsigned        reserved0       :1;     /* Reserved */
         unsigned        ps              :1;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u8              page_length;            /* Page Length - Should be 14 */
 #if   defined(__BIG_ENDIAN_BITFIELD)
@@ -154,7 +154,7 @@ typedef struct {
         unsigned        dcc             :1;     /* Data Compression Capable */
         unsigned        dce             :1;     /* Data Compression Enable */
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 #if   defined(__BIG_ENDIAN_BITFIELD)
         unsigned        dde             :1;     /* Data Decompression Enable */
@@ -165,7 +165,7 @@ typedef struct {
         unsigned        red             :2;     /* Report Exception on Decompression */
         unsigned        dde             :1;     /* Data Decompression Enable */
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u32             ca;                     /* Compression Algorithm */
         u32             da;                     /* Decompression Algorithm */
@@ -185,7 +185,7 @@ typedef struct {
         unsigned        reserved1_6     :1;     /* Reserved */
         unsigned        ps              :1;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u8              page_length;            /* Page Length - Should be 6 */
         u8              map;                    /* Maximum Additional Partitions - Should be 0 */
@@ -203,7 +203,7 @@ typedef struct {
         unsigned        sdp             :1;     /* Should be 0 */
         unsigned        fdp             :1;     /* Fixed Data Partitions */
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u8              mfr;                    /* Medium Format Recognition */
         u8              reserved[2];            /* Reserved */
@@ -220,7 +220,7 @@ typedef struct {
 	unsigned        page_code       :6;     /* Page code - Should be 0x2a */
         unsigned        reserved1_67    :2;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u8              page_length;            /* Page Length - Should be 0x12 */
         u8              reserved2, reserved3;
@@ -235,7 +235,7 @@ typedef struct {
         unsigned        sprev           :1;     /* Supports SPACE in the reverse direction */
         unsigned        reserved4_67    :2;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 #if   defined(__BIG_ENDIAN_BITFIELD)
         unsigned        reserved5_67    :2;
@@ -250,7 +250,7 @@ typedef struct {
         unsigned        qfa             :1;     /* Supports the QFA two partition formats */
         unsigned        reserved5_67    :2;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 #if   defined(__BIG_ENDIAN_BITFIELD)
         unsigned        cmprs           :1;     /* Supports data compression */
@@ -269,7 +269,7 @@ typedef struct {
         unsigned        ecc             :1;     /* Supports error correction */
         unsigned        cmprs           :1;     /* Supports data compression */
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 #if   defined(__BIG_ENDIAN_BITFIELD)
         unsigned        blk32768        :1;     /* slowb - the device restricts the byte count for PIO */
@@ -288,7 +288,7 @@ typedef struct {
                                                 /* transfers for slow buffer memory ??? */
                                                 /* Also 32768 block size in some cases */
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         __be16          max_speed;              /* Maximum speed supported in KBps */
         u8              reserved10, reserved11;
@@ -311,7 +311,7 @@ typedef struct {
         unsigned        reserved1_6     :1;
         unsigned        ps              :1;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
         u8              page_length;            /* Page Length - Should be 2 */
         u8              reserved2;
@@ -332,7 +332,7 @@ typedef struct {
         unsigned        reserved2_6     :1;
         unsigned        one             :1;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 } osst_block_size_page_t;
 
@@ -349,7 +349,7 @@ typedef struct {
         unsigned        reserved1_6     :1;
         unsigned        ps              :1;
 #else
-#error "Please fix <asm/byteorder.h>"
+#error "Please fix <asm-generic/byteorder.h>"
 #endif
 	u8		reserved2;
 	u8		density;

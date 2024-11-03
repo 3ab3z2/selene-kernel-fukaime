@@ -5,8 +5,8 @@
  * Copyright (C) 2005 Paul Mackerras <paulus@samba.org>
  */
 
-#include <asm/ppc_asm.h>
-#include <asm/asm-offsets.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/asm-offsets.h>
 
 #ifdef __BIG_ENDIAN__
 #define LWZ(rt, d, ra)	\

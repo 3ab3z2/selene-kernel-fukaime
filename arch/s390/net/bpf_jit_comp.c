@@ -23,11 +23,11 @@
 #include <linux/filter.h>
 #include <linux/init.h>
 #include <linux/bpf.h>
-#include <asm/cacheflush.h>
-#include <asm/dis.h>
-#include <asm/facility.h>
-#include <asm/nospec-branch.h>
-#include <asm/set_memory.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dis.h>
+#include <asm-generic/facility.h>
+#include <asm-generic/nospec-branch.h>
+#include <asm-generic/set_memory.h>
 #include "bpf_jit.h"
 
 struct bpf_jit {

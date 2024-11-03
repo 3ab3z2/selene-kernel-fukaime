@@ -183,7 +183,7 @@
 #include <video/sa1100fb.h>
 
 #include <mach/hardware.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/shannon.h>
 
 /*

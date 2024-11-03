@@ -4,7 +4,7 @@
  * Copyright (C) 2011 Tobias Klauser <tklauser@distanz.ch>
  * Copyright (C) 2004 Microtronix Datacom Ltd.
  *
- * Based on asm/thread_info_no.h from m68k which is:
+ * Based on asm-generic/thread_info_no.h from m68k which is:
  *
  * Copyright (C) 2002 David Howells <dhowells@redhat.com>
  *

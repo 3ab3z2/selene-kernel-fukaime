@@ -24,18 +24,18 @@
 #include <linux/bitops.h>
 #include <linux/kexec.h>
 
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/machvec.h>
-#include <asm/numa.h>
-#include <asm/patch.h>
-#include <asm/pgalloc.h>
-#include <asm/sal.h>
-#include <asm/sections.h>
-#include <asm/tlb.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/machvec.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/patch.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/sal.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlb.h>
 #include <linux/uaccess.h>
-#include <asm/unistd.h>
-#include <asm/mca.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/mca.h>
 
 extern void ia64_tlb_init (void);
 

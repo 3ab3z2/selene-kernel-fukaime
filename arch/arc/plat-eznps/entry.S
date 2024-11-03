@@ -17,8 +17,8 @@
 
 *******************************************************************************/
 #include <linux/linkage.h>
-#include <asm/entry.h>
-#include <asm/cache.h>
+#include <asm-generic/entry.h>
+#include <asm-generic/cache.h>
 #include <plat/ctop.h>
 
 	.cpu A7

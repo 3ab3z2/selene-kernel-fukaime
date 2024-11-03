@@ -7,7 +7,7 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 .align 2
 

@@ -9,9 +9,9 @@
 #ifndef __ASM_SPINLOCK_H
 #define __ASM_SPINLOCK_H
 
-#include <asm/spinlock_types.h>
-#include <asm/processor.h>
-#include <asm/barrier.h>
+#include <asm-generic/spinlock_types.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/barrier.h>
 
 #define arch_spin_is_locked(x)	((x)->slock != __ARCH_SPIN_LOCK_UNLOCKED__)
 #define arch_spin_lock_flags(lock, flags)	arch_spin_lock(lock)

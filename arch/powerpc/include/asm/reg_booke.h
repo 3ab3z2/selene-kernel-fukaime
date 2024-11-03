@@ -15,7 +15,7 @@
 #ifndef __ASM_POWERPC_REG_BOOKE_H__
 #define __ASM_POWERPC_REG_BOOKE_H__
 
-#include <asm/ppc-opcode.h>
+#include <asm-generic/ppc-opcode.h>
 
 /* Machine State Register (MSR) Fields */
 #define MSR_GS_LG	28	/* Guest state */

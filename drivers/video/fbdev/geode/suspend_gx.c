@@ -8,10 +8,10 @@
  *   option) any later version.
  */
 #include <linux/fb.h>
-#include <asm/io.h>
-#include <asm/msr.h>
+#include <asm-generic/io.h>
+#include <asm-generic/msr.h>
 #include <linux/cs5535.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 #include "gxfb.h"
 

@@ -21,8 +21,8 @@
 #include <linux/reset.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-ralink/ralink_regs.h>
-#include <asm/mach-ralink/mt7620.h>
+#include <asm-generic/mach-ralink/ralink_regs.h>
+#include <asm-generic/mach-ralink/mt7620.h>
 
 #define RALINK_PCI_IO_MAP_BASE		0x10160000
 #define RALINK_PCI_MEMORY_BASE		0x0

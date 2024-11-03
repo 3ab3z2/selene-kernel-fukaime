@@ -21,12 +21,12 @@
 #include <linux/io.h>
 #include <linux/spinlock.h>
 
-#include <asm/mach/irq.h>
+#include <asm-generic/mach/irq.h>
 
 #include <mach/hardware.h>
-#include <asm/hardware/dec21285.h>
-#include <asm/irq.h>
-#include <asm/mach-types.h>
+#include <asm-generic/hardware/dec21285.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
 
 #include "common.h"
 

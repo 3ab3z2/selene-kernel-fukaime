@@ -16,9 +16,9 @@
 #include <linux/mtd/map.h>
 #include <linux/mtd/partitions.h>
 
-#include <asm/io.h>
-#include <asm/hardware/dec21285.h>
-#include <asm/mach-types.h>
+#include <asm-generic/io.h>
+#include <asm-generic/hardware/dec21285.h>
+#include <asm-generic/mach-types.h>
 
 
 static struct mtd_info *dc21285_mtd;

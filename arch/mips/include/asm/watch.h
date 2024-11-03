@@ -10,7 +10,7 @@
 
 #include <linux/bitops.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 void mips_install_watch_registers(struct task_struct *t);
 void mips_read_watch_registers(void);

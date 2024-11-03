@@ -13,8 +13,8 @@
 
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
-#include <asm/page.h>
-#include <asm/kmem_layout.h>
+#include <asm-generic/page.h>
+#include <asm-generic/kmem_layout.h>
 
 /*
  * We only use two ring levels, user and kernel space.

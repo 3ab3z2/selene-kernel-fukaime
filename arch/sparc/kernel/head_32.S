@@ -14,18 +14,18 @@
 #include <linux/version.h>
 #include <linux/init.h>
 
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/contregs.h>
-#include <asm/ptrace.h>
-#include <asm/psr.h>
-#include <asm/page.h>
-#include <asm/kdebug.h>
-#include <asm/winmacro.h>
-#include <asm/thread_info.h>	/* TI_UWINMASK */
-#include <asm/errno.h>
-#include <asm/pgtsrmmu.h>	/* SRMMU_PGDIR_SHIFT */
-#include <asm/export.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/page.h>
+#include <asm-generic/kdebug.h>
+#include <asm-generic/winmacro.h>
+#include <asm-generic/thread_info.h>	/* TI_UWINMASK */
+#include <asm-generic/errno.h>
+#include <asm-generic/pgtsrmmu.h>	/* SRMMU_PGDIR_SHIFT */
+#include <asm-generic/export.h>
 
 	.data
 /* The following are used with the prom_vector node-ops to figure out

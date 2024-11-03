@@ -9,8 +9,8 @@
  */
 #include <linux/init.h>
 
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
 
 struct linux_tinfo * __init
 ArcGetTime(VOID)

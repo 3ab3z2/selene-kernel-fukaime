@@ -11,8 +11,8 @@
 #ifndef __MIPS_ASM_DSEMUL_H__
 #define __MIPS_ASM_DSEMUL_H__
 
-#include <asm/break.h>
-#include <asm/inst.h>
+#include <asm-generic/break.h>
+#include <asm-generic/inst.h>
 
 /* Break instruction with special math emu break code set */
 #define BREAK_MATH(micromips)	(((micromips) ? 0x7 : 0xd) | (BRK_MEMU << 16))

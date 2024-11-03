@@ -9,10 +9,10 @@
 #ifndef _BLACKFIN_CACHEFLUSH_H
 #define _BLACKFIN_CACHEFLUSH_H
 
-#include <asm/blackfin.h>	/* for SSYNC() */
-#include <asm/sections.h>	/* for _ramend */
+#include <asm-generic/blackfin.h>	/* for SSYNC() */
+#include <asm-generic/sections.h>	/* for _ramend */
 #ifdef CONFIG_SMP
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #endif
 
 extern void blackfin_icache_flush_range(unsigned long start_address, unsigned long end_address);

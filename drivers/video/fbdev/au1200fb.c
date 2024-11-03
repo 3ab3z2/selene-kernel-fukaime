@@ -45,8 +45,8 @@
 #include <linux/slab.h>
 #include <linux/uaccess.h>
 
-#include <asm/mach-au1x00/au1000.h>
-#include <asm/mach-au1x00/au1200fb.h>	/* platform_data */
+#include <asm-generic/mach-au1x00/au1000.h>
+#include <asm-generic/mach-au1x00/au1200fb.h>	/* platform_data */
 #include "au1200fb.h"
 
 #define DRIVER_NAME "au1200fb"

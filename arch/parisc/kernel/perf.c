@@ -49,11 +49,11 @@
 #include <linux/spinlock.h>
 
 #include <linux/uaccess.h>
-#include <asm/perf.h>
-#include <asm/parisc-device.h>
-#include <asm/processor.h>
-#include <asm/runway.h>
-#include <asm/io.h>		/* for __raw_read() */
+#include <asm-generic/perf.h>
+#include <asm-generic/parisc-device.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/runway.h>
+#include <asm-generic/io.h>		/* for __raw_read() */
 
 #include "perf_images.h"
 

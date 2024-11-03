@@ -22,9 +22,9 @@
 #include <linux/platform_device.h>
 #include <linux/mtd/physmap.h>
 #include <linux/reboot.h>
-#include <asm/bootinfo.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
 
 #include <ath25_platform.h>
 

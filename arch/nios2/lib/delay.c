@@ -15,10 +15,10 @@
  */
 
 #include <linux/module.h>
-#include <asm/delay.h>
-#include <asm/param.h>
-#include <asm/processor.h>
-#include <asm/timex.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/param.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/timex.h>
 
 void __delay(unsigned long cycles)
 {

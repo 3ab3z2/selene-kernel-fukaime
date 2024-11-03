@@ -40,7 +40,7 @@
 #include <linux/jiffies.h>
 #include <linux/kthread.h>
 #include <linux/ktime.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 
 #include "dvb_frontend.h"
 #include "dvbdev.h"

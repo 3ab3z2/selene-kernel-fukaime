@@ -62,11 +62,11 @@
 #include <linux/notifier.h>
 #include <linux/cpu.h>
 #include <linux/moduleparam.h>
-#include <asm/cpu_device_id.h>
-#include <asm/intel-family.h>
-#include <asm/nospec-branch.h>
-#include <asm/mwait.h>
-#include <asm/msr.h>
+#include <asm-generic/cpu_device_id.h>
+#include <asm-generic/intel-family.h>
+#include <asm-generic/nospec-branch.h>
+#include <asm-generic/mwait.h>
+#include <asm-generic/msr.h>
 
 #define INTEL_IDLE_VERSION "0.4.1"
 

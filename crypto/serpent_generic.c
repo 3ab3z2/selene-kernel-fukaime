@@ -19,7 +19,7 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/errno.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/crypto.h>
 #include <linux/types.h>
 #include <crypto/serpent.h>

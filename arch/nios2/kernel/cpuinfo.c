@@ -25,7 +25,7 @@
 #include <linux/seq_file.h>
 #include <linux/string.h>
 #include <linux/of.h>
-#include <asm/cpuinfo.h>
+#include <asm-generic/cpuinfo.h>
 
 struct cpuinfo cpuinfo;
 

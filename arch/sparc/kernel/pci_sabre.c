@@ -15,11 +15,11 @@
 #include <linux/interrupt.h>
 #include <linux/of_device.h>
 
-#include <asm/apb.h>
-#include <asm/iommu.h>
-#include <asm/irq.h>
-#include <asm/prom.h>
-#include <asm/upa.h>
+#include <asm-generic/apb.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/upa.h>
 
 #include "pci_impl.h"
 #include "iommu_common.h"

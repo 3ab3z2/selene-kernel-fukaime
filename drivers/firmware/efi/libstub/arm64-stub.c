@@ -15,13 +15,13 @@
  * references to the section markers, override their visibility as 'hidden'
  */
 #pragma GCC visibility push(hidden)
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 #pragma GCC visibility pop
 
 #include <linux/efi.h>
-#include <asm/efi.h>
-#include <asm/memory.h>
-#include <asm/sysreg.h>
+#include <asm-generic/efi.h>
+#include <asm-generic/memory.h>
+#include <asm-generic/sysreg.h>
 
 #include "efistub.h"
 

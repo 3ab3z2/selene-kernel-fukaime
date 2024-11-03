@@ -9,10 +9,10 @@
 #include <linux/module.h>
 #include <linux/uaccess.h>
 
-#include <asm/pci_x86.h>
-#include <asm/e820/types.h>
-#include <asm/pci-functions.h>
-#include <asm/set_memory.h>
+#include <asm-generic/pci_x86.h>
+#include <asm-generic/e820/types.h>
+#include <asm-generic/pci-functions.h>
+#include <asm-generic/set_memory.h>
 
 /* BIOS32 signature: "_32_" */
 #define BIOS32_SIGNATURE	(('_' << 0) + ('3' << 8) + ('2' << 16) + ('_' << 24))

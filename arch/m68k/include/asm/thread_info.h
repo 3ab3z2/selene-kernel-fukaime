@@ -2,7 +2,7 @@
 #ifndef _ASM_M68K_THREAD_INFO_H
 #define _ASM_M68K_THREAD_INFO_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/page.h>
 #include <asm/segment.h>
 

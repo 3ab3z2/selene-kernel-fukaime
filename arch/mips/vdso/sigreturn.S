@@ -10,10 +10,10 @@
 
 #include "vdso.h"
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
-#include <asm/regdef.h>
-#include <asm/asm.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/asm.h>
 
 	.section	.text
 	.cfi_sections	.debug_frame

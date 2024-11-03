@@ -24,9 +24,9 @@
 #include <linux/gpio.h>
 #include <linux/module.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/mach-types.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
 
 #include <mach/pxa2xx-regs.h>
 

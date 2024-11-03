@@ -8,7 +8,7 @@
 
 #include <linux/module.h>
 #include <linux/irq.h>
-#include <asm/blackfin.h>
+#include <asm-generic/blackfin.h>
 
 void __init program_IAR(void)
 {

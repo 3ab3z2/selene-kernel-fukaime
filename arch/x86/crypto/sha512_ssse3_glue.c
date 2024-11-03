@@ -35,7 +35,7 @@
 #include <linux/types.h>
 #include <crypto/sha.h>
 #include <crypto/sha512_base.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 
 #include <linux/string.h>
 

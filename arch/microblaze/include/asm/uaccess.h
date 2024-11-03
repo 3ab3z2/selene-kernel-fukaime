@@ -14,10 +14,10 @@
 #include <linux/kernel.h>
 #include <linux/mm.h>
 
-#include <asm/mmu.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/extable.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/extable.h>
 #include <linux/string.h>
 
 /*

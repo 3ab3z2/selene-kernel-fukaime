@@ -24,7 +24,7 @@
 #include "priv.h"
 
 #if IS_ENABLED(CONFIG_ARM_DMA_USE_IOMMU)
-#include <asm/dma-iommu.h>
+#include <asm-generic/dma-iommu.h>
 #endif
 
 static int

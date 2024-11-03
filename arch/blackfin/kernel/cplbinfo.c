@@ -14,8 +14,8 @@
 #include <linux/seq_file.h>
 #include <linux/uaccess.h>
 
-#include <asm/cplbinit.h>
-#include <asm/blackfin.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/blackfin.h>
 
 static char const page_strtbl[][4] = {
 	"1K", "4K", "1M", "4M",

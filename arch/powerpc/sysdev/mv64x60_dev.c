@@ -19,7 +19,7 @@
 #include <linux/of_net.h>
 #include <linux/dma-mapping.h>
 
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 /* These functions provide the necessary setup for the mv64x60 drivers. */
 

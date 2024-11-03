@@ -17,7 +17,7 @@
 #ifndef __ASM_MIPS_DEC_KN02XA_H
 #define __ASM_MIPS_DEC_KN02XA_H
 
-#include <asm/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ioasic_addrs.h>
 
 #define KN02XA_SLOT_BASE	0x1c000000
 

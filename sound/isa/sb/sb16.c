@@ -19,7 +19,7 @@
  *
  */
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/init.h>
 #include <linux/pnp.h>
 #include <linux/err.h>

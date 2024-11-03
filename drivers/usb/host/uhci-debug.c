@@ -13,7 +13,7 @@
 #include <linux/slab.h>
 #include <linux/kernel.h>
 #include <linux/debugfs.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "uhci-hcd.h"
 

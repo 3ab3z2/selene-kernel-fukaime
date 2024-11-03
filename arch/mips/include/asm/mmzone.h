@@ -6,7 +6,7 @@
 #ifndef _ASM_MMZONE_H_
 #define _ASM_MMZONE_H_
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #ifdef CONFIG_NEED_MULTIPLE_NODES
 # include <mmzone.h>

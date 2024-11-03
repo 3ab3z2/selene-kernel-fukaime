@@ -12,8 +12,8 @@
 #include <linux/sched.h>
 
 #include <acpi/processor.h>
-#include <asm/mwait.h>
-#include <asm/special_insns.h>
+#include <asm-generic/mwait.h>
+#include <asm-generic/special_insns.h>
 
 /*
  * Initialize bm_flags based on the CPU cache properties

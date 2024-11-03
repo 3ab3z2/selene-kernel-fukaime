@@ -29,7 +29,7 @@
 #include <sound/gus.h>
 #include <sound/control.h>
 
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 
 MODULE_AUTHOR("Jaroslav Kysela <perex@perex.cz>");
 MODULE_DESCRIPTION("Routines for Gravis UltraSound soundcards");

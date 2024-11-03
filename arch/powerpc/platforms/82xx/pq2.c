@@ -14,9 +14,9 @@
  * option) any later version.
  */
 
-#include <asm/cpm2.h>
-#include <asm/io.h>
-#include <asm/pci-bridge.h>
+#include <asm-generic/cpm2.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pci-bridge.h>
 
 #include <platforms/82xx/pq2.h>
 

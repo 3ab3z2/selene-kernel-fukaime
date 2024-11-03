@@ -24,8 +24,8 @@
 #include <linux/pci.h>
 #include <linux/interrupt.h>
 #include <linux/sfi.h>
-#include <asm/intel-mid.h>
-#include <asm/intel_scu_ipc.h>
+#include <asm-generic/intel-mid.h>
+#include <asm-generic/intel_scu_ipc.h>
 
 /* IPC defines the following message types */
 #define IPCMSG_WATCHDOG_TIMER 0xF8 /* Set Kernel Watchdog Threshold */

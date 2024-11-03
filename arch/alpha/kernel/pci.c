@@ -22,7 +22,7 @@
 #include <linux/module.h>
 #include <linux/cache.h>
 #include <linux/slab.h>
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 
 #include "proto.h"
 #include "pci_impl.h"

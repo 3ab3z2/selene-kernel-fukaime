@@ -9,7 +9,7 @@
 #ifndef __SPARC_OPLIB_H
 #define __SPARC_OPLIB_H
 
-#include <asm/openprom.h>
+#include <asm-generic/openprom.h>
 
 /* The master romvec pointer... */
 extern struct linux_romvec *romvec;

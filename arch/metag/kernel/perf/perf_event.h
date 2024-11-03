@@ -15,7 +15,7 @@
 #include <linux/perf_event.h>
 
 /* For performance counter definitions */
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 /*
  * The Meta core has two performance counters, with 24-bit resolution. Newer

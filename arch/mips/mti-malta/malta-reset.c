@@ -10,8 +10,8 @@
 #include <linux/pm.h>
 #include <linux/reboot.h>
 
-#include <asm/reboot.h>
-#include <asm/mach-malta/malta-pm.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/mach-malta/malta-pm.h>
 
 static void mips_machine_power_off(void)
 {

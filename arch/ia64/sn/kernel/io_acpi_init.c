@@ -6,11 +6,11 @@
  * Copyright (C) 2006 Silicon Graphics, Inc. All rights reserved.
  */
 
-#include <asm/sn/types.h>
-#include <asm/sn/addrs.h>
-#include <asm/sn/pcidev.h>
-#include <asm/sn/pcibus_provider_defs.h>
-#include <asm/sn/sn_sal.h>
+#include <asm-generic/sn/types.h>
+#include <asm-generic/sn/addrs.h>
+#include <asm-generic/sn/pcidev.h>
+#include <asm-generic/sn/pcibus_provider_defs.h>
+#include <asm-generic/sn/sn_sal.h>
 #include "xtalk/hubdev.h"
 #include <linux/acpi.h>
 #include <linux/slab.h>

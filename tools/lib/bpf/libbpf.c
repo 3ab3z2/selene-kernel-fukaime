@@ -29,7 +29,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/err.h>
 #include <linux/kernel.h>
 #include <linux/bpf.h>

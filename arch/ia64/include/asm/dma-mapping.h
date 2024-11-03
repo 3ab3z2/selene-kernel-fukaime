@@ -6,9 +6,9 @@
  * Copyright (C) 2003-2004 Hewlett-Packard Co
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 #include <linux/scatterlist.h>
-#include <asm/swiotlb.h>
+#include <asm-generic/swiotlb.h>
 #include <linux/dma-debug.h>
 
 #define ARCH_HAS_DMA_GET_REQUIRED_MASK

@@ -30,8 +30,8 @@
 #include <linux/err.h>
 #include <linux/of_iommu.h>
 
-#include <asm/cacheflush.h>
-#include <asm/sizes.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/sizes.h>
 
 #include "msm_iommu_hw-8xxx.h"
 #include "msm_iommu.h"

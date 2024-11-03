@@ -6,14 +6,14 @@
  * Copyright (C) 1998 Jakub Jelinek (jj@sunsite.mff.cuni.cz)
  */
 
-#include <asm/head.h>
-#include <asm/psr.h>
-#include <asm/page.h>
-#include <asm/asi.h>
-#include <asm/ptrace.h>
-#include <asm/vaddrs.h>
-#include <asm/contregs.h>
-#include <asm/thread_info.h>
+#include <asm-generic/head.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/page.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/vaddrs.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/thread_info.h>
 
 	.globl sun4m_cpu_startup
 	.globl sun4d_cpu_startup

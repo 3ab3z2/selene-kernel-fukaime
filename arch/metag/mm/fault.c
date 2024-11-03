@@ -13,9 +13,9 @@
 #include <linux/interrupt.h>
 #include <linux/uaccess.h>
 
-#include <asm/tlbflush.h>
-#include <asm/mmu.h>
-#include <asm/traps.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/traps.h>
 
 /* Clear any pending catch buffer state. */
 static void clear_cbuf_entry(struct pt_regs *regs, unsigned long addr,

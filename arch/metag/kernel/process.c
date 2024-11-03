@@ -27,11 +27,11 @@
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>
 #include <linux/smp.h>
-#include <asm/core_reg.h>
-#include <asm/user_gateway.h>
-#include <asm/tcm.h>
-#include <asm/traps.h>
-#include <asm/switch_to.h>
+#include <asm-generic/core_reg.h>
+#include <asm-generic/user_gateway.h>
+#include <asm-generic/tcm.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/switch_to.h>
 
 /*
  * Wait for the next interrupt and enable local interrupts

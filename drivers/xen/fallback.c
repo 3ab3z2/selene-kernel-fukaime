@@ -2,8 +2,8 @@
 #include <linux/string.h>
 #include <linux/bug.h>
 #include <linux/export.h>
-#include <asm/hypervisor.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/xen/hypercall.h>
 
 int xen_event_channel_op_compat(int cmd, void *arg)
 {

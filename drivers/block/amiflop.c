@@ -69,11 +69,11 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 #include <linux/uaccess.h>
-#include <asm/amigahw.h>
-#include <asm/amigaints.h>
-#include <asm/irq.h>
+#include <asm-generic/amigahw.h>
+#include <asm-generic/amigaints.h>
+#include <asm-generic/irq.h>
 
 #undef DEBUG /* print _LOTS_ of infos */
 

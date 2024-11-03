@@ -56,14 +56,14 @@
 #include <linux/random.h>
 #include <linux/nmi.h>
 
-#include <asm/io.h>
-#include <asm/asm-offsets.h>
-#include <asm/assembly.h>
-#include <asm/pdc.h>
-#include <asm/pdc_chassis.h>
-#include <asm/pgalloc.h>
-#include <asm/unwind.h>
-#include <asm/sections.h>
+#include <asm-generic/io.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdc_chassis.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/sections.h>
 
 #define COMMAND_GLOBAL  F_EXTEND(0xfffe0030)
 #define CMD_RESET       5       /* reset any module */

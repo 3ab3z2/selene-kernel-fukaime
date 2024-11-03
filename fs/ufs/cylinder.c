@@ -15,7 +15,7 @@
 #include <linux/string.h>
 #include <linux/bitops.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "ufs_fs.h"
 #include "ufs.h"

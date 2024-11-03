@@ -31,7 +31,7 @@
 #include "atom.h"
 #include <linux/backlight.h>
 #ifdef CONFIG_PMAC_BACKLIGHT
-#include <asm/backlight.h>
+#include <asm-generic/backlight.h>
 #endif
 
 static void radeon_legacy_encoder_disable(struct drm_encoder *encoder)

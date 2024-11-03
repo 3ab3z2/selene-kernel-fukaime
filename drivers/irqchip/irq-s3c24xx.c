@@ -31,8 +31,8 @@
 #include <linux/of_irq.h>
 #include <linux/of_address.h>
 
-#include <asm/exception.h>
-#include <asm/mach/irq.h>
+#include <asm-generic/exception.h>
+#include <asm-generic/mach/irq.h>
 
 #include <mach/regs-irq.h>
 #include <mach/regs-gpio.h>

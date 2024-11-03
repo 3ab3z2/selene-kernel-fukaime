@@ -32,7 +32,7 @@
 #ifndef __CVMX_SPI_H__
 #define __CVMX_SPI_H__
 
-#include <asm/octeon/cvmx-gmxx-defs.h>
+#include <asm-generic/octeon/cvmx-gmxx-defs.h>
 
 /* CSR typedefs have been moved to cvmx-csr-*.h */
 

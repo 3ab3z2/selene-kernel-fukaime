@@ -51,7 +51,7 @@
 #include <linux/of_gpio.h>
 #include <linux/miscdevice.h>
 #include <linux/spinlock.h>
-#include <asm/siginfo.h>
+#include <asm-generic/siginfo.h>
 #include <linux/rcupdate.h>
 #include <linux/sched.h>
 #include <linux/signal.h>

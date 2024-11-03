@@ -12,7 +12,7 @@
 
 #include <linux/module.h>
 
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 #include <mach/hardware.h>
 
 int cmx255_pcmcia_init(void);

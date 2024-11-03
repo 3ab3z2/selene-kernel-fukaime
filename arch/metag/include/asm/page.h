@@ -4,7 +4,7 @@
 
 #include <linux/const.h>
 
-#include <asm/metag_mem.h>
+#include <asm-generic/metag_mem.h>
 
 /* PAGE_SHIFT determines the page size */
 #if defined(CONFIG_PAGE_SIZE_4K)

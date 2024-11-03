@@ -32,7 +32,7 @@
 #include <linux/ucs2_string.h>
 #include <linux/memblock.h>
 
-#include <asm/early_ioremap.h>
+#include <asm-generic/early_ioremap.h>
 
 struct efi __read_mostly efi = {
 	.mps			= EFI_INVALID_TABLE_ADDR,

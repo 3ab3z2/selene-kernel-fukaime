@@ -13,7 +13,7 @@
 #include <linux/init.h>
 #include <linux/resource.h>
 #include <linux/platform_device.h>
-#include <asm/mcf8390.h>
+#include <asm-generic/mcf8390.h>
 
 static struct resource mcf8390_resources[] = {
 	{

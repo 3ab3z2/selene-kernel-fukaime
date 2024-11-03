@@ -40,8 +40,8 @@
 #include <linux/of_gpio.h>
 #include <linux/mmc/slot-gpio.h>
 
-#include <asm/dma.h>
-#include <asm/irq.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/irq.h>
 #include <linux/platform_data/mmc-mxcmmc.h>
 
 #include <linux/platform_data/dma-imx.h>

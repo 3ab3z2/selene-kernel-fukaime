@@ -2,7 +2,7 @@
 #ifndef _XEN_MMU_H
 
 #include <linux/linkage.h>
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 enum pt_level {
 	PT_PGD,

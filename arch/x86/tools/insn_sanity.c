@@ -31,7 +31,7 @@
 #define unlikely(cond) (cond)
 #define ARRAY_SIZE(a)	(sizeof(a)/sizeof(a[0]))
 
-#include <asm/insn.h>
+#include <asm-generic/insn.h>
 #include <inat.c>
 #include <insn.c>
 

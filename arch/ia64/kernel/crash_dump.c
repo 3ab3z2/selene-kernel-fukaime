@@ -11,7 +11,7 @@
 #include <linux/types.h>
 #include <linux/crash_dump.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <linux/uaccess.h>
 
 /**

@@ -9,7 +9,7 @@
 #ifndef __ASM_S390_CPUFEATURE_H
 #define __ASM_S390_CPUFEATURE_H
 
-#include <asm/elf.h>
+#include <asm-generic/elf.h>
 
 /* Hardware features on Linux on z Systems are indicated by facility bits that
  * are mapped to the so-called machine flags.  Particular machine flags are

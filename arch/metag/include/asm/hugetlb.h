@@ -2,7 +2,7 @@
 #ifndef _ASM_METAG_HUGETLB_H
 #define _ASM_METAG_HUGETLB_H
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include <asm-generic/hugetlb.h>
 
 

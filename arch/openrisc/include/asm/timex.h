@@ -20,8 +20,8 @@
 #define get_cycles get_cycles
 
 #include <asm-generic/timex.h>
-#include <asm/spr.h>
-#include <asm/spr_defs.h>
+#include <asm-generic/spr.h>
+#include <asm-generic/spr_defs.h>
 
 static inline cycles_t get_cycles(void)
 {

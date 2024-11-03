@@ -16,10 +16,10 @@
 #include <linux/string.h>
 #include <linux/tty.h>
 #include <linux/io.h>
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/fcntl.h>
-#include <asm/setup.h>
-#include <asm/prom.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/prom.h>
 
 static u32 base_addr;
 

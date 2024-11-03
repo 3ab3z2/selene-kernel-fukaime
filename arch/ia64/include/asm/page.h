@@ -8,8 +8,8 @@
  *	David Mosberger-Tang <davidm@hpl.hp.com>
  */
 
-#include <asm/intrinsics.h>
-#include <asm/types.h>
+#include <asm-generic/intrinsics.h>
+#include <asm-generic/types.h>
 
 /*
  * The top three bits of an IA64 address are its Region Number.

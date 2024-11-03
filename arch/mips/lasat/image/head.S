@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 */
-#include <asm/lasat/head.h>
+#include <asm-generic/lasat/head.h>
 
 	.text
 	.section .text..start, "ax"

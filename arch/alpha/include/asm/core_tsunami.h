@@ -3,7 +3,7 @@
 #define __ALPHA_TSUNAMI__H__
 
 #include <linux/types.h>
-#include <asm/compiler.h>
+#include <asm-generic/compiler.h>
 
 /*
  * TSUNAMI/TYPHOON are the internal names for the core logic chipset which
@@ -323,7 +323,7 @@ __EXTERN_INLINE int tsunami_is_mmio(const volatile void __iomem *xaddr)
 #define tsunami_trivial_io_bw	1
 #define tsunami_trivial_io_lq	1
 #define tsunami_trivial_iounmap	1
-#include <asm/io_trivial.h>
+#include <asm-generic/io_trivial.h>
 
 #ifdef __IO_EXTERN_INLINE
 #undef __EXTERN_INLINE

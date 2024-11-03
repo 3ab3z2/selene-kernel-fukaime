@@ -12,12 +12,12 @@
 #include <linux/init.h>
 #include <linux/threads.h>
 #include <linux/linkage.h>
-#include <asm/thread_info.h>
-#include <asm/ptrace.h>
-#include <asm/page.h>
-#include <asm/spr-regs.h>
-#include <asm/mb86943a.h>
-#include <asm/cache.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/spr-regs.h>
+#include <asm-generic/mb86943a.h>
+#include <asm-generic/cache.h>
 #include "head.inc"
 
 ###############################################################################

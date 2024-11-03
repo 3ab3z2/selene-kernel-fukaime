@@ -11,7 +11,7 @@
 
 #include <linux/module.h>
 #include <linux/slab.h>
-#include <asm/eadm.h>
+#include <asm-generic/eadm.h>
 #include "scm_blk.h"
 
 static void scm_notify(struct scm_device *scmdev, enum scm_event event)

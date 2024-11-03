@@ -11,7 +11,7 @@
 #include <linux/kernel.h>
 #include <linux/mutex.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define MBOX_BITS_PER_CPU 2
 

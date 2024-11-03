@@ -67,7 +67,7 @@
 #include <linux/usb/input.h>
 #endif
 #include <linux/vmalloc.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/kernel.h>		/* simple_strtol() */
 
 #include "pwc.h"

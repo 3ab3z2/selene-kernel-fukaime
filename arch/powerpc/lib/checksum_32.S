@@ -13,11 +13,11 @@
  */
 
 #include <linux/sys.h>
-#include <asm/processor.h>
-#include <asm/cache.h>
-#include <asm/errno.h>
-#include <asm/ppc_asm.h>
-#include <asm/export.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/cache.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/export.h>
 
 	.text
 

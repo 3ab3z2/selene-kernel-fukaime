@@ -9,7 +9,7 @@
 #ifndef _ASM_SOCKET_H
 #define _ASM_SOCKET_H
 
-#include <uapi/asm/socket.h>
+#include <uapi/asm-generic/socket.h>
 
 
 /** sock_type - Socket types

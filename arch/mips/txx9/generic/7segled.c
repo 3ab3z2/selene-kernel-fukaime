@@ -12,7 +12,7 @@
 #include <linux/device.h>
 #include <linux/slab.h>
 #include <linux/map_to_7segment.h>
-#include <asm/txx9/generic.h>
+#include <asm-generic/txx9/generic.h>
 
 static unsigned int tx_7segled_num;
 static void (*tx_7segled_putc)(unsigned int pos, unsigned char val);

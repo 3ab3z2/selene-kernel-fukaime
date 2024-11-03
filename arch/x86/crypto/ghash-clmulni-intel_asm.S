@@ -17,8 +17,8 @@
  */
 
 #include <linux/linkage.h>
-#include <asm/inst.h>
-#include <asm/frame.h>
+#include <asm-generic/inst.h>
+#include <asm-generic/frame.h>
 
 .section	.rodata.cst16.bswap_mask, "aM", @progbits, 16
 .align 16

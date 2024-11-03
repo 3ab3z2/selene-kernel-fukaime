@@ -29,8 +29,8 @@
 #include <linux/export.h>
 #include <linux/irq_work.h>
 
-#include <asm/machdep.h>
-#include <asm/mce.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/mce.h>
 
 static DEFINE_PER_CPU(int, mce_nest_count);
 static DEFINE_PER_CPU(struct machine_check_event[MAX_MC_EVT], mce_event);

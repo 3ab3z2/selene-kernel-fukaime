@@ -24,7 +24,7 @@
 
 #include <clocksource/pxa.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #define OSMR0		0x00	/* OS Timer 0 Match Register */
 #define OSMR1		0x04	/* OS Timer 1 Match Register */

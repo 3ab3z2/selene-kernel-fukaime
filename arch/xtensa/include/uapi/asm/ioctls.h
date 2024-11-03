@@ -14,7 +14,7 @@
 #ifndef _XTENSA_IOCTLS_H
 #define _XTENSA_IOCTLS_H
 
-#include <asm/ioctl.h>
+#include <asm-generic/ioctl.h>
 
 #define FIOCLEX		_IO('f', 1)
 #define FIONCLEX	_IO('f', 2)

@@ -30,8 +30,8 @@
 #define _ZCRYPT_API_H_
 
 #include <linux/atomic.h>
-#include <asm/debug.h>
-#include <asm/zcrypt.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/zcrypt.h>
 #include "ap_bus.h"
 
 /* deprecated status calls */

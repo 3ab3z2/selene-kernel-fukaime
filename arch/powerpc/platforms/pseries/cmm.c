@@ -33,13 +33,13 @@
 #include <linux/stringify.h>
 #include <linux/swap.h>
 #include <linux/device.h>
-#include <asm/firmware.h>
-#include <asm/hvcall.h>
-#include <asm/mmu.h>
-#include <asm/pgalloc.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/hvcall.h>
+#include <asm-generic/mmu.h>
+#include <asm-generic/pgalloc.h>
 #include <linux/uaccess.h>
 #include <linux/memory.h>
-#include <asm/plpar_wrappers.h>
+#include <asm-generic/plpar_wrappers.h>
 
 #include "pseries.h"
 

@@ -3,7 +3,7 @@
 #define ASM_SCHID_H
 
 #include <linux/string.h>
-#include <uapi/asm/schid.h>
+#include <uapi/asm-generic/schid.h>
 
 /* Helper function for sane state of pre-allocated subchannel_id. */
 static inline void

@@ -16,7 +16,7 @@
 
 #include <linux/init.h>
 #include <linux/io.h>
-#include <asm/mach_desc.h>
+#include <asm-generic/mach_desc.h>
 #include <plat/mtm.h>
 
 static void __init eznps_configure_msu(void)

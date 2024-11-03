@@ -29,13 +29,13 @@
 #include <linux/string.h>
 #include <linux/cache.h>
 
-#include <asm/cacheflush.h>
-#include <asm/cpu-type.h>
-#include <asm/pgtable.h>
-#include <asm/war.h>
-#include <asm/uasm.h>
-#include <asm/setup.h>
-#include <asm/tlbex.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/war.h>
+#include <asm-generic/uasm.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbex.h>
 
 static int mips_xpa_disabled;
 
@@ -230,8 +230,8 @@ static void output_pgtable_bits_defines(void)
 #define pr_define(fmt, ...)					\
 	pr_debug("#define " fmt, ##__VA_ARGS__)
 
-	pr_debug("#include <asm/asm.h>\n");
-	pr_debug("#include <asm/regdef.h>\n");
+	pr_debug("#include <asm-generic/asm.h>\n");
+	pr_debug("#include <asm-generic/regdef.h>\n");
 	pr_debug("\n");
 
 	pr_define("_PAGE_PRESENT_SHIFT %d\n", _PAGE_PRESENT_SHIFT);

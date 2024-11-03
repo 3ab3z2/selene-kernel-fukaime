@@ -14,7 +14,7 @@
 #include <linux/types.h>
 #include <linux/pci.h>
 
-#include <asm/bootparam.h>
+#include <asm-generic/bootparam.h>
 
 /*
  * platform_init is called before the mmu is initialized to give the

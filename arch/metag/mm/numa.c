@@ -14,7 +14,7 @@
 #include <linux/mm.h>
 #include <linux/numa.h>
 #include <linux/pfn.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 struct pglist_data *node_data[MAX_NUMNODES] __read_mostly;
 EXPORT_SYMBOL_GPL(node_data);

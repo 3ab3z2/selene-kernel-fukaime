@@ -24,7 +24,7 @@
 #include <linux/refcount.h>
 
 #include <linux/atomic.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/spinlock.h>
 #include <linux/net.h>
 #include <linux/textsearch.h>

@@ -107,9 +107,9 @@
 #include <linux/spinlock.h>
 #include <linux/stddef.h>
 #include <linux/types.h>
-#include <asm/io.h>
-#include <asm/ip32/ip32_ints.h>
-#include <asm/ip32/mace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/ip32/ip32_ints.h>
+#include <asm-generic/ip32/mace.h>
 
 /*--- Global variables -------------------------------------------------*/
 

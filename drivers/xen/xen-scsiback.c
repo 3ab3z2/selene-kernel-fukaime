@@ -54,7 +54,7 @@
 #include <target/target_core_base.h>
 #include <target/target_core_fabric.h>
 
-#include <asm/hypervisor.h>
+#include <asm-generic/hypervisor.h>
 
 #include <xen/xen.h>
 #include <xen/balloon.h>

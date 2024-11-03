@@ -12,6 +12,6 @@
 #define _ASM_TYPES_H
 
 #include <asm-generic/int-ll64.h>
-#include <uapi/asm/types.h>
+#include <uapi/asm-generic/types.h>
 
 #endif /* _ASM_TYPES_H */

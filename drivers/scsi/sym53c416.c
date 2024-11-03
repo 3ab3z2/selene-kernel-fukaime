@@ -36,8 +36,8 @@
 #include <linux/delay.h>
 #include <linux/proc_fs.h>
 #include <linux/spinlock.h>
-#include <asm/dma.h>
-#include <asm/io.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
 #include <linux/blkdev.h>
 #include <linux/isapnp.h>
 #include "scsi.h"

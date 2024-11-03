@@ -13,7 +13,7 @@
 #include <linux/kprobes.h>
 #include <linux/slab.h>
 #include <linux/uaccess.h>
-#include <asm/disasm.h>
+#include <asm-generic/disasm.h>
 
 #if defined(CONFIG_KGDB) || defined(CONFIG_ARC_EMUL_UNALIGNED) || \
 	defined(CONFIG_KPROBES)

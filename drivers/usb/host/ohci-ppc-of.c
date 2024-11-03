@@ -18,7 +18,7 @@
 #include <linux/of_irq.h>
 #include <linux/of_platform.h>
 
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 
 static int

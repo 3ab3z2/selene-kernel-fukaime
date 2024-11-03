@@ -9,7 +9,7 @@
 #define _ASM_IA64_SN_PDA_H
 
 #include <linux/cache.h>
-#include <asm/percpu.h>
+#include <asm-generic/percpu.h>
 
 
 /*

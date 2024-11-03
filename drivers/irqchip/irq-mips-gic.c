@@ -17,9 +17,9 @@
 #include <linux/sched.h>
 #include <linux/smp.h>
 
-#include <asm/mips-cps.h>
-#include <asm/setup.h>
-#include <asm/traps.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/traps.h>
 
 #include <dt-bindings/interrupt-controller/mips-gic.h>
 

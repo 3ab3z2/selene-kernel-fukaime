@@ -12,11 +12,11 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/irq.h>
-#include <asm/traps.h>
-#include <asm/machdep.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfwdebug.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfwdebug.h>
 
 /***************************************************************************/
 

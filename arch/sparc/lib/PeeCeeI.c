@@ -7,8 +7,8 @@
 
 #include <linux/module.h>
 
-#include <asm/io.h>
-#include <asm/byteorder.h>
+#include <asm-generic/io.h>
+#include <asm-generic/byteorder.h>
 
 void outsb(unsigned long __addr, const void *src, unsigned long count)
 {

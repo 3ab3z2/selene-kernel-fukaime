@@ -14,7 +14,7 @@
 #include <linux/list.h>
 #include <linux/radix-tree.h>
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <linux/atomic.h>
 
 

@@ -8,8 +8,8 @@
 #include <linux/kernel.h>
 #include <linux/irq_work.h>
 #include <linux/hardirq.h>
-#include <asm/apic.h>
-#include <asm/trace/irq_vectors.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/trace/irq_vectors.h>
 #include <linux/interrupt.h>
 
 #ifdef CONFIG_X86_LOCAL_APIC

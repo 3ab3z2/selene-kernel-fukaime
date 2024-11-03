@@ -29,9 +29,9 @@
 #define _M68K_IDE_H
 
 #ifdef __KERNEL__
-#include <asm/setup.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 
 #ifdef CONFIG_MMU
 

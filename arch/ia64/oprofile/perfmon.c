@@ -10,9 +10,9 @@
 #include <linux/kernel.h>
 #include <linux/oprofile.h>
 #include <linux/sched.h>
-#include <asm/perfmon.h>
-#include <asm/ptrace.h>
-#include <asm/errno.h>
+#include <asm-generic/perfmon.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/errno.h>
 
 static int allow_ints;
 

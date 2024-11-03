@@ -23,9 +23,9 @@
 #include <linux/nodemask.h>
 #include <linux/notifier.h>
 #include <linux/export.h>
-#include <asm/mmzone.h>
-#include <asm/numa.h>
-#include <asm/cpu.h>
+#include <asm-generic/mmzone.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/cpu.h>
 
 static struct ia64_cpu *sysfs_cpus;
 

@@ -9,8 +9,8 @@
  * Copyright (C) 2000-2001 Toshiba Corporation
  */
 #include <linux/init.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/tx3927.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/tx3927.h>
 
 void __init tx3927_irq_init(void)
 {

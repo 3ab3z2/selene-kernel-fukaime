@@ -12,12 +12,12 @@
 #include <linux/mc146818rtc.h>
 #include <linux/param.h>
 
-#include <asm/cpu-features.h>
-#include <asm/ds1287.h>
-#include <asm/time.h>
-#include <asm/dec/interrupts.h>
-#include <asm/dec/ioasic.h>
-#include <asm/dec/machtype.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/ds1287.h>
+#include <asm-generic/time.h>
+#include <asm-generic/dec/interrupts.h>
+#include <asm-generic/dec/ioasic.h>
+#include <asm-generic/dec/machtype.h>
 
 void read_persistent_clock(struct timespec *ts)
 {

@@ -39,7 +39,7 @@
 #include <linux/nsproxy.h>
 #include <linux/ipc_namespace.h>
 
-#include <asm/current.h>
+#include <asm-generic/current.h>
 #include <linux/uaccess.h>
 #include "util.h"
 

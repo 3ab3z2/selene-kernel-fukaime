@@ -22,7 +22,7 @@
 #include <linux/of.h>
 #include <linux/of_address.h>
 #include <linux/slab.h>
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 
 #include "berlin2-div.h"
 #include "berlin2-pll.h"

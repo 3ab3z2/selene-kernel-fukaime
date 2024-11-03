@@ -28,7 +28,7 @@
 #include <linux/dma-mapping.h>
 #include <linux/pci.h>
 
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 
 #include <sound/core.h>
 #include <sound/pcm.h>

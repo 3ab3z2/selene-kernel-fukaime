@@ -18,8 +18,8 @@
 
 #include <mach/eseries-gpio.h>
 
-#include <asm/irq.h>
-#include <asm/mach-types.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/mach-types.h>
 
 #include "soc_common.h"
 

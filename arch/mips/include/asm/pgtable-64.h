@@ -12,10 +12,10 @@
 #include <linux/compiler.h>
 #include <linux/linkage.h>
 
-#include <asm/addrspace.h>
-#include <asm/page.h>
-#include <asm/cachectl.h>
-#include <asm/fixmap.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/fixmap.h>
 
 #define __ARCH_USE_5LEVEL_HACK
 #if CONFIG_PGTABLE_LEVELS == 2

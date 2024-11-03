@@ -27,10 +27,10 @@
 
 #include <mach/hardware.h>
 #include <mach/smemc.h>
-#include <asm/io.h>
-#include <asm/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
 #include <mach/pxa2xx-regs.h>
-#include <asm/mach-types.h>
+#include <asm-generic/mach-types.h>
 
 #include <pcmcia/ss.h>
 #include <pcmcia/cistpl.h>

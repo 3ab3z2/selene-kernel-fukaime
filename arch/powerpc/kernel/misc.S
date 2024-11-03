@@ -14,11 +14,11 @@
  * as published by the Free Software Foundation; either version
  * 2 of the License, or (at your option) any later version.
  */
-#include <asm/ppc_asm.h>
-#include <asm/unistd.h>
-#include <asm/asm-compat.h>
-#include <asm/asm-offsets.h>
-#include <asm/export.h>
+#include <asm-generic/ppc_asm.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/asm-compat.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/export.h>
 
 	.text
 

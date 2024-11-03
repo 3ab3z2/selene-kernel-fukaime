@@ -19,11 +19,11 @@
 #include <linux/interrupt.h>
 #include <linux/module.h>
 #include <linux/pci.h>
-#include <asm/dbdma.h>
-#include <asm/io.h>
-#include <asm/pgtable.h>
-#include <asm/prom.h>
-#include <asm/macio.h>
+#include <asm-generic/dbdma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/macio.h>
 
 #include <scsi/scsi.h>
 #include <scsi/scsi_cmnd.h>

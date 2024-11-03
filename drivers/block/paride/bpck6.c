@@ -27,7 +27,7 @@
 #include <linux/kernel.h>
 #include <linux/slab.h>
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <linux/parport.h>
 
 #include "ppc6lnx.c"

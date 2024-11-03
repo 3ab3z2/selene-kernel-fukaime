@@ -30,7 +30,7 @@
 
 #include <linux/firmware.h>
 #include <linux/wait.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include "sms-cards.h"
 #include "smsir.h"

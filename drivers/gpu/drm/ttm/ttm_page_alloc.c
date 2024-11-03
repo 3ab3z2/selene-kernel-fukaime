@@ -49,10 +49,10 @@
 #include <drm/ttm/ttm_page_alloc.h>
 
 #if IS_ENABLED(CONFIG_AGP)
-#include <asm/agp.h>
+#include <asm-generic/agp.h>
 #endif
 #ifdef CONFIG_X86
-#include <asm/set_memory.h>
+#include <asm-generic/set_memory.h>
 #endif
 
 #define NUM_PAGES_TO_ALLOC		(PAGE_SIZE/sizeof(struct page *))

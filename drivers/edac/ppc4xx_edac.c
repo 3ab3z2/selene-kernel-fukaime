@@ -19,7 +19,7 @@
 #include <linux/of_platform.h>
 #include <linux/types.h>
 
-#include <asm/dcr.h>
+#include <asm-generic/dcr.h>
 
 #include "edac_module.h"
 #include "ppc4xx_edac.h"

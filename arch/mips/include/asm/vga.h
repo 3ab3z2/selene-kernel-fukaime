@@ -8,8 +8,8 @@
 #define _ASM_VGA_H
 
 #include <linux/string.h>
-#include <asm/addrspace.h>
-#include <asm/byteorder.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/byteorder.h>
 
 /*
  *	On the PC, we can just recalculate addresses and then

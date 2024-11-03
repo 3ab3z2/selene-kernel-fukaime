@@ -9,7 +9,7 @@
 #include <linux/uaccess.h>
 #include <linux/export.h>
 #include <linux/slab.h>
-#include <asm/debug.h>
+#include <asm-generic/debug.h>
 #include "qdio_debug.h"
 #include "qdio.h"
 

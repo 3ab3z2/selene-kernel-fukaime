@@ -34,14 +34,14 @@
 #include <linux/kexec.h>
 #include <linux/mm.h>
 
-#include <asm/io.h>
-#include <asm/kregs.h>
-#include <asm/meminit.h>
-#include <asm/pgtable.h>
-#include <asm/processor.h>
-#include <asm/mca.h>
-#include <asm/setup.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/kregs.h>
+#include <asm-generic/meminit.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mca.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/tlbflush.h>
 
 #define EFI_DEBUG	0
 

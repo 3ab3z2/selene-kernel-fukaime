@@ -7,7 +7,7 @@
 #include <linux/ioport.h>
 #include <linux/pci.h>
 #include <linux/export.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /*
  * The iomap space on 32-bit PA-RISC is intended to look like this:

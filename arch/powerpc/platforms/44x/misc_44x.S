@@ -9,8 +9,8 @@
  *
  */
 
-#include <asm/reg.h>
-#include <asm/ppc_asm.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/ppc_asm.h>
 
 	.text
 

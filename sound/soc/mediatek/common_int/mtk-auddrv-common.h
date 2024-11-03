@@ -47,7 +47,7 @@
 #include "mtk-auddrv-afe.h"
 #include "mtk-auddrv-clk.h"
 #include "mtk-auddrv-def.h"
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/completion.h>
 #include <linux/delay.h>
 #include <linux/device.h>

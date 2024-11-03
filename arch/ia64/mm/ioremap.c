@@ -12,8 +12,8 @@
 #include <linux/efi.h>
 #include <linux/io.h>
 #include <linux/vmalloc.h>
-#include <asm/io.h>
-#include <asm/meminit.h>
+#include <asm-generic/io.h>
+#include <asm-generic/meminit.h>
 
 static inline void __iomem *
 __ioremap_uc(unsigned long phys_addr)

@@ -12,12 +12,12 @@
 #include <linux/hardirq.h>
 #include <linux/suspend.h>
 #include <linux/kbuild.h>
-#include <asm/processor.h>
-#include <asm/thread_info.h>
-#include <asm/sigframe.h>
-#include <asm/bootparam.h>
-#include <asm/suspend.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/thread_info.h>
+#include <asm-generic/sigframe.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/suspend.h>
+#include <asm-generic/tlbflush.h>
 
 #ifdef CONFIG_XEN
 #include <xen/interface/xen.h>

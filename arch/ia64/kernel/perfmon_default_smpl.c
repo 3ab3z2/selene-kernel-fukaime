@@ -9,11 +9,11 @@
 #include <linux/types.h>
 #include <linux/module.h>
 #include <linux/init.h>
-#include <asm/delay.h>
+#include <asm-generic/delay.h>
 #include <linux/smp.h>
 
-#include <asm/perfmon.h>
-#include <asm/perfmon_default_smpl.h>
+#include <asm-generic/perfmon.h>
+#include <asm-generic/perfmon_default_smpl.h>
 
 MODULE_AUTHOR("Stephane Eranian <eranian@hpl.hp.com>");
 MODULE_DESCRIPTION("perfmon default sampling format");

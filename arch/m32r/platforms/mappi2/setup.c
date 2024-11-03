@@ -13,8 +13,8 @@
 #include <linux/init.h>
 #include <linux/platform_device.h>
 
-#include <asm/m32r.h>
-#include <asm/io.h>
+#include <asm-generic/m32r.h>
+#include <asm-generic/io.h>
 
 #define irq2port(x) (M32R_ICU_CR1_PORTL + ((x - 1) * sizeof(unsigned long)))
 

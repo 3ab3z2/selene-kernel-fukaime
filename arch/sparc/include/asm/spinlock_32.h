@@ -9,9 +9,9 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/psr.h>
-#include <asm/barrier.h>
-#include <asm/processor.h> /* for cpu_relax */
+#include <asm-generic/psr.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/processor.h> /* for cpu_relax */
 
 #define arch_spin_is_locked(lock) (*((volatile unsigned char *)(lock)) != 0)
 

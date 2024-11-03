@@ -10,10 +10,10 @@
 #include <linux/kdebug.h>
 #include <linux/irq.h>
 #include <linux/io.h>
-#include <asm/cacheflush.h>
-#include <asm/asm-offsets.h>
-#include <asm/kgdb.h>
-#include <asm/pvr.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/kgdb.h>
+#include <asm-generic/pvr.h>
 
 #define GDB_REG		0
 #define GDB_PC		32

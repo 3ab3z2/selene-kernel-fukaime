@@ -15,12 +15,12 @@
 #include <linux/init.h>
 #include <linux/delay.h>
 
-#include <asm/code-patching.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/pci-bridge.h>
-#include <asm/mpic.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pci-bridge.h>
+#include <asm-generic/mpic.h>
+#include <asm-generic/cacheflush.h>
 
 #include <sysdev/fsl_soc.h>
 

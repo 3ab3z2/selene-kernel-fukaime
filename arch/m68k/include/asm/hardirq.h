@@ -4,7 +4,7 @@
 
 #include <linux/threads.h>
 #include <linux/cache.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 #ifdef CONFIG_MMU
 

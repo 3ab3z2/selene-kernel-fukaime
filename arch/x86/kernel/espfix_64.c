@@ -37,10 +37,10 @@
 #include <linux/percpu.h>
 #include <linux/gfp.h>
 #include <linux/random.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/setup.h>
-#include <asm/espfix.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/espfix.h>
 
 /*
  * Note: we only need 6*8 = 48 bytes for the espfix stack, but round

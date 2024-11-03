@@ -6,7 +6,7 @@
 #ifndef _METAG_PGTABLE_H
 #define _METAG_PGTABLE_H
 
-#include <asm/pgtable-bits.h>
+#include <asm-generic/pgtable-bits.h>
 #define __ARCH_USE_5LEVEL_HACK
 #include <asm-generic/pgtable-nopmd.h>
 
@@ -88,7 +88,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 /* zero page used for uninitialized stuff */
 extern unsigned long empty_zero_page;

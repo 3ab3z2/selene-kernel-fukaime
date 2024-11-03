@@ -98,7 +98,7 @@
 #ifndef __ASSEMBLY__
 
 #include <linux/types.h>
-#include <asm/fpu.h>
+#include <asm-generic/fpu.h>
 
 /*
  * Data types needed to pass information into PAL procedures and

@@ -29,7 +29,7 @@
 #include <linux/pagemap.h>
 #include <linux/quotaops.h>
 
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 #include <cluster/masklog.h>
 

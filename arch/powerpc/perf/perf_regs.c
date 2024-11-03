@@ -14,8 +14,8 @@
 #include <linux/perf_event.h>
 #include <linux/bug.h>
 #include <linux/stddef.h>
-#include <asm/ptrace.h>
-#include <asm/perf_regs.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/perf_regs.h>
 
 #define PT_REGS_OFFSET(id, r) [id] = offsetof(struct pt_regs, r)
 

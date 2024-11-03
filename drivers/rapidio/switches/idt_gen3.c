@@ -16,7 +16,7 @@
 #include <linux/rio_ids.h>
 #include <linux/delay.h>
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 #include "../rio.h"
 
 #define RIO_EM_PW_STAT		0x40020

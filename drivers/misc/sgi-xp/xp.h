@@ -16,7 +16,7 @@
 #include <linux/mutex.h>
 
 #if defined CONFIG_X86_UV || defined CONFIG_IA64_SGI_UV
-#include <asm/uv/uv.h>
+#include <asm-generic/uv/uv.h>
 #define is_uv()		is_uv_system()
 #endif
 
@@ -25,7 +25,7 @@
 #endif
 
 #if defined CONFIG_IA64
-#include <asm/sn/arch.h>	/* defines is_shub1() and is_shub2() */
+#include <asm-generic/sn/arch.h>	/* defines is_shub1() and is_shub2() */
 #define is_shub()	ia64_platform_is("sn2")
 #endif
 

@@ -20,9 +20,9 @@
 #define ARCH_HAS_IOREMAP_WT
 
 #include <linux/types.h>
-#include <asm/virtconvert.h>
-#include <asm/string.h>
-#include <asm/mb-regs.h>
+#include <asm-generic/virtconvert.h>
+#include <asm-generic/string.h>
+#include <asm-generic/mb-regs.h>
 #include <asm-generic/pci_iomap.h>
 #include <linux/delay.h>
 

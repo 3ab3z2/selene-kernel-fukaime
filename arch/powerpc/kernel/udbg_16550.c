@@ -9,9 +9,9 @@
  *      2 of the License, or (at your option) any later version.
  */
 #include <linux/types.h>
-#include <asm/udbg.h>
-#include <asm/io.h>
-#include <asm/reg_a2.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/io.h>
+#include <asm-generic/reg_a2.h>
 
 extern u8 real_readb(volatile u8 __iomem  *addr);
 extern void real_writeb(u8 data, volatile u8 __iomem *addr);

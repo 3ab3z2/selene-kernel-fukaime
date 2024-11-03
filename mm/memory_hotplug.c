@@ -37,7 +37,7 @@
 #include <linux/compaction.h>
 #include <linux/rmap.h>
 
-#include <asm/tlbflush.h>
+#include <asm-generic/tlbflush.h>
 
 #include "internal.h"
 

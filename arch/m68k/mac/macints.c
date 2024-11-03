@@ -116,16 +116,16 @@
 #include <linux/irq.h>
 #include <linux/delay.h>
 
-#include <asm/irq.h>
-#include <asm/macintosh.h>
-#include <asm/macints.h>
-#include <asm/mac_via.h>
-#include <asm/mac_psc.h>
-#include <asm/mac_oss.h>
-#include <asm/mac_iop.h>
-#include <asm/mac_baboon.h>
-#include <asm/hwtest.h>
-#include <asm/irq_regs.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/macintosh.h>
+#include <asm-generic/macints.h>
+#include <asm-generic/mac_via.h>
+#include <asm-generic/mac_psc.h>
+#include <asm-generic/mac_oss.h>
+#include <asm-generic/mac_iop.h>
+#include <asm-generic/mac_baboon.h>
+#include <asm-generic/hwtest.h>
+#include <asm-generic/irq_regs.h>
 
 extern void show_registers(struct pt_regs *);
 

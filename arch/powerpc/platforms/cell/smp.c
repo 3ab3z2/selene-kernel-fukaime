@@ -26,24 +26,24 @@
 #include <linux/device.h>
 #include <linux/cpu.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/smp.h>
-#include <asm/paca.h>
-#include <asm/machdep.h>
-#include <asm/cputable.h>
-#include <asm/firmware.h>
-#include <asm/rtas.h>
-#include <asm/cputhreads.h>
-#include <asm/code-patching.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/paca.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/code-patching.h>
 
 #include "interrupt.h"
-#include <asm/udbg.h>
+#include <asm-generic/udbg.h>
 
 #ifdef DEBUG
 #define DBG(fmt...) udbg_printf(fmt)

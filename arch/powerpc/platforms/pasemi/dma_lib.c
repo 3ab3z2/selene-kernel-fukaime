@@ -24,7 +24,7 @@
 #include <linux/of.h>
 #include <linux/sched.h>
 
-#include <asm/pasemi_dma.h>
+#include <asm-generic/pasemi_dma.h>
 
 #define MAX_TXCH 64
 #define MAX_RXCH 64

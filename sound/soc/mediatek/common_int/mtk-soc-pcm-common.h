@@ -43,7 +43,7 @@
 #ifndef AUDIO_MT_SOC_COMMON_H
 #define AUDIO_MT_SOC_COMMON_H
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <linux/completion.h>
 #include <linux/delay.h>
 #include <linux/device.h>

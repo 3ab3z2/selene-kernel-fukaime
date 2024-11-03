@@ -13,13 +13,13 @@
 #include <linux/types.h>
 #include <linux/time.h>
 
-#include <asm/time.h>
-#include <asm/addrspace.h>
-#include <asm/io.h>
+#include <asm-generic/time.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_smbus.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_smbus.h>
 
 
 /* Xicor 1241 definitions */

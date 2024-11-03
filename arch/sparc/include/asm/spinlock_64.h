@@ -9,10 +9,10 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/processor.h>
-#include <asm/barrier.h>
-#include <asm/qrwlock.h>
-#include <asm/qspinlock.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/qrwlock.h>
+#include <asm-generic/qspinlock.h>
 
 #define arch_read_lock_flags(p, f) arch_read_lock(p)
 #define arch_write_lock_flags(p, f) arch_write_lock(p)

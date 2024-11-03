@@ -15,8 +15,8 @@
 #include <linux/init.h>
 #include <linux/cpu.h>
 #include <linux/hrtimer.h>
-#include <asm/irq_regs.h>
-#include <asm/ptrace.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/ptrace.h>
 
 #include "oprof.h"
 

@@ -26,9 +26,9 @@
  *               Arthur Shipkowski (art@videon-central.com)
  */
 
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/mcfdma.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/mcfdma.h>
 
 /*
  * Set number of channels of DMA on ColdFire for different implementations.

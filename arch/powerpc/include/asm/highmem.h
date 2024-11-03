@@ -24,10 +24,10 @@
 #ifdef __KERNEL__
 
 #include <linux/interrupt.h>
-#include <asm/kmap_types.h>
-#include <asm/tlbflush.h>
-#include <asm/page.h>
-#include <asm/fixmap.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/page.h>
+#include <asm-generic/fixmap.h>
 
 extern pte_t *kmap_pte;
 extern pgprot_t kmap_prot;

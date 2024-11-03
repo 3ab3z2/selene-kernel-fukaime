@@ -11,7 +11,7 @@
 
 #ifndef __ASSEMBLY__
 
-#include <asm/tbx.h>
+#include <asm-generic/tbx.h>
 
 typedef TBIRES (*kick_irq_func_t)(TBIRES, int, int, int, PTBI, int *);
 

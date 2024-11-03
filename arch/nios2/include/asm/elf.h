@@ -19,7 +19,7 @@
 #ifndef _ASM_NIOS2_ELF_H
 #define _ASM_NIOS2_ELF_H
 
-#include <uapi/asm/elf.h>
+#include <uapi/asm-generic/elf.h>
 
 /*
  * This is used to ensure we don't load something for the wrong architecture.

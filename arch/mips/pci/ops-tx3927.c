@@ -40,10 +40,10 @@
 #include <linux/interrupt.h>
 #include <linux/irq.h>
 
-#include <asm/addrspace.h>
-#include <asm/txx9irq.h>
-#include <asm/txx9/pci.h>
-#include <asm/txx9/tx3927.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/txx9irq.h>
+#include <asm-generic/txx9/pci.h>
+#include <asm-generic/txx9/tx3927.h>
 
 static int mkaddr(struct pci_bus *bus, unsigned char devfn, unsigned char where)
 {

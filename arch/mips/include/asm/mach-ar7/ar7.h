@@ -24,7 +24,7 @@
 #include <linux/io.h>
 #include <linux/errno.h>
 
-#include <asm/addrspace.h>
+#include <asm-generic/addrspace.h>
 
 #define AR7_SDRAM_BASE	0x14000000
 

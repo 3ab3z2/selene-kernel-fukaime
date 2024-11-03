@@ -13,9 +13,9 @@
 #include <linux/sched.h>
 #include <linux/module.h>
 
-#include <asm/openprom.h>
-#include <asm/oplib.h>
-#include <asm/ldc.h>
+#include <asm-generic/openprom.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/ldc.h>
 
 static phandle prom_node_to_node(const char *type, phandle node)
 {

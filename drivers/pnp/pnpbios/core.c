@@ -63,9 +63,9 @@
 #include <linux/kmod.h>
 #include <linux/kthread.h>
 
-#include <asm/page.h>
-#include <asm/desc.h>
-#include <asm/byteorder.h>
+#include <asm-generic/page.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/byteorder.h>
 
 #include "../base.h"
 #include "pnpbios.h"

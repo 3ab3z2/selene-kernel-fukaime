@@ -35,8 +35,8 @@
 #include <linux/dma-mapping.h>
 #include <linux/slab.h>
 
-#include <asm/tlbflush.h>
-#include <asm/mmu.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/mmu.h>
 
 #define CONSISTENT_OFFSET(x)	(((unsigned long)(x) - CONSISTENT_START) \
 					>> PAGE_SHIFT)

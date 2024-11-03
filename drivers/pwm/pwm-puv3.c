@@ -20,7 +20,7 @@
 #include <linux/io.h>
 #include <linux/pwm.h>
 
-#include <asm/div64.h>
+#include <asm-generic/div64.h>
 #include <mach/hardware.h>
 
 struct puv3_pwm_chip {

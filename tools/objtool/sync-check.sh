@@ -6,10 +6,10 @@ arch/x86/lib/insn.c
 arch/x86/lib/inat.c
 arch/x86/lib/x86-opcode-map.txt
 arch/x86/tools/gen-insn-attr-x86.awk
-arch/x86/include/asm/insn.h
-arch/x86/include/asm/inat.h
-arch/x86/include/asm/inat_types.h
-arch/x86/include/asm/orc_types.h
+arch/x86/include/asm-generic/insn.h
+arch/x86/include/asm-generic/inat.h
+arch/x86/include/asm-generic/inat_types.h
+arch/x86/include/asm-generic/orc_types.h
 '
 
 check()

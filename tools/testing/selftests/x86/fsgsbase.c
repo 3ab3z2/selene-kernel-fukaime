@@ -13,7 +13,7 @@
 #include <unistd.h>
 #include <err.h>
 #include <sys/user.h>
-#include <asm/prctl.h>
+#include <asm-generic/prctl.h>
 #include <sys/prctl.h>
 #include <signal.h>
 #include <limits.h>
@@ -21,7 +21,7 @@
 #include <sched.h>
 #include <linux/futex.h>
 #include <pthread.h>
-#include <asm/ldt.h>
+#include <asm-generic/ldt.h>
 #include <sys/mman.h>
 
 #ifndef __x86_64__

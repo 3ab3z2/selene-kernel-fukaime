@@ -11,8 +11,8 @@
 #ifndef _ASM_USER_H
 #define _ASM_USER_H
 
-#include <asm/page.h>
-#include <asm/registers.h>
+#include <asm-generic/page.h>
+#include <asm-generic/registers.h>
 
 /* Core file format: The core file is written in such a way that gdb
  * can understand it and provide useful information to the user (under

@@ -6,7 +6,7 @@
 #include <linux/console.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
-#include <asm/sclp.h>
+#include <asm-generic/sclp.h>
 
 static void sclp_early_write(struct console *con, const char *s, unsigned int len)
 {

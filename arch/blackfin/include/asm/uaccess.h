@@ -15,8 +15,8 @@
 #include <linux/mm.h>
 #include <linux/string.h>
 
-#include <asm/segment.h>
-#include <asm/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/sections.h>
 
 #define get_ds()        (KERNEL_DS)
 #define get_fs()        (current_thread_info()->addr_limit)
@@ -42,7 +42,7 @@ static inline int _access_ok(unsigned long addr, unsigned long size) { return 1;
 extern int _access_ok(unsigned long addr, unsigned long size);
 #endif
 
-#include <asm/extable.h>
+#include <asm-generic/extable.h>
 
 /*
  * These are the main single-value transfer routines.  They automatically

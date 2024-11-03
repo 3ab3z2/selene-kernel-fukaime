@@ -31,14 +31,14 @@
 #include <linux/sched.h>
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 #if defined(CONFIG_SIBYTE_BCM1x55) || defined(CONFIG_SIBYTE_BCM1x80)
-#include <asm/sibyte/bcm1480_regs.h>
+#include <asm-generic/sibyte/bcm1480_regs.h>
 #endif
 
 

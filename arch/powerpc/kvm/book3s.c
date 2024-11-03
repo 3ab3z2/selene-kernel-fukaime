@@ -25,17 +25,17 @@
 #include <linux/vmalloc.h>
 #include <linux/highmem.h>
 
-#include <asm/reg.h>
-#include <asm/cputable.h>
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/reg.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 #include <linux/uaccess.h>
-#include <asm/io.h>
-#include <asm/kvm_ppc.h>
-#include <asm/kvm_book3s.h>
-#include <asm/mmu_context.h>
-#include <asm/page.h>
-#include <asm/xive.h>
+#include <asm-generic/io.h>
+#include <asm-generic/kvm_ppc.h>
+#include <asm-generic/kvm_book3s.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/page.h>
+#include <asm-generic/xive.h>
 
 #include "book3s.h"
 #include "trace.h"

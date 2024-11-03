@@ -37,16 +37,16 @@
 #include <linux/uaccess.h>
 #include <linux/cpu.h>
 
-#include <asm/cpufeature.h>
-#include <asm/hypervisor.h>
-#include <asm/vsyscall.h>
-#include <asm/cmdline.h>
-#include <asm/pti.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/tlbflush.h>
-#include <asm/desc.h>
-#include <asm/sections.h>
+#include <asm-generic/cpufeature.h>
+#include <asm-generic/hypervisor.h>
+#include <asm-generic/vsyscall.h>
+#include <asm-generic/cmdline.h>
+#include <asm-generic/pti.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/desc.h>
+#include <asm-generic/sections.h>
 
 #undef pr_fmt
 #define pr_fmt(fmt)     "Kernel/User page tables isolation: " fmt

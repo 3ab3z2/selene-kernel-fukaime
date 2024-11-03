@@ -7,7 +7,7 @@
  * Copyright (C) 1998 Jakub Jelinek   (jj@ultra.linux.cz)
  */
 
-#include <asm/errno.h>
+#include <asm-generic/errno.h>
 
 /* NOTE: call as jump breaks return stack, we have to avoid that */
 

@@ -22,29 +22,29 @@
 #include <linux/types.h>
 #include <linux/pm.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/cpu-features.h>
-#include <asm/cpu-type.h>
-#include <asm/irq.h>
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/reboot.h>
-#include <asm/time.h>
-#include <asm/traps.h>
-#include <asm/wbflush.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/cpu-features.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/time.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/wbflush.h>
 
-#include <asm/dec/interrupts.h>
-#include <asm/dec/ioasic.h>
-#include <asm/dec/ioasic_addrs.h>
-#include <asm/dec/ioasic_ints.h>
-#include <asm/dec/kn01.h>
-#include <asm/dec/kn02.h>
-#include <asm/dec/kn02ba.h>
-#include <asm/dec/kn02ca.h>
-#include <asm/dec/kn03.h>
-#include <asm/dec/kn230.h>
-#include <asm/dec/system.h>
+#include <asm-generic/dec/interrupts.h>
+#include <asm-generic/dec/ioasic.h>
+#include <asm-generic/dec/ioasic_addrs.h>
+#include <asm-generic/dec/ioasic_ints.h>
+#include <asm-generic/dec/kn01.h>
+#include <asm-generic/dec/kn02.h>
+#include <asm-generic/dec/kn02ba.h>
+#include <asm-generic/dec/kn02ca.h>
+#include <asm-generic/dec/kn03.h>
+#include <asm-generic/dec/kn230.h>
+#include <asm-generic/dec/system.h>
 
 
 extern void dec_machine_restart(char *command);

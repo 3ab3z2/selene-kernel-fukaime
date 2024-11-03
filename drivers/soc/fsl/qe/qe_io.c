@@ -20,9 +20,9 @@
 #include <linux/module.h>
 #include <linux/ioport.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 #include <soc/fsl/qe/qe.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 #include <sysdev/fsl_soc.h>
 
 #undef DEBUG

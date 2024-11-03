@@ -27,7 +27,7 @@
 #include <sound/pcm_params.h>
 #include <sound/soc.h>
 #include <sound/compress_driver.h>
-#include <asm/platform_sst_audio.h>
+#include <asm-generic/platform_sst_audio.h>
 #include "sst-mfld-platform.h"
 #include "sst-atom-controls.h"
 

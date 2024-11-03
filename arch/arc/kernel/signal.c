@@ -55,7 +55,7 @@
 #include <linux/tracehook.h>
 #include <linux/sched/task_stack.h>
 
-#include <asm/ucontext.h>
+#include <asm-generic/ucontext.h>
 
 struct rt_sigframe {
 	struct siginfo info;

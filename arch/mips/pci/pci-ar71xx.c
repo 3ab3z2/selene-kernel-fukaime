@@ -21,8 +21,8 @@
 #include <linux/init.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-ath79/ar71xx_regs.h>
-#include <asm/mach-ath79/ath79.h>
+#include <asm-generic/mach-ath79/ar71xx_regs.h>
+#include <asm-generic/mach-ath79/ath79.h>
 
 #define AR71XX_PCI_REG_CRP_AD_CBE	0x00
 #define AR71XX_PCI_REG_CRP_WRDATA	0x04

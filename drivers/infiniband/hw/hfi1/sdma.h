@@ -49,7 +49,7 @@
 
 #include <linux/types.h>
 #include <linux/list.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/workqueue.h>
 #include <linux/rculist.h>
 

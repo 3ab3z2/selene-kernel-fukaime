@@ -6,8 +6,8 @@
 
 #include <linux/futex.h>
 #include <linux/uaccess.h>
-#include <asm/atomic.h>
-#include <asm/errno.h>
+#include <asm-generic/atomic.h>
+#include <asm-generic/errno.h>
 
 /* The following has to match the LWS code in syscall.S.  We have
    sixteen four-word locks. */

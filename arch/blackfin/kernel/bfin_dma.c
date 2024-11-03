@@ -16,11 +16,11 @@
 #include <linux/seq_file.h>
 #include <linux/spinlock.h>
 
-#include <asm/blackfin.h>
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
 #include <linux/uaccess.h>
-#include <asm/early_printk.h>
+#include <asm-generic/early_printk.h>
 
 /*
  * To make sure we work around 05000119 - we always check DMA_DONE bit,

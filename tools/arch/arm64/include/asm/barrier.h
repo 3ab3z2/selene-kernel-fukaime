@@ -6,7 +6,7 @@
  * From tools/perf/perf-sys.h, last modified in:
  * f428ebd184c82a7914b2aa7e9f868918aaf7ea78 perf tools: Fix AAAAARGH64 memory barriers
  *
- * XXX: arch/arm64/include/asm/barrier.h in the kernel sources use dsb, is this
+ * XXX: arch/arm64/include/asm-generic/barrier.h in the kernel sources use dsb, is this
  * a case like for arm32 where we do things differently in userspace?
  */
 

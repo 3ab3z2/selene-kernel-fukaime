@@ -10,7 +10,7 @@
 
 #include <linux/oprofile.h>
 #include <linux/smp.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #include "op_impl.h"
 

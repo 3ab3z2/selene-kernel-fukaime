@@ -28,9 +28,9 @@
 #include <linux/bug.h>
 #include <linux/errno.h>
 
-#include <asm/byteorder.h>
-#include <asm/word-at-a-time.h>
-#include <asm/page.h>
+#include <asm-generic/byteorder.h>
+#include <asm-generic/word-at-a-time.h>
+#include <asm-generic/page.h>
 
 #ifndef __HAVE_ARCH_STRNCASECMP
 /**

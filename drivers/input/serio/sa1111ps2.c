@@ -19,9 +19,9 @@
 #include <linux/slab.h>
 #include <linux/spinlock.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
-#include <asm/hardware/sa1111.h>
+#include <asm-generic/hardware/sa1111.h>
 
 #define PS2CR		0x0000
 #define PS2STAT		0x0004

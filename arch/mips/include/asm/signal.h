@@ -9,7 +9,7 @@
 #ifndef _ASM_SIGNAL_H
 #define _ASM_SIGNAL_H
 
-#include <uapi/asm/signal.h>
+#include <uapi/asm-generic/signal.h>
 
 #ifdef CONFIG_MIPS32_O32
 extern struct mips_abi mips_abi_32;
@@ -24,8 +24,8 @@ extern struct mips_abi mips_abi_32;
 			((ka)->sa.sa_flags & SA_SIGINFO) : 1) )
 #endif
 
-#include <asm/sigcontext.h>
-#include <asm/siginfo.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/siginfo.h>
 
 #define __ARCH_HAS_IRIX_SIGACTION
 

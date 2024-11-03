@@ -3,7 +3,7 @@
 #include <linux/gfp.h>
 #include <linux/kernel.h>
 
-#include <asm/mce.h>
+#include <asm-generic/mce.h>
 
 #include "debugfs.h"
 

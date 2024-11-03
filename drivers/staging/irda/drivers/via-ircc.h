@@ -32,7 +32,7 @@ this program; if not, see <http://www.gnu.org/licenses/>.
 #include <linux/spinlock.h>
 #include <linux/pm.h>
 #include <linux/types.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define MAX_TX_WINDOW 7
 #define MAX_RX_WINDOW 7

@@ -38,12 +38,12 @@
 #include <linux/random.h>
 #include <linux/delay.h>
 
-#include <asm/bootinfo.h>
-#include <asm/time.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
+#include <asm-generic/mipsregs.h>
 
-#include <asm/mach-rc32434/irq.h>
-#include <asm/mach-rc32434/gpio.h>
+#include <asm-generic/mach-rc32434/irq.h>
+#include <asm-generic/mach-rc32434/gpio.h>
 
 struct intr_group {
 	u32 mask;	/* mask of valid bits in pending/mask registers */
@@ -53,7 +53,7 @@ struct intr_group {
 #define RC32434_NR_IRQS	 (GROUP4_IRQ_BASE + 32)
 
 #if (NR_IRQS < RC32434_NR_IRQS)
-#error Too little irqs defined. Did you override <asm/irq.h> ?
+#error Too little irqs defined. Did you override <asm-generic/irq.h> ?
 #endif
 
 static const struct intr_group intr_group[NUM_INTR_GROUPS] = {

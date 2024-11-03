@@ -3,7 +3,7 @@
 #define _XTENSA_UNISTD_H
 
 #define __ARCH_WANT_SYS_CLONE
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #define __ARCH_WANT_STAT64
 #define __ARCH_WANT_SYS_UTIME

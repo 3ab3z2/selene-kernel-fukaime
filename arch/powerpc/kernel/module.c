@@ -21,11 +21,11 @@
 #include <linux/err.h>
 #include <linux/vmalloc.h>
 #include <linux/bug.h>
-#include <asm/module.h>
+#include <asm-generic/module.h>
 #include <linux/uaccess.h>
-#include <asm/firmware.h>
+#include <asm-generic/firmware.h>
 #include <linux/sort.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 static LIST_HEAD(module_bug_list);
 

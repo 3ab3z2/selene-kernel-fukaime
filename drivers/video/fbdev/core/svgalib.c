@@ -15,8 +15,8 @@
 #include <linux/string.h>
 #include <linux/fb.h>
 #include <linux/svga.h>
-#include <asm/types.h>
-#include <asm/io.h>
+#include <asm-generic/types.h>
+#include <asm-generic/io.h>
 
 
 /* Write a CRT register value spread across multiple registers */

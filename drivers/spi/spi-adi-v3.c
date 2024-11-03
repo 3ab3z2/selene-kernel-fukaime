@@ -30,8 +30,8 @@
 #include <linux/spi/adi_spi3.h>
 #include <linux/types.h>
 
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 
 enum adi_spi_state {
 	START_STATE,

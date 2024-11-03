@@ -14,11 +14,11 @@
 #include <linux/perf_event.h>
 #include <linux/percpu.h>
 #include <linux/hardirq.h>
-#include <asm/reg_fsl_emb.h>
-#include <asm/pmc.h>
-#include <asm/machdep.h>
-#include <asm/firmware.h>
-#include <asm/ptrace.h>
+#include <asm-generic/reg_fsl_emb.h>
+#include <asm-generic/pmc.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/ptrace.h>
 
 struct cpu_hw_events {
 	int n_events;

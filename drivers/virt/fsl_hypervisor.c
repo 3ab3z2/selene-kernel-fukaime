@@ -41,7 +41,7 @@
 #include <linux/interrupt.h>
 
 #include <linux/io.h>
-#include <asm/fsl_hcalls.h>
+#include <asm-generic/fsl_hcalls.h>
 
 #include <linux/fsl_hypervisor.h>
 

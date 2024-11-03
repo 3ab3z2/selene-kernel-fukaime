@@ -13,11 +13,11 @@
 
 #include <linux/threads.h>
 
-#include <asm/asm.h>
-#include <asm/asmmacro.h>
-#include <asm/mipsregs.h>
-#include <asm/asm-offsets.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/thread_info.h>
 
 /* Make the addition of cfi info a little easier. */
 	.macro cfi_rel_offset reg offset=0 docfi=0

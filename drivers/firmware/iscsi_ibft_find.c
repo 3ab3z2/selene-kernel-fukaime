@@ -34,7 +34,7 @@
 #include <linux/acpi.h>
 #include <linux/iscsi_ibft.h>
 
-#include <asm/mmzone.h>
+#include <asm-generic/mmzone.h>
 
 /*
  * Physical location of iSCSI Boot Format Table.

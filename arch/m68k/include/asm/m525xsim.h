@@ -22,7 +22,7 @@
 #define CPU_INSTR_PER_JIFFY	3
 #define MCF_BUSCLK		(MCF_CLK / 2)
 
-#include <asm/m52xxacr.h>
+#include <asm-generic/m52xxacr.h>
 
 /*
  *	The 525x has a second MBAR region, define its address.

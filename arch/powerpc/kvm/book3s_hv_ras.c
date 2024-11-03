@@ -11,12 +11,12 @@
 #include <linux/kvm.h>
 #include <linux/kvm_host.h>
 #include <linux/kernel.h>
-#include <asm/opal.h>
-#include <asm/mce.h>
-#include <asm/machdep.h>
-#include <asm/cputhreads.h>
-#include <asm/hmi.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/mce.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/cputhreads.h>
+#include <asm-generic/hmi.h>
+#include <asm-generic/kvm_ppc.h>
 
 /* SRR1 bits for machine check on POWER7 */
 #define SRR1_MC_LDSTERR		(1ul << (63-42))

@@ -4,15 +4,15 @@
 #include <linux/pci.h>
 #include <xen/swiotlb-xen.h>
 
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 #include <xen/xen.h>
-#include <asm/iommu_table.h>
+#include <asm-generic/iommu_table.h>
 
 
-#include <asm/xen/swiotlb-xen.h>
+#include <asm-generic/xen/swiotlb-xen.h>
 #ifdef CONFIG_X86_64
-#include <asm/iommu.h>
-#include <asm/dma.h>
+#include <asm-generic/iommu.h>
+#include <asm-generic/dma.h>
 #endif
 #include <linux/export.h>
 

@@ -11,15 +11,15 @@
 #include <linux/init.h>
 #include <linux/smp.h>
 
-#include <asm/cpu-info.h>
-#include <asm/cpu-type.h>
-#include <asm/time.h>
+#include <asm-generic/cpu-info.h>
+#include <asm-generic/cpu-type.h>
+#include <asm-generic/time.h>
 
-#include <asm/octeon/octeon.h>
-#include <asm/octeon/cvmx-ipd-defs.h>
-#include <asm/octeon/cvmx-mio-defs.h>
-#include <asm/octeon/cvmx-rst-defs.h>
-#include <asm/octeon/cvmx-fpa-defs.h>
+#include <asm-generic/octeon/octeon.h>
+#include <asm-generic/octeon/cvmx-ipd-defs.h>
+#include <asm-generic/octeon/cvmx-mio-defs.h>
+#include <asm-generic/octeon/cvmx-rst-defs.h>
+#include <asm-generic/octeon/cvmx-fpa-defs.h>
 
 static u64 f;
 static u64 rdiv;

@@ -12,7 +12,7 @@
 #define pr_fmt(fmt) "rodata_test: " fmt
 
 #include <linux/uaccess.h>
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 static const int rodata_test_data = 0xC3;
 

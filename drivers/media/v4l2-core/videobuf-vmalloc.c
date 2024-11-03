@@ -22,8 +22,8 @@
 #include <linux/pci.h>
 #include <linux/vmalloc.h>
 #include <linux/pagemap.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 
 #include <media/videobuf-vmalloc.h>
 

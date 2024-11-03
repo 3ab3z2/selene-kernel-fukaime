@@ -11,7 +11,7 @@
 #include <linux/init.h>
 #include <linux/of_device.h>
 
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* XXX This device has a 'dev-comm' property which apparently is
  * XXX a pointer into the openfirmware's address space which is

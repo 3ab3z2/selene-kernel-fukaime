@@ -43,7 +43,7 @@
 #include <linux/reset-controller.h>
 #include <linux/reset.h>
 #include <linux/sched.h>
-#include <asm/system_misc.h>
+#include <asm-generic/system_misc.h>
 #ifdef CONFIG_MT6397_MISC
 #include <linux/mfd/mt6397/rtc_misc.h>
 #endif

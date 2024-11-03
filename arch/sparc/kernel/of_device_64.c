@@ -10,7 +10,7 @@
 #include <linux/irq.h>
 #include <linux/of_device.h>
 #include <linux/of_platform.h>
-#include <asm/spitfire.h>
+#include <asm-generic/spitfire.h>
 
 #include "of_device_common.h"
 

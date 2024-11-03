@@ -4,7 +4,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/page.h>
+#include <asm-generic/page.h>
 
 #define SECTION_SIZE_BITS       30
 #define MAX_PHYSADDR_BITS       MAX_PHYS_ADDRESS_BITS

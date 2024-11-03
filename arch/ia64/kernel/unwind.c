@@ -34,14 +34,14 @@
 #include <linux/sched.h>
 #include <linux/slab.h>
 
-#include <asm/unwind.h>
+#include <asm-generic/unwind.h>
 
-#include <asm/delay.h>
-#include <asm/page.h>
-#include <asm/ptrace.h>
-#include <asm/ptrace_offsets.h>
-#include <asm/rse.h>
-#include <asm/sections.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/ptrace_offsets.h>
+#include <asm-generic/rse.h>
+#include <asm-generic/sections.h>
 #include <linux/uaccess.h>
 
 #include "entry.h"

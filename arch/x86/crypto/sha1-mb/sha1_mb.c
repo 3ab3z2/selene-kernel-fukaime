@@ -64,9 +64,9 @@
 #include <crypto/sha.h>
 #include <crypto/mcryptd.h>
 #include <crypto/crypto_wq.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 #include <linux/hardirq.h>
-#include <asm/fpu/api.h>
+#include <asm-generic/fpu/api.h>
 #include "sha1_mb_ctx.h"
 
 #define FLUSH_INTERVAL 1000 /* in usec */

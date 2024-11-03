@@ -21,11 +21,11 @@
 #include <linux/nmi.h>
 #include <linux/swap.h>
 
-#include <asm/meminit.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/sections.h>
-#include <asm/mca.h>
+#include <asm-generic/meminit.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/mca.h>
 
 #ifdef CONFIG_VIRTUAL_MEM_MAP
 static unsigned long max_gap;

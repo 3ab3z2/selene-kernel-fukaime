@@ -24,7 +24,7 @@
 #include <linux/slab.h>
 
 #ifdef CONFIG_SGI_IP22
-#include <asm/sgi/ioc.h>
+#include <asm-generic/sgi/ioc.h>
 
 static inline u8 button_status(void)
 {
@@ -36,7 +36,7 @@ static inline u8 button_status(void)
 #endif
 
 #ifdef CONFIG_SGI_IP32
-#include <asm/ip32/mace.h>
+#include <asm-generic/ip32/mace.h>
 
 static inline u8 button_status(void)
 {

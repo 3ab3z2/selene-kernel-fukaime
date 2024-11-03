@@ -23,12 +23,12 @@
 #include <linux/string.h>
 #include <linux/types.h>
 
-#include <asm/setup.h>
-#include <asm/segment.h>
-#include <asm/page.h>
-#include <asm/pgtable.h>
-#include <asm/traps.h>
-#include <asm/io.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/io.h>
 
 void cache_clear(unsigned long paddr, int len)
 {

@@ -32,13 +32,13 @@
 #include <linux/uaccess.h>
 #include <linux/delay.h>
 #include <linux/export.h>
-#include <asm/io_apic.h>
+#include <asm-generic/io_apic.h>
 #include "gru.h"
 #include "grulib.h"
 #include "grutables.h"
 #include "grukservices.h"
 #include "gru_instructions.h"
-#include <asm/uv/uv_hub.h>
+#include <asm-generic/uv/uv_hub.h>
 
 /*
  * Kernel GRU Usage

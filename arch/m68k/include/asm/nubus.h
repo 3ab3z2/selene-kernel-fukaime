@@ -2,7 +2,7 @@
 #ifndef _ASM_M68K_NUBUS_H
 #define _ASM_M68K_NUBUS_H
 
-#include <asm/raw_io.h>
+#include <asm-generic/raw_io.h>
 
 #define nubus_readb raw_inb
 #define nubus_readw raw_inw

@@ -11,7 +11,7 @@
 #define _VAS_H
 #include <linux/atomic.h>
 #include <linux/idr.h>
-#include <asm/vas.h>
+#include <asm-generic/vas.h>
 #include <linux/io.h>
 
 /*

@@ -16,19 +16,19 @@
 #include <linux/string.h>
 #include <linux/mm.h>
 #include <linux/interrupt.h>
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 #include <linux/in6.h>
 
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/checksum.h>
-#include <asm/dma.h>
-#include <asm/io.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/ftrace.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/checksum.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/ftrace.h>
 #ifdef CONFIG_BLK_DEV_FD
-#include <asm/floppy.h>
+#include <asm-generic/floppy.h>
 #endif
 #ifdef CONFIG_NET
 #include <net/checksum.h>

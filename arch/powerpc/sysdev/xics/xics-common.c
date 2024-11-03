@@ -22,15 +22,15 @@
 #include <linux/spinlock.h>
 #include <linux/delay.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/machdep.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/rtas.h>
-#include <asm/xics.h>
-#include <asm/firmware.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/machdep.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/rtas.h>
+#include <asm-generic/xics.h>
+#include <asm-generic/firmware.h>
 
 /* Globals common to all ICP/ICS implementations */
 const struct icp_ops	*icp_ops;

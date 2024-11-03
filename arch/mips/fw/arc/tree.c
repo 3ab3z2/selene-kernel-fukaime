@@ -10,8 +10,8 @@
  * Copyright (C) 1999 Silicon Graphics, Inc.
  */
 #include <linux/init.h>
-#include <asm/fw/arc/types.h>
-#include <asm/sgialib.h>
+#include <asm-generic/fw/arc/types.h>
+#include <asm-generic/sgialib.h>
 
 #undef DEBUG_PROM_TREE
 

@@ -44,25 +44,25 @@
 #include <linux/of_address.h>
 #include <linux/of_irq.h>
 
-#include <asm/errno.h>
-#include <asm/signal.h>
-#include <asm/ptrace.h>
-#include <asm/mipsregs.h>
-#include <asm/thread_info.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/signal.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/thread_info.h>
 
-#include <asm/netlogic/mips-extns.h>
-#include <asm/netlogic/interrupt.h>
-#include <asm/netlogic/haldefs.h>
-#include <asm/netlogic/common.h>
+#include <asm-generic/netlogic/mips-extns.h>
+#include <asm-generic/netlogic/interrupt.h>
+#include <asm-generic/netlogic/haldefs.h>
+#include <asm-generic/netlogic/common.h>
 
 #if defined(CONFIG_CPU_XLP)
-#include <asm/netlogic/xlp-hal/iomap.h>
-#include <asm/netlogic/xlp-hal/xlp.h>
-#include <asm/netlogic/xlp-hal/pic.h>
+#include <asm-generic/netlogic/xlp-hal/iomap.h>
+#include <asm-generic/netlogic/xlp-hal/xlp.h>
+#include <asm-generic/netlogic/xlp-hal/pic.h>
 #elif defined(CONFIG_CPU_XLR)
-#include <asm/netlogic/xlr/iomap.h>
-#include <asm/netlogic/xlr/pic.h>
-#include <asm/netlogic/xlr/fmn.h>
+#include <asm-generic/netlogic/xlr/iomap.h>
+#include <asm-generic/netlogic/xlr/pic.h>
+#include <asm-generic/netlogic/xlr/fmn.h>
 #else
 #error "Unknown CPU"
 #endif

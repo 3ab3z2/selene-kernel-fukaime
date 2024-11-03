@@ -15,8 +15,8 @@
  * ptr isn't the current task, in which case it does nothing.
  */
 
-#include <asm/l1layout.h>
-#include <asm/mem_map.h>
+#include <asm-generic/l1layout.h>
+#include <asm-generic/mem_map.h>
 
 asmlinkage struct task_struct *resume(struct task_struct *prev, struct task_struct *next);
 

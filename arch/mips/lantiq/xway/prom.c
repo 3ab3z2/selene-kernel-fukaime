@@ -9,8 +9,8 @@
 
 #include <linux/export.h>
 #include <linux/clk.h>
-#include <asm/bootinfo.h>
-#include <asm/time.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/time.h>
 
 #include <lantiq_soc.h>
 

@@ -6,7 +6,7 @@
 
 #define ARCH_HAS_IOREMAP_WT
 
-#include <asm/virtconvert.h>
+#include <asm-generic/virtconvert.h>
 #include <asm-generic/iomap.h>
 
 /*

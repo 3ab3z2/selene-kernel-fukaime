@@ -3,7 +3,7 @@
  * arch/arm/mach-iop33x/include/mach/uncompress.h
  */
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <asm/mach-types.h>
 #include <linux/serial_reg.h>
 #include <mach/hardware.h>

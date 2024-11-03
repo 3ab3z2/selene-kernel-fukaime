@@ -59,7 +59,7 @@
 
 #include <xen/xenbus.h>
 #include <xen/xen.h>
-#include <asm/xen/hypervisor.h>
+#include <asm-generic/xen/hypervisor.h>
 
 #include "xenbus.h"
 

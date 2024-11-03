@@ -25,7 +25,7 @@
 #include <linux/of_dma.h>
 #include <linux/bitops.h>
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "dmaengine.h"
 #include "virt-dma.h"

@@ -4,7 +4,7 @@
 
 #ifdef __KERNEL__
 
-#include <asm/sgidefs.h>
+#include <asm-generic/sgidefs.h>
 
 #if (_MIPS_ISA == _MIPS_ISA_MIPS1) || (_MIPS_ISA == _MIPS_ISA_MIPS2) || \
 	(_MIPS_ISA == _MIPS_ISA_MIPS32)

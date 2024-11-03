@@ -17,11 +17,11 @@
 #include <linux/init.h>
 #include <linux/topology.h>
 #include <linux/mm.h>
-#include <asm/proto.h>
-#include <asm/numa.h>
-#include <asm/e820/api.h>
-#include <asm/apic.h>
-#include <asm/uv/uv.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/numa.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/apic.h>
+#include <asm-generic/uv/uv.h>
 
 /* Callback for Proximity Domain -> x2APIC mapping */
 void __init

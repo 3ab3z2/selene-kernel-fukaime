@@ -11,7 +11,7 @@
 #include <linux/compiler.h>
 #include <asm/page.h>
 #include <asm/percpu.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * TOP_OF_KERNEL_STACK_PADDING is a number of unused bytes that we

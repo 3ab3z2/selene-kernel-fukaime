@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-2.0
-#include <asm/contregs.h>
-#include <asm/sun3mmu.h>
-#include <asm/io.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/sun3mmu.h>
+#include <asm-generic/io.h>
 
 void sun3_leds(unsigned char byte)
 {

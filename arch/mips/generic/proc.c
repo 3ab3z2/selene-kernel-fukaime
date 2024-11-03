@@ -10,7 +10,7 @@
 
 #include <linux/of.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 const char *get_system_type(void)
 {

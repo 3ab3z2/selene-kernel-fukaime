@@ -20,7 +20,7 @@
 
 #include "internal.h"
 
-#include <asm/ioctls.h>
+#include <asm-generic/ioctls.h>
 
 /* So that the fiemap access checks can't overflow on 32 bit machines. */
 #define FIEMAP_MAX_EXTENTS	(UINT_MAX / sizeof(struct fiemap_extent))

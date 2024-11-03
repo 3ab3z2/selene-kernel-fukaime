@@ -25,9 +25,9 @@
 #include <linux/irqdomain.h>
 #include <linux/of.h>
 
-#include <asm/mxregs.h>
+#include <asm-generic/mxregs.h>
 #include <linux/uaccess.h>
-#include <asm/platform.h>
+#include <asm-generic/platform.h>
 
 DECLARE_PER_CPU(unsigned long, nmi_count);
 

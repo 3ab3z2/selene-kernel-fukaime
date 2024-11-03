@@ -33,17 +33,17 @@
 #include <linux/tboot.h>
 #include <linux/debugfs.h>
 
-#include <asm/realmode.h>
-#include <asm/processor.h>
-#include <asm/bootparam.h>
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/swiotlb.h>
-#include <asm/fixmap.h>
-#include <asm/proto.h>
-#include <asm/setup.h>
-#include <asm/e820/api.h>
-#include <asm/io.h>
+#include <asm-generic/realmode.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/bootparam.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/swiotlb.h>
+#include <asm-generic/fixmap.h>
+#include <asm-generic/proto.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/e820/api.h>
+#include <asm-generic/io.h>
 
 #include "../realmode/rm/wakeup.h"
 

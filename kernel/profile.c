@@ -27,9 +27,9 @@
 #include <linux/vmalloc.h>
 #include <linux/sched/stat.h>
 
-#include <asm/sections.h>
-#include <asm/irq_regs.h>
-#include <asm/ptrace.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/ptrace.h>
 
 struct profile_hit {
 	u32 pc, hits;

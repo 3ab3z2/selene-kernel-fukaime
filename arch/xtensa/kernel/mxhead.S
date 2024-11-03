@@ -15,10 +15,10 @@
 
 #include <linux/linkage.h>
 
-#include <asm/cacheasm.h>
-#include <asm/initialize_mmu.h>
-#include <asm/mxregs.h>
-#include <asm/regs.h>
+#include <asm-generic/cacheasm.h>
+#include <asm-generic/initialize_mmu.h>
+#include <asm-generic/mxregs.h>
+#include <asm-generic/regs.h>
 
 
 	.section .SecondaryResetVector.text, "ax"

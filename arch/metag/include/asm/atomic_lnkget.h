@@ -8,7 +8,7 @@
 
 #include <linux/compiler.h>
 
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 
 /*
  * None of these asm statements clobber memory as LNKSET writes around

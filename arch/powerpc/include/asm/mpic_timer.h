@@ -1,5 +1,5 @@
 /*
- * arch/powerpc/include/asm/mpic_timer.h
+ * arch/powerpc/include/asm-generic/mpic_timer.h
  *
  * Header file for Mpic Global Timer
  *

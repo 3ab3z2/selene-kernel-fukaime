@@ -15,14 +15,14 @@
 #include <linux/pm.h>
 #include <linux/timer.h>
 
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/reboot.h>
-#include <asm/sgialib.h>
-#include <asm/sgi/ioc.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/ip22.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/reboot.h>
+#include <asm-generic/sgialib.h>
+#include <asm-generic/sgi/ioc.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/ip22.h>
 
 /*
  * Just powerdown if init hasn't done after POWERDOWN_TIMEOUT seconds.

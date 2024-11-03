@@ -10,7 +10,7 @@
 #ifndef _ASM_IA64_PARAM_H
 #define _ASM_IA64_PARAM_H
 
-#include <uapi/asm/param.h>
+#include <uapi/asm-generic/param.h>
 
 # define HZ		CONFIG_HZ
 # define USER_HZ	HZ

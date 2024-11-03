@@ -22,10 +22,10 @@
 #include <net/irda/wrapper.h>
 #include <net/irda/irda_device.h>
 
-#include <asm/irq.h>
-#include <asm/cacheflush.h>
-#include <asm/dma.h>
-#include <asm/portmux.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dma.h>
+#include <asm-generic/portmux.h>
 #undef DRIVER_NAME
 
 #ifdef CONFIG_SIR_BFIN_DMA
@@ -82,7 +82,7 @@ struct bfin_sir_self {
 
 #define DRIVER_NAME "bfin_sir"
 
-#include <asm/bfin_serial.h>
+#include <asm-generic/bfin_serial.h>
 
 static const unsigned short per[][4] = {
 	/* rx pin      tx pin     NULL  uart_number */

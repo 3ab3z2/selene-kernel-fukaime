@@ -10,10 +10,10 @@
  * Author: Wu Zhangjin <wuzhangjin@gmail.com>
  */
 
-#include <asm/export.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
-#include <asm/ftrace.h>
+#include <asm-generic/export.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/ftrace.h>
 
 	.text
 	.set noreorder

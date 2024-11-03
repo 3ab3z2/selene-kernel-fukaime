@@ -15,7 +15,7 @@
  */
 
 #include <linux/init.h>
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
 void __init prom_init(void)
 {

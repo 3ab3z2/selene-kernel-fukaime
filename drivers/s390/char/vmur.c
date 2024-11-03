@@ -16,10 +16,10 @@
 #include <linux/module.h>
 
 #include <linux/uaccess.h>
-#include <asm/cio.h>
-#include <asm/ccwdev.h>
-#include <asm/debug.h>
-#include <asm/diag.h>
+#include <asm-generic/cio.h>
+#include <asm-generic/ccwdev.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/diag.h>
 
 #include "vmur.h"
 

@@ -25,9 +25,9 @@
 #include <linux/types.h>
 #include <linux/pci.h>
 
-#include <asm/bootinfo.h>
+#include <asm-generic/bootinfo.h>
 
-#include <asm/emma/emma2rh.h>
+#include <asm-generic/emma/emma2rh.h>
 
 #define EMMA2RH_PCI_HOST_SLOT 0x09
 #define EMMA2RH_USB_SLOT 0x03

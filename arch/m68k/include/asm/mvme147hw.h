@@ -2,7 +2,7 @@
 #ifndef _MVME147HW_H_
 #define _MVME147HW_H_
 
-#include <asm/irq.h>
+#include <asm-generic/irq.h>
 
 typedef struct {
 	unsigned char

@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: GPL-2.0 */
 #ifdef __uClinux__
-#include <asm/io_no.h>
+#include <asm-generic/io_no.h>
 #else
-#include <asm/io_mm.h>
+#include <asm-generic/io_mm.h>
 #endif
 
 #define readb_relaxed(addr)	readb(addr)

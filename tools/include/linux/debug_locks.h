@@ -4,7 +4,7 @@
 
 #include <stddef.h>
 #include <linux/compiler.h>
-#include <asm/bug.h>
+#include <asm-generic/bug.h>
 
 #define DEBUG_LOCKS_WARN_ON(x) WARN_ON(x)
 

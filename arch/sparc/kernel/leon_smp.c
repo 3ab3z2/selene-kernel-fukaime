@@ -7,7 +7,7 @@
  * Copyright (C) 2009 Konrad Eisele (konrad@gaisler.com) Aeroflex Gaisler AB
  */
 
-#include <asm/head.h>
+#include <asm-generic/head.h>
 
 #include <linux/kernel.h>
 #include <linux/sched/mm.h>
@@ -27,25 +27,25 @@
 #include <linux/cpu.h>
 #include <linux/clockchips.h>
 
-#include <asm/cacheflush.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/tlbflush.h>
 
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 #include <linux/atomic.h>
-#include <asm/irq_regs.h>
-#include <asm/traps.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/traps.h>
 
-#include <asm/delay.h>
-#include <asm/irq.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/oplib.h>
-#include <asm/cpudata.h>
-#include <asm/asi.h>
-#include <asm/leon.h>
-#include <asm/leon_amba.h>
-#include <asm/timer.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/leon.h>
+#include <asm-generic/leon_amba.h>
+#include <asm-generic/timer.h>
 
 #include "kernel.h"
 

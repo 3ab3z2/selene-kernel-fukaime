@@ -6,7 +6,7 @@
  * Trap if we find current not correct.
  */
 
-#include <asm/pal.h>
+#include <asm-generic/pal.h>
 
 	.text
 	.set noat

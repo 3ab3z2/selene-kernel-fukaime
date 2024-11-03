@@ -8,7 +8,7 @@
 #ifndef __ASM_ARC_PAGE_H
 #define __ASM_ARC_PAGE_H
 
-#include <uapi/asm/page.h>
+#include <uapi/asm-generic/page.h>
 
 #ifndef __ASSEMBLY__
 

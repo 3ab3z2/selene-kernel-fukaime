@@ -17,10 +17,10 @@
 #include <linux/smp.h>
 #include <linux/slab.h>
 
-#include <asm/cacheflush.h>
-#include <asm/dsemul.h>
-#include <asm/hazards.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/dsemul.h>
+#include <asm-generic/hazards.h>
+#include <asm-generic/tlbflush.h>
 #include <asm-generic/mm_hooks.h>
 
 #define htw_set_pwbase(pgd)						\

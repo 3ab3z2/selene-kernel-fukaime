@@ -19,8 +19,8 @@
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
 
-#include <asm/mach-types.h>
-#include <asm/irq.h>
+#include <asm-generic/mach-types.h>
+#include <asm-generic/irq.h>
 
 #include <mach/pxa2xx-regs.h>
 #include <mach/trizeps4.h>

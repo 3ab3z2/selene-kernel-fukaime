@@ -21,11 +21,11 @@
 #include <linux/kvm_host.h>
 #include <linux/kvm.h>
 #include <linux/seqlock.h>
-#include <asm/debug.h>
-#include <asm/cpu.h>
-#include <asm/fpu/api.h>
-#include <asm/isc.h>
-#include <asm/guarded_storage.h>
+#include <asm-generic/debug.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/isc.h>
+#include <asm-generic/guarded_storage.h>
 
 #define KVM_S390_BSCA_CPU_SLOTS 64
 #define KVM_S390_ESCA_CPU_SLOTS 248
@@ -579,7 +579,7 @@ struct kvm_hw_bp_info_arch {
 /*
  * Only the upper 16 bits of kvm_guest_debug->control are arch specific.
  * Further KVM_GUESTDBG flags which an be used from userspace can be found in
- * arch/s390/include/uapi/asm/kvm.h
+ * arch/s390/include/uapi/asm-generic/kvm.h
  */
 #define KVM_GUESTDBG_EXIT_PENDING 0x10000000
 

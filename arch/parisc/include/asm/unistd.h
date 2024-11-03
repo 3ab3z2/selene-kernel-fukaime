@@ -2,7 +2,7 @@
 #ifndef _ASM_PARISC_UNISTD_H_
 #define _ASM_PARISC_UNISTD_H_
 
-#include <uapi/asm/unistd.h>
+#include <uapi/asm-generic/unistd.h>
 
 #ifndef __ASSEMBLY__
 

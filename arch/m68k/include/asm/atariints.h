@@ -18,8 +18,8 @@
 #ifndef _LINUX_ATARIINTS_H_
 #define _LINUX_ATARIINTS_H_
 
-#include <asm/irq.h>
-#include <asm/atarihw.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/atarihw.h>
 
 /*
 ** Atari Interrupt sources.

@@ -29,7 +29,7 @@
 #include <linux/ioport.h>
 #include <linux/platform_device.h>
 
-#include <asm/mipsregs.h>
+#include <asm-generic/mipsregs.h>
 
 #include <msp_regs.h>
 #include <msp_int.h>

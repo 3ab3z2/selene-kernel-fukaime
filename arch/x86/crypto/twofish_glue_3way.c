@@ -20,7 +20,7 @@
  *
  */
 
-#include <asm/processor.h>
+#include <asm-generic/processor.h>
 #include <linux/crypto.h>
 #include <linux/init.h>
 #include <linux/module.h>
@@ -28,8 +28,8 @@
 #include <crypto/algapi.h>
 #include <crypto/twofish.h>
 #include <crypto/b128ops.h>
-#include <asm/crypto/twofish.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/crypto/twofish.h>
+#include <asm-generic/crypto/glue_helper.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
 

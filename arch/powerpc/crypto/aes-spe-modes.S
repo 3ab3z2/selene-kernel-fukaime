@@ -10,7 +10,7 @@
  *
  */
 
-#include <asm/ppc_asm.h>
+#include <asm-generic/ppc_asm.h>
 #include "aes-spe-regs.h"
 
 #ifdef __BIG_ENDIAN__			/* Macros for big endian builds	*/

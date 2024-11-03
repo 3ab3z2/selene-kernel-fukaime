@@ -30,18 +30,18 @@
 #include <linux/ratelimit.h>
 #include <linux/uaccess.h>
 
-#include <asm/assembly.h>
-#include <asm/io.h>
-#include <asm/irq.h>
-#include <asm/traps.h>
-#include <asm/unaligned.h>
+#include <asm-generic/assembly.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/unaligned.h>
 #include <linux/atomic.h>
-#include <asm/smp.h>
-#include <asm/pdc.h>
-#include <asm/pdc_chassis.h>
-#include <asm/unwind.h>
-#include <asm/tlbflush.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/pdc.h>
+#include <asm-generic/pdc_chassis.h>
+#include <asm-generic/unwind.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/cacheflush.h>
 
 #include "../math-emu/math-emu.h"	/* for handle_fpe() */
 

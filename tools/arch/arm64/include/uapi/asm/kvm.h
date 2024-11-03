@@ -3,7 +3,7 @@
  * Copyright (C) 2012,2013 - ARM Ltd
  * Author: Marc Zyngier <marc.zyngier@arm.com>
  *
- * Derived from arch/arm/include/uapi/asm/kvm.h:
+ * Derived from arch/arm/include/uapi/asm-generic/kvm.h:
  * Copyright (C) 2012 - Virtual Open Systems and Columbia University
  * Author: Christoffer Dall <c.dall@virtualopensystems.com>
  *
@@ -34,7 +34,7 @@
 #ifndef __ASSEMBLY__
 #include <linux/psci.h>
 #include <linux/types.h>
-#include <asm/ptrace.h>
+#include <asm-generic/ptrace.h>
 
 #define __KVM_HAVE_GUEST_DEBUG
 #define __KVM_HAVE_IRQ_LINE

@@ -10,7 +10,7 @@
 #include <linux/sched.h>
 #include <linux/ptrace.h>
 #include <linux/kbuild.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 void foo(void)
 {

@@ -2,7 +2,7 @@
 #ifndef __ASM_PARISC_LINKAGE_H
 #define __ASM_PARISC_LINKAGE_H
 
-#include <asm/dwarf.h>
+#include <asm-generic/dwarf.h>
 
 #ifndef __ALIGN
 #define __ALIGN         .align 4

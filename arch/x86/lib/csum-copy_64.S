@@ -6,8 +6,8 @@
  * for more details. No warranty for anything given at all.
  */
 #include <linux/linkage.h>
-#include <asm/errno.h>
-#include <asm/asm.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/asm.h>
 
 /*
  * Checksum copy with exception handling.

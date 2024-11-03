@@ -24,19 +24,19 @@
 #include <linux/kernel.h>
 #include <linux/random.h>
 
-#include <asm/traps.h>
-#include <asm/i8259.h>
-#include <asm/irq_cpu.h>
-#include <asm/irq_regs.h>
-#include <asm/mips-boards/malta.h>
-#include <asm/mips-boards/maltaint.h>
-#include <asm/mips-cps.h>
-#include <asm/gt64120.h>
-#include <asm/mips-boards/generic.h>
-#include <asm/mips-boards/msc01_pci.h>
-#include <asm/msc01_ic.h>
-#include <asm/setup.h>
-#include <asm/rtlx.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/i8259.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/irq_regs.h>
+#include <asm-generic/mips-boards/malta.h>
+#include <asm-generic/mips-boards/maltaint.h>
+#include <asm-generic/mips-cps.h>
+#include <asm-generic/gt64120.h>
+#include <asm-generic/mips-boards/generic.h>
+#include <asm-generic/mips-boards/msc01_pci.h>
+#include <asm-generic/msc01_ic.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/rtlx.h>
 
 static inline int mips_pcibios_iack(void)
 {

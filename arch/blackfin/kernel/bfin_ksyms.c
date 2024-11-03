@@ -9,9 +9,9 @@
 #include <linux/module.h>
 #include <linux/uaccess.h>
 
-#include <asm/cacheflush.h>
-#include <asm/io.h>
-#include <asm/irq_handler.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/io.h>
+#include <asm-generic/irq_handler.h>
 
 /* Allow people to have their own Blackfin exception handler in a module */
 EXPORT_SYMBOL(bfin_return_from_exception);

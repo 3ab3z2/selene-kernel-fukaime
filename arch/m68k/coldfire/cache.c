@@ -10,8 +10,8 @@
 /***************************************************************************/
 
 #include <linux/kernel.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
 
 /***************************************************************************/
 #ifdef CACHE_PUSH

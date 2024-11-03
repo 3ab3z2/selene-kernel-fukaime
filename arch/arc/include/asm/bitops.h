@@ -17,9 +17,9 @@
 
 #include <linux/types.h>
 #include <linux/compiler.h>
-#include <asm/barrier.h>
+#include <asm-generic/barrier.h>
 #ifndef CONFIG_ARC_HAS_LLSC
-#include <asm/smp.h>
+#include <asm-generic/smp.h>
 #endif
 
 #ifdef CONFIG_ARC_HAS_LLSC

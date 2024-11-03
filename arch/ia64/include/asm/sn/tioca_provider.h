@@ -9,7 +9,7 @@
 #ifndef _ASM_IA64_SN_TIO_CA_AGP_PROVIDER_H
 #define _ASM_IA64_SN_TIO_CA_AGP_PROVIDER_H
 
-#include <asm/sn/tioca.h>
+#include <asm-generic/sn/tioca.h>
 
 /*
  * WAR enables

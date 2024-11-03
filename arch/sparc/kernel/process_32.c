@@ -30,19 +30,19 @@
 #include <linux/slab.h>
 #include <linux/cpu.h>
 
-#include <asm/auxio.h>
-#include <asm/oplib.h>
+#include <asm-generic/auxio.h>
+#include <asm-generic/oplib.h>
 #include <linux/uaccess.h>
-#include <asm/page.h>
-#include <asm/pgalloc.h>
-#include <asm/pgtable.h>
-#include <asm/delay.h>
-#include <asm/processor.h>
-#include <asm/psr.h>
-#include <asm/elf.h>
-#include <asm/prom.h>
-#include <asm/unistd.h>
-#include <asm/setup.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/unistd.h>
+#include <asm-generic/setup.h>
 
 #include "kernel.h"
 

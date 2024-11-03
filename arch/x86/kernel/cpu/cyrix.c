@@ -2,14 +2,14 @@
 #include <linux/bitops.h>
 #include <linux/delay.h>
 #include <linux/pci.h>
-#include <asm/dma.h>
+#include <asm-generic/dma.h>
 #include <linux/io.h>
-#include <asm/processor-cyrix.h>
-#include <asm/processor-flags.h>
+#include <asm-generic/processor-cyrix.h>
+#include <asm-generic/processor-flags.h>
 #include <linux/timer.h>
-#include <asm/pci-direct.h>
-#include <asm/tsc.h>
-#include <asm/cpufeature.h>
+#include <asm-generic/pci-direct.h>
+#include <asm-generic/tsc.h>
+#include <asm-generic/cpufeature.h>
 #include <linux/sched.h>
 #include <linux/sched/clock.h>
 

@@ -23,7 +23,7 @@
 #include <linux/kcov.h>
 #include <linux/refcount.h>
 #include <linux/log2.h>
-#include <asm/setup.h>
+#include <asm-generic/setup.h>
 
 #define kcov_debug(fmt, ...) pr_debug("%s: " fmt, __func__, ##__VA_ARGS__)
 

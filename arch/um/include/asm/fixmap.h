@@ -2,10 +2,10 @@
 #ifndef __UM_FIXMAP_H
 #define __UM_FIXMAP_H
 
-#include <asm/processor.h>
-#include <asm/kmap_types.h>
-#include <asm/archparam.h>
-#include <asm/page.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/kmap_types.h>
+#include <asm-generic/archparam.h>
+#include <asm-generic/page.h>
 #include <linux/threads.h>
 
 /*

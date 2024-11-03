@@ -15,8 +15,8 @@
 #include <linux/irqdomain.h>
 #include <linux/interrupt.h>
 
-#include <asm/irq_cpu.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/irq_cpu.h>
+#include <asm-generic/mipsregs.h>
 
 #include "common.h"
 

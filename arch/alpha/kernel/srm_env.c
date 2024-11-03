@@ -34,9 +34,9 @@
 #include <linux/init.h>
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
-#include <asm/console.h>
+#include <asm-generic/console.h>
 #include <linux/uaccess.h>
-#include <asm/machvec.h>
+#include <asm-generic/machvec.h>
 
 #define BASE_DIR	"srm_environment"	/* Subdir in /proc/		*/
 #define NAMED_DIR	"named_variables"	/* Subdir for known variables	*/

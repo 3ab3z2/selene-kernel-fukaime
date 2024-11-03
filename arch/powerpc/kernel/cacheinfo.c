@@ -19,7 +19,7 @@
 #include <linux/of.h>
 #include <linux/percpu.h>
 #include <linux/slab.h>
-#include <asm/prom.h>
+#include <asm-generic/prom.h>
 
 #include "cacheinfo.h"
 

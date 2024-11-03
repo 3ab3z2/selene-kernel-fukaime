@@ -28,8 +28,8 @@
 #include <linux/irqdomain.h>
 #include <linux/sched_clock.h>
 
-#include <asm/timex.h>
-#include <asm/platform.h>
+#include <asm-generic/timex.h>
+#include <asm-generic/platform.h>
 
 unsigned long ccount_freq;		/* ccount Hz */
 EXPORT_SYMBOL(ccount_freq);

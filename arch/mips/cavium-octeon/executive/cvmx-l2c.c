@@ -32,9 +32,9 @@
 
 #include <linux/compiler.h>
 #include <linux/irqflags.h>
-#include <asm/octeon/cvmx.h>
-#include <asm/octeon/cvmx-l2c.h>
-#include <asm/octeon/cvmx-spinlock.h>
+#include <asm-generic/octeon/cvmx.h>
+#include <asm-generic/octeon/cvmx-l2c.h>
+#include <asm-generic/octeon/cvmx-spinlock.h>
 
 /*
  * This spinlock is used internally to ensure that only one core is

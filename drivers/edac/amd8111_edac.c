@@ -27,7 +27,7 @@
 #include <linux/bitops.h>
 #include <linux/edac.h>
 #include <linux/pci_ids.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #include "edac_module.h"
 #include "amd8111_edac.h"

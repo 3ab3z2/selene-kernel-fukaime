@@ -12,7 +12,7 @@
 
 #include <linux/efi.h>
 #include <linux/libfdt.h>
-#include <asm/efi.h>
+#include <asm-generic/efi.h>
 
 #include "efistub.h"
 

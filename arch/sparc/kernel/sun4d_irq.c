@@ -10,14 +10,14 @@
 #include <linux/slab.h>
 #include <linux/seq_file.h>
 
-#include <asm/timer.h>
-#include <asm/traps.h>
-#include <asm/irq.h>
-#include <asm/io.h>
-#include <asm/sbi.h>
-#include <asm/cacheflush.h>
-#include <asm/setup.h>
-#include <asm/oplib.h>
+#include <asm-generic/timer.h>
+#include <asm-generic/traps.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sbi.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/oplib.h>
 
 #include "kernel.h"
 #include "irq.h"

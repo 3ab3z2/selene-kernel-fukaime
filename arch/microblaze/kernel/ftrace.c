@@ -11,7 +11,7 @@
  * for more details.
  */
 
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/ftrace.h>
 
 #ifdef CONFIG_FUNCTION_GRAPH_TRACER

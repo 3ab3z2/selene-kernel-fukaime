@@ -6,8 +6,8 @@
 
 #include <linux/compiler.h>
 
-#include <asm/barrier.h>
-#include <asm/global_lock.h>
+#include <asm-generic/barrier.h>
+#include <asm-generic/global_lock.h>
 
 static inline int atomic_read(const atomic_t *v)
 {

@@ -2,9 +2,9 @@
 /* Copyright 2002 Andi Kleen, SuSE Labs */
 
 #include <linux/linkage.h>
-#include <asm/cpufeatures.h>
-#include <asm/alternative-asm.h>
-#include <asm/export.h>
+#include <asm-generic/cpufeatures.h>
+#include <asm-generic/alternative-asm.h>
+#include <asm-generic/export.h>
 
 .weak memset
 

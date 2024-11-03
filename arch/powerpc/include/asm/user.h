@@ -2,8 +2,8 @@
 #ifndef _ASM_POWERPC_USER_H
 #define _ASM_POWERPC_USER_H
 
-#include <asm/ptrace.h>
-#include <asm/page.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
 
 /*
  * Adapted from <asm-alpha/user.h>

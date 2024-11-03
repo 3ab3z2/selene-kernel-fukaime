@@ -17,9 +17,9 @@
 #include <linux/io.h>
 #include <linux/pci.h>
 #include <linux/delay.h>
-#include <asm/coldfire.h>
-#include <asm/mcfsim.h>
-#include <asm/m54xxpci.h>
+#include <asm-generic/coldfire.h>
+#include <asm-generic/mcfsim.h>
+#include <asm-generic/m54xxpci.h>
 
 /*
  * Memory and IO mappings. We use a 1:1 mapping for local host memory to

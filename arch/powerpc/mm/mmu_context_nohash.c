@@ -7,7 +7,7 @@
  *                IBM Corp.
  *
  *  Derived from previous arch/powerpc/mm/mmu_context.c
- *  and arch/powerpc/include/asm/mmu_context.h
+ *  and arch/powerpc/include/asm-generic/mmu_context.h
  *
  *  This program is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU General Public License
@@ -49,8 +49,8 @@
 #include <linux/cpu.h>
 #include <linux/slab.h>
 
-#include <asm/mmu_context.h>
-#include <asm/tlbflush.h>
+#include <asm-generic/mmu_context.h>
+#include <asm-generic/tlbflush.h>
 
 #include "mmu_decl.h"
 

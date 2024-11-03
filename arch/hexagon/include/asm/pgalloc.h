@@ -21,8 +21,8 @@
 #ifndef _ASM_PGALLOC_H
 #define _ASM_PGALLOC_H
 
-#include <asm/mem-layout.h>
-#include <asm/atomic.h>
+#include <asm-generic/mem-layout.h>
+#include <asm-generic/atomic.h>
 
 #define check_pgt_cache() do {} while (0)
 

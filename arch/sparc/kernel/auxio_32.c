@@ -11,11 +11,11 @@
 #include <linux/of_device.h>
 #include <linux/export.h>
 
-#include <asm/oplib.h>
-#include <asm/io.h>
-#include <asm/auxio.h>
-#include <asm/string.h>		/* memset(), Linux has no bzero() */
-#include <asm/cpu_type.h>
+#include <asm-generic/oplib.h>
+#include <asm-generic/io.h>
+#include <asm-generic/auxio.h>
+#include <asm-generic/string.h>		/* memset(), Linux has no bzero() */
+#include <asm-generic/cpu_type.h>
 
 #include "kernel.h"
 

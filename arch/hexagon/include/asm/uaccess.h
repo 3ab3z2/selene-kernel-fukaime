@@ -24,8 +24,8 @@
  * User space memory access functions
  */
 #include <linux/mm.h>
-#include <asm/segment.h>
-#include <asm/sections.h>
+#include <asm-generic/segment.h>
+#include <asm-generic/sections.h>
 
 /*
  * access_ok: - Checks if a user space pointer is valid

@@ -17,7 +17,7 @@
 #include <linux/platform_device.h>
 #include <linux/list.h>
 #include <linux/pm.h>
-#include <asm/olpc.h>
+#include <asm-generic/olpc.h>
 
 /*
  * The default port config.

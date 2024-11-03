@@ -38,7 +38,7 @@
 #include "tpd.h"
 /* #include "tpd_custom_fts.h" */
 /* #include "cust_gpio_usage.h" */
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #include <linux/bitops.h>
 #include <linux/byteorder/generic.h>
 #include <linux/delay.h>
@@ -288,8 +288,8 @@ struct fts_ts_data {
 
 #if TPD_AUTO_UPGRADE
 #define Boot_Upgrade_Protect
-/* ¿ª»úÉý¼¶±£»¤¡£Éý¼¶Ê§°Üºó£¬ÔÙ´Î¿ª»ú¿ÉÖØÐÂÉý¼¶ */
-#define FTS_CHIP_ID 0x58     /* FT3427¡¢FT5x46 CHIP ID = 0x54 */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Üºï¿½ï¿½Ù´Î¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */
+#define FTS_CHIP_ID 0x58     /* FT3427ï¿½ï¿½FT5x46 CHIP ID = 0x54 */
 #define FTS_Vendor_1_ID 0x51 /* Ofilm TP VID = 0x51 */
 #define FTS_Vendor_2_ID 0x01 /* Ofilm TP new VID */
 #endif

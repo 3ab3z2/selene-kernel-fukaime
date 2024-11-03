@@ -2,7 +2,7 @@
 #ifndef _SPARC64_PSRCOMPAT_H
 #define _SPARC64_PSRCOMPAT_H
 
-#include <asm/pstate.h>
+#include <asm-generic/pstate.h>
 
 /* Old 32-bit PSR fields for the compatibility conversion code. */
 #define PSR_CWP     0x0000001f         /* current window pointer     */

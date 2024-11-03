@@ -1,7 +1,7 @@
 ;;; SPDX-License-Identifier: GPL-2.0
 ;;; abs.S
 
-#include <asm/linkage.h>
+#include <asm-generic/linkage.h>
 
 #if defined(CONFIG_CPU_H8300H)
 	.h8300h

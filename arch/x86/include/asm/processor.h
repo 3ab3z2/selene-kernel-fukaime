@@ -11,7 +11,7 @@ struct vm86;
 
 #include <asm/math_emu.h>
 #include <asm/segment.h>
-#include <asm/types.h>
+#include <asm-generic/types.h>
 #include <uapi/asm/sigcontext.h>
 #include <asm/current.h>
 #include <asm/cpufeatures.h>

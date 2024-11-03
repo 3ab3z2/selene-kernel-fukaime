@@ -6,8 +6,8 @@
  * Copyright (C) 2000-2005 Silicon Graphics, Inc. All rights reserved.
  */
 
-#include <asm/types.h>
-#include <asm/sn/shub_mmr.h>
+#include <asm-generic/types.h>
+#include <asm-generic/sn/shub_mmr.h>
 
 #define DEADLOCKBIT	SH_PIO_WRITE_STATUS_WRITE_DEADLOCK_SHFT
 #define WRITECOUNTMASK	SH_PIO_WRITE_STATUS_PENDING_WRITE_COUNT_MASK

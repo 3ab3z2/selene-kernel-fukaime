@@ -10,8 +10,8 @@
 #include <linux/slab.h>
 #include <linux/string.h>
 
-#include <asm/bootinfo.h>
-#include <asm/byteorder.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/byteorder.h>
 
 
 static char bootinfo_tmp[1536] __initdata;

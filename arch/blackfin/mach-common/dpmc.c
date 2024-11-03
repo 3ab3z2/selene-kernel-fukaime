@@ -14,8 +14,8 @@
 #include <linux/types.h>
 #include <linux/cpufreq.h>
 
-#include <asm/delay.h>
-#include <asm/dpmc.h>
+#include <asm-generic/delay.h>
+#include <asm-generic/dpmc.h>
 
 #define DRIVER_NAME "bfin dpmc"
 

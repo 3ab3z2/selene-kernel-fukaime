@@ -17,7 +17,7 @@
 
 #include <linux/types.h>
 #include <linux/ioctl.h>
-#include <asm/byteorder.h>
+#include <asm-generic/byteorder.h>
 
 /*
  * User-space ABI bits:
@@ -390,7 +390,7 @@ struct perf_event_attr {
 
 	/*
 	 * Defines set of user regs to dump on samples.
-	 * See asm/perf_regs.h for details.
+	 * See asm-generic/perf_regs.h for details.
 	 */
 	__u64	sample_regs_user;
 
@@ -406,7 +406,7 @@ struct perf_event_attr {
 	 *  - precise = 0: PMU interrupt
 	 *  - precise > 0: sampled instruction
 	 *
-	 * See asm/perf_regs.h for details.
+	 * See asm-generic/perf_regs.h for details.
 	 */
 	__u64	sample_regs_intr;
 

@@ -25,7 +25,7 @@
 #include "intel_drv.h"
 #include "i915_vgpu.h"
 
-#include <asm/iosf_mbi.h>
+#include <asm-generic/iosf_mbi.h>
 #include <linux/pm_runtime.h>
 
 #define FORCEWAKE_ACK_TIMEOUT_MS 50

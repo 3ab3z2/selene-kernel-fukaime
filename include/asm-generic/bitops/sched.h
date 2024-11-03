@@ -3,7 +3,7 @@
 #define _ASM_GENERIC_BITOPS_SCHED_H_
 
 #include <linux/compiler.h>	/* unlikely() */
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * Every architecture must define this function. It's the fastest

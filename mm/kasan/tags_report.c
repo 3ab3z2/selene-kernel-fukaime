@@ -29,7 +29,7 @@
 #include <linux/kasan.h>
 #include <linux/module.h>
 
-#include <asm/sections.h>
+#include <asm-generic/sections.h>
 
 #include "kasan.h"
 #include "../slab.h"

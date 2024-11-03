@@ -21,13 +21,13 @@
 #include <linux/reboot.h>
 #include <linux/string.h>
 
-#include <asm/bootinfo.h>
-#include <asm/cpu.h>
-#include <asm/mipsregs.h>
-#include <asm/io.h>
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/io.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 
 unsigned int sb1_pass;
 unsigned int soc_pass;

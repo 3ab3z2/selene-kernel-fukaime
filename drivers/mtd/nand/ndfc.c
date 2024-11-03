@@ -30,7 +30,7 @@
 #include <linux/mtd/mtd.h>
 #include <linux/of_address.h>
 #include <linux/of_platform.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 #define NDFC_MAX_CS    4
 

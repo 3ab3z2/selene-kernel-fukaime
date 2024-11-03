@@ -23,8 +23,8 @@
 #include <linux/ioport.h>
 #include <linux/platform_device.h>
 
-#include <asm/cpu.h>
-#include <asm/vr41xx/irq.h>
+#include <asm-generic/cpu.h>
+#include <asm-generic/vr41xx/irq.h>
 
 static struct resource rtc_type1_resource[] __initdata = {
 	{

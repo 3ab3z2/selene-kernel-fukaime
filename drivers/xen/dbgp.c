@@ -2,7 +2,7 @@
 #include <linux/usb.h>
 #include <linux/usb/ehci_def.h>
 #include <linux/usb/hcd.h>
-#include <asm/xen/hypercall.h>
+#include <asm-generic/xen/hypercall.h>
 #include <xen/interface/physdev.h>
 #include <xen/xen.h>
 

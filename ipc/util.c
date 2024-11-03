@@ -61,7 +61,7 @@
 #include <linux/memory.h>
 #include <linux/ipc_namespace.h>
 
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 
 #include "util.h"
 

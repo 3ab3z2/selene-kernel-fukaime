@@ -5,7 +5,7 @@
 
 #define HYPERCALL(x)	[__HYPERVISOR_##x] = "("#x")",
 static const char *xen_hypercall_names[] = {
-#include <asm/xen-hypercalls.h>
+#include <asm-generic/xen-hypercalls.h>
 };
 #undef HYPERCALL
 

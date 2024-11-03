@@ -38,19 +38,19 @@
 #endif
 
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/syscalls.h>
-#include <asm/sigcontext.h>
-#include <asm/vdso.h>
-#include <asm/switch_to.h>
-#include <asm/tm.h>
-#include <asm/asm-prototypes.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/syscalls.h>
+#include <asm-generic/sigcontext.h>
+#include <asm-generic/vdso.h>
+#include <asm-generic/switch_to.h>
+#include <asm-generic/tm.h>
+#include <asm-generic/asm-prototypes.h>
 #ifdef CONFIG_PPC64
 #include "ppc32.h"
-#include <asm/unistd.h>
+#include <asm-generic/unistd.h>
 #else
-#include <asm/ucontext.h>
-#include <asm/pgtable.h>
+#include <asm-generic/ucontext.h>
+#include <asm-generic/pgtable.h>
 #endif
 
 #include "signal.h"

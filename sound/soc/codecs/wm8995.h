@@ -13,7 +13,7 @@
 #ifndef _WM8995_H
 #define _WM8995_H
 
-#include <asm/types.h>
+#include <asm-generic/types.h>
 
 /*
  * Register values.

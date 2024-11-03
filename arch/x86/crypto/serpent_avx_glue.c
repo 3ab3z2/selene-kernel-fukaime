@@ -36,9 +36,9 @@
 #include <crypto/ctr.h>
 #include <crypto/lrw.h>
 #include <crypto/xts.h>
-#include <asm/fpu/api.h>
-#include <asm/crypto/serpent-avx.h>
-#include <asm/crypto/glue_helper.h>
+#include <asm-generic/fpu/api.h>
+#include <asm-generic/crypto/serpent-avx.h>
+#include <asm-generic/crypto/glue_helper.h>
 
 /* 8-way parallel cipher functions */
 asmlinkage void serpent_ecb_enc_8way_avx(struct serpent_ctx *ctx, u8 *dst,

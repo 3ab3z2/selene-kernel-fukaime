@@ -8,10 +8,10 @@
 
 #include <linux/module.h>
 
-#include <asm/blackfin.h>
-#include <asm/cplb.h>
-#include <asm/cplbinit.h>
-#include <asm/mem_map.h>
+#include <asm-generic/blackfin.h>
+#include <asm-generic/cplb.h>
+#include <asm-generic/cplbinit.h>
+#include <asm-generic/mem_map.h>
 
 struct cplb_entry icplb_tbl[NR_CPUS][MAX_CPLBS];
 struct cplb_entry dcplb_tbl[NR_CPUS][MAX_CPLBS];

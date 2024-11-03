@@ -2,7 +2,7 @@
 #ifndef __METAG_MMAN_H__
 #define __METAG_MMAN_H__
 
-#include <uapi/asm/mman.h>
+#include <uapi/asm-generic/mman.h>
 
 #ifndef __ASSEMBLY__
 #define arch_mmap_check metag_mmap_check

@@ -18,7 +18,7 @@
 #include <media/videobuf2-dma-contig.h>
 #include <uapi/linux/mtk_vcu_controls.h>
 #include <linux/slab.h>
-#include <asm/cacheflush.h>
+#include <asm-generic/cacheflush.h>
 #include <linux/mm.h>
 #include <linux/dma-mapping.h>
 #include <mailbox/cmdq-sec.h>

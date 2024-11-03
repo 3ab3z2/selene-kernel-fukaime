@@ -25,8 +25,8 @@
 #include <linux/platform_device.h>
 #include <linux/slab.h>
 
-#include <asm/firmware.h>
-#include <asm/opal.h>
+#include <asm-generic/firmware.h>
+#include <asm-generic/opal.h>
 
 static int i2c_opal_translate_error(int rc)
 {

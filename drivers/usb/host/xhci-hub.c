@@ -23,7 +23,7 @@
 
 
 #include <linux/slab.h>
-#include <asm/unaligned.h>
+#include <asm-generic/unaligned.h>
 
 #include "xhci.h"
 #include "xhci-trace.h"

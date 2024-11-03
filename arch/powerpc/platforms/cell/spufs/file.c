@@ -31,10 +31,10 @@
 #include <linux/seq_file.h>
 #include <linux/slab.h>
 
-#include <asm/io.h>
-#include <asm/time.h>
-#include <asm/spu.h>
-#include <asm/spu_info.h>
+#include <asm-generic/io.h>
+#include <asm-generic/time.h>
+#include <asm-generic/spu.h>
+#include <asm-generic/spu_info.h>
 #include <linux/uaccess.h>
 
 #include "spufs.h"

@@ -30,8 +30,8 @@
 #include <linux/blkdev.h>
 #include <linux/platform_device.h>
 
-#include <asm/io.h>
-#include <asm/dvma.h>
+#include <asm-generic/io.h>
+#include <asm-generic/dvma.h>
 
 #include <scsi/scsi_host.h>
 

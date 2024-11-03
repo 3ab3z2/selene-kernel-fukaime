@@ -12,7 +12,7 @@
 
 #include <linux/sys.h>
 #include <linux/linkage.h>
-#include <asm/spr-regs.h>
+#include <asm-generic/spr-regs.h>
 
 ###############################################################################
 #

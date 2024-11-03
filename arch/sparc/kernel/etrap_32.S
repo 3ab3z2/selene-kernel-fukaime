@@ -6,15 +6,15 @@
  * Copyright (C) 1995 David S. Miller (davem@caip.rutgers.edu)
  */
 
-#include <asm/head.h>
-#include <asm/asi.h>
-#include <asm/contregs.h>
-#include <asm/page.h>
-#include <asm/psr.h>
-#include <asm/ptrace.h>
-#include <asm/winmacro.h>
-#include <asm/asmmacro.h>
-#include <asm/thread_info.h>
+#include <asm-generic/head.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/contregs.h>
+#include <asm-generic/page.h>
+#include <asm-generic/psr.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/winmacro.h>
+#include <asm-generic/asmmacro.h>
+#include <asm-generic/thread_info.h>
 
 /* Registers to not touch at all. */
 #define t_psr        l0 /* Set by caller */

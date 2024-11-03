@@ -4,12 +4,12 @@
 #include <linux/kernel.h>
 #include <linux/platform_device.h>
 
-#include <asm/paccess.h>
-#include <asm/sgi/ip22.h>
-#include <asm/sgi/hpc3.h>
-#include <asm/sgi/mc.h>
-#include <asm/sgi/seeq.h>
-#include <asm/sgi/wd.h>
+#include <asm-generic/paccess.h>
+#include <asm-generic/sgi/ip22.h>
+#include <asm-generic/sgi/hpc3.h>
+#include <asm-generic/sgi/mc.h>
+#include <asm-generic/sgi/seeq.h>
+#include <asm-generic/sgi/wd.h>
 
 static struct resource sgiwd93_0_resources[] = {
 	{

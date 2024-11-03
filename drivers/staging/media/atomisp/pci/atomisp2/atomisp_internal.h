@@ -29,8 +29,8 @@
 #include <linux/pm_qos.h>
 #include <linux/idr.h>
 
-#include <asm/intel-mid.h>
-#include "../../include/asm/intel_mid_pcihelpers.h"
+#include <asm-generic/intel-mid.h>
+#include "../../include/asm-generic/intel_mid_pcihelpers.h"
 
 #include <media/media-device.h>
 #include <media/v4l2-subdev.h>

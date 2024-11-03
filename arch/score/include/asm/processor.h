@@ -5,7 +5,7 @@
 #include <linux/cpumask.h>
 #include <linux/threads.h>
 
-#include <asm/segment.h>
+#include <asm-generic/segment.h>
 
 struct task_struct;
 

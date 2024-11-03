@@ -7,14 +7,14 @@
  */
 
 
-#include <asm/asi.h>
-#include <asm/pstate.h>
-#include <asm/ptrace.h>
-#include <asm/page.h>
-#include <asm/spitfire.h>
-#include <asm/head.h>
-#include <asm/processor.h>
-#include <asm/mmu.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/page.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/head.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/mmu.h>
 
 #define		TASK_REGOFF		(THREAD_SIZE-TRACEREG_SZ-STACKFRAME_SZ)
 #define		ETRAP_PSTATE1		(PSTATE_TSO | PSTATE_PRIV)

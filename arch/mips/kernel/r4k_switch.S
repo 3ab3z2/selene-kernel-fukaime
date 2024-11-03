@@ -10,15 +10,15 @@
  * Copyright (C) 2000 MIPS Technologies, Inc.
  *    written by Carsten Langgaard, carstenl@mips.com
  */
-#include <asm/asm.h>
-#include <asm/cachectl.h>
-#include <asm/mipsregs.h>
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
-#include <asm/stackframe.h>
-#include <asm/thread_info.h>
+#include <asm-generic/asm.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/stackframe.h>
+#include <asm-generic/thread_info.h>
 
-#include <asm/asmmacro.h>
+#include <asm-generic/asmmacro.h>
 
 /*
  * task_struct *resume(task_struct *prev, task_struct *next,

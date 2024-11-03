@@ -16,8 +16,8 @@
 #ifdef CONFIG_CMA
 #include <linux/cma.h>
 #endif
-#include <asm/page.h>
-#include <asm/pgtable.h>
+#include <asm-generic/page.h>
+#include <asm-generic/pgtable.h>
 #include "internal.h"
 
 void __attribute__((weak)) arch_report_meminfo(struct seq_file *m)

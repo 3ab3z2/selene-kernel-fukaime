@@ -11,7 +11,7 @@
 #warning cdef_LPBlackfin.h should only be included for 532 compatible chips.
 #endif
 */
-#include <asm/def_LPBlackfin.h>
+#include <asm-generic/def_LPBlackfin.h>
 
 /*Cache & SRAM Memory*/
 #define bfin_read_SRAM_BASE_ADDRESS()        bfin_read32(SRAM_BASE_ADDRESS)

@@ -82,10 +82,10 @@
 #include <linux/kmemleak.h>
 #include <linux/sched.h>
 
-#include <asm/cacheflush.h>
-#include <asm/sections.h>
-#include <asm/tlbflush.h>
-#include <asm/io.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/tlbflush.h>
+#include <asm-generic/io.h>
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/percpu.h>
@@ -99,7 +99,7 @@
 #define PCPU_EMPTY_POP_PAGES_HIGH	4
 
 #ifdef CONFIG_SMP
-/* default addr <-> pcpu_ptr mapping, override in asm/percpu.h if necessary */
+/* default addr <-> pcpu_ptr mapping, override in asm-generic/percpu.h if necessary */
 #ifndef __addr_to_pcpu_ptr
 #define __addr_to_pcpu_ptr(addr)					\
 	(void __percpu *)((unsigned long)(addr) -			\

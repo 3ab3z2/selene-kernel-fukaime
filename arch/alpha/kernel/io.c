@@ -7,7 +7,7 @@
 #include <linux/types.h>
 #include <linux/string.h>
 #include <linux/module.h>
-#include <asm/io.h>
+#include <asm-generic/io.h>
 
 /* Out-of-line versions of the i/o routines that redirect into the 
    platform-specific version.  Note that "platform-specific" may mean

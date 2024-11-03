@@ -17,9 +17,9 @@
 #include <linux/syscalls.h>
 #include <linux/uaccess.h>
 #include <linux/pagemap.h>
-#include <asm/cacheflush.h>
-#include <asm/cachectl.h>
-#include <asm/setup.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/cachectl.h>
+#include <asm-generic/setup.h>
 
 #ifdef CONFIG_ISA_ARCV2
 #define USE_RGN_FLSH	1

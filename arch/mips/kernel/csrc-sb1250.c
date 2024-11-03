@@ -14,14 +14,14 @@
 #include <linux/clocksource.h>
 #include <linux/sched_clock.h>
 
-#include <asm/addrspace.h>
-#include <asm/io.h>
-#include <asm/time.h>
+#include <asm-generic/addrspace.h>
+#include <asm-generic/io.h>
+#include <asm-generic/time.h>
 
-#include <asm/sibyte/sb1250.h>
-#include <asm/sibyte/sb1250_regs.h>
-#include <asm/sibyte/sb1250_int.h>
-#include <asm/sibyte/sb1250_scd.h>
+#include <asm-generic/sibyte/sb1250.h>
+#include <asm-generic/sibyte/sb1250_regs.h>
+#include <asm-generic/sibyte/sb1250_int.h>
+#include <asm-generic/sibyte/sb1250_scd.h>
 
 #define SB1250_HPT_NUM		3
 #define SB1250_HPT_VALUE	M_SCD_TIMER_CNT /* max value */

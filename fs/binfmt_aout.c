@@ -28,8 +28,8 @@
 #include <linux/sched/task_stack.h>
 
 #include <linux/uaccess.h>
-#include <asm/cacheflush.h>
-#include <asm/a.out-core.h>
+#include <asm-generic/cacheflush.h>
+#include <asm-generic/a.out-core.h>
 
 static int load_aout_binary(struct linux_binprm *);
 static int load_aout_library(struct file*);

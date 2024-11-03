@@ -8,10 +8,10 @@
 #ifndef _ASM_ASMMACRO_32_H
 #define _ASM_ASMMACRO_32_H
 
-#include <asm/asm-offsets.h>
-#include <asm/regdef.h>
-#include <asm/fpregdef.h>
-#include <asm/mipsregs.h>
+#include <asm-generic/asm-offsets.h>
+#include <asm-generic/regdef.h>
+#include <asm-generic/fpregdef.h>
+#include <asm-generic/mipsregs.h>
 
 	.macro	fpu_save_single thread tmp=t0
 	.set push

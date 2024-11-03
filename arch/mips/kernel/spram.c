@@ -12,10 +12,10 @@
 #include <linux/ptrace.h>
 #include <linux/stddef.h>
 
-#include <asm/fpu.h>
-#include <asm/mipsregs.h>
-#include <asm/r4kcache.h>
-#include <asm/hazards.h>
+#include <asm-generic/fpu.h>
+#include <asm-generic/mipsregs.h>
+#include <asm-generic/r4kcache.h>
+#include <asm-generic/hazards.h>
 
 /*
  * These definitions are correct for the 24K/34K/74K SPRAM sample

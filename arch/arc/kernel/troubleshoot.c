@@ -16,8 +16,8 @@
 #include <linux/sched/mm.h>
 #include <linux/sched/debug.h>
 
-#include <asm/arcregs.h>
-#include <asm/irqflags.h>
+#include <asm-generic/arcregs.h>
+#include <asm-generic/irqflags.h>
 
 /*
  * Common routine to print scratch regs (r0-r12) or callee regs (r13-r25)

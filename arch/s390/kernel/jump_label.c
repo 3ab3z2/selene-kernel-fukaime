@@ -8,7 +8,7 @@
 #include <linux/uaccess.h>
 #include <linux/stop_machine.h>
 #include <linux/jump_label.h>
-#include <asm/ipl.h>
+#include <asm-generic/ipl.h>
 
 #ifdef HAVE_JUMP_LABEL
 

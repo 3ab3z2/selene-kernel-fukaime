@@ -13,10 +13,10 @@
 #include <linux/init.h>
 #include <linux/parport.h>
 #include <linux/interrupt.h>
-#include <asm/setup.h>
-#include <asm/atarihw.h>
-#include <asm/irq.h>
-#include <asm/atariints.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/atarihw.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/atariints.h>
 
 static struct parport *this_port;
 

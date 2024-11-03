@@ -2,7 +2,7 @@
 #ifndef S390_DEVICE_H
 #define S390_DEVICE_H
 
-#include <asm/ccwdev.h>
+#include <asm-generic/ccwdev.h>
 #include <linux/atomic.h>
 #include <linux/wait.h>
 #include <linux/notifier.h>

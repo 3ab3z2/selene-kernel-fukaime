@@ -27,9 +27,9 @@
 #include <linux/cpu_pm.h>
 #include <linux/qcom_scm.h>
 
-#include <asm/cpuidle.h>
-#include <asm/proc-fns.h>
-#include <asm/suspend.h>
+#include <asm-generic/cpuidle.h>
+#include <asm-generic/proc-fns.h>
+#include <asm-generic/suspend.h>
 
 #define MAX_PMIC_DATA		2
 #define MAX_SEQ_DATA		64

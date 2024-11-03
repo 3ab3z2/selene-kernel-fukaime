@@ -15,10 +15,10 @@
 #include <linux/ksm.h>
 #include <linux/mman.h>
 
-#include <asm/pgtable.h>
-#include <asm/pgalloc.h>
-#include <asm/gmap.h>
-#include <asm/tlb.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/pgalloc.h>
+#include <asm-generic/gmap.h>
+#include <asm-generic/tlb.h>
 
 #define GMAP_SHADOW_FAKE_TABLE 1ULL
 

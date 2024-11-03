@@ -18,9 +18,9 @@
 #include <linux/of_fdt.h>
 #include <linux/of_platform.h>
 
-#include <asm/bootinfo.h>
-#include <asm/page.h>
-#include <asm/prom.h>
+#include <asm-generic/bootinfo.h>
+#include <asm-generic/page.h>
+#include <asm-generic/prom.h>
 
 static char mips_machine_name[64] = "Unknown";
 

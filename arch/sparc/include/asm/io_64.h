@@ -6,8 +6,8 @@
 #include <linux/compiler.h>
 #include <linux/types.h>
 
-#include <asm/page.h>      /* IO address mapping routines need this */
-#include <asm/asi.h>
+#include <asm-generic/page.h>      /* IO address mapping routines need this */
+#include <asm-generic/asi.h>
 #include <asm-generic/pci_iomap.h>
 
 /* BIO layer definitions. */

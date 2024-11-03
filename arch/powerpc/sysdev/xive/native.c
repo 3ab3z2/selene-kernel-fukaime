@@ -24,15 +24,15 @@
 #include <linux/mm.h>
 #include <linux/kmemleak.h>
 
-#include <asm/prom.h>
-#include <asm/io.h>
-#include <asm/smp.h>
-#include <asm/irq.h>
-#include <asm/errno.h>
-#include <asm/xive.h>
-#include <asm/xive-regs.h>
-#include <asm/opal.h>
-#include <asm/kvm_ppc.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/io.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/errno.h>
+#include <asm-generic/xive.h>
+#include <asm-generic/xive-regs.h>
+#include <asm-generic/opal.h>
+#include <asm-generic/kvm_ppc.h>
 
 #include "xive-internal.h"
 

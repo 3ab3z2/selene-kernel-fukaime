@@ -7,13 +7,13 @@
  */
 
 
-#include <asm/asi.h>
-#include <asm/pstate.h>
-#include <asm/ptrace.h>
-#include <asm/spitfire.h>
-#include <asm/head.h>
-#include <asm/visasm.h>
-#include <asm/processor.h>
+#include <asm-generic/asi.h>
+#include <asm-generic/pstate.h>
+#include <asm-generic/ptrace.h>
+#include <asm-generic/spitfire.h>
+#include <asm-generic/head.h>
+#include <asm-generic/visasm.h>
+#include <asm-generic/processor.h>
 
 #ifdef CONFIG_CONTEXT_TRACKING
 # define SCHEDULE_USER schedule_user

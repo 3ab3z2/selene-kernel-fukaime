@@ -18,27 +18,27 @@
 #include <linux/memblock.h>
 #include <linux/export.h>
 
-#include <asm/io.h>
-#include <asm/prom.h>
-#include <asm/processor.h>
-#include <asm/pgtable.h>
-#include <asm/setup.h>
-#include <asm/smp.h>
-#include <asm/elf.h>
-#include <asm/cputable.h>
-#include <asm/bootx.h>
-#include <asm/btext.h>
-#include <asm/machdep.h>
+#include <asm-generic/io.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/processor.h>
+#include <asm-generic/pgtable.h>
+#include <asm-generic/setup.h>
+#include <asm-generic/smp.h>
+#include <asm-generic/elf.h>
+#include <asm-generic/cputable.h>
+#include <asm-generic/bootx.h>
+#include <asm-generic/btext.h>
+#include <asm-generic/machdep.h>
 #include <linux/uaccess.h>
-#include <asm/pmac_feature.h>
-#include <asm/sections.h>
-#include <asm/nvram.h>
-#include <asm/xmon.h>
-#include <asm/time.h>
-#include <asm/serial.h>
-#include <asm/udbg.h>
-#include <asm/code-patching.h>
-#include <asm/cpu_has_feature.h>
+#include <asm-generic/pmac_feature.h>
+#include <asm-generic/sections.h>
+#include <asm-generic/nvram.h>
+#include <asm-generic/xmon.h>
+#include <asm-generic/time.h>
+#include <asm-generic/serial.h>
+#include <asm-generic/udbg.h>
+#include <asm-generic/code-patching.h>
+#include <asm-generic/cpu_has_feature.h>
 
 #define DBG(fmt...)
 

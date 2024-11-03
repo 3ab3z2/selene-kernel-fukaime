@@ -12,9 +12,9 @@
 #include <linux/irq.h>
 #include <linux/of_device.h>
 
-#include <asm/prom.h>
-#include <asm/irq.h>
-#include <asm/upa.h>
+#include <asm-generic/prom.h>
+#include <asm-generic/irq.h>
+#include <asm-generic/upa.h>
 
 #include "pci_impl.h"
 

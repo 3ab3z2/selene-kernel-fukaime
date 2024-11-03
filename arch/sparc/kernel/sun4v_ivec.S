@@ -4,9 +4,9 @@
  * Copyright (C) 2006 <davem@davemloft.net>
  */
 
-#include <asm/cpudata.h>
-#include <asm/intr_queue.h>
-#include <asm/pil.h>
+#include <asm-generic/cpudata.h>
+#include <asm-generic/intr_queue.h>
+#include <asm-generic/pil.h>
 
 	.text
 	.align	32
